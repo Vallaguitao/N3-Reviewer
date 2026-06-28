@@ -1,0 +1,578 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>N3 Grammar · Lessons 1 &amp; 2 — Time, Relation &amp; Correlation</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800&family=Noto+Sans+JP:wght@400;500;700;900&family=Noto+Serif+JP:wght@500;700&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --ink:#241d18; --ink-soft:#6a5d52; --ink-faint:#9b8d80;
+    --washi:#f7f1e7; --washi-deep:#ece1d1; --card:#fffdf9; --line:#e2d6c4;
+    --sakura:#cf7a92; --sakura-deep:#b65a74; --sakura-wash:#f9e8ec;
+    --ai:#3a6286; --ai-deep:#2b4a66; --ai-wash:#e6eef4;
+    --terra:#c2743f; --terra-deep:#a25b2c; --terra-wash:#f6e8db;
+    --moss:#5f7d4f; --moss-deep:#46603a; --moss-wash:#e9efe3;
+    --gold:#bd9229;
+    --shadow:0 1px 2px rgba(36,29,24,.04), 0 8px 28px rgba(36,29,24,.08);
+    --radius:18px;
+  }
+  *{box-sizing:border-box;margin:0;padding:0}
+  html,body{height:100%}
+  body{font-family:"Outfit",sans-serif;color:var(--ink);line-height:1.5;-webkit-font-smoothing:antialiased;overflow:hidden;
+    background:radial-gradient(1200px 600px at 85% -10%, var(--sakura-wash), transparent 60%),
+               radial-gradient(1000px 500px at -10% 110%, var(--ai-wash), transparent 55%), var(--washi);}
+  ruby rt{font-family:"Noto Sans JP",sans-serif;font-weight:500;font-size:.5em;color:var(--ink-soft);letter-spacing:0}
+  .jp{font-family:"Noto Sans JP",sans-serif}.jp-serif{font-family:"Noto Serif JP",serif}
+
+  .deck{height:100vh;height:100dvh;display:flex;flex-direction:column;max-width:1000px;margin:0 auto;padding:0 18px}
+  .topbar{display:flex;align-items:center;gap:14px;padding:16px 4px 10px;flex-shrink:0}
+  .brand{display:flex;align-items:center;gap:9px;font-weight:700;letter-spacing:-.01em;font-size:15px}
+  .brand .mark{width:22px;height:22px;flex-shrink:0}
+  .progress-wrap{flex:1;height:5px;background:var(--washi-deep);border-radius:99px;overflow:hidden}
+  .progress-bar{height:100%;width:0;background:linear-gradient(90deg,var(--ai),var(--terra),var(--sakura));border-radius:99px;transition:width .45s cubic-bezier(.4,0,.2,1)}
+  .counter{font-variant-numeric:tabular-nums;font-weight:600;font-size:13px;color:var(--ink-soft);min-width:48px;text-align:right}
+
+  .stage{flex:1;position:relative;min-height:0}
+  .slide{position:absolute;inset:0;overflow-y:auto;overflow-x:hidden;padding:8px 4px 26px;opacity:0;transform:translateY(14px);pointer-events:none;transition:opacity .4s ease, transform .4s ease;scrollbar-width:thin}
+  .slide.active{opacity:1;transform:none;pointer-events:auto}
+  .slide::-webkit-scrollbar{width:7px}.slide::-webkit-scrollbar-thumb{background:var(--washi-deep);border-radius:9px}
+
+  .navbar{display:flex;align-items:center;justify-content:space-between;gap:12px;padding:12px 4px 18px;flex-shrink:0}
+  .dots{display:flex;gap:6px;flex-wrap:wrap;justify-content:center;flex:1}
+  .dot{width:8px;height:8px;border-radius:99px;background:var(--washi-deep);border:none;padding:0;cursor:pointer;transition:all .25s}
+  .dot:hover{background:var(--ink-faint)}.dot.on{width:22px;background:var(--ink)}
+  .navbtn{display:inline-flex;align-items:center;gap:7px;border:1.5px solid var(--line);background:var(--card);color:var(--ink);font-family:inherit;font-weight:600;font-size:14px;padding:9px 16px;border-radius:99px;cursor:pointer;transition:all .2s;box-shadow:var(--shadow)}
+  .navbtn:hover:not(:disabled){border-color:var(--ink);transform:translateY(-1px)}
+  .navbtn:disabled{opacity:.32;cursor:default}
+
+  .eyebrow{display:inline-flex;align-items:center;gap:8px;font-size:12px;font-weight:700;letter-spacing:.13em;text-transform:uppercase;color:var(--ink-soft);margin-bottom:13px}
+  .eyebrow .pip{width:7px;height:7px;border-radius:99px;background:var(--accent,var(--ink))}
+  h1{font-size:clamp(30px,6vw,52px);font-weight:800;letter-spacing:-.03em;line-height:1.02}
+  h2{font-size:clamp(23px,4.4vw,36px);font-weight:800;letter-spacing:-.025em;line-height:1.08;margin-bottom:5px}
+  .patt{font-family:"Noto Serif JP",serif;font-size:clamp(26px,5vw,40px);font-weight:700;letter-spacing:-.01em;line-height:1.05;color:var(--accent,var(--ink))}
+  .lead{font-size:clamp(15px,2.3vw,17px);color:var(--ink-soft);max-width:64ch;margin-top:4px}
+  .meaning{font-size:clamp(16px,2.6vw,19px);font-weight:600;color:var(--ink);margin-top:6px}
+
+  .card{background:var(--card);border:1px solid var(--line);border-radius:var(--radius);box-shadow:var(--shadow);padding:20px}
+  .stack{display:flex;flex-direction:column;gap:14px}
+  .mt-s{margin-top:10px}.mt-m{margin-top:18px}.mt-l{margin-top:26px}
+
+  /* formation chips */
+  .formula{display:flex;align-items:center;gap:8px;flex-wrap:wrap;font-family:"Noto Sans JP",sans-serif;font-weight:700;font-size:clamp(13.5px,2.3vw,16px)}
+  .formula .chip{padding:6px 12px;border-radius:10px;background:var(--washi-deep)}
+  .formula .chip.hl{background:var(--accent,var(--ink));color:#fff}
+  .formula .op{font-family:"Outfit";font-weight:800;color:var(--ink-faint);font-size:16px}
+  .conn-label{font-size:11px;font-weight:700;letter-spacing:.06em;text-transform:uppercase;color:var(--ink-faint);margin-bottom:8px}
+
+  /* examples */
+  .ex{padding:13px 0;border-bottom:1px dashed var(--line)}
+  .ex:last-child{border-bottom:none;padding-bottom:2px}
+  .ex .ja{font-family:"Noto Sans JP",sans-serif;font-size:clamp(16px,2.9vw,20px);font-weight:500;line-height:1.85}
+  .ex .en{font-size:14px;color:var(--ink-soft);margin-top:4px}
+  .hl-g{font-weight:700;color:var(--accent,var(--sakura-deep));border-bottom:2px solid var(--accent,var(--sakura));padding-bottom:1px}
+
+  .note{border-left:3px solid var(--accent,var(--gold));background:var(--card);border-radius:0 12px 12px 0;padding:13px 16px;font-size:14px;color:var(--ink-soft);box-shadow:var(--shadow)}
+  .note strong{color:var(--ink)}
+  .note .jp{font-weight:600}
+
+  /* timeline (signature) */
+  .tl{background:var(--card);border:1px solid var(--line);border-radius:var(--radius);box-shadow:var(--shadow);padding:20px 20px 16px}
+  .tl-title{font-size:13px;font-weight:700;color:var(--ink-soft);margin-bottom:16px;display:flex;align-items:center;gap:8px}
+  .tl-title .jp{color:var(--accent,var(--ink));font-size:15px}
+  .tlbox{position:relative;margin:6px 0 8px}
+  .tl-row{position:relative;height:auto;margin-bottom:22px}
+  .tl-row:last-child{margin-bottom:4px}
+  .tl-state{height:38px;border-radius:9px;display:flex;align-items:center;justify-content:center;font-family:"Noto Sans JP",sans-serif;font-weight:700;font-size:14px;color:#fff;background:var(--ink);position:relative}
+  .tl-state.soft{background:var(--ink-faint)}
+  .tl-cap{font-size:11px;font-weight:700;letter-spacing:.04em;text-transform:uppercase;color:var(--ink-faint);margin-bottom:6px}
+  .tl-span{height:30px;border-radius:8px;display:flex;align-items:center;justify-content:center;font-family:"Noto Sans JP",sans-serif;font-weight:600;font-size:13px;color:#fff}
+  .tl-track{position:relative;height:46px;background:repeating-linear-gradient(90deg,var(--washi-deep),var(--washi-deep) 6px,transparent 6px,transparent 12px);border-radius:8px;border:1px dashed var(--line)}
+  .tl-point{position:absolute;top:50%;transform:translate(-50%,-50%);display:flex;flex-direction:column;align-items:center;gap:5px;z-index:2}
+  .tl-point .dot{width:16px;height:16px;border-radius:50%;border:3px solid #fff;box-shadow:0 2px 6px rgba(0,0,0,.18)}
+  .tl-point .lab{font-family:"Noto Sans JP",sans-serif;font-size:11.5px;font-weight:700;white-space:nowrap;background:var(--card);padding:2px 7px;border-radius:6px;border:1px solid var(--line)}
+  .tl-arrow{display:flex;align-items:center;gap:8px;font-size:11px;font-weight:700;color:var(--ink-faint);letter-spacing:.05em;text-transform:uppercase;margin-top:10px}
+  .tl-arrow .ln{flex:1;height:2px;background:linear-gradient(90deg,var(--line),var(--ink-faint));position:relative;border-radius:2px}
+  .tl-arrow .ln::after{content:"";position:absolute;right:0;top:50%;transform:translateY(-50%);border-style:solid;border-width:5px 0 5px 8px;border-color:transparent transparent transparent var(--ink-faint)}
+
+  /* overview grid */
+  .ov-grid{display:grid;grid-template-columns:1fr 1fr;gap:14px;margin-top:6px}
+  @media(max-width:680px){.ov-grid{grid-template-columns:1fr}}
+  .ov-col h3{font-size:13px;font-weight:700;letter-spacing:.05em;text-transform:uppercase;margin-bottom:10px;display:flex;align-items:center;gap:8px}
+  .ov-col h3 .n{width:24px;height:24px;border-radius:7px;display:inline-flex;align-items:center;justify-content:center;color:#fff;font-weight:800;font-size:13px}
+  .ov-item{background:var(--card);border:1px solid var(--line);border-radius:12px;padding:11px 14px;margin-bottom:8px;display:flex;align-items:baseline;gap:10px;box-shadow:var(--shadow)}
+  .ov-item .p{font-family:"Noto Sans JP",sans-serif;font-weight:700;font-size:16px;color:var(--ink);min-width:max-content}
+  .ov-item .d{font-size:12.5px;color:var(--ink-soft)}
+
+  /* divider slide */
+  .divider{display:flex;flex-direction:column;justify-content:center;min-height:100%;gap:16px}
+  .divider .big-k{font-family:"Noto Serif JP",serif;font-size:clamp(70px,18vw,150px);font-weight:700;line-height:.9;color:var(--accent,var(--ink));opacity:.16;letter-spacing:.05em}
+  .divider .lesson-no{font-size:13px;font-weight:700;letter-spacing:.18em;text-transform:uppercase;color:var(--accent,var(--ink))}
+
+  /* compare cards */
+  .vs{display:grid;grid-template-columns:1fr auto 1fr;gap:14px;align-items:stretch}
+  @media(max-width:600px){.vs{grid-template-columns:1fr;gap:10px}}
+  .vs .vcard{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:16px;box-shadow:var(--shadow)}
+  .vs .vh{font-family:"Noto Sans JP",sans-serif;font-weight:700;font-size:18px;margin-bottom:4px}
+  .vs .mid{display:flex;align-items:center;justify-content:center;font-weight:800;color:var(--ink-faint);font-size:14px}
+  @media(max-width:600px){.vs .mid{padding:2px}}
+
+  .end-cta .note{width:100%}
+  .kbd-hint{display:inline-flex;align-items:center;gap:8px;font-size:13px;color:var(--ink-faint);font-weight:500;margin-top:6px}
+  .kbd{font-family:"Outfit";font-weight:700;font-size:12px;background:var(--card);border:1px solid var(--line);border-bottom-width:2px;border-radius:6px;padding:2px 8px}
+
+  @media (prefers-reduced-motion: reduce){*{transition:none!important;animation:none!important}}
+  @media(max-width:560px){.deck{padding:0 13px}.card,.tl{padding:16px}}
+</style>
+</head>
+<body>
+<div class="deck">
+  <div class="topbar">
+    <div class="brand">
+      <svg class="mark" viewBox="0 0 24 24" fill="none"><path d="M12 2C12 7 8 9 4 9c4 1 6 4 6 8 0-4 4-7 8-7-4-1-6-3-6-8Z" fill="#cf7a92"/><circle cx="12" cy="12" r="2.4" fill="#241d18"/></svg>
+      <span>N3 Grammar · L1–2</span>
+    </div>
+    <div class="progress-wrap"><div class="progress-bar" id="bar"></div></div>
+    <div class="counter"><span id="cur">1</span>/<span id="tot">15</span></div>
+  </div>
+
+  <div class="stage" id="stage">
+
+    <!-- 1 OVERVIEW -->
+    <section class="slide active">
+      <div class="eyebrow"><span class="pip"></span>Shin Kanzen N3 · 第1・2課</div>
+      <h1>Time, relation,<br>&amp; correlation.</h1>
+      <p class="lead mt-s">Nine patterns across two lessons. They split cleanly into two jobs: <strong style="color:var(--ai-deep)">when</strong> things happen relative to each other, and <strong style="color:var(--moss-deep)">how</strong> one thing tracks another.</p>
+      <div class="ov-grid">
+        <div class="ov-col">
+          <h3 style="color:var(--ai-deep)"><span class="n" style="background:var(--ai)">1</span>〜とき · Time &amp; timing</h3>
+          <div class="ov-item"><span class="p">〜うちに</span><span class="d">do it before the window closes</span></div>
+          <div class="ov-item"><span class="p">〜間 / 間に</span><span class="d">throughout vs. at a point within</span></div>
+          <div class="ov-item"><span class="p">〜てからでないと</span><span class="d">can't happen unless X first</span></div>
+          <div class="ov-item"><span class="p">〜ところだ</span><span class="d">about to / mid-action / just did</span></div>
+        </div>
+        <div class="ov-col">
+          <h3 style="color:var(--moss-deep)"><span class="n" style="background:var(--moss)">2</span>〜と関係して · Relation</h3>
+          <div class="ov-item"><span class="p">〜とおり(に)</span><span class="d">exactly as / the same way as</span></div>
+          <div class="ov-item"><span class="p">〜によって(は)</span><span class="d">depends on / varies with</span></div>
+          <div class="ov-item"><span class="p">〜たびに</span><span class="d">every single time X happens</span></div>
+          <div class="ov-item"><span class="p">〜ば〜ほど</span><span class="d">the more X, the more Y</span></div>
+          <div class="ov-item"><span class="p">〜ついでに</span><span class="d">while you're at it, also Y</span></div>
+        </div>
+      </div>
+      <div class="kbd-hint">Swipe, tap <span class="kbd">Next →</span>, or use <span class="kbd">←</span> <span class="kbd">→</span></div>
+    </section>
+
+    <!-- 2 LESSON 1 DIVIDER -->
+    <section class="slide" style="--accent:var(--ai)">
+      <div class="divider">
+        <div class="lesson-no">Lesson 1 · 第1課</div>
+        <div class="big-k">時</div>
+        <h2 style="color:var(--ai-deep);font-size:clamp(26px,5vw,42px)">Time &amp; timing</h2>
+        <p class="lead">Every pattern here pins one event onto a stretch of time. The trick is always <strong style="color:var(--ink)">where on the timeline</strong> the second thing lands — at the start, somewhere in the middle, or right at the edge.</p>
+      </div>
+    </section>
+
+    <!-- 3 うちに -->
+    <section class="slide" style="--accent:var(--ai)">
+      <div class="eyebrow" style="--accent:var(--ai)"><span class="pip"></span>L1 · pattern 1</div>
+      <div class="patt">〜うちに</div>
+      <div class="meaning">while X still holds — do it <em>before the window closes</em></div>
+      <p class="lead">The feeling that separates うちに from a plain "while": the state <strong style="color:var(--ink)">won't last</strong>, so act now. There are two flavors.</p>
+
+      <div class="tl mt-m">
+        <div class="tl-title"><span class="jp">明るいうちに</span> — the bright window is open <em>now</em>, but closing</div>
+        <div class="tlbox">
+          <div class="tl-row">
+            <div class="tl-state" style="width:62%;background:var(--ai)">明るい（state holds）</div>
+            <div style="position:absolute;left:62%;top:0;height:38px;width:2px;background:var(--sakura-deep)"></div>
+            <div style="position:absolute;left:calc(62% + 6px);top:9px;font-size:11px;font-weight:700;color:var(--sakura-deep)" class="jp">✕ 暗くなる</div>
+          </div>
+        </div>
+        <div class="tl-arrow"><span class="jp" style="text-transform:none">act inside the window →</span><span class="ln"></span></div>
+      </div>
+
+      <div class="card mt-m">
+        <div class="conn-label">Connection</div>
+        <div class="formula"><span class="chip">名 + の</span><span class="chip">動 dict / ている / ない</span><span class="chip">イ い</span><span class="chip">ナ な</span><span class="op">+</span><span class="chip hl">うちに</span></div>
+      </div>
+
+      <div class="card mt-m" style="--accent:var(--ai)">
+        <div class="conn-label" style="color:var(--ai-deep)">Flavor A — intentional: I do something before it changes</div>
+        <div class="ex"><div class="ja jp"><ruby>日本<rt>にほん</rt></ruby>にいる<span class="hl-g">うちに</span>、もっと<ruby>漢字<rt>かんじ</rt></ruby>を<ruby>覚<rt>おぼ</rt></ruby>えたい。</div><div class="en">While I'm in Japan, I want to learn more kanji. (the chance won't last)</div></div>
+        <div class="ex"><div class="ja jp"><ruby>温<rt>あたた</rt></ruby>かい<span class="hl-g">うちに</span>、どうぞ<ruby>召<rt>め</rt></ruby>し<ruby>上<rt>あ</rt></ruby>がってください。</div><div class="en">Please eat while it's still warm.</div></div>
+        <div class="ex"><div class="ja jp"><ruby>忘<rt>わす</rt></ruby>れない<span class="hl-g">うちに</span>、メモしておこう。</div><div class="en">Let me jot it down before I forget. (negative state: while "not yet forgotten" holds)</div></div>
+      </div>
+
+      <div class="card mt-m" style="--accent:var(--moss)">
+        <div class="conn-label" style="color:var(--moss-deep)">Flavor B — unintentional: a change creeps in on its own</div>
+        <div class="formula" style="margin-bottom:12px"><span class="chip">動 dict / ている / ない</span><span class="op">+</span><span class="chip hl" style="background:var(--moss)">うちに</span></div>
+        <div class="ex"><div class="ja jp"><ruby>勉強<rt>べんきょう</rt></ruby>している<span class="hl-g" style="--accent:var(--moss);border-color:var(--moss)">うちに</span>、だんだん<ruby>日本語<rt>にほんご</rt></ruby>が<ruby>好<rt>す</rt></ruby>きになった。</div><div class="en">As I kept studying, I gradually came to like Japanese. (no one decided this)</div></div>
+        <div class="ex"><div class="ja jp"><ruby>音楽<rt>おんがく</rt></ruby>を<ruby>聞<rt>き</rt></ruby>いている<span class="hl-g" style="--accent:var(--moss);border-color:var(--moss)">うちに</span>、<ruby>眠<rt>ねむ</rt></ruby>ってしまった。</div><div class="en">While listening to music, I drifted off to sleep.</div></div>
+      </div>
+    </section>
+
+    <!-- 4 間 / 間に -->
+    <section class="slide" style="--accent:var(--ai)">
+      <div class="eyebrow" style="--accent:var(--ai)"><span class="pip"></span>L1 · pattern 2 — the big one</div>
+      <div class="patt">〜<ruby>間<rt>あいだ</rt></ruby> ／ 〜<ruby>間<rt>あいだ</rt></ruby>に</div>
+      <div class="meaning">during a period — but <span style="color:var(--ai-deep)">throughout</span> vs. <span style="color:var(--terra-deep)">at one point within</span></div>
+      <p class="lead">Same period, one tiny に, totally different meaning. This is the distinction the test loves.</p>
+
+      <div class="tl mt-m">
+        <div class="tl-title">Period: <span class="jp"><ruby>赤<rt>あか</rt></ruby>ちゃんが<ruby>寝<rt>ね</rt></ruby>ている</span></div>
+        <div class="tlbox">
+          <div class="tl-row">
+            <div class="tl-cap" style="color:var(--ai-deep)">間 — my action fills the WHOLE period</div>
+            <div class="tl-state soft" style="margin-bottom:7px">赤ちゃんが寝ている（period）</div>
+            <div class="tl-span" style="width:100%;background:var(--ai)">ずっと<ruby>本<rt>ほん</rt></ruby>を<ruby>読<rt>よ</rt></ruby>んでいた</div>
+          </div>
+          <div class="tl-row">
+            <div class="tl-cap" style="color:var(--terra-deep)">間に — my action happens at ONE moment inside</div>
+            <div class="tl-track">
+              <div class="tl-point" style="left:58%"><span class="lab">家事を済ませた</span><span class="dot" style="background:var(--terra)"></span></div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="card mt-m">
+        <div class="conn-label">Connection</div>
+        <div class="formula"><span class="chip">名 + の</span><span class="chip">動 dict / ている / ない</span><span class="op">+</span><span class="chip hl">間 / 間に</span></div>
+      </div>
+
+      <div class="vs mt-m">
+        <div class="vcard" style="border-color:var(--ai)">
+          <div class="vh" style="color:var(--ai-deep)">間 = the whole time</div>
+          <div class="ex" style="border:none;padding-bottom:0"><div class="ja jp"><ruby>母<rt>はは</rt></ruby>が<ruby>料理<rt>りょうり</rt></ruby>を<ruby>作<rt>つく</rt></ruby>っている<span class="hl-g" style="--accent:var(--ai);border-color:var(--ai)">間</span>、わたしは<ruby>宿題<rt>しゅくだい</rt></ruby>をしていた。</div><div class="en">The entire time mom cooked, I was doing homework. (both continuous)</div></div>
+        </div>
+        <div class="mid">vs</div>
+        <div class="vcard" style="border-color:var(--terra)">
+          <div class="vh" style="color:var(--terra-deep)">間に = one moment within</div>
+          <div class="ex" style="border:none;padding-bottom:0"><div class="ja jp"><ruby>母<rt>はは</rt></ruby>が<ruby>買<rt>か</rt></ruby>い<ruby>物<rt>もの</rt></ruby>に<ruby>行<rt>い</rt></ruby>っている<span class="hl-g" style="--accent:var(--terra);border-color:var(--terra)">間に</span>、こっそりケーキを<ruby>食<rt>た</rt></ruby>べた。</div><div class="en">While mom was out shopping, I snuck a slice of cake. (one quick act)</div></div>
+        </div>
+      </div>
+      <div class="note mt-m" style="--accent:var(--gold)"><strong>Rule of thumb:</strong> if the second verb is also a <em>continuous</em> action (〜ていた, ずっと), use <span class="jp">間</span>. If it's a <em>one-shot</em> action that finishes (済ませた, 食べた, 出かけた), use <span class="jp">間に</span>.</div>
+    </section>
+
+    <!-- 5 てからでないと -->
+    <section class="slide" style="--accent:var(--ai)">
+      <div class="eyebrow" style="--accent:var(--ai)"><span class="pip"></span>L1 · pattern 3</div>
+      <div class="patt">〜てからでないと ／ 〜てからでなければ</div>
+      <div class="meaning">unless X is done first, Y <em>can't</em> happen</div>
+      <p class="lead">X is a gate. Until you pass through it, Y is blocked. The back half is <strong style="color:var(--ink)">always negative</strong> — can't, won't, mustn't, impossible.</p>
+
+      <div class="tl mt-m">
+        <div class="tlbox">
+          <div class="tl-row" style="display:flex;align-items:center;gap:12px;margin-bottom:0">
+            <div class="tl-state" style="background:var(--moss);min-width:130px;flex:0 0 auto">X してから</div>
+            <div style="font-size:22px;font-weight:800;color:var(--ink-faint)">→</div>
+            <div class="tl-state" style="background:var(--ai);flex:1">そうしないと Y はできない</div>
+          </div>
+        </div>
+      </div>
+
+      <div class="card mt-m">
+        <div class="conn-label">Connection</div>
+        <div class="formula"><span class="chip">動 て形</span><span class="op">+</span><span class="chip hl">からでないと / からでなければ</span></div>
+      </div>
+
+      <div class="card mt-m" style="--accent:var(--ai)">
+        <div class="ex"><div class="ja jp">よく<ruby>考<rt>かんが</rt></ruby>え<span class="hl-g" style="--accent:var(--ai);border-color:var(--ai)">てからでないと</span>、<ruby>返事<rt>へんじ</rt></ruby>はできません。</div><div class="en">I can't give an answer unless I think it over carefully first.</div></div>
+        <div class="ex"><div class="ja jp"><ruby>準備<rt>じゅんび</rt></ruby><ruby>運動<rt>うんどう</rt></ruby>をし<span class="hl-g" style="--accent:var(--ai);border-color:var(--ai)">てからでないと</span>、<ruby>泳<rt>およ</rt></ruby>いではいけない。</div><div class="en">You mustn't swim unless you warm up first.</div></div>
+        <div class="ex"><div class="ja jp"><ruby>親<rt>おや</rt></ruby>の<ruby>許可<rt>きょか</rt></ruby>をもらっ<span class="hl-g" style="--accent:var(--ai);border-color:var(--ai)">てからでなければ</span>、<ruby>行<rt>い</rt></ruby>けない。</div><div class="en">I can't go unless I get my parents' permission first.</div></div>
+        <div class="ex"><div class="ja jp">パスポートを<ruby>見<rt>み</rt></ruby>せ<span class="hl-g" style="--accent:var(--ai);border-color:var(--ai)">てからでないと</span>、<ruby>中<rt>なか</rt></ruby>に<ruby>入<rt>はい</rt></ruby>れません。</div><div class="en">You can't go inside unless you show your passport first.</div></div>
+      </div>
+      <div class="note mt-m" style="--accent:var(--gold)"><strong>Watch for the negative tail.</strong> If your sentence ends positively (〜できる, 〜していい), this pattern is the wrong choice — you probably want plain <span class="jp">〜てから</span> instead.</div>
+    </section>
+
+    <!-- 6 ところだ -->
+    <section class="slide" style="--accent:var(--ai)">
+      <div class="eyebrow" style="--accent:var(--ai)"><span class="pip"></span>L1 · pattern 4</div>
+      <div class="patt">〜ところだ</div>
+      <div class="meaning">pinpoints the exact phase of an action — and the verb form sets <em>which</em></div>
+      <p class="lead">One pattern, three timestamps. The form in front of ところ slides you along the action's timeline.</p>
+
+      <div class="tl mt-m">
+        <div class="tl-title">The action: <span class="jp"><ruby>出<rt>で</rt></ruby>かける</span> (going out)</div>
+        <div class="tlbox">
+          <div class="tl-row">
+            <div class="tl-track" style="height:54px">
+              <div class="tl-point" style="left:8%"><span class="lab" style="color:var(--ai-deep)">dict 出かける</span><span class="dot" style="background:var(--ai)"></span><span style="font-size:10px;font-weight:700;color:var(--ink-faint)">about to</span></div>
+              <div class="tl-point" style="left:50%"><span class="lab" style="color:var(--terra-deep)">ている 出かけている</span><span class="dot" style="background:var(--terra)"></span><span style="font-size:10px;font-weight:700;color:var(--ink-faint)">mid-action</span></div>
+              <div class="tl-point" style="left:92%"><span class="lab" style="color:var(--moss-deep)">た 出かけた</span><span class="dot" style="background:var(--moss)"></span><span style="font-size:10px;font-weight:700;color:var(--ink-faint)">just did</span></div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="card mt-m">
+        <div class="conn-label">Connection</div>
+        <div class="formula"><span class="chip">動 dict（about to）</span><span class="chip">ている（in progress）</span><span class="chip">た（just finished）</span><span class="op">+</span><span class="chip hl">ところ + だ/に/へ/を…</span></div>
+      </div>
+
+      <div class="stack mt-m">
+        <div class="card" style="--accent:var(--ai)">
+          <div class="ex" style="border:none;padding:0"><div class="ja jp"><ruby>今<rt>いま</rt></ruby>から<ruby>出<rt>で</rt></ruby>かける<span class="hl-g" style="--accent:var(--ai);border-color:var(--ai)">ところです</span>。</div><div class="en"><strong>dict → about to:</strong> I'm just about to head out now.</div></div>
+        </div>
+        <div class="card" style="--accent:var(--terra)">
+          <div class="ex" style="border:none;padding:0"><div class="ja jp"><ruby>今<rt>いま</rt></ruby>、<ruby>夕飯<rt>ゆうはん</rt></ruby>を<ruby>作<rt>つく</rt></ruby>っている<span class="hl-g" style="--accent:var(--terra);border-color:var(--terra)">ところです</span>。</div><div class="en"><strong>ている → in progress:</strong> I'm in the middle of making dinner right now.</div></div>
+        </div>
+        <div class="card" style="--accent:var(--moss)">
+          <div class="ex" style="border:none;padding:0"><div class="ja jp"><ruby>今<rt>いま</rt></ruby>、<ruby>駅<rt>えき</rt></ruby>に<ruby>着<rt>つ</rt></ruby>いた<span class="hl-g" style="--accent:var(--moss);border-color:var(--moss)">ところです</span>。</div><div class="en"><strong>た → just finished:</strong> I just this second arrived at the station.</div></div>
+        </div>
+      </div>
+      <div class="note mt-m" style="--accent:var(--gold)"><strong>The particle shifts with the next verb.</strong> <span class="jp">ところを</span><ruby>見<rt>み</rt></ruby>られた (was seen mid-act), <span class="jp">ところに</span><ruby>電話<rt>でんわ</rt></ruby>が<ruby>鳴<rt>な</rt></ruby>った (phone rang right then), <span class="jp">ところへ</span><ruby>帰<rt>かえ</rt></ruby>ってきた (came home right then). The だ just becomes に/へ/を to fit.</div>
+    </section>
+
+    <!-- 7 LESSON 2 DIVIDER -->
+    <section class="slide" style="--accent:var(--moss)">
+      <div class="divider">
+        <div class="lesson-no">Lesson 2 · 第2課</div>
+        <div class="big-k">関</div>
+        <h2 style="color:var(--moss-deep);font-size:clamp(26px,5vw,42px)">Relation &amp; correlation</h2>
+        <p class="lead">These link two things: one mirrors another, varies with another, repeats with another, or scales with another. Less about time, more about <strong style="color:var(--ink)">how A and B move together.</strong></p>
+      </div>
+    </section>
+
+    <!-- 8 とおり -->
+    <section class="slide" style="--accent:var(--moss)">
+      <div class="eyebrow" style="--accent:var(--moss)"><span class="pip"></span>L2 · pattern 1</div>
+      <div class="patt">〜とおり(に) ／ 〜どおり(に)</div>
+      <div class="meaning">exactly as ~ / the same way as ~</div>
+      <p class="lead">B happens in perfect conformity with A — a model you copy or a prediction that comes true. <span class="jp" style="font-weight:600">とおり</span> after verbs/の, <span class="jp" style="font-weight:600">どおり</span> when it sticks straight onto a noun.</p>
+
+      <div class="card mt-m">
+        <div class="conn-label">Connection</div>
+        <div class="formula"><span class="chip">動 dict / た / てある / ている</span><span class="chip">名 + の</span><span class="op">+</span><span class="chip hl">とおり(に)</span><span class="op">·</span><span class="chip">名</span><span class="op">+</span><span class="chip hl">どおり(に)</span></div>
+      </div>
+
+      <div class="card mt-m" style="--accent:var(--moss)">
+        <div class="ex"><div class="ja jp">わたしが<ruby>言<rt>い</rt></ruby>った<span class="hl-g" style="--accent:var(--moss);border-color:var(--moss)">とおりに</span>やってください。</div><div class="en">Do it exactly as I said.</div></div>
+        <div class="ex"><div class="ja jp"><ruby>予想<rt>よそう</rt></ruby>した<span class="hl-g" style="--accent:var(--moss);border-color:var(--moss)">とおり</span>、<ruby>試験<rt>しけん</rt></ruby>は<ruby>難<rt>むずか</rt></ruby>しかった。</div><div class="en">Just as I predicted, the exam was hard.</div></div>
+        <div class="ex"><div class="ja jp"><ruby>説明書<rt>せつめいしょ</rt></ruby>に<ruby>書<rt>か</rt></ruby>いてある<span class="hl-g" style="--accent:var(--moss);border-color:var(--moss)">とおりに</span><ruby>組<rt>く</rt></ruby>み<ruby>立<rt>た</rt></ruby>てた。</div><div class="en">I assembled it the way the manual describes.</div></div>
+        <div class="ex"><div class="ja jp"><ruby>結果<rt>けっか</rt></ruby>は<ruby>想像<rt>そうぞう</rt></ruby><span class="hl-g" style="--accent:var(--moss);border-color:var(--moss)">どおり</span>だった。</div><div class="en">The result was just as I'd imagined. (noun + どおり)</div></div>
+      </div>
+    </section>
+
+    <!-- 9 によって -->
+    <section class="slide" style="--accent:var(--moss)">
+      <div class="eyebrow" style="--accent:var(--moss)"><span class="pip"></span>L2 · pattern 2</div>
+      <div class="patt">〜によって ／ 〜によっては</div>
+      <div class="meaning">it depends — outcome <em>varies with</em> the noun</div>
+      <p class="lead">Two shades you must keep apart: plain <span class="jp" style="font-weight:600">によって</span> says "results differ across the whole range," while <span class="jp" style="font-weight:600">によっては</span> zooms in on <em>one</em> possible case from that range.</p>
+
+      <div class="vs mt-m">
+        <div class="vcard" style="border-color:var(--moss)">
+          <div class="vh" style="color:var(--moss-deep)">によって — varies broadly</div>
+          <div class="ex" style="border:none;padding-bottom:0"><div class="ja jp"><ruby>国<rt>くに</rt></ruby><span class="hl-g" style="--accent:var(--moss);border-color:var(--moss)">によって</span><ruby>習慣<rt>しゅうかん</rt></ruby>が<ruby>違<rt>ちが</rt></ruby>う。</div><div class="en">Customs differ from country to country.</div></div>
+        </div>
+        <div class="mid">vs</div>
+        <div class="vcard" style="border-color:var(--terra)">
+          <div class="vh" style="color:var(--terra-deep)">によっては — one case</div>
+          <div class="ex" style="border:none;padding-bottom:0"><div class="ja jp"><ruby>天気<rt>てんき</rt></ruby><span class="hl-g" style="--accent:var(--terra);border-color:var(--terra)">によっては</span><ruby>中止<rt>ちゅうし</rt></ruby>になる。</div><div class="en">Depending on the weather (in some cases), it'll be cancelled.</div></div>
+        </div>
+      </div>
+
+      <div class="card mt-m" style="--accent:var(--moss)">
+        <div class="conn-label" style="color:var(--moss-deep)">More reps</div>
+        <div class="ex"><div class="ja jp"><ruby>感<rt>かん</rt></ruby>じ<ruby>方<rt>かた</rt></ruby>は<ruby>人<rt>ひと</rt></ruby><span class="hl-g" style="--accent:var(--moss);border-color:var(--moss)">によって</span>さまざまだ。</div><div class="en">How people feel about it varies from person to person.</div></div>
+        <div class="ex"><div class="ja jp"><ruby>時間帯<rt>じかんたい</rt></ruby><span class="hl-g" style="--accent:var(--moss);border-color:var(--moss)">によって</span><ruby>電車<rt>でんしゃ</rt></ruby>の<ruby>混<rt>こ</rt></ruby>み<ruby>方<rt>かた</rt></ruby>が<ruby>違<rt>ちが</rt></ruby>う。</div><div class="en">How crowded the trains are differs by time of day.</div></div>
+        <div class="ex"><div class="ja jp"><ruby>場合<rt>ばあい</rt></ruby><span class="hl-g" style="--accent:var(--terra);border-color:var(--terra)">によっては</span>、<ruby>予定<rt>よてい</rt></ruby>を<ruby>変更<rt>へんこう</rt></ruby>することもある。</div><div class="en">Depending on the situation, I sometimes change my plans.</div></div>
+      </div>
+      <div class="note mt-m" style="--accent:var(--gold)"><strong>Heads-up for later:</strong> <span class="jp">によって</span> has two more jobs you'll meet at N3 — "by means of" (<span class="jp">メール<ruby>によって<rt> </rt></ruby><ruby>連絡<rt>れんらく</rt></ruby>する</span>) and the agent in passive (<span class="jp">ピカソ<ruby>によって<rt> </rt></ruby><ruby>描<rt>えが</rt></ruby>かれた</span>). Same word, context tells you which.</div>
+    </section>
+
+    <!-- 10 たびに -->
+    <section class="slide" style="--accent:var(--moss)">
+      <div class="eyebrow" style="--accent:var(--moss)"><span class="pip"></span>L2 · pattern 3</div>
+      <div class="patt">〜たびに</div>
+      <div class="meaning">every single time X happens, Y happens too</div>
+      <p class="lead">Stresses that it's <strong style="color:var(--ink)">always</strong>, without exception. Reserve it for noteworthy repeats — not boring everyday routine (don't use it for "every time I breathe").</p>
+
+      <div class="tl mt-m">
+        <div class="tlbox">
+          <div class="tl-row" style="display:flex;align-items:center;gap:8px;flex-wrap:wrap;margin-bottom:0">
+            <span class="tl-state" style="background:var(--moss);padding:0 14px;min-width:auto">X</span><span style="color:var(--ink-faint);font-weight:800">→Y</span>
+            <span class="tl-state" style="background:var(--moss);padding:0 14px;min-width:auto;opacity:.8">X</span><span style="color:var(--ink-faint);font-weight:800">→Y</span>
+            <span class="tl-state" style="background:var(--moss);padding:0 14px;min-width:auto;opacity:.6">X</span><span style="color:var(--ink-faint);font-weight:800">→Y</span>
+            <span style="color:var(--ink-faint);font-weight:700">… every time, no exceptions</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="card mt-m">
+        <div class="conn-label">Connection</div>
+        <div class="formula"><span class="chip">名 + の</span><span class="chip">動 dict</span><span class="op">+</span><span class="chip hl">たびに</span></div>
+      </div>
+
+      <div class="card mt-m" style="--accent:var(--moss)">
+        <div class="ex"><div class="ja jp">この<ruby>写真<rt>しゃしん</rt></ruby>を<ruby>見<rt>み</rt></ruby>る<span class="hl-g" style="--accent:var(--moss);border-color:var(--moss)">たびに</span>、<ruby>留学<rt>りゅうがく</rt></ruby>していたころを<ruby>思<rt>おも</rt></ruby>い<ruby>出<rt>だ</rt></ruby>す。</div><div class="en">Every time I look at this photo, I think back to my study-abroad days.</div></div>
+        <div class="ex"><div class="ja jp"><ruby>彼<rt>かれ</rt></ruby>に<ruby>会<rt>あ</rt></ruby>う<span class="hl-g" style="--accent:var(--moss);border-color:var(--moss)">たびに</span>、<ruby>髪型<rt>かみがた</rt></ruby>が<ruby>変<rt>か</rt></ruby>わっている。</div><div class="en">Every time I see him, his hairstyle has changed.</div></div>
+        <div class="ex"><div class="ja jp"><ruby>試験<rt>しけん</rt></ruby>の<span class="hl-g" style="--accent:var(--moss);border-color:var(--moss)">たびに</span><ruby>緊張<rt>きんちょう</rt></ruby>して<ruby>眠<rt>ねむ</rt></ruby>れなくなる。</div><div class="en">Every time there's an exam, I get nervous and can't sleep. (noun + の omitted → の試験のたびに)</div></div>
+      </div>
+    </section>
+
+    <!-- 11 ば〜ほど -->
+    <section class="slide" style="--accent:var(--moss)">
+      <div class="eyebrow" style="--accent:var(--moss)"><span class="pip"></span>L2 · pattern 4</div>
+      <div class="patt">(〜ば)〜ほど ／ 〜ほど</div>
+      <div class="meaning">the more X, the more Y — two dials turning together</div>
+      <p class="lead">As one quantity climbs, the other climbs (or falls) in step. The classic shape repeats the word: <span class="jp" style="font-weight:600">考えれば考えるほど</span>.</p>
+
+      <div class="card mt-m">
+        <div class="conn-label">Connection</div>
+        <div class="formula"><span class="chip">動 ば形</span><span class="op">+</span><span class="chip hl">動 dict</span><span class="op">·</span><span class="chip">イ ければ</span><span class="op">+</span><span class="chip hl">イ い</span><span class="op">·</span><span class="chip">ナ なら</span><span class="op">+</span><span class="chip hl">ナ な</span><span class="op">+</span><span class="chip">ほど</span></div>
+      </div>
+
+      <div class="card mt-m" style="--accent:var(--moss)">
+        <div class="ex"><div class="ja jp"><ruby>日本語<rt>にほんご</rt></ruby>は<ruby>勉強<rt>べんきょう</rt></ruby>すれ<span class="hl-g" style="--accent:var(--moss);border-color:var(--moss)">ば</span><ruby>勉強<rt>べんきょう</rt></ruby>する<span class="hl-g" style="--accent:var(--moss);border-color:var(--moss)">ほど</span><ruby>面白<rt>おもしろ</rt></ruby>くなる。</div><div class="en">The more you study Japanese, the more interesting it gets. (verb)</div></div>
+        <div class="ex"><div class="ja jp"><ruby>考<rt>かんが</rt></ruby>えれ<span class="hl-g" style="--accent:var(--moss);border-color:var(--moss)">ば</span><ruby>考<rt>かんが</rt></ruby>える<span class="hl-g" style="--accent:var(--moss);border-color:var(--moss)">ほど</span>、わからなくなる。</div><div class="en">The more I think about it, the less I understand. (more X → less Y works too)</div></div>
+        <div class="ex"><div class="ja jp"><ruby>値段<rt>ねだん</rt></ruby>が<ruby>高<rt>たか</rt></ruby>けれ<span class="hl-g" style="--accent:var(--moss);border-color:var(--moss)">ば</span><ruby>高<rt>たか</rt></ruby>い<span class="hl-g" style="--accent:var(--moss);border-color:var(--moss)">ほど</span>いい、というわけではない。</div><div class="en">More expensive doesn't necessarily mean better. (い-adjective)</div></div>
+        <div class="ex"><div class="ja jp"><ruby>忙<rt>いそが</rt></ruby>しい<ruby>人<rt>ひと</rt></ruby><span class="hl-g" style="--accent:var(--moss);border-color:var(--moss)">ほど</span><ruby>時間<rt>じかん</rt></ruby>の<ruby>使<rt>つか</rt></ruby>い<ruby>方<rt>かた</rt></ruby>が<ruby>上手<rt>じょうず</rt></ruby>だ。</div><div class="en">The busier a person is, the better they manage their time. (noun + ほど, no ば)</div></div>
+      </div>
+    </section>
+
+    <!-- 12 ついでに -->
+    <section class="slide" style="--accent:var(--moss)">
+      <div class="eyebrow" style="--accent:var(--moss)"><span class="pip"></span>L2 · pattern 5</div>
+      <div class="patt">〜ついでに</div>
+      <div class="meaning">while you're already doing X, take the chance to also do Y</div>
+      <p class="lead">X is the real reason you're out/up/busy; Y is a bonus errand you piggyback on the opportunity. Y is secondary — and the two needn't happen at the exact same instant.</p>
+
+      <div class="tl mt-m">
+        <div class="tlbox">
+          <div class="tl-row" style="display:flex;align-items:center;gap:0;margin-bottom:0">
+            <div class="tl-state" style="background:var(--moss);flex:1;border-radius:9px 0 0 9px">X（main purpose）</div>
+            <div style="background:var(--terra);color:#fff;font-family:'Noto Sans JP';font-weight:700;font-size:13px;padding:0 14px;height:38px;display:flex;align-items:center;border-radius:0 9px 9px 0;border-left:2px solid #fff">+ Y（bonus）</div>
+          </div>
+        </div>
+      </div>
+
+      <div class="card mt-m">
+        <div class="conn-label">Connection</div>
+        <div class="formula"><span class="chip">名する + の</span><span class="chip">動 dict / た</span><span class="op">+</span><span class="chip hl">ついでに</span></div>
+      </div>
+
+      <div class="card mt-m" style="--accent:var(--moss)">
+        <div class="ex"><div class="ja jp"><ruby>買<rt>か</rt></ruby>い<ruby>物<rt>もの</rt></ruby>の<span class="hl-g" style="--accent:var(--moss);border-color:var(--moss)">ついでに</span>、<ruby>郵便局<rt>ゆうびんきょく</rt></ruby>に<ruby>寄<rt>よ</rt></ruby>ってきた。</div><div class="en">While I was out shopping, I dropped by the post office too. (noun + の)</div></div>
+        <div class="ex"><div class="ja jp"><ruby>洗濯<rt>せんたく</rt></ruby>する<span class="hl-g" style="--accent:var(--moss);border-color:var(--moss)">ついでに</span>、シーツも<ruby>洗<rt>あら</rt></ruby>った。</div><div class="en">While doing the laundry, I washed the sheets as well. (verb dict)</div></div>
+        <div class="ex"><div class="ja jp">コンビニに<ruby>行<rt>い</rt></ruby>く<span class="hl-g" style="--accent:var(--moss);border-color:var(--moss)">ついでに</span>、ゴミを<ruby>出<rt>だ</rt></ruby>してくれる？</div><div class="en">Since you're heading to the convenience store anyway, could you take out the trash?</div></div>
+      </div>
+      <div class="note mt-m" style="--accent:var(--gold)"><strong>ついでに ≠ ながら.</strong> <span class="jp">ながら</span> = two actions at the very same time (<ruby>歩<rt>ある</rt></ruby>きながら<ruby>話<rt>はな</rt></ruby>す, talk while walking). <span class="jp">ついでに</span> = you exploit the <em>opportunity</em> of doing X to fit in Y; Y can come a moment later, and Y is the lesser errand.</div>
+    </section>
+
+    <!-- 13 CONFUSION KILLERS -->
+    <section class="slide">
+      <div class="eyebrow"><span class="pip"></span>The pairs that get mixed up</div>
+      <h2>Confusion-killers</h2>
+      <p class="lead">If two patterns feel interchangeable, here's the one line that splits them.</p>
+
+      <div class="stack mt-m">
+        <div class="card" style="--accent:var(--ai)">
+          <div class="vh jp" style="font-size:17px;color:var(--ai-deep);margin-bottom:6px">間 vs 間に</div>
+          <p style="font-size:14px;color:var(--ink-soft)">Second verb <strong style="color:var(--ink)">continuous</strong> (ずっと…ていた) → <span class="jp" style="font-weight:600">間</span>. Second verb <strong style="color:var(--ink)">one-shot</strong> (…した and done) → <span class="jp" style="font-weight:600">間に</span>.</p>
+        </div>
+        <div class="card" style="--accent:var(--terra)">
+          <div class="vh jp" style="font-size:17px;color:var(--terra-deep);margin-bottom:6px">うちに vs 間に</div>
+          <p style="font-size:14px;color:var(--ink-soft)">Both can mean "while," but <span class="jp" style="font-weight:600">うちに</span> adds urgency — <em>do it before this window closes / before it changes.</em> <span class="jp" style="font-weight:600">間に</span> is neutral timing with no "act now" pressure.</p>
+        </div>
+        <div class="card" style="--accent:var(--moss)">
+          <div class="vh jp" style="font-size:17px;color:var(--moss-deep);margin-bottom:6px">ついでに vs ながら</div>
+          <p style="font-size:14px;color:var(--ink-soft)"><span class="jp" style="font-weight:600">ながら</span> = simultaneous, both actions equal. <span class="jp" style="font-weight:600">ついでに</span> = Y rides along on the opportunity of X; Y is secondary and can lag slightly.</p>
+        </div>
+        <div class="card" style="--accent:var(--gold)">
+          <div class="vh jp" style="font-size:17px;color:var(--gold);margin-bottom:6px">によって vs によっては</div>
+          <p style="font-size:14px;color:var(--ink-soft)">No は → "varies across the board" (国によって違う). With は → "in <em>certain</em> cases" (場合によっては中止), highlighting one outcome from the range.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- 14 KANJI PLAN -->
+    <section class="slide" style="--accent:var(--sakura)">
+      <div class="eyebrow" style="--accent:var(--sakura)"><span class="pip"></span>Your kanji game-plan</div>
+      <h2 style="color:var(--sakura-deep)">Recognition, not handwriting</h2>
+      <p class="lead">You're right to skip writing — the JLPT never tests it. But "look it up on the go" alone won't stick. Here's the version that works.</p>
+
+      <div class="stack mt-m">
+        <div class="card" style="--accent:var(--sakura)">
+          <div class="vh" style="color:var(--sakura-deep);font-size:16px;margin-bottom:5px">1 · Learn words, not characters</div>
+          <p style="font-size:14px;color:var(--ink-soft)">A lone kanji has too many readings to "know." <span class="jp" style="font-weight:600">生</span> only makes sense inside <span class="jp"><ruby>学生<rt>がくせい</rt></ruby>・<ruby>生<rt>う</rt></ruby>まれる・<ruby>先生<rt>せんせい</rt></ruby></span>. Study N3 <strong style="color:var(--ink)">vocabulary</strong> and the kanji ride along — in the exact form the test uses.</p>
+        </div>
+        <div class="card" style="--accent:var(--sakura)">
+          <div class="vh" style="color:var(--sakura-deep);font-size:16px;margin-bottom:5px">2 · One SRS layer</div>
+          <p style="font-size:14px;color:var(--ink-soft)">Every on-the-go lookup → drop it in Anki. Ten minutes of review a day does the remembering for you. Looking up isn't learning; <strong style="color:var(--ink)">reviewing</strong> is.</p>
+        </div>
+        <div class="card" style="--accent:var(--sakura)">
+          <div class="vh" style="color:var(--sakura-deep);font-size:16px;margin-bottom:5px">3 · Read to recognize</div>
+          <p style="font-size:14px;color:var(--ink-soft)">Your 読解 book is a kanji gym. Don't pre-study every character — read, let context carry you, look up only what blocks meaning. That's exactly how kanji shows up on test day.</p>
+        </div>
+        <div class="card" style="--accent:var(--gold)">
+          <div class="vh" style="color:var(--gold);font-size:16px;margin-bottom:5px">⚠ Mind the gap</div>
+          <p style="font-size:14px;color:var(--ink-soft)">N5 kanji + N3 grammar is a real gap — N3 reading needs ~650 recognized. It won't close by drifting, but step 1 closes it as a <em>side effect</em> of vocab study. And your own quiz tooling + JFT dataset can become a recognition drill.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- 15 RECAP / NEXT -->
+    <section class="slide">
+      <div class="eyebrow"><span class="pip"></span>Lock it in</div>
+      <h2>Nine patterns, one card</h2>
+
+      <div class="card mt-m" style="background:var(--ink);color:#fff;border:none">
+        <div style="font-weight:700;font-size:12px;letter-spacing:.1em;text-transform:uppercase;color:var(--ai);margin:0 0 8px">Lesson 1 · time</div>
+        <div style="display:flex;flex-direction:column;gap:6px">
+          <div style="display:grid;grid-template-columns:120px 1fr;gap:10px;align-items:baseline;padding:5px 0;border-bottom:1px solid rgba(255,255,255,.1)"><span class="jp jp-serif" style="color:var(--ai);font-weight:700;font-size:16px">〜うちに</span><span style="font-size:13.5px;opacity:.9">act before the window closes</span></div>
+          <div style="display:grid;grid-template-columns:120px 1fr;gap:10px;align-items:baseline;padding:5px 0;border-bottom:1px solid rgba(255,255,255,.1)"><span class="jp jp-serif" style="color:var(--ai);font-weight:700;font-size:16px">〜間 / 間に</span><span style="font-size:13.5px;opacity:.9">throughout (continuous) vs. a point within (one-shot)</span></div>
+          <div style="display:grid;grid-template-columns:120px 1fr;gap:10px;align-items:baseline;padding:5px 0;border-bottom:1px solid rgba(255,255,255,.1)"><span class="jp jp-serif" style="color:var(--ai);font-weight:700;font-size:16px">〜てからでないと</span><span style="font-size:13.5px;opacity:.9">unless X first, Y can't (negative tail)</span></div>
+          <div style="display:grid;grid-template-columns:120px 1fr;gap:10px;align-items:baseline;padding:5px 0"><span class="jp jp-serif" style="color:var(--ai);font-weight:700;font-size:16px">〜ところだ</span><span style="font-size:13.5px;opacity:.9">dict=about to · ている=mid · た=just did</span></div>
+        </div>
+        <div style="font-weight:700;font-size:12px;letter-spacing:.1em;text-transform:uppercase;color:var(--moss);margin:16px 0 8px">Lesson 2 · relation</div>
+        <div style="display:flex;flex-direction:column;gap:6px">
+          <div style="display:grid;grid-template-columns:120px 1fr;gap:10px;align-items:baseline;padding:5px 0;border-bottom:1px solid rgba(255,255,255,.1)"><span class="jp jp-serif" style="color:var(--moss);font-weight:700;font-size:16px">〜とおり(に)</span><span style="font-size:13.5px;opacity:.9">exactly as / matching a model</span></div>
+          <div style="display:grid;grid-template-columns:120px 1fr;gap:10px;align-items:baseline;padding:5px 0;border-bottom:1px solid rgba(255,255,255,.1)"><span class="jp jp-serif" style="color:var(--moss);font-weight:700;font-size:16px">〜によって(は)</span><span style="font-size:13.5px;opacity:.9">varies broadly · によっては = one case</span></div>
+          <div style="display:grid;grid-template-columns:120px 1fr;gap:10px;align-items:baseline;padding:5px 0;border-bottom:1px solid rgba(255,255,255,.1)"><span class="jp jp-serif" style="color:var(--moss);font-weight:700;font-size:16px">〜たびに</span><span style="font-size:13.5px;opacity:.9">every time, no exceptions</span></div>
+          <div style="display:grid;grid-template-columns:120px 1fr;gap:10px;align-items:baseline;padding:5px 0;border-bottom:1px solid rgba(255,255,255,.1)"><span class="jp jp-serif" style="color:var(--moss);font-weight:700;font-size:16px">〜ば〜ほど</span><span style="font-size:13.5px;opacity:.9">the more X, the more Y</span></div>
+          <div style="display:grid;grid-template-columns:120px 1fr;gap:10px;align-items:baseline;padding:5px 0"><span class="jp jp-serif" style="color:var(--moss);font-weight:700;font-size:16px">〜ついでに</span><span style="font-size:13.5px;opacity:.9">piggyback a bonus errand on X</span></div>
+        </div>
+      </div>
+
+      <div class="end-cta mt-m">
+        <div class="note" style="--accent:var(--sakura)"><strong>Want to test it?</strong> I can turn these nine into a 30-question practice set in your usual format, or break down Lesson 3 the moment you send it.</div>
+      </div>
+    </section>
+
+  </div>
+
+  <div class="navbar">
+    <button class="navbtn" id="prev" onclick="go(-1)">
+      <svg width="14" height="14" viewBox="0 0 24 24" fill="none"><path d="M15 18l-6-6 6-6" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/></svg>Prev
+    </button>
+    <div class="dots" id="dots"></div>
+    <button class="navbtn" id="next" onclick="go(1)">Next
+      <svg width="14" height="14" viewBox="0 0 24 24" fill="none"><path d="M9 18l6-6-6-6" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+    </button>
+  </div>
+</div>
+
+<script>
+  const slides = Array.from(document.querySelectorAll('.slide'));
+  const total = slides.length; let idx = 0;
+  const bar=document.getElementById('bar'),cur=document.getElementById('cur'),tot=document.getElementById('tot');
+  const prevBtn=document.getElementById('prev'),nextBtn=document.getElementById('next'),dotsWrap=document.getElementById('dots');
+  tot.textContent=total;
+  slides.forEach((_,i)=>{const d=document.createElement('button');d.className='dot'+(i===0?' on':'');d.setAttribute('aria-label','Slide '+(i+1));d.onclick=()=>jump(i);dotsWrap.appendChild(d);});
+  const dots=Array.from(dotsWrap.children);
+  function render(){slides.forEach((s,i)=>s.classList.toggle('active',i===idx));dots.forEach((d,i)=>d.classList.toggle('on',i===idx));bar.style.width=((idx+1)/total*100)+'%';cur.textContent=idx+1;prevBtn.disabled=idx===0;nextBtn.disabled=idx===total-1;const a=slides[idx];if(a)a.scrollTop=0;}
+  function go(dir){const n=idx+dir;if(n<0||n>=total)return;idx=n;render();}
+  function jump(i){idx=i;render();}
+  document.addEventListener('keydown',e=>{if(e.key==='ArrowRight'||e.key==='PageDown'){e.preventDefault();go(1);}if(e.key==='ArrowLeft'||e.key==='PageUp'){e.preventDefault();go(-1);}});
+  let sx=0,sy=0;const stage=document.getElementById('stage');
+  stage.addEventListener('touchstart',e=>{sx=e.touches[0].clientX;sy=e.touches[0].clientY;},{passive:true});
+  stage.addEventListener('touchend',e=>{const dx=e.changedTouches[0].clientX-sx,dy=e.changedTouches[0].clientY-sy;if(Math.abs(dx)>55&&Math.abs(dx)>Math.abs(dy)*1.4)go(dx<0?1:-1);},{passive:true});
+  render();
+</script>
+</body>
+</html>
