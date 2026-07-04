@@ -1,0 +1,675 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>N3 文法計測手帳 — 第3課・第4課</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Shippori+Mincho+B1:wght@500;700;800&family=Zen+Kaku+Gothic+New:wght@400;500;700&family=IBM+Plex+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+:root{
+  --paper:#F3F5F0;        /* 方眼 graph paper */
+  --grid:#DFE6DC;         /* grid lines */
+  --ink:#22303A;          /* 墨 ink */
+  --ink-soft:#5A6B74;
+  --red:#C7402D;          /* 検定朱 gauge-needle red (Lesson 3) */
+  --red-soft:#F5E4E0;
+  --teal:#3E7268;         /* 青磁 balance verdigris (Lesson 4) */
+  --teal-soft:#E2ECE8;
+  --brass:#A98445;        /* 真鍮 brass fittings */
+  --card:#FDFDFB;
+  --line:var(--red);      /* per-lesson accent */
+  --line-soft:var(--red-soft);
+  --mono:'IBM Plex Mono',monospace;
+  --disp:'Shippori Mincho B1',serif;
+  --body:'Zen Kaku Gothic New',sans-serif;
+}
+*{margin:0;padding:0;box-sizing:border-box}
+html{scroll-behavior:smooth}
+@media (prefers-reduced-motion:reduce){html{scroll-behavior:auto}*,*::before,*::after{animation:none!important;transition:none!important}}
+body{
+  font-family:var(--body);color:var(--ink);background:var(--paper);
+  background-image:
+    linear-gradient(var(--grid) 1px,transparent 1px),
+    linear-gradient(90deg,var(--grid) 1px,transparent 1px),
+    linear-gradient(rgba(223,230,220,.45) 1px,transparent 1px),
+    linear-gradient(90deg,rgba(223,230,220,.45) 1px,transparent 1px);
+  background-size:80px 80px,80px 80px,16px 16px,16px 16px;
+  line-height:1.9;font-size:16px;
+}
+::selection{background:var(--brass);color:#fff}
+
+/* ---------- scroll ruler ---------- */
+#ruler{position:fixed;top:0;left:0;right:0;height:14px;z-index:60;background:var(--card);border-bottom:1px solid var(--ink);
+  background-image:repeating-linear-gradient(90deg,var(--ink-soft) 0,var(--ink-soft) 1px,transparent 1px,transparent 10px),
+                   repeating-linear-gradient(90deg,var(--ink) 0,var(--ink) 1px,transparent 1px,transparent 50px);
+  background-size:100% 5px,100% 9px;background-position:bottom,bottom;background-repeat:repeat-x;}
+#rulerFill{height:100%;width:0%;background:linear-gradient(90deg,var(--red),var(--brass));opacity:.85;transition:width .1s linear}
+
+/* ---------- control bar ---------- */
+#bar{position:sticky;top:14px;z-index:50;background:var(--card);border-bottom:2px solid var(--ink);
+  display:flex;align-items:center;gap:12px;flex-wrap:wrap;padding:8px 16px;box-shadow:0 2px 0 rgba(34,48,58,.06)}
+#bar .brand{font-family:var(--mono);font-size:11px;letter-spacing:.14em;color:var(--ink-soft);text-transform:uppercase}
+#bar .brand b{color:var(--ink)}
+.furi-switch{margin-left:auto;display:flex;align-items:center;gap:8px}
+.furi-switch .lab{font-family:var(--mono);font-size:10px;letter-spacing:.12em;color:var(--ink-soft)}
+.furi-switch .opts{display:flex;border:1.5px solid var(--ink);border-radius:3px;overflow:hidden}
+.furi-switch button{font-family:var(--mono);font-size:11px;padding:5px 12px;background:var(--card);color:var(--ink);border:none;cursor:pointer;border-right:1.5px solid var(--ink)}
+.furi-switch button:last-child{border-right:none}
+.furi-switch button.on{background:var(--ink);color:var(--paper)}
+.furi-switch button:focus-visible,button:focus-visible,.ex:focus-visible{outline:2px solid var(--brass);outline-offset:2px}
+
+/* ---------- furigana modes ---------- */
+rt{font-size:.5em;color:var(--red);font-weight:500;letter-spacing:0}
+rt.c{color:var(--ink-soft)}
+body[data-furi="std"] rt.c{visibility:hidden}
+body[data-furi="off"] rt{visibility:hidden}
+body[data-furi="off"] ruby{cursor:pointer;border-bottom:1px dashed var(--brass)}
+body[data-furi="off"] ruby.peek rt{visibility:visible}
+
+/* ---------- masthead ---------- */
+header.mast{max-width:860px;margin:56px auto 0;padding:0 20px}
+.mast-frame{background:var(--card);border:2px solid var(--ink);border-radius:4px;padding:36px 32px 28px;position:relative;overflow:hidden}
+.mast-frame::before{content:"";position:absolute;inset:8px;border:1px solid var(--grid);border-radius:2px;pointer-events:none}
+.mast .kicker{font-family:var(--mono);font-size:11px;letter-spacing:.28em;color:var(--brass);text-transform:uppercase;margin-bottom:14px}
+.mast h1{font-family:var(--disp);font-weight:800;font-size:clamp(30px,5.6vw,52px);line-height:1.25;letter-spacing:.02em}
+.mast h1 .thin{font-weight:500;color:var(--ink-soft)}
+.mast .sub{margin-top:14px;font-size:14.5px;color:var(--ink-soft);max-width:56ch}
+.mast .spec{margin-top:22px;display:flex;gap:0;flex-wrap:wrap;border-top:1.5px solid var(--ink);font-family:var(--mono);font-size:11px}
+.mast .spec div{padding:8px 18px 2px;border-right:1px solid var(--grid)}
+.mast .spec div:last-child{border-right:none}
+.mast .spec .k{color:var(--ink-soft);letter-spacing:.1em;display:block}
+.mast .spec .v{color:var(--ink);font-weight:600}
+.mast .spec .v.r{color:var(--red)} .mast .spec .v.t{color:var(--teal)}
+
+/* ---------- how-to note ---------- */
+.note{max-width:860px;margin:20px auto 0;padding:0 20px}
+.note-in{background:var(--card);border:1.5px dashed var(--brass);border-radius:4px;padding:16px 20px;font-size:14px;color:var(--ink-soft)}
+.note-in b{color:var(--ink)}
+.note-in .mono{font-family:var(--mono);font-size:12px;color:var(--brass)}
+
+/* ---------- lesson section ---------- */
+section.lesson{max-width:860px;margin:56px auto 0;padding:0 20px}
+section.lesson.l4{--line:var(--teal);--line-soft:var(--teal-soft)}
+.lsn-head{display:flex;align-items:flex-end;gap:18px;border-bottom:3px solid var(--line);padding-bottom:10px;flex-wrap:wrap}
+.lsn-no{font-family:var(--mono);background:var(--line);color:#fff;font-size:12px;letter-spacing:.16em;padding:6px 12px;border-radius:2px}
+.lsn-head h2{font-family:var(--disp);font-weight:700;font-size:clamp(24px,4vw,34px)}
+.lsn-head .en{font-family:var(--mono);font-size:11px;color:var(--ink-soft);letter-spacing:.1em;margin-left:auto;padding-bottom:6px}
+.lsn-intro{margin:16px 0 0;font-size:15px;color:var(--ink-soft);max-width:64ch}
+
+/* ---------- point card ---------- */
+article.pt{background:var(--card);border:1.5px solid var(--ink);border-radius:4px;margin-top:28px;overflow:hidden}
+.pt-head{display:flex;align-items:center;gap:16px;padding:16px 20px;border-bottom:1.5px solid var(--ink);background:linear-gradient(0deg,var(--line-soft),var(--card) 85%)}
+.pt-no{font-family:var(--mono);font-size:12px;font-weight:600;color:#fff;background:var(--ink);padding:8px 10px;border-radius:2px;letter-spacing:.06em;flex-shrink:0}
+.pt-title h3{font-family:var(--disp);font-weight:700;font-size:clamp(19px,3vw,25px);line-height:1.4}
+.pt-title .gloss{font-family:var(--mono);font-size:11px;color:var(--line);letter-spacing:.08em}
+.pt-inst{margin-left:auto;flex-shrink:0;text-align:center}
+.pt-inst svg{display:block}
+.pt-inst .cap{font-family:var(--mono);font-size:9px;letter-spacing:.18em;color:var(--ink-soft);margin-top:2px}
+.pt-body{padding:18px 20px 22px}
+.setsu{font-family:var(--mono);font-size:12.5px;background:var(--paper);border:1px solid var(--grid);border-left:4px solid var(--line);padding:8px 14px;border-radius:2px;margin-bottom:16px;color:var(--ink)}
+.setsu .k{color:var(--line);font-weight:600;margin-right:10px;letter-spacing:.1em}
+.core{font-size:15px;margin-bottom:6px}
+.core p{margin-bottom:10px}
+.core .jp-term{font-weight:700;color:var(--line)}
+.exs{margin-top:14px;border-top:1px dashed var(--grid);padding-top:6px}
+.exs-lbl{font-family:var(--mono);font-size:10px;letter-spacing:.2em;color:var(--ink-soft);margin:8px 0 4px}
+.ex{padding:10px 12px;border-radius:3px;cursor:pointer;border:1px solid transparent;transition:background .15s,border-color .15s}
+.ex:hover{background:var(--paper);border-color:var(--grid)}
+.ex .jp{font-size:16.5px;line-height:2.15}
+.ex .jp .g{border-bottom:2px solid var(--line);font-weight:500}
+.ex .en{display:none;font-size:13.5px;color:var(--ink-soft);padding:6px 2px 0;border-top:1px dotted var(--grid);margin-top:6px}
+.ex .en .nt{color:var(--brass);font-size:12.5px;display:block;margin-top:2px}
+.ex.open .en{display:block}
+.ex::after{content:"▸ EN";font-family:var(--mono);font-size:9px;color:var(--grid);float:right;letter-spacing:.1em}
+.ex:hover::after{color:var(--brass)}
+.ex.open::after{content:"▾ EN";color:var(--brass)}
+.warn{margin-top:16px;background:var(--paper);border:1px solid var(--grid);border-left:4px solid var(--brass);border-radius:2px;padding:12px 16px;font-size:13.5px}
+.warn .w-lbl{font-family:var(--mono);font-size:10px;letter-spacing:.2em;color:var(--brass);display:block;margin-bottom:4px}
+.warn p{margin-bottom:6px}.warn p:last-child{margin-bottom:0}
+.warn .x{color:var(--red);font-weight:700}.warn .o{color:var(--teal);font-weight:700}
+
+/* ---------- comparison tables ---------- */
+.compare{max-width:860px;margin:48px auto 0;padding:0 20px}
+.cmp-in{background:var(--ink);color:var(--paper);border-radius:4px;padding:26px 24px;position:relative;overflow:hidden}
+.cmp-in::before{content:"";position:absolute;inset:0;background-image:linear-gradient(rgba(255,255,255,.05) 1px,transparent 1px),linear-gradient(90deg,rgba(255,255,255,.05) 1px,transparent 1px);background-size:16px 16px;pointer-events:none}
+.cmp-in h3{font-family:var(--disp);font-size:22px;font-weight:700;margin-bottom:4px}
+.cmp-in .sub{font-family:var(--mono);font-size:11px;letter-spacing:.16em;color:var(--brass);margin-bottom:18px}
+.cmp-tbl{width:100%;border-collapse:collapse;font-size:13.5px;position:relative}
+.cmp-tbl th{font-family:var(--mono);font-size:11px;letter-spacing:.08em;text-align:left;color:var(--brass);border-bottom:1px solid rgba(255,255,255,.35);padding:8px 10px;font-weight:500}
+.cmp-tbl td{padding:10px;border-bottom:1px solid rgba(255,255,255,.14);vertical-align:top;line-height:1.75}
+.cmp-tbl td:first-child{font-weight:700;white-space:nowrap}
+.cmp-tbl .ok{color:#8FD0BC}.cmp-tbl .no{color:#E8A199}
+.cmp-note{margin-top:14px;font-size:13px;color:rgba(243,245,240,.75);position:relative}
+.cmp-tbl-wrap{overflow-x:auto;position:relative}
+
+/* ---------- quiz ---------- */
+#quiz{max-width:860px;margin:56px auto 0;padding:0 20px}
+.qz-head{border-bottom:3px solid var(--brass);padding-bottom:10px;display:flex;align-items:flex-end;gap:16px;flex-wrap:wrap}
+.qz-head h2{font-family:var(--disp);font-size:clamp(24px,4vw,32px);font-weight:700}
+.qz-head .cnt{font-family:var(--mono);font-size:12px;color:var(--ink-soft);margin-left:auto;padding-bottom:6px}
+.q{background:var(--card);border:1.5px solid var(--ink);border-radius:4px;margin-top:22px;padding:18px 20px}
+.q .q-no{font-family:var(--mono);font-size:11px;color:var(--brass);letter-spacing:.14em;margin-bottom:6px}
+.q .q-txt{font-size:16.5px;line-height:2.1;margin-bottom:12px}
+.q .q-txt .blank{font-weight:700;letter-spacing:.05em}
+.q .opts{display:flex;flex-direction:column;gap:8px}
+.q .opts button{text-align:left;font-family:var(--body);font-size:15px;padding:9px 14px;background:var(--paper);border:1.5px solid var(--grid);border-radius:3px;cursor:pointer;line-height:1.8;transition:border-color .12s,background .12s}
+.q .opts button:hover{border-color:var(--ink)}
+.q .opts button .ol{font-family:var(--mono);font-size:12px;color:var(--brass);margin-right:10px}
+.q.done .opts button{cursor:default;opacity:.6}
+.q.done .opts button.correct{opacity:1;border-color:var(--teal);background:var(--teal-soft);font-weight:700}
+.q.done .opts button.wrong{opacity:1;border-color:var(--red);background:var(--red-soft)}
+.q .exp{display:none;margin-top:12px;border-top:1px dashed var(--grid);padding-top:10px;font-size:13.5px;color:var(--ink-soft)}
+.q.done .exp{display:block}
+.q .exp .verdict{font-family:var(--mono);font-size:11px;letter-spacing:.16em;display:inline-block;margin-bottom:4px}
+.q .exp .verdict.ok{color:var(--teal)}.q .exp .verdict.ng{color:var(--red)}
+#score{margin-top:28px;background:var(--card);border:2px solid var(--ink);border-radius:4px;padding:22px;text-align:center;display:none}
+#score.show{display:block}
+#score .s-lbl{font-family:var(--mono);font-size:11px;letter-spacing:.24em;color:var(--ink-soft)}
+#score .s-val{font-family:var(--disp);font-size:44px;font-weight:800;color:var(--ink);line-height:1.3}
+#score .s-msg{font-size:14px;color:var(--ink-soft)}
+#score button{margin-top:12px;font-family:var(--mono);font-size:12px;padding:8px 20px;border:1.5px solid var(--ink);background:var(--card);border-radius:3px;cursor:pointer}
+#score button:hover{background:var(--ink);color:var(--paper)}
+
+/* ---------- stamp ---------- */
+@keyframes stampIn{0%{transform:scale(1.9) rotate(-18deg);opacity:0}60%{transform:scale(.95) rotate(-8deg);opacity:1}100%{transform:scale(1) rotate(-8deg);opacity:1}}
+.stamp{display:inline-block;font-family:var(--disp);font-weight:800;color:var(--red);border:3px solid var(--red);border-radius:50%;width:44px;height:44px;line-height:40px;text-align:center;font-size:15px;transform:rotate(-8deg);animation:stampIn .35s ease-out;margin-left:10px;vertical-align:middle;flex-shrink:0}
+.stamp.miss{color:var(--ink-soft);border-color:var(--ink-soft);border-radius:4px;font-size:13px}
+
+footer{max-width:860px;margin:64px auto 40px;padding:0 20px}
+.foot-in{border-top:2px solid var(--ink);padding-top:14px;font-family:var(--mono);font-size:10.5px;color:var(--ink-soft);letter-spacing:.1em;display:flex;justify-content:space-between;flex-wrap:wrap;gap:8px}
+
+@media(max-width:620px){
+  body{font-size:15px}
+  .pt-inst{display:none}
+  .mast .spec div{padding:8px 10px 2px}
+  #bar{gap:6px}.furi-switch{margin-left:0}
+}
+</style>
+</head>
+<body data-furi="std">
+<div id="ruler"><div id="rulerFill"></div></div>
+
+<div id="bar">
+  <span class="brand"><b>N3 GRAMMAR</b> FIELD MANUAL — 課 3–4</span>
+  <div class="furi-switch">
+    <span class="lab">ふりがな</span>
+    <div class="opts" role="group" aria-label="Furigana mode">
+      <button data-mode="all">ALL</button>
+      <button data-mode="std" class="on">N3+</button>
+      <button data-mode="off">TEST</button>
+    </div>
+  </div>
+</div>
+
+<header class="mast">
+  <div class="mast-frame">
+    <div class="kicker">SHIN KANZEN MASTER — 実力養成編 · 文の文法 I</div>
+    <h1>程度を測り、<span class="thin">物事を比べる。</span><br>Measure &amp; Contrast</h1>
+    <p class="sub">Lesson 3 「比べれば…〜がいちばん」 is a set of <b>degree gauges</b> (how much?). Lesson 4 「〜とは違って」 is a set of <b>contrast balances</b> (how do they differ?). Nine patterns, calibrated one instrument at a time — explanations in English, Japanese reserved for the examples.</p>
+    <div class="spec">
+      <div><span class="k">L3 / DEGREE</span><span class="v r">くらい・ほど・限る</span></div>
+      <div><span class="k">L4 / CONTRAST</span><span class="v t">対して・反面・一方</span></div>
+      <div><span class="k">EXAMPLES</span><span class="v">45 sentences</span></div>
+      <div><span class="k">SELF-CHECK</span><span class="v">20 items</span></div>
+    </div>
+  </div>
+</header>
+
+<div class="note">
+  <div class="note-in">
+    <b>使い方 / How to use this manual.</b> Tap any example sentence to reveal its English translation and nuance note. The <span class="mono">ふりがな</span> switch has three calibration modes — <span class="mono">N3+</span> (default: readings only on kanji above your level), <span class="mono">ALL</span> (every reading shown), and <span class="mono">TEST</span> (all readings hidden — your kanji <i>recognition drill</i>; tap any underlined word to peek). Read each sentence aloud in TEST mode before peeking: that's the whole kanji strategy in one habit.
+  </div>
+</div>
+
+<!-- ==================== LESSON 3 ==================== -->
+<section class="lesson l3" id="lesson3">
+  <div class="lsn-head">
+    <span class="lsn-no">第3課</span>
+    <h2>比べれば…〜がいちばん</h2>
+    <span class="en">INSTRUMENT CLASS: DEGREE GAUGE</span>
+  </div>
+  <p class="lsn-intro">All four patterns here are instruments for measuring <b>degree</b>: ① illustrate how much with a vivid example, ② peg the needle at "nothing exceeds this," ③ mark a rock-bottom line with "if it comes to that," ④ point at the top of the scale with "this is the best." What they share: the reading is always the <b>speaker's subjective judgment</b>, never objective fact — the textbook repeats this warning for every pattern.</p>
+
+  <!-- 3-1 -->
+  <article class="pt" id="p3-1">
+    <div class="pt-head">
+      <span class="pt-no">3-1</span>
+      <div class="pt-title">
+        <h3>〜くらいだ／〜ぐらいだ／〜ほどだ</h3>
+        <span class="gloss">so … that / to the extent that …</span>
+      </div>
+      <div class="pt-inst"><svg width="70" height="46" viewBox="0 0 70 46" aria-hidden="true"><path d="M11 40 A24 24 0 0 1 59 40" fill="none" stroke="var(--ink)" stroke-width="1.5"/><line x1="35" y1="16" x2="35" y2="21" stroke="var(--ink)"/><line x1="18" y1="23" x2="21" y2="26" stroke="var(--ink)"/><line x1="52" y1="23" x2="49" y2="26" stroke="var(--ink)"/><line x1="35" y1="40" x2="52" y2="23" stroke="var(--red)" stroke-width="2.5" stroke-linecap="round"/><circle cx="35" cy="40" r="3" fill="var(--ink)"/></svg><span class="cap">EXTENT</span></div>
+    </div>
+    <div class="pt-body">
+      <div class="setsu"><span class="k">接続</span>名・動・形 普通形（ナ形 だ→な）＋ くらい(だ)／ほど(だ)</div>
+      <div class="core">
+        <p>Shows how extreme something is by painting a <span class="jp-term">concrete, vivid example</span> of what it feels like. The key: the example <b>did not actually happen</b>. 「プールに飛び込みたいくらい暑い」 means "so hot I could almost dive into a pool" — the <i>almost</i> is the whole point. You are measuring the heat with an image, not reporting an event. The set phrase 〜かと思うくらい／ほど ("so … you'd think …") is a common variant.</p>
+      </div>
+      <div class="exs">
+        <div class="exs-lbl">EXAMPLES — tap to reveal EN</div>
+        <div class="ex" tabindex="0"><p class="jp">今日は<ruby>暑<rt class="c">あつ</rt></ruby>くて、プールに<ruby>飛<rt class="a">と</rt></ruby>び<ruby>込<rt class="a">こ</rt></ruby>みたい<span class="g">くらいだ</span>。</p><p class="en">It's so hot today I feel like diving into a pool.<span class="nt">※ Didn't actually dive in — the image just measures the heat.</span></p></div>
+        <div class="ex" tabindex="0"><p class="jp">その<ruby>映画<rt class="c">えいが</rt></ruby>は<ruby>感動的<rt class="a">かんどうてき</rt></ruby>で、<ruby>涙<rt class="a">なみだ</rt></ruby>が<ruby>出<rt class="c">で</rt></ruby>る<span class="g">ほどだった</span>。</p><p class="en">The movie was so moving it nearly brought me to tears.<span class="nt">※ ほど feels slightly more formal/written than くらい.</span></p></div>
+        <div class="ex" tabindex="0"><p class="jp"><ruby>彼<rt class="c">かれ</rt></ruby>の<ruby>日本語<rt class="c">にほんご</rt></ruby>は<ruby>上手<rt class="c">じょうず</rt></ruby>で、<ruby>日本人<rt class="c">にほんじん</rt></ruby>かと<ruby>思<rt class="c">おも</rt></ruby>う<span class="g">くらいだ</span>。</p><p class="en">His Japanese is so good you'd think he was a native speaker.<span class="nt">※ 「〜かと思うくらい／ほど」= "so … that you'd think …" — a set pattern from the textbook.</span></p></div>
+        <div class="ex" tabindex="0"><p class="jp"><ruby>疲<rt class="a">つか</rt></ruby>れて、もう<ruby>一歩<rt class="a">いっぽ</rt></ruby>も<ruby>歩<rt class="c">ある</rt></ruby>けない<span class="g">ほどだった</span>。</p><p class="en">I was so exhausted I couldn't take another step.<span class="nt">※ Negative potential + ほど = a classic "peak exhaustion" reading.</span></p></div>
+        <div class="ex" tabindex="0"><p class="jp"><ruby>祖母<rt class="a">そぼ</rt></ruby>の<ruby>作<rt class="c">つく</rt></ruby>るカレーは<ruby>辛<rt class="a">から</rt></ruby>くて、<ruby>口<rt class="c">くち</rt></ruby>から<ruby>火<rt class="c">ひ</rt></ruby>が<ruby>出<rt class="c">で</rt></ruby>る<span class="g">くらいだ</span>。</p><p class="en">My grandma's curry is so spicy it's like fire coming out of my mouth.<span class="nt">※ Physically impossible image = pure degree-illustration.</span></p></div>
+      </div>
+      <div class="warn"><span class="w-lbl">⚠ CALIBRATION NOTES</span>
+        <p>① だ can drop when modifying a noun: <ruby>泣<rt class="a">な</rt></ruby>きたい<b>くらい</b>うれしい (so happy I could cry).</p>
+        <p>② くらい and ぐらい are interchangeable here; ほど is a touch more formal. All measure the same thing.</p>
+      </div>
+    </div>
+  </article>
+
+  <!-- 3-2 -->
+  <article class="pt" id="p3-2">
+    <div class="pt-head">
+      <span class="pt-no">3-2</span>
+      <div class="pt-title">
+        <h3>〜くらい…はない／〜ほど…はない</h3>
+        <span class="gloss">nothing is as … as ～ (subjective superlative)</span>
+      </div>
+      <div class="pt-inst"><svg width="70" height="46" viewBox="0 0 70 46" aria-hidden="true"><path d="M11 40 A24 24 0 0 1 59 40" fill="none" stroke="var(--ink)" stroke-width="1.5"/><path d="M49 26 A24 24 0 0 1 59 40" fill="none" stroke="var(--red)" stroke-width="4" opacity=".35"/><line x1="35" y1="40" x2="56" y2="30" stroke="var(--red)" stroke-width="2.5" stroke-linecap="round"/><circle cx="35" cy="40" r="3" fill="var(--ink)"/></svg><span class="cap">MAXIMUM</span></div>
+    </div>
+    <div class="pt-body">
+      <div class="setsu"><span class="k">接続</span>名 ＋ くらい／ぐらい／ほど ＋ …はない・…はいない</div>
+      <div class="core">
+        <p>This pattern pegs the needle at maximum: 「Xくらい〜なものはない」 = <span class="jp-term">X is the most ~ of all</span>. But as the textbook stresses, this is the speaker's <b>subjective judgment, not objective fact</b>. 「富士山ほど美しい山はない」 is my opinion, not a survey result — and voicing a personal superlative is exactly what this pattern is for: "~ is the most … <i>in my book</i>."</p>
+      </div>
+      <div class="exs">
+        <div class="exs-lbl">EXAMPLES — tap to reveal EN</div>
+        <div class="ex" tabindex="0"><p class="jp"><ruby>富士山<rt class="a">ふじさん</rt></ruby>ほど<ruby>美<rt class="c">うつく</rt></ruby>しい<ruby>山<rt class="c">やま</rt></ruby><span class="g">はない</span>と<ruby>思<rt class="c">おも</rt></ruby>う。</p><p class="en">I think no mountain is as beautiful as Mt. Fuji.<span class="nt">※ と思う makes the subjectivity explicit — a natural pairing.</span></p></div>
+        <div class="ex" tabindex="0"><p class="jp"><ruby>母<rt class="c">はは</rt></ruby>の<ruby>手料理<rt class="c">てりょうり</rt></ruby>くらいおいしいもの<span class="g">はない</span>。</p><p class="en">Nothing is as delicious as my mom's home cooking.<span class="nt">※ Clearly opinion, not fact — exactly what this pattern is for.</span></p></div>
+        <div class="ex" tabindex="0"><p class="jp"><ruby>朝<rt class="c">あさ</rt></ruby>の<ruby>満員<rt class="a">まんいん</rt></ruby><ruby>電車<rt class="c">でんしゃ</rt></ruby>ほど<ruby>嫌<rt class="a">いや</rt></ruby>なもの<span class="g">はない</span>。</p><p class="en">Nothing is as unpleasant as a packed morning train.<span class="nt">※ Strong personal feeling — the pattern's home territory.</span></p></div>
+        <div class="ex" tabindex="0"><p class="jp"><ruby>健康<rt class="a">けんこう</rt></ruby>ほど<ruby>大切<rt class="c">たいせつ</rt></ruby>なもの<span class="g">はない</span>。</p><p class="en">Nothing is as precious as your health.<span class="nt">※ Sounds proverbial; still framed as the speaker's judgment.</span></p></div>
+        <div class="ex" tabindex="0"><p class="jp"><ruby>彼女<rt class="c">かのじょ</rt></ruby>くらい<ruby>練習<rt class="a">れんしゅう</rt></ruby>に<ruby>熱心<rt class="a">ねっしん</rt></ruby>な<ruby>学生<rt class="c">がくせい</rt></ruby><span class="g">はいない</span>。</p><p class="en">No student is as dedicated to practice as she is.<span class="nt">※ For people, the negative is はいない, not はない.</span></p></div>
+      </div>
+      <div class="warn"><span class="w-lbl">⚠ CALIBRATION NOTES</span>
+        <p>① People take <span class="o">〜はいない</span>; things take <span class="o">〜はない</span>. <span class="x">✗</span>彼ほど親切な人はない → <span class="o">○</span>彼ほど親切な人はいない。</p>
+        <p>② For objective facts, use plain superlatives instead: 「日本でいちばん<ruby>高<rt class="c">たか</rt></ruby>い山は富士山だ」(fact) vs 「富士山ほどきれいな山はない」(opinion).</p>
+      </div>
+    </div>
+  </article>
+
+  <!-- 3-3 -->
+  <article class="pt" id="p3-3">
+    <div class="pt-head">
+      <span class="pt-no">3-3</span>
+      <div class="pt-title">
+        <h3>〜くらいなら…／〜ぐらいなら…</h3>
+        <span class="gloss">rather than (stoop to) ～, better to …</span>
+      </div>
+      <div class="pt-inst"><svg width="70" height="46" viewBox="0 0 70 46" aria-hidden="true"><path d="M11 40 A24 24 0 0 1 59 40" fill="none" stroke="var(--ink)" stroke-width="1.5"/><path d="M11 40 A24 24 0 0 1 18 23" fill="none" stroke="var(--red)" stroke-width="4" opacity=".35"/><line x1="35" y1="40" x2="13" y2="33" stroke="var(--red)" stroke-width="2.5" stroke-linecap="round"/><circle cx="35" cy="40" r="3" fill="var(--ink)"/></svg><span class="cap">AVERSION</span></div>
+    </div>
+    <div class="pt-body">
+      <div class="setsu"><span class="k">接続</span>動 辞書形 ＋ くらいなら／ぐらいなら（＋ 〜ほうがいい／〜ほうがましだ）</div>
+      <div class="core">
+        <p>"Compared to the <span class="jp-term">rock-bottom scenario</span> of doing X, Y would still be better" — the speaker <b>strongly dislikes X</b>. It typically pairs with <b>〜ほうがいい</b> or <b>〜ほうがましだ</b>; ましだ means "the lesser of two evils" — both options are bad, but Y is less bad. Another subjective-judgment pattern.</p>
+      </div>
+      <div class="exs">
+        <div class="exs-lbl">EXAMPLES — tap to reveal EN</div>
+        <div class="ex" tabindex="0"><p class="jp"><ruby>途中<rt class="a">とちゅう</rt></ruby>でやめる<span class="g">くらいなら</span>、<ruby>最初<rt class="a">さいしょ</rt></ruby>から<ruby>始<rt class="c">はじ</rt></ruby>めないほうがいい。</p><p class="en">If you're going to quit halfway, better not to start at all.<span class="nt">※ Quitting halfway = the despised option X.</span></p></div>
+        <div class="ex" tabindex="0"><p class="jp"><ruby>満員<rt class="a">まんいん</rt></ruby><ruby>電車<rt class="c">でんしゃ</rt></ruby>で<ruby>通勤<rt class="a">つうきん</rt></ruby>する<span class="g">くらいなら</span>、<ruby>一時間<rt class="c">いちじかん</rt></ruby><ruby>早<rt class="c">はや</rt></ruby>く<ruby>起<rt class="c">お</rt></ruby>きて<ruby>歩<rt class="c">ある</rt></ruby>く。</p><p class="en">Rather than commute on a packed train, I'll get up an hour earlier and walk.<span class="nt">※ The main clause can also be a plain declaration of the alternative.</span></p></div>
+        <div class="ex" tabindex="0"><p class="jp">うそをつく<span class="g">くらいなら</span>、<ruby>何<rt class="c">なに</rt></ruby>も<ruby>言<rt class="c">い</rt></ruby>わないほうがましだ。</p><p class="en">Better to say nothing at all than to tell a lie.<span class="nt">※ ましだ: both are bad, silence is less bad.</span></p></div>
+        <div class="ex" tabindex="0"><p class="jp">あの<ruby>人<rt class="c">ひと</rt></ruby>に<ruby>頼<rt class="a">たの</rt></ruby>む<span class="g">くらいなら</span>、<ruby>自分<rt class="c">じぶん</rt></ruby>でやったほうがいい。</p><p class="en">I'd rather do it myself than ask that person.<span class="nt">※ Implies strong reluctance toward asking them.</span></p></div>
+        <div class="ex" tabindex="0"><p class="jp">まずい<ruby>料理<rt class="c">りょうり</rt></ruby>にお<ruby>金<rt class="c">かね</rt></ruby>を<ruby>払<rt class="a">はら</rt></ruby>う<span class="g">くらいなら</span>、<ruby>何<rt class="c">なに</rt></ruby>も<ruby>食<rt class="c">た</rt></ruby>べないほうがましだ。</p><p class="en">Rather than pay for bad food, I'd sooner eat nothing.<span class="nt">※ Exaggerated aversion is natural with this pattern.</span></p></div>
+      </div>
+      <div class="warn"><span class="w-lbl">⚠ CALIBRATION NOTES</span>
+        <p>① This one is <b>くらい only</b>: <span class="x">✗</span>やめるほどなら → <span class="o">○</span>やめるくらいなら。The gauge pair breaks here.</p>
+        <p>② Attaches to the <b>dictionary form</b> of verbs. X must be something the speaker finds clearly undesirable.</p>
+      </div>
+    </div>
+  </article>
+
+  <!-- 3-4 -->
+  <article class="pt" id="p3-4">
+    <div class="pt-head">
+      <span class="pt-no">3-4</span>
+      <div class="pt-title">
+        <h3>〜に<ruby>限<rt class="a">かぎ</rt></ruby>る</h3>
+        <span class="gloss">～ is the best / nothing beats ～</span>
+      </div>
+      <div class="pt-inst"><svg width="70" height="46" viewBox="0 0 70 46" aria-hidden="true"><path d="M11 40 A24 24 0 0 1 59 40" fill="none" stroke="var(--ink)" stroke-width="1.5"/><line x1="35" y1="40" x2="35" y2="18" stroke="var(--red)" stroke-width="2.5" stroke-linecap="round"/><circle cx="35" cy="40" r="3" fill="var(--ink)"/><circle cx="35" cy="14" r="4" fill="none" stroke="var(--brass)" stroke-width="1.5"/></svg><span class="cap">OPTIMUM</span></div>
+    </div>
+    <div class="pt-body">
+      <div class="setsu"><span class="k">接続</span>名／動 辞書形・ない形 ＋ に限る</div>
+      <div class="core">
+        <p>States the <span class="jp-term">speaker's verdict</span>: "~ is the best" / "~ is the best method（<ruby>方法<rt class="a">ほうほう</rt></ruby>）." It carries a from-experience, "trust me, nothing beats it" flavor, so it shows up constantly in advice and personal mottos. Once again a <b>subjective judgment</b>, not objective fact — the unifying theme of every Lesson 3 pattern.</p>
+      </div>
+      <div class="exs">
+        <div class="exs-lbl">EXAMPLES — tap to reveal EN</div>
+        <div class="ex" tabindex="0"><p class="jp"><ruby>疲<rt class="a">つか</rt></ruby>れた<ruby>日<rt class="c">ひ</rt></ruby>は、<ruby>早<rt class="c">はや</rt></ruby>く<ruby>寝<rt class="c">ね</rt></ruby>る<span class="g">に限る</span>。</p><p class="en">On exhausting days, nothing beats going to bed early.<span class="nt">※ Verb dictionary form + に限る, no の in between.</span></p></div>
+        <div class="ex" tabindex="0"><p class="jp"><ruby>夏<rt class="c">なつ</rt></ruby>はやっぱり<ruby>冷<rt class="c">つめ</rt></ruby>たいビール<span class="g">に限る</span>。</p><p class="en">In summer, nothing beats a cold beer.<span class="nt">※ やっぱり pairs naturally — "as I always say…"</span></p></div>
+        <div class="ex" tabindex="0"><p class="jp"><ruby>風邪<rt class="a">かぜ</rt></ruby>をひいたときは、<ruby>無理<rt class="a">むり</rt></ruby>をしない<span class="g">に限る</span>。</p><p class="en">When you catch a cold, the best thing is not to push yourself.<span class="nt">※ ない形 works too: "not doing X is best."</span></p></div>
+        <div class="ex" tabindex="0"><p class="jp">ストレス<ruby>解消<rt class="a">かいしょう</rt></ruby>には、カラオケ<span class="g">に限る</span>。</p><p class="en">For stress relief, karaoke is the way to go.<span class="nt">※ Noun attaches directly.</span></p></div>
+        <div class="ex" tabindex="0"><p class="jp"><ruby>迷<rt class="a">まよ</rt></ruby>ったときは、<ruby>経験者<rt class="a">けいけんしゃ</rt></ruby>に<ruby>相談<rt class="a">そうだん</rt></ruby>する<span class="g">に限る</span>。</p><p class="en">When in doubt, the best move is to ask someone with experience.<span class="nt">※ Classic advice-giving tone.</span></p></div>
+      </div>
+      <div class="warn"><span class="w-lbl">⚠ CALIBRATION NOTES</span>
+        <p>① Don't confuse with lookalikes: <b>〜に限って</b> (「うちの子に限って…」 "my child, of all people, would never…") and <b>〜とは限らない</b> ("not necessarily") are <span class="x">different grammar</span> with different meanings.</p>
+        <p>② に限る states your verdict; 〜がいちばんいい states a comparison result. They overlap, but に限る sounds like a personal motto.</p>
+      </div>
+    </div>
+  </article>
+</section>
+
+<!-- ==================== COMPARISON: くらい vs ほど ==================== -->
+<div class="compare">
+  <div class="cmp-in">
+    <h3>較正表①　くらい ⇄ ほど</h3>
+    <div class="sub">WHEN ARE THEY INTERCHANGEABLE?</div>
+    <div class="cmp-tbl-wrap">
+    <table class="cmp-tbl">
+      <tr><th>Pattern</th><th>くらい</th><th>ほど</th><th>Notes</th></tr>
+      <tr><td>Degree illustration（〜くらいだ）</td><td class="ok">○</td><td class="ok">○</td><td>ほど is slightly more formal / written</td></tr>
+      <tr><td>Superlative（〜…はない）</td><td class="ok">○</td><td class="ok">○</td><td>Both fine; both subjective</td></tr>
+      <tr><td>〜なら (vs a hated option)</td><td class="ok">○ くらいなら</td><td class="no">✗ ほどなら</td><td>くらい only</td></tr>
+      <tr><td>AはBほど〜ない (plain comparison)</td><td class="no">✗</td><td class="ok">○</td><td>"A is not as ~ as B" — ほど only</td></tr>
+      <tr><td>Trivial degree ("at least ~")</td><td class="ok">○ あいさつくらいしなさい</td><td class="no">✗</td><td>Trivial-degree くらい ("at least")</td></tr>
+    </table>
+    </div>
+    <p class="cmp-note">Rule of thumb: overlapping in the middle of the gauge, but the extremes split — <b>low/trivial degree → くらい</b>, <b>plain comparison &amp; formal writing → ほど</b>.</p>
+  </div>
+</div>
+
+<!-- ==================== LESSON 4 ==================== -->
+<section class="lesson l4" id="lesson4">
+  <div class="lsn-head">
+    <span class="lsn-no">第4課</span>
+    <h2>〜とは<ruby>違<rt class="a">ちが</rt></ruby>って</h2>
+    <span class="en">INSTRUMENT CLASS: CONTRAST BALANCE</span>
+  </div>
+  <p class="lsn-intro">The five patterns here are all <b>contrast balances</b> — but each puts something different on the scale: ① weighs <b>two separate things</b> against each other, ②③ examine <b>two faces of one and the same thing</b>, ④ <b>re-labels</b> a way of saying something, ⑤ marks an <b>exchange or substitution</b>. Telling ①–③ apart is one of the biggest trap zones in all of N3.</p>
+
+  <!-- 4-1 -->
+  <article class="pt" id="p4-1">
+    <div class="pt-head">
+      <span class="pt-no">4-1</span>
+      <div class="pt-title">
+        <h3>〜に<ruby>対<rt class="a">たい</rt></ruby>して…</h3>
+        <span class="gloss">in contrast to ～ (two different things)</span>
+      </div>
+      <div class="pt-inst"><svg width="70" height="46" viewBox="0 0 70 46" aria-hidden="true"><polygon points="35,38 31,44 39,44" fill="var(--ink)"/><line x1="13" y1="14" x2="57" y2="26" stroke="var(--ink)" stroke-width="1.5"/><circle cx="13" cy="19" r="5" fill="none" stroke="var(--teal)" stroke-width="1.8"/><rect x="52" y="27" width="10" height="10" fill="none" stroke="var(--teal)" stroke-width="1.8"/><line x1="35" y1="20" x2="35" y2="38" stroke="var(--ink)" stroke-width="1.5"/></svg><span class="cap">A ⇄ B</span></div>
+    </div>
+    <div class="pt-body">
+      <div class="setsu"><span class="k">接続</span>普通形（ナ形 -な／-である・名 -な／-である）＋ <b>の</b>に対して　／　名 ＋ に対して</div>
+      <div class="core">
+        <p>Clearly contrasts <span class="jp-term">two separate things</span> (A vs B), setting them face to face — Tokyo vs Osaka, older brother vs younger brother, Japan vs the Philippines. Picture <b>different objects on each pan</b> of the balance. The telltale sign: the sentence has <b>two subjects</b>. Best suited to relatively <b>objective</b> contrasts anyone could observe.</p>
+      </div>
+      <div class="exs">
+        <div class="exs-lbl">EXAMPLES — tap to reveal EN</div>
+        <div class="ex" tabindex="0"><p class="jp"><ruby>兄<rt class="c">あに</rt></ruby>がスポーツが<ruby>得意<rt class="a">とくい</rt></ruby>な<span class="g">のに対して</span>、<ruby>弟<rt class="c">おとうと</rt></ruby>は<ruby>音楽<rt class="c">おんがく</rt></ruby>が得意だ。</p><p class="en">While my older brother is good at sports, my younger brother is good at music.<span class="nt">※ Two different people = に対して territory.</span></p></div>
+        <div class="ex" tabindex="0"><p class="jp"><ruby>東京<rt class="c">とうきょう</rt></ruby>の<ruby>冬<rt class="c">ふゆ</rt></ruby>は<ruby>乾燥<rt class="a">かんそう</rt></ruby>している<span class="g">のに対して</span>、<ruby>日本海側<rt class="a">にほんかいがわ</rt></ruby>は<ruby>雪<rt class="c">ゆき</rt></ruby>が<ruby>多<rt class="c">おお</rt></ruby>い。</p><p class="en">Winters in Tokyo are dry, whereas the Sea of Japan side gets heavy snow.<span class="nt">※ Two regions, objectively contrasted.</span></p></div>
+        <div class="ex" tabindex="0"><p class="jp"><ruby>日本<rt class="c">にほん</rt></ruby>では<ruby>車<rt class="c">くるま</rt></ruby>は<ruby>左側<rt class="a">ひだりがわ</rt></ruby>を<ruby>走<rt class="c">はし</rt></ruby>る<span class="g">のに対して</span>、フィリピンでは<ruby>右側<rt class="a">みぎがわ</rt></ruby>を走る。</p><p class="en">In Japan cars drive on the left, whereas in the Philippines they drive on the right.<span class="nt">※ A contrast you already know from experience.</span></p></div>
+        <div class="ex" tabindex="0"><p class="jp"><ruby>姉<rt class="c">あね</rt></ruby>が<ruby>静<rt class="c">しず</rt></ruby>かな<ruby>性格<rt class="a">せいかく</rt></ruby>である<span class="g">のに対して</span>、<ruby>妹<rt class="c">いもうと</rt></ruby>はとてもにぎやかだ。</p><p class="en">My older sister has a quiet personality, whereas my younger sister is very lively.<span class="nt">※ Note the formal -である connection for ナ形/名.</span></p></div>
+        <div class="ex" tabindex="0"><p class="jp"><ruby>先月<rt class="c">せんげつ</rt></ruby>は<ruby>雨<rt class="c">あめ</rt></ruby>が多かった<span class="g">のに対して</span>、<ruby>今月<rt class="c">こんげつ</rt></ruby>はほとんど<ruby>降<rt class="c">ふ</rt></ruby>っていない。</p><p class="en">Last month it rained a lot; this month it has barely rained at all.<span class="nt">※ それに対して can also start a new sentence: 「…。それに対して、…」</span></p></div>
+      </div>
+      <div class="warn"><span class="w-lbl">⚠ CALIBRATION NOTES</span>
+        <p>① Don't forget the <b>の</b>: <span class="x">✗</span>得意なに対して → <span class="o">○</span>得意な<b>の</b>に対して。(Nouns attach directly: 兄に対して.)</p>
+        <p>② に対して has a second, unrelated meaning: "toward / regarding" a target（お<ruby>客<rt class="a">きゃく</rt></ruby>さんに対して<ruby>失礼<rt class="a">しつれい</rt></ruby>だ）. This lesson covers only the <b>contrast</b> meaning — read the sentence to decide which one you're seeing.</p>
+      </div>
+    </div>
+  </article>
+
+  <!-- 4-2 -->
+  <article class="pt" id="p4-2">
+    <div class="pt-head">
+      <span class="pt-no">4-2</span>
+      <div class="pt-title">
+        <h3>〜<ruby>反面<rt class="a">はんめん</rt></ruby>…</h3>
+        <span class="gloss">～, but on the other hand … (two sides of ONE thing)</span>
+      </div>
+      <div class="pt-inst"><svg width="70" height="46" viewBox="0 0 70 46" aria-hidden="true"><circle cx="35" cy="23" r="16" fill="none" stroke="var(--ink)" stroke-width="1.5"/><path d="M35 7 A16 16 0 0 1 35 39 Z" fill="var(--teal)" opacity=".3"/><line x1="35" y1="7" x2="35" y2="39" stroke="var(--ink)" stroke-width="1.5"/></svg><span class="cap">ONE COIN</span></div>
+    </div>
+    <div class="pt-body">
+      <div class="setsu"><span class="k">接続</span>普通形（ナ形 -な／-である・名 -である）＋ 反面</div>
+      <div class="core">
+        <p>Describes the <b>two opposing sides</b> — usually a plus and a minus — of <span class="jp-term">one and the same thing</span>. Not a balance scale but <b>one coin, two faces</b>: "city life" is a single topic that is both interesting (front) and stressful (back). The telltale sign: only <b>one subject</b>.</p>
+      </div>
+      <div class="exs">
+        <div class="exs-lbl">EXAMPLES — tap to reveal EN</div>
+        <div class="ex" tabindex="0"><p class="jp"><ruby>都会<rt class="a">とかい</rt></ruby>の<ruby>生活<rt class="c">せいかつ</rt></ruby>は<ruby>便利<rt class="c">べんり</rt></ruby>な<span class="g">反面</span>、お<ruby>金<rt class="c">かね</rt></ruby>がかかる。</p><p class="en">City life is convenient, but on the flip side, it's expensive.<span class="nt">※ One topic (city life), plus side + minus side.</span></p></div>
+        <div class="ex" tabindex="0"><p class="jp">この<ruby>仕事<rt class="c">しごと</rt></ruby>は<ruby>給料<rt class="a">きゅうりょう</rt></ruby>がいい<span class="g">反面</span>、<ruby>残業<rt class="a">ざんぎょう</rt></ruby>が<ruby>多<rt class="c">おお</rt></ruby>い。</p><p class="en">This job pays well, but on the other hand there's a lot of overtime.<span class="nt">※ The classic trade-off sentence — perfect 反面 territory.</span></p></div>
+        <div class="ex" tabindex="0"><p class="jp">ネットショッピングは<ruby>楽<rt class="c">らく</rt></ruby>な<span class="g">反面</span>、<ruby>失敗<rt class="a">しっぱい</rt></ruby>も<ruby>多<rt class="c">おお</rt></ruby>い。</p><p class="en">Online shopping is easy, but it also comes with a lot of misses.<span class="nt">※ ナ形 + な + 反面.</span></p></div>
+        <div class="ex" tabindex="0"><p class="jp"><ruby>彼<rt class="c">かれ</rt></ruby>は<ruby>厳<rt class="a">きび</rt></ruby>しい<span class="g">反面</span>、<ruby>優<rt class="a">やさ</rt></ruby>しいところもある。</p><p class="en">He's strict, but he also has a kind side.<span class="nt">※ Same person, two contrasting traits.</span></p></div>
+        <div class="ex" tabindex="0"><p class="jp"><ruby>一人暮<rt class="a">ひとりぐ</rt></ruby>らしは<ruby>自由<rt class="a">じゆう</rt></ruby>な<span class="g">反面</span>、<ruby>寂<rt class="a">さび</rt></ruby>しいこともある。</p><p class="en">Living alone is freeing, but on the other hand it can get lonely.<span class="nt">※ Both faces of the same lifestyle.</span></p></div>
+      </div>
+      <div class="warn"><span class="w-lbl">⚠ CALIBRATION NOTES</span>
+        <p>① 反面 needs <b>one subject with two aspects</b>. Two different subjects → use に対して instead: <span class="x">✗</span>兄は<ruby>背<rt class="a">せ</rt></ruby>が高い反面、弟は低い → <span class="o">○</span>兄が背が高いのに対して、弟は低い。</p>
+        <p>② The two aspects usually pull in opposite directions (good ⇄ bad). Two merits or two flaws sound odd with 反面.</p>
+      </div>
+    </div>
+  </article>
+
+  <!-- 4-3 -->
+  <article class="pt" id="p4-3">
+    <div class="pt-head">
+      <span class="pt-no">4-3</span>
+      <div class="pt-title">
+        <h3>〜<ruby>一方<rt class="a">いっぽう</rt></ruby>（で）…</h3>
+        <span class="gloss">while / whereas / at the same time …</span>
+      </div>
+      <div class="pt-inst"><svg width="70" height="46" viewBox="0 0 70 46" aria-hidden="true"><line x1="12" y1="17" x2="52" y2="17" stroke="var(--teal)" stroke-width="2"/><polygon points="52,13 60,17 52,21" fill="var(--teal)"/><line x1="18" y1="31" x2="58" y2="31" stroke="var(--ink)" stroke-width="2"/><polygon points="18,27 10,31 18,35" fill="var(--ink)"/></svg><span class="cap">PARALLEL</span></div>
+    </div>
+    <div class="pt-body">
+      <div class="setsu"><span class="k">接続</span>普通形（ナ形 -な／-である・名 -である）＋ 一方（で）</div>
+      <div class="core">
+        <p>The contrast pattern with the <span class="jp-term">widest coverage</span>. It handles ① two opposing aspects (≈ 反面) <b>and</b> ② two things happening <b>in parallel at the same time</b> — 「働く一方で、勉強もしている」 is not a conflict, just "doing B alongside A," which 反面 cannot express. Very frequent in written and news-style Japanese.</p>
+      </div>
+      <div class="exs">
+        <div class="exs-lbl">EXAMPLES — tap to reveal EN</div>
+        <div class="ex" tabindex="0"><p class="jp"><ruby>彼<rt class="c">かれ</rt></ruby>は<ruby>会社<rt class="c">かいしゃ</rt></ruby>で<ruby>働<rt class="c">はたら</rt></ruby>く<span class="g">一方で</span>、<ruby>大学院<rt class="a">だいがくいん</rt></ruby>でも<ruby>勉強<rt class="c">べんきょう</rt></ruby>している。</p><p class="en">He works at a company while also studying in grad school.<span class="nt">※ Not a conflict — two parallel activities. 反面 can't do this.</span></p></div>
+        <div class="ex" tabindex="0"><p class="jp"><ruby>物価<rt class="a">ぶっか</rt></ruby>が<ruby>上<rt class="c">あ</rt></ruby>がる<span class="g">一方で</span>、<ruby>給料<rt class="a">きゅうりょう</rt></ruby>はなかなか上がらない。</p><p class="en">Prices keep rising, while salaries barely rise at all.<span class="nt">※ News-style contrast between two trends.</span></p></div>
+        <div class="ex" tabindex="0"><p class="jp">スマホは<ruby>便利<rt class="c">べんり</rt></ruby>な<span class="g">一方で</span>、<ruby>目<rt class="c">め</rt></ruby>が<ruby>悪<rt class="c">わる</rt></ruby>くなる<ruby>原因<rt class="a">げんいん</rt></ruby>にもなる。</p><p class="en">Smartphones are convenient, but at the same time they can damage your eyesight.<span class="nt">※ Here it's interchangeable with 反面.</span></p></div>
+        <div class="ex" tabindex="0"><p class="jp"><ruby>甘<rt class="a">あま</rt></ruby>いものが<ruby>好<rt class="c">す</rt></ruby>きな<ruby>人<rt class="c">ひと</rt></ruby>がいる<span class="g">一方で</span>、<ruby>苦手<rt class="a">にがて</rt></ruby>な人もいる。</p><p class="en">Some people love sweets, while others can't stand them.<span class="nt">※ Two groups contrasted — closer to に対して's job, and 一方 handles it fine.</span></p></div>
+        <div class="ex" tabindex="0"><p class="jp"><ruby>会議<rt class="a">かいぎ</rt></ruby>では<ruby>自分<rt class="c">じぶん</rt></ruby>の<ruby>意見<rt class="a">いけん</rt></ruby>を<ruby>言<rt class="c">い</rt></ruby>う<span class="g">一方で</span>、ほかの<ruby>人<rt class="c">ひと</rt></ruby>の<ruby>話<rt class="c">はなし</rt></ruby>もよく<ruby>聞<rt class="c">き</rt></ruby>いてください。</p><p class="en">In meetings, share your own opinions, but also listen carefully to others.<span class="nt">※ "Do both" — the parallel/simultaneous use again.</span></p></div>
+      </div>
+      <div class="warn"><span class="w-lbl">⚠ CALIBRATION NOTES</span>
+        <p>① Sentence-<b>final</b> 〜一方だ is <span class="x">different grammar</span>: 「<ruby>人口<rt class="a">じんこう</rt></ruby>は<ruby>減<rt class="a">へ</rt></ruby>る一方だ」= "keeps on decreasing" (one-way trend). Position tells you which one you're reading.</p>
+        <p>② When the meaning is "two opposing aspects," 一方（で） ≒ 反面 and both work（教科書の③④参照）. When the meaning is "doing B alongside A," only 一方（で） works.</p>
+      </div>
+    </div>
+  </article>
+
+  <!-- 4-4 -->
+  <article class="pt" id="p4-4">
+    <div class="pt-head">
+      <span class="pt-no">4-4</span>
+      <div class="pt-title">
+        <h3>〜というより…</h3>
+        <span class="gloss">rather than (calling it) ～, it's more like …</span>
+      </div>
+      <div class="pt-inst"><svg width="70" height="46" viewBox="0 0 70 46" aria-hidden="true"><line x1="12" y1="36" x2="58" y2="36" stroke="var(--ink)" stroke-width="1.5"/><line x1="20" y1="32" x2="20" y2="40" stroke="var(--ink)"/><line x1="50" y1="32" x2="50" y2="40" stroke="var(--ink)"/><path d="M20 30 Q35 8 48 27" fill="none" stroke="var(--teal)" stroke-width="2"/><polygon points="44,26 50,30 46,21" fill="var(--teal)"/></svg><span class="cap">RE-LABEL</span></div>
+    </div>
+    <div class="pt-body">
+      <div class="setsu"><span class="k">接続</span>比較のために<ruby>取<rt class="c">と</rt></ruby>り<ruby>上<rt class="c">あ</rt></ruby>げる<ruby>言葉<rt class="c">ことば</rt></ruby>（そのままの<ruby>形<rt class="c">かたち</rt></ruby>）＋ というより</div>
+      <div class="core">
+        <p>Compares not two things but <span class="jp-term">two ways of putting it</span>: "rather than calling it X, Y is the more <b>accurate</b> description." Picture peeling off a label and sticking on a better one — "he's not so much a singer as a comedian." You re-measure, then re-label to the truer mark.</p>
+      </div>
+      <div class="exs">
+        <div class="exs-lbl">EXAMPLES — tap to reveal EN</div>
+        <div class="ex" tabindex="0"><p class="jp"><ruby>彼<rt class="c">かれ</rt></ruby>は<ruby>歌手<rt class="a">かしゅ</rt></ruby><span class="g">というより</span>、<ruby>芸人<rt class="a">げいにん</rt></ruby>みたいだ。</p><p class="en">He's less a singer than a comedian, really.<span class="nt">※ Correcting the label 歌手 → 芸人.</span></p></div>
+        <div class="ex" tabindex="0"><p class="jp">この<ruby>部屋<rt class="c">へや</rt></ruby>は<ruby>涼<rt class="a">すず</rt></ruby>しい<span class="g">というより</span>、<ruby>寒<rt class="c">さむ</rt></ruby>いくらいだ。</p><p class="en">This room isn't so much cool as downright cold.<span class="nt">※ Bonus: combines with Lesson 3's 〜くらいだ.</span></p></div>
+        <div class="ex" tabindex="0"><p class="jp">あの<ruby>二人<rt class="c">ふたり</rt></ruby>は<ruby>夫婦<rt class="a">ふうふ</rt></ruby><span class="g">というより</span>、<ruby>友<rt class="c">とも</rt></ruby>だちのように<ruby>見<rt class="c">み</rt></ruby>える。</p><p class="en">Those two seem more like friends than a married couple.<span class="nt">※ Often paired with みたいだ／ようだ.</span></p></div>
+        <div class="ex" tabindex="0"><p class="jp"><ruby>歩<rt class="c">ある</rt></ruby>いていた<span class="g">というより</span>、<ruby>走<rt class="c">はし</rt></ruby>っていたと<ruby>言<rt class="c">い</rt></ruby>ったほうがいいスピードだった。</p><p class="en">At that speed, "running" would be more accurate than "walking."<span class="nt">※ Any word/phrase can be taken up as-is for re-labeling.</span></p></div>
+        <div class="ex" tabindex="0"><p class="jp">それは<ruby>注意<rt class="c">ちゅうい</rt></ruby><span class="g">というより</span>、<ruby>命令<rt class="a">めいれい</rt></ruby>だった。</p><p class="en">That wasn't so much a warning as an order.<span class="nt">※ Echoes the textbook's 頼まれたというより命令された.</span></p></div>
+      </div>
+      <div class="warn"><span class="w-lbl">⚠ CALIBRATION NOTES</span>
+        <p>① Plain より compares two things（バスより電車のほうが速い）; <b>というより</b> compares two <b>ways of putting it</b>. If you can insert "calling it" in English, it's というより.</p>
+        <p>② The corrected label comes <b>after</b>: X というより Y ＝ Y is the better description.</p>
+      </div>
+    </div>
+  </article>
+
+  <!-- 4-5 -->
+  <article class="pt" id="p4-5">
+    <div class="pt-head">
+      <span class="pt-no">4-5</span>
+      <div class="pt-title">
+        <h3>〜かわりに…</h3>
+        <span class="gloss">in exchange for ～ / instead of ～</span>
+      </div>
+      <div class="pt-inst"><svg width="70" height="46" viewBox="0 0 70 46" aria-hidden="true"><line x1="14" y1="17" x2="50" y2="17" stroke="var(--teal)" stroke-width="2"/><polygon points="50,13 58,17 50,21" fill="var(--teal)"/><line x1="20" y1="31" x2="56" y2="31" stroke="var(--brass)" stroke-width="2"/><polygon points="20,27 12,31 20,35" fill="var(--brass)"/></svg><span class="cap">EXCHANGE</span></div>
+    </div>
+    <div class="pt-body">
+      <div class="setsu"><span class="k">接続</span>動・形 普通形（ナ形 -な）＋ かわりに　／　名 ＋ の ＋ かわりに</div>
+      <div class="core">
+        <p>Two uses. <b>① Exchange / compensation</b>: "X is true, but in return there is Y of roughly equal weight" — a minus balanced out by a plus. <b>② Substitution</b>: "skip the usual X and do Y of equivalent value instead." Either way the core idea is <span class="jp-term">balance — things trading off evenly</span>.</p>
+      </div>
+      <div class="exs">
+        <div class="exs-lbl">EXAMPLES — tap to reveal EN</div>
+        <div class="ex" tabindex="0"><p class="jp">このアパートは<ruby>駅<rt class="c">えき</rt></ruby>から<ruby>遠<rt class="c">とお</rt></ruby>い<span class="g">かわりに</span>、<ruby>家賃<rt class="a">やちん</rt></ruby>が<ruby>安<rt class="c">やす</rt></ruby>い。</p><p class="en">This apartment is far from the station, but in exchange the rent is cheap.<span class="nt">※ Use ① — a minus balanced by a plus.</span></p></div>
+        <div class="ex" tabindex="0"><p class="jp"><ruby>父<rt class="c">ちち</rt></ruby>は<ruby>平日<rt class="a">へいじつ</rt></ruby><ruby>忙<rt class="a">いそが</rt></ruby>しい<span class="g">かわりに</span>、<ruby>週末<rt class="a">しゅうまつ</rt></ruby>は<ruby>家族<rt class="c">かぞく</rt></ruby>と<ruby>過<rt class="a">す</rt></ruby>ごすようにしている。</p><p class="en">My dad is busy on weekdays, but to make up for it he spends weekends with the family.<span class="nt">※ Compensation — paying back the minus.</span></p></div>
+        <div class="ex" tabindex="0"><p class="jp"><ruby>日本語<rt class="c">にほんご</rt></ruby>を<ruby>教<rt class="c">おし</rt></ruby>えてもらう<span class="g">かわりに</span>、<ruby>英語<rt class="c">えいご</rt></ruby>を教えてあげている。</p><p class="en">In exchange for being taught Japanese, I teach them English.<span class="nt">※ A clean two-way trade — like a language exchange partner.</span></p></div>
+        <div class="ex" tabindex="0"><p class="jp"><ruby>今年<rt class="c">ことし</rt></ruby>は<ruby>旅行<rt class="c">りょこう</rt></ruby>に<ruby>行<rt class="c">い</rt></ruby>く<span class="g">かわりに</span>、<ruby>新<rt class="c">あたら</rt></ruby>しいパソコンを<ruby>買<rt class="c">か</rt></ruby>うことにした。</p><p class="en">Instead of traveling this year, I decided to buy a new computer.<span class="nt">※ Use ② — skip the usual thing, do something of equal value.</span></p></div>
+        <div class="ex" tabindex="0"><p class="jp"><ruby>電話<rt class="c">でんわ</rt></ruby>する<span class="g">かわりに</span>、メールで<ruby>連絡<rt class="a">れんらく</rt></ruby>した。</p><p class="en">Instead of calling, I got in touch by email.<span class="nt">※ Substitution of one action for an equivalent one.</span></p></div>
+      </div>
+      <div class="warn"><span class="w-lbl">⚠ CALIBRATION NOTES</span>
+        <p>① かわりに vs 反面: both can frame plus/minus, but かわりに implies <b>exchange / balancing out</b>; 反面 just observes two sides with no sense of trade.</p>
+        <p>② Nouns need の: <span class="o">○</span>バター<b>の</b>かわりにマーガリンを使う。</p>
+      </div>
+    </div>
+  </article>
+</section>
+
+<!-- ==================== COMPARISON: contrast family ==================== -->
+<div class="compare">
+  <div class="cmp-in">
+    <h3>較正表②　The Contrast Family — Telling Them Apart</h3>
+    <div class="sub">に対して × 反面 × 一方（で） × かわりに — WHICH BALANCE?</div>
+    <div class="cmp-tbl-wrap">
+    <table class="cmp-tbl">
+      <tr><th>Pattern</th><th>What goes on the scale</th><th>Nuance</th><th>Quick test</th></tr>
+      <tr><td>〜に対して</td><td><b>Two separate things</b> (A vs B)</td><td>Objective, clear-cut contrast</td><td>Two subjects in the sentence? → ○</td></tr>
+      <tr><td>〜反面</td><td><b>Two faces of one thing</b></td><td>Plus side ⇄ minus side</td><td>One thing's merit AND flaw? → ○</td></tr>
+      <tr><td>〜一方（で）</td><td>Either of the above ＋ <b>parallel actions</b></td><td>Written / news register, widest range</td><td>Also works for "doing B alongside A"</td></tr>
+      <tr><td>〜かわりに</td><td>A balanced <b>exchange</b></td><td>"In return" — a sense of trade</td><td>Translatable as "trade / make up for"? → ○</td></tr>
+    </table>
+    </div>
+    <p class="cmp-note">When stuck, <b>count the subjects</b>: two separate things → <b>に対して</b>; one thing's two sides → <b>反面</b>; either / simultaneous actions → <b>一方で</b>; a sense of trade → <b>かわりに</b>. The classic exam trap is making you choose between 反面 and に対して.</p>
+  </div>
+</div>
+
+<!-- ==================== SELF-CHECK QUIZ ==================== -->
+<section id="quiz">
+  <div class="qz-head">
+    <h2>自己検定 — Self-Check</h2>
+    <span class="cnt" id="qCount">0 / 20 answered</span>
+  </div>
+  <p class="lsn-intro" style="margin-top:14px">Both lessons mixed, 20 questions — pick the <b>single most appropriate</b> option for each. Doing this in TEST mode (furigana off) doubles as kanji-recognition training.</p>
+  <div id="qlist"></div>
+  <div id="score">
+    <div class="s-lbl">CALIBRATION RESULT</div>
+    <div class="s-val"><span id="sNum">0</span> / 20</div>
+    <p class="s-msg" id="sMsg"></p>
+    <button id="sReset">RESET — もう一度</button>
+  </div>
+</section>
+
+<footer>
+  <div class="foot-in">
+    <span>実力養成編 · 第1部 文の文法 I · 課 3–4</span>
+    <span>FIELD MANUAL — MEASURE &amp; CONTRAST</span>
+  </div>
+</footer>
+
+<script>
+/* ---------- furigana modes ---------- */
+const furiBtns=document.querySelectorAll('.furi-switch button');
+furiBtns.forEach(b=>b.addEventListener('click',()=>{
+  document.body.dataset.furi=b.dataset.mode;
+  furiBtns.forEach(x=>x.classList.toggle('on',x===b));
+}));
+/* tap-to-peek in TEST mode */
+document.addEventListener('click',e=>{
+  if(document.body.dataset.furi!=='off')return;
+  const r=e.target.closest('ruby');
+  if(r)r.classList.toggle('peek');
+});
+
+/* ---------- example EN toggle ---------- */
+document.querySelectorAll('.ex').forEach(ex=>{
+  const toggle=e=>{
+    if(e.target.closest('ruby')&&document.body.dataset.furi==='off')return;
+    ex.classList.toggle('open');
+  };
+  ex.addEventListener('click',toggle);
+  ex.addEventListener('keydown',e=>{if(e.key==='Enter'||e.key===' '){e.preventDefault();ex.classList.toggle('open');}});
+});
+
+/* ---------- scroll ruler ---------- */
+const fill=document.getElementById('rulerFill');
+addEventListener('scroll',()=>{
+  const h=document.documentElement;
+  fill.style.width=(h.scrollTop/(h.scrollHeight-h.clientHeight)*100)+'%';
+},{passive:true});
+
+/* ---------- quiz ---------- */
+const QUIZ=[
+{q:'こんなにまずい<ruby>料理<rt class="c">りょうり</rt></ruby>を<ruby>食<rt class="c">た</rt></ruby>べる_____、<ruby>何<rt class="c">なに</rt></ruby>も食べないほうがましだ。',o:['ほど','くらいなら','に対して','反面'],a:1,e:'A strongly disliked X + 〜ほうがましだ → くらいなら. The form ほどなら does not exist.'},
+{q:'<ruby>彼女<rt class="c">かのじょ</rt></ruby>_____ピアノが<ruby>上手<rt class="c">じょうず</rt></ruby>な<ruby>人<rt class="c">ひと</rt></ruby>はいない。',o:['くらい','というより','かわりに','一方で'],a:0,e:'Subjective superlative 〜くらい…はいない — the speaker judges her to be the best.'},
+{q:'<ruby>疲<rt class="a">つか</rt></ruby>れたときは、<ruby>早<rt class="c">はや</rt></ruby>く<ruby>寝<rt class="c">ね</rt></ruby>る_____。',o:['に対して','一方だ','に限る','反面だ'],a:2,e:'A personal verdict that this is the best thing to do → に限る. 一方だ would mean a one-way trend (keeps on ~ing) — different grammar.'},
+{q:'<ruby>兄<rt class="c">あに</rt></ruby>は<ruby>背<rt class="a">せ</rt></ruby>が<ruby>高<rt class="c">たか</rt></ruby>いの_____、<ruby>弟<rt class="c">おとうと</rt></ruby>は<ruby>低<rt class="a">ひく</rt></ruby>い。',o:['反面','に対して','に限って','くらいなら'],a:1,e:'兄 and 弟 are two separate people → のに対して. 反面 needs one thing with two sides, so it fails here.'},
+{q:'この<ruby>薬<rt class="c">くすり</rt></ruby>はよく<ruby>効<rt class="a">き</rt></ruby>く_____、<ruby>眠<rt class="a">ねむ</rt></ruby>くなるという<ruby>欠点<rt class="a">けってん</rt></ruby>がある。',o:['に対して','反面','くらいなら','というより'],a:1,e:'One thing (this medicine) with a plus side and a minus side → 反面.'},
+{q:'<ruby>今日<rt class="c">きょう</rt></ruby>は<ruby>寒<rt class="c">さむ</rt></ruby>くて、コートをもう<ruby>一枚<rt class="c">いちまい</rt></ruby><ruby>着<rt class="c">き</rt></ruby>たい_____だ。',o:['くらい','反面','一方','かわり'],a:0,e:'Measuring the cold with a vivid image (wanting one more coat) → くらいだ. Whether you actually wore it is irrelevant.'},
+{q:'<ruby>彼<rt class="c">かれ</rt></ruby>は<ruby>先生<rt class="c">せんせい</rt></ruby>_____、<ruby>友<rt class="c">とも</rt></ruby>だちのような<ruby>存在<rt class="a">そんざい</rt></ruby>だ。',o:['ほど','というより','に対して','くらいなら'],a:1,e:'The label 友だち fits better than 先生 — re-labeling a way of putting it → というより.'},
+{q:'<ruby>渋滞<rt class="a">じゅうたい</rt></ruby>の<ruby>中<rt class="c">なか</rt></ruby>を<ruby>車<rt class="c">くるま</rt></ruby>で<ruby>行<rt class="c">い</rt></ruby>く_____、<ruby>電車<rt class="c">でんしゃ</rt></ruby>で行ったほうがいい。',o:['ほど','くらいなら','一方で','に限り'],a:1,e:'A disliked option (driving through a traffic jam) vs a better alternative → くらいなら.'},
+{q:'<ruby>都会<rt class="a">とかい</rt></ruby>の<ruby>生活<rt class="c">せいかつ</rt></ruby>は<ruby>便利<rt class="c">べんり</rt></ruby>な_____、<ruby>物価<rt class="a">ぶっか</rt></ruby>が高い。',o:['一方で','に限り','くらいなら','というより'],a:0,e:'One thing, two sides. Among these options 一方で is the answer (反面 would also work here, but it is not offered).'},
+{q:'<ruby>昨日<rt class="c">きのう</rt></ruby>は<ruby>大雨<rt class="c">おおあめ</rt></ruby>だったの_____、今日はいい<ruby>天気<rt class="c">てんき</rt></ruby>だ。',o:['反面','に対して','かわりに','くらい'],a:1,e:'Yesterday vs today = two separate things contrasted → のに対して. Same shape as example ① in the textbook.'},
+{q:'<ruby>掃除<rt class="a">そうじ</rt></ruby>をする_____に、料理は<ruby>妹<rt class="c">いもうと</rt></ruby>がしてくれる。',o:['かわり','ほど','くらい','一方'],a:0,e:'I clean, she cooks in return — an even exchange → かわりに.'},
+{q:'<ruby>山田<rt class="c">やまだ</rt></ruby>さん_____まじめな<ruby>社員<rt class="a">しゃいん</rt></ruby>はいないと<ruby>思<rt class="c">おも</rt></ruby>う。',o:['ほど','くらいなら','に対して','というより'],a:0,e:'Subjective superlative 〜ほど…はいない; と思う signals the speaker is giving an opinion.'},
+{q:'みんなに<ruby>迷惑<rt class="a">めいわく</rt></ruby>をかける_____、<ruby>最初<rt class="a">さいしょ</rt></ruby>から<ruby>参加<rt class="a">さんか</rt></ruby>しないほうがいい。',o:['くらいなら','ほどなら','反面','に限って'],a:0,e:'Trap question: ほどなら does not exist — only くらい can come before なら.'},
+{q:'<ruby>夏<rt class="c">なつ</rt></ruby>の<ruby>暑<rt class="c">あつ</rt></ruby>い<ruby>日<rt class="c">ひ</rt></ruby>は、<ruby>冷<rt class="c">つめ</rt></ruby>たいそうめん_____。',o:['に対する','に限る','というより','のかわり'],a:1,e:'A personal nothing-beats-it verdict → に限る. Attaches directly to a noun, no の.'},
+{q:'このかばんはデザインがいい_____、<ruby>値段<rt class="a">ねだん</rt></ruby>が高すぎる。',o:['反面','に限り','くらいなら','というより'],a:0,e:'One bag, its merit and its flaw → 反面.'},
+{q:'彼の<ruby>日本語<rt class="c">にほんご</rt></ruby>は、<ruby>日本人<rt class="c">にほんじん</rt></ruby>かと思う_____上手だ。',o:['ほど','反面','一方','かわりに'],a:0,e:'〜かと思うほど／くらい is the set pattern for degree — so good you would think he is a native speaker.'},
+{q:'<ruby>経済<rt class="a">けいざい</rt></ruby>が<ruby>発展<rt class="a">はってん</rt></ruby>する_____、<ruby>環境<rt class="a">かんきょう</rt></ruby><ruby>問題<rt class="c">もんだい</rt></ruby>も<ruby>増<rt class="a">ふ</rt></ruby>えている。',o:['一方で','くらいなら','に限って','というより'],a:0,e:'Two trends advancing at the same time → 一方で. Classic news-style usage.'},
+{q:'<ruby>好<rt class="c">す</rt></ruby>きでもない人と<ruby>結婚<rt class="a">けっこん</rt></ruby>する_____、ずっと<ruby>一人<rt class="c">ひとり</rt></ruby>でいるほうがいい。',o:['くらいなら','に対して','反面','ほど'],a:0,e:'An option the speaker strongly rejects + 〜ほうがいい → くらいなら.'},
+{q:'<ruby>姉<rt class="c">あね</rt></ruby>はよくしゃべるの_____、<ruby>妹<rt class="c">いもうと</rt></ruby>はとても<ruby>静<rt class="c">しず</rt></ruby>かだ。',o:['に対して','反面','に限って','くらい'],a:0,e:'姉 and 妹 = two separate people contrasted → のに対して. Count the subjects — that is the trick.'},
+{q:'インターネットは生活を便利にした_____、<ruby>新<rt class="c">あたら</rt></ruby>しい問題も<ruby>生<rt class="a">う</rt></ruby>んだ。',o:['反面','くらい','に限り','というより'],a:0,e:'One thing (the internet) with a plus side and a minus side → 反面.'}
+];
+
+const qlist=document.getElementById('qlist');
+const letters=['a','b','c','d'];
+let answered=0,score=0;
+QUIZ.forEach((it,i)=>{
+  const d=document.createElement('div');d.className='q';
+  d.innerHTML=`<div class="q-no">Q${String(i+1).padStart(2,'0')} <span class="stamp-slot"></span></div>
+    <p class="q-txt">${it.q.replace('_____','<span class="blank">_____</span>')}</p>
+    <div class="opts">${it.o.map((op,j)=>`<button data-j="${j}"><span class="ol">${letters[j]}.</span>${op}</button>`).join('')}</div>
+    <div class="exp"></div>`;
+  d.querySelectorAll('.opts button').forEach(btn=>{
+    btn.addEventListener('click',()=>{
+      if(d.classList.contains('done'))return;
+      d.classList.add('done');
+      const j=+btn.dataset.j,ok=j===it.a;
+      d.querySelectorAll('.opts button')[it.a].classList.add('correct');
+      if(!ok)btn.classList.add('wrong');
+      d.querySelector('.stamp-slot').innerHTML=ok?'<span class="stamp">正解</span>':'<span class="stamp miss">再計測</span>';
+      d.querySelector('.exp').innerHTML=`<span class="verdict ${ok?'ok':'ng'}">${ok?'○ CORRECT':'✗ INCORRECT — answer: '+letters[it.a]+'. '+it.o[it.a]}</span><br>${it.e}`;
+      answered++;if(ok)score++;
+      document.getElementById('qCount').textContent=answered+' / 20 answered';
+      if(answered===QUIZ.length){
+        document.getElementById('sNum').textContent=score;
+        const m=score>=18?'Instruments perfectly calibrated. Cleared to advance to Lesson 5.':score>=14?'Solid reading. One more pass over calibration tables ① and ② puts you in the perfect-score zone.':score>=10?'The basics are registering. Re-run the 反面 / に対して / 一方で distinctions before moving on.':'Recalibrate from the start: check what each pattern puts on the scale, and read the examples aloud in TEST mode.';
+        document.getElementById('sMsg').textContent=m;
+        document.getElementById('score').classList.add('show');
+        document.getElementById('score').scrollIntoView({behavior:'smooth',block:'center'});
+      }
+    });
+  });
+  qlist.appendChild(d);
+});
+document.getElementById('sReset').addEventListener('click',()=>{
+  answered=0;score=0;
+  document.getElementById('qCount').textContent='0 / 20 answered';
+  document.getElementById('score').classList.remove('show');
+  document.querySelectorAll('.q').forEach(d=>{
+    d.classList.remove('done');
+    d.querySelectorAll('.opts button').forEach(b=>b.classList.remove('correct','wrong'));
+    d.querySelector('.stamp-slot').innerHTML='';d.querySelector('.exp').innerHTML='';
+  });
+  document.getElementById('quiz').scrollIntoView({behavior:'smooth'});
+});
+</script>
+</body>
+</html>
