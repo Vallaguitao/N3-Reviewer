@@ -8,6 +8,10 @@
   const lessonFour = "lesson-04";
   const lessonFive = "lesson-05";
   const lessonSix = "lesson-06";
+  const lessonSeven = "lesson-07";
+  const lessonEight = "lesson-08";
+  const lessonNine = "lesson-09";
+  const lessonTen = "lesson-10";
   const newLessonKanji = freeze({
     "l5-hokokusho": freeze([["報", "ほう", "report"], ["告", "こく", "announce"], ["書", "しょ", "write; document"]]),
     "l5-minaoshi": freeze([["見", "み", "see"], ["直", "なお", "correct; redo"]]),
@@ -147,7 +151,7 @@
     const occurrenceGrammarIds = occurrences
       .map(item => item[0].split("#")[1] || "")
       .map(value => value.replace(/-example-[0-9]+$/, ""))
-      .filter(value => /^l[1-6]-/.test(value));
+      .filter(value => /^l(?:[1-9]|10)-/.test(value));
     const resolvedGrammarIds = [...new Set([
       ...occurrenceGrammarIds,
       ...(grammarIds || []),
@@ -161,7 +165,11 @@
         if (value.startsWith("l3-")) return lessonThree;
         if (value.startsWith("l4-")) return lessonFour;
         if (value.startsWith("l5-")) return lessonFive;
-        return lessonSix;
+        if (value.startsWith("l6-")) return lessonSix;
+        if (value.startsWith("l7-")) return lessonSeven;
+        if (value.startsWith("l8-")) return lessonEight;
+        if (value.startsWith("l9-")) return lessonNine;
+        return lessonTen;
       }),
     ])];
     return freeze({
@@ -184,6 +192,27 @@
         })),
         ...(sharedGrammarIds[id] || []).map(grammarOccurrence),
       ]),
+    });
+  }
+
+  function releaseVocabularyRecord(id, written, reading, meaning, partOfSpeech, lessonId, grammarId, kanji) {
+    const lessonNumber = lessonId === lessonNine ? "9" : "10";
+    const page = lessonId === lessonNine
+      ? "lessons/lesson-09-wishes.html"
+      : "lessons/lesson-10-advice.html";
+    return entry({
+      id,
+      written,
+      reading,
+      meanings: [meaning],
+      partOfSpeech,
+      lessonIds: [lessonId],
+      grammarIds: [grammarId],
+      kanji,
+      occurrences: [[
+        `${page}#lesson-${lessonNumber.padStart(2, "0")}-vocabulary-preview`,
+        `Lesson ${lessonNumber} · Vocabulary preview`,
+      ]],
     });
   }
 
@@ -844,6 +873,160 @@
     entry({ id: "l6-hikoki", written: "飛行機", reading: "ひこうき", meanings: ["airplane"], partOfSpeech: "noun", lessonIds: [lessonSix], grammarIds: ["l6-ba-tara-nara"], kanji: [], occurrences: freeze([["lessons/lesson-06-conditions.html#l6-ba-tara-nara-example-02", "Lesson 6 · l6-ba-tara-nara"]]) }),
     entry({ id: "l6-gakusei-waribiki", written: "学生割引", reading: "がくせいわりびき", meanings: ["student discount"], partOfSpeech: "noun", lessonIds: [lessonSix], grammarIds: ["l6-ba-tara-nara"], kanji: [], occurrences: freeze([["lessons/lesson-06-conditions.html#l6-ba-tara-nara-example-03", "Lesson 6 · l6-ba-tara-nara"]]) }),
     entry({ id: "l6-zannen", written: "残念", reading: "ざんねん", meanings: ["regrettable; a shame"], partOfSpeech: "na-adjective", lessonIds: [lessonSix], grammarIds: ["l6-ba-tara-nara"], kanji: [], occurrences: freeze([["lessons/lesson-06-conditions.html#l6-ba-tara-nara-example-03", "Lesson 6 · l6-ba-tara-nara"]]) }),
+
+    entry({ id: "l7-doro", written: "道路", reading: "どうろ", meanings: ["road"], partOfSpeech: "noun", lessonIds: [lessonSeven], grammarIds: ["l7-toiu-koto"], kanji: [["道","どう","road"],["路","ろ","route"]], occurrences: freeze([["lessons/lesson-07-hearsay.html#l7-toiu-koto-example-01","Lesson 7 · ～ということだ · Example 1"]]) }),
+    entry({ id: "l7-raishu", written: "来週", reading: "らいしゅう", meanings: ["next week"], partOfSpeech: "noun", lessonIds: [lessonSeven], grammarIds: ["l7-toiu-koto"], kanji: [["来","らい","come; next"],["週","しゅう","week"]], occurrences: freeze([["lessons/lesson-07-hearsay.html#l7-toiu-koto-example-01","Lesson 7 · ～ということだ · Example 1"]]) }),
+    entry({ id: "l7-koji", written: "工事", reading: "こうじ", meanings: ["construction work"], partOfSpeech: "noun", lessonIds: [lessonSeven], grammarIds: ["l7-toiu-koto"], kanji: [["工","こう","construction"],["事","じ","work; matter"]], occurrences: freeze([["lessons/lesson-07-hearsay.html#l7-toiu-koto-example-01","Lesson 7 · ～ということだ · Example 1"]]) }),
+    entry({ id: "l7-chiho", written: "地方", reading: "ちほう", meanings: ["region; area"], partOfSpeech: "noun", lessonIds: [lessonSeven], grammarIds: ["l7-toiu-koto"], kanji: [["地","ち","land"],["方","ほう","direction; area"]], occurrences: freeze([["lessons/lesson-07-hearsay.html#l7-toiu-koto-example-02","Lesson 7 · ～ということだ · Example 2"]]) }),
+    entry({ id: "l7-denwa", written: "電話", reading: "でんわ", meanings: ["telephone call"], partOfSpeech: "noun", lessonIds: [lessonSeven], grammarIds: ["l7-toiu-koto"], kanji: [["電","でん","electricity"],["話","わ","talk"]], occurrences: freeze([["lessons/lesson-07-hearsay.html#l7-toiu-koto-example-03","Lesson 7 · ～ということだ · Example 3"]]) }),
+    entry({ id: "l7-isogashii", written: "忙しい", reading: "いそがしい", meanings: ["busy"], partOfSpeech: "i-adjective", lessonIds: [lessonSeven], grammarIds: ["l7-toiu-koto"], kanji: [["忙","いそが","busy"]], occurrences: freeze([["lessons/lesson-07-hearsay.html#l7-toiu-koto-example-04","Lesson 7 · ～ということだ · Example 4"]]) }),
+    entry({ id: "l7-shigoto", written: "仕事", reading: "しごと", meanings: ["work; job"], partOfSpeech: "noun", lessonIds: [lessonSeven], grammarIds: ["l7-toiu-koto"], kanji: [["仕","し","serve; do"],["事","ごと","matter; work"]], occurrences: freeze([["lessons/lesson-07-hearsay.html#l7-toiu-koto-example-05","Lesson 7 · ～ということだ · Example 5"]]) }),
+    entry({ id: "l7-kotoshi", written: "今年", reading: "ことし", meanings: ["this year"], partOfSpeech: "noun", lessonIds: [lessonSeven], grammarIds: ["l7-iwareteiru"], kanji: [["今","こ","now; this"],["年","とし","year"]], occurrences: freeze([["lessons/lesson-07-hearsay.html#l7-iwareteiru-example-01","Lesson 7 · ～と言われている · Example 1"]]) }),
+    entry({ id: "l7-kuroi", written: "黒い", reading: "くろい", meanings: ["black"], partOfSpeech: "i-adjective", lessonIds: [lessonSeven], grammarIds: ["l7-iwareteiru"], kanji: [["黒","くろ","black"]], occurrences: freeze([["lessons/lesson-07-hearsay.html#l7-iwareteiru-example-01","Lesson 7 · ～と言われている · Example 1"]]) }),
+    entry({ id: "l7-fuku", written: "服", reading: "ふく", meanings: ["clothes"], partOfSpeech: "noun", lessonIds: [lessonSeven], grammarIds: ["l7-iwareteiru"], kanji: [["服","ふく","clothing"]], occurrences: freeze([["lessons/lesson-07-hearsay.html#l7-iwareteiru-example-01","Lesson 7 · ～と言われている · Example 1"]]) }),
+    entry({ id: "l7-ryuko", written: "流行", reading: "りゅうこう", meanings: ["fashion; trend"], partOfSpeech: "noun; suru verb", lessonIds: [lessonSeven], grammarIds: ["l7-iwareteiru"], kanji: [["流","りゅう","flow"],["行","こう","go; spread"]], occurrences: freeze([["lessons/lesson-07-hearsay.html#l7-iwareteiru-example-01","Lesson 7 · ～と言われている · Example 1"]]) }),
+    entry({ id: "l7-natto", written: "納豆", reading: "なっとう", meanings: ["natto; fermented soybeans"], partOfSpeech: "noun", lessonIds: [lessonSeven], grammarIds: ["l7-iwareteiru"], kanji: [["納","なっ","store; supply"],["豆","とう","bean"]], occurrences: freeze([["lessons/lesson-07-hearsay.html#l7-iwareteiru-example-02","Lesson 7 · ～と言われている · Example 2"]]) }),
+    entry({ id: "l7-taikai", written: "大会", reading: "たいかい", meanings: ["tournament; large event"], partOfSpeech: "noun", lessonIds: [lessonSeven], grammarIds: ["l7-iwareteiru"], kanji: [["大","たい","large"],["会","かい","meeting"]], occurrences: freeze([["lessons/lesson-07-hearsay.html#l7-iwareteiru-example-03","Lesson 7 · ～と言われている · Example 3"]]) }),
+    entry({ id: "l7-senshu", written: "選手", reading: "せんしゅ", meanings: ["athlete; player"], partOfSpeech: "noun", lessonIds: [lessonSeven], grammarIds: ["l7-iwareteiru"], kanji: [["選","せん","choose"],["手","しゅ","person; hand"]], occurrences: freeze([["lessons/lesson-07-hearsay.html#l7-iwareteiru-example-03","Lesson 7 · ～と言われている · Example 3"]]) }),
+    entry({ id: "l7-yusho", written: "優勝", reading: "ゆうしょう", meanings: ["championship; victory"], partOfSpeech: "noun; suru verb", lessonIds: [lessonSeven], grammarIds: ["l7-iwareteiru"], kanji: [["優","ゆう","excellent"],["勝","しょう","win"]], occurrences: freeze([["lessons/lesson-07-hearsay.html#l7-iwareteiru-example-03","Lesson 7 · ～と言われている · Example 3"]]) }),
+    entry({ id: "l7-raigetsu", written: "来月", reading: "らいげつ", meanings: ["next month"], partOfSpeech: "noun", lessonIds: [lessonSeven], grammarIds: ["l7-toka"], kanji: [["来","らい","next"],["月","げつ","month"]], occurrences: freeze([["lessons/lesson-07-hearsay.html#l7-toka-example-01","Lesson 7 · ～とか · Example 1"]]) }),
+    entry({ id: "l7-shuccho", written: "出張", reading: "しゅっちょう", meanings: ["business trip"], partOfSpeech: "noun; suru verb", lessonIds: [lessonSeven], grammarIds: ["l7-toka"], kanji: [["出","しゅっ","go out"],["張","ちょう","extend"]], occurrences: freeze([["lessons/lesson-07-hearsay.html#l7-toka-example-01","Lesson 7 · ～とか · Example 1"]]) }),
+    entry({ id: "l7-dobutsu", written: "動物", reading: "どうぶつ", meanings: ["animal"], partOfSpeech: "noun", lessonIds: [lessonSeven], grammarIds: ["l7-toka"], kanji: [["動","どう","move"],["物","ぶつ","thing"]], occurrences: freeze([["lessons/lesson-07-hearsay.html#l7-toka-example-02","Lesson 7 · ～とか · Example 2"]]) }),
+    entry({ id: "l7-kau", written: "飼う", reading: "かう", meanings: ["to keep; raise an animal"], partOfSpeech: "godan verb", lessonIds: [lessonSeven], grammarIds: ["l7-toka"], kanji: [["飼","か","keep an animal"]], occurrences: freeze([["lessons/lesson-07-hearsay.html#l7-toka-example-02","Lesson 7 · ～とか · Example 2"]]) }),
+    entry({ id: "l7-ekimae", written: "駅前", reading: "えきまえ", meanings: ["in front of the station"], partOfSpeech: "noun", lessonIds: [lessonSeven], grammarIds: ["l7-tte"], kanji: [["駅","えき","station"],["前","まえ","front"]], occurrences: freeze([["lessons/lesson-07-hearsay.html#l7-tte-example-03","Lesson 7 · ～って · Example 3"]]) }),
+    entry({ id: "l7-ryori", written: "料理", reading: "りょうり", meanings: ["cooking; cuisine"], partOfSpeech: "noun; suru verb", lessonIds: [lessonSeven], grammarIds: ["l7-tte"], kanji: [["料","りょう","material; fee"],["理","り","manage; reason"]], occurrences: freeze([["lessons/lesson-07-hearsay.html#l7-tte-example-02","Lesson 7 · ～って · Example 2"]]) }),
+    entry({ id: "l7-sensei", written: "先生", reading: "せんせい", meanings: ["teacher"], partOfSpeech: "noun", lessonIds: [lessonSeven], grammarIds: ["l7-tte"], kanji: [["先","せん","ahead"],["生","せい","born; life"]], occurrences: freeze([["lessons/lesson-07-hearsay.html#l7-tte-example-02","Lesson 7 · ～って · Example 2"]]) }),
+    entry({ id: "l7-kyoinshitsu", written: "教員室", reading: "きょういんしつ", meanings: ["teachers' room; faculty room"], partOfSpeech: "noun", lessonIds: [lessonSeven], grammarIds: ["l7-tte"], kanji: [["教","きょう","teach"],["員","いん","member"],["室","しつ","room"]], occurrences: freeze([["lessons/lesson-07-hearsay.html#l7-tte-example-04","Lesson 7 · ～って · Example 4"]]) }),
+    entry({ id: "l7-atari", written: "辺り", reading: "あたり", meanings: ["area; vicinity"], partOfSpeech: "noun", lessonIds: [lessonSeven], grammarIds: ["l7-toiu"], kanji: [["辺","あた","vicinity"]], occurrences: freeze([["lessons/lesson-07-hearsay.html#l7-toiu-example-01","Lesson 7 · ～という · Example 1"]]) }),
+    entry({ id: "l7-mukashi", written: "昔", reading: "むかし", meanings: ["long ago; former times"], partOfSpeech: "noun; adverb", lessonIds: [lessonSeven], grammarIds: ["l7-toiu"], kanji: [["昔","むかし","long ago"]], occurrences: freeze([["lessons/lesson-07-hearsay.html#l7-toiu-example-01","Lesson 7 · ～という · Example 1"]]) }),
+    entry({ id: "l7-nohara", written: "野原", reading: "のはら", meanings: ["open field"], partOfSpeech: "noun", lessonIds: [lessonSeven], grammarIds: ["l7-toiu"], kanji: [["野","の","field"],["原","はら","plain"]], occurrences: freeze([["lessons/lesson-07-hearsay.html#l7-toiu-example-01","Lesson 7 · ～という · Example 1"]]) }),
+    entry({ id: "l7-matsuri", written: "祭り", reading: "まつり", meanings: ["festival"], partOfSpeech: "noun", lessonIds: [lessonSeven], grammarIds: ["l7-toiu"], kanji: [["祭","まつ","festival; worship"]], occurrences: freeze([["lessons/lesson-07-hearsay.html#l7-toiu-example-02","Lesson 7 · ～という · Example 2"]]) }),
+    entry({ id: "l7-mura", written: "村", reading: "むら", meanings: ["village"], partOfSpeech: "noun", lessonIds: [lessonSeven], grammarIds: ["l7-toiu"], kanji: [["村","むら","village"]], occurrences: freeze([["lessons/lesson-07-hearsay.html#l7-toiu-example-02","Lesson 7 · ～という · Example 2"]]) }),
+    entry({ id: "l7-tofu", written: "豆腐", reading: "とうふ", meanings: ["tofu"], partOfSpeech: "noun", lessonIds: [lessonSeven], grammarIds: ["l7-toiu"], kanji: [["豆","とう","bean"],["腐","ふ","ferment"]], occurrences: freeze([["lessons/lesson-07-hearsay.html#l7-toiu-example-03","Lesson 7 · ～という · Example 3"]]) }),
+    entry({ id: "l7-chugoku", written: "中国", reading: "ちゅうごく", meanings: ["China"], partOfSpeech: "proper noun", lessonIds: [lessonSeven], grammarIds: ["l7-toiu"], kanji: [["中","ちゅう","middle"],["国","ごく","country"]], occurrences: freeze([["lessons/lesson-07-hearsay.html#l7-toiu-example-03","Lesson 7 · ～という · Example 3"]]) }),
+    entry({ id: "l7-nihon", written: "日本", reading: "にほん", meanings: ["Japan"], partOfSpeech: "proper noun", lessonIds: [lessonSeven], grammarIds: ["l7-toiu"], kanji: [["日","に","sun; Japan"],["本","ほん","origin"]], occurrences: freeze([["lessons/lesson-07-hearsay.html#l7-toiu-example-03","Lesson 7 · ～という · Example 3"]]) }),
+    entry({ id: "l7-tsutawaru", written: "伝わる", reading: "つたわる", meanings: ["to be transmitted; reach"], partOfSpeech: "godan verb", lessonIds: [lessonSeven], grammarIds: ["l7-toiu"], kanji: [["伝","つた","transmit"]], occurrences: freeze([["lessons/lesson-07-hearsay.html#l7-toiu-example-03","Lesson 7 · ～という · Example 3"]]) }),
+    entry({ id: "l7-tenki-yoho", written: "天気予報", reading: "てんきよほう", meanings: ["weather forecast"], partOfSpeech: "noun", lessonIds: [lessonSeven], grammarIds: ["l7-toiu-koto"], kanji: [["天","てん","heaven; weather"],["気","き","condition"],["予","よ","beforehand"],["報","ほう","report"]], occurrences: freeze([["lessons/lesson-07-hearsay.html#l7-toiu-koto-example-06","Lesson 7 · ～ということだ · Example 6"]]) }),
+    entry({ id: "l7-shumatsu", written: "週末", reading: "しゅうまつ", meanings: ["weekend"], partOfSpeech: "noun", lessonIds: [lessonSeven], grammarIds: ["l7-toiu-koto"], kanji: [["週","しゅう","week"],["末","まつ","end"]], occurrences: freeze([["lessons/lesson-07-hearsay.html#l7-toiu-koto-example-06","Lesson 7 · ～ということだ · Example 6"]]) }),
+    entry({ id: "l7-yuki", written: "雪", reading: "ゆき", meanings: ["snow"], partOfSpeech: "noun", lessonIds: [lessonSeven], grammarIds: ["l7-toiu-koto"], kanji: [["雪","ゆき","snow"]], occurrences: freeze([["lessons/lesson-07-hearsay.html#l7-toiu-koto-example-06","Lesson 7 · ～ということだ · Example 6"]]) }),
+    entry({ id: "l7-happyo", written: "発表", reading: "はっぴょう", meanings: ["announcement; presentation"], partOfSpeech: "noun; suru verb", lessonIds: [lessonSeven], grammarIds: ["l7-toiu-koto"], kanji: [["発","はっ","emit; announce"],["表","ぴょう","express; surface"]], occurrences: freeze([["lessons/lesson-07-hearsay.html#l7-toiu-koto-example-07","Lesson 7 · ～ということだ · Example 7"]]) }),
+    entry({ id: "l7-shiten", written: "支店", reading: "してん", meanings: ["branch office; branch shop"], partOfSpeech: "noun", lessonIds: [lessonSeven], grammarIds: ["l7-toiu-koto"], kanji: [["支","し","branch; support"],["店","てん","shop"]], occurrences: freeze([["lessons/lesson-07-hearsay.html#l7-toiu-koto-example-07","Lesson 7 · ～ということだ · Example 7"]]) }),
+    entry({ id: "l7-rokugatsu", written: "六月", reading: "ろくがつ", meanings: ["June"], partOfSpeech: "noun", lessonIds: [lessonSeven], grammarIds: ["l7-toiu-koto"], kanji: [["六","ろく","six"],["月","がつ","month"]], occurrences: freeze([["lessons/lesson-07-hearsay.html#l7-toiu-koto-example-07","Lesson 7 · ～ということだ · Example 7"]]) }),
+    entry({ id: "l7-shimekiri", written: "締め切り", reading: "しめきり", meanings: ["deadline"], partOfSpeech: "noun", lessonIds: [lessonSeven], grammarIds: ["l7-toiu-koto"], kanji: [["締","し","tighten; close"],["切","き","cut; deadline"]], occurrences: freeze([["lessons/lesson-07-hearsay.html#l7-toiu-koto-example-08","Lesson 7 · ～ということだ · Example 8"]]) }),
+    entry({ id: "l7-nobiru", written: "延びる", reading: "のびる", meanings: ["to be extended; postponed"], partOfSpeech: "ichidan verb", lessonIds: [lessonSeven], grammarIds: ["l7-toiu-koto"], kanji: [["延","の","extend"]], occurrences: freeze([["lessons/lesson-07-hearsay.html#l7-toiu-koto-example-08","Lesson 7 · ～ということだ · Example 8"]]) }),
+
+    entry({ id: "l8-yakusoku", written: "約束", reading: "やくそく", meanings: ["promise; appointment"], partOfSpeech: "noun; suru verb", lessonIds: [lessonEight], grammarIds: ["l8-hazu-wake"], kanji: [["約","やく","promise; approximately"],["束","そく","bundle; bind"]], occurrences: freeze([["lessons/lesson-08-negation.html#l8-hazu-wake-example-01","Lesson 8 · ～はずがない · Example 1"]]) }),
+    entry({ id: "l8-kakunin", written: "確認", reading: "かくにん", meanings: ["confirmation; to confirm"], partOfSpeech: "noun; suru verb", lessonIds: [lessonEight], grammarIds: ["l8-hazu-wake"], kanji: [["確","かく","certain"],["認","にん","recognize"]], occurrences: freeze([["lessons/lesson-08-negation.html#l8-hazu-wake-example-02","Lesson 8 · ～はずがない · Example 2"]]) }),
+    entry({ id: "l8-kokka-shiken", written: "国家試験", reading: "こっかしけん", meanings: ["national qualifying examination"], partOfSpeech: "noun", lessonIds: [lessonEight], grammarIds: ["l8-hazu-wake"], kanji: [["国","こく","country"],["家","か","state; house"],["試","し","test"],["験","けん","examine"]], occurrences: freeze([["lessons/lesson-08-negation.html#l8-hazu-wake-example-03","Lesson 8 · ～はずがない · Example 3"]]) }),
+    entry({ id: "l8-yasashii", written: "易しい", reading: "やさしい", meanings: ["easy"], partOfSpeech: "i-adjective", lessonIds: [lessonEight], grammarIds: ["l8-hazu-wake"], kanji: [["易","やさ","easy"]], occurrences: freeze([["lessons/lesson-08-negation.html#l8-hazu-wake-example-03","Lesson 8 · ～はずがない · Example 3"]]) }),
+    entry({ id: "l8-shiai", written: "試合", reading: "しあい", meanings: ["match; game"], partOfSpeech: "noun", lessonIds: [lessonEight], grammarIds: ["l8-hazu-wake"], kanji: [["試","し","try; test"],["合","あい","meet; fit"]], occurrences: freeze([["lessons/lesson-08-negation.html#l8-hazu-wake-example-05","Lesson 8 · ～はずがない · Example 5"]]) }),
+    entry({ id: "l8-renshu", written: "練習", reading: "れんしゅう", meanings: ["practice; training"], partOfSpeech: "noun; suru verb", lessonIds: [lessonEight], grammarIds: ["l8-hazu-wake"], kanji: [["練","れん","train"],["習","しゅう","learn"]], occurrences: freeze([["lessons/lesson-08-negation.html#l8-hazu-wake-example-05","Lesson 8 · ～はずがない · Example 5"]]) }),
+    entry({ id: "l8-uta", written: "歌", reading: "うた", meanings: ["song"], partOfSpeech: "noun", lessonIds: [lessonEight], grammarIds: ["l8-toha-kagiranai"], kanji: [["歌","うた","song"]], occurrences: freeze([["lessons/lesson-08-negation.html#l8-toha-kagiranai-example-01","Lesson 8 · ～とは限らない · Example 1"]]) }),
+    entry({ id: "l8-nedan", written: "値段", reading: "ねだん", meanings: ["price"], partOfSpeech: "noun", lessonIds: [lessonEight], grammarIds: ["l8-toha-kagiranai"], kanji: [["値","ね","value"],["段","だん","level; step"]], occurrences: freeze([["lessons/lesson-08-negation.html#l8-toha-kagiranai-example-02","Lesson 8 · ～とは限らない · Example 2"]]) }),
+    entry({ id: "l8-shitsu", written: "質", reading: "しつ", meanings: ["quality"], partOfSpeech: "noun", lessonIds: [lessonEight], grammarIds: ["l8-toha-kagiranai"], kanji: [["質","しつ","quality"]], occurrences: freeze([["lessons/lesson-08-negation.html#l8-toha-kagiranai-example-02","Lesson 8 · ～とは限らない · Example 2"]]) }),
+    entry({ id: "l8-ryokochu", written: "旅行中", reading: "りょこうちゅう", meanings: ["while traveling"], partOfSpeech: "noun; adverb", lessonIds: [lessonEight], grammarIds: ["l8-toha-kagiranai"], kanji: [["旅","りょ","travel"],["行","こう","go"],["中","ちゅう","during"]], occurrences: freeze([["lessons/lesson-08-negation.html#l8-toha-kagiranai-example-03","Lesson 8 · ～とは限らない · Example 3"]]) }),
+    entry({ id: "l8-hoken", written: "保険", reading: "ほけん", meanings: ["insurance"], partOfSpeech: "noun", lessonIds: [lessonEight], grammarIds: ["l8-toha-kagiranai"], kanji: [["保","ほ","protect"],["険","けん","risk"]], occurrences: freeze([["lessons/lesson-08-negation.html#l8-toha-kagiranai-example-03","Lesson 8 · ～とは限らない · Example 3"]]) }),
+    entry({ id: "l8-shinbun", written: "新聞", reading: "しんぶん", meanings: ["newspaper"], partOfSpeech: "noun", lessonIds: [lessonEight], grammarIds: ["l8-toha-kagiranai"], kanji: [["新","しん","new"],["聞","ぶん","hear; news"]], occurrences: freeze([["lessons/lesson-08-negation.html#l8-toha-kagiranai-example-04","Lesson 8 · ～とは限らない · Example 4"]]) }),
+    entry({ id: "l8-honto", written: "本当", reading: "ほんとう", meanings: ["truth; true"], partOfSpeech: "noun; na-adjective", lessonIds: [lessonEight], grammarIds: ["l8-toha-kagiranai"], kanji: [["本","ほん","real; origin"],["当","とう","true; appropriate"]], occurrences: freeze([["lessons/lesson-08-negation.html#l8-toha-kagiranai-example-04","Lesson 8 · ～とは限らない · Example 4"]]) }),
+    entry({ id: "l8-kariru", written: "借りる", reading: "かりる", meanings: ["to borrow"], partOfSpeech: "ichidan verb", lessonIds: [lessonEight], grammarIds: ["l8-wake-dewa-nai"], kanji: [["借","か","borrow"]], occurrences: freeze([["lessons/lesson-08-negation.html#l8-wake-dewa-nai-example-01","Lesson 8 · ～わけではない · Example 1"]]) }),
+    entry({ id: "l8-wasureru", written: "忘れる", reading: "わすれる", meanings: ["to forget"], partOfSpeech: "ichidan verb", lessonIds: [lessonEight], grammarIds: ["l8-wake-dewa-nai"], kanji: [["忘","わす","forget"]], occurrences: freeze([["lessons/lesson-08-negation.html#l8-wake-dewa-nai-example-01","Lesson 8 · ～わけではない · Example 1"]]) }),
+    entry({ id: "l8-renraku", written: "連絡", reading: "れんらく", meanings: ["contact; communication"], partOfSpeech: "noun; suru verb", lessonIds: [lessonEight], grammarIds: ["l8-wake-dewa-nai"], kanji: [["連","れん","connect"],["絡","らく","entwine; contact"]], occurrences: freeze([["lessons/lesson-08-negation.html#l8-wake-dewa-nai-example-02","Lesson 8 · ～わけではない · Example 2"]]) }),
+    entry({ id: "l8-tenkin", written: "転勤", reading: "てんきん", meanings: ["job transfer"], partOfSpeech: "noun; suru verb", lessonIds: [lessonEight], grammarIds: ["l8-wake-dewa-nai"], kanji: [["転","てん","move; turn"],["勤","きん","work"]], occurrences: freeze([["lessons/lesson-08-negation.html#l8-wake-dewa-nai-example-04","Lesson 8 · ～わけではない · Example 4"]]) }),
+    entry({ id: "l8-kaisha", written: "会社", reading: "かいしゃ", meanings: ["company"], partOfSpeech: "noun", lessonIds: [lessonEight], grammarIds: ["l8-wake-dewa-nai"], kanji: [["会","かい","meet"],["社","しゃ","company"]], occurrences: freeze([["lessons/lesson-08-negation.html#l8-wake-dewa-nai-example-04","Lesson 8 · ～わけではない · Example 4"]]) }),
+    entry({ id: "l8-yameru", written: "辞める", reading: "やめる", meanings: ["to quit; resign"], partOfSpeech: "ichidan verb", lessonIds: [lessonEight], grammarIds: ["l8-wake-dewa-nai"], kanji: [["辞","や","resign; word"]], occurrences: freeze([["lessons/lesson-08-negation.html#l8-wake-dewa-nai-example-04","Lesson 8 · ～わけではない · Example 4"]]) }),
+    entry({ id: "l8-boshi", written: "帽子", reading: "ぼうし", meanings: ["hat"], partOfSpeech: "noun", lessonIds: [lessonEight], grammarIds: ["l8-wake-dewa-nai"], kanji: [["帽","ぼう","hat"],["子","し","thing; child"]], occurrences: freeze([["lessons/lesson-08-negation.html#l8-wake-dewa-nai-example-05","Lesson 8 · ～わけではない · Example 5"]]) }),
+    entry({ id: "l8-eki", written: "駅", reading: "えき", meanings: ["station"], partOfSpeech: "noun", lessonIds: [lessonEight], grammarIds: ["l8-nai-koto-wa-nai"], kanji: [["駅","えき","station"]], occurrences: freeze([["lessons/lesson-08-negation.html#l8-nai-koto-wa-nai-example-01","Lesson 8 · ～ないことはない · Example 1"]]) }),
+    entry({ id: "l8-aruku", written: "歩く", reading: "あるく", meanings: ["to walk"], partOfSpeech: "godan verb", lessonIds: [lessonEight], grammarIds: ["l8-nai-koto-wa-nai"], kanji: [["歩","ある","walk"]], occurrences: freeze([["lessons/lesson-08-negation.html#l8-nai-koto-wa-nai-example-01","Lesson 8 · ～ないことはない · Example 1"]]) }),
+    entry({ id: "l8-jikan", written: "時間", reading: "じかん", meanings: ["time"], partOfSpeech: "noun", lessonIds: [lessonEight], grammarIds: ["l8-nai-koto-wa-nai"], kanji: [["時","じ","time"],["間","かん","interval"]], occurrences: freeze([["lessons/lesson-08-negation.html#l8-nai-koto-wa-nai-example-01","Lesson 8 · ～ないことはない · Example 1"]]) }),
+    entry({ id: "l8-karai", written: "辛い", reading: "からい", meanings: ["spicy"], partOfSpeech: "i-adjective", lessonIds: [lessonEight], grammarIds: ["l8-nai-koto-wa-nai"], kanji: [["辛","から","spicy"]], occurrences: freeze([["lessons/lesson-08-negation.html#l8-nai-koto-wa-nai-example-02","Lesson 8 · ～ないことはない · Example 2"]]) }),
+    entry({ id: "l8-shiken", written: "試験", reading: "しけん", meanings: ["examination"], partOfSpeech: "noun", lessonIds: [lessonEight], grammarIds: ["l8-nai-koto-wa-nai"], kanji: [["試","し","test"],["験","けん","examine"]], occurrences: freeze([["lessons/lesson-08-negation.html#l8-nai-koto-wa-nai-example-03","Lesson 8 · ～ないことはない · Example 3"]]) }),
+    entry({ id: "l8-kekka", written: "結果", reading: "けっか", meanings: ["result"], partOfSpeech: "noun", lessonIds: [lessonEight], grammarIds: ["l8-nai-koto-wa-nai"], kanji: [["結","けっ","tie; conclude"],["果","か","result"]], occurrences: freeze([["lessons/lesson-08-negation.html#l8-nai-koto-wa-nai-example-03","Lesson 8 · ～ないことはない · Example 3"]]) }),
+    entry({ id: "l8-shinpai", written: "心配", reading: "しんぱい", meanings: ["worry; concern"], partOfSpeech: "noun; na-adjective", lessonIds: [lessonEight], grammarIds: ["l8-nai-koto-wa-nai"], kanji: [["心","しん","heart; mind"],["配","ぱい","distribute; concern"]], occurrences: freeze([["lessons/lesson-08-negation.html#l8-nai-koto-wa-nai-example-03","Lesson 8 · ～ないことはない · Example 3"]]) }),
+    entry({ id: "l8-imi", written: "意味", reading: "いみ", meanings: ["meaning"], partOfSpeech: "noun", lessonIds: [lessonEight], grammarIds: ["l8-koto-wa-ga"], kanji: [["意","い","meaning; intention"],["味","み","flavor; sense"]], occurrences: freeze([["lessons/lesson-08-negation.html#l8-koto-wa-ga-example-01","Lesson 8 · ～ことは～が · Example 1"]]) }),
+    entry({ id: "l8-oyogu", written: "泳ぐ", reading: "およぐ", meanings: ["to swim"], partOfSpeech: "godan verb", lessonIds: [lessonEight], grammarIds: ["l8-koto-wa-ga"], kanji: [["泳","およ","swim"]], occurrences: freeze([["lessons/lesson-08-negation.html#l8-koto-wa-ga-example-02","Lesson 8 · ～ことは～が · Example 2"]]) }),
+    entry({ id: "l8-kyori", written: "距離", reading: "きょり", meanings: ["distance"], partOfSpeech: "noun", lessonIds: [lessonEight], grammarIds: ["l8-koto-wa-ga"], kanji: [["距","きょ","distance"],["離","り","separate"]], occurrences: freeze([["lessons/lesson-08-negation.html#l8-koto-wa-ga-example-02","Lesson 8 · ～ことは～が · Example 2"]]) }),
+    entry({ id: "l8-shashin", written: "写真", reading: "しゃしん", meanings: ["photograph"], partOfSpeech: "noun", lessonIds: [lessonEight], grammarIds: ["l8-koto-wa-ga"], kanji: [["写","しゃ","copy; photograph"],["真","しん","true"]], occurrences: freeze([["lessons/lesson-08-negation.html#l8-koto-wa-ga-example-03","Lesson 8 · ～ことは～が · Example 3"]]) }),
+    entry({ id: "l8-kodomo", written: "子ども", reading: "こども", meanings: ["child"], partOfSpeech: "noun", lessonIds: [lessonEight], grammarIds: ["l8-koto-wa-ga"], kanji: [["子","こ","child"]], occurrences: freeze([["lessons/lesson-08-negation.html#l8-koto-wa-ga-example-04","Lesson 8 · ～ことは～が · Example 4"]]) }),
+    entry({ id: "l8-sodateru", written: "育てる", reading: "そだてる", meanings: ["to raise; bring up"], partOfSpeech: "ichidan verb", lessonIds: [lessonEight], grammarIds: ["l8-koto-wa-ga"], kanji: [["育","そだ","raise; grow"]], occurrences: freeze([["lessons/lesson-08-negation.html#l8-koto-wa-ga-example-04","Lesson 8 · ～ことは～が · Example 4"]]) }),
+    entry({ id: "l8-taihen", written: "大変", reading: "たいへん", meanings: ["difficult; serious"], partOfSpeech: "na-adjective", lessonIds: [lessonEight], grammarIds: ["l8-koto-wa-ga"], kanji: [["大","たい","great"],["変","へん","change; unusual"]], occurrences: freeze([["lessons/lesson-08-negation.html#l8-koto-wa-ga-example-04","Lesson 8 · ～ことは～が · Example 4"]]) }),
+    entry({ id: "l8-seicho", written: "成長", reading: "せいちょう", meanings: ["growth; development"], partOfSpeech: "noun; suru verb", lessonIds: [lessonEight], grammarIds: ["l8-koto-wa-ga"], kanji: [["成","せい","become"],["長","ちょう","grow; long"]], occurrences: freeze([["lessons/lesson-08-negation.html#l8-koto-wa-ga-example-04","Lesson 8 · ～ことは～が · Example 4"]]) }),
+    entry({ id: "l8-mainichi", written: "毎日", reading: "まいにち", meanings: ["every day"], partOfSpeech: "noun; adverb", lessonIds: [lessonEight], grammarIds: ["l8-hazu-wake"], kanji: [["毎","まい","every"],["日","にち","day"]], occurrences: freeze([["lessons/lesson-08-negation.html#l8-hazu-wake-example-06","Lesson 8 · ～はずがない · Example 6"]]) }),
+    entry({ id: "l8-kantan", written: "簡単", reading: "かんたん", meanings: ["simple; easy"], partOfSpeech: "na-adjective", lessonIds: [lessonEight], grammarIds: ["l8-hazu-wake"], kanji: [["簡","かん","simple"],["単","たん","single"]], occurrences: freeze([["lessons/lesson-08-negation.html#l8-hazu-wake-example-06","Lesson 8 · ～はずがない · Example 6"]]) }),
+    entry({ id: "l8-mondai", written: "問題", reading: "もんだい", meanings: ["problem; question"], partOfSpeech: "noun", lessonIds: [lessonEight], grammarIds: ["l8-hazu-wake"], kanji: [["問","もん","question"],["題","だい","topic"]], occurrences: freeze([["lessons/lesson-08-negation.html#l8-hazu-wake-example-07","Lesson 8 · ～はずがない · Example 7"]]) }),
+    entry({ id: "l8-tokeru", written: "解ける", reading: "とける", meanings: ["to be able to solve"], partOfSpeech: "ichidan verb", lessonIds: [lessonEight], grammarIds: ["l8-hazu-wake"], kanji: [["解","と","solve; untie"]], occurrences: freeze([["lessons/lesson-08-negation.html#l8-hazu-wake-example-07","Lesson 8 · ～はずがない · Example 7"]]) }),
+    entry({ id: "l8-junen", written: "十年", reading: "じゅうねん", meanings: ["ten years"], partOfSpeech: "noun", lessonIds: [lessonEight], grammarIds: ["l8-hazu-wake"], kanji: [["十","じゅう","ten"],["年","ねん","year"]], occurrences: freeze([["lessons/lesson-08-negation.html#l8-hazu-wake-example-08","Lesson 8 · ～はずがない · Example 8"]]) }),
+
+    releaseVocabularyRecord("l9-nayami", "悩み", "なやみ", "worry; concern", "noun", lessonNine, "l9-te-moraitai", [["悩","なや","worry; trouble"]]),
+    releaseVocabularyRecord("l9-shorui", "書類", "しょるい", "document; paperwork", "noun", lessonNine, "l9-te-moraitai", [["書","しょ","write; document"],["類","るい","kind; category"]]),
+    releaseVocabularyRecord("l9-tetsudau", "手伝う", "てつだう", "to help; assist", "godan verb", lessonNine, "l9-te-moraitai", [["手","て","hand"],["伝","つだ","transmit; help"]]),
+    releaseVocabularyRecord("l9-hitori", "一人", "ひとり", "one person; alone", "noun", lessonNine, "l9-te-moraitai", [["一","ひと","one"],["人","り","person"]]),
+    releaseVocabularyRecord("l9-shizen-kankyo", "自然環境", "しぜんかんきょう", "natural environment", "noun", lessonNine, "l9-te-moraitai", [["自","し","self"],["然","ぜん","so; natural"],["環","かん","surround; ring"],["境","きょう","boundary; environment"]]),
+    releaseVocabularyRecord("l9-toshi-o-toru", "年を取る", "としをとる", "to grow old; age", "expression; godan verb", lessonNine, "l9-te-moraitai", [["年","とし","year; age"],["取","と","take"]]),
+    releaseVocabularyRecord("l9-oya", "親", "おや", "parent", "noun", lessonNine, "l9-te-moraitai", [["親","おや","parent"]]),
+    releaseVocabularyRecord("l9-muri", "無理", "むり", "overexertion; unreasonable", "noun; na-adjective", lessonNine, "l9-te-moraitai", [["無","む","without"],["理","り","reason; logic"]]),
+    releaseVocabularyRecord("l9-tenin", "店員", "てんいん", "shop employee; clerk", "noun", lessonNine, "l9-sasete-moraitai", [["店","てん","shop"],["員","いん","member; employee"]]),
+    releaseVocabularyRecord("l9-hiruyasumi", "昼休み", "ひるやすみ", "lunch break", "noun", lessonNine, "l9-sasete-moraitai", [["昼","ひる","daytime; noon"],["休","やす","rest"]]),
+    releaseVocabularyRecord("l9-hirugohan", "昼ご飯", "ひるごはん", "lunch", "noun", lessonNine, "l9-sasete-moraitai", [["昼","ひる","noon"],["飯","はん","meal; cooked rice"]]),
+    releaseVocabularyRecord("l9-tencho", "店長", "てんちょう", "store manager", "noun", lessonNine, "l9-sasete-moraitai", [["店","てん","shop"],["長","ちょう","leader; chief"]]),
+    releaseVocabularyRecord("l9-nyukan", "入管", "にゅうかん", "immigration office", "noun; abbreviation", lessonNine, "l9-sasete-moraitai", [["入","にゅう","enter"],["管","かん","control; jurisdiction"]]),
+    releaseVocabularyRecord("l9-setsumei", "説明", "せつめい", "explanation", "noun; suru verb", lessonNine, "l9-sasete-moraitai", [["説","せつ","explain; theory"],["明","めい","clear"]]),
+    releaseVocabularyRecord("l9-bunkasai", "文化祭", "ぶんかさい", "cultural festival", "noun", lessonNine, "l9-sasete-moraitai", [["文","ぶん","writing; culture"],["化","か","change; culture"],["祭","さい","festival"]]),
+    releaseVocabularyRecord("l9-undojo", "運動場", "うんどうじょう", "sports field; playground", "noun", lessonNine, "l9-sasete-moraitai", [["運","うん","carry; movement"],["動","どう","move"],["場","じょう","place"]]),
+    releaseVocabularyRecord("l9-renshu", "練習", "れんしゅう", "practice; training", "noun; suru verb", lessonNine, "l9-sasete-moraitai", [["練","れん","train; refine"],["習","しゅう","learn; practice"]]),
+    releaseVocabularyRecord("l9-sotsugyoshiki", "卒業式", "そつぎょうしき", "graduation ceremony", "noun", lessonNine, "l9-to-ba-tara-ii", [["卒","そつ","graduate"],["業","ぎょう","work; study"],["式","しき","ceremony; form"]]),
+    releaseVocabularyRecord("l9-wakare", "別れ", "わかれ", "parting; farewell", "noun", lessonNine, "l9-to-ba-tara-ii", [["別","わか","separate; part"]]),
+    releaseVocabularyRecord("l9-saikin", "最近", "さいきん", "recently; lately", "noun; adverb", lessonNine, "l9-to-ba-tara-ii", [["最","さい","most"],["近","きん","near; recent"]]),
+    releaseVocabularyRecord("l9-taicho", "体調", "たいちょう", "physical condition", "noun", lessonNine, "l9-to-ba-tara-ii", [["体","たい","body"],["調","ちょう","condition; tune"]]),
+    releaseVocabularyRecord("l9-byoki", "病気", "びょうき", "illness; disease", "noun", lessonNine, "l9-to-ba-tara-ii", [["病","びょう","illness"],["気","き","condition; spirit"]]),
+    releaseVocabularyRecord("l9-nyugaku-shiken", "入学試験", "にゅうがくしけん", "entrance examination", "noun", lessonNine, "l9-to-ba-tara-ii", [["入","にゅう","enter"],["学","がく","study"],["試","し","test"],["験","けん","examine"]]),
+    releaseVocabularyRecord("l9-gokaku", "合格", "ごうかく", "passing; qualification", "noun; suru verb", lessonNine, "l9-to-ba-tara-ii", [["合","ごう","fit; join"],["格","かく","standard; status"]]),
+    releaseVocabularyRecord("l9-tsukareru", "疲れる", "つかれる", "to become tired", "ichidan verb", lessonNine, "l9-to-ba-tara-ii", [["疲","つか","tired"]]),
+    releaseVocabularyRecord("l9-shigoto", "仕事", "しごと", "work; job", "noun; suru verb", lessonNine, "l9-to-ba-tara-ii", [["仕","し","serve; do"],["事","ごと","matter; thing"]]),
+    releaseVocabularyRecord("l9-ki-ga-susumanai", "気が進まない", "きがすすまない", "to feel reluctant", "expression", lessonNine, "l9-to-ba-tara-ii", [["気","き","feeling; spirit"],["進","すす","advance"]]),
+    releaseVocabularyRecord("l9-hikiukeru", "引き受ける", "ひきうける", "to accept; undertake", "ichidan verb", lessonNine, "l9-to-ba-tara-ii", [["引","ひ","pull"],["受","う","receive; accept"]]),
+    releaseVocabularyRecord("l9-moshikomisho", "申込書", "もうしこみしょ", "application form", "noun", lessonNine, "l9-to-ba-tara-ii", [["申","もう","say; apply"],["込","こ","enter; include"],["書","しょ","write; document"]]),
+    releaseVocabularyRecord("l9-jimu", "事務", "じむ", "office work; administration", "noun", lessonNine, "l9-to-ba-tara-ii", [["事","じ","matter; work"],["務","む","duty"]]),
+    releaseVocabularyRecord("l9-kaigi", "会議", "かいぎ", "meeting; conference", "noun; suru verb", lessonNine, "l9-te-moraitai", [["会","かい","meet"],["議","ぎ","discuss"]]),
+    releaseVocabularyRecord("l9-shiryo", "資料", "しりょう", "materials; data", "noun", lessonNine, "l9-te-moraitai", [["資","し","resources"],["料","りょう","material"]]),
+    releaseVocabularyRecord("l9-suisenjo", "推薦状", "すいせんじょう", "recommendation letter", "noun", lessonNine, "l9-te-moraitai", [["推","すい","recommend"],["薦","せん","recommend"],["状","じょう","document; form"]]),
+    releaseVocabularyRecord("l9-iken", "意見", "いけん", "opinion", "noun", lessonNine, "l9-te-moraitai", [["意","い","idea; intention"],["見","けん","view"]]),
+    releaseVocabularyRecord("l9-jiyu", "自由", "じゆう", "freedom; freely", "noun; na-adjective", lessonNine, "l9-te-moraitai", [["自","じ","self"],["由","ゆう","reason; freedom"]]),
+
+    releaseVocabularyRecord("l10-shiai", "試合", "しあい", "match; game", "noun; suru verb", lessonTen, "l10-meirei-kinshi", [["試","し","test; try"],["合","あい","meet; fit"]]),
+    releaseVocabularyRecord("l10-kantoku", "監督", "かんとく", "coach; director; supervisor", "noun; suru verb", lessonTen, "l10-meirei-kinshi", [["監","かん","oversee"],["督","とく","supervise"]]),
+    releaseVocabularyRecord("l10-meirei", "命令", "めいれい", "order; command", "noun; suru verb", lessonTen, "l10-meirei-kinshi", [["命","めい","command; life"],["令","れい","order"]]),
+    releaseVocabularyRecord("l10-shitagau", "従う", "したがう", "to obey; follow", "godan verb", lessonTen, "l10-meirei-kinshi", [["従","したが","follow; obey"]]),
+    releaseVocabularyRecord("l10-akashingo", "赤信号", "あかしんごう", "red traffic light", "noun", lessonTen, "l10-meirei-kinshi", [["赤","あか","red"],["信","しん","signal; trust"],["号","ごう","number; signal"]]),
+    releaseVocabularyRecord("l10-imi", "意味", "いみ", "meaning", "noun; suru verb", lessonTen, "l10-meirei-kinshi", [["意","い","meaning; intention"],["味","み","sense; flavor"]]),
+    releaseVocabularyRecord("l10-hikkoshi", "引っ越し", "ひっこし", "moving house", "noun; suru verb", lessonTen, "l10-meirei-kinshi", [["引","ひ","pull"],["越","こ","cross; move"]]),
+    releaseVocabularyRecord("l10-tomodachi", "友だち", "ともだち", "friend", "noun", lessonTen, "l10-meirei-kinshi", [["友","とも","friend"]]),
+    releaseVocabularyRecord("l10-tanomu", "頼む", "たのむ", "to request; rely on", "godan verb", lessonTen, "l10-meirei-kinshi", [["頼","たの","request; rely"]]),
+    releaseVocabularyRecord("l10-tatefuda", "立て札", "たてふだ", "signboard; notice board", "noun", lessonTen, "l10-meirei-kinshi", [["立","た","stand"],["札","ふだ","tag; placard"]]),
+    releaseVocabularyRecord("l10-isha", "医者", "いしゃ", "doctor", "noun", lessonTen, "l10-meirei-kinshi", [["医","い","medicine"],["者","しゃ","person"]]),
+    releaseVocabularyRecord("l10-osake", "お酒", "おさけ", "alcohol; sake", "noun", lessonTen, "l10-meirei-kinshi", [["酒","さけ","alcohol"]]),
+    releaseVocabularyRecord("l10-gakko", "学校", "がっこう", "school", "noun", lessonTen, "l10-koto", [["学","がく","study"],["校","こう","school"]]),
+    releaseVocabularyRecord("l10-raishu", "来週", "らいしゅう", "next week", "noun; adverb", lessonTen, "l10-koto", [["来","らい","come; next"],["週","しゅう","week"]]),
+    releaseVocabularyRecord("l10-getsuyobi", "月曜日", "げつようび", "Monday", "noun", lessonTen, "l10-koto", [["月","げつ","moon; Monday"],["曜","よう","weekday"],["日","び","day"]]),
+    releaseVocabularyRecord("l10-kanarazu", "必ず", "かならず", "without fail; certainly", "adverb", lessonTen, "l10-koto", [["必","かなら","certain; without fail"]]),
+    releaseVocabularyRecord("l10-okureru", "遅れる", "おくれる", "to be late", "ichidan verb", lessonTen, "l10-koto", [["遅","おく","late; delay"]]),
+    releaseVocabularyRecord("l10-chuigaki", "注意書き", "ちゅういがき", "written instructions; caution note", "noun", lessonTen, "l10-koto", [["注","ちゅう","attention"],["意","い","mind"],["書","が","write"]]),
+    releaseVocabularyRecord("l10-abunai", "危ない", "あぶない", "dangerous", "i-adjective", lessonTen, "l10-koto", [["危","あぶ","danger"]]),
+    releaseVocabularyRecord("l10-kawa", "川", "かわ", "river", "noun", lessonTen, "l10-koto", [["川","かわ","river"]]),
+    releaseVocabularyRecord("l10-oyogu", "泳ぐ", "およぐ", "to swim", "godan verb", lessonTen, "l10-koto", [["泳","およ","swim"]]),
+    releaseVocabularyRecord("l10-daiji", "大事", "だいじ", "important; serious", "noun; na-adjective", lessonTen, "l10-beki", [["大","だい","great"],["事","じ","matter"]]),
+    releaseVocabularyRecord("l10-hanashiau", "話し合う", "はなしあう", "to discuss; talk together", "godan verb", lessonTen, "l10-beki", [["話","はな","talk"],["合","あ","meet; together"]]),
+    releaseVocabularyRecord("l10-kimeru", "決める", "きめる", "to decide", "ichidan verb", lessonTen, "l10-beki", [["決","き","decide"]]),
+    releaseVocabularyRecord("l10-kyoju", "今日中", "きょうじゅう", "by the end of today", "noun; adverb", lessonTen, "l10-beki", [["今","きょう","now; today"],["日","にち","day"],["中","じゅう","throughout; within"]]),
+    releaseVocabularyRecord("l10-hajimeru", "始める", "はじめる", "to begin", "ichidan verb", lessonTen, "l10-beki", [["始","はじ","begin"]]),
+    releaseVocabularyRecord("l10-kaisha", "会社", "かいしゃ", "company", "noun", lessonTen, "l10-beki", [["会","かい","meet"],["社","しゃ","company"]]),
+    releaseVocabularyRecord("l10-kantan", "簡単", "かんたん", "simple; easy", "na-adjective", lessonTen, "l10-beki", [["簡","かん","simple"],["単","たん","single"]]),
+    releaseVocabularyRecord("l10-yameru", "辞める", "やめる", "to quit; resign", "ichidan verb", lessonTen, "l10-beki", [["辞","や","resign; word"]]),
+    releaseVocabularyRecord("l10-kodomo", "子ども", "こども", "child", "noun", lessonTen, "l10-beki", [["子","こ","child"]]),
+    releaseVocabularyRecord("l10-yoruosoku", "夜遅く", "よるおそく", "late at night", "adverbial phrase", lessonTen, "l10-beki", [["夜","よる","night"],["遅","おそ","late"]]),
+    releaseVocabularyRecord("l10-kenko-shindan", "健康診断", "けんこうしんだん", "medical checkup", "noun; suru verb", lessonTen, "l10-tara-doka", [["健","けん","healthy"],["康","こう","health"],["診","しん","examine"],["断","だん","judge"]]),
+    releaseVocabularyRecord("l10-meiwaku-mail", "迷惑メール", "めいわくめーる", "spam; unwanted email", "noun", lessonTen, "l10-tara-doka", [["迷","めい","lost"],["惑","わく","confused; troubled"]]),
+    releaseVocabularyRecord("l10-ayamaru", "謝る", "あやまる", "to apologize", "godan verb", lessonTen, "l10-tara-doka", [["謝","あやま","apologize"]]),
+    releaseVocabularyRecord("l10-horitsu", "法律", "ほうりつ", "law; statute", "noun", lessonTen, "l10-beki", [["法","ほう","law"],["律","りつ","rule"]]),
 
     ...lessonThreeRecords.map(lessonThreeEntry),
     ...lessonFourRecords.map(lessonFourEntry),

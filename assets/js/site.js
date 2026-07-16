@@ -21,6 +21,20 @@
   }
 
   function bind(doc) {
+    const lessonEightNavigation = doc.querySelector(
+      'body[data-page="lesson-08"] [data-lesson-navigation]',
+    );
+    if (
+      lessonEightNavigation
+      && !lessonEightNavigation.querySelector('[href="lesson-09-wishes.html"]')
+    ) {
+      const nextLesson = doc.createElement("a");
+      nextLesson.className = "button";
+      nextLesson.href = "lesson-09-wishes.html";
+      nextLesson.textContent = "Next lesson: Wishes and requests";
+      lessonEightNavigation.append(nextLesson);
+    }
+
     doc.addEventListener("click", function (event) {
       const toggle = event.target.closest("[data-disclosure-target]");
       if (toggle) {

@@ -594,6 +594,17 @@ main {
   background: transparent;
 }
 
+.vocabulary-chip-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.65rem 0.9rem;
+  align-items: baseline;
+}
+
+.vocabulary-chip-list .reading-word {
+  font-size: 1rem;
+}
+
 ruby {
   ruby-position: over;
 }
@@ -704,6 +715,7 @@ rt {
 .field {
   display: grid;
   gap: .35rem;
+  min-width: 0;
 }
 
 .field label {
@@ -713,6 +725,8 @@ rt {
 
 .field input,
 .field select {
+  width: 100%;
+  max-width: 100%;
   min-height: 2.8rem;
   border: 1px solid var(--line-strong);
   border-radius: var(--radius-sm);
