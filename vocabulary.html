@@ -1,0 +1,116 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Vocabulary | N3 Study Desk</title>
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="assets/css/styles.css">
+  <script defer src="assets/js/site.js"></script>
+  <script defer src="assets/js/vocabulary-data.js"></script>
+  <script defer src="assets/js/vocabulary.js"></script>
+</head>
+<body data-page="vocabulary" data-root-prefix=".">
+  <a class="skip-link" href="#main-content">Skip to lesson content</a>
+  <header class="site-header">
+    <a class="site-mark" href="index.html">N3 Study Desk</a>
+    <nav aria-label="Primary">
+      <a href="index.html">Home</a>
+      <a href="lessons/index.html">Lessons</a>
+      <a aria-current="page" href="vocabulary.html">Vocabulary</a>
+      <a href="practice.html">Practice</a>
+      <a href="curriculum.html">Curriculum</a>
+      <a href="study-guide.html">How to study</a>
+    </nav>
+  </header>
+  <main id="main-content" tabindex="-1">
+    <section class="page-hero">
+      <div>
+        <p class="eyebrow">Lesson-linked word bank</p>
+        <h1>Vocabulary</h1>
+        <p class="lede">Search every Japanese content word used in the active lessons.</p>
+      </div>
+      <p class="hero-note">Kanji, kana, meaning, part of speech, and every lesson occurrence.</p>
+    </section>
+    <section class="card" aria-labelledby="vocabulary-bank-title">
+      <h2 id="vocabulary-bank-title">Lessons 1–4 word bank</h2>
+      <div class="filters">
+        <div class="field">
+          <label for="vocab-search">Search kanji, kana, or English</label>
+          <input id="vocab-search" type="search" data-vocab-search autocomplete="off">
+        </div>
+        <div class="field">
+          <label for="vocab-lesson">Lesson</label>
+          <select id="vocab-lesson" data-vocab-lesson>
+            <option value="all">All active lessons</option>
+            <option value="lesson-01">Lesson 1</option>
+            <option value="lesson-02">Lesson 2</option>
+            <option value="lesson-03">Lesson 3</option>
+            <option value="lesson-04">Lesson 4</option>
+          </select>
+        </div>
+        <div class="field">
+          <label for="vocab-part">Part of speech</label>
+          <select id="vocab-part" data-vocab-part>
+            <option value="all">All parts of speech</option>
+          </select>
+        </div>
+        <div class="field">
+          <label for="vocab-grammar">Grammar point</label>
+          <select id="vocab-grammar" data-vocab-grammar>
+            <option value="all">All grammar points</option>
+            <optgroup label="Lesson 1">
+              <option value="l1-uchini">～うちに</option>
+              <option value="l1-aida">～間／～間に</option>
+              <option value="l1-tekara">～てからでないと</option>
+              <option value="l1-tokoro">～ところ</option>
+            </optgroup>
+            <optgroup label="Lesson 2">
+              <option value="l2-toori">～とおり／～どおり</option>
+              <option value="l2-niyotte">～によって</option>
+              <option value="l2-tabini">～たびに</option>
+              <option value="l2-hodo">～ほど</option>
+              <option value="l2-tsuideni">～ついでに</option>
+            </optgroup>
+            <optgroup label="Lesson 3">
+              <option value="l3-kurai">～くらい／～ほど</option>
+              <option value="l3-kurai-wa-nai">～くらい…はない／～ほど…はない</option>
+              <option value="l3-kurai-nara">～くらいなら</option>
+              <option value="l3-ni-kagiru">～に限る</option>
+            </optgroup>
+            <optgroup label="Lesson 4">
+              <option value="l4-ni-taishite">～に対して</option>
+              <option value="l4-hanmen">～反面</option>
+              <option value="l4-ippo">～一方（で）</option>
+              <option value="l4-to-iu-yori">～というより</option>
+              <option value="l4-kawari-ni">～かわりに</option>
+            </optgroup>
+          </select>
+        </div>
+        <div class="field">
+          <label for="vocab-sort">Sort</label>
+          <select id="vocab-sort" data-vocab-sort>
+            <option value="reading">Reading</option>
+            <option value="english">English meaning</option>
+          </select>
+        </div>
+      </div>
+      <div class="toolbar">
+        <button class="secondary" type="button" data-clear-filters>Clear filters</button>
+        <p data-vocab-status role="status" aria-live="polite">0 vocabulary entries</p>
+      </div>
+      <div class="vocab-bank-layout">
+        <div>
+          <p data-vocab-empty hidden>No matching Lessons 1–4 word was found. Clear the filters and try again.</p>
+          <div class="vocab-results" data-vocab-results></div>
+        </div>
+        <aside class="vocab-detail" data-vocab-details aria-label="Selected vocabulary details">
+          <p>Select a word to see its kanji and lesson occurrences.</p>
+        </aside>
+      </div>
+      <noscript><p class="mistake-note">Vocabulary search needs JavaScript. The complete Japanese text and reading help remain available in each lesson.</p></noscript>
+    </section>
+  </main>
+  <footer><p>N3 Study Desk - Vocabulary</p></footer>
+</body>
+</html>
