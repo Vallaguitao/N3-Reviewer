@@ -1453,3 +1453,104 @@ window.N3QuizData = Object.freeze([
   root.N3QuizData = Object.freeze([...(root.N3QuizData || []), ...additions]);
 }(typeof window !== 'undefined' ? window : globalThis));
 /* END GENERATED LESSONS 11-12 QUIZZES */
+
+/* BEGIN CANONICAL LESSONS 1-2 ALIASES */
+(function attachCanonicalLessonOneTwoAliases(root) {
+  const byId = new Map((root.N3QuizData || []).map(record => [record.id, record]));
+  const aliases = [
+    ["l1-book-01", "l1-review-book-01"],
+    ["l1-book-02", "l1-review-book-02"],
+    ["l1-book-03", "l1-review-book-03"],
+    ["l1-book-04", "l1-review-book-04"],
+    ["l1-book-05", "l1-review-book-05"],
+    ["l1-book-06", "l1-review-book-06"],
+    ["l1-book-07", "l1-review-book-07"],
+    ["l1-book-08", "l1-review-book-08"],
+    ["l1-book-09", "l1-review-book-09"],
+    ["l2-book-01", "l2-review-book-01"],
+    ["l2-book-02", "l2-review-book-02"],
+    ["l2-book-03", "l2-review-book-03"],
+    ["l2-book-04", "l2-review-book-04"],
+    ["l2-book-05", "l2-review-book-05"],
+    ["l2-book-06", "l2-review-book-06"],
+    ["l2-book-07", "l2-review-book-07"],
+    ["l2-book-08", "l2-review-book-08"],
+    ["l2-book-09", "l2-review-book-09"],
+    ["l1-review-select-01", "l1-uchini-check-01"],
+    ["l1-review-select-02", "l1-uchini-check-02"],
+    ["l1-review-select-03", "l1-aida-check-01"],
+    ["l1-review-select-04", "l1-aida-check-02"],
+    ["l1-review-select-05", "l1-tekara-check-01"],
+    ["l1-review-select-06", "l1-tekara-check-02"],
+    ["l1-review-select-07", "l1-tokoro-check-01"],
+    ["l1-review-select-08", "l1-tokoro-check-02"],
+    ["l1-review-order-04", "l1-review-order-01"],
+    ["l2-review-select-01", "l2-toori-check-01"],
+    ["l2-review-select-02", "l2-niyotte-check-01"],
+    ["l2-review-select-03", "l2-tabini-check-01"],
+    ["l2-review-select-04", "l2-hodo-check-01"],
+    ["l2-review-select-05", "l2-tsuideni-check-01"],
+    ["l2-review-select-06", "l2-toori-check-02"],
+    ["l2-review-select-07", "l2-niyotte-check-02"],
+    ["l2-review-select-08", "l2-tabini-check-02"],
+    ["mixed-book-01", "mixed-review-book-01"],
+    ["mixed-book-02", "mixed-review-book-02"],
+    ["mixed-book-03", "mixed-review-book-03"],
+    ["mixed-book-04", "mixed-review-book-04"],
+    ["mixed-book-05", "mixed-review-book-05"],
+    ["mixed-book-06", "mixed-review-book-06"],
+    ["mixed-book-07", "mixed-review-book-07"],
+    ["mixed-book-08", "mixed-review-book-08"],
+    ["mixed-book-09", "mixed-review-book-09"],
+    ["mixed-selection-01", "l1-uchini-check-01"],
+    ["mixed-selection-02", "l1-aida-check-01"],
+    ["mixed-selection-03", "l1-tekara-check-01"],
+    ["mixed-selection-04", "l1-tokoro-check-01"],
+    ["mixed-selection-05", "l2-toori-check-01"],
+    ["mixed-selection-06", "l2-niyotte-check-01"],
+    ["mixed-selection-07", "l2-tabini-check-01"],
+    ["mixed-selection-08", "l2-hodo-check-01"],
+    ["mixed-selection-09", "l2-tsuideni-check-01"]
+  ].map(([id, sourceId]) => {
+    const source = byId.get(sourceId);
+    if (!source) throw new Error(`Missing quiz alias source ${sourceId} for ${id}`);
+    return Object.freeze({ ...source, id });
+  });
+  root.N3QuizData = Object.freeze([...(root.N3QuizData || []), ...aliases]);
+}(typeof window !== "undefined" ? window : globalThis));
+/* END CANONICAL LESSONS 1-2 ALIASES */
+
+/* BEGIN CANONICAL LESSONS 3-4 BOOK QUIZZES */
+(function attachCanonicalLessonThreeFourBookQuizzes(root) {
+  const additions = [
+    Object.freeze({ id: "l3-book-01", type: "selection", correct: "c", hint: "Look for an extreme amount that makes eating everything impossible.", rationales: Object.freeze({"a": "全部食べた does not complete the an extreme amount that makes eating everything impossible required by the whole sentence.", "b": "全部食べられる does not complete the an extreme amount that makes eating everything impossible required by the whole sentence.", "c": "Correct. The negative potential result shows the food exceeded what could be finished."}) }),
+    Object.freeze({ id: "l3-book-02", type: "selection", correct: "a", hint: "Look for an extreme degree of busyness.", rationales: Object.freeze({"a": "Correct. 忙しい naturally explains having no time even to eat.", "b": "ひまだ does not complete the an extreme degree of busyness required by the whole sentence.", "c": "あまり食べない does not complete the an extreme degree of busyness required by the whole sentence."}) }),
+    Object.freeze({ id: "l3-book-03", type: "selection", correct: "b", hint: "Look for a vivid almost-frozen comparison.", rationales: Object.freeze({"a": "凍った does not complete the a vivid almost-frozen comparison required by the whole sentence.", "b": "Correct. 凍るかと思うくらい expresses that the cold felt almost strong enough to freeze the body.", "c": "凍るかどうか does not complete the a vivid almost-frozen comparison required by the whole sentence."}) }),
+    Object.freeze({ id: "l3-book-04", type: "selection", correct: "b", hint: "Look for a no-equal comparison.", rationales: Object.freeze({"a": "ほかにもある does not complete the a no-equal comparison required by the whole sentence.", "b": "Correct. ほかにない completes the claim that nothing else equals Kyoto's autumn leaves.", "c": "ほかにも少ない does not complete the a no-equal comparison required by the whole sentence."}) }),
+    Object.freeze({ id: "l3-book-05", type: "selection", correct: "a", hint: "Look for a no-equal comparison with 富士山.", rationales: Object.freeze({"a": "Correct. きれいな describes the quality for which no other mountain is considered equal.", "b": "高い does not complete the a no-equal comparison with 富士山 required by the whole sentence.", "c": "ほかの does not complete the a no-equal comparison with 富士山 required by the whole sentence."}) }),
+    Object.freeze({ id: "l3-book-06", type: "selection", correct: "c", hint: "Look for a rejected alternative before くらいなら.", rationales: Object.freeze({"a": "いい仕事がない does not complete the a rejected alternative before くらいなら required by the whole sentence.", "b": "仕事がほしい does not complete the a rejected alternative before くらいなら required by the whole sentence.", "c": "Correct. きつい仕事をする is the unattractive option rejected in favor of the current lifestyle."}) }),
+    Object.freeze({ id: "l3-book-07", type: "selection", correct: "c", hint: "Look for the preferred action after くらいなら.", rationales: Object.freeze({"a": "何も残念がらない does not complete the the preferred action after くらいなら required by the whole sentence.", "b": "あまりがんばらない does not complete the the preferred action after くらいなら required by the whole sentence.", "c": "Correct. 失敗してもやってみた is preferred to doing nothing and regretting it later."}) }),
+    Object.freeze({ id: "l3-book-08", type: "selection", correct: "a", hint: "Look for a strong best-choice recommendation.", rationales: Object.freeze({"a": "Correct. 聞くに限る recommends asking local people as the best way to find a good restaurant.", "b": "聞いた does not complete the a strong best-choice recommendation required by the whole sentence.", "c": "聞いている does not complete the a strong best-choice recommendation required by the whole sentence."}) }),
+    Object.freeze({ id: "l3-book-09", type: "selection", correct: "b", hint: "Look for the best remedy for sleeplessness.", rationales: Object.freeze({"a": "４、５時間 does not complete the the best remedy for sleeplessness required by the whole sentence.", "b": "Correct. 温かいミルク names the recommended thing before に限る.", "c": "朝、起きられない does not complete the the best remedy for sleeplessness required by the whole sentence."}) }),
+    Object.freeze({ id: "l4-book-01", type: "selection", correct: "a", hint: "Look for two apartments in direct contrast.", rationales: Object.freeze({"a": "Correct. 今のアパート supplies the second apartment contrasted with the previous one.", "b": "わたしの職場 does not complete the two apartments in direct contrast required by the whole sentence.", "c": "山川さんの家 does not complete the two apartments in direct contrast required by the whole sentence."}) }),
+    Object.freeze({ id: "l4-book-02", type: "selection", correct: "b", hint: "Look for opposite sales results.", rationales: Object.freeze({"a": "あした発売になる does not complete the opposite sales results required by the whole sentence.", "b": "Correct. あまり人気がない contrasts the new product's weak reception with the old product's continuing sales.", "c": "すぐに売りきれた does not complete the opposite sales results required by the whole sentence."}) }),
+    Object.freeze({ id: "l4-book-03", type: "selection", correct: "a", hint: "Look for the winter side of the same town.", rationales: Object.freeze({"a": "Correct. 冬は人が少ない gives the quieter opposite side of the town's busy summer.", "b": "冬もスキー客が多い does not complete the the winter side of the same town required by the whole sentence.", "c": "一年中人が来る does not complete the the winter side of the same town required by the whole sentence."}) }),
+    Object.freeze({ id: "l4-book-04", type: "selection", correct: "c", hint: "Look for a benefit and a harmful side effect.", rationales: Object.freeze({"a": "変えてくれる does not complete the a benefit and a harmful side effect required by the whole sentence.", "b": "高くしてくれる does not complete the a benefit and a harmful side effect required by the whole sentence.", "c": "Correct. 低くしてしまう supplies the negative countereffect of automation."}) }),
+    Object.freeze({ id: "l4-book-05", type: "selection", correct: "b", hint: "Look for two simultaneous sides of Yamaguchi.", rationales: Object.freeze({"a": "よく図書館に行く does not complete the two simultaneous sides of Yamaguchi required by the whole sentence.", "b": "Correct. サッカーに夢中になる contrasts an active interest with quietly reading books.", "c": "本をたくさん買う does not complete the two simultaneous sides of Yamaguchi required by the whole sentence."}) }),
+    Object.freeze({ id: "l4-book-06", type: "selection", correct: "a", hint: "Look for a more accurate correction after というより.", rationales: Object.freeze({"a": "Correct. 涼しい is the milder description rejected in favor of 寒かった.", "b": "暖かい does not complete the a more accurate correction after というより required by the whole sentence.", "c": "暑い does not complete the a more accurate correction after というより required by the whole sentence."}) }),
+    Object.freeze({ id: "l4-book-07", type: "selection", correct: "a", hint: "Look for a more accurate description of Chiro.", rationales: Object.freeze({"a": "Correct. 家族なんです replaces the weaker label ペット with the speaker's more accurate view.", "b": "動物なんです does not complete the a more accurate description of Chiro required by the whole sentence.", "c": "かわいいんです does not complete the a more accurate description of Chiro required by the whole sentence."}) }),
+    Object.freeze({ id: "l4-book-08", type: "selection", correct: "b", hint: "Look for compensation for a demanding job.", rationales: Object.freeze({"a": "休みがない does not complete the compensation for a demanding job required by the whole sentence.", "b": "Correct. 給料がいい is the benefit received in exchange for the job being difficult.", "c": "やってみたい does not complete the compensation for a demanding job required by the whole sentence."}) }),
+    Object.freeze({ id: "l4-book-09", type: "selection", correct: "c", hint: "Look for a deliberate substitution in schedule.", rationales: Object.freeze({"a": "遅く帰る does not complete the a deliberate substitution in schedule required by the whole sentence.", "b": "眠くなる does not complete the a deliberate substitution in schedule required by the whole sentence.", "c": "Correct. 早く寝る is the action that makes early-morning study possible."}) }),
+    Object.freeze({ id: "mixed-34-book-01", type: "selection", correct: "c", hint: "Look for a direct comparison with this week.", rationales: Object.freeze({"a": "の反面 does not complete the a direct comparison with this week required by the whole sentence.", "b": "というより does not complete the a direct comparison with this week required by the whole sentence.", "c": "Correct. より marks next week as busier than this week."}) }),
+    Object.freeze({ id: "mixed-34-book-02", type: "selection", correct: "a", hint: "Look for a strongest negative judgment.", rationales: Object.freeze({"a": "Correct. くらい sets losing one's job as the extreme example before つらいことはない.", "b": "くらいなら does not complete the a strongest negative judgment required by the whole sentence.", "c": "くらいでは does not complete the a strongest negative judgment required by the whole sentence."}) }),
+    Object.freeze({ id: "mixed-34-book-03", type: "selection", correct: "b", hint: "Look for a memorable degree.", rationales: Object.freeze({"a": "反面 does not complete the a memorable degree required by the whole sentence.", "b": "Correct. ほど links the person's distinctive features to being easy to remember.", "c": "かわりに does not complete the a memorable degree required by the whole sentence."}) }),
+    Object.freeze({ id: "mixed-34-book-04", type: "selection", correct: "a", hint: "Look for a strong best-choice recommendation.", rationales: Object.freeze({"a": "Correct. 寝るに限る presents sleep as the best response to tiredness.", "b": "くらいだ does not complete the a strong best-choice recommendation required by the whole sentence.", "c": "よりいい does not complete the a strong best-choice recommendation required by the whole sentence."}) }),
+    Object.freeze({ id: "mixed-34-book-05", type: "selection", correct: "c", hint: "Look for a rejected alternative.", rationales: Object.freeze({"a": "一方で does not complete the a rejected alternative required by the whole sentence.", "b": "というより does not complete the a rejected alternative required by the whole sentence.", "c": "Correct. くらいなら rejects asking reluctantly and prefers doing the work oneself."}) }),
+    Object.freeze({ id: "mixed-34-book-06", type: "selection", correct: "b", hint: "Look for two different people in direct contrast.", rationales: Object.freeze({"a": "好きなら好きなほど does not complete the two different people in direct contrast required by the whole sentence.", "b": "Correct. 好きなのに対して contrasts the mother's preference with the father's avoidance.", "c": "好きというより does not complete the two different people in direct contrast required by the whole sentence."}) }),
+    Object.freeze({ id: "mixed-34-book-07", type: "selection", correct: "a", hint: "Look for one action replacing another.", rationales: Object.freeze({"a": "Correct. かわりに shows smiling in place of giving a verbal reply.", "b": "反面 does not complete the one action replacing another required by the whole sentence.", "c": "のに対して does not complete the one action replacing another required by the whole sentence."}) }),
+    Object.freeze({ id: "mixed-34-book-08", type: "selection", correct: "b", hint: "Look for two sides of aging.", rationales: Object.freeze({"a": "というより does not complete the two sides of aging required by the whole sentence.", "b": "Correct. 反面 links weaker memory with the compensating ability to think deeply.", "c": "し does not complete the two sides of aging required by the whole sentence."}) }),
+    Object.freeze({ id: "mixed-34-book-09", type: "selection", correct: "a", hint: "Look for a more accurate correction.", rationales: Object.freeze({"a": "Correct. というより replaces 頭がいい with the speaker's harsher judgment ずるい.", "b": "くらいなら does not complete the a more accurate correction required by the whole sentence.", "c": "ばかりで does not complete the a more accurate correction required by the whole sentence."}) })
+  ];
+  root.N3QuizData = Object.freeze([...(root.N3QuizData || []), ...additions]);
+}(typeof window !== "undefined" ? window : globalThis));
+/* END CANONICAL LESSONS 3-4 BOOK QUIZZES */

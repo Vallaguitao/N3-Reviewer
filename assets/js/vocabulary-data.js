@@ -210,8 +210,8 @@
       grammarIds: [grammarId],
       kanji,
       occurrences: [[
-        `${page}#lesson-${lessonNumber.padStart(2, "0")}-vocabulary-preview`,
-        `Lesson ${lessonNumber} · Vocabulary preview`,
+        `${page}#${grammarId}`,
+        `Lesson ${lessonNumber} · Inline vocabulary`,
       ]],
     });
   }

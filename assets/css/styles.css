@@ -545,12 +545,6 @@ main {
   background: #FBF3F0;
 }
 
-.example-stack {
-  display: grid;
-  gap: .85rem;
-  margin-block: 1.25rem;
-}
-
 .example-card {
   border: 1px solid var(--line);
   border-left: .3rem solid var(--matcha);
@@ -573,29 +567,6 @@ main {
   line-height: 2;
 }
 
-.vocabulary-preview-list {
-  display: flex;
-  flex-wrap: wrap;
-  gap: .65rem;
-  align-items: center;
-}
-
-.keigo-example-group {
-  display: grid;
-  gap: .85rem;
-  margin-block: 1rem;
-}
-
-.keigo-example-group + .keigo-example-group {
-  border-top: 1px solid var(--line);
-  padding-block-start: 1rem;
-}
-
-.keigo-example-group h4 {
-  margin: 0;
-  color: var(--ink);
-}
-
 .translation {
   color: var(--ink-soft);
 }
@@ -615,17 +586,6 @@ main {
 .reading-word:hover {
   color: var(--rust);
   background: transparent;
-}
-
-.vocabulary-chip-list {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 0.65rem 0.9rem;
-  align-items: baseline;
-}
-
-.vocabulary-chip-list .reading-word {
-  font-size: 1rem;
 }
 
 ruby {
