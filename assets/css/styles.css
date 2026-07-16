@@ -573,6 +573,29 @@ main {
   line-height: 2;
 }
 
+.vocabulary-preview-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: .65rem;
+  align-items: center;
+}
+
+.keigo-example-group {
+  display: grid;
+  gap: .85rem;
+  margin-block: 1rem;
+}
+
+.keigo-example-group + .keigo-example-group {
+  border-top: 1px solid var(--line);
+  padding-block-start: 1rem;
+}
+
+.keigo-example-group h4 {
+  margin: 0;
+  color: var(--ink);
+}
+
 .translation {
   color: var(--ink-soft);
 }
