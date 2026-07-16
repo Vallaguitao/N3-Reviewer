@@ -304,6 +304,21 @@ main {
   margin-block-start: auto;
 }
 
+.source-label {
+  display: inline-flex;
+  align-items: center;
+  width: fit-content;
+  margin-block-end: .45rem;
+  padding: .2rem .55rem;
+  border-radius: 999px;
+  background: var(--matcha-deep);
+  color: #fff;
+  font-size: .75rem;
+  font-weight: 800;
+  letter-spacing: .04em;
+  text-transform: uppercase;
+}
+
 [data-home-study-flow] {
   margin-block-start: clamp(1.25rem, 2.5vw, 2rem);
 }

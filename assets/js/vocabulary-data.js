@@ -6,6 +6,60 @@
   const lessonTwo = "lesson-02";
   const lessonThree = "lesson-03";
   const lessonFour = "lesson-04";
+  const lessonFive = "lesson-05";
+  const lessonSix = "lesson-06";
+  const newLessonKanji = freeze({
+    "l5-hokokusho": freeze([["報", "ほう", "report"], ["告", "こく", "announce"], ["書", "しょ", "write; document"]]),
+    "l5-minaoshi": freeze([["見", "み", "see"], ["直", "なお", "correct; redo"]]),
+    "l5-isha": freeze([["医", "い", "medicine"], ["者", "しゃ", "person"]]),
+    "l5-byoki": freeze([["病", "びょう", "illness"], ["気", "き", "condition; spirit"]]),
+    "l5-shuccho": freeze([["出", "しゅつ", "go out"], ["張", "ちょう", "extend"]]),
+    "l5-kesseki": freeze([["欠", "けつ", "lack; be absent"], ["席", "せき", "seat"]]),
+    "l5-kojo": freeze([["工", "こう", "manufacture"], ["場", "じょう", "place"]]),
+    "l5-zairyo-fusoku": freeze([["材", "ざい", "material"], ["料", "りょう", "material"], ["不", "ふ", "not"], ["足", "そく", "sufficient"]]),
+    "l5-seisan": freeze([["生", "せい", "produce; life"], ["産", "さん", "produce"]]),
+    "l5-gaikokugo": freeze([["外", "がい", "outside"], ["国", "こく", "country"], ["語", "ご", "language"]]),
+    "l5-kangaekata": freeze([["考", "かんが", "think"], ["方", "かた", "way; method"]]),
+    "l5-shiharai": freeze([["支", "し", "pay; support"], ["払", "はら", "pay"]]),
+    "l5-kibo": freeze([["希", "き", "hope"], ["望", "ぼう", "wish"]]),
+    "l5-chui": freeze([["注", "ちゅう", "pay attention"], ["意", "い", "mind; intention"]]),
+    "l5-gokai": freeze([["誤", "ご", "mistake"], ["解", "かい", "understand; solve"]]),
+    "l5-oyako": freeze([["親", "おや", "parent"], ["子", "こ", "child"]]),
+    "l5-shushoku": freeze([["就", "しゅう", "take a position"], ["職", "しょく", "employment"]]),
+    "l5-koji": freeze([["工", "こう", "construction"], ["事", "じ", "matter; work"]]),
+    "l5-shukan": freeze([["習", "しゅう", "learn; practice"], ["慣", "かん", "become accustomed"]]),
+    "l5-tozen": freeze([["当", "とう", "proper; this"], ["然", "ぜん", "so; natural"]]),
+    "l5-muri": freeze([["無", "む", "without"], ["理", "り", "reason; logic"]]),
+    "l5-shinken": freeze([["真", "しん", "true"], ["剣", "けん", "sword; earnestness"]]),
+    "l5-kaigi": freeze([["会", "かい", "meet"], ["議", "ぎ", "discuss"]]),
+    "l5-taifu": freeze([["台", "たい", "stand; platform"], ["風", "ふう", "wind"]]),
+    "l5-kanosei": freeze([["可", "か", "possible"], ["能", "のう", "ability"], ["性", "せい", "nature; possibility"]]),
+    "l6-hako": freeze([["箱", "はこ", "box"]]),
+    "l6-ame": freeze([["雨", "あめ", "rain"]]),
+    "l6-shujutsu": freeze([["手", "しゅ", "hand"], ["術", "じゅつ", "technique; operation"]]),
+    "l6-mimai": freeze([["見", "み", "see; visit"], ["舞", "ま", "dance; attend"]]),
+    "l6-meiwaku": freeze([["迷", "めい", "be lost"], ["惑", "わく", "be troubled"]]),
+    "l6-musekinin": freeze([["無", "む", "without"], ["責", "せき", "responsibility"], ["任", "にん", "duty"]]),
+    "l6-taido": freeze([["態", "たい", "state; appearance"], ["度", "ど", "degree; manner"]]),
+    "l6-nennai": freeze([["年", "ねん", "year"], ["内", "ない", "within"]]),
+    "l6-manga": freeze([["漫", "まん", "comic; unrestrained"], ["画", "が", "picture"]]),
+    "l6-taikutsu": freeze([["退", "たい", "retreat"], ["屈", "くつ", "bend; yield"]]),
+    "l6-jobu": freeze([["丈", "じょう", "strong; length"], ["夫", "ぶ", "man; sturdy"]]),
+    "l6-chosen": freeze([["挑", "ちょう", "challenge"], ["戦", "せん", "battle"]]),
+    "l6-aite": freeze([["相", "あい", "mutual; partner"], ["手", "て", "hand; person"]]),
+    "l6-yurusu": freeze([["許", "ゆる", "permit; forgive"]]),
+    "l6-mawari": freeze([["周", "まわ", "around"]]),
+    "l6-hantai": freeze([["反", "はん", "oppose"], ["対", "たい", "opposite; face"]]),
+    "l6-kashu": freeze([["歌", "か", "song"], ["手", "しゅ", "person; performer"]]),
+    "l6-hitsuyo": freeze([["必", "ひつ", "certain"], ["要", "よう", "need; essential"]]),
+    "l6-mendo": freeze([["面", "めん", "face; aspect"], ["倒", "どう", "fall; trouble"]]),
+    "l6-kenko-shindan": freeze([["健", "けん", "healthy"], ["康", "こう", "well-being"], ["診", "しん", "examine"], ["断", "だん", "judge"]]),
+    "l6-kaigai-ryoko": freeze([["海", "かい", "sea"], ["外", "がい", "outside"], ["旅", "りょ", "travel"], ["行", "こう", "go"]]),
+    "l6-nebo": freeze([["寝", "ね", "sleep"], ["坊", "ぼう", "person; boy"]]),
+    "l6-hikoki": freeze([["飛", "ひ", "fly"], ["行", "こう", "go"], ["機", "き", "machine"]]),
+    "l6-gakusei-waribiki": freeze([["学", "がく", "study"], ["生", "せい", "student; life"], ["割", "わり", "divide; discount"], ["引", "びき", "pull; reduce"]]),
+    "l6-zannen": freeze([["残", "ざん", "remain"], ["念", "ねん", "thought; feeling"]]),
+  });
   const sharedGrammarIds = freeze({
     "ame": freeze(["l1-tokoro", "l2-tabini"]),
     "au": freeze(["l2-tsuideni"]),
@@ -93,7 +147,7 @@
     const occurrenceGrammarIds = occurrences
       .map(item => item[0].split("#")[1] || "")
       .map(value => value.replace(/-example-[0-9]+$/, ""))
-      .filter(value => /^l[1-4]-/.test(value));
+      .filter(value => /^l[1-6]-/.test(value));
     const resolvedGrammarIds = [...new Set([
       ...occurrenceGrammarIds,
       ...(grammarIds || []),
@@ -105,7 +159,9 @@
         if (value.startsWith("l1-")) return lessonOne;
         if (value.startsWith("l2-")) return lessonTwo;
         if (value.startsWith("l3-")) return lessonThree;
-        return lessonFour;
+        if (value.startsWith("l4-")) return lessonFour;
+        if (value.startsWith("l5-")) return lessonFive;
+        return lessonSix;
       }),
     ])];
     return freeze({
@@ -116,7 +172,7 @@
       partOfSpeech,
       lessonIds: freeze(resolvedLessonIds),
       grammarIds: freeze(resolvedGrammarIds),
-      kanji: freeze(kanji.map(item => freeze({
+      kanji: freeze((kanji.length ? kanji : (newLessonKanji[id] || [])).map(item => freeze({
         character: item[0],
         reading: item[1],
         meaning: item[2],
@@ -737,6 +793,57 @@
     lessonTwoEntry({ id: "posuto", written: "ポスト", reading: "ぽすと", meanings: ["mailbox", "postbox"], partOfSpeech: "noun", kanji: [], occurrences: freeze([["lessons/lesson-02-kankei.html#l2-tsuideni-example-01", "Lesson 2 · ～ついでに"]]) }),
     lessonTwoEntry({ id: "genkan", written: "玄関", reading: "げんかん", meanings: ["entranceway", "entry hall"], partOfSpeech: "noun", kanji: [["玄", "げん", "mysterious"], ["関", "かん", "barrier"]], occurrences: freeze([["lessons/lesson-02-kankei.html#l2-tsuideni-example-02", "Lesson 2 · ～ついでに"]]) }),
     lessonTwoEntry({ id: "shiraberu", written: "調べる", reading: "しらべる", meanings: ["to investigate", "to look up"], partOfSpeech: "ichidan verb", kanji: [["調", "しら", "investigate"]], occurrences: freeze([["lessons/lesson-02-kankei.html#l2-tsuideni-example-03", "Lesson 2 · ～ついでに"]]) }),
+
+    entry({ id: "l5-hokokusho", written: "報告書", reading: "ほうこくしょ", meanings: ["written report"], partOfSpeech: "noun", lessonIds: [lessonFive], grammarIds: ["l5-tame"], kanji: [], occurrences: freeze([["lessons/lesson-05-reasons.html#l5-tame-example-01", "Lesson 5 · l5-tame"]]) }),
+    entry({ id: "l5-minaoshi", written: "見直し", reading: "みなおし", meanings: ["review; rechecking"], partOfSpeech: "noun", lessonIds: [lessonFive], grammarIds: ["l5-tame"], kanji: [], occurrences: freeze([["lessons/lesson-05-reasons.html#l5-tame-example-01", "Lesson 5 · l5-tame"]]) }),
+    entry({ id: "l5-isha", written: "医者", reading: "いしゃ", meanings: ["doctor"], partOfSpeech: "noun", lessonIds: [lessonFive], grammarIds: ["l5-tame"], kanji: [], occurrences: freeze([["lessons/lesson-05-reasons.html#l5-tame-example-02", "Lesson 5 · l5-tame"]]) }),
+    entry({ id: "l5-byoki", written: "病気", reading: "びょうき", meanings: ["illness"], partOfSpeech: "noun", lessonIds: [lessonFive], grammarIds: ["l5-tame"], kanji: [], occurrences: freeze([["lessons/lesson-05-reasons.html#l5-tame-example-02", "Lesson 5 · l5-tame"]]) }),
+    entry({ id: "l5-shuccho", written: "出張", reading: "しゅっちょう", meanings: ["business trip"], partOfSpeech: "noun", lessonIds: [lessonFive], grammarIds: ["l5-tame"], kanji: [], occurrences: freeze([["lessons/lesson-05-reasons.html#l5-tame-example-03", "Lesson 5 · l5-tame"]]) }),
+    entry({ id: "l5-kesseki", written: "欠席", reading: "けっせき", meanings: ["absence"], partOfSpeech: "noun", lessonIds: [lessonFive], grammarIds: ["l5-tame"], kanji: [], occurrences: freeze([["lessons/lesson-05-reasons.html#l5-tame-example-03", "Lesson 5 · l5-tame"]]) }),
+    entry({ id: "l5-kojo", written: "工場", reading: "こうじょう", meanings: ["factory"], partOfSpeech: "noun", lessonIds: [lessonFive], grammarIds: ["l5-ni-yotte"], kanji: [], occurrences: freeze([["lessons/lesson-05-reasons.html#l5-ni-yotte-example-01", "Lesson 5 · l5-ni-yotte"]]) }),
+    entry({ id: "l5-zairyo-fusoku", written: "材料不足", reading: "ざいりょうぶそく", meanings: ["material shortage"], partOfSpeech: "noun", lessonIds: [lessonFive], grammarIds: ["l5-ni-yotte"], kanji: [], occurrences: freeze([["lessons/lesson-05-reasons.html#l5-ni-yotte-example-01", "Lesson 5 · l5-ni-yotte"]]) }),
+    entry({ id: "l5-seisan", written: "生産", reading: "せいさん", meanings: ["production"], partOfSpeech: "noun", lessonIds: [lessonFive], grammarIds: ["l5-ni-yotte"], kanji: [], occurrences: freeze([["lessons/lesson-05-reasons.html#l5-ni-yotte-example-01", "Lesson 5 · l5-ni-yotte"]]) }),
+    entry({ id: "l5-gaikokugo", written: "外国語", reading: "がいこくご", meanings: ["foreign language"], partOfSpeech: "noun", lessonIds: [lessonFive], grammarIds: ["l5-ni-yotte"], kanji: [], occurrences: freeze([["lessons/lesson-05-reasons.html#l5-ni-yotte-example-03", "Lesson 5 · l5-ni-yotte"]]) }),
+    entry({ id: "l5-kangaekata", written: "考え方", reading: "かんがえかた", meanings: ["way of thinking"], partOfSpeech: "noun", lessonIds: [lessonFive], grammarIds: ["l5-ni-yotte"], kanji: [], occurrences: freeze([["lessons/lesson-05-reasons.html#l5-ni-yotte-example-03", "Lesson 5 · l5-ni-yotte"]]) }),
+    entry({ id: "l5-shiharai", written: "支払い", reading: "しはらい", meanings: ["payment"], partOfSpeech: "noun", lessonIds: [lessonFive], grammarIds: ["l5-ni-yotte"], kanji: [], occurrences: freeze([["lessons/lesson-05-reasons.html#l5-ni-yotte-example-04", "Lesson 5 · l5-ni-yotte"]]) }),
+    entry({ id: "l5-kibo", written: "希望", reading: "きぼう", meanings: ["wish; preference"], partOfSpeech: "noun", lessonIds: [lessonFive], grammarIds: ["l5-ni-yotte"], kanji: [], occurrences: freeze([["lessons/lesson-05-reasons.html#l5-ni-yotte-example-04", "Lesson 5 · l5-ni-yotte"]]) }),
+    entry({ id: "l5-chui", written: "注意", reading: "ちゅうい", meanings: ["attention; caution"], partOfSpeech: "noun", lessonIds: [lessonFive], grammarIds: ["l5-ni-yotte"], kanji: [], occurrences: freeze([["lessons/lesson-05-reasons.html#l5-ni-yotte-example-04", "Lesson 5 · l5-ni-yotte"]]) }),
+    entry({ id: "l5-gokai", written: "誤解", reading: "ごかい", meanings: ["misunderstanding"], partOfSpeech: "noun", lessonIds: [lessonFive], grammarIds: ["l5-kara-koto"], kanji: [], occurrences: freeze([["lessons/lesson-05-reasons.html#l5-kara-koto-example-01", "Lesson 5 · l5-kara-koto"]]) }),
+    entry({ id: "l5-oyako", written: "親子", reading: "おやこ", meanings: ["parent and child"], partOfSpeech: "noun", lessonIds: [lessonFive], grammarIds: ["l5-kara-koto"], kanji: [], occurrences: freeze([["lessons/lesson-05-reasons.html#l5-kara-koto-example-03", "Lesson 5 · l5-kara-koto"]]) }),
+    entry({ id: "l5-shushoku", written: "就職", reading: "しゅうしょく", meanings: ["employment; getting a job"], partOfSpeech: "noun", lessonIds: [lessonFive], grammarIds: ["l5-okage-sei"], kanji: [], occurrences: freeze([["lessons/lesson-05-reasons.html#l5-okage-sei-example-01", "Lesson 5 · l5-okage-sei"]]) }),
+    entry({ id: "l5-koji", written: "工事", reading: "こうじ", meanings: ["construction work"], partOfSpeech: "noun", lessonIds: [lessonFive], grammarIds: ["l5-okage-sei"], kanji: [], occurrences: freeze([["lessons/lesson-05-reasons.html#l5-okage-sei-example-02", "Lesson 5 · l5-okage-sei"]]) }),
+    entry({ id: "l5-shukan", written: "習慣", reading: "しゅうかん", meanings: ["custom; habit"], partOfSpeech: "noun", lessonIds: [lessonFive], grammarIds: ["l5-no-dakara"], kanji: [], occurrences: freeze([["lessons/lesson-05-reasons.html#l5-no-dakara-example-01", "Lesson 5 · l5-no-dakara"]]) }),
+    entry({ id: "l5-tozen", written: "当然", reading: "とうぜん", meanings: ["natural; expected"], partOfSpeech: "na-adjective", lessonIds: [lessonFive], grammarIds: ["l5-no-dakara"], kanji: [], occurrences: freeze([["lessons/lesson-05-reasons.html#l5-no-dakara-example-01", "Lesson 5 · l5-no-dakara"]]) }),
+    entry({ id: "l5-muri", written: "無理", reading: "むり", meanings: ["overdoing; impossible"], partOfSpeech: "na-adjective", lessonIds: [lessonFive], grammarIds: ["l5-no-dakara"], kanji: [], occurrences: freeze([["lessons/lesson-05-reasons.html#l5-no-dakara-example-02", "Lesson 5 · l5-no-dakara"]]) }),
+    entry({ id: "l5-shinken", written: "真剣", reading: "しんけん", meanings: ["serious; earnest"], partOfSpeech: "na-adjective", lessonIds: [lessonFive], grammarIds: ["l5-no-dakara"], kanji: [], occurrences: freeze([["lessons/lesson-05-reasons.html#l5-no-dakara-example-03", "Lesson 5 · l5-no-dakara"]]) }),
+    entry({ id: "l5-kaigi", written: "会議", reading: "かいぎ", meanings: ["meeting"], partOfSpeech: "noun", lessonIds: [lessonFive], grammarIds: ["l5-tame"], kanji: [], occurrences: freeze([["lessons/lesson-05-reasons.html#l5-tame-example-03", "Lesson 5 · l5-tame"]]) }),
+    entry({ id: "l5-taifu", written: "台風", reading: "たいふう", meanings: ["typhoon"], partOfSpeech: "noun", lessonIds: [lessonFive], grammarIds: ["l5-tame"], kanji: [], occurrences: freeze([["lessons/lesson-05-reasons.html#l5-tame-example-08", "Lesson 5 · l5-tame"]]) }),
+    entry({ id: "l5-kanosei", written: "可能性", reading: "かのうせい", meanings: ["possibility"], partOfSpeech: "noun", lessonIds: [lessonFive], grammarIds: ["l5-tame"], kanji: [], occurrences: freeze([["lessons/lesson-05-reasons.html#l5-tame-example-08", "Lesson 5 · l5-tame"]]) }),
+    entry({ id: "l6-hako", written: "箱", reading: "はこ", meanings: ["box"], partOfSpeech: "noun", lessonIds: [lessonSix], grammarIds: ["l6-nara"], kanji: [], occurrences: freeze([["lessons/lesson-06-conditions.html#l6-nara-example-01", "Lesson 6 · l6-nara"]]) }),
+    entry({ id: "l6-ame", written: "雨", reading: "あめ", meanings: ["rain"], partOfSpeech: "noun", lessonIds: [lessonSix], grammarIds: ["l6-nara"], kanji: [], occurrences: freeze([["lessons/lesson-06-conditions.html#l6-nara-example-02", "Lesson 6 · l6-nara"]]) }),
+    entry({ id: "l6-shujutsu", written: "手術", reading: "しゅじゅつ", meanings: ["surgery"], partOfSpeech: "noun", lessonIds: [lessonSix], grammarIds: ["l6-tewa-dewa"], kanji: [], occurrences: freeze([["lessons/lesson-06-conditions.html#l6-tewa-dewa-example-01", "Lesson 6 · l6-tewa-dewa"]]) }),
+    entry({ id: "l6-mimai", written: "見舞い", reading: "みまい", meanings: ["visit to a sick person"], partOfSpeech: "noun", lessonIds: [lessonSix], grammarIds: ["l6-tewa-dewa"], kanji: [], occurrences: freeze([["lessons/lesson-06-conditions.html#l6-tewa-dewa-example-01", "Lesson 6 · l6-tewa-dewa"]]) }),
+    entry({ id: "l6-meiwaku", written: "迷惑", reading: "めいわく", meanings: ["trouble; burden"], partOfSpeech: "na-adjective", lessonIds: [lessonSix], grammarIds: ["l6-tewa-dewa"], kanji: [], occurrences: freeze([["lessons/lesson-06-conditions.html#l6-tewa-dewa-example-01", "Lesson 6 · l6-tewa-dewa"]]) }),
+    entry({ id: "l6-musekinin", written: "無責任", reading: "むせきにん", meanings: ["irresponsible"], partOfSpeech: "na-adjective", lessonIds: [lessonSix], grammarIds: ["l6-tewa-dewa"], kanji: [], occurrences: freeze([["lessons/lesson-06-conditions.html#l6-tewa-dewa-example-02", "Lesson 6 · l6-tewa-dewa"]]) }),
+    entry({ id: "l6-taido", written: "態度", reading: "たいど", meanings: ["attitude"], partOfSpeech: "noun", lessonIds: [lessonSix], grammarIds: ["l6-tewa-dewa"], kanji: [], occurrences: freeze([["lessons/lesson-06-conditions.html#l6-tewa-dewa-example-02", "Lesson 6 · l6-tewa-dewa"]]) }),
+    entry({ id: "l6-nennai", written: "年内", reading: "ねんない", meanings: ["within the year"], partOfSpeech: "noun", lessonIds: [lessonSix], grammarIds: ["l6-tewa-dewa"], kanji: [], occurrences: freeze([["lessons/lesson-06-conditions.html#l6-tewa-dewa-example-03", "Lesson 6 · l6-tewa-dewa"]]) }),
+    entry({ id: "l6-manga", written: "漫画", reading: "まんが", meanings: ["manga; comic"], partOfSpeech: "noun", lessonIds: [lessonSix], grammarIds: ["l6-sae"], kanji: [], occurrences: freeze([["lessons/lesson-06-conditions.html#l6-sae-example-01", "Lesson 6 · l6-sae"]]) }),
+    entry({ id: "l6-taikutsu", written: "退屈", reading: "たいくつ", meanings: ["boredom; boring"], partOfSpeech: "na-adjective", lessonIds: [lessonSix], grammarIds: ["l6-sae"], kanji: [], occurrences: freeze([["lessons/lesson-06-conditions.html#l6-sae-example-01", "Lesson 6 · l6-sae"]]) }),
+    entry({ id: "l6-jobu", written: "丈夫", reading: "じょうぶ", meanings: ["healthy; sturdy"], partOfSpeech: "na-adjective", lessonIds: [lessonSix], grammarIds: ["l6-sae"], kanji: [], occurrences: freeze([["lessons/lesson-06-conditions.html#l6-sae-example-02", "Lesson 6 · l6-sae"]]) }),
+    entry({ id: "l6-chosen", written: "挑戦", reading: "ちょうせん", meanings: ["challenge"], partOfSpeech: "noun", lessonIds: [lessonSix], grammarIds: ["l6-sae"], kanji: [], occurrences: freeze([["lessons/lesson-06-conditions.html#l6-sae-example-02", "Lesson 6 · l6-sae"]]) }),
+    entry({ id: "l6-aite", written: "相手", reading: "あいて", meanings: ["other person; partner"], partOfSpeech: "noun", lessonIds: [lessonSix], grammarIds: ["l6-sae"], kanji: [], occurrences: freeze([["lessons/lesson-06-conditions.html#l6-sae-example-03", "Lesson 6 · l6-sae"]]) }),
+    entry({ id: "l6-yurusu", written: "許す", reading: "ゆるす", meanings: ["to forgive; permit"], partOfSpeech: "godan verb", lessonIds: [lessonSix], grammarIds: ["l6-sae"], kanji: [], occurrences: freeze([["lessons/lesson-06-conditions.html#l6-sae-example-03", "Lesson 6 · l6-sae"]]) }),
+    entry({ id: "l6-mawari", written: "周り", reading: "まわり", meanings: ["surroundings; people around"], partOfSpeech: "noun", lessonIds: [lessonSix], grammarIds: ["l6-tatoe"], kanji: [], occurrences: freeze([["lessons/lesson-06-conditions.html#l6-tatoe-example-01", "Lesson 6 · l6-tatoe"]]) }),
+    entry({ id: "l6-hantai", written: "反対", reading: "はんたい", meanings: ["opposition"], partOfSpeech: "noun", lessonIds: [lessonSix], grammarIds: ["l6-tatoe"], kanji: [], occurrences: freeze([["lessons/lesson-06-conditions.html#l6-tatoe-example-01", "Lesson 6 · l6-tatoe"]]) }),
+    entry({ id: "l6-kashu", written: "歌手", reading: "かしゅ", meanings: ["singer"], partOfSpeech: "noun", lessonIds: [lessonSix], grammarIds: ["l6-tatoe"], kanji: [], occurrences: freeze([["lessons/lesson-06-conditions.html#l6-tatoe-example-01", "Lesson 6 · l6-tatoe"]]) }),
+    entry({ id: "l6-hitsuyo", written: "必要", reading: "ひつよう", meanings: ["necessary"], partOfSpeech: "na-adjective", lessonIds: [lessonSix], grammarIds: ["l6-tatoe"], kanji: [], occurrences: freeze([["lessons/lesson-06-conditions.html#l6-tatoe-example-02", "Lesson 6 · l6-tatoe"]]) }),
+    entry({ id: "l6-mendo", written: "面倒", reading: "めんどう", meanings: ["troublesome"], partOfSpeech: "na-adjective", lessonIds: [lessonSix], grammarIds: ["l6-tatoe"], kanji: [], occurrences: freeze([["lessons/lesson-06-conditions.html#l6-tatoe-example-03", "Lesson 6 · l6-tatoe"]]) }),
+    entry({ id: "l6-kenko-shindan", written: "健康診断", reading: "けんこうしんだん", meanings: ["health examination"], partOfSpeech: "noun", lessonIds: [lessonSix], grammarIds: ["l6-tatoe"], kanji: [], occurrences: freeze([["lessons/lesson-06-conditions.html#l6-tatoe-example-03", "Lesson 6 · l6-tatoe"]]) }),
+    entry({ id: "l6-kaigai-ryoko", written: "海外旅行", reading: "かいがいりょこう", meanings: ["overseas travel"], partOfSpeech: "noun", lessonIds: [lessonSix], grammarIds: ["l6-ba-tara-nara"], kanji: [], occurrences: freeze([["lessons/lesson-06-conditions.html#l6-ba-tara-nara-example-01", "Lesson 6 · l6-ba-tara-nara"]]) }),
+    entry({ id: "l6-nebo", written: "寝坊", reading: "ねぼう", meanings: ["oversleeping"], partOfSpeech: "noun", lessonIds: [lessonSix], grammarIds: ["l6-ba-tara-nara"], kanji: [], occurrences: freeze([["lessons/lesson-06-conditions.html#l6-ba-tara-nara-example-02", "Lesson 6 · l6-ba-tara-nara"]]) }),
+    entry({ id: "l6-hikoki", written: "飛行機", reading: "ひこうき", meanings: ["airplane"], partOfSpeech: "noun", lessonIds: [lessonSix], grammarIds: ["l6-ba-tara-nara"], kanji: [], occurrences: freeze([["lessons/lesson-06-conditions.html#l6-ba-tara-nara-example-02", "Lesson 6 · l6-ba-tara-nara"]]) }),
+    entry({ id: "l6-gakusei-waribiki", written: "学生割引", reading: "がくせいわりびき", meanings: ["student discount"], partOfSpeech: "noun", lessonIds: [lessonSix], grammarIds: ["l6-ba-tara-nara"], kanji: [], occurrences: freeze([["lessons/lesson-06-conditions.html#l6-ba-tara-nara-example-03", "Lesson 6 · l6-ba-tara-nara"]]) }),
+    entry({ id: "l6-zannen", written: "残念", reading: "ざんねん", meanings: ["regrettable; a shame"], partOfSpeech: "na-adjective", lessonIds: [lessonSix], grammarIds: ["l6-ba-tara-nara"], kanji: [], occurrences: freeze([["lessons/lesson-06-conditions.html#l6-ba-tara-nara-example-03", "Lesson 6 · l6-ba-tara-nara"]]) }),
 
     ...lessonThreeRecords.map(lessonThreeEntry),
     ...lessonFourRecords.map(lessonFourEntry),
