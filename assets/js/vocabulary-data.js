@@ -1190,3 +1190,1334 @@
   root.N3VocabularyData = Object.freeze([...(root.N3VocabularyData || []), ...additions]);
 }(typeof window !== 'undefined' ? window : globalThis));
 /* END GENERATED LESSONS 11-12 VOCABULARY */
+
+/* GROUP A VOCABULARY */
+(function (root) {
+  "use strict";
+
+  const raw = [
+    ["ga-yusho", "優勝", "ゆうしょう", "championship; victory", "ga-koso", "ga-koso-example-01"],
+    ["ga-shiryo", "資料", "しりょう", "materials; data", "ga-koso", "ga-koso-example-02"],
+    ["ga-kyokutan", "極端", "きょくたん", "extreme", "ga-demo", "ga-demo-meaning-01"],
+    ["ga-teian", "提案", "ていあん", "proposal; suggestion", "ga-demo", "ga-demo-meaning-02"],
+    ["ga-saifu", "財布", "さいふ", "wallet", "ga-mo", "ga-mo-example-02"],
+    ["ga-reizoko", "冷蔵庫", "れいぞうこ", "refrigerator", "ga-sae", "ga-sae-example-01"],
+    ["ga-hokkyoku", "北極", "ほっきょく", "North Pole; Arctic", "ga-sae", "ga-sae-example-02"],
+    ["ga-saiteigen", "最低限", "さいていげん", "minimum; lowest limit", "ga-sae", "ga-sae-meaning-02"],
+    ["ga-hanabi", "花火", "はなび", "fireworks", "ga-sae", "ga-sae-example-05"],
+    ["ga-shakkin", "借金", "しゃっきん", "debt; borrowing", "ga-made", "ga-made-example-02"],
+    ["ga-nengajo", "年賀状", "ねんがじょう", "New Year's card", "ga-made", "ga-made-example-03"],
+    ["ga-teido", "程度", "ていど", "degree; extent", "ga-gurai", "ga-gurai-meaning-01"],
+    ["ga-nedan", "値段", "ねだん", "price", "ga-gurai", "ga-gurai-example-06"],
+    ["ga-kenson", "謙遜", "けんそん", "modesty; humility", "ga-nado", "ga-nado-meaning-02"],
+    ["ga-keigo", "敬語", "けいご", "honorific language", "ga-dake", "ga-dake-footnote-02"],
+    ["ga-shuccho", "出張", "しゅっちょう", "business trip", "ga-book-practice", "ga-book-1-02"],
+    ["ga-jitensha", "自転車", "じてんしゃ", "bicycle", "ga-book-practice", "ga-book-1-03"],
+    ["ga-gaka", "画家", "がか", "painter; artist", "ga-book-practice", "ga-book-2-04"],
+    ["ga-kyomi", "興味", "きょうみ", "interest", "ga-book-practice", "ga-book-2-04"],
+    ["ga-jusho", "住所", "じゅうしょ", "address", "ga-onepoint", "ga-book-onepoint-01"],
+    ["ga-kensa", "検査", "けんさ", "inspection; medical test", "ga-onepoint", "ga-book-onepoint-03"],
+    ["ga-tamagoyaki", "卵焼き", "たまごやき", "Japanese rolled omelet", "ga-onepoint", "ga-onepoint-example-03"],
+    ["ga-tofu", "豆腐", "とうふ", "tofu", "ga-onepoint", "ga-onepoint-example-04"],
+  ];
+
+  const additions = raw.map(([id, written, reading, meaning, grammarId, anchor]) => Object.freeze({
+    id,
+    written,
+    reading,
+    meanings: Object.freeze([meaning]),
+    partOfSpeech: "noun",
+    lessonIds: Object.freeze(["group-a"]),
+    grammarIds: Object.freeze([grammarId]),
+    kanji: Object.freeze([Object.freeze({ character: written, reading, meaning })]),
+    occurrences: Object.freeze([Object.freeze({
+      href: `groups/group-a-particles.html#${anchor}`,
+      label: `Group A · ${written}`,
+    })]),
+  }));
+
+  root.N3VocabularyData = Object.freeze([...(root.N3VocabularyData || []), ...additions]);
+}(typeof window !== "undefined" ? window : globalThis));
+/* END GROUP A VOCABULARY */
+
+/* GROUP B VOCABULARY */
+(function (root) {
+  "use strict";
+
+  const raw = [
+    ["gb-nyugaku-tetsuzuki", "入学手続き", "にゅうがくてつづき", "admission procedure", "gb-ni-tsuite", "gb-ni-tsuite-example-01"],
+    ["gb-kyoiku", "教育", "きょういく", "education", "gb-ni-tsuite", "gb-ni-tsuite-example-02"],
+    ["gb-kansou", "感想", "かんそう", "impression; thoughts", "gb-ni-tsuite", "gb-ni-tsuite-example-03"],
+    ["gb-hantai", "反対", "はんたい", "opposition", "gb-ni-taishite", "gb-ni-taishite-example-02"],
+    ["gb-koujou", "工場", "こうじょう", "factory", "gb-ni-taishite", "gb-ni-taishite-example-03"],
+    ["gb-juumin", "住民", "じゅうみん", "residents", "gb-ni-taishite", "gb-ni-taishite-example-03"],
+    ["gb-hihan", "批判", "ひはん", "criticism", "gb-ni-taishite", "gb-ni-taishite-example-04"],
+    ["gb-dentouteki", "伝統的", "でんとうてき", "traditional", "gb-ni-yotte", "gb-ni-yotte-example-02"],
+    ["gb-mumei", "無名", "むめい", "unknown; anonymous", "gb-ni-yotte", "gb-ni-yotte-example-03"],
+    ["gb-kankaku", "感じ方", "かんじかた", "way of feeling", "gb-ni-yotte", "gb-ni-yotte-cross-01"],
+    ["gb-ryuugakusei", "留学生", "りゅうがくせい", "international student", "gb-ni-totte", "gb-ni-totte-example-01"],
+    ["gb-endaka", "円高", "えんだか", "strong yen", "gb-ni-totte", "gb-ni-totte-example-01"],
+    ["gb-juudai", "重大", "じゅうだい", "serious; important", "gb-ni-totte", "gb-ni-totte-example-01"],
+    ["gb-omoide", "思い出", "おもいで", "memory", "gb-ni-totte", "gb-ni-totte-example-03"],
+    ["gb-kokuhi", "国費", "こくひ", "government expense", "gb-toshite", "gb-toshite-example-01"],
+    ["gb-daihyou", "代表", "だいひょう", "representative", "gb-toshite", "gb-toshite-example-02"],
+    ["gb-heiwa", "平和", "へいわ", "peace", "gb-toshite", "gb-toshite-example-02"],
+    ["gb-sanchi", "産地", "さんち", "production area", "gb-toshite", "gb-toshite-example-04"],
+    ["gb-fuuryoku-hatsuden", "風力発電", "ふうりょくはつでん", "wind-power generation", "gb-book-practice", "gb-book-1-04"],
+    ["gb-seichouki", "成長期", "せいちょうき", "growth period", "gb-book-practice", "gb-book-1-10"],
+    ["gb-shichou", "市長", "しちょう", "mayor", "gb-onepoint", "gb-book-onepoint-05"],
+    ["gb-chuushi", "中止", "ちゅうし", "cancellation; suspension", "gb-onepoint", "gb-book-onepoint-07"],
+  ];
+
+  const additions = raw.map(([id, written, reading, meaning, grammarId, anchor]) => Object.freeze({
+    id,
+    written,
+    reading,
+    meanings: Object.freeze([meaning]),
+    partOfSpeech: "noun",
+    lessonIds: Object.freeze(["group-b"]),
+    grammarIds: Object.freeze([grammarId]),
+    kanji: Object.freeze([Object.freeze({ character: written, reading, meaning })]),
+    occurrences: Object.freeze([Object.freeze({
+      href: `groups/group-b-particle-like-words.html#${anchor}`,
+      label: `Group B · ${written}`,
+    })]),
+  }));
+
+  root.N3VocabularyData = Object.freeze([...(root.N3VocabularyData || []), ...additions]);
+}(typeof window !== "undefined" ? window : globalThis));
+/* END GROUP B VOCABULARY */
+
+/* GROUP C VOCABULARY */
+(function (root) {
+  "use strict";
+  const raw = [
+    ["gc-shourai", "将来", "しょうらい", "future", "gc-koto-only", "gc-koto-example-01"],
+    ["gc-mangaka", "漫画家", "まんがか", "manga artist", "gc-koto-only", "gc-koto-example-01"],
+    ["gc-tokuchou", "特徴", "とくちょう", "characteristic", "gc-koto-only", "gc-koto-example-02"],
+    ["gc-henji", "返事", "へんじ", "reply", "gc-koto-only", "gc-koto-example-04"],
+    ["gc-mensetsu", "面接", "めんせつ", "interview", "gc-koto-only", "gc-koto-example-06"],
+    ["gc-kankaku", "感覚", "かんかく", "sense; sensation", "gc-no-only", "gc-no-senses"],
+    ["gc-mokuteki", "目的", "もくてき", "purpose", "gc-no-only", "gc-no-purpose"],
+    ["gc-hitsuyou", "必要", "ひつよう", "necessary", "gc-no-only", "gc-no-example-05"],
+    ["gc-zangyou", "残業", "ざんぎょう", "overtime work", "gc-no-only", "gc-no-example-08"],
+    ["gc-seisankakkei", "正三角形", "せいさんかくけい", "equilateral triangle", "gc-no-only", "gc-no-example-09"],
+    ["gc-enbun", "塩辛い", "しおからい", "salty", "gc-no-only", "gc-no-example-11"],
+    ["gc-yuudachi", "夕日", "ゆうひ", "evening sun", "gc-book-practice", "gc-book-2-02"],
+    ["gc-hyouten", "氷点", "ひょうてん", "freezing point", "gc-book-practice", "gc-book-2-06"],
+    ["gc-shuushoku", "就職", "しゅうしょく", "employment", "gc-book-practice", "gc-book-2-09"],
+    ["gc-tokubetsushou", "特別賞", "とくべつしょう", "special prize", "gc-book-practice", "gc-book-2-11"],
+    ["gc-jittai", "実体", "じったい", "physical substance", "gc-onepoint", "gc-mono-definition"],
+    ["gc-naiyou", "内容", "ないよう", "content", "gc-onepoint", "gc-koto-definition"],
+  ];
+  const additions = raw.map(([id,written,reading,meaning,grammarId,anchor]) => Object.freeze({id,written,reading,meanings:Object.freeze([meaning]),partOfSpeech:"noun",lessonIds:Object.freeze(["group-c"]),grammarIds:Object.freeze([grammarId]),kanji:Object.freeze([Object.freeze({character:written,reading,meaning})]),occurrences:Object.freeze([Object.freeze({href:`groups/group-c-koto-no.html#${anchor}`,label:`Group C · ${written}`})])}));
+  root.N3VocabularyData = Object.freeze([...(root.N3VocabularyData || []), ...additions]);
+}(typeof window !== "undefined" ? window : globalThis));
+/* END GROUP C VOCABULARY */
+
+/* GROUP D VOCABULARY */
+(function (root) {
+  "use strict";
+  const raw = [
+    ["gd-niteru", "似ている", "にている", "to resemble", "gd-similarity", "gd-intro"],
+    ["gd-atatakai", "暖かい", "あたたかい", "warm", "gd-similarity", "gd-sim-example-01"],
+    ["gd-hikkurikaesu", "ひっくり返す", "ひっくりかえす", "to turn upside down", "gd-similarity", "gd-sim-example-03"],
+    ["gd-souzou", "想像", "そうぞう", "imagination", "gd-same-example", "gd-same-example-03"],
+    ["gd-nutrition", "栄養", "えいよう", "nutrition", "gd-same-example", "gd-same-example-01"],
+    ["gd-mezurashii", "珍しい", "めずらしい", "rare; unusual", "gd-same-example", "gd-example-example-01"],
+    ["gd-koishii", "濃い", "こい", "deep; strong (color)", "gd-same-example", "gd-example-example-02"],
+    ["gd-shimbun", "新聞", "しんぶん", "newspaper", "gd-known-hope", "gd-known-example-02"],
+    ["gd-taifuu", "台風", "たいふう", "typhoon", "gd-known-hope", "gd-known-example-03"],
+    ["gd-shakai-mondai", "社会問題", "しゃかいもんだい", "social issue", "gd-known-hope", "gd-hope-example-02"],
+    ["gd-akachan", "赤ん坊", "あかんぼう", "baby", "gd-known-hope", "gd-hope-example-03"],
+    ["gd-zasshi", "雑誌", "ざっし", "magazine", "gd-request", "gd-request-example-01"],
+    ["gd-chuui", "注意", "ちゅうい", "warning; caution", "gd-request", "gd-request-example-02"],
+    ["gd-henshin", "返信", "へんしん", "reply", "gd-request", "gd-request-example-03"],
+    ["gd-goukaku", "合格", "ごうかく", "passing (an exam)", "gd-request", "gd-request-example-04"],
+    ["gd-seikatsu-shuukan", "生活習慣", "せいかつしゅうかん", "lifestyle habit", "gd-book-practice", "gd-book-1-04"],
+    ["gd-jiishin", "地震", "じしん", "earthquake", "gd-book-practice", "gd-book-2-07"],
+    ["gd-senzai", "洗剤", "せんざい", "detergent", "gd-onepoint", "gd-book-onepoint-01"],
+    ["gd-fukushuu", "復習", "ふくしゅう", "review", "gd-onepoint", "gd-book-onepoint-05"],
+    ["gd-jitsugen", "実現", "じつげん", "realization; fulfillment", "gd-onepoint", "gd-book-onepoint-07"],
+  ];
+  const additions = raw.map(([id,written,reading,meaning,grammarId,anchor]) => Object.freeze({
+    id,written,reading,meanings:Object.freeze([meaning]),partOfSpeech:"word",
+    lessonIds:Object.freeze(["group-d"]),grammarIds:Object.freeze([grammarId]),
+    kanji:Object.freeze([Object.freeze({character:written,reading,meaning})]),
+    occurrences:Object.freeze([Object.freeze({href:`groups/group-d-you.html#${anchor}`,label:`Group D · ${written}`})]),
+  }));
+  root.N3VocabularyData = Object.freeze([...(root.N3VocabularyData || []), ...additions]);
+}(typeof window !== "undefined" ? window : globalThis));
+/* END GROUP D VOCABULARY */
+
+/* GROUP E VOCABULARY */
+(function(root){
+  "use strict";
+  const raw=[
+    ["ge-toukyoueki","東京駅","とうきょうえき","Tokyo Station","ge-wake","ge-wake-example-01"],
+    ["ge-renshuu","連休","れんきゅう","consecutive holidays","ge-wake","ge-wake-example-03"],
+    ["ge-yonaka","夜中","よなか","middle of the night","ge-wake","ge-wake-example-04"],
+    ["ge-gaka","画家","がか","painter; artist","ge-wake","ge-wake-example-05"],
+    ["ge-shinyuu","親友","しんゆう","close friend","ge-wake-niwa","ge-wake-niwa-example-01"],
+    ["ge-tanomi","頼み","たのみ","request; favor","ge-wake-niwa","ge-wake-niwa-example-01"],
+    ["ge-kaigi","会議","かいぎ","meeting","ge-wake-niwa","ge-wake-niwa-example-03"],
+    ["ge-jitensha","自転車","じてんしゃ","bicycle","ge-nai-wake-niwa","ge-nai-wake-example-01"],
+    ["ge-toshokan","図書館","としょかん","library","ge-nai-wake-niwa","ge-nai-wake-example-03"],
+    ["ge-mansion","家賃","やちん","rent","ge-book-practice","ge-book-1-01"],
+    ["ge-keiken","経験","けいけん","experience","ge-book-practice","ge-book-1-03"],
+    ["ge-ningyou","人形","にんぎょう","doll","ge-book-practice","ge-book-1-05"],
+    ["ge-seikou","成功","せいこう","success","ge-book-practice","ge-book-2-05"],
+    ["ge-jikken","実験","じっけん","experiment","ge-onepoint","ge-book-onepoint-01"],
+    ["ge-kekka","結果","けっか","result","ge-onepoint","ge-book-onepoint-02"],
+    ["ge-kitai","期待","きたい","expectation","ge-onepoint","ge-book-onepoint-01"],
+    ["ge-shukan","主観","しゅかん","subjective viewpoint","ge-onepoint","ge-hazu-explanation"],
+    ["ge-kakushin","確信","かくしん","confidence; conviction","ge-onepoint","ge-hazu-explanation"],
+    ["ge-taido","態度","たいど","attitude","ge-review-ae","review-ae-01"],
+    ["ge-shindo","進学","しんがく","advancing to higher education","ge-review-ae","review-ae-09"],
+  ];
+  const additions=raw.map(([id,written,reading,meaning,grammarId,anchor])=>Object.freeze({id,written,reading,meanings:Object.freeze([meaning]),partOfSpeech:"word",lessonIds:Object.freeze(["group-e"]),grammarIds:Object.freeze([grammarId]),kanji:Object.freeze([Object.freeze({character:written,reading,meaning})]),occurrences:Object.freeze([Object.freeze({href:`groups/group-e-wake.html#${anchor}`,label:`Group E · ${written}`})])}));
+  root.N3VocabularyData=Object.freeze([...(root.N3VocabularyData||[]),...additions]);
+}(typeof window!=="undefined"?window:globalThis));
+/* END GROUP E VOCABULARY */
+
+/* GROUP F VOCABULARY */
+(function(root){
+  "use strict";
+  const raw=[
+    ["gf-kappuraamen","カップラーメン","かっぷらーめん","cup noodles","gf-bakari","gf-bakari-example-01"],
+    ["gf-kaigi","会話","かいわ","conversation","gf-bakari","gf-bakari-example-02"],
+    ["gf-henrei","お返し","おかえし","return gift; repayment","gf-bakari","gf-bakari-example-03"],
+    ["gf-inoru","祈る","いのる","to pray","gf-bakari","gf-bakari-example-05"],
+    ["gf-sofu","祖父","そふ","grandfather","gf-tebakari","gf-tebakari-example-01"],
+    ["gf-benkyo","勉強","べんきょう","study","gf-tebakari","gf-tebakari-example-02"],
+    ["gf-hihan","非難","ひなん","criticism","gf-tebakari","gf-tebakari-explanation"],
+    ["gf-sekai","世界中","せかいじゅう","throughout the world","gf-dakenaku","gf-dakenaku-example-01"],
+    ["gf-kanshin","関心","かんしん","interest; concern","gf-dakenaku","gf-dakenaku-example-01"],
+    ["gf-annai","案内","あんない","guidance; showing around","gf-dakenaku","gf-dakenaku-example-03"],
+    ["gf-kankei","関係","かんけい","relationship","gf-bakarida","gf-change-example-01"],
+    ["gf-gaikokugo","外国語","がいこくご","foreign language","gf-bakarida","gf-change-example-02"],
+    ["gf-shoutaijou","招待状","しょうたいじょう","invitation","gf-bakarida","gf-ready-example-03"],
+    ["gf-junbi","準備","じゅんび","preparation","gf-bakarida","gf-ready-example-01"],
+    ["gf-kekkon","結婚","けっこん","marriage","gf-tabakari","gf-tabakari-example-02"],
+    ["gf-koutsuu","交通","こうつう","transportation; traffic","gf-book-practice","gf-book-1-03"],
+    ["gf-kankoukyaku","観光客","かんこうきゃく","tourist","gf-book-practice","gf-book-2-02"],
+    ["gf-kaiten","開店","かいてん","opening a store","gf-book-practice","gf-book-2-02"],
+    ["gf-keitai","携帯電話","けいたいでんわ","mobile phone","gf-book-practice","gf-book-2-03"],
+    ["gf-shusseki","出席者","しゅっせきしゃ","attendee","gf-book-practice","gf-book-2-04"],
+    ["gf-nyuusha","入社","にゅうしゃ","joining a company","gf-onepoint","gf-book-onepoint-07"],
+  ];
+  const additions=raw.map(([id,written,reading,meaning,grammarId,anchor])=>Object.freeze({id,written,reading,meanings:Object.freeze([meaning]),partOfSpeech:"word",lessonIds:Object.freeze(["group-f"]),grammarIds:Object.freeze([grammarId]),kanji:Object.freeze([Object.freeze({character:written,reading,meaning})]),occurrences:Object.freeze([Object.freeze({href:`groups/group-f-bakari.html#${anchor}`,label:`Group F · ${written}`})])}));
+  root.N3VocabularyData=Object.freeze([...(root.N3VocabularyData||[]),...additions]);
+}(typeof window!=="undefined"?window:globalThis));
+/* END GROUP F VOCABULARY */
+
+/* GROUP G VOCABULARY */
+(function(root){
+  "use strict";
+  const raw=[
+    ["gg-ishi","人の意志的な行為","ひとのいしてきなこうい","a person’s intentional behavior","gg-basic","gg-basic-example-01"],
+    ["gg-henka","物事の変化・結果","ものごとのへんか・けっか","change or result of a situation","gg-basic","gg-basic-example-02"],
+    ["gg-kozakana","小魚","こざかな","small fish","gg-state","gg-state-suru-02"],
+    ["gg-shuppatsubi","出発日","しゅっぱつび","departure date","gg-decision","gg-decision-suru-01"],
+    ["gg-renkyuu","連休","れんきゅう","consecutive holidays","gg-decision","gg-decision-suru-02"],
+    ["gg-shucchou","出張","しゅっちょう","business trip","gg-decision","gg-decision-naru-02"],
+    ["gg-rejibukuro","レジ袋","れじぶくろ","plastic shopping bag","gg-pattern","gg-pattern-suru-03"],
+    ["gg-seifuku","制服","せいふく","uniform","gg-pattern","gg-pattern-naru-02"],
+    ["gg-taiyou","太陽","たいよう","sun","gg-purpose","gg-purpose-design-01"],
+    ["gg-jidou","自動","じどう","automatic","gg-purpose","gg-purpose-design-02"],
+    ["gg-suibun","水分","すいぶん","water; fluids","gg-habit","gg-habit-example-01"],
+    ["gg-henshin","返信","へんしん","reply; response","gg-habit","gg-habit-example-03"],
+  ];
+  const additions=raw.map(([id,written,reading,meaning,grammarId,anchor])=>Object.freeze({id,written,reading,meanings:Object.freeze([meaning]),partOfSpeech:"word",lessonIds:Object.freeze(["group-g"]),grammarIds:Object.freeze([grammarId]),kanji:Object.freeze([Object.freeze({character:written,reading,meaning})]),occurrences:Object.freeze([Object.freeze({href:`groups/group-g-suru-naru.html#${anchor}`,label:`Group G · ${written}`})])}));
+  root.N3VocabularyData=Object.freeze([...(root.N3VocabularyData||[]),...additions]);
+}(typeof window!=="undefined"?window:globalThis));
+/* END GROUP G VOCABULARY */
+
+/* GROUP H VOCABULARY */
+(function(root){
+  "use strict";
+  const raw=[
+    ["gh-ningyou","人形","にんぎょう","doll","gh-notice","gh-notice-example-01"],
+    ["gh-otoko","大男","おおおとこ","large man","gh-notice","gh-notice-example-02"],
+    ["gh-yukigesiki","雪景色","ゆきげしき","snowy landscape","gh-notice","gh-notice-example-03"],
+    ["gh-guuzen","偶然","ぐうぜん","by chance; coincidence","gh-chance","gh-chance-example-02"],
+    ["gh-totsuzen","突然","とつぜん","suddenly","gh-chance","gh-chance-example-03"],
+    ["gh-ooame","大雨","おおあめ","heavy rain","gh-chance","gh-chance-example-03"],
+    ["gh-kikkake","きっかけ","きっかけ","trigger; opportunity","gh-trigger","gh-trigger-example-01"],
+    ["gh-henji","返事","へんじ","reply; response","gh-trigger","gh-trigger-example-01"],
+    ["gh-shikenmondai","試験問題","しけんもんだい","test questions","gh-sequence","gh-sequence-example-02"],
+    ["gh-hikouki","飛行機","ひこうき","airplane","gh-sequence","gh-sequence-example-03"],
+    ["gh-jinsei","人生","じんせい","life; human life","gh-both","gh-both-example-01"],
+    ["gh-shumi","趣味","しゅみ","hobby; interest","gh-both","gh-both-example-04"],
+    ["gh-takuhaibin","宅配便","たくはいびん","parcel delivery service","gh-book-practice","gh-book-1-10"],
+  ];
+  const additions=raw.map(([id,written,reading,meaning,grammarId,anchor])=>Object.freeze({id,written,reading,meanings:Object.freeze([meaning]),partOfSpeech:"word",lessonIds:Object.freeze(["group-h"]),grammarIds:Object.freeze([grammarId]),kanji:Object.freeze([Object.freeze({character:written,reading,meaning})]),occurrences:Object.freeze([Object.freeze({href:`groups/group-h-conditions.html#${anchor}`,label:`Group H · ${written}`})])}));
+  root.N3VocabularyData=Object.freeze([...(root.N3VocabularyData||[]),...additions]);
+}(typeof window!=="undefined"?window:globalThis));
+/* END GROUP H VOCABULARY */
+
+/* GROUP I VOCABULARY */
+(function(root){
+  "use strict";
+  const raw=[
+    ["gi-kaiketsu","解決","かいけつ","solution; resolution","gi-negative","gi-negative"],
+    ["gi-yoyaku","予約","よやく","reservation","gi-negative","gi-negative"],
+    ["gi-jinkou","人口","じんこう","population","gi-change","gi-change"],
+    ["gi-denki-jidousha","電気自動車","でんきじどうしゃ","electric car","gi-change","gi-change"],
+    ["gi-jikken","実験","じっけん","experiment","gi-request","gi-request"],
+    ["gi-sagasu","捜す","さがす","to search for","gi-request","gi-request"],
+    ["gi-shippai","失敗","しっぱい","failure; mistake","gi-request","gi-request"],
+    ["gi-onsen","温泉","おんせん","hot spring","gi-condition","gi-condition"],
+  ];
+  const additions=raw.map(([id,written,reading,meaning,grammarId,anchor])=>Object.freeze({id,written,reading,meanings:Object.freeze([meaning]),partOfSpeech:"word",lessonIds:Object.freeze(["group-i"]),grammarIds:Object.freeze([grammarId]),kanji:Object.freeze([Object.freeze({character:written,reading,meaning})]),occurrences:Object.freeze([Object.freeze({href:`groups/group-i-fixed-adverbs.html#${anchor}`,label:`Group I · ${written}`})])}));
+  root.N3VocabularyData=Object.freeze([...(root.N3VocabularyData||[]),...additions]);
+}(typeof window!=="undefined"?window:globalThis));
+/* END GROUP I VOCABULARY */
+
+/* GROUP J VOCABULARY */
+(function(root){
+  "use strict";
+  const raw=[
+    ["gj-damatte","黙って","だまって","silently; without speaking","gj-stage","gj-stage-example-01"],
+    ["gj-kyori","距離","きょり","distance","gj-stage","gj-stage-example-03"],
+    ["gj-kao","顔","かお","face","gj-stage","gj-stage-example-07"],
+    ["gj-totsuzen","突然","とつぜん","suddenly","gj-stage","gj-stage-example-07"],
+    ["gj-katai","硬くて","かたくて","hard; tough","gj-ease","gj-ease-example-03"],
+    ["gj-kojin","個人的","こじんてき","personal; private","gj-ease","gj-ease-example-05"],
+    ["gj-shokuba","職場","しょくば","workplace","gj-ease","gj-ease-example-05"],
+    ["gj-kuroban","黒板","こくばん","blackboard","gj-ease","gj-ease-example-06"],
+    ["gj-nenrei","年齢","ねんれい","age","gj-quality","gj-quality-example-02"],
+  ];
+  const additions=raw.map(([id,written,reading,meaning,grammarId,anchor])=>Object.freeze({id,written,reading,meanings:Object.freeze([meaning]),partOfSpeech:"word",lessonIds:Object.freeze(["group-j"]),grammarIds:Object.freeze([grammarId]),kanji:Object.freeze([Object.freeze({character:written,reading,meaning})]),occurrences:Object.freeze([Object.freeze({href:`groups/group-j-expanding-meaning.html#${anchor}`,label:`Group J · ${written}`})])}));
+  root.N3VocabularyData=Object.freeze([...(root.N3VocabularyData||[]),...additions]);
+}(typeof window!=="undefined"?window:globalThis));
+/* END GROUP J VOCABULARY */
+
+/* PART 3 LESSON 1 VOCABULARY */
+(function(root){
+  "use strict";
+  const raw=[
+  [
+    "p3l1-gokaku",
+    "合格",
+    "ごうかく",
+    "passing an examination; success",
+    "p3l1-quotation",
+    "p3l1-quotation-book-01"
+  ],
+  [
+    "p3l1-susumeru",
+    "勧める",
+    "すすめる",
+    "to recommend; advise",
+    "p3l1-request",
+    "p3l1-request-book-01"
+  ],
+  [
+    "p3l1-undou",
+    "運動",
+    "うんどう",
+    "exercise; physical activity",
+    "p3l1-request",
+    "p3l1-request-book-01"
+  ],
+  [
+    "p3l1-tanomu",
+    "頼む",
+    "たのむ",
+    "to request; ask a favor",
+    "p3l1-request",
+    "p3l1-request-book-02"
+  ],
+  [
+    "p3l1-setsumei",
+    "説明",
+    "せつめい",
+    "explanation",
+    "p3l1-request",
+    "p3l1-request-book-02"
+  ],
+  [
+    "p3l1-taisetsu",
+    "大切",
+    "たいせつ",
+    "important; valuable; with care",
+    "p3l1-request",
+    "p3l1-request-book-03"
+  ],
+  [
+    "p3l1-kiku",
+    "聞く",
+    "きく",
+    "to ask; listen; hear",
+    "p3l1-question",
+    "p3l1-question-book-01"
+  ],
+  [
+    "p3l1-jouzu",
+    "上手",
+    "じょうず",
+    "skillful; good at",
+    "p3l1-question",
+    "p3l1-question-book-02"
+  ],
+  [
+    "p3l1-ninki",
+    "人気",
+    "にんき",
+    "popularity",
+    "p3l1-reason",
+    "p3l1-reason-book-01"
+  ],
+  [
+    "p3l1-ryokou",
+    "旅行",
+    "りょこう",
+    "travel; trip",
+    "p3l1-book-practice",
+    "p3l1-book-01"
+  ],
+  [
+    "p3l1-keikaku",
+    "計画",
+    "けいかく",
+    "plan",
+    "p3l1-book-practice",
+    "p3l1-book-01"
+  ],
+  [
+    "p3l1-henji",
+    "返事",
+    "へんじ",
+    "reply; answer",
+    "p3l1-book-practice",
+    "p3l1-book-01"
+  ],
+  [
+    "p3l1-abunai",
+    "危ない",
+    "あぶない",
+    "dangerous",
+    "p3l1-book-practice",
+    "p3l1-book-02"
+  ],
+  [
+    "p3l1-chuui",
+    "注意",
+    "ちゅうい",
+    "warning; attention",
+    "p3l1-book-practice",
+    "p3l1-book-02"
+  ],
+  [
+    "p3l1-kaisha",
+    "会社",
+    "かいしゃ",
+    "company",
+    "p3l1-book-practice",
+    "p3l1-book-03"
+  ],
+  [
+    "p3l1-senpai",
+    "先輩",
+    "せんぱい",
+    "senior; experienced colleague",
+    "p3l1-book-practice",
+    "p3l1-book-03"
+  ],
+  [
+    "p3l1-kotoshi",
+    "今年",
+    "ことし",
+    "this year",
+    "p3l1-book-practice",
+    "p3l1-book-04"
+  ],
+  [
+    "p3l1-tenchou",
+    "店長",
+    "てんちょう",
+    "store manager",
+    "p3l1-book-practice",
+    "p3l1-book-09"
+  ],
+  [
+    "p3l1-kotoba",
+    "言葉",
+    "ことば",
+    "word; language",
+    "p3l1-book-practice",
+    "p3l1-book-10"
+  ],
+  [
+    "p3l1-shiraberu",
+    "調べる",
+    "しらべる",
+    "to investigate; check",
+    "p3l1-book-practice",
+    "p3l1-book-10"
+  ]
+];
+  const additions=raw.map(([id,written,reading,meaning,grammarId,anchor])=>Object.freeze({id,written,reading,meanings:Object.freeze([meaning]),partOfSpeech:"word",lessonIds:Object.freeze(["part3-lesson-01"]),grammarIds:Object.freeze([grammarId]),kanji:Object.freeze([Object.freeze({character:written,reading,meaning})]),occurrences:Object.freeze([Object.freeze({href:`sentence/lesson-01-quotation.html#${anchor}`,label:`Part 3 Lesson 1 · ${written}`})])}));
+  root.N3VocabularyData=Object.freeze([...(root.N3VocabularyData||[]),...additions]);
+}(typeof window!=="undefined"?window:globalThis));
+/* END PART 3 LESSON 1 VOCABULARY */
+
+/* PART 3 LESSON 2 VOCABULARY */
+(function(root){
+  "use strict";
+  const raw=[
+  [
+    "p3l2-toukyoueki",
+    "東京駅",
+    "とうきょうえき",
+    "Tokyo Station",
+    "p3l2-clause",
+    "p3l2-clause-book-01"
+  ],
+  [
+    "p3l2-yorokobu",
+    "喜ぶ",
+    "よろこぶ",
+    "to be pleased; rejoice",
+    "p3l2-clause",
+    "p3l2-clause-book-02"
+  ],
+  [
+    "p3l2-ukeru",
+    "受ける",
+    "うける",
+    "to receive; undergo",
+    "p3l2-clause",
+    "p3l2-clause-book-03"
+  ],
+  [
+    "p3l2-koe",
+    "声",
+    "こえ",
+    "voice",
+    "p3l2-clause",
+    "p3l2-clause-book-04"
+  ],
+  [
+    "p3l2-eki",
+    "駅",
+    "えき",
+    "station",
+    "p3l2-particle-no",
+    "p3l2-particle-no-book-01"
+  ],
+  [
+    "p3l2-tegami",
+    "手紙",
+    "てがみ",
+    "letter",
+    "p3l2-particle-no",
+    "p3l2-particle-no-book-02"
+  ],
+  [
+    "p3l2-tsuugaku",
+    "通学手段",
+    "つうがくしゅだん",
+    "means of commuting to school",
+    "p3l2-particle-like-no",
+    "p3l2-particle-like-no-book-01"
+  ],
+  [
+    "p3l2-seimei",
+    "生命",
+    "せいめい",
+    "life; living beings",
+    "p3l2-particle-like-no",
+    "p3l2-particle-like-no-book-02"
+  ],
+  [
+    "p3l2-unnei",
+    "運営",
+    "うんえい",
+    "operation; management",
+    "p3l2-adnominal",
+    "p3l2-adnominal-book-01"
+  ],
+  [
+    "p3l2-hantai",
+    "反対意見",
+    "はんたいいけん",
+    "opposing opinion",
+    "p3l2-adnominal",
+    "p3l2-adnominal-book-02"
+  ],
+  [
+    "p3l2-shuuri",
+    "修理",
+    "しゅうり",
+    "repair",
+    "p3l2-state-no",
+    "p3l2-state-no-book-01"
+  ],
+  [
+    "p3l2-keshiki",
+    "景色",
+    "けしき",
+    "scenery; view",
+    "p3l2-state-no",
+    "p3l2-state-no-book-02"
+  ],
+  [
+    "p3l2-yogoreta",
+    "汚れた",
+    "よごれた",
+    "dirty; soiled",
+    "p3l2-state-no",
+    "p3l2-state-no-book-03"
+  ],
+  [
+    "p3l2-kaigan",
+    "海岸",
+    "かいがん",
+    "seashore; coast",
+    "p3l2-book-practice",
+    "p3l2-book-01"
+  ],
+  [
+    "p3l2-nioi",
+    "匂い",
+    "におい",
+    "smell; aroma",
+    "p3l2-book-practice",
+    "p3l2-book-01"
+  ],
+  [
+    "p3l2-kandou",
+    "感動",
+    "かんどう",
+    "deep emotion; being moved",
+    "p3l2-book-practice",
+    "p3l2-book-02"
+  ],
+  [
+    "p3l2-shoukai",
+    "紹介",
+    "しょうかい",
+    "introduction",
+    "p3l2-book-practice",
+    "p3l2-book-03"
+  ],
+  [
+    "p3l2-yakusoku",
+    "約束",
+    "やくそく",
+    "promise; appointment",
+    "p3l2-book-practice",
+    "p3l2-book-05"
+  ],
+  [
+    "p3l2-kansha",
+    "感謝",
+    "かんしゃ",
+    "gratitude; thanks",
+    "p3l2-book-practice",
+    "p3l2-book-06"
+  ],
+  [
+    "p3l2-jikken",
+    "実験",
+    "じっけん",
+    "experiment",
+    "p3l2-book-practice",
+    "p3l2-book-07"
+  ],
+  [
+    "p3l2-kekka",
+    "結果",
+    "けっか",
+    "result",
+    "p3l2-book-practice",
+    "p3l2-book-07"
+  ],
+  [
+    "p3l2-ieie",
+    "家々",
+    "いえいえ",
+    "houses; each house",
+    "p3l2-book-practice",
+    "p3l2-book-09"
+  ],
+  [
+    "p3l2-nimotsu",
+    "荷物",
+    "にもつ",
+    "luggage; package",
+    "p3l2-book-practice",
+    "p3l2-book-10"
+  ],
+  [
+    "p3l2-todoku",
+    "届く",
+    "とどく",
+    "to arrive; be delivered",
+    "p3l2-book-practice",
+    "p3l2-book-10"
+  ]
+];
+  const additions=raw.map(([id,written,reading,meaning,grammarId,anchor])=>Object.freeze({id,written,reading,meanings:Object.freeze([meaning]),partOfSpeech:"word",lessonIds:Object.freeze(["part3-lesson-02"]),grammarIds:Object.freeze([grammarId]),kanji:Object.freeze([Object.freeze({character:written,reading,meaning})]),occurrences:Object.freeze([Object.freeze({href:`sentence/lesson-02-noun-description.html#${anchor}`,label:`Part 3 Lesson 2 · ${written}`})])}));
+  root.N3VocabularyData=Object.freeze([...(root.N3VocabularyData||[]),...additions]);
+}(typeof window!=="undefined"?window:globalThis));
+/* END PART 3 LESSON 2 VOCABULARY */
+
+/* PART 3 LESSON 3 VOCABULARY */
+(function(root){
+  "use strict";
+  const raw=[
+  [
+    "p3l3-matsushita",
+    "松下",
+    "まつした",
+    "Matsushita (surname)",
+    "p3l3-name",
+    "p3l3-name-book-01"
+  ],
+  [
+    "p3l3-mono",
+    "者",
+    "もの",
+    "person (modest self-reference)",
+    "p3l3-name",
+    "p3l3-name-book-01"
+  ],
+  [
+    "p3l3-mezurashii",
+    "珍しい",
+    "めずらしい",
+    "rare; unusual",
+    "p3l3-name",
+    "p3l3-name-book-03"
+  ],
+  [
+    "p3l3-kudamono",
+    "果物",
+    "くだもの",
+    "fruit",
+    "p3l3-name",
+    "p3l3-name-book-03"
+  ],
+  [
+    "p3l3-yameru",
+    "辞める",
+    "やめる",
+    "to resign; quit",
+    "p3l3-content",
+    "p3l3-content-book-01"
+  ],
+  [
+    "p3l3-uwasa",
+    "うわさ",
+    "うわさ",
+    "rumor",
+    "p3l3-content",
+    "p3l3-content-book-01"
+  ],
+  [
+    "p3l3-nakigoe",
+    "鳴き声",
+    "なきごえ",
+    "animal cry; sound",
+    "p3l3-content",
+    "p3l3-content-book-02"
+  ],
+  [
+    "p3l3-mikkabouzu",
+    "三日坊主",
+    "みっかぼうず",
+    "one who quickly gives up",
+    "p3l3-content",
+    "p3l3-content-book-03"
+  ],
+  [
+    "p3l3-yobou",
+    "予防",
+    "よぼう",
+    "prevention",
+    "p3l3-fact",
+    "p3l3-fact-book-01"
+  ],
+  [
+    "p3l3-tearai",
+    "手洗い",
+    "てあらい",
+    "handwashing",
+    "p3l3-fact",
+    "p3l3-fact-book-01"
+  ],
+  [
+    "p3l3-yuumei",
+    "有名",
+    "ゆうめい",
+    "famous",
+    "p3l3-fact",
+    "p3l3-fact-book-02"
+  ],
+  [
+    "p3l3-joyuu",
+    "女優",
+    "じょゆう",
+    "actress",
+    "p3l3-fact",
+    "p3l3-fact-book-02"
+  ],
+  [
+    "p3l3-kyouiku",
+    "教育",
+    "きょういく",
+    "education",
+    "p3l3-fact",
+    "p3l3-fact-book-03"
+  ],
+  [
+    "p3l3-hitsuyou",
+    "必要",
+    "ひつよう",
+    "necessary",
+    "p3l3-fact",
+    "p3l3-fact-book-03"
+  ],
+  [
+    "p3l3-yougo",
+    "用語",
+    "ようご",
+    "terminology",
+    "p3l3-term",
+    "p3l3-term-book-01"
+  ],
+  [
+    "p3l3-suugaku",
+    "数学",
+    "すうがく",
+    "mathematics",
+    "p3l3-examples",
+    "p3l3-examples-book-01"
+  ],
+  [
+    "p3l3-butsuri",
+    "物理",
+    "ぶつり",
+    "physics",
+    "p3l3-examples",
+    "p3l3-examples-book-01"
+  ],
+  [
+    "p3l3-kagaku",
+    "化学",
+    "かがく",
+    "chemistry",
+    "p3l3-examples",
+    "p3l3-examples-book-01"
+  ],
+  [
+    "p3l3-kamoku",
+    "科目",
+    "かもく",
+    "school subject",
+    "p3l3-examples",
+    "p3l3-examples-book-01"
+  ],
+  [
+    "p3l3-haiiro",
+    "灰色",
+    "はいいろ",
+    "gray",
+    "p3l3-examples",
+    "p3l3-examples-book-02"
+  ],
+  [
+    "p3l3-kurai",
+    "暗い",
+    "くらい",
+    "dark",
+    "p3l3-examples",
+    "p3l3-examples-book-02"
+  ],
+  [
+    "p3l3-niau",
+    "似合う",
+    "にあう",
+    "to suit; look good on",
+    "p3l3-examples",
+    "p3l3-examples-book-02"
+  ],
+  [
+    "p3l3-saigai",
+    "災害",
+    "さいがい",
+    "disaster",
+    "p3l3-name",
+    "p3l3-name-book-01"
+  ],
+  [
+    "p3l3-sonaeru",
+    "備える",
+    "そなえる",
+    "to prepare for",
+    "p3l3-name",
+    "p3l3-name-book-01"
+  ]
+];
+  const additions=raw.map(([id,written,reading,meaning,grammarId,anchor])=>Object.freeze({id,written,reading,meanings:Object.freeze([meaning]),partOfSpeech:"word",lessonIds:Object.freeze(["part3-lesson-03"]),grammarIds:Object.freeze([grammarId]),kanji:Object.freeze([Object.freeze({character:written,reading,meaning})]),occurrences:Object.freeze([Object.freeze({href:`sentence/lesson-03-toiu-toitta.html#${anchor}`,label:`Part 3 Lesson 3 · ${written}`})])}));
+  root.N3VocabularyData=Object.freeze([...(root.N3VocabularyData||[]),...additions]);
+}(typeof window!=="undefined"?window:globalThis));
+/* END PART 3 LESSON 3 VOCABULARY */
+
+/* PART 3 LESSON 4 VOCABULARY */
+(function(root){
+  "use strict";
+  const raw=[
+  [
+    "p3l4-nenmatsu",
+    "年末",
+    "ねんまつ",
+    "end of the year",
+    "p3l4-range",
+    "p3l4-range-book-01"
+  ],
+  [
+    "p3l4-nenshi",
+    "年始",
+    "ねんし",
+    "beginning of the year",
+    "p3l4-range",
+    "p3l4-range-book-01"
+  ],
+  [
+    "p3l4-kantou",
+    "関東地方",
+    "かんとうちほう",
+    "Kanto region",
+    "p3l4-range",
+    "p3l4-range-book-02"
+  ],
+  [
+    "p3l4-touhoku",
+    "東北地方",
+    "とうほくちほう",
+    "Tohoku region",
+    "p3l4-range",
+    "p3l4-range-book-02"
+  ],
+  [
+    "p3l4-nyuuin",
+    "入院",
+    "にゅういん",
+    "hospitalization",
+    "p3l4-regard",
+    "p3l4-regard-book-01"
+  ],
+  [
+    "p3l4-kenkou",
+    "健康",
+    "けんこう",
+    "health",
+    "p3l4-regard",
+    "p3l4-regard-book-01"
+  ],
+  [
+    "p3l4-chuushin",
+    "中心",
+    "ちゅうしん",
+    "center",
+    "p3l4-regard",
+    "p3l4-regard-book-02"
+  ],
+  [
+    "p3l4-shousetsuka",
+    "小説家",
+    "しょうせつか",
+    "novelist",
+    "p3l4-regard",
+    "p3l4-regard-book-03"
+  ],
+  [
+    "p3l4-kazoku",
+    "家族",
+    "かぞく",
+    "family",
+    "p3l4-regard",
+    "p3l4-regard-book-03"
+  ],
+  [
+    "p3l4-kokunai",
+    "国内",
+    "こくない",
+    "within the country",
+    "p3l4-of-course",
+    "p3l4-of-course-book-02"
+  ],
+  [
+    "p3l4-gaikoku",
+    "外国",
+    "がいこく",
+    "foreign country",
+    "p3l4-of-course",
+    "p3l4-of-course-book-02"
+  ],
+  [
+    "p3l4-noboru",
+    "登る",
+    "のぼる",
+    "to climb",
+    "p3l4-range",
+    "p3l4-range-book-01"
+  ],
+  [
+    "p3l4-manzoku",
+    "満足",
+    "まんぞく",
+    "satisfaction; satisfied",
+    "p3l4-minimum",
+    "p3l4-minimum-book-01"
+  ],
+  [
+    "p3l4-naiyou",
+    "内容",
+    "ないよう",
+    "content",
+    "p3l4-concession",
+    "p3l4-concession-book-01"
+  ],
+  [
+    "p3l4-wasureta",
+    "忘れた",
+    "わすれた",
+    "forgot",
+    "p3l4-concession",
+    "p3l4-concession-book-01"
+  ],
+  [
+    "p3l4-yononaka",
+    "世の中",
+    "よのなか",
+    "the world; society",
+    "p3l4-both",
+    "p3l4-both-book-01"
+  ],
+  [
+    "p3l4-boshuu",
+    "募集",
+    "ぼしゅう",
+    "recruitment",
+    "p3l4-range",
+    "p3l4-range-book-01"
+  ],
+  [
+    "p3l4-jouken",
+    "条件",
+    "じょうけん",
+    "condition",
+    "p3l4-range",
+    "p3l4-range-book-01"
+  ],
+  [
+    "p3l4-katsudou",
+    "活動",
+    "かつどう",
+    "activity",
+    "p3l4-range",
+    "p3l4-range-book-01"
+  ],
+  [
+    "p3l4-keitai",
+    "携帯電話",
+    "けいたいでんわ",
+    "mobile phone",
+    "p3l4-range",
+    "p3l4-range-book-01"
+  ],
+  [
+    "p3l4-benri",
+    "便利",
+    "べんり",
+    "convenient",
+    "p3l4-range",
+    "p3l4-range-book-01"
+  ]
+];
+  const additions=raw.map(([id,written,reading,meaning,grammarId,anchor])=>Object.freeze({id,written,reading,meanings:Object.freeze([meaning]),partOfSpeech:"word",lessonIds:Object.freeze(["part3-lesson-04"]),grammarIds:Object.freeze([grammarId]),kanji:Object.freeze([Object.freeze({character:written,reading,meaning})]),occurrences:Object.freeze([Object.freeze({href:`sentence/lesson-04-fixed-forms.html#${anchor}`,label:`Part 3 Lesson 4 · ${written}`})])}));
+  root.N3VocabularyData=Object.freeze([...(root.N3VocabularyData||[]),...additions]);
+}(typeof window!=="undefined"?window:globalThis));
+/* END PART 3 LESSON 4 VOCABULARY */
+
+/* PART 3 REVIEW 1-4 VOCABULARY */
+(function(root){
+  "use strict";
+  const raw=[
+  [
+    "review-p3-hajimete",
+    "初めて",
+    "はじめて",
+    "for the first time"
+  ],
+  [
+    "review-p3-utsukushii",
+    "美しい",
+    "うつくしい",
+    "beautiful"
+  ],
+  [
+    "review-p3-keikensha",
+    "経験者",
+    "けいけんしゃ",
+    "experienced person"
+  ],
+  [
+    "review-p3-iken",
+    "意見",
+    "いけん",
+    "opinion"
+  ],
+  [
+    "review-p3-henshin",
+    "返信",
+    "へんしん",
+    "reply"
+  ],
+  [
+    "review-p3-jinkou",
+    "人口",
+    "じんこう",
+    "population"
+  ],
+  [
+    "review-p3-koujou",
+    "工場",
+    "こうじょう",
+    "factory"
+  ],
+  [
+    "review-p3-juumin",
+    "住民",
+    "じゅうみん",
+    "resident"
+  ],
+  [
+    "review-p3-fuman",
+    "不満",
+    "ふまん",
+    "dissatisfaction"
+  ],
+  [
+    "review-p3-nayami",
+    "悩み",
+    "なやみ",
+    "worry; concern"
+  ],
+  [
+    "review-p3-keiken",
+    "経験",
+    "けいけん",
+    "experience"
+  ],
+  [
+    "review-p3-shashin",
+    "写真",
+    "しゃしん",
+    "photograph"
+  ],
+  [
+    "review-p3-kachi",
+    "価値",
+    "かち",
+    "value"
+  ],
+  [
+    "review-p3-saifu",
+    "財布",
+    "さいふ",
+    "wallet"
+  ],
+  [
+    "review-p3-akachan",
+    "赤ちゃん",
+    "あかちゃん",
+    "baby"
+  ],
+  [
+    "review-p3-shitsumon",
+    "質問",
+    "しつもん",
+    "question"
+  ],
+  [
+    "review-p3-zairyou",
+    "材料",
+    "ざいりょう",
+    "ingredient; material"
+  ],
+  [
+    "review-p3-mondai",
+    "問題",
+    "もんだい",
+    "problem"
+  ],
+  [
+    "review-p3-kakari",
+    "係",
+    "かかり",
+    "person in charge"
+  ],
+  [
+    "review-p3-shougatsu",
+    "お正月",
+    "おしょうがつ",
+    "New Year"
+  ],
+  [
+    "review-p3-byouki",
+    "病気",
+    "びょうき",
+    "illness"
+  ],
+  [
+    "review-p3-shinpai",
+    "心配",
+    "しんぱい",
+    "worry"
+  ],
+  [
+    "review-p3-kisoku",
+    "規則",
+    "きそく",
+    "rule"
+  ],
+  [
+    "review-p3-tadashii",
+    "正しい",
+    "ただしい",
+    "correct; proper"
+  ],
+  [
+    "review-p3-seikatsu",
+    "生活",
+    "せいかつ",
+    "life; daily living"
+  ]
+];
+  const additions=raw.map(([id,written,reading,meaning])=>Object.freeze({id,written,reading,meanings:Object.freeze([meaning]),partOfSpeech:"word",lessonIds:Object.freeze(["part3-review-01-04"]),grammarIds:Object.freeze(["review-p3-questions"]),kanji:Object.freeze([Object.freeze({character:written,reading,meaning})]),occurrences:Object.freeze([Object.freeze({href:`sentence/review-01-04.html#review-p3-questions`,label:`Part 3 Review · ${written}`})])}));
+  root.N3VocabularyData=Object.freeze([...(root.N3VocabularyData||[]),...additions]);
+}(typeof window!=="undefined"?window:globalThis));
+/* END PART 3 REVIEW 1-4 VOCABULARY */
+
+/* PART 4 BATCH 1 VOCABULARY */
+(function (root) {
+  "use strict";
+  const freeze = Object.freeze;
+  const raw = [
+    ["p4-l1-matomari", "まとまり", "まとまり", "cohesion; unity", "part4-lesson-01", "p4l1-overview"],
+    ["p4-l1-kihon", "基本", "きほん", "basis; foundation", "part4-lesson-01", "p4l1-overview"],
+    ["p4-l1-taiou", "対応", "たいおう", "correspondence; matching", "part4-lesson-01", "p4l1-overview"],
+    ["p4-l1-bunka", "文化", "ぶんか", "culture", "part4-lesson-01", "p4l1-point-1"],
+    ["p4-l1-keikaku", "計画", "けいかく", "plan; project", "part4-lesson-01", "p4l1-point-1"],
+    ["p4-l1-mondaiten", "問題点", "もんだいてん", "problematic point", "part4-lesson-01", "p4l1-point-1"],
+    ["p4-l1-unten", "運転", "うんてん", "driving; operation", "part4-lesson-01", "p4l1-point-1"],
+    ["p4-l1-sobo", "祖母", "そぼ", "grandmother", "part4-lesson-01", "p4l1-point-1"],
+    ["p4-l1-egao", "笑顔", "えがお", "smiling face; smile", "part4-lesson-01", "p4l1-point-1"],
+    ["p4-l1-isogi", "急ぎ", "いそぎ", "urgent work; haste", "part4-lesson-01", "p4l1-point-1"],
+    ["p4-l1-shokubutsu", "植物", "しょくぶつ", "plant", "part4-lesson-01", "p4l1-point-1"],
+    ["p4-l1-saku", "咲く", "さく", "to bloom", "part4-lesson-01", "p4l1-point-1"],
+    ["p4-l1-joshi", "助詞", "じょし", "particle", "part4-lesson-01", "p4l1-point-2"],
+    ["p4-l1-ukemi", "受身文", "うけみぶん", "passive sentence", "part4-lesson-01", "p4l1-point-2"],
+    ["p4-l1-shieki", "使役文", "しえきぶん", "causative sentence", "part4-lesson-01", "p4l1-point-2"],
+    ["p4-r0102-gaikokugo", "外国語", "がいこくご", "foreign language", "part4-review-01-02", "p4r0102-passage-1"],
+    ["p4-r0102-shimin", "市民", "しみん", "citizen; community resident", "part4-review-01-02", "p4r0102-passage-1"],
+    ["p4-r0102-yoshu", "予習", "よしゅう", "lesson preparation; preview study", "part4-review-01-02", "p4r0102-passage-1"],
+    ["p4-r0102-fukushu", "復習", "ふくしゅう", "review study", "part4-review-01-02", "p4r0102-passage-1"],
+    ["p4-r0102-su", "巣", "す", "nest", "part4-review-01-02", "p4r0102-passage-2"],
+    ["p4-r0102-senmonka", "専門家", "せんもんか", "specialist; expert", "part4-review-01-02", "p4r0102-passage-2"],
+    ["p4-r0102-jouou", "女王", "じょおう", "queen", "part4-review-01-02", "p4r0102-passage-2"],
+    ["p4-r0102-tamago", "卵", "たまご", "egg", "part4-review-01-02", "p4r0102-passage-2"],
+    ["p4-r0102-shussan", "出産", "しゅっさん", "childbirth; giving birth", "part4-review-01-02", "p4r0102-passage-2"],
+    ["p4-r0102-kosodate", "子育て", "こそだて", "child-rearing", "part4-review-01-02", "p4r0102-passage-2"],
+    ["p4-l2-zengo", "前後関係", "ぜんごかんけい", "chronological relationship; before-and-after relation", "part4-lesson-02", "p4l2-overview"],
+    ["p4-l2-jiten", "時点", "じてん", "point in time", "part4-lesson-02", "p4l2-overview"],
+    ["p4-l2-joutai", "状態", "じょうたい", "state; condition", "part4-lesson-02", "p4l2-overview"],
+    ["p4-l2-tashikameru", "確かめる", "たしかめる", "to confirm; make sure", "part4-lesson-02", "p4l2-overview"],
+    ["p4-l2-shinkouchuu", "進行中", "しんこうちゅう", "in progress", "part4-lesson-02", "p4l2-point-2"],
+    ["p4-l2-shuukan", "習慣", "しゅうかん", "habit; custom", "part4-lesson-02", "p4l2-point-2"],
+    ["p4-l2-kekka", "結果", "けっか", "result; outcome", "part4-lesson-02", "p4l2-point-2"],
+    ["p4-l2-saifu", "財布", "さいふ", "wallet", "part4-lesson-02", "p4l2-point-2"],
+    ["p4-l2-yousu", "様子", "ようす", "appearance; condition", "part4-lesson-02", "p4l2-point-2"],
+    ["p4-l2-kanryou", "完了", "かんりょう", "completion", "part4-lesson-02", "p4l2-point-2"],
+    ["p4-l2-mikanryou", "未完了", "みかんりょう", "incompletion; not yet complete", "part4-lesson-02", "p4l2-point-2"],
+    ["p4-l2-kaijou", "会場", "かいじょう", "venue; meeting place", "part4-lesson-02", "p4l2-point-2"],
+  ];
+
+  const additions = raw.map(([id, written, reading, meaning, lessonId, topicId]) => freeze({
+    id,
+    written,
+    reading,
+    meanings: freeze([meaning]),
+    partOfSpeech: "word",
+    lessonIds: freeze([lessonId]),
+    grammarIds: freeze([topicId]),
+    kanji: freeze([...written].filter(character => /[一-龯]/.test(character)).map(character => freeze({ character, reading: "See word reading", meaning }))),
+    occurrences: freeze([freeze({
+      href: `passage/${lessonId === "part4-lesson-01" ? "lesson-01-correspondence.html" : lessonId === "part4-lesson-02" ? "lesson-02-tense-teiru.html" : "review-01-02.html"}#${topicId}`,
+      label: `${lessonId === "part4-lesson-01" ? "Part 4 Lesson 1" : lessonId === "part4-lesson-02" ? "Part 4 Lesson 2" : "Part 4 Review 1–2"} · ${written}`,
+    })]),
+  }));
+
+  root.N3VocabularyData = freeze([...(root.N3VocabularyData || []), ...additions]);
+}(typeof window !== "undefined" ? window : globalThis));
+/* END PART 4 BATCH 1 VOCABULARY */
+
+/* PART 4 BATCH 2 VOCABULARY */
+(function (root) {
+  "use strict";
+  const freeze = Object.freeze;
+  const raw = [
+    ["p4-l3-washa", "話者", "わしゃ", "speaker; narrator", "part4-lesson-03", "lesson-03-transitive-intransitive.html", "p4l3-overview"],
+    ["p4-l3-tadoushi", "他動詞", "たどうし", "transitive verb", "part4-lesson-03", "lesson-03-transitive-intransitive.html", "p4l3-overview"],
+    ["p4-l3-jidoushi", "自動詞", "じどうし", "intransitive verb", "part4-lesson-03", "lesson-03-transitive-intransitive.html", "p4l3-overview"],
+    ["p4-l4-washa", "話者", "わしゃ", "speaker; narrator", "part4-lesson-04", "lesson-04-tekuru-teiku.html", "p4l4-overview"],
+    ["p4-l4-jiten", "時点", "じてん", "point in time", "part4-lesson-04", "lesson-04-tekuru-teiku.html", "p4l4-overview"],
+    ["p4-r0304-yasaibusoku", "野菜不足", "やさいぶそく", "insufficient vegetable intake", "part4-review-03-04", "review-03-04.html", "p4r0304-passage-1"],
+  ];
+  const additions = raw.map(([id, written, reading, meaning, lessonId, file, topicId]) => freeze({
+    id, written, reading, meanings: freeze([meaning]), partOfSpeech: "word",
+    lessonIds: freeze([lessonId]), grammarIds: freeze([topicId]),
+    kanji: freeze([...written].filter(character => /[一-龯]/.test(character)).map(character => freeze({ character, reading: "See word reading", meaning }))),
+    occurrences: freeze([freeze({ href: `passage/${file}#${topicId}`, label: `${lessonId} · ${written}` })]),
+  }));
+  root.N3VocabularyData = freeze([...(root.N3VocabularyData || []), ...additions]);
+}(typeof window !== "undefined" ? window : globalThis));
+/* END PART 4 BATCH 2 VOCABULARY */
+
+/* PART 4 BATCH 3 VOCABULARY */
+(function(root){"use strict";const freeze=Object.freeze;const raw=[
+["p4-l5-ukemi","受身","うけみ","passive voice"],
+["p4-l5-shieki","使役","しえき","causative voice"],
+["p4-l5-shiekiukemi","使役受身","しえきうけみ","causative-passive voice"]
+];const additions=raw.map(([id,written,reading,meaning])=>freeze({id,written,reading,meanings:freeze([meaning]),partOfSpeech:"grammar term",lessonIds:freeze(["part4-lesson-05"]),grammarIds:freeze(["p4l5-overview"]),kanji:freeze([...written].map(character=>freeze({character,reading:"See word reading",meaning}))),occurrences:freeze([freeze({href:"passage/lesson-05-voice.html#p4l5-overview",label:`Part 4 Lesson 5 · ${written}`})])}));root.N3VocabularyData=freeze([...(root.N3VocabularyData||[]),...additions]);}(typeof window!=="undefined"?window:globalThis));
+/* END PART 4 BATCH 3 VOCABULARY */
+
+/* PART 4 BATCH 4 VOCABULARY */
+(function(root){"use strict";const freeze=Object.freeze;const raw=[
+["p4-l7-bunshou","文章","ぶんしょう","sentence; passage; writing","part4-lesson-07","passage/lesson-07-ko-so-a.html#p4l7-point-1"],
+["p4-l7-shinriteki","心理的","しんりてき","psychological","part4-lesson-07","passage/lesson-07-ko-so-a.html#p4l7-point-1"],
+["p4-l8-wadai","話題","わだい","topic; subject","part4-lesson-08","passage/lesson-08-wa-ga.html#p4l8-ga"],
+["p4-l8-hatsumei","発明","はつめい","invention","part4-lesson-08","passage/lesson-08-wa-ga.html#p4l8-exercise-2"],
+["p4-r78-kijun","基準","きじゅん","standard; criterion","part4-review-07-08","passage/review-07-08.html#p4r0708-passage-1"],
+["p4-r78-kankyou","環境","かんきょう","environment; surroundings","part4-review-07-08","passage/review-07-08.html#p4r0708-passage-1"],
+["p4-r78-kouka","効果","こうか","effect; result","part4-review-07-08","passage/review-07-08.html#p4r0708-passage-2"],
+];const additions=raw.map(([id,written,reading,meaning,lessonId,href])=>freeze({id,written,reading,meanings:freeze([meaning]),partOfSpeech:"word",lessonIds:freeze([lessonId]),grammarIds:freeze([]),kanji:freeze([...written].filter(char=>/\p{Script=Han}/u.test(char)).map(character=>freeze({character,reading,meaning}))),occurrences:freeze([freeze({href,label:`Part 4 · ${written}`})])}));root.N3VocabularyData=freeze([...(root.N3VocabularyData||[]),...additions]);}(typeof window!=="undefined"?window:globalThis));
+/* END PART 4 BATCH 4 VOCABULARY */
+
+/* PART 4 BATCH 5 VOCABULARY */
+(function(root){"use strict";const freeze=Object.freeze;const raw=[
+["p4-l9-setsuzoku","接続表現","せつぞくひょうげん","connective expression","part4-lesson-09","passage/lesson-09-connectives.html#p4l9-overview"],
+["p4-l9-konkyo","根拠","こんきょ","grounds; basis","part4-lesson-09","passage/lesson-09-connectives.html#p4l9-functions-1"],
+["p4-l10-funiki","雰囲気","ふんいき","atmosphere; tone","part4-lesson-10","passage/lesson-10-register.html#p4l10-overview"],
+["p4-l10-touitsu","統一","とういつ","unification; consistency","part4-lesson-10","passage/lesson-10-register.html#p4l10-overview"],
+["p4-r910-shippai","失敗","しっぱい","failure; mistake","part4-review-09-10","passage/review-09-10.html#p4r0910-passage-1"],
+["p4-r910-kansha","感謝","かんしゃ","gratitude; thanks","part4-review-09-10","passage/review-09-10.html#p4r0910-passage-2"],
+["p4-r910-gijutsu","技術","ぎじゅつ","technology; skill","part4-review-09-10","passage/review-09-10.html#p4r0910-passage-2"],
+];const additions=raw.map(([id,written,reading,meaning,lessonId,href])=>freeze({id,written,reading,meanings:freeze([meaning]),partOfSpeech:"word",lessonIds:freeze([lessonId]),grammarIds:freeze([]),kanji:freeze([...written].filter(char=>/\p{Script=Han}/u.test(char)).map(character=>freeze({character,reading,meaning}))),occurrences:freeze([freeze({href,label:`Part 4 · ${written}`})])}));root.N3VocabularyData=freeze([...(root.N3VocabularyData||[]),...additions]);}(typeof window!=="undefined"?window:globalThis));
+/* END PART 4 BATCH 5 VOCABULARY */

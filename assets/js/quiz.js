@@ -13,6 +13,25 @@
     return { correct: selected === correct };
   }
 
+  function scoreTextAnswer(selected, correct) {
+    const answer = String(selected || "").trim();
+    const accepted = Array.isArray(correct) ? correct : [correct];
+    return {
+      correct: accepted.some(value => answer === String(value || "").trim()),
+    };
+  }
+
+  function scoreMultiSelection(selected, correct) {
+    const selectedValues = [...selected].sort();
+    const correctValues = [...correct].sort();
+    return {
+      correct: (
+        selectedValues.length === correctValues.length
+        && selectedValues.every((value, index) => value === correctValues[index])
+      ),
+    };
+  }
+
   function scoreOrder(selectedIds, correctIds) {
     const firstMismatch = correctIds.findIndex(
       (id, index) => selectedIds[index] !== id,
@@ -63,6 +82,33 @@
     return details;
   }
 
+  function ensureControls(question, record) {
+    if (!record || question.querySelector('[role="status"]')) return;
+    const doc = question.ownerDocument;
+    const toolbar = doc.createElement("div");
+    toolbar.className = "toolbar";
+    const check = doc.createElement("button");
+    check.type = "button";
+    check.dataset.checkQuestion = "";
+    check.textContent = "Check answer";
+    const reset = doc.createElement("button");
+    reset.type = "button";
+    reset.className = "secondary";
+    reset.dataset.resetQuestion = "";
+    reset.textContent = "Try again";
+    toolbar.append(check, reset);
+    const status = doc.createElement("p");
+    status.className = "feedback";
+    status.setAttribute("role", "status");
+    status.tabIndex = -1;
+    const rationale = doc.createElement("p");
+    rationale.dataset.rationale = Array.isArray(record.correct)
+      ? record.correct.join(",")
+      : record.correct;
+    rationale.hidden = true;
+    question.append(toolbar, status, rationale);
+  }
+
   function announce(status, message, state) {
     status.textContent = message;
     if (state) {
@@ -83,7 +129,12 @@
       const value = node.dataset.rationale;
       node.textContent = record.rationales?.[value] || "";
       node.hidden = false;
-      node.toggleAttribute("data-correct-rationale", value === record.correct);
+      node.toggleAttribute(
+        "data-correct-rationale",
+        Array.isArray(record.correct)
+          ? record.correct.includes(value)
+          : value === record.correct,
+      );
     });
   }
 
@@ -120,6 +171,21 @@
         return;
       }
       result = scoreOrder(selected, record.correct);
+    } else if (record.type === "multi-selection") {
+      const selected = [...question.querySelectorAll("input:checked")]
+        .map(input => input.value);
+      if (!selected.length) {
+        announce(status, "Select at least one answer first.", "incorrect");
+        return;
+      }
+      result = scoreMultiSelection(selected, record.correct);
+    } else if (record.type === "text") {
+      const input = question.querySelector("[data-text-answer]");
+      if (!input || !input.value.trim()) {
+        announce(status, "Enter an answer first.", "incorrect");
+        return;
+      }
+      result = scoreTextAnswer(input.value, record.correct);
     } else {
       const selected = question.querySelector("input:checked");
       if (!selected) {
@@ -143,7 +209,11 @@
 
   function resetQuestion(question) {
     question.querySelectorAll("input").forEach(input => {
-      input.checked = false;
+      if (input.matches("[type='radio'], [type='checkbox']")) {
+        input.checked = false;
+      } else if (input.matches("[data-text-answer]")) {
+        input.value = "";
+      }
     });
     question.querySelectorAll("[data-rationale]").forEach(node => {
       node.hidden = true;
@@ -184,7 +254,9 @@
 
   function bind(doc) {
     doc.querySelectorAll("[data-quiz-id]").forEach(question => {
-      ensureHint(question, recordFor(question));
+      const record = recordFor(question);
+      ensureHint(question, record);
+      ensureControls(question, record);
     });
 
     doc.querySelectorAll("[data-order-list]").forEach(list => {
@@ -217,6 +289,20 @@
         resetQuestion(reset.closest("[data-quiz-id]"));
       }
 
+      const checkSet = event.target.closest("[data-check-set]");
+      if (checkSet) {
+        checkSet.closest("[data-quiz-set]")
+          ?.querySelectorAll("[data-quiz-id]")
+          .forEach(checkQuestion);
+      }
+
+      const resetSet = event.target.closest("[data-reset-set]");
+      if (resetSet) {
+        resetSet.closest("[data-quiz-set]")
+          ?.querySelectorAll("[data-quiz-id]")
+          .forEach(resetQuestion);
+      }
+
       const move = event.target.closest("[data-move-order]");
       if (move) {
         moveToken(move);
@@ -226,10 +312,13 @@
 
   return {
     scoreSelection,
+    scoreTextAnswer,
+    scoreMultiSelection,
     scoreOrder,
     summarize,
     orderButtonLabel,
     ensureHint,
+    ensureControls,
     checkQuestion,
     resetQuestion,
     bind,

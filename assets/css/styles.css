@@ -160,7 +160,8 @@ button.secondary:hover,
   display: block;
 }
 
-.lesson-tools-ready body[data-page^="lesson-"] {
+.lesson-tools-ready body[data-page^="lesson-"],
+.lesson-tools-ready body[data-page^="group-"] {
   padding-block-end: 4.5rem;
 }
 
@@ -319,12 +320,59 @@ main {
   text-transform: uppercase;
 }
 
+.source-table-wrap {
+  overflow-x: auto;
+  margin-block: 1rem;
+  border: 1px solid var(--line);
+  border-radius: var(--radius-md);
+  background: var(--paper);
+}
+
+.source-table {
+  width: 100%;
+  min-width: 42rem;
+  border-collapse: collapse;
+}
+
+.source-table th,
+.source-table td {
+  padding: .85rem;
+  border-bottom: 1px solid var(--line);
+  vertical-align: top;
+  text-align: left;
+}
+
+.source-table tbody tr:last-child > * {
+  border-bottom: 0;
+}
+
+.source-table .form-cell {
+  width: 8rem;
+  color: var(--matcha-deep);
+  font-size: 1.08rem;
+  font-weight: 800;
+}
+
 [data-home-study-flow] {
   margin-block-start: clamp(1.25rem, 2.5vw, 2rem);
 }
 
 .lesson-choice-grid {
   grid-template-columns: repeat(2, minmax(0, 1fr));
+}
+
+.lesson-choice-grid.group-choice-grid {
+  grid-auto-rows: 1fr;
+}
+
+.group-choice-grid > article {
+  display: flex;
+  flex-direction: column;
+}
+
+.group-choice-grid > article .button {
+  align-self: flex-start;
+  margin-block-start: auto;
 }
 
 .card {
@@ -1065,4 +1113,17 @@ footer p {
   .grammar-point {
     break-inside: avoid;
   }
+}
+
+.sentence-build-slots {
+  display: inline-flex;
+  align-items: baseline;
+  gap: 0.2rem;
+  margin-inline: 0.25rem;
+  white-space: nowrap;
+}
+
+.sentence-star {
+  color: var(--rust);
+  font-weight: 900;
 }

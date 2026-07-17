@@ -1554,3 +1554,1473 @@ window.N3QuizData = Object.freeze([
   root.N3QuizData = Object.freeze([...(root.N3QuizData || []), ...additions]);
 }(typeof window !== "undefined" ? window : globalThis));
 /* END CANONICAL LESSONS 3-4 BOOK QUIZZES */
+
+/* GROUP A: PARTICLES WITH VARIOUS FUNCTIONS */
+(function (root) {
+  "use strict";
+
+  const book = [
+    ["ga-book-1-01", "b"], ["ga-book-1-02", "g"],
+    ["ga-book-1-03", "f"], ["ga-book-1-04", "e"],
+    ["ga-book-1-05", "c"], ["ga-book-1-06", "a"],
+    ["ga-book-1-07", "d"], ["ga-book-2-01", "a"],
+    ["ga-book-2-02", "b"], ["ga-book-2-03", "b"],
+    ["ga-book-2-04", "a"], ["ga-book-2-05", "a"],
+    ["ga-book-2-06", "b"], ["ga-book-2-07", "b"],
+    ["ga-book-onepoint-01", "shika"], ["ga-book-onepoint-02", "mo"],
+    ["ga-book-onepoint-03", "shika"], ["ga-book-onepoint-04", "mo"],
+    ["ga-book-onepoint-05", "made"], ["ga-book-onepoint-06", "gurai"],
+    ["ga-book-onepoint-07", "gurai"], ["ga-book-onepoint-08", "made"],
+  ].map(([id, correct]) => Object.freeze({ id, type: "selection", correct }));
+
+  const extra = [
+    Object.freeze({
+      id: "ga-extra-01", type: "selection", correct: "koso",
+      hint: "The speaker singles out this attempt from earlier attempts.",
+      rationales: Object.freeze({
+        koso: "Correct. こそ distinguishes and strongly emphasizes this particular test.",
+        demo: "でも would introduce an example or a light suggestion, not a singled-out attempt.",
+        dake: "だけ limits the range but does not carry the same contrastive emphasis.",
+      }),
+    }),
+    Object.freeze({
+      id: "ga-extra-02", type: "selection", correct: "demo",
+      hint: "The speaker is making a casual suggestion.",
+      rationales: Object.freeze({
+        demo: "Correct. でも presents coffee as one possible suggestion.",
+        sae: "さえ marks an extreme or minimum condition, not a casual proposal.",
+        made: "まで marks an unexpected extent, not a suggested example.",
+      }),
+    }),
+    Object.freeze({
+      id: "ga-extra-03", type: "selection", correct: "mo",
+      hint: "The sentence strongly denies having even the smallest amount.",
+      rationales: Object.freeze({
+        mo: "Correct. 百円も～ない means not even one hundred yen.",
+        koso: "こそ emphasizes a selected item but does not form this emphatic negative.",
+        nanka: "なんか can sound dismissive, but it does not complete 百円～持っていない naturally here.",
+      }),
+    }),
+    Object.freeze({
+      id: "ga-extra-04", type: "selection", correct: "sae",
+      hint: "Only one minimum condition is required.",
+      rationales: Object.freeze({
+        sae: "Correct. 名前さえ書けば means if only the name is written.",
+        made: "まで emphasizes an unexpected extent rather than a minimum condition.",
+        dake: "だけ can limit a noun, but だけ書けば lacks the source pattern's minimum-condition emphasis.",
+      }),
+    }),
+    Object.freeze({
+      id: "ga-extra-05", type: "selection", correct: "made",
+      hint: "Elementary-school children are presented as an unexpectedly broad reach.",
+      rationales: Object.freeze({
+        made: "Correct. 小学生まで emphasizes that use extends even to elementary-school children.",
+        gurai: "ぐらい would cite a degree or minimum level, not the broad endpoint of a group.",
+        dake: "だけ would mean only elementary-school children, reversing the intended meaning.",
+      }),
+    }),
+    Object.freeze({
+      id: "ga-extra-06", type: "selection", correct: "gurai",
+      hint: "The speaker names a modest minimum ability.",
+      rationales: Object.freeze({
+        gurai: "Correct. ひらがなぐらいなら presents hiragana as a modest minimum level.",
+        made: "まで would make hiragana an unexpectedly high endpoint.",
+        koso: "こそ would emphasize hiragana contrastively, not show a light minimum level.",
+      }),
+    }),
+    Object.freeze({
+      id: "ga-extra-07", type: "selection", correct: "nanka",
+      hint: "The speaker talks modestly and dismissively about themself.",
+      rationales: Object.freeze({
+        nanka: "Correct. 私なんか expresses self-deprecation.",
+        koso: "私こそ would strongly emphasize the speaker instead of lowering themself.",
+        made: "私まで would mean even I, which is a different unexpected-extent judgment.",
+      }),
+    }),
+    Object.freeze({
+      id: "ga-extra-08", type: "selection", correct: "dake",
+      hint: "Take no more than the amount that is necessary.",
+      rationales: Object.freeze({
+        dake: "Correct. 必要な分だけ limits the amount to what is needed.",
+        sae: "さえ would mark an extreme or minimum condition, not the permitted quantity.",
+        demo: "でも would offer the amount as an example, which does not fit the instruction.",
+      }),
+    }),
+  ];
+
+  root.N3QuizData = Object.freeze([...(root.N3QuizData || []), ...book, ...extra]);
+}(typeof window !== "undefined" ? window : globalThis));
+/* END GROUP A */
+
+/* GROUP B: WORDS THAT WORK LIKE PARTICLES */
+(function (root) {
+  "use strict";
+
+  const book = [
+    ["gb-book-1-01", "b"], ["gb-book-1-02", "e"], ["gb-book-1-03", "a"],
+    ["gb-book-1-04", "c"], ["gb-book-1-05", "e"], ["gb-book-1-06", "a"],
+    ["gb-book-1-07", "c"], ["gb-book-1-08", "d"], ["gb-book-1-09", "b"],
+    ["gb-book-1-10", "d"], ["gb-book-1-11", "c"], ["gb-book-1-12", "a"],
+    ["gb-book-1-13", "e"], ["gb-book-1-14", "c"],
+    ["gb-book-2-01", "b"], ["gb-book-2-02", "a"], ["gb-book-2-03", "a"],
+    ["gb-book-2-04", "b"], ["gb-book-2-05", "a"],
+    ["gb-book-onepoint-01", "a"], ["gb-book-onepoint-02", "c"],
+    ["gb-book-onepoint-03", "b"], ["gb-book-onepoint-04", "b"],
+    ["gb-book-onepoint-05", "b"], ["gb-book-onepoint-06", "a"],
+    ["gb-book-onepoint-07", "c"], ["gb-book-onepoint-08", "c"],
+  ].map(([id, correct]) => Object.freeze({ id, type: "selection", correct }));
+
+  const extraRaw = [
+    ["gb-extra-01", "ni-tsuite", "The report's subject is Japanese education."],
+    ["gb-extra-02", "ni-taishite", "The request is directed toward the city."],
+    ["gb-extra-03", "ni-yotte", "The bridge is in a passive sentence and the architect is its agent."],
+    ["gb-extra-04", "ni-totte", "The sentence evaluates the experience from the speaker's standpoint."],
+    ["gb-extra-05", "toshite", "The noun states the role in which the room is used."],
+    ["gb-extra-06", "ni-tsuite", "聞く processes information about a topic."],
+    ["gb-extra-07", "ni-taishite", "The strict attitude is directed toward the students."],
+    ["gb-extra-08", "ni-totte", "大切だ is an evaluation from the family's standpoint."],
+  ];
+  const labels = Object.freeze({
+    "ni-tsuite": "～について marks a topic of thought, speech, writing, or inquiry.",
+    "ni-taishite": "～に対して marks the target of an action or attitude.",
+    "ni-yotte": "～によって can mark an agent in an inanimate-subject passive sentence.",
+    "ni-totte": "～にとって marks the standpoint used for an evaluation.",
+    toshite: "～として marks a role, capacity, qualification, or use.",
+  });
+  const extra = extraRaw.map(([id, correct, hint]) => Object.freeze({
+    id, type: "selection", correct, hint,
+    rationales: Object.freeze(Object.fromEntries(Object.entries(labels).map(([key, value]) => [
+      key,
+      key === correct ? `Correct. ${value}` : value,
+    ]))),
+  }));
+
+  root.N3QuizData = Object.freeze([...(root.N3QuizData || []), ...book, ...extra]);
+}(typeof window !== "undefined" ? window : globalThis));
+/* END GROUP B: WORDS THAT WORK LIKE PARTICLES */
+
+/* GROUP C: USES OF KOTO AND NO */
+(function (root) {
+  "use strict";
+  const bookRaw = [
+    ["gc-book-1-01", "selection", "c"],
+    ["gc-book-1-02", "multi-selection", ["a", "c"]],
+    ["gc-book-1-03", "multi-selection", ["a", "c"]],
+    ["gc-book-1-04", "selection", "b"],
+    ["gc-book-2-01", "selection", "no"], ["gc-book-2-02", "selection", "no"],
+    ["gc-book-2-03", "selection", "koto"], ["gc-book-2-04", "selection", "koto"],
+    ["gc-book-2-05", "selection", "no"], ["gc-book-2-06", "selection", "no"],
+    ["gc-book-2-07", "selection", "no"], ["gc-book-2-08", "selection", "koto"],
+    ["gc-book-2-09", "selection", "no"], ["gc-book-2-10", "selection", "no"],
+    ["gc-book-2-11", "selection", "no"], ["gc-book-2-12", "selection", "no"],
+    ["gc-book-onepoint-01", "selection", "mono"], ["gc-book-onepoint-02", "selection", "koto"],
+    ["gc-book-onepoint-03", "selection", "koto"], ["gc-book-onepoint-04", "selection", "mono"],
+    ["gc-book-onepoint-05", "selection", "koto"], ["gc-book-onepoint-06", "selection", "mono"],
+    ["gc-book-onepoint-07", "selection", "mono"], ["gc-book-onepoint-08", "selection", "koto"],
+    ["gc-book-onepoint-09", "selection", "mono-koto"],
+  ];
+  const book = bookRaw.map(([id, type, correct]) => Object.freeze({ id, type, correct: Array.isArray(correct) ? Object.freeze(correct) : correct }));
+  const extraRaw = [
+    ["gc-extra-01", "koto", "The sentence identifies the content of a dream in ～は…ことだ."],
+    ["gc-extra-02", "no", "The speaker directly saw the children running."],
+    ["gc-extra-03", "koto", "～ことがある is a fixed grammatical form."],
+    ["gc-extra-04", "no", "～のに便利だ evaluates usefulness for a purpose."],
+    ["gc-extra-05", "no", "The sentence emphasizes information with ～のは…だ."],
+    ["gc-extra-06", "koto", "The noun refers to an invisible fact or event rather than a physical object."],
+    ["gc-extra-07", "mono", "The noun refers to a physically visible item."],
+    ["gc-extra-08", "koto", "The sentence defines an abstract rule or idea."],
+  ];
+  const extra = extraRaw.map(([id, correct, hint]) => Object.freeze({
+    id, type: "selection", correct, hint,
+    rationales: Object.freeze({
+      koto: correct === "koto" ? "Correct. こと fits this abstract content or fixed grammatical use." : "こと refers to abstract content, facts, events, or a fixed grammatical form.",
+      no: correct === "no" ? "Correct. の fits this sensed action, purpose evaluation, or emphasis pattern." : "の nominalizes sensed action or appears in the source's purpose and emphasis patterns.",
+      mono: correct === "mono" ? "Correct. 物 names a concrete, physically visible thing." : "物 is reserved for a concrete thing with visible shape.",
+    }),
+  }));
+  root.N3QuizData = Object.freeze([...(root.N3QuizData || []), ...book, ...extra]);
+}(typeof window !== "undefined" ? window : globalThis));
+/* END GROUP C: USES OF KOTO AND NO */
+
+/* GROUP D: USES OF YOU */
+(function (root) {
+  "use strict";
+  const bookRaw = [
+    ["gd-book-1-01", "b"], ["gd-book-1-02", "a"], ["gd-book-1-03", "c"],
+    ["gd-book-1-04", "b"], ["gd-book-1-05", "b"], ["gd-book-1-06", "c"],
+    ["gd-book-1-07", "b"], ["gd-book-1-08", "c"], ["gd-book-1-09", "b"],
+    ["gd-book-1-10", "a"], ["gd-book-1-11", "b"], ["gd-book-1-12", "b"],
+    ["gd-book-1-13", "b"],
+    ["gd-book-2-01", "b"], ["gd-book-2-02", "b"], ["gd-book-2-03", "b"],
+    ["gd-book-2-04", "a"], ["gd-book-2-05", "b"], ["gd-book-2-06", "a"],
+    ["gd-book-2-07", "a"], ["gd-book-2-08", "a"],
+    ["gd-book-onepoint-01", "tame"], ["gd-book-onepoint-02", "you"],
+    ["gd-book-onepoint-03", "you"], ["gd-book-onepoint-04", "tame"],
+    ["gd-book-onepoint-05", "you"], ["gd-book-onepoint-06", "you"],
+    ["gd-book-onepoint-07", "tame"], ["gd-book-onepoint-08", "you"],
+    ["gd-book-onepoint-09", "tame"], ["gd-book-onepoint-10", "you"],
+  ];
+  const book = bookRaw.map(([id, correct]) => Object.freeze({ id, type: "selection", correct }));
+  const extraRaw = [
+    ["gd-extra-01", "similarity", "まるで signals a metaphorical resemblance."],
+    ["gd-extra-02", "same", "The sentence states that two people share roughly the same trait."],
+    ["gd-extra-03", "example", "The noun is being cited as one representative example."],
+    ["gd-extra-04", "known", "The first clause reminds the listener of already-known information."],
+    ["gd-extra-05", "hope", "The action is taken to bring about a desired, non-volitional result."],
+    ["gd-extra-06", "request", "The quoted ように clause reports an instruction or request."],
+    ["gd-extra-07", "you", "見える is non-volitional, so ように expresses the desired state."],
+    ["gd-extra-08", "tame", "The subject intentionally studies in order to pass."],
+  ];
+  const explanations = Object.freeze({
+    similarity: "～ようだ／～ように compares something to a closely resembling image.",
+    same: "～ように can say that something is roughly the same as a model.",
+    example: "名のように cites the noun as an example.",
+    known: "～ように can preface information already known to the listener.",
+    hope: "～ように marks a hoped-for state or result.",
+    request: "～ように（と） marks the content of a demand, request, or instruction.",
+    you: "～ように follows non-volitional, potential, or third-person predicates for a desired state.",
+    tame: "～ために follows a volitional action and marks its purpose.",
+  });
+  const extra = extraRaw.map(([id, correct, hint]) => Object.freeze({
+    id, type: "selection", correct, hint,
+    rationales: Object.freeze(Object.fromEntries(Object.entries(explanations).map(([key, value]) => [key, key === correct ? `Correct. ${value}` : value]))),
+  }));
+  root.N3QuizData = Object.freeze([...(root.N3QuizData || []), ...book, ...extra]);
+}(typeof window !== "undefined" ? window : globalThis));
+/* END GROUP D: USES OF YOU */
+
+/* GROUP E: USES OF WAKE + A-E REVIEW */
+(function (root) {
+  "use strict";
+  const book = [
+    ["ge-book-1-01","b"],["ge-book-1-02","c"],["ge-book-1-03","b"],["ge-book-1-04","b"],["ge-book-1-05","a"],
+    ["ge-book-1-06","c"],["ge-book-1-07","a"],["ge-book-1-08","b"],["ge-book-1-09","a"],["ge-book-1-10","a"],
+    ["ge-book-2-01","c"],["ge-book-2-02","b"],["ge-book-2-03","a"],["ge-book-2-04","b"],["ge-book-2-05","c"],
+    ["ge-book-onepoint-01","hazu"],["ge-book-onepoint-02","wake"],["ge-book-onepoint-03","hazu"],
+    ["ge-book-onepoint-04","hazu"],["ge-book-onepoint-05","wake"],["ge-book-onepoint-06","hazu"],
+  ].map(([id,correct])=>Object.freeze({id,type:"selection",correct}));
+  const review = [
+    ["review-ae-01","3"],["review-ae-02","4"],["review-ae-03","1"],["review-ae-04","2"],
+    ["review-ae-05","1"],["review-ae-06","2"],["review-ae-07","3"],["review-ae-08","1"],
+    ["review-ae-09","1"],["review-ae-10","1"],["review-ae-11","2"],["review-ae-12","4"],
+    ["review-ae-13","3"],
+  ].map(([id,correct])=>Object.freeze({id,type:"selection",correct}));
+  const extraRaw = [
+    ["ge-extra-01","wake","The result follows naturally from the stated travel time."],
+    ["ge-extra-02","wake","New information explains and confirms the observed result."],
+    ["ge-extra-03","wake-niwa","The speaker is socially or psychologically unable to refuse."],
+    ["ge-extra-04","nai-wake-niwa","The situation creates an obligation to act despite reluctance."],
+    ["ge-extra-05","hazu","The speaker makes a confident prediction from evidence."],
+    ["ge-extra-06","wake","The statement gives a logical conclusion, not a prediction."],
+    ["ge-extra-07","wake-niwa","Doing the action is unacceptable even though physically possible."],
+    ["ge-extra-08","nai-wake-niwa","The negative form means the speaker cannot avoid doing it."],
+  ];
+  const notes=Object.freeze({wake:"～わけだ states a natural conclusion or understanding.","wake-niwa":"～わけにはいかない means circumstances prevent the action.","nai-wake-niwa":"～ないわけにはいかない means circumstances make the action unavoidable.",hazu:"～はずだ is a confident, evidence-based expectation."});
+  const extra=extraRaw.map(([id,correct,hint])=>Object.freeze({id,type:"selection",correct,hint,rationales:Object.freeze(Object.fromEntries(Object.entries(notes).map(([key,value])=>[key,key===correct?`Correct. ${value}`:value])))}));
+  root.N3QuizData=Object.freeze([...(root.N3QuizData||[]),...book,...review,...extra]);
+}(typeof window!=="undefined"?window:globalThis));
+/* END GROUP E: USES OF WAKE + A-E REVIEW */
+
+/* GROUP F: USES OF BAKARI */
+(function(root){
+  "use strict";
+  const book=[
+    ["gf-book-1-01","mite"],["gf-book-1-02","hajimatta"],["gf-book-1-03","benri"],["gf-book-1-04","hidokunaru"],["gf-book-1-05","furihajimeta"],
+    ["gf-book-1-06","osu"],["gf-book-1-07","miteiru"],["gf-book-1-08","atta"],["gf-book-1-09","kiku"],["gf-book-1-10","nayande"],
+    ["gf-book-2-01","b"],["gf-book-2-02","c"],["gf-book-2-03","c"],["gf-book-2-04","a"],["gf-book-2-05","a"],["gf-book-2-06","c"],["gf-book-2-07","a"],["gf-book-2-08","b"],
+    ["gf-book-onepoint-01","bakari"],["gf-book-onepoint-02","tokoro"],["gf-book-onepoint-03","tokoro"],["gf-book-onepoint-04","bakari"],
+    ["gf-book-onepoint-05","bakari"],["gf-book-onepoint-06","tokoro"],["gf-book-onepoint-07","bakari"],
+  ].map(([id,correct])=>Object.freeze({id,type:"selection",correct}));
+  const extraRaw=[
+    ["gf-extra-01","limit","The sentence criticizes doing only one kind of thing."],
+    ["gf-extra-02","repeated","～てばかりいる describes a repeated action and sounds critical."],
+    ["gf-extra-03","addition","～ばかりでなく adds another fact beyond the first."],
+    ["gf-extra-04","change","The dictionary form + ばかりだ describes a continuing change."],
+    ["gf-extra-05","ready","The dictionary form + ばかりだ says preparation is complete and only the action remains."],
+    ["gf-extra-06","recent","～たばかりだ presents an event as recent from the speaker’s viewpoint."],
+    ["gf-extra-07","bakari","A month may still feel recent to the speaker, so たばかり is possible."],
+    ["gf-extra-08","tokoro","今 and an immediately completed action require たところ."],
+  ];
+  const notes=Object.freeze({limit:"～ばかり marks limitation and often disapproval.",repeated:"～てばかりいる criticizes repeated or continuous behavior.",addition:"～ばかりでなく means not only, but also.",change:"～ばかりだ can show a one-way ongoing change.",ready:"～ばかりだ can mean everything is ready and only the action remains.",recent:"～たばかりだ means the speaker regards an action as recent.",bakari:"～たばかり allows a subjective sense of recency.",tokoro:"～たところ refers to the directly immediate aftermath."});
+  const extra=extraRaw.map(([id,correct,hint])=>Object.freeze({id,type:"selection",correct,hint,rationales:Object.freeze(Object.fromEntries(Object.entries(notes).map(([key,value])=>[key,key===correct?`Correct. ${value}`:value])))}));
+  root.N3QuizData=Object.freeze([...(root.N3QuizData||[]),...book,...extra]);
+}(typeof window!=="undefined"?window:globalThis));
+/* END GROUP F: USES OF BAKARI */
+
+/* GROUP G: ORGANIZING SURU AND NARU */
+(function(root){
+  "use strict";
+  const book=[
+    ["gg-book-1-01","a"],["gg-book-1-02","b"],["gg-book-1-03","b"],["gg-book-1-04","a"],["gg-book-1-05","b"],
+    ["gg-book-1-06","b"],["gg-book-1-07","b"],["gg-book-1-08","a"],["gg-book-1-09","b"],["gg-book-1-10","a"],
+    ["gg-book-1-11","b"],["gg-book-1-12","b"],["gg-book-1-13","a"],["gg-book-1-14","b"],["gg-book-1-15","a"],
+    ["gg-book-2-01","a"],["gg-book-2-02","a"],["gg-book-2-03","b"],["gg-book-2-04","a"],["gg-book-2-05","a"],["gg-book-2-06","a"],
+    ["gg-book-onepoint-01","a"],["gg-book-onepoint-02","b"],["gg-book-onepoint-03","b"],["gg-book-onepoint-04","b"],
+    ["gg-book-onepoint-05","a"],["gg-book-onepoint-06","b"],["gg-book-onepoint-07","a"],
+  ].map(([id,correct])=>Object.freeze({id,type:"selection",correct}));
+  const extraRaw=[
+    ["gg-extra-01","suru","An agent deliberately changes the room’s state."],
+    ["gg-extra-02","naru","The rain causes a change that is presented as a resulting state."],
+    ["gg-extra-03","decision","The speaker states a personal decision."],
+    ["gg-extra-04","settled","The company’s order makes this an externally settled result."],
+    ["gg-extra-05","habit","The person consciously maintains a healthy habit."],
+    ["gg-extra-06","design","The faucet is designed to produce this result automatically."],
+    ["gg-extra-07","personal-pattern","～ことにしている presents the speaker’s continuing personal rule."],
+    ["gg-extra-08","external-rule","～ことになっている presents an established system or rule."],
+  ];
+  const notes=Object.freeze({suru:"～にする／～くする focuses on an agent intentionally changing a state.",naru:"～になる／～くなる focuses on the change or resulting state.",decision:"～ことにする marks a person’s decision.",settled:"～ことになる presents a decision or result as settled without naming the agent.",habit:"～ようにしている marks conscious habitual effort with a volitional verb.",design:"～ようになっている describes an arranged or designed result, commonly with a non-volitional or potential verb.","personal-pattern":"～ことにしている is a continuing choice made by the subject.","external-rule":"～ことになっている is a continuing rule, schedule, or externally established arrangement."});
+  const extra=extraRaw.map(([id,correct,hint])=>Object.freeze({id,type:"selection",correct,hint,rationales:Object.freeze(Object.fromEntries(Object.entries(notes).map(([key,value])=>[key,key===correct?`Correct. ${value}`:value])))}));
+  root.N3QuizData=Object.freeze([...(root.N3QuizData||[]),...book,...extra]);
+}(typeof window!=="undefined"?window:globalThis));
+/* END GROUP G: ORGANIZING SURU AND NARU */
+
+/* GROUP H: SPECIAL USES OF CONDITIONS */
+(function(root){
+  "use strict";
+  const bookRaw=[
+    ["gh-book-1-01","b"],["gh-book-1-02","a"],["gh-book-1-03","b"],["gh-book-1-04","a"],["gh-book-1-05","a"],
+    ["gh-book-1-06","a"],["gh-book-1-07","a"],["gh-book-1-08","b"],["gh-book-1-09","a"],["gh-book-1-10","b"],
+    ["gh-book-2-01","a"],["gh-book-2-02","b"],["gh-book-2-03","a"],["gh-book-2-04","c"],
+    ["gh-book-2-05","c"],["gh-book-2-06","c"],["gh-book-2-07","a"],["gh-book-2-08","b"],
+    ["gh-book-onepoint-01","b"],["gh-book-onepoint-02",["a","b"]],["gh-book-onepoint-03","b"],
+    ["gh-book-onepoint-04",["a","b"]],["gh-book-onepoint-05",["a","b"]],["gh-book-onepoint-06","b"],["gh-book-onepoint-07","b"],
+  ];
+  const book=bookRaw.map(([id,correct])=>Object.freeze({id,type:Array.isArray(correct)?"multi-selection":"selection",correct:Array.isArray(correct)?Object.freeze(correct):correct}));
+  const extraRaw=[
+    ["gh-extra-01","notice","The action reveals a state that already existed."],
+    ["gh-extra-02","chance","The encounter occurs unexpectedly while another activity is in progress."],
+    ["gh-extra-03","trigger","Pressing the switch directly triggers the result."],
+    ["gh-extra-04","sequence","The same subject performs the second action immediately after the first."],
+    ["gh-extra-05","both","The paired も construction states that both facts apply."],
+    ["gh-extra-06","tara","A request can follow a movement verb in a ～たら clause."],
+    ["gh-extra-07","ba","With a state predicate, ～ば can be followed by the speaker’s intention."],
+    ["gh-extra-08","to","The result is non-volitional, so ～と is natural."],
+  ];
+  const notes=Object.freeze({notice:"～と…た／～たら…た can introduce a newly discovered preexisting state.",chance:"～ていると／～ていたら marks an unexpected event during an ongoing action.",trigger:"The first action acts as the trigger for a non-volitional result.",sequence:"With ～と…た, the same subject immediately performs the second action.",both:"～も…ば～も… and ～も…なら～も… pair two qualities or facts.",tara:"～たら allows intentions, requests, and invitations in the result clause.",ba:"When the condition is a state, ～ば can be followed by an intention.",to:"～と naturally introduces an automatic or non-volitional result.",nara:"～なら presents a condition based on a topic or assumption, not this automatic result."});
+  const extra=extraRaw.map(([id,correct,hint])=>Object.freeze({id,type:"selection",correct,hint,rationales:Object.freeze(Object.fromEntries(Object.entries(notes).map(([key,value])=>[key,key===correct?`Correct. ${value}`:value])))}));
+  root.N3QuizData=Object.freeze([...(root.N3QuizData||[]),...book,...extra]);
+}(typeof window!=="undefined"?window:globalThis));
+/* END GROUP H: SPECIAL USES OF CONDITIONS */
+
+/* GROUP I: ADVERBS WITH FIXED FOLLOWING FORMS */
+(function(root){
+  "use strict";
+  const book=[
+    ["gi-book-1-01","a"],["gi-book-1-02","c"],["gi-book-1-03","b"],["gi-book-1-04","a"],["gi-book-1-05","c"],
+    ["gi-book-1-06","a"],["gi-book-1-07","c"],["gi-book-1-08","b"],["gi-book-1-09","b"],["gi-book-1-10","a"],
+    ["gi-book-1-11","c"],["gi-book-1-12","a"],["gi-book-1-13","a"],["gi-book-1-14","b"],
+    ["gi-book-2-01","c"],["gi-book-2-02","a"],["gi-book-2-03","b"],["gi-book-2-04","a"],["gi-book-2-05","b"],
+    ["gi-book-2-06","c"],["gi-book-2-07","b"],["gi-book-2-08","a"],["gi-book-2-09","a"],["gi-book-2-10","b"],
+    ["gi-book-2-11","c"],["gi-book-2-12","b"],["gi-book-2-13","a"],
+  ].map(([id,correct])=>Object.freeze({id,type:"selection",correct}));
+  const extraRaw=[
+    ["gi-extra-01","negative","決して requires a negative continuation."],
+    ["gi-extra-02","sou","今にも pairs with ～そうだ for an event that appears imminent."],
+    ["gi-extra-03","kamo","もしかしたら pairs naturally with ～かもしれない."],
+    ["gi-extra-04","you","まるで pairs with ～ようだ for strong resemblance."],
+    ["gi-extra-05","request","ぜひ commonly pairs with a request or strong desire."],
+    ["gi-extra-06","temo","たとえ pairs with ～ても／～でも for concession."],
+    ["gi-extra-07","nodakara","せっかく can pair with ～のだから when making use of a valuable opportunity."],
+    ["gi-extra-08","prepared","すでに pairs with a completed or prepared state such as ～てある."],
+  ];
+  const notes=Object.freeze({negative:"決して～ない means never or by no means.",conjecture:"A conjecture does not complete 決して.",request:"A request completes ぜひ, not 決して.",sou:"今にも～そうだ describes something about to happen.",past:"今にも does not report a completed past event.",kamo:"もしかしたら～かもしれない expresses possibility.",must:"もしかしたら does not express certainty.",command:"A command is not the fixed continuation for もしかしたら.",you:"まるで～ようだ expresses resemblance.",tara:"～たら is not the fixed resemblance form after まるで.",temo:"たとえ～ても／～でも means even if.",noni:"～のに is not the standard fixed partner of たとえ.",dakara:"～だから gives a reason rather than concession.",nodakara:"せっかく～のだから makes use of a special effort or opportunity.",kamoshirenai:"Possibility does not complete this せっかく pattern.",rashii:"Hearsay does not complete this せっかく pattern.",prepared:"すでに～てある marks an already prepared state.",future:"すでに does not point to a merely future action."});
+  const extra=extraRaw.map(([id,correct,hint])=>Object.freeze({id,type:"selection",correct,hint,rationales:Object.freeze(Object.fromEntries(Object.entries(notes).map(([key,value])=>[key,key===correct?`Correct. ${value}`:value])))}));
+  root.N3QuizData=Object.freeze([...(root.N3QuizData||[]),...book,...extra]);
+}(typeof window!=="undefined"?window:globalThis));
+/* END GROUP I: ADVERBS WITH FIXED FOLLOWING FORMS */
+
+/* GROUP J: FORMS THAT BROADEN VERB AND NOUN MEANING + A-J REVIEW */
+(function(root){
+  "use strict";
+  const book=[
+    ["gj-book-1-01","b"],["gj-book-1-02","c"],["gj-book-1-03","c"],["gj-book-1-04","b"],["gj-book-1-05","c"],
+    ["gj-book-1-06","a"],["gj-book-1-07","b"],["gj-book-1-08","a"],["gj-book-1-09","c"],["gj-book-1-10","a"],
+    ["gj-book-2-01","やすい"],["gj-book-2-02","らしく"],["gj-book-2-03","かけな"],["gj-book-2-04","にくい"],["gj-book-2-05","だらけだ"],
+    ["gj-book-2-06","みたいな"],["gj-book-2-07","らしい"],["gj-book-2-08","やすい"],["gj-book-2-09","すぎ"],["gj-book-2-10","かけの"],
+    ["gj-book-onepoint-01","b"],["gj-book-onepoint-02","a"],["gj-book-onepoint-03","a"],["gj-book-onepoint-04","b"],
+    ["gj-book-onepoint-05","b"],["gj-book-onepoint-06","b"],["gj-book-onepoint-07","a"],
+  ].map(([id,correct])=>Object.freeze({id,type:"selection",correct}));
+  const review=[
+    ["review-aj-01","4"],["review-aj-02","2"],["review-aj-03","3"],["review-aj-04","3"],["review-aj-05","2"],
+    ["review-aj-06","4"],["review-aj-07","1"],["review-aj-08","2"],["review-aj-09","1"],["review-aj-10","3"],
+    ["review-aj-11","2"],["review-aj-12","4"],["review-aj-13","4"],
+  ].map(([id,correct])=>Object.freeze({id,type:"selection",correct}));
+  const extraRaw=[
+    ["gj-extra-01","kake","～かけ marks an action that started but remains incomplete."],
+    ["gj-extra-02","kiru","～きる marks completion all the way to the endpoint."],
+    ["gj-extra-03","zurui","～づらい often includes the speaker’s social, emotional, or physical discomfort."],
+    ["gj-extra-04","gachi","～がちだ describes a tendency toward a repeated state or behavior."],
+    ["gj-extra-05","rashii","～らしい fits the expected image of something that actually is that thing."],
+    ["gj-extra-06","youda","～のようだ compares something with what it is not actually identical to."],
+    ["gj-extra-07","darake","～だらけ marks an undesirable abundance."],
+    ["gj-extra-08","dasu","～出す marks a sudden beginning."],
+  ];
+  const notes=Object.freeze({kake:"～かけ is incomplete.",kiru:"～きる reaches completion.",dasu:"～出す begins suddenly.",yasui:"～やすい means easy to do or likely to happen.",zurui:"～づらい includes subjective discomfort.",nikui:"～にくい describes difficulty or resistance.",gachi:"～がち describes a tendency.",darake:"～だらけ means full of an unwanted thing.",rashii:"～らしい fits an expected identity or image.",youda:"～のようだ makes a resemblance comparison.",ppoi:"～っぽい means having a noticeable quality.",sugiru:"～すぎる exceeds an appropriate degree.",tosu:"～通す means persisting through to the end."});
+  const extra=extraRaw.map(([id,correct,hint])=>Object.freeze({id,type:"selection",correct,hint,rationales:Object.freeze(Object.fromEntries(Object.entries(notes).map(([key,value])=>[key,key===correct?`Correct. ${value}`:value])))}));
+  root.N3QuizData=Object.freeze([...(root.N3QuizData||[]),...book,...review,...extra]);
+}(typeof window!=="undefined"?window:globalThis));
+/* END GROUP J: FORMS THAT BROADEN VERB AND NOUN MEANING + A-J REVIEW */
+
+/* PART 3 LESSON 1: 文の組み立て-1　引用 */
+(function(root){
+  "use strict";
+  const records=[
+  {
+    "id": "p3l1-book-01",
+    "type": "selection",
+    "correct": "4",
+    "completedOrder": "2143",
+    "hint": "Arrange all four numbered phrases; ★ is the third phrase.",
+    "rationales": {
+      "1": "The completed order is 2 → 1 → 4 → 3; choice 4, not choice 1, occupies ★.",
+      "2": "The completed order is 2 → 1 → 4 → 3; choice 4, not choice 2, occupies ★.",
+      "3": "The completed order is 2 → 1 → 4 → 3; choice 4, not choice 3, occupies ★.",
+      "4": "Correct. Completed order: 2 → 1 → 4 → 3. Choice 4 occupies ★."
+    }
+  },
+  {
+    "id": "p3l1-book-02",
+    "type": "selection",
+    "correct": "4",
+    "completedOrder": "2143",
+    "hint": "Arrange all four numbered phrases; ★ is the third phrase.",
+    "rationales": {
+      "1": "The completed order is 2 → 1 → 4 → 3; choice 4, not choice 1, occupies ★.",
+      "2": "The completed order is 2 → 1 → 4 → 3; choice 4, not choice 2, occupies ★.",
+      "3": "The completed order is 2 → 1 → 4 → 3; choice 4, not choice 3, occupies ★.",
+      "4": "Correct. Completed order: 2 → 1 → 4 → 3. Choice 4 occupies ★."
+    }
+  },
+  {
+    "id": "p3l1-book-03",
+    "type": "selection",
+    "correct": "4",
+    "completedOrder": "1342",
+    "hint": "Arrange all four numbered phrases; ★ is the third phrase.",
+    "rationales": {
+      "1": "The completed order is 1 → 3 → 4 → 2; choice 4, not choice 1, occupies ★.",
+      "2": "The completed order is 1 → 3 → 4 → 2; choice 4, not choice 2, occupies ★.",
+      "3": "The completed order is 1 → 3 → 4 → 2; choice 4, not choice 3, occupies ★.",
+      "4": "Correct. Completed order: 1 → 3 → 4 → 2. Choice 4 occupies ★."
+    }
+  },
+  {
+    "id": "p3l1-book-04",
+    "type": "selection",
+    "correct": "1",
+    "completedOrder": "2413",
+    "hint": "Arrange all four numbered phrases; ★ is the third phrase.",
+    "rationales": {
+      "1": "Correct. Completed order: 2 → 4 → 1 → 3. Choice 1 occupies ★.",
+      "2": "The completed order is 2 → 4 → 1 → 3; choice 1, not choice 2, occupies ★.",
+      "3": "The completed order is 2 → 4 → 1 → 3; choice 1, not choice 3, occupies ★.",
+      "4": "The completed order is 2 → 4 → 1 → 3; choice 1, not choice 4, occupies ★."
+    }
+  },
+  {
+    "id": "p3l1-book-05",
+    "type": "selection",
+    "correct": "1",
+    "completedOrder": "2413",
+    "hint": "Arrange all four numbered phrases; ★ is the third phrase.",
+    "rationales": {
+      "1": "Correct. Completed order: 2 → 4 → 1 → 3. Choice 1 occupies ★.",
+      "2": "The completed order is 2 → 4 → 1 → 3; choice 1, not choice 2, occupies ★.",
+      "3": "The completed order is 2 → 4 → 1 → 3; choice 1, not choice 3, occupies ★.",
+      "4": "The completed order is 2 → 4 → 1 → 3; choice 1, not choice 4, occupies ★."
+    }
+  },
+  {
+    "id": "p3l1-book-06",
+    "type": "selection",
+    "correct": "2",
+    "completedOrder": "3124",
+    "hint": "Arrange all four numbered phrases; ★ is the third phrase.",
+    "rationales": {
+      "1": "The completed order is 3 → 1 → 2 → 4; choice 2, not choice 1, occupies ★.",
+      "2": "Correct. Completed order: 3 → 1 → 2 → 4. Choice 2 occupies ★.",
+      "3": "The completed order is 3 → 1 → 2 → 4; choice 2, not choice 3, occupies ★.",
+      "4": "The completed order is 3 → 1 → 2 → 4; choice 2, not choice 4, occupies ★."
+    }
+  },
+  {
+    "id": "p3l1-book-07",
+    "type": "selection",
+    "correct": "4",
+    "completedOrder": "3142",
+    "hint": "Arrange all four numbered phrases; ★ is the third phrase.",
+    "rationales": {
+      "1": "The completed order is 3 → 1 → 4 → 2; choice 4, not choice 1, occupies ★.",
+      "2": "The completed order is 3 → 1 → 4 → 2; choice 4, not choice 2, occupies ★.",
+      "3": "The completed order is 3 → 1 → 4 → 2; choice 4, not choice 3, occupies ★.",
+      "4": "Correct. Completed order: 3 → 1 → 4 → 2. Choice 4 occupies ★."
+    }
+  },
+  {
+    "id": "p3l1-book-08",
+    "type": "selection",
+    "correct": "3",
+    "completedOrder": "4231",
+    "hint": "Arrange all four numbered phrases; ★ is the third phrase.",
+    "rationales": {
+      "1": "The completed order is 4 → 2 → 3 → 1; choice 3, not choice 1, occupies ★.",
+      "2": "The completed order is 4 → 2 → 3 → 1; choice 3, not choice 2, occupies ★.",
+      "3": "Correct. Completed order: 4 → 2 → 3 → 1. Choice 3 occupies ★.",
+      "4": "The completed order is 4 → 2 → 3 → 1; choice 3, not choice 4, occupies ★."
+    }
+  },
+  {
+    "id": "p3l1-book-09",
+    "type": "selection",
+    "correct": "2",
+    "completedOrder": "3421",
+    "hint": "Arrange all four numbered phrases; ★ is the third phrase.",
+    "rationales": {
+      "1": "The completed order is 3 → 4 → 2 → 1; choice 2, not choice 1, occupies ★.",
+      "2": "Correct. Completed order: 3 → 4 → 2 → 1. Choice 2 occupies ★.",
+      "3": "The completed order is 3 → 4 → 2 → 1; choice 2, not choice 3, occupies ★.",
+      "4": "The completed order is 3 → 4 → 2 → 1; choice 2, not choice 4, occupies ★."
+    }
+  },
+  {
+    "id": "p3l1-book-10",
+    "type": "selection",
+    "correct": "1",
+    "completedOrder": "2413",
+    "hint": "Arrange all four numbered phrases; ★ is the third phrase.",
+    "rationales": {
+      "1": "Correct. Completed order: 2 → 4 → 1 → 3. Choice 1 occupies ★.",
+      "2": "The completed order is 2 → 4 → 1 → 3; choice 1, not choice 2, occupies ★.",
+      "3": "The completed order is 2 → 4 → 1 → 3; choice 1, not choice 3, occupies ★.",
+      "4": "The completed order is 2 → 4 → 1 → 3; choice 1, not choice 4, occupies ★."
+    }
+  },
+  {
+    "id": "p3l1-extra-01",
+    "type": "selection",
+    "correct": "4",
+    "completedOrder": "1342",
+    "hint": "Arrange all four numbered phrases; ★ is the third phrase.",
+    "rationales": {
+      "1": "The completed order is 1 → 3 → 4 → 2; choice 4, not choice 1, occupies ★.",
+      "2": "The completed order is 1 → 3 → 4 → 2; choice 4, not choice 2, occupies ★.",
+      "3": "The completed order is 1 → 3 → 4 → 2; choice 4, not choice 3, occupies ★.",
+      "4": "Correct. Completed order: 1 → 3 → 4 → 2. Choice 4 occupies ★."
+    }
+  },
+  {
+    "id": "p3l1-extra-02",
+    "type": "selection",
+    "correct": "1",
+    "completedOrder": "2314",
+    "hint": "Arrange all four numbered phrases; ★ is the third phrase.",
+    "rationales": {
+      "1": "Correct. Completed order: 2 → 3 → 1 → 4. Choice 1 occupies ★.",
+      "2": "The completed order is 2 → 3 → 1 → 4; choice 1, not choice 2, occupies ★.",
+      "3": "The completed order is 2 → 3 → 1 → 4; choice 1, not choice 3, occupies ★.",
+      "4": "The completed order is 2 → 3 → 1 → 4; choice 1, not choice 4, occupies ★."
+    }
+  },
+  {
+    "id": "p3l1-extra-03",
+    "type": "selection",
+    "correct": "2",
+    "completedOrder": "3124",
+    "hint": "Arrange all four numbered phrases; ★ is the third phrase.",
+    "rationales": {
+      "1": "The completed order is 3 → 1 → 2 → 4; choice 2, not choice 1, occupies ★.",
+      "2": "Correct. Completed order: 3 → 1 → 2 → 4. Choice 2 occupies ★.",
+      "3": "The completed order is 3 → 1 → 2 → 4; choice 2, not choice 3, occupies ★.",
+      "4": "The completed order is 3 → 1 → 2 → 4; choice 2, not choice 4, occupies ★."
+    }
+  },
+  {
+    "id": "p3l1-extra-04",
+    "type": "selection",
+    "correct": "1",
+    "completedOrder": "4312",
+    "hint": "Arrange all four numbered phrases; ★ is the third phrase.",
+    "rationales": {
+      "1": "Correct. Completed order: 4 → 3 → 1 → 2. Choice 1 occupies ★.",
+      "2": "The completed order is 4 → 3 → 1 → 2; choice 1, not choice 2, occupies ★.",
+      "3": "The completed order is 4 → 3 → 1 → 2; choice 1, not choice 3, occupies ★.",
+      "4": "The completed order is 4 → 3 → 1 → 2; choice 1, not choice 4, occupies ★."
+    }
+  },
+  {
+    "id": "p3l1-extra-05",
+    "type": "selection",
+    "correct": "1",
+    "completedOrder": "3214",
+    "hint": "Arrange all four numbered phrases; ★ is the third phrase.",
+    "rationales": {
+      "1": "Correct. Completed order: 3 → 2 → 1 → 4. Choice 1 occupies ★.",
+      "2": "The completed order is 3 → 2 → 1 → 4; choice 1, not choice 2, occupies ★.",
+      "3": "The completed order is 3 → 2 → 1 → 4; choice 1, not choice 3, occupies ★.",
+      "4": "The completed order is 3 → 2 → 1 → 4; choice 1, not choice 4, occupies ★."
+    }
+  },
+  {
+    "id": "p3l1-extra-06",
+    "type": "selection",
+    "correct": "1",
+    "completedOrder": "4213",
+    "hint": "Arrange all four numbered phrases; ★ is the third phrase.",
+    "rationales": {
+      "1": "Correct. Completed order: 4 → 2 → 1 → 3. Choice 1 occupies ★.",
+      "2": "The completed order is 4 → 2 → 1 → 3; choice 1, not choice 2, occupies ★.",
+      "3": "The completed order is 4 → 2 → 1 → 3; choice 1, not choice 3, occupies ★.",
+      "4": "The completed order is 4 → 2 → 1 → 3; choice 1, not choice 4, occupies ★."
+    }
+  },
+  {
+    "id": "p3l1-extra-07",
+    "type": "selection",
+    "correct": "2",
+    "completedOrder": "3142",
+    "hint": "Arrange all four numbered phrases; ★ is the third phrase.",
+    "rationales": {
+      "1": "The completed order is 3 → 1 → 4 → 2; choice 2, not choice 1, occupies ★.",
+      "2": "Correct. Completed order: 3 → 1 → 4 → 2. Choice 2 occupies ★.",
+      "3": "The completed order is 3 → 1 → 4 → 2; choice 2, not choice 3, occupies ★.",
+      "4": "The completed order is 3 → 1 → 4 → 2; choice 2, not choice 4, occupies ★."
+    }
+  },
+  {
+    "id": "p3l1-extra-08",
+    "type": "selection",
+    "correct": "1",
+    "completedOrder": "3214",
+    "hint": "Arrange all four numbered phrases; ★ is the third phrase.",
+    "rationales": {
+      "1": "Correct. Completed order: 3 → 2 → 1 → 4. Choice 1 occupies ★.",
+      "2": "The completed order is 3 → 2 → 1 → 4; choice 1, not choice 2, occupies ★.",
+      "3": "The completed order is 3 → 2 → 1 → 4; choice 1, not choice 3, occupies ★.",
+      "4": "The completed order is 3 → 2 → 1 → 4; choice 1, not choice 4, occupies ★."
+    }
+  }
+].map(record=>Object.freeze({...record,rationales:Object.freeze(record.rationales)}));
+  root.N3QuizData=Object.freeze([...(root.N3QuizData||[]),...records]);
+}(typeof window!=="undefined"?window:globalThis));
+/* END PART 3 LESSON 1 */
+
+/* PART 3 LESSON 2: 文の組み立て-2　名詞の説明 */
+(function(root){
+  "use strict";
+  const records=[
+  {
+    "id": "p3l2-book-01",
+    "type": "selection",
+    "correct": "2",
+    "completedOrder": "1324",
+    "hint": "Arrange all four numbered phrases; ★ is the third phrase.",
+    "rationales": {
+      "1": "The completed order is 1 → 3 → 2 → 4; choice 2, not choice 1, occupies ★.",
+      "2": "Correct. Completed order: 1 → 3 → 2 → 4. Choice 2 occupies ★.",
+      "3": "The completed order is 1 → 3 → 2 → 4; choice 2, not choice 3, occupies ★.",
+      "4": "The completed order is 1 → 3 → 2 → 4; choice 2, not choice 4, occupies ★."
+    }
+  },
+  {
+    "id": "p3l2-book-02",
+    "type": "selection",
+    "correct": "1",
+    "completedOrder": "3214",
+    "hint": "Arrange all four numbered phrases; ★ is the third phrase.",
+    "rationales": {
+      "1": "Correct. Completed order: 3 → 2 → 1 → 4. Choice 1 occupies ★.",
+      "2": "The completed order is 3 → 2 → 1 → 4; choice 1, not choice 2, occupies ★.",
+      "3": "The completed order is 3 → 2 → 1 → 4; choice 1, not choice 3, occupies ★.",
+      "4": "The completed order is 3 → 2 → 1 → 4; choice 1, not choice 4, occupies ★."
+    }
+  },
+  {
+    "id": "p3l2-book-03",
+    "type": "selection",
+    "correct": "3",
+    "completedOrder": "1432",
+    "hint": "Arrange all four numbered phrases; ★ is the third phrase.",
+    "rationales": {
+      "1": "The completed order is 1 → 4 → 3 → 2; choice 3, not choice 1, occupies ★.",
+      "2": "The completed order is 1 → 4 → 3 → 2; choice 3, not choice 2, occupies ★.",
+      "3": "Correct. Completed order: 1 → 4 → 3 → 2. Choice 3 occupies ★.",
+      "4": "The completed order is 1 → 4 → 3 → 2; choice 3, not choice 4, occupies ★."
+    }
+  },
+  {
+    "id": "p3l2-book-04",
+    "type": "selection",
+    "correct": "1",
+    "completedOrder": "2413",
+    "hint": "Arrange all four numbered phrases; ★ is the third phrase.",
+    "rationales": {
+      "1": "Correct. Completed order: 2 → 4 → 1 → 3. Choice 1 occupies ★.",
+      "2": "The completed order is 2 → 4 → 1 → 3; choice 1, not choice 2, occupies ★.",
+      "3": "The completed order is 2 → 4 → 1 → 3; choice 1, not choice 3, occupies ★.",
+      "4": "The completed order is 2 → 4 → 1 → 3; choice 1, not choice 4, occupies ★."
+    }
+  },
+  {
+    "id": "p3l2-book-05",
+    "type": "selection",
+    "correct": "2",
+    "completedOrder": "1423",
+    "hint": "Arrange all four numbered phrases; ★ is the third phrase.",
+    "rationales": {
+      "1": "The completed order is 1 → 4 → 2 → 3; choice 2, not choice 1, occupies ★.",
+      "2": "Correct. Completed order: 1 → 4 → 2 → 3. Choice 2 occupies ★.",
+      "3": "The completed order is 1 → 4 → 2 → 3; choice 2, not choice 3, occupies ★.",
+      "4": "The completed order is 1 → 4 → 2 → 3; choice 2, not choice 4, occupies ★."
+    }
+  },
+  {
+    "id": "p3l2-book-06",
+    "type": "selection",
+    "correct": "2",
+    "completedOrder": "4321",
+    "hint": "Arrange all four numbered phrases; ★ is the third phrase.",
+    "rationales": {
+      "1": "The completed order is 4 → 3 → 2 → 1; choice 2, not choice 1, occupies ★.",
+      "2": "Correct. Completed order: 4 → 3 → 2 → 1. Choice 2 occupies ★.",
+      "3": "The completed order is 4 → 3 → 2 → 1; choice 2, not choice 3, occupies ★.",
+      "4": "The completed order is 4 → 3 → 2 → 1; choice 2, not choice 4, occupies ★."
+    }
+  },
+  {
+    "id": "p3l2-book-07",
+    "type": "selection",
+    "correct": "4",
+    "completedOrder": "2341",
+    "hint": "Arrange all four numbered phrases; ★ is the third phrase.",
+    "rationales": {
+      "1": "The completed order is 2 → 3 → 4 → 1; choice 4, not choice 1, occupies ★.",
+      "2": "The completed order is 2 → 3 → 4 → 1; choice 4, not choice 2, occupies ★.",
+      "3": "The completed order is 2 → 3 → 4 → 1; choice 4, not choice 3, occupies ★.",
+      "4": "Correct. Completed order: 2 → 3 → 4 → 1. Choice 4 occupies ★."
+    }
+  },
+  {
+    "id": "p3l2-book-08",
+    "type": "selection",
+    "correct": "1",
+    "completedOrder": "3214",
+    "hint": "Arrange all four numbered phrases; ★ is the third phrase.",
+    "rationales": {
+      "1": "Correct. Completed order: 3 → 2 → 1 → 4. Choice 1 occupies ★.",
+      "2": "The completed order is 3 → 2 → 1 → 4; choice 1, not choice 2, occupies ★.",
+      "3": "The completed order is 3 → 2 → 1 → 4; choice 1, not choice 3, occupies ★.",
+      "4": "The completed order is 3 → 2 → 1 → 4; choice 1, not choice 4, occupies ★."
+    }
+  },
+  {
+    "id": "p3l2-book-09",
+    "type": "selection",
+    "correct": "1",
+    "completedOrder": "3214",
+    "hint": "Arrange all four numbered phrases; ★ is the third phrase.",
+    "rationales": {
+      "1": "Correct. Completed order: 3 → 2 → 1 → 4. Choice 1 occupies ★.",
+      "2": "The completed order is 3 → 2 → 1 → 4; choice 1, not choice 2, occupies ★.",
+      "3": "The completed order is 3 → 2 → 1 → 4; choice 1, not choice 3, occupies ★.",
+      "4": "The completed order is 3 → 2 → 1 → 4; choice 1, not choice 4, occupies ★."
+    }
+  },
+  {
+    "id": "p3l2-book-10",
+    "type": "selection",
+    "correct": "2",
+    "completedOrder": "3421",
+    "hint": "Arrange all four numbered phrases; ★ is the third phrase.",
+    "rationales": {
+      "1": "The completed order is 3 → 4 → 2 → 1; choice 2, not choice 1, occupies ★.",
+      "2": "Correct. Completed order: 3 → 4 → 2 → 1. Choice 2 occupies ★.",
+      "3": "The completed order is 3 → 4 → 2 → 1; choice 2, not choice 3, occupies ★.",
+      "4": "The completed order is 3 → 4 → 2 → 1; choice 2, not choice 4, occupies ★."
+    }
+  },
+  {
+    "id": "p3l2-extra-01",
+    "type": "selection",
+    "correct": "2",
+    "completedOrder": "3142",
+    "hint": "Arrange all four numbered phrases; ★ is the third phrase.",
+    "rationales": {
+      "1": "The completed order is 3 → 1 → 4 → 2; choice 2, not choice 1, occupies ★.",
+      "2": "Correct. Completed order: 3 → 1 → 4 → 2. Choice 2 occupies ★.",
+      "3": "The completed order is 3 → 1 → 4 → 2; choice 2, not choice 3, occupies ★.",
+      "4": "The completed order is 3 → 1 → 4 → 2; choice 2, not choice 4, occupies ★."
+    }
+  },
+  {
+    "id": "p3l2-extra-02",
+    "type": "selection",
+    "correct": "4",
+    "completedOrder": "3214",
+    "hint": "Arrange all four numbered phrases; ★ is the third phrase.",
+    "rationales": {
+      "1": "The completed order is 3 → 2 → 1 → 4; choice 4, not choice 1, occupies ★.",
+      "2": "The completed order is 3 → 2 → 1 → 4; choice 4, not choice 2, occupies ★.",
+      "3": "The completed order is 3 → 2 → 1 → 4; choice 4, not choice 3, occupies ★.",
+      "4": "Correct. Completed order: 3 → 2 → 1 → 4. Choice 4 occupies ★."
+    }
+  },
+  {
+    "id": "p3l2-extra-03",
+    "type": "selection",
+    "correct": "3",
+    "completedOrder": "2431",
+    "hint": "Arrange all four numbered phrases; ★ is the third phrase.",
+    "rationales": {
+      "1": "The completed order is 2 → 4 → 3 → 1; choice 3, not choice 1, occupies ★.",
+      "2": "The completed order is 2 → 4 → 3 → 1; choice 3, not choice 2, occupies ★.",
+      "3": "Correct. Completed order: 2 → 4 → 3 → 1. Choice 3 occupies ★.",
+      "4": "The completed order is 2 → 4 → 3 → 1; choice 3, not choice 4, occupies ★."
+    }
+  },
+  {
+    "id": "p3l2-extra-04",
+    "type": "selection",
+    "correct": "1",
+    "completedOrder": "4231",
+    "hint": "Arrange all four numbered phrases; ★ is the third phrase.",
+    "rationales": {
+      "1": "Correct. Completed order: 4 → 2 → 3 → 1. Choice 1 occupies ★.",
+      "2": "The completed order is 4 → 2 → 3 → 1; choice 1, not choice 2, occupies ★.",
+      "3": "The completed order is 4 → 2 → 3 → 1; choice 1, not choice 3, occupies ★.",
+      "4": "The completed order is 4 → 2 → 3 → 1; choice 1, not choice 4, occupies ★."
+    }
+  },
+  {
+    "id": "p3l2-extra-05",
+    "type": "selection",
+    "correct": "2",
+    "completedOrder": "3421",
+    "hint": "Arrange all four numbered phrases; ★ is the third phrase.",
+    "rationales": {
+      "1": "The completed order is 3 → 4 → 2 → 1; choice 2, not choice 1, occupies ★.",
+      "2": "Correct. Completed order: 3 → 4 → 2 → 1. Choice 2 occupies ★.",
+      "3": "The completed order is 3 → 4 → 2 → 1; choice 2, not choice 3, occupies ★.",
+      "4": "The completed order is 3 → 4 → 2 → 1; choice 2, not choice 4, occupies ★."
+    }
+  },
+  {
+    "id": "p3l2-extra-06",
+    "type": "selection",
+    "correct": "3",
+    "completedOrder": "4213",
+    "hint": "Arrange all four numbered phrases; ★ is the third phrase.",
+    "rationales": {
+      "1": "The completed order is 4 → 2 → 1 → 3; choice 3, not choice 1, occupies ★.",
+      "2": "The completed order is 4 → 2 → 1 → 3; choice 3, not choice 2, occupies ★.",
+      "3": "Correct. Completed order: 4 → 2 → 1 → 3. Choice 3 occupies ★.",
+      "4": "The completed order is 4 → 2 → 1 → 3; choice 3, not choice 4, occupies ★."
+    }
+  },
+  {
+    "id": "p3l2-extra-07",
+    "type": "selection",
+    "correct": "4",
+    "completedOrder": "3214",
+    "hint": "Arrange all four numbered phrases; ★ is the third phrase.",
+    "rationales": {
+      "1": "The completed order is 3 → 2 → 1 → 4; choice 4, not choice 1, occupies ★.",
+      "2": "The completed order is 3 → 2 → 1 → 4; choice 4, not choice 2, occupies ★.",
+      "3": "The completed order is 3 → 2 → 1 → 4; choice 4, not choice 3, occupies ★.",
+      "4": "Correct. Completed order: 3 → 2 → 1 → 4. Choice 4 occupies ★."
+    }
+  },
+  {
+    "id": "p3l2-extra-08",
+    "type": "selection",
+    "correct": "3",
+    "completedOrder": "4123",
+    "hint": "Arrange all four numbered phrases; ★ is the third phrase.",
+    "rationales": {
+      "1": "The completed order is 4 → 1 → 2 → 3; choice 3, not choice 1, occupies ★.",
+      "2": "The completed order is 4 → 1 → 2 → 3; choice 3, not choice 2, occupies ★.",
+      "3": "Correct. Completed order: 4 → 1 → 2 → 3. Choice 3 occupies ★.",
+      "4": "The completed order is 4 → 1 → 2 → 3; choice 3, not choice 4, occupies ★."
+    }
+  }
+].map(record=>Object.freeze({...record,rationales:Object.freeze(record.rationales)}));
+  root.N3QuizData=Object.freeze([...(root.N3QuizData||[]),...records]);
+}(typeof window!=="undefined"?window:globalThis));
+/* END PART 3 LESSON 2 */
+
+/* PART 3 LESSON 3: 文の組み立て-3　「～という・～といった」 */
+(function(root){
+  "use strict";
+  const raw=[
+  [
+    "p3l3-book-01",
+    "4",
+    "2143"
+  ],
+  [
+    "p3l3-book-02",
+    "3",
+    "4132"
+  ],
+  [
+    "p3l3-book-03",
+    "1",
+    "3214"
+  ],
+  [
+    "p3l3-book-04",
+    "3",
+    "4231"
+  ],
+  [
+    "p3l3-book-05",
+    "2",
+    "3124"
+  ],
+  [
+    "p3l3-book-06",
+    "3",
+    "4132"
+  ],
+  [
+    "p3l3-book-07",
+    "1",
+    "4213"
+  ],
+  [
+    "p3l3-book-08",
+    "4",
+    "3241"
+  ],
+  [
+    "p3l3-book-09",
+    "4",
+    "2341"
+  ],
+  [
+    "p3l3-book-10",
+    "1",
+    "4213"
+  ],
+  [
+    "p3l3-extra-01",
+    "3",
+    "1234"
+  ],
+  [
+    "p3l3-extra-02",
+    "3",
+    "1234"
+  ],
+  [
+    "p3l3-extra-03",
+    "3",
+    "1234"
+  ],
+  [
+    "p3l3-extra-04",
+    "3",
+    "1234"
+  ],
+  [
+    "p3l3-extra-05",
+    "3",
+    "1234"
+  ],
+  [
+    "p3l3-extra-06",
+    "3",
+    "1234"
+  ],
+  [
+    "p3l3-extra-07",
+    "3",
+    "1234"
+  ],
+  [
+    "p3l3-extra-08",
+    "3",
+    "1234"
+  ]
+];
+  const records=raw.map(([id,correct,completedOrder])=>{const rationales=Object.freeze(Object.fromEntries(["1","2","3","4"].map(value=>[value,value===correct?`Correct. Completed order: ${completedOrder.split("").join(" → ")}. Choice ${correct} occupies ★.`:`The completed order is ${completedOrder.split("").join(" → ")}; choice ${correct}, not choice ${value}, occupies ★.`])));return Object.freeze({id,type:"selection",correct,completedOrder,hint:"Arrange all four numbered phrases; ★ is the third phrase.",rationales});});
+  root.N3QuizData=Object.freeze([...(root.N3QuizData||[]),...records]);
+}(typeof window!=="undefined"?window:globalThis));
+/* END PART 3 LESSON 3 */
+
+/* PART 3 LESSON 4: 文の組み立て-4　決まった形 */
+(function(root){
+  "use strict";
+  const raw=[
+  [
+    "p3l4-book-01",
+    "3",
+    "4132"
+  ],
+  [
+    "p3l4-book-02",
+    "4",
+    "1342"
+  ],
+  [
+    "p3l4-book-03",
+    "4",
+    "2143"
+  ],
+  [
+    "p3l4-book-04",
+    "2",
+    "3421"
+  ],
+  [
+    "p3l4-book-05",
+    "3",
+    "3142"
+  ],
+  [
+    "p3l4-book-06",
+    "1",
+    "4213"
+  ],
+  [
+    "p3l4-book-07",
+    "3",
+    "2431"
+  ],
+  [
+    "p3l4-book-08",
+    "1",
+    "2314"
+  ],
+  [
+    "p3l4-book-09",
+    "1",
+    "3214"
+  ],
+  [
+    "p3l4-book-10",
+    "3",
+    "4132"
+  ],
+  [
+    "p3l4-extra-01",
+    "3",
+    "1234"
+  ],
+  [
+    "p3l4-extra-02",
+    "3",
+    "1234"
+  ],
+  [
+    "p3l4-extra-03",
+    "3",
+    "1234"
+  ],
+  [
+    "p3l4-extra-04",
+    "3",
+    "1234"
+  ],
+  [
+    "p3l4-extra-05",
+    "3",
+    "1234"
+  ],
+  [
+    "p3l4-extra-06",
+    "3",
+    "1234"
+  ],
+  [
+    "p3l4-extra-07",
+    "3",
+    "1234"
+  ],
+  [
+    "p3l4-extra-08",
+    "3",
+    "1234"
+  ]
+];
+  const records=raw.map(([id,correct,completedOrder])=>{const rationales=Object.freeze(Object.fromEntries(["1","2","3","4"].map(value=>[value,value===correct?`Correct. Completed order: ${completedOrder.split("").join(" → ")}. Choice ${correct} occupies ★.`:`The completed order is ${completedOrder.split("").join(" → ")}; choice ${correct}, not choice ${value}, occupies ★.`])));return Object.freeze({id,type:"selection",correct,completedOrder,hint:"Arrange all four numbered phrases; ★ is the third phrase.",rationales});});
+  root.N3QuizData=Object.freeze([...(root.N3QuizData||[]),...records]);
+}(typeof window!=="undefined"?window:globalThis));
+/* END PART 3 LESSON 4 */
+
+/* PART 3 REVIEW 1-4 */
+(function(root){
+  "use strict";
+  const raw=[
+  [
+    "review-p3-01",
+    "2",
+    "4321"
+  ],
+  [
+    "review-p3-02",
+    "3",
+    "1432"
+  ],
+  [
+    "review-p3-03",
+    "3",
+    "2431"
+  ],
+  [
+    "review-p3-04",
+    "4",
+    "2143"
+  ],
+  [
+    "review-p3-05",
+    "2",
+    "3421"
+  ],
+  [
+    "review-p3-06",
+    "4",
+    "3142"
+  ],
+  [
+    "review-p3-07",
+    "2",
+    "3124"
+  ],
+  [
+    "review-p3-08",
+    "3",
+    "2431"
+  ],
+  [
+    "review-p3-09",
+    "1",
+    "2413"
+  ],
+  [
+    "review-p3-10",
+    "1",
+    "2413"
+  ],
+  [
+    "review-p3-11",
+    "3",
+    "1432"
+  ],
+  [
+    "review-p3-12",
+    "3",
+    "2431"
+  ],
+  [
+    "review-p3-13",
+    "1",
+    "2413"
+  ],
+  [
+    "review-p3-14",
+    "4",
+    "3142"
+  ],
+  [
+    "review-p3-15",
+    "1",
+    "2413"
+  ],
+  [
+    "review-p3-16",
+    "4",
+    "3142"
+  ],
+  [
+    "review-p3-17",
+    "4",
+    "3142"
+  ],
+  [
+    "review-p3-18",
+    "2",
+    "3124"
+  ]
+];
+  const records=raw.map(([id,correct,completedOrder])=>{const rationales=Object.freeze(Object.fromEntries(["1","2","3","4"].map(value=>[value,value===correct?`Correct. Completed order: ${completedOrder.split("").join(" → ")}. Choice ${correct} occupies ★.`:`The completed order is ${completedOrder.split("").join(" → ")}; choice ${correct}, not choice ${value}, occupies ★.`])));return Object.freeze({id,type:"selection",correct,completedOrder,hint:"Arrange all four numbered phrases; ★ is the third phrase.",rationales});});
+  root.N3QuizData=Object.freeze([...(root.N3QuizData||[]),...records]);
+}(typeof window!=="undefined"?window:globalThis));
+/* END PART 3 REVIEW 1-4 */
+
+/* PART 4 BATCH 1 */
+(function (root) {
+  "use strict";
+
+  const freeze = Object.freeze;
+  function selection(id, correct, reason, values = ["a", "b"]) {
+    const rationales = Object.fromEntries(values.map(value => [
+      value,
+      value === correct
+        ? `Correct book answer: ${correct}. ${reason}`
+        : `The book answer is ${correct}, not ${value}. ${reason}`,
+    ]));
+    return freeze({ id, type: "selection", correct, rationales: freeze(rationales) });
+  }
+
+  function text(id, correct, reason) {
+    return freeze({
+      id,
+      type: "text",
+      correct,
+      rationales: freeze({ [correct]: `Correct book answer: ${correct}. ${reason}` }),
+    });
+  }
+
+  function review(id, correct, reason) {
+    return selection(id, correct, reason, ["1", "2", "3", "4"]);
+  }
+
+  const records = [
+    selection("p4-l01-01", "a", "～のは requires a nominal ending such as お金のことだ."),
+    selection("p4-l01-02", "b", "The sentence beginning 初めて飛行機に乗ったのは is completed by ～ときだ."),
+    selection("p4-l01-03", "b", "～のは must correspond to the reason ending ～からだ."),
+    selection("p4-l01-04", "b", "どうして～かというと is completed by ～からです."),
+    selection("p4-l01-05", "a", "～には introduces what exists in the region, so ～行事がある completes the pattern."),
+    selection("p4-l01-06", "b", "～には expresses a requirement here and corresponds to ～なければならない."),
+    selection("p4-l01-07", "a", "みんなを marks the people Tsuyoshi causes to laugh, requiring the causative 笑わせる."),
+    selection("p4-l01-08", "b", "子どもに marks the child made to learn, so the causative 習わせていた is required."),
+    selection("p4-l01-09", "a", "The school is the continuing agent of the prohibition, so the active 禁止している matches the topic."),
+    selection("p4-l01-10", "a", "母に marks the person who makes the speaker go, so the causative-passive 行かされる is required."),
+
+    selection("p4-l02-01", "b", "The book was previously left on the desk and is now missing, so 行った asks where it went."),
+    selection("p4-l02-02", "b", "The works were created during the preceding five years, before next month's exhibition."),
+    selection("p4-l02-03", "a", "Walking to the distant station will cause future fatigue; a result state is not being described."),
+    selection("p4-l02-04", "b", "～まで marks the duration of the continuing state of being awake."),
+    selection("p4-l02-05", "b", "まだ and the invitation depend on the meal remaining uneaten up to now."),
+    selection("p4-l02-06", "a", "Coming happens after the requested contact, so the non-past form precedes とき."),
+    selection("p4-l02-07", "a", "His arrival establishes the reference event: 彼が港に着いたとき."),
+    selection("p4-l02-08", "b", "The ship's departure was already complete before he arrived, so 出ていた is required."),
+    selection("p4-l02-09", "b", "Meeting Hayashi happens before returning the book, so the とき clause uses 会った."),
+    selection("p4-l02-10", "a", "返そう is the speaker's intended action after meeting Hayashi tomorrow."),
+    text("p4-l02-11", "いた", "The passage describes the animals that existed during the speaker's childhood."),
+    text("p4-l02-12", "もらってきた", "The mother had obtained and brought the animals from somewhere before they lived at home."),
+    text("p4-l02-13", "持っていた", "Her interest was a continuing state during that period."),
+    text("p4-l02-14", "やる", "Feeding the animals is the recurring job described by ～のは."),
+    text("p4-l02-15", "入れた", "The mother put the feed in the container before the speaker gave it to the animals."),
+    text("p4-l02-16", "なっていなかった", "At that time the speaker had not yet reached the state of being an elementary-school student."),
+    text("p4-l02-17", "就職できた", "Getting the zoo job was completed before the happiness expressed by the final predicate."),
+
+    review("p4-r0102-01", "1", "The lesson studies material the following day and reviews material studied the day before."),
+    review("p4-r0102-02", "3", "After まずするべきことは, the passage directly states the first action: 探しています."),
+    review("p4-r0102-03", "1", "Continuing to repeat only the same material leads to boredom, so ～ていると expresses that condition."),
+    review("p4-r0102-04", "2", "The advice is to move ahead even if everything cannot be memorized."),
+    review("p4-r0102-05", "4", "どれだけ pairs with the embedded question 使っているか."),
+    review("p4-r0102-06", "2", "The observer saw the ants in the middle of carrying the white objects, requiring ～ていた."),
+    review("p4-r0102-07", "3", "The writer wonders about the nest's current internal state, so ～ている is required."),
+    review("p4-r0102-08", "1", "The general explanation says a queen ant makes the nest, using active non-past 作るそうだ."),
+    review("p4-r0102-09", "1", "The queen actively raises the eggs/young in the initial room, so 育てる is required."),
+    review("p4-r0102-10", "4", "The following sentence explains multiple specialized rooms, supporting 部屋が多い."),
+  ];
+
+  root.N3QuizData = freeze([...(root.N3QuizData || []), ...records]);
+}(typeof window !== "undefined" ? window : globalThis));
+/* END PART 4 BATCH 1 */
+
+/* PART 4 BATCH 2 */
+(function (root) {
+  "use strict";
+  const freeze = Object.freeze;
+  function text(id, correct, reason) {
+    return freeze({ id, type: "text", correct, rationales: freeze({ [correct]: `Correct book answer: ${correct}. ${reason}` }) });
+  }
+  function review(id, correct, reason) {
+    const values = ["1", "2", "3", "4"];
+    return freeze({
+      id,
+      type: "selection",
+      correct,
+      rationales: freeze(Object.fromEntries(values.map(value => [value, value === correct ? `Correct book answer: choice ${correct}. ${reason}` : `The book answer is choice ${correct}, not ${value}. ${reason}`]))),
+    });
+  }
+  const records = [
+    text("p4-l03-01", "戻し", "The reader actively returns the book to the shelf, so the transitive 戻す is used in て-form."),
+    text("p4-l03-02", "消え", "The electricity/light is the thing whose resulting off state is checked, so intransitive 消える is used."),
+    text("p4-l03-03", "切れない", "The laces are described as not breaking easily, requiring intransitive potential-state 切れない."),
+    text("p4-l03-04", "切る", "The customer can actively cut the laces to the required length."),
+    text("p4-l03-05", "開い", "The window is observed in the resulting open state, so intransitive 開く is used in ていた."),
+    text("p4-l03-06", "開けた", "The question focuses on the unknown person who actively opened the window."),
+    text("p4-l03-07", "出る", "The speaker is the one leaving the house, with no object acted upon."),
+    text("p4-l03-08", "閉める", "The forgotten action was actively closing the window."),
+    text("p4-l03-09", "生まれた", "The speaker describes the intransitive event of being born on the island."),
+    text("p4-l03-10", "育てる", "The mother actively raises the child, so the transitive verb is required."),
+    text("p4-l03-11", "産んだ", "The mother is the agent who gave birth to the speaker."),
+    text("p4-l03-12", "育っ", "The speaker naturally grew up well, so intransitive 育つ supplies 育って."),
+    text("p4-l03-13", "起き", "The speaker remained awake late; 起きる supplies 起きていた."),
+    text("p4-l03-14", "止まっ", "The alarm clock had stopped by itself, requiring intransitive 止まる."),
+    text("p4-l03-15", "入れ", "The speaker had actively put in the battery, requiring transitive 入れる."),
+    text("p4-l03-16", "起こし", "The mother is asked to wake the speaker, requiring transitive 起こす."),
+
+    text("p4-l04-01", "きた", "The responsibility has grown from the past up to the speaker's present viewpoint."),
+    text("p4-l04-02", "きて", "続けてきて looks back on continuing the job up to now."),
+    text("p4-l04-03", "きて", "Miki will bring the food to the party at the speaker's home."),
+    text("p4-l04-04", "くる", "Yamamoto will stop, buy drinks, and then come to the party."),
+    text("p4-l04-05", "きた", "The same members have continued holding the party from ten years ago until now."),
+    text("p4-l04-06", "きた", "The student moved into the neighboring place toward the narrator's present setting."),
+    text("p4-l04-07", "くる", "The music reaches the narrator from the neighboring room."),
+    text("p4-l04-08", "きて", "The student emerges from the room into the narrator's field of view."),
+    text("p4-l04-09", "いった", "The student walks away from the narrator toward the station."),
+    text("p4-l04-10", "くれ", "置いてくれば means go leave it at school and return."),
+    text("p4-l04-11", "きた", "The kitten came out from under the car toward the narrator."),
+    text("p4-l04-12", "きて", "The narrator fetched the milk and dish from the kitchen and returned."),
+    text("p4-l04-13", "きて", "The kitten repeatedly approached the narrator to drink milk."),
+    text("p4-l04-14", "いった", "The owner took the kitten away from the narrator's location."),
+
+    review("p4-r0304-01", "1", "Overusing oil, salt, and soy sauce causes another problem to emerge for the writer."),
+    review("p4-r0304-02", "3", "The pot lid is being described as having a triangular-hat shape."),
+    review("p4-r0304-03", "2", "Condensed water naturally falls back onto the vegetables, so the intransitive 落ちる is required."),
+    review("p4-r0304-04", "3", "The writer's body has gradually become lighter over the month up to the present."),
+    review("p4-r0304-05", "2", "The manual came attached to the pot that the writer bought."),
+    review("p4-r0304-06", "2", "The sentence describes the goya's existing cucumber-like shape."),
+    review("p4-r0304-07", "3", "The white root gradually came into view on the fourth day."),
+    review("p4-r0304-08", "4", "The plant naturally keeps growing larger, and ので connects that change to the writer's anticipation."),
+    review("p4-r0304-09", "1", "The grower actively spreads the vine sideways, requiring transitive 広げる."),
+    review("p4-r0304-10", "1", "A small goya fruit was already attached below the flower as a resulting state."),
+  ];
+  root.N3QuizData = freeze([...(root.N3QuizData || []), ...records]);
+}(typeof window !== "undefined" ? window : globalThis));
+/* END PART 4 BATCH 2 */
+
+/* PART 4 BATCH 3 */
+(function(root){"use strict";const freeze=Object.freeze;
+function text(id,correct,reason){return freeze({id,type:"text",correct,rationales:freeze({[correct]:`Correct book answer: ${correct}. ${reason}`})});}
+function choice(id,correct,reason,values){return freeze({id,type:"selection",correct,rationales:freeze(Object.fromEntries(values.map(value=>[value,value===correct?`Correct book answer: ${correct}. ${reason}`:`The book answer is ${correct}, not ${value}. ${reason}`])))});}
+const records=[
+text("p4-l05-01","紹介され","The selected voice keeps the paragraph's established participant and viewpoint."),
+text("p4-l05-02","手伝わせ","The selected voice keeps the paragraph's established participant and viewpoint."),
+text("p4-l05-03","手伝わせる","The selected voice keeps the paragraph's established participant and viewpoint."),
+text("p4-l05-04","触らせ","The selected voice keeps the paragraph's established participant and viewpoint."),
+text("p4-l05-05","走らされ","The selected voice keeps the paragraph's established participant and viewpoint."),
+text("p4-l05-06","注意され","The selected voice keeps the paragraph's established participant and viewpoint."),
+text("p4-l05-07","させられる","The selected voice keeps the paragraph's established participant and viewpoint."),
+text("p4-l05-08","出場させ","The selected voice keeps the paragraph's established participant and viewpoint."),
+text("p4-l05-09","ほめられ","The selected voice keeps the paragraph's established participant and viewpoint."),
+text("p4-l05-10","送っ","The selected voice keeps the paragraph's established participant and viewpoint."),
+text("p4-l05-11","笑わせ","The selected voice keeps the paragraph's established participant and viewpoint."),
+text("p4-l05-12","育て","The selected voice keeps the paragraph's established participant and viewpoint."),
+text("p4-l05-13","言わ","The selected voice keeps the paragraph's established participant and viewpoint."),
+text("p4-l05-14","遊ばせ","The selected voice keeps the paragraph's established participant and viewpoint."),
+text("p4-l05-15","育て","The selected voice keeps the paragraph's established participant and viewpoint."),
+text("p4-l05-16","感じさせ","The selected voice keeps the paragraph's established participant and viewpoint."),
+text("p4-l05-17","し","The selected voice keeps the paragraph's established participant and viewpoint."),
+text("p4-l05-18","置い","The selected voice keeps the paragraph's established participant and viewpoint."),
+text("p4-l05-19","こられ","The selected voice keeps the paragraph's established participant and viewpoint."),
+text("p4-l05-20","あきさせ","The selected voice keeps the paragraph's established participant and viewpoint."),
+text("p4-l05-21","待たせ","The selected voice keeps the paragraph's established participant and viewpoint."),
+choice("p4-l06-01","c","The giving/receiving direction and the person closest to the speaker determine the form.",["a","b","c"]),
+choice("p4-l06-02","a","The giving/receiving direction and the person closest to the speaker determine the form.",["a","b","c"]),
+choice("p4-l06-03","b","The giving/receiving direction and the person closest to the speaker determine the form.",["a","b","c"]),
+choice("p4-l06-04","b","The giving/receiving direction and the person closest to the speaker determine the form.",["a","b","c"]),
+choice("p4-l06-05","b","The giving/receiving direction and the person closest to the speaker determine the form.",["a","b","c"]),
+choice("p4-l06-06","c","The giving/receiving direction and the person closest to the speaker determine the form.",["a","b","c"]),
+choice("p4-l06-07","c","The giving/receiving direction and the person closest to the speaker determine the form.",["a","b","c"]),
+choice("p4-l06-08","b","The giving/receiving direction and the person closest to the speaker determine the form.",["a","b","c"]),
+choice("p4-l06-09","c","The giving/receiving direction and the person closest to the speaker determine the form.",["a","b","c"]),
+choice("p4-l06-10","b","The giving/receiving direction and the person closest to the speaker determine the form.",["a","b","c"]),
+choice("p4-l06-11","a","The giving/receiving direction and the person closest to the speaker determine the form.",["a","b","c"]),
+choice("p4-r0506-01","2","The surrounding passage fixes the affected person, agent, or beneficiary.",["1","2","3","4"]),
+choice("p4-r0506-02","1","The surrounding passage fixes the affected person, agent, or beneficiary.",["1","2","3","4"]),
+choice("p4-r0506-03","4","The surrounding passage fixes the affected person, agent, or beneficiary.",["1","2","3","4"]),
+choice("p4-r0506-04","1","The surrounding passage fixes the affected person, agent, or beneficiary.",["1","2","3","4"]),
+choice("p4-r0506-05","2","The surrounding passage fixes the affected person, agent, or beneficiary.",["1","2","3","4"]),
+choice("p4-r0506-06","2","The surrounding passage fixes the affected person, agent, or beneficiary.",["1","2","3","4"]),
+choice("p4-r0506-07","1","The surrounding passage fixes the affected person, agent, or beneficiary.",["1","2","3","4"]),
+choice("p4-r0506-08","4","The surrounding passage fixes the affected person, agent, or beneficiary.",["1","2","3","4"]),
+choice("p4-r0506-09","1","The surrounding passage fixes the affected person, agent, or beneficiary.",["1","2","3","4"]),
+choice("p4-r0506-10","3","The surrounding passage fixes the affected person, agent, or beneficiary.",["1","2","3","4"]),
+];root.N3QuizData=freeze([...(root.N3QuizData||[]),...records]);}(typeof window!=="undefined"?window:globalThis));
+/* END PART 4 BATCH 3 */
+
+/* PART 4 BATCH 4 */
+(function(root){"use strict";const freeze=Object.freeze;
+function text(id,correct,reason){return freeze({id,type:"text",correct,rationales:freeze({[correct]:`Correct book answer: ${correct}. ${reason}`})});}
+function choice(id,correct,reason,values=["a","b"]){return freeze({id,type:"selection",correct,rationales:freeze(Object.fromEntries(values.map(value=>[value,value===correct?`Correct book answer: ${correct}. ${reason}`:`The book answer is ${correct}, not ${value}. ${reason}`])))});}
+const records=[
+choice("p4-l07-01","a","それ refers back to the previously mentioned promise."),
+choice("p4-l07-02","a","そんな modifies the content just introduced in the preceding sentence."),
+choice("p4-l07-03","b","こんな presents today’s directly experienced weather as close to the speaker."),
+choice("p4-l07-04","a","そういう modifies 場合 and refers to the situation described in the preceding sentence."),
+choice("p4-l07-05","a","これ presents the writer’s own immediately stated idea as psychologically close."),
+choice("p4-l07-06","b","そんな人 means a person of the kind described in the preceding claim."),
+choice("p4-l07-07","a","そのとき points to the specific previously mentioned visit to Paris."),
+choice("p4-l07-08","b","そうするの nominalizes carrying out the proposed action, which is the subject of いい."),
+choice("p4-l07-09","a","それを is the object that is fried in oil; その would incorrectly modify 油."),
+choice("p4-l07-10","a","その映画 points to the film the friend had just mentioned."),
+choice("p4-l07-11","a","そう言った means ‘said so,’ referring adverbially to the preceding content."),
+choice("p4-l07-12","b","そこ refers to the rental shop as a place."),
+text("p4-l08-01","が","が marks the subject inside the clause that describes what happened after class."),
+text("p4-l08-02","が","カーンさん is newly introduced as the person who said he wanted the textbook."),
+text("p4-l08-03","は","カーンさん is now the established topic and is contrasted with the writer."),
+text("p4-l08-04","は","会話 is contrasted with writing ability."),
+text("p4-l08-05","は","書くの is the contrasting topic: writing is still weak."),
+text("p4-l08-06","が","The bookstore is introduced as the subject that has seven floors."),
+text("p4-l08-07","が","Many Japanese textbooks are newly observed at the section."),
+text("p4-l08-08","が","松本先生 is the subject inside the clause modifying 本."),
+text("p4-l08-09","は","本 is the item singled out as the book that was there among the others."),
+text("p4-l08-10","が","それ is the focused subject of ありました in the book answer’s structure."),
+text("p4-l08-11","は","中級のレベルの言葉 is presented as the topic within the book description."),
+text("p4-l08-12","が","カーンさん is the subject of the clause that reports what he said."),
+text("p4-l08-13","は","表紙 is singled out as the feature described as very beautiful."),
+text("p4-l08-14","が","日本人 is the subject inside the clause modifying 発明した物."),
+text("p4-l08-15","は","The fact that the gastrocamera is a Japanese invention is the topic of what is not widely known."),
+text("p4-l08-16","が","胃カメラ作り is newly introduced as what began."),
+text("p4-l08-17","は","The nominalized beginning is the topic identified with the year 1949."),
+text("p4-l08-18","が","The war is the subject inside the clause modifying 1949年."),
+text("p4-l08-19","が","Light is the subject of ない inside the clause modifying 胃の中."),
+text("p4-l08-20","は","だれも is emphasized with the negative interpretation: everyone thought it impossible."),
+text("p4-l08-21","が","写真 is the subject of the potential expression 撮れる."),
+text("p4-l08-22","は","胃カメラ is the established topic of the concluding sentence."),
+choice("p4-r0708-01","1","ある introduces the existence of an interesting comic before the passage describes it.",["1","2","3","4"]),
+choice("p4-r0708-02","3","こういうことは describes this kind of disagreement and sets it as the topic.",["1","2","3","4"]),
+choice("p4-r0708-03","3","その人の directly identifies each person’s personality and upbringing as the source of the standard.",["1","2","3","4"]),
+choice("p4-r0708-04","2","基準が is the subject of 違う inside the clause modifying 人.",["1","2","3","4"]),
+choice("p4-r0708-05","4","Without understanding differing standards, people cannot laugh at the story.",["1","2","3","4"]),
+choice("p4-r0708-06","2","The contrast excludes the industrial robot just described and introduces a pet substitute.",["1","2","3","4"]),
+choice("p4-r0708-07","3","A pet robot is something that is loved by people, requiring the passive form.",["1","2","3","4"]),
+choice("p4-r0708-08","4","The robot was made for people who want but cannot keep a pet.",["1","2","3","4"]),
+choice("p4-r0708-09","1","ペットロボットは maintains the established topic and 本物の動物のように supplies the comparison.",["1","2","3","4"]),
+choice("p4-r0708-10","1","このような refers to the positive psychological effects just listed and modifies the research topic.",["1","2","3","4"]),
+];root.N3QuizData=freeze([...(root.N3QuizData||[]),...records]);}(typeof window!=="undefined"?window:globalThis));
+/* END PART 4 BATCH 4 */
+
+/* PART 4 BATCH 5 */
+(function(root){"use strict";const freeze=Object.freeze;
+function choice(id,correct,reason,values){return freeze({id,type:"selection",correct,rationales:freeze(Object.fromEntries(values.map(value=>[value,value===correct?`Correct book answer: ${correct}. ${reason}`:`The book answer is ${correct}, not ${value}. ${reason}`])))});}
+function text(id,correct,reason){const accepted=Array.isArray(correct)?correct:[correct];const label=accepted.join("／");return freeze({id,type:"text",correct:Array.isArray(correct)?freeze(correct):correct,rationales:freeze({[Array.isArray(correct)?accepted.join(","):correct]:`Correct book answer: ${label}. ${reason}`})});}
+const abc=["a","b","c"],nums=["1","2","3","4"];const records=[
+choice("p4-l09-01","a","一方 contrasts the survey result for women with the result for men.",abc),
+choice("p4-l09-02","b","そこで introduces the action taken as a result of receiving no email reply.",abc),
+choice("p4-l09-03","c","したがって introduces the conclusion inferred from the meaning of eye contact.",abc),
+choice("p4-l09-04","c","しかも adds another favorable quality of tofu.",abc),
+choice("p4-l09-05","a","そのため introduces the resulting importance of tofu in Japanese food life.",abc),
+choice("p4-l09-06","b","ところが introduces a result contrary to the expected image of young people.",abc),
+choice("p4-l09-07","c","また adds the additional observation about working abroad.",abc),
+choice("p4-l09-08","b","ただ adds the reservation that demographic and social factors also matter.",abc),
+text("p4-l10-01",["大勢いて","多くいて"],"The colloquial いっぱい is replaced by a formal quantity expression."),
+text("p4-l10-02",["非常に多い","大変多い"],"The colloquial すごく is replaced by a formal adverb."),
+text("p4-l10-03","という","The colloquial quotation pattern っていう is replaced by という."),
+text("p4-l10-04",["しかし","だが"],"The colloquial だけど is replaced by a formal connective."),
+text("p4-l10-05","少し","The colloquial ちょっと is replaced by 少し."),
+text("p4-l10-06","など","The colloquial なんか is replaced by など."),
+text("p4-l10-07","できる","The whole passage uses plain formal register, so できます becomes できる."),
+text("p4-l10-08","では","The colloquial particle combination じゃ becomes では."),
+text("p4-l10-09","やはり","The colloquial やっぱり becomes やはり."),
+text("p4-l10-10",["いろいろな","さまざまな"],"The colloquial いろんな is replaced by a formal modifier."),
+text("p4-l10-11","なのでは","The colloquial なんじゃ begins the formal pattern なのではないだろうか."),
+text("p4-l10-12","ないだろうか","The polite conversational ending is changed to the plain formal rhetorical question."),
+choice("p4-r0910-01","2","させている expresses that the parent has the sons cook from childhood.",nums),
+choice("p4-r0910-02","1","ところが introduces the unexpected fact that the attractive dish was very spicy.",nums),
+choice("p4-r0910-03","3","そこで introduces the action the narrator decided to take in response.",nums),
+choice("p4-r0910-04","4","The formal conjunctive 作り connects making the soup to adding the egg dish.",nums),
+choice("p4-r0910-05","2","笑顔になっていた matches the formal narrative register and resulting state.",nums),
+choice("p4-r0910-06","3","しかし contrasts technological convenience with the question about improvement of the human heart.",nums),
+choice("p4-r0910-07","2","一方 contrasts present-day abundance with the difficulty of obtaining food in the past.",nums),
+choice("p4-r0910-08","1","会わずに means communication can occur without meeting in person.",nums),
+choice("p4-r0910-09","4","話していたので gives direct conversation as the reason close relationships could be formed.",nums),
+choice("p4-r0910-10","1","なるのではないか matches the passage’s plain formal register.",nums),
+];root.N3QuizData=freeze([...(root.N3QuizData||[]),...records]);}(typeof window!=="undefined"?window:globalThis));
+/* END PART 4 BATCH 5 */
