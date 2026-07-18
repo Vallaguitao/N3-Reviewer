@@ -105,6 +105,50 @@
     return target?.closest?.("[data-vocab-id]")?.dataset.vocabId || "";
   }
 
+  function contextFromTarget(target) {
+    const word = target?.closest?.("[data-vocab-id]") || null;
+    if (!word) return { surface: "", surfaceReading: "", contextMeaning: "" };
+    return {
+      surface: String(word.textContent || "").trim(),
+      surfaceReading: String(word.dataset?.surfaceReading || "").trim(),
+      contextMeaning: String(word.dataset?.contextMeaning || "").trim(),
+    };
+  }
+
+  function detailModel(record, context = {}) {
+    if (!record) return null;
+    const dictionary = {
+      written: record.written,
+      reading: record.reading,
+      meanings: [...(record.meanings || [])],
+      partOfSpeech: record.partOfSpeech,
+    };
+    const surface = String(context.surface || "").trim();
+    const surfaceReading = String(context.surfaceReading || "").trim();
+    const contextMeaning = String(context.contextMeaning || "").trim();
+    const contextual = (
+      (surface && surface !== record.written)
+      || (surfaceReading && surfaceReading !== record.reading)
+      || (contextMeaning && !(record.meanings || []).includes(contextMeaning))
+    ) ? {
+        surface: surface || record.written,
+        reading: surfaceReading || record.reading,
+        meaning: contextMeaning || (record.meanings || []).join("; "),
+      } : null;
+    return {
+      contextual,
+      dictionary,
+      wholeWord: {
+        written: record.written,
+        reading: record.reading,
+        meaning: (record.meanings || []).join("; "),
+      },
+      compounds: [...(record.compounds || [])],
+      kanji: [...(record.kanji || [])],
+      occurrences: [...(record.occurrences || [])],
+    };
+  }
+
   function vocabularyBankHref(prefix, id) {
     return (
       `${prefix || "."}/vocabulary.html?vocab=${encodeURIComponent(id)}`
@@ -132,6 +176,46 @@
     return { left, top, placement };
   }
 
+  function isVocabInteractionTarget(node, word, detailsShell) {
+    if (!node) return false;
+    return Boolean(
+      word && (node === word || word.contains?.(node))
+      || detailsShell && (
+        node === detailsShell || detailsShell.contains?.(node)
+      ),
+    );
+  }
+
+  function resetDetailsScroll(detailsShell) {
+    if (detailsShell) detailsShell.scrollTop = 0;
+  }
+
+  function createHoverCloseController({
+    delay = 120,
+    isInteractionActive,
+    onClose,
+    setTimer = setTimeout,
+    clearTimer = clearTimeout,
+  } = {}) {
+    let closeTimer = null;
+
+    function cancel() {
+      if (closeTimer === null) return;
+      clearTimer(closeTimer);
+      closeTimer = null;
+    }
+
+    function schedule() {
+      cancel();
+      closeTimer = setTimer(() => {
+        closeTimer = null;
+        if (!isInteractionActive?.()) onClose?.();
+      }, delay);
+    }
+
+    return { schedule, cancel };
+  }
+
   function setDetailsOpen(doc, open) {
     const main = doc.querySelector("main");
     const shell = doc.querySelector("[data-vocab-details]");
@@ -156,7 +240,7 @@
   function renderDetails(
     container,
     record,
-    { vocabularyHref = "", desktopHint = false } = {},
+    { vocabularyHref = "", desktopHint = false, context = {} } = {},
   ) {
     const doc = container.ownerDocument;
     container.replaceChildren();
@@ -172,25 +256,83 @@
       return;
     }
 
-    const heading = element(doc, "h3", record.written);
+    const model = detailModel(record, context);
+    const heading = element(
+      doc,
+      "h3",
+      model.contextual?.surface || model.dictionary.written,
+    );
     heading.lang = "ja";
     container.append(heading);
+    if (model.contextual) {
+      container.append(
+        element(
+          doc,
+          "p",
+          model.contextual.reading,
+          "vocab-reading vocab-contextual",
+        ),
+        element(
+          doc,
+          "p",
+          model.contextual.meaning,
+          "vocab-meaning vocab-contextual",
+        ),
+        element(doc, "h4", "Dictionary form"),
+      );
+    }
     container.append(
       element(
         doc,
         "p",
-        `${record.reading} · ${record.partOfSpeech}`,
-        "vocab-reading",
+        `${model.dictionary.written} · ${model.dictionary.reading} · ${model.dictionary.partOfSpeech}`,
+        "vocab-reading vocab-dictionary",
       ),
     );
     container.append(
-      element(doc, "p", record.meanings.join("; "), "vocab-meaning"),
+      element(
+        doc,
+        "p",
+        model.dictionary.meanings.join("; "),
+        "vocab-meaning vocab-dictionary",
+      ),
     );
 
-    if (record.kanji?.length) {
+    const wholeHeading = element(doc, "h4", "Whole word");
+    const wholeSurface = element(
+      doc,
+      "p",
+      `${model.wholeWord.written} · ${model.wholeWord.reading}`,
+      "vocab-whole-word",
+    );
+    wholeSurface.lang = "ja";
+    container.append(
+      wholeHeading,
+      wholeSurface,
+      element(doc, "p", model.wholeWord.meaning, "vocab-meaning"),
+    );
+
+    if (model.compounds.length) {
+      const compoundHeading = element(doc, "h4", "Compound units");
+      const compoundList = doc.createElement("ul");
+      compoundList.className = "vocab-compounds";
+      for (const item of model.compounds) {
+        const compound = element(
+          doc,
+          "li",
+          `${item.written} · ${item.reading} · ${item.meaning}`,
+        );
+        compound.lang = "ja";
+        compoundList.append(compound);
+      }
+      container.append(compoundHeading, compoundList);
+    }
+
+    if (model.kanji.length) {
       const kanjiHeading = element(doc, "h4", "Kanji in this word");
       const kanjiList = doc.createElement("ul");
-      for (const item of record.kanji) {
+      kanjiList.className = "vocab-kanji-list";
+      for (const item of model.kanji) {
         kanjiList.append(
           element(
             doc,
@@ -202,10 +344,10 @@
       container.append(kanjiHeading, kanjiList);
     }
 
-    if (record.occurrences?.length) {
+    if (model.occurrences.length) {
       const occurrenceHeading = element(doc, "h4", "Seen in");
       const occurrenceList = doc.createElement("ul");
-      for (const occurrence of record.occurrences) {
+      for (const occurrence of model.occurrences) {
         const item = doc.createElement("li");
         const link = element(doc, "a", occurrence.label);
         link.href = resolveOccurrence(doc, occurrence.href);
@@ -290,6 +432,7 @@
       : null;
     let lastSelectedWord = null;
     let restoringFocus = false;
+    let hoverClose = null;
 
     populatePartOptions(part, records);
 
@@ -333,6 +476,7 @@
       const id = vocabIdFromTarget(target);
       if (!id) return;
 
+      hoverClose?.cancel();
       lastSelectedWord = target.closest?.("[data-vocab-id]") || target;
       if (isVocabularyBank) {
         selectRecord(id);
@@ -340,9 +484,11 @@
       }
 
       const href = vocabularyBankHref(prefix, id);
+      const context = contextFromTarget(lastSelectedWord);
       selectRecord(id, mobileQuery?.matches
-        ? { vocabularyHref: href }
-        : { desktopHint: true });
+        ? { vocabularyHref: href, context }
+        : { desktopHint: true, context });
+      resetDetailsScroll(detailsShell);
       lastSelectedWord.setAttribute?.("aria-expanded", "true");
       if (mobileQuery?.matches && detailsShell) {
         doc.dispatchEvent(new CustomEvent("study-overlay-open", {
@@ -357,6 +503,7 @@
 
     function closeDetails(returnFocus) {
       if (isVocabularyBank) return;
+      hoverClose?.cancel();
       const focusTarget = lastSelectedWord;
       lastSelectedWord?.setAttribute?.("aria-expanded", "false");
       setDetailsOpen(doc, false);
@@ -367,6 +514,19 @@
       }
       lastSelectedWord = null;
     }
+
+    hoverClose = createHoverCloseController({
+      isInteractionActive: () => Boolean(
+        isVocabInteractionTarget(
+          doc.activeElement,
+          lastSelectedWord,
+          detailsShell,
+        )
+        || lastSelectedWord?.matches?.(":hover")
+        || detailsShell?.matches?.(":hover"),
+      ),
+      onClose: () => closeDetails(false),
+    });
 
     function syncViewport() {
       if (!detailsShell || isVocabularyBank) return;
@@ -445,6 +605,13 @@
 
     doc.addEventListener("mouseover", event => {
       if (!isVocabularyBank && !mobileQuery?.matches) {
+        if (isVocabInteractionTarget(
+          event.target,
+          lastSelectedWord,
+          detailsShell,
+        )) {
+          hoverClose.cancel();
+        }
         selectFromTarget(event.target);
       }
     });
@@ -452,22 +619,56 @@
     doc.addEventListener("mouseout", event => {
       if (isVocabularyBank || mobileQuery?.matches) return;
       const word = event.target.closest?.("[data-vocab-id]");
-      if (!word || word !== lastSelectedWord) return;
-      if (word.contains?.(event.relatedTarget)) return;
-      if (doc.activeElement === word) return;
-      closeDetails(false);
+      const leftWord = Boolean(word && word === lastSelectedWord);
+      const leftPopup = Boolean(
+        detailsShell && (
+          event.target === detailsShell
+          || detailsShell.contains?.(event.target)
+        ),
+      );
+      if (!leftWord && !leftPopup) return;
+      if (isVocabInteractionTarget(
+        event.relatedTarget,
+        lastSelectedWord,
+        detailsShell,
+      )) return;
+      if (isVocabInteractionTarget(
+        doc.activeElement,
+        lastSelectedWord,
+        detailsShell,
+      )) return;
+      hoverClose.schedule();
     });
 
     doc.addEventListener("focusin", event => {
+      if (isVocabInteractionTarget(
+        event.target,
+        lastSelectedWord,
+        detailsShell,
+      )) {
+        hoverClose.cancel();
+        if (detailsShell?.contains?.(event.target)) return;
+      }
       selectFromTarget(event.target);
     });
 
     doc.addEventListener("focusout", event => {
       if (isVocabularyBank || mobileQuery?.matches) return;
       const word = event.target.closest?.("[data-vocab-id]");
-      if (!word || word !== lastSelectedWord) return;
-      if (word.contains?.(event.relatedTarget)) return;
-      closeDetails(false);
+      const leftWord = Boolean(word && word === lastSelectedWord);
+      const leftPopup = Boolean(
+        detailsShell && (
+          event.target === detailsShell
+          || detailsShell.contains?.(event.target)
+        ),
+      );
+      if (!leftWord && !leftPopup) return;
+      if (isVocabInteractionTarget(
+        event.relatedTarget,
+        lastSelectedWord,
+        detailsShell,
+      )) return;
+      hoverClose.schedule();
     });
 
     doc.addEventListener("keydown", event => {
@@ -503,9 +704,14 @@
     filter,
     getById,
     vocabIdFromTarget,
+    contextFromTarget,
+    detailModel,
     vocabularyBankHref,
     requestedVocabularyId,
     positionAnchoredCard,
+    isVocabInteractionTarget,
+    resetDetailsScroll,
+    createHoverCloseController,
     setDetailsOpen,
     renderDetails,
     renderResults,

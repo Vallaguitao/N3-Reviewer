@@ -732,7 +732,7 @@ rt {
   border-top: .35rem solid var(--rust);
   background: var(--paper);
   box-shadow: var(--shadow);
-  pointer-events: none;
+  pointer-events: auto;
 }
 
 main[data-vocab-details-open] .vocab-rail {
@@ -758,6 +758,52 @@ main[data-vocab-details-open] .vocab-rail {
 .vocab-rail[data-vocab-placement="top"]::before {
   bottom: -.47rem;
   border-width: 0 1px 1px 0;
+}
+
+.vocab-contextual,
+.vocab-dictionary,
+.vocab-whole-word {
+  margin-block: .35rem;
+}
+
+.vocab-contextual {
+  padding-inline-start: .75rem;
+  border-inline-start: .2rem solid var(--rust);
+}
+
+.vocab-compounds,
+.vocab-kanji-list {
+  display: grid;
+  gap: .35rem;
+  padding-inline-start: 1.25rem;
+}
+
+.answer-explanation {
+  margin-block-start: 1rem;
+  padding: 1rem;
+  border: 1px solid var(--line-strong);
+  border-inline-start: .35rem solid var(--matcha-deep);
+  background: var(--moss);
+}
+
+.answer-explanation[hidden] {
+  display: none;
+}
+
+.answer-explanation h4,
+.answer-explanation p {
+  margin-block: 0 .55rem;
+}
+
+.answer-choice-rationales {
+  display: grid;
+  gap: .45rem;
+  margin-block: .65rem 0;
+  padding-inline-start: 1.25rem;
+}
+
+.answer-choice-rationales [data-correct-rationale] {
+  font-weight: 800;
 }
 
 .vocab-desktop-hint {

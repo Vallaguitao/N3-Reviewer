@@ -53,6 +53,25 @@
     };
   }
 
+  function explanationModel(record) {
+    if (!record) return null;
+    const correctValues = Array.isArray(record.correct)
+      ? record.correct.map(value => String(value))
+      : [String(record.correct ?? "")];
+    return {
+      translation: String(record.translation || ""),
+      correctAnswer: correctValues.join(" / "),
+      correctExplanation: String(record.correctExplanation || ""),
+      choices: Object.entries(record.rationales || {}).map(
+        ([value, rationale]) => ({
+          value,
+          correct: correctValues.includes(value),
+          rationale: String(rationale || ""),
+        }),
+      ),
+    };
+  }
+
   function orderButtonLabel(direction, tokenText) {
     return `Move ${String(tokenText || "").trim()} ${direction}`;
   }
@@ -174,13 +193,66 @@
     });
   }
 
-  function revealGeneratedExplanation(question, record) {
-    const host = question.querySelector("[data-generated-explanation]");
-    if (!host || !record?.translation) return;
-    const rationales = Object.entries(record.rationales || {})
-      .map(([value, rationale]) => `Choice ${value}: ${rationale}`)
-      .join(" ");
-    host.textContent = `English translation: ${record.translation} ${rationales}`;
+  function ensureExplanationHost(question) {
+    let host = (
+      question.querySelector("[data-answer-explanation]")
+      || question.querySelector("[data-generated-explanation]")
+    );
+    if (!host) {
+      const doc = question.ownerDocument;
+      if (!doc?.createElement) return null;
+      host = doc.createElement("section");
+      host.className = "answer-explanation";
+      question.append(host);
+    }
+    host.dataset.answerExplanation = "";
+    host.classList?.add?.("answer-explanation");
+    if (host.hidden === undefined) host.hidden = true;
+    return host;
+  }
+
+  function revealExplanation(question, record) {
+    const host = ensureExplanationHost(question);
+    const model = explanationModel(record);
+    if (!host || !model) return;
+    const choiceLines = model.choices.map(choice => (
+      `Choice ${choice.value}${choice.correct ? " (correct)" : ""}: ${choice.rationale}`
+    ));
+    const lines = [
+      `English translation: ${model.translation}`,
+      `Correct answer: ${model.correctAnswer}`,
+      `Why it works: ${model.correctExplanation}`,
+      ...choiceLines,
+    ];
+
+    const doc = host.ownerDocument;
+    if (typeof host.replaceChildren === "function" && doc?.createElement) {
+      const heading = doc.createElement("h4");
+      heading.textContent = "Answer explanation";
+      const translation = doc.createElement("p");
+      translation.className = "answer-translation";
+      translation.textContent = lines[0];
+      const answer = doc.createElement("p");
+      answer.className = "answer-correct";
+      answer.textContent = lines[1];
+      const why = doc.createElement("p");
+      why.className = "answer-why";
+      why.textContent = lines[2];
+      const list = doc.createElement("ul");
+      list.className = "answer-choice-rationales";
+      for (const choice of model.choices) {
+        const item = doc.createElement("li");
+        item.textContent = (
+          `Choice ${choice.value}${choice.correct ? " (correct)" : ""}: `
+          + choice.rationale
+        );
+        item.toggleAttribute?.("data-correct-rationale", choice.correct);
+        list.append(item);
+      }
+      host.replaceChildren(heading, translation, answer, why, list);
+    } else {
+      host.textContent = lines.join(" ");
+    }
     host.hidden = false;
   }
 
@@ -266,8 +338,7 @@
       question.dataset.result,
       focusStatus,
     );
-    revealRationales(question, record);
-    revealGeneratedExplanation(question, record);
+    revealExplanation(question, record);
     updateSummary(question.closest("[data-quiz-set]"));
     return result;
   }
@@ -285,7 +356,10 @@
       node.textContent = "";
       node.removeAttribute("data-correct-rationale");
     });
-    const generated = question.querySelector("[data-generated-explanation]");
+    const generated = (
+      question.querySelector("[data-answer-explanation]")
+      || question.querySelector("[data-generated-explanation]")
+    );
     if (generated) {
       generated.hidden = true;
       generated.textContent = "";
@@ -489,7 +563,7 @@
         status.textContent = result.correct ? "Correct." : "Incorrect.";
         status.dataset.state = question.dataset.result;
       }
-      revealGeneratedExplanation(question, record);
+      revealExplanation(question, record);
       question.querySelectorAll("input").forEach(input => {
         input.disabled = true;
       });
@@ -541,6 +615,7 @@
       const record = recordFor(question);
       ensureHint(question, record);
       ensureControls(question, record);
+      ensureExplanationHost(question);
     });
 
     doc.querySelectorAll("[data-order-list]").forEach(list => {
@@ -641,12 +716,15 @@
     scoreMultiSelection,
     scoreOrder,
     summarize,
+    explanationModel,
     orderButtonLabel,
     quizRecords,
     recordForId,
     questionIsAnswered,
     ensureHint,
     ensureControls,
+    ensureExplanationHost,
+    revealExplanation,
     ensureSetControls,
     checkQuestion,
     resetQuestion,
