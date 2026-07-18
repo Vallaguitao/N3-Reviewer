@@ -57,12 +57,32 @@
     return `Move ${String(tokenText || "").trim()} ${direction}`;
   }
 
-  function data() {
-    return root?.N3QuizData || [];
+  function quizRecords(
+    legacyRecords = root?.N3QuizData || [],
+    generatedRecords = root?.N3Part1BookQuizData || [],
+  ) {
+    const records = [];
+    const seen = new Set();
+    for (const record of [...generatedRecords, ...legacyRecords]) {
+      if (!record?.id || seen.has(record.id)) continue;
+      seen.add(record.id);
+      records.push(record);
+    }
+    return records;
+  }
+
+  function recordForId(
+    id,
+    legacyRecords = root?.N3QuizData || [],
+    generatedRecords = root?.N3Part1BookQuizData || [],
+  ) {
+    return quizRecords(legacyRecords, generatedRecords).find(
+      item => item.id === id,
+    ) || null;
   }
 
   function recordFor(question) {
-    return data().find(item => item.id === question.dataset.quizId) || null;
+    return recordForId(question?.dataset?.quizId);
   }
 
   function ensureHint(question, record) {
@@ -138,6 +158,16 @@
     });
   }
 
+  function revealGeneratedExplanation(question, record) {
+    const host = question.querySelector("[data-generated-explanation]");
+    if (!host || !record?.translation) return;
+    const rationales = Object.entries(record.rationales || {})
+      .map(([value, rationale]) => `Choice ${value}: ${rationale}`)
+      .join(" ");
+    host.textContent = `English translation: ${record.translation} ${rationales}`;
+    host.hidden = false;
+  }
+
   function updateSummary(set) {
     if (!set) return;
     const questions = [...set.querySelectorAll("[data-quiz-id]")];
@@ -204,6 +234,7 @@
       question.dataset.result,
     );
     revealRationales(question, record);
+    revealGeneratedExplanation(question, record);
     updateSummary(question.closest("[data-quiz-set]"));
   }
 
@@ -220,6 +251,11 @@
       node.textContent = "";
       node.removeAttribute("data-correct-rationale");
     });
+    const generated = question.querySelector("[data-generated-explanation]");
+    if (generated) {
+      generated.hidden = true;
+      generated.textContent = "";
+    }
     const status = question.querySelector('[role="status"]');
     if (status) {
       status.textContent = "";
@@ -239,6 +275,77 @@
       }
     }
     updateSummary(question.closest("[data-quiz-set]"));
+  }
+
+  function submitFullMock(set) {
+    const questions = [...set.querySelectorAll("[data-quiz-id]")];
+    const total = questions.length;
+    const answeredQuestions = questions.filter(
+      question => question.querySelector("input:checked"),
+    );
+    const answered = answeredQuestions.length;
+    const summary = set.querySelector("[data-mock-summary]");
+
+    if (answered !== total) {
+      if (summary) {
+        summary.textContent = `Answer all ${total} questions before submitting. ${answered} of ${total} answered.`;
+      }
+      return { submitted: false, answered, correct: 0, total };
+    }
+
+    if (set.dataset.submitted === "true") {
+      const correct = questions.filter(
+        question => question.dataset.result === "correct",
+      ).length;
+      return { submitted: true, answered, correct, total };
+    }
+
+    let correct = 0;
+    for (const question of questions) {
+      const record = recordFor(question);
+      const selected = question.querySelector("input:checked");
+      const result = scoreSelection(selected?.value, record?.correct);
+      question.dataset.result = result.correct ? "correct" : "incorrect";
+      if (result.correct) correct += 1;
+      const status = question.querySelector('[role="status"]');
+      if (status) {
+        status.textContent = result.correct ? "Correct." : "Incorrect.";
+        status.dataset.state = question.dataset.result;
+      }
+      revealGeneratedExplanation(question, record);
+      question.querySelectorAll("input").forEach(input => {
+        input.disabled = true;
+      });
+    }
+
+    set.dataset.submitted = "true";
+    set.toggleAttribute?.("data-locked", true);
+    if (summary) {
+      summary.textContent = `${correct} correct out of ${total}. Review the English feedback below each question.`;
+    }
+    const submit = set.querySelector("[data-submit-mock]");
+    const reset = set.querySelector("[data-new-attempt]");
+    if (submit) submit.disabled = true;
+    if (reset) reset.hidden = false;
+    return { submitted: true, answered, correct, total };
+  }
+
+  function resetFullMock(set) {
+    const questions = [...set.querySelectorAll("[data-quiz-id]")];
+    questions.forEach(question => {
+      resetQuestion(question);
+      question.querySelectorAll("input").forEach(input => {
+        input.disabled = false;
+      });
+    });
+    delete set.dataset.submitted;
+    set.toggleAttribute?.("data-locked", false);
+    const summary = set.querySelector("[data-mock-summary]");
+    const submit = set.querySelector("[data-submit-mock]");
+    const reset = set.querySelector("[data-new-attempt]");
+    if (summary) summary.textContent = `Answer all ${questions.length} questions, then submit the mock.`;
+    if (submit) submit.disabled = false;
+    if (reset) reset.hidden = true;
   }
 
   function moveToken(button) {
@@ -307,6 +414,16 @@
       if (move) {
         moveToken(move);
       }
+
+      const submitMock = event.target.closest("[data-submit-mock]");
+      if (submitMock) {
+        submitFullMock(submitMock.closest("[data-full-mock]"));
+      }
+
+      const newAttempt = event.target.closest("[data-new-attempt]");
+      if (newAttempt) {
+        resetFullMock(newAttempt.closest("[data-full-mock]"));
+      }
     });
   }
 
@@ -317,10 +434,14 @@
     scoreOrder,
     summarize,
     orderButtonLabel,
+    quizRecords,
+    recordForId,
     ensureHint,
     ensureControls,
     checkQuestion,
     resetQuestion,
+    submitFullMock,
+    resetFullMock,
     bind,
   };
 }));
