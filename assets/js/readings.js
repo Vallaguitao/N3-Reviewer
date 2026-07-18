@@ -22,6 +22,11 @@
       : root.querySelector("main") || root.documentElement;
 
     scope.toggleAttribute("data-all-readings", Boolean(visible));
+    if (!visible) {
+      scope.querySelectorAll(".reading-word").forEach(button => {
+        setWord(button, false);
+      });
+    }
     scope.querySelectorAll("[data-show-readings]").forEach(button => {
       button.setAttribute("aria-pressed", String(Boolean(visible)));
       button.textContent = visible

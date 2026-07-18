@@ -1642,6 +1642,7 @@ footer p {
   border-radius: var(--radius-sm);
   padding: .7rem .65rem;
   color: var(--ink);
+  text-decoration: none;
 }
 
 .site-header .study-menu-panel a:hover {

@@ -17,7 +17,7 @@
     return Object.freeze([...(root?.N3VocabularyData || [])]);
   }
 
-  function filter(records, query, filters) {
+  function filter(records, query, filters = {}) {
     const term = normalize(query);
     return records.filter(record => {
       const haystack = normalize([
@@ -26,10 +26,6 @@
         ...(record.meanings || []),
       ].join(" "));
       const matchesTerm = !term || haystack.includes(term);
-      const matchesLesson = (
-        !filters.lessonId
-        || (record.lessonIds || []).includes(filters.lessonId)
-      );
       const matchesGrammar = (
         !filters.grammarId
         || (record.grammarIds || []).includes(filters.grammarId)
@@ -38,8 +34,14 @@
         !filters.partOfSpeech
         || record.partOfSpeech === filters.partOfSpeech
       );
-      return matchesTerm && matchesLesson && matchesGrammar && matchesPart;
+      return matchesTerm && matchesGrammar && matchesPart;
     });
+  }
+
+  function sortByReading(records) {
+    return [...records].sort((a, b) => (
+      normalize(a.reading).localeCompare(normalize(b.reading), "ja")
+    ));
   }
 
   function getById(id) {
@@ -362,10 +364,8 @@
     const details = doc.querySelector("[data-vocab-details-content]")
       || detailsShell;
     const search = doc.querySelector("[data-vocab-search]");
-    const lesson = doc.querySelector("[data-vocab-lesson]");
     const grammar = doc.querySelector("[data-vocab-grammar]");
     const part = doc.querySelector("[data-vocab-part]");
-    const sort = doc.querySelector("[data-vocab-sort]");
     const results = doc.querySelector("[data-vocab-results]");
     const status = doc.querySelector("[data-vocab-status]");
     const empty = doc.querySelector("[data-vocab-empty]");
@@ -482,24 +482,14 @@
 
     function update(useDeepLink = false) {
       if (!results) return;
-      const filtered = filter(records, search?.value || "", {
-        lessonId: lesson?.value === "all"
-          ? ""
-          : lesson?.value || "",
+      const filtered = sortByReading(filter(records, search?.value || "", {
         grammarId: grammar?.value === "all"
           ? ""
           : grammar?.value || "",
         partOfSpeech: part?.value === "all"
           ? ""
           : part?.value || "",
-      });
-      const key = sort?.value === "english"
-        ? record => record.meanings[0]
-        : record => record.reading;
-      filtered.sort((a, b) => key(a).localeCompare(
-        key(b),
-        sort?.value === "english" ? "en" : "ja",
-      ));
+      }));
       const displayed = useDeepLink && deepLinkedRecord
         ? [deepLinkedRecord]
         : filtered;
@@ -531,10 +521,8 @@
 
       if (event.target.closest("[data-clear-filters]")) {
         if (search) search.value = "";
-        if (lesson) lesson.value = "all";
         if (grammar) grammar.value = "all";
         if (part) part.value = "all";
-        if (sort) sort.value = "reading";
         deepLinkedRecord = null;
         update();
         search?.focus();
@@ -630,7 +618,7 @@
     root?.addEventListener?.("resize", positionDetails);
     root?.addEventListener?.("scroll", positionDetails, { passive: true });
 
-    [search, lesson, grammar, part, sort].filter(Boolean).forEach(control => {
+    [search, grammar, part].filter(Boolean).forEach(control => {
       control.addEventListener(
         control.tagName === "INPUT" ? "input" : "change",
         () => {
@@ -648,6 +636,7 @@
     normalize,
     activeRecords,
     filter,
+    sortByReading,
     getById,
     vocabIdFromTarget,
     contextFromTarget,

@@ -7,6 +7,9 @@
   root.N3VocabularyData = Object.freeze([
   {
     "forms": [],
+    "grammarIds": [
+      "l2-hodo"
+    ],
     "id": "agaru",
     "kanji": [
       {
@@ -39,6 +42,10 @@
   },
   {
     "forms": [],
+    "grammarIds": [
+      "l1-aida",
+      "l8-wake-dewa-nai"
+    ],
     "id": "aida",
     "kanji": [
       {
@@ -80,6 +87,9 @@
   },
   {
     "forms": [],
+    "grammarIds": [
+      "l1-aida"
+    ],
     "id": "aidani",
     "kanji": [
       {
@@ -163,6 +173,9 @@
   },
   {
     "forms": [],
+    "grammarIds": [
+      "l1-uchini"
+    ],
     "id": "akarui",
     "kanji": [
       {
@@ -207,6 +220,10 @@
   },
   {
     "forms": [],
+    "grammarIds": [
+      "l3-kurai",
+      "l6-nara"
+    ],
     "id": "ame",
     "kanji": [
       {
@@ -342,6 +359,10 @@
   },
   {
     "forms": [],
+    "grammarIds": [
+      "l2-toori",
+      "l4-to-iu-yori"
+    ],
     "id": "aruku",
     "kanji": [
       {
@@ -381,6 +402,10 @@
   },
   {
     "forms": [],
+    "grammarIds": [
+      "l12-sonkeigo",
+      "l5-tame"
+    ],
     "id": "ashita",
     "kanji": [
       {
@@ -437,6 +462,12 @@
   },
   {
     "forms": [],
+    "grammarIds": [
+      "l11-koto-ni-suru",
+      "l2-tsuideni",
+      "l4-ippo",
+      "l7-toiu-koto"
+    ],
     "id": "atarashii",
     "kanji": [
       {
@@ -496,6 +527,9 @@
   },
   {
     "forms": [],
+    "grammarIds": [
+      "l9-sasete-moraitai"
+    ],
     "id": "atsui",
     "kanji": [
       {
@@ -583,6 +617,9 @@
   },
   {
     "forms": [],
+    "grammarIds": [
+      "l2-niyotte"
+    ],
     "id": "baai",
     "kanji": [
       {
@@ -636,6 +673,9 @@
   },
   {
     "forms": [],
+    "grammarIds": [
+      "l3-ni-kagiru"
+    ],
     "id": "basho",
     "kanji": [
       {
@@ -669,6 +709,9 @@
   },
   {
     "forms": [],
+    "grammarIds": [
+      "l3-kurai-nara"
+    ],
     "id": "bento",
     "kanji": [
       {
@@ -726,6 +769,9 @@
   },
   {
     "forms": [],
+    "grammarIds": [
+      "l11-koto-ni-suru"
+    ],
     "id": "bucho",
     "kanji": [
       {
@@ -783,6 +829,10 @@
   },
   {
     "forms": [],
+    "grammarIds": [
+      "l2-niyotte",
+      "l9-sasete-moraitai"
+    ],
     "id": "bunkasai",
     "kanji": [
       {
@@ -820,6 +870,12 @@
   },
   {
     "forms": [],
+    "grammarIds": [
+      "l1-tekara",
+      "l3-kurai-wa-nai",
+      "l5-tame",
+      "l9-to-ba-tara-ii"
+    ],
     "id": "byoki",
     "kanji": [
       {
@@ -861,6 +917,9 @@
   },
   {
     "forms": [],
+    "grammarIds": [
+      "l2-niyotte"
+    ],
     "id": "chigau",
     "kanji": [
       {
@@ -897,6 +956,10 @@
   },
   {
     "forms": [],
+    "grammarIds": [
+      "l2-tabini",
+      "l7-toiu-koto"
+    ],
     "id": "chiho",
     "kanji": [
       {
@@ -1038,6 +1101,9 @@
   },
   {
     "forms": [],
+    "grammarIds": [
+      "l4-ni-taishite"
+    ],
     "id": "chonan",
     "kanji": [
       {
@@ -1095,6 +1161,9 @@
   },
   {
     "forms": [],
+    "grammarIds": [
+      "l2-tsuideni"
+    ],
     "id": "chumon-suru",
     "kanji": [
       {
@@ -1124,6 +1193,9 @@
   },
   {
     "forms": [],
+    "grammarIds": [
+      "l12-sonkeigo"
+    ],
     "id": "daigaku",
     "kanji": [
       {
@@ -1157,6 +1229,9 @@
   },
   {
     "forms": [],
+    "grammarIds": [
+      "l10-beki"
+    ],
     "id": "daiji",
     "kanji": [
       {
@@ -1221,6 +1296,9 @@
   },
   {
     "forms": [],
+    "grammarIds": [
+      "l4-ni-taishite"
+    ],
     "id": "dansei",
     "kanji": [
       {
@@ -1250,6 +1328,11 @@
   },
   {
     "forms": [],
+    "grammarIds": [
+      "l10-koto",
+      "l10-meirei-kinshi",
+      "l2-tsuideni"
+    ],
     "id": "dasu",
     "kanji": [
       {
@@ -1326,6 +1409,10 @@
   },
   {
     "forms": [],
+    "grammarIds": [
+      "l1-tokoro",
+      "l6-tewa-dewa"
+    ],
     "id": "dekiagaru",
     "kanji": [
       {
@@ -1410,6 +1497,13 @@
   },
   {
     "forms": [],
+    "grammarIds": [
+      "l1-tokoro",
+      "l2-tabini",
+      "l7-toiu-koto",
+      "l8-hazu-wake",
+      "l8-wake-dewa-nai"
+    ],
     "id": "denwa",
     "kanji": [
       {
@@ -1479,6 +1573,11 @@
   },
   {
     "forms": [],
+    "grammarIds": [
+      "l11-you-to-suru",
+      "l2-tsuideni",
+      "l8-wake-dewa-nai"
+    ],
     "id": "deru",
     "kanji": [
       {
@@ -1547,6 +1646,10 @@
   },
   {
     "forms": [],
+    "grammarIds": [
+      "l3-kurai-wa-nai",
+      "l7-toka"
+    ],
     "id": "dobutsu",
     "kanji": [
       {
@@ -1579,6 +1682,9 @@
   },
   {
     "forms": [],
+    "grammarIds": [
+      "l3-kurai-nara"
+    ],
     "id": "dokushin",
     "kanji": [
       {
@@ -1608,6 +1714,10 @@
   },
   {
     "forms": [],
+    "grammarIds": [
+      "l1-tekara",
+      "l4-to-iu-yori"
+    ],
     "id": "e-picture",
     "kanji": [
       {
@@ -1644,6 +1754,9 @@
   },
   {
     "forms": [],
+    "grammarIds": [
+      "l3-ni-kagiru"
+    ],
     "id": "eiga",
     "kanji": [
       {
@@ -1681,6 +1794,9 @@
   },
   {
     "forms": [],
+    "grammarIds": [
+      "l3-ni-kagiru"
+    ],
     "id": "eigakan",
     "kanji": [
       {
@@ -1715,6 +1831,9 @@
   },
   {
     "forms": [],
+    "grammarIds": [
+      "l4-kawari-ni"
+    ],
     "id": "eigo",
     "kanji": [
       {
@@ -1759,6 +1878,9 @@
   },
   {
     "forms": [],
+    "grammarIds": [
+      "l8-nai-koto-wa-nai"
+    ],
     "id": "eki",
     "kanji": [
       {
@@ -1834,6 +1956,9 @@
   },
   {
     "forms": [],
+    "grammarIds": [
+      "l3-kurai-wa-nai"
+    ],
     "id": "fuan",
     "kanji": [
       {
@@ -1863,6 +1988,9 @@
   },
   {
     "forms": [],
+    "grammarIds": [
+      "l4-hanmen"
+    ],
     "id": "fuben",
     "kanji": [
       {
@@ -1891,6 +2019,10 @@
   },
   {
     "forms": [],
+    "grammarIds": [
+      "l2-hodo",
+      "l4-hanmen"
+    ],
     "id": "fueru",
     "kanji": [
       {
@@ -1927,6 +2059,9 @@
   },
   {
     "forms": [],
+    "grammarIds": [
+      "l1-uchini"
+    ],
     "id": "fujisan",
     "kanji": [
       {
@@ -1964,6 +2099,9 @@
   },
   {
     "forms": [],
+    "grammarIds": [
+      "l3-kurai"
+    ],
     "id": "furu",
     "kanji": [
       {
@@ -2023,6 +2161,10 @@
   },
   {
     "forms": [],
+    "grammarIds": [
+      "l7-toiu",
+      "l8-toha-kagiranai"
+    ],
     "id": "furui",
     "kanji": [
       {
@@ -2208,6 +2350,9 @@
   },
   {
     "forms": [],
+    "grammarIds": [
+      "l8-toha-kagiranai"
+    ],
     "id": "ga-nedan",
     "kanji": [
       {
@@ -2258,6 +2403,9 @@
   },
   {
     "forms": [],
+    "grammarIds": [
+      "l11-koto-ni-suru"
+    ],
     "id": "ga-reizoko",
     "kanji": [
       {
@@ -2381,6 +2529,10 @@
   },
   {
     "forms": [],
+    "grammarIds": [
+      "l5-tame",
+      "l7-toka"
+    ],
     "id": "ga-shuccho",
     "kanji": [
       {
@@ -2497,6 +2649,9 @@
   },
   {
     "forms": [],
+    "grammarIds": [
+      "l7-toiu"
+    ],
     "id": "ga-tofu",
     "kanji": [
       {
@@ -2524,6 +2679,9 @@
   },
   {
     "forms": [],
+    "grammarIds": [
+      "l7-iwareteiru"
+    ],
     "id": "ga-yusho",
     "kanji": [
       {
@@ -2551,6 +2709,9 @@
   },
   {
     "forms": [],
+    "grammarIds": [
+      "l2-tabini"
+    ],
     "id": "gai",
     "kanji": [
       {
@@ -2604,6 +2765,9 @@
   },
   {
     "forms": [],
+    "grammarIds": [
+      "l2-niyotte"
+    ],
     "id": "gb-chuushi",
     "kanji": [
       {
@@ -2696,6 +2860,9 @@
   },
   {
     "forms": [],
+    "grammarIds": [
+      "l6-tatoe"
+    ],
     "id": "gb-hantai",
     "kanji": [
       {
@@ -2823,6 +2990,9 @@
   },
   {
     "forms": [],
+    "grammarIds": [
+      "l2-niyotte"
+    ],
     "id": "gb-kankaku",
     "kanji": [
       {
@@ -2892,6 +3062,9 @@
   },
   {
     "forms": [],
+    "grammarIds": [
+      "l5-ni-yotte"
+    ],
     "id": "gb-koujou",
     "kanji": [
       {
@@ -3115,6 +3288,9 @@
   },
   {
     "forms": [],
+    "grammarIds": [
+      "l6-tatoe"
+    ],
     "id": "gc-hitsuyou",
     "kanji": [
       {
@@ -3334,6 +3510,9 @@
   },
   {
     "forms": [],
+    "grammarIds": [
+      "l5-okage-sei"
+    ],
     "id": "gc-shuushoku",
     "kanji": [
       {
@@ -3465,6 +3644,10 @@
   },
   {
     "forms": [],
+    "grammarIds": [
+      "l1-tokoro",
+      "l5-ni-yotte"
+    ],
     "id": "gd-chuui",
     "kanji": [
       {
@@ -3496,6 +3679,9 @@
   },
   {
     "forms": [],
+    "grammarIds": [
+      "l9-to-ba-tara-ii"
+    ],
     "id": "gd-goukaku",
     "kanji": [
       {
@@ -3569,6 +3755,9 @@
   },
   {
     "forms": [],
+    "grammarIds": [
+      "l3-kurai"
+    ],
     "id": "gd-jiishin",
     "kanji": [
       {
@@ -3638,6 +3827,9 @@
   },
   {
     "forms": [],
+    "grammarIds": [
+      "l5-kara-koto"
+    ],
     "id": "gd-niteru",
     "kanji": [
       {
@@ -3684,6 +3876,9 @@
   },
   {
     "forms": [],
+    "grammarIds": [
+      "l8-toha-kagiranai"
+    ],
     "id": "gd-shimbun",
     "kanji": [
       {
@@ -3734,6 +3929,10 @@
   },
   {
     "forms": [],
+    "grammarIds": [
+      "l2-tabini",
+      "l3-kurai"
+    ],
     "id": "gd-taifuu",
     "kanji": [
       {
@@ -3765,6 +3964,9 @@
   },
   {
     "forms": [],
+    "grammarIds": [
+      "l12-sonkeigo"
+    ],
     "id": "gd-zasshi",
     "kanji": [
       {
@@ -3838,6 +4040,11 @@
   },
   {
     "forms": [],
+    "grammarIds": [
+      "l12-sonkeigo",
+      "l4-ippo",
+      "l5-tame"
+    ],
     "id": "ge-kaigi",
     "kanji": [
       {
@@ -3896,6 +4103,10 @@
   },
   {
     "forms": [],
+    "grammarIds": [
+      "l2-toori",
+      "l8-nai-koto-wa-nai"
+    ],
     "id": "ge-kekka",
     "kanji": [
       {
@@ -3927,6 +4138,9 @@
   },
   {
     "forms": [],
+    "grammarIds": [
+      "l2-toori"
+    ],
     "id": "ge-kitai",
     "kanji": [
       {
@@ -4046,6 +4260,9 @@
   },
   {
     "forms": [],
+    "grammarIds": [
+      "l6-tewa-dewa"
+    ],
     "id": "ge-taido",
     "kanji": [
       {
@@ -4142,6 +4359,9 @@
   },
   {
     "forms": [],
+    "grammarIds": [
+      "l2-niyotte"
+    ],
     "id": "ge-yonaka",
     "kanji": [
       {
@@ -4169,6 +4389,9 @@
   },
   {
     "forms": [],
+    "grammarIds": [
+      "l2-tsuideni"
+    ],
     "id": "genkan",
     "kanji": [
       {
@@ -4202,6 +4425,9 @@
   },
   {
     "forms": [],
+    "grammarIds": [
+      "l12-sonkeigo"
+    ],
     "id": "genki",
     "kanji": [
       {
@@ -4240,6 +4466,9 @@
   },
   {
     "forms": [],
+    "grammarIds": [
+      "l12-kenjougo-1"
+    ],
     "id": "gf-annai",
     "kanji": [
       {
@@ -4310,6 +4539,9 @@
   },
   {
     "forms": [],
+    "grammarIds": [
+      "l5-ni-yotte"
+    ],
     "id": "gf-gaikokugo",
     "kanji": [
       {
@@ -4445,6 +4677,9 @@
   },
   {
     "forms": [],
+    "grammarIds": [
+      "l5-no-dakara"
+    ],
     "id": "gf-kaigi",
     "kanji": [
       {
@@ -4484,6 +4719,9 @@
   },
   {
     "forms": [],
+    "grammarIds": [
+      "l5-kara-koto"
+    ],
     "id": "gf-kankei",
     "kanji": [
       {
@@ -4581,6 +4819,9 @@
   },
   {
     "forms": [],
+    "grammarIds": [
+      "l11-tsumori"
+    ],
     "id": "gf-nyuusha",
     "kanji": [
       {
@@ -4911,6 +5152,9 @@
   },
   {
     "forms": [],
+    "grammarIds": [
+      "l6-ba-tara-nara"
+    ],
     "id": "gh-hikouki",
     "kanji": [
       {
@@ -4984,6 +5228,10 @@
   },
   {
     "forms": [],
+    "grammarIds": [
+      "l11-you-to-suru",
+      "l4-ni-taishite"
+    ],
     "id": "gh-ooame",
     "kanji": [
       {
@@ -5061,6 +5309,10 @@
   },
   {
     "forms": [],
+    "grammarIds": [
+      "l11-you-to-suru",
+      "l3-kurai"
+    ],
     "id": "gh-totsuzen",
     "kanji": [
       {
@@ -5308,6 +5560,9 @@
   },
   {
     "forms": [],
+    "grammarIds": [
+      "l11-koto-ni-suru"
+    ],
     "id": "gj-damatte",
     "kanji": [
       {
@@ -5335,6 +5590,10 @@
   },
   {
     "forms": [],
+    "grammarIds": [
+      "l11-tsumori",
+      "l5-kara-koto"
+    ],
     "id": "gj-kao",
     "kanji": [
       {
@@ -5443,6 +5702,9 @@
   },
   {
     "forms": [],
+    "grammarIds": [
+      "l8-koto-wa-ga"
+    ],
     "id": "gj-kyori",
     "kanji": [
       {
@@ -5568,6 +5830,9 @@
   },
   {
     "forms": [],
+    "grammarIds": [
+      "l2-tabini"
+    ],
     "id": "gohan",
     "kanji": [
       {
@@ -5620,6 +5885,9 @@
   },
   {
     "forms": [],
+    "grammarIds": [
+      "l1-aida"
+    ],
     "id": "haeru",
     "kanji": [
       {
@@ -5644,6 +5912,10 @@
   },
   {
     "forms": [],
+    "grammarIds": [
+      "l1-tekara",
+      "l3-kurai"
+    ],
     "id": "hageshii",
     "kanji": [
       {
@@ -5673,6 +5945,9 @@
   },
   {
     "forms": [],
+    "grammarIds": [
+      "l2-tabini"
+    ],
     "id": "haha",
     "kanji": [
       {
@@ -5740,6 +6015,10 @@
   },
   {
     "forms": [],
+    "grammarIds": [
+      "l10-beki",
+      "l8-toha-kagiranai"
+    ],
     "id": "hairu",
     "kanji": [
       {
@@ -5804,6 +6083,10 @@
   },
   {
     "forms": [],
+    "grammarIds": [
+      "l1-tokoro",
+      "l7-toiu-koto"
+    ],
     "id": "hajimaru",
     "kanji": [
       {
@@ -5840,6 +6123,10 @@
   },
   {
     "forms": [],
+    "grammarIds": [
+      "l10-beki",
+      "l6-tewa-dewa"
+    ],
     "id": "hajimeru",
     "kanji": [
       {
@@ -5896,6 +6183,9 @@
   },
   {
     "forms": [],
+    "grammarIds": [
+      "l2-toori"
+    ],
     "id": "hajimete",
     "kanji": [
       {
@@ -5935,6 +6225,9 @@
   },
   {
     "forms": [],
+    "grammarIds": [
+      "l10-beki"
+    ],
     "id": "hanashiau",
     "kanji": [
       {
@@ -5964,6 +6257,9 @@
   },
   {
     "forms": [],
+    "grammarIds": [
+      "l4-ippo"
+    ],
     "id": "hanasu",
     "kanji": [
       {
@@ -6269,6 +6565,9 @@
   },
   {
     "forms": [],
+    "grammarIds": [
+      "l1-uchini"
+    ],
     "id": "hiku",
     "kanji": [
       {
@@ -6320,6 +6619,9 @@
   },
   {
     "forms": [],
+    "grammarIds": [
+      "l9-sasete-moraitai"
+    ],
     "id": "hirugohan",
     "kanji": [
       {
@@ -6349,6 +6651,19 @@
   },
   {
     "forms": [],
+    "grammarIds": [
+      "l1-tokoro",
+      "l2-hodo",
+      "l2-niyotte",
+      "l3-kurai-nara",
+      "l3-kurai-wa-nai",
+      "l3-ni-kagiru",
+      "l4-ippo",
+      "l5-ni-yotte",
+      "l6-tatoe",
+      "l7-toiu-koto",
+      "l9-to-ba-tara-ii"
+    ],
     "id": "hito",
     "kanji": [
       {
@@ -6577,6 +6892,9 @@
   },
   {
     "forms": [],
+    "grammarIds": [
+      "l4-hanmen"
+    ],
     "id": "hitoritabi",
     "kanji": [
       {
@@ -6680,6 +6998,9 @@
   },
   {
     "forms": [],
+    "grammarIds": [
+      "l12-kenjougo-2"
+    ],
     "id": "hoho",
     "kanji": [
       {
@@ -6729,6 +7050,15 @@
   },
   {
     "forms": [],
+    "grammarIds": [
+      "l12-kenjougo-1",
+      "l2-toori",
+      "l2-tsuideni",
+      "l3-kurai",
+      "l6-nara",
+      "l8-koto-wa-ga",
+      "l8-wake-dewa-nai"
+    ],
     "id": "hon",
     "kanji": [
       {
@@ -6812,6 +7142,9 @@
   },
   {
     "forms": [],
+    "grammarIds": [
+      "l3-kurai"
+    ],
     "id": "hosoi",
     "kanji": [
       {
@@ -6836,6 +7169,10 @@
   },
   {
     "forms": [],
+    "grammarIds": [
+      "l1-uchini",
+      "l10-tara-doka"
+    ],
     "id": "ichido",
     "kanji": [
       {
@@ -6877,6 +7214,13 @@
   },
   {
     "forms": [],
+    "grammarIds": [
+      "l11-you-to-suru",
+      "l12-kenjougo-2",
+      "l4-ni-taishite",
+      "l6-tewa-dewa",
+      "l8-hazu-wake"
+    ],
     "id": "ie",
     "kanji": [
       {
@@ -6953,6 +7297,9 @@
   },
   {
     "forms": [],
+    "grammarIds": [
+      "l4-ippo"
+    ],
     "id": "iken",
     "kanji": [
       {
@@ -7002,6 +7349,12 @@
   },
   {
     "forms": [],
+    "grammarIds": [
+      "l11-you-to-suru",
+      "l3-ni-kagiru",
+      "l7-toka",
+      "l9-te-moraitai"
+    ],
     "id": "iku",
     "kanji": [
       {
@@ -7077,6 +7430,12 @@
   },
   {
     "forms": [],
+    "grammarIds": [
+      "l3-kurai-nara",
+      "l5-ni-yotte",
+      "l6-tewa-dewa",
+      "l8-nai-koto-wa-nai"
+    ],
     "id": "ima",
     "kanji": [
       {
@@ -7179,6 +7538,10 @@
   },
   {
     "forms": [],
+    "grammarIds": [
+      "l1-aida",
+      "l10-meirei-kinshi"
+    ],
     "id": "inu",
     "kanji": [
       {
@@ -7261,6 +7624,11 @@
   },
   {
     "forms": [],
+    "grammarIds": [
+      "l2-hodo",
+      "l5-okage-sei",
+      "l7-toiu-koto"
+    ],
     "id": "isogashii",
     "kanji": [
       {
@@ -7320,6 +7688,9 @@
   },
   {
     "forms": [],
+    "grammarIds": [
+      "l3-kurai"
+    ],
     "id": "itami",
     "kanji": [
       {
@@ -7344,6 +7715,12 @@
   },
   {
     "forms": [],
+    "grammarIds": [
+      "l11-koto-ni-suru",
+      "l11-tsumori",
+      "l7-tte",
+      "l9-sasete-moraitai"
+    ],
     "id": "iu",
     "kanji": [
       {
@@ -7548,6 +7925,13 @@
   },
   {
     "forms": [],
+    "grammarIds": [
+      "l11-you-ni-suru",
+      "l3-kurai-nara",
+      "l4-ippo",
+      "l8-wake-dewa-nai",
+      "l9-te-moraitai"
+    ],
     "id": "jibun",
     "kanji": [
       {
@@ -7649,6 +8033,13 @@
   },
   {
     "forms": [],
+    "grammarIds": [
+      "l2-hodo",
+      "l4-hanmen",
+      "l4-kawari-ni",
+      "l8-nai-koto-wa-nai",
+      "l9-sasete-moraitai"
+    ],
     "id": "jikan",
     "kanji": [
       {
@@ -7746,6 +8137,9 @@
   },
   {
     "forms": [],
+    "grammarIds": [
+      "l4-kawari-ni"
+    ],
     "id": "jikkoryoku",
     "kanji": [
       {
@@ -7780,6 +8174,9 @@
   },
   {
     "forms": [],
+    "grammarIds": [
+      "l4-ni-taishite"
+    ],
     "id": "jinan",
     "kanji": [
       {
@@ -7889,6 +8286,10 @@
   },
   {
     "forms": [],
+    "grammarIds": [
+      "l4-hanmen",
+      "l4-kawari-ni"
+    ],
     "id": "jiyu",
     "kanji": [
       {
@@ -7954,6 +8355,9 @@
   },
   {
     "forms": [],
+    "grammarIds": [
+      "l4-ni-taishite"
+    ],
     "id": "josei",
     "kanji": [
       {
@@ -7987,6 +8391,9 @@
   },
   {
     "forms": [],
+    "grammarIds": [
+      "l2-hodo"
+    ],
     "id": "jozu",
     "kanji": [
       {
@@ -8077,6 +8484,9 @@
   },
   {
     "forms": [],
+    "grammarIds": [
+      "l5-kara-koto"
+    ],
     "id": "juyo",
     "kanji": [
       {
@@ -8110,6 +8520,9 @@
   },
   {
     "forms": [],
+    "grammarIds": [
+      "l4-ni-taishite"
+    ],
     "id": "ka-department",
     "kanji": [
       {
@@ -8158,6 +8571,9 @@
   },
   {
     "forms": [],
+    "grammarIds": [
+      "l2-hodo"
+    ],
     "id": "kachi",
     "kanji": [
       {
@@ -8187,6 +8603,10 @@
   },
   {
     "forms": [],
+    "grammarIds": [
+      "l1-tokoro",
+      "l7-toka"
+    ],
     "id": "kaeru",
     "kanji": [
       {
@@ -8231,6 +8651,9 @@
   },
   {
     "forms": [],
+    "grammarIds": [
+      "l8-toha-kagiranai"
+    ],
     "id": "kagiranai",
     "kanji": [
       {
@@ -8267,6 +8690,9 @@
   },
   {
     "forms": [],
+    "grammarIds": [
+      "l2-hodo"
+    ],
     "id": "kagu",
     "kanji": [
       {
@@ -8299,6 +8725,10 @@
   },
   {
     "forms": [],
+    "grammarIds": [
+      "l12-sonkeigo",
+      "l4-kawari-ni"
+    ],
     "id": "kaicho",
     "kanji": [
       {
@@ -8332,6 +8762,10 @@
   },
   {
     "forms": [],
+    "grammarIds": [
+      "l4-kawari-ni",
+      "l6-ba-tara-nara"
+    ],
     "id": "kaigai-ryoko",
     "kanji": [
       {
@@ -8423,6 +8857,10 @@
   },
   {
     "forms": [],
+    "grammarIds": [
+      "l12-kenjougo-1",
+      "l2-toori"
+    ],
     "id": "kaijo",
     "kanji": [
       {
@@ -8492,6 +8930,12 @@
   },
   {
     "forms": [],
+    "grammarIds": [
+      "l10-meirei-kinshi",
+      "l12-sonkeigo",
+      "l2-toori",
+      "l8-toha-kagiranai"
+    ],
     "id": "kaku",
     "kanji": [
       {
@@ -8575,6 +9019,9 @@
   },
   {
     "forms": [],
+    "grammarIds": [
+      "l8-hazu-wake"
+    ],
     "id": "kakunin-suru",
     "kanji": [
       {
@@ -8604,6 +9051,9 @@
   },
   {
     "forms": [],
+    "grammarIds": [
+      "l4-kawari-ni"
+    ],
     "id": "kangaeru",
     "kanji": [
       {
@@ -8660,6 +9110,9 @@
   },
   {
     "forms": [],
+    "grammarIds": [
+      "l3-kurai-wa-nai"
+    ],
     "id": "kanji",
     "kanji": [
       {
@@ -8713,6 +9166,9 @@
   },
   {
     "forms": [],
+    "grammarIds": [
+      "l8-nai-koto-wa-nai"
+    ],
     "id": "karai",
     "kanji": [
       {
@@ -8769,6 +9225,9 @@
   },
   {
     "forms": [],
+    "grammarIds": [
+      "l1-uchini"
+    ],
     "id": "kasaneru",
     "kanji": [
       {
@@ -8817,6 +9276,10 @@
   },
   {
     "forms": [],
+    "grammarIds": [
+      "l7-toka",
+      "l8-wake-dewa-nai"
+    ],
     "id": "kau",
     "kanji": [
       {
@@ -8916,6 +9379,9 @@
   },
   {
     "forms": [],
+    "grammarIds": [
+      "l3-kurai"
+    ],
     "id": "kaze-wind",
     "kanji": [
       {
@@ -8955,6 +9421,9 @@
   },
   {
     "forms": [],
+    "grammarIds": [
+      "l1-tekara"
+    ],
     "id": "kazoku",
     "kanji": [
       {
@@ -9130,6 +9599,10 @@
   },
   {
     "forms": [],
+    "grammarIds": [
+      "l12-sonkeigo",
+      "l4-ippo"
+    ],
     "id": "kenkyu",
     "kanji": [
       {
@@ -9252,6 +9725,15 @@
   },
   {
     "forms": [],
+    "grammarIds": [
+      "l1-uchini",
+      "l11-you-to-suru",
+      "l2-tabini",
+      "l4-ippo",
+      "l7-tte",
+      "l9-te-moraitai",
+      "l9-to-ba-tara-ii"
+    ],
     "id": "kiku",
     "kanji": [
       {
@@ -9399,6 +9881,9 @@
   },
   {
     "forms": [],
+    "grammarIds": [
+      "l1-tokoro"
+    ],
     "id": "kincho",
     "kanji": [
       {
@@ -9428,6 +9913,9 @@
   },
   {
     "forms": [],
+    "grammarIds": [
+      "l4-hanmen"
+    ],
     "id": "kinchokan",
     "kanji": [
       {
@@ -9579,6 +10067,9 @@
   },
   {
     "forms": [],
+    "grammarIds": [
+      "l4-hanmen"
+    ],
     "id": "kiraku",
     "kanji": [
       {
@@ -9645,6 +10136,9 @@
   },
   {
     "forms": [],
+    "grammarIds": [
+      "l2-niyotte"
+    ],
     "id": "kitaku-jikan",
     "kanji": [
       {
@@ -9683,6 +10177,9 @@
   },
   {
     "forms": [],
+    "grammarIds": [
+      "l2-toori"
+    ],
     "id": "koban",
     "kanji": [
       {
@@ -9711,6 +10208,14 @@
   },
   {
     "forms": [],
+    "grammarIds": [
+      "l1-aida",
+      "l1-tokoro",
+      "l10-beki",
+      "l11-you-ni-suru",
+      "l4-ippo",
+      "l8-koto-wa-ga"
+    ],
     "id": "kodomo",
     "kanji": [
       {
@@ -9906,6 +10411,9 @@
   },
   {
     "forms": [],
+    "grammarIds": [
+      "l1-tokoro"
+    ],
     "id": "kotae",
     "kanji": [
       {
@@ -9937,6 +10445,12 @@
   },
   {
     "forms": [],
+    "grammarIds": [
+      "l11-tsumori",
+      "l2-niyotte",
+      "l5-ni-yotte",
+      "l7-iwareteiru"
+    ],
     "id": "kotoshi",
     "kanji": [
       {
@@ -9989,6 +10503,11 @@
   },
   {
     "forms": [],
+    "grammarIds": [
+      "l12-sonkeigo",
+      "l2-niyotte",
+      "l5-ni-yotte"
+    ],
     "id": "kuni",
     "kanji": [
       {
@@ -10049,6 +10568,9 @@
   },
   {
     "forms": [],
+    "grammarIds": [
+      "l1-uchini"
+    ],
     "id": "kurai-dark",
     "kanji": [
       {
@@ -10085,6 +10607,11 @@
   },
   {
     "forms": [],
+    "grammarIds": [
+      "l10-meirei-kinshi",
+      "l7-tte",
+      "l8-hazu-wake"
+    ],
     "id": "kuru",
     "kanji": [
       {
@@ -10192,6 +10719,9 @@
   },
   {
     "forms": [],
+    "grammarIds": [
+      "l1-tekara"
+    ],
     "id": "kuruma",
     "kanji": [
       {
@@ -10252,6 +10782,9 @@
   },
   {
     "forms": [],
+    "grammarIds": [
+      "l1-aida"
+    ],
     "id": "kusa",
     "kanji": [
       {
@@ -10316,6 +10849,9 @@
   },
   {
     "forms": [],
+    "grammarIds": [
+      "l2-tsuideni"
+    ],
     "id": "kutsu",
     "kanji": [
       {
@@ -10351,6 +10887,16 @@
   },
   {
     "forms": [],
+    "grammarIds": [
+      "l12-sonkeigo",
+      "l3-kurai",
+      "l7-toiu-koto",
+      "l7-toka",
+      "l7-tte",
+      "l8-hazu-wake",
+      "l9-sasete-moraitai",
+      "l9-to-ba-tara-ii"
+    ],
     "id": "kyo",
     "kanji": [
       {
@@ -10459,6 +11005,9 @@
   },
   {
     "forms": [],
+    "grammarIds": [
+      "l4-ippo"
+    ],
     "id": "kyoju",
     "kanji": [
       {
@@ -10487,6 +11036,9 @@
   },
   {
     "forms": [],
+    "grammarIds": [
+      "l1-uchini"
+    ],
     "id": "kyoku",
     "kanji": [
       {
@@ -10515,6 +11067,9 @@
   },
   {
     "forms": [],
+    "grammarIds": [
+      "l4-to-iu-yori"
+    ],
     "id": "kyoso-aite",
     "kanji": [
       {
@@ -10554,6 +11109,9 @@
   },
   {
     "forms": [],
+    "grammarIds": [
+      "l12-sonkeigo"
+    ],
     "id": "kyoto",
     "kanji": [
       {
@@ -10602,6 +11160,9 @@
   },
   {
     "forms": [],
+    "grammarIds": [
+      "l10-koto"
+    ],
     "id": "l10-abunai",
     "kanji": [
       {
@@ -10625,6 +11186,9 @@
   },
   {
     "forms": [],
+    "grammarIds": [
+      "l10-meirei-kinshi"
+    ],
     "id": "l10-akashingo",
     "kanji": [
       {
@@ -10658,6 +11222,9 @@
   },
   {
     "forms": [],
+    "grammarIds": [
+      "l10-tara-doka"
+    ],
     "id": "l10-ayamaru",
     "kanji": [
       {
@@ -10685,6 +11252,9 @@
   },
   {
     "forms": [],
+    "grammarIds": [
+      "l10-koto"
+    ],
     "id": "l10-chuigaki",
     "kanji": [
       {
@@ -10750,6 +11320,9 @@
   },
   {
     "forms": [],
+    "grammarIds": [
+      "l10-koto"
+    ],
     "id": "l10-gakko",
     "kanji": [
       {
@@ -10790,6 +11363,9 @@
   },
   {
     "forms": [],
+    "grammarIds": [
+      "l10-koto"
+    ],
     "id": "l10-getsuyobi",
     "kanji": [
       {
@@ -10827,6 +11403,9 @@
   },
   {
     "forms": [],
+    "grammarIds": [
+      "l10-meirei-kinshi"
+    ],
     "id": "l10-hikkoshi",
     "kanji": [
       {
@@ -10855,6 +11434,10 @@
   },
   {
     "forms": [],
+    "grammarIds": [
+      "l10-meirei-kinshi",
+      "l8-koto-wa-ga"
+    ],
     "id": "l10-imi",
     "kanji": [
       {
@@ -10887,6 +11470,10 @@
   },
   {
     "forms": [],
+    "grammarIds": [
+      "l10-meirei-kinshi",
+      "l5-tame"
+    ],
     "id": "l10-isha",
     "kanji": [
       {
@@ -10919,6 +11506,11 @@
   },
   {
     "forms": [],
+    "grammarIds": [
+      "l10-beki",
+      "l5-okage-sei",
+      "l8-wake-dewa-nai"
+    ],
     "id": "l10-kaisha",
     "kanji": [
       {
@@ -10955,6 +11547,10 @@
   },
   {
     "forms": [],
+    "grammarIds": [
+      "l10-koto",
+      "l8-toha-kagiranai"
+    ],
     "id": "l10-kanarazu",
     "kanji": [
       {
@@ -10994,6 +11590,9 @@
   },
   {
     "forms": [],
+    "grammarIds": [
+      "l10-beki"
+    ],
     "id": "l10-kantan",
     "kanji": [
       {
@@ -11022,6 +11621,9 @@
   },
   {
     "forms": [],
+    "grammarIds": [
+      "l10-meirei-kinshi"
+    ],
     "id": "l10-kantoku",
     "kanji": [
       {
@@ -11050,6 +11652,11 @@
   },
   {
     "forms": [],
+    "grammarIds": [
+      "l10-koto",
+      "l7-iwareteiru",
+      "l7-toiu-koto"
+    ],
     "id": "l10-kawa",
     "kanji": [
       {
@@ -11089,6 +11696,10 @@
   },
   {
     "forms": [],
+    "grammarIds": [
+      "l10-tara-doka",
+      "l6-tatoe"
+    ],
     "id": "l10-kenko-shindan",
     "kanji": [
       {
@@ -11131,6 +11742,9 @@
   },
   {
     "forms": [],
+    "grammarIds": [
+      "l10-beki"
+    ],
     "id": "l10-kyoju",
     "kanji": [
       {
@@ -11164,6 +11778,11 @@
   },
   {
     "forms": [],
+    "grammarIds": [
+      "l10-meirei-kinshi",
+      "l4-to-iu-yori",
+      "l7-toiu-koto"
+    ],
     "id": "l10-meirei",
     "kanji": [
       {
@@ -11204,6 +11823,9 @@
   },
   {
     "forms": [],
+    "grammarIds": [
+      "l10-tara-doka"
+    ],
     "id": "l10-meiwaku-mail",
     "kanji": [
       {
@@ -11232,6 +11854,9 @@
   },
   {
     "forms": [],
+    "grammarIds": [
+      "l3-kurai-nara"
+    ],
     "id": "l10-okureru",
     "kanji": [
       {
@@ -11275,6 +11900,10 @@
   },
   {
     "forms": [],
+    "grammarIds": [
+      "l10-meirei-kinshi",
+      "l12-sonkeigo"
+    ],
     "id": "l10-osake",
     "kanji": [
       {
@@ -11302,6 +11931,9 @@
   },
   {
     "forms": [],
+    "grammarIds": [
+      "l10-koto"
+    ],
     "id": "l10-oyogu",
     "kanji": [
       {
@@ -11325,6 +11957,10 @@
   },
   {
     "forms": [],
+    "grammarIds": [
+      "l10-koto",
+      "l7-toiu-koto"
+    ],
     "id": "l10-raishu",
     "kanji": [
       {
@@ -11361,6 +11997,12 @@
   },
   {
     "forms": [],
+    "grammarIds": [
+      "l10-meirei-kinshi",
+      "l2-tabini",
+      "l2-toori",
+      "l8-hazu-wake"
+    ],
     "id": "l10-shiai",
     "kanji": [
       {
@@ -11401,6 +12043,9 @@
   },
   {
     "forms": [],
+    "grammarIds": [
+      "l10-meirei-kinshi"
+    ],
     "id": "l10-shitagau",
     "kanji": [
       {
@@ -11424,6 +12069,9 @@
   },
   {
     "forms": [],
+    "grammarIds": [
+      "l10-meirei-kinshi"
+    ],
     "id": "l10-tanomu",
     "kanji": [
       {
@@ -11467,6 +12115,10 @@
   },
   {
     "forms": [],
+    "grammarIds": [
+      "l10-koto",
+      "l10-meirei-kinshi"
+    ],
     "id": "l10-tatefuda",
     "kanji": [
       {
@@ -11499,6 +12151,12 @@
   },
   {
     "forms": [],
+    "grammarIds": [
+      "l10-meirei-kinshi",
+      "l11-koto-ni-suru",
+      "l4-to-iu-yori",
+      "l5-kara-koto"
+    ],
     "id": "l10-tomodachi",
     "kanji": [
       {
@@ -11558,6 +12216,11 @@
   },
   {
     "forms": [],
+    "grammarIds": [
+      "l10-beki",
+      "l4-hanmen",
+      "l8-wake-dewa-nai"
+    ],
     "id": "l10-yameru",
     "kanji": [
       {
@@ -11589,6 +12252,9 @@
   },
   {
     "forms": [],
+    "grammarIds": [
+      "l10-beki"
+    ],
     "id": "l10-yoruosoku",
     "kanji": [
       {
@@ -11617,6 +12283,13 @@
   },
   {
     "forms": [],
+    "grammarIds": [
+      "l11-tsumori",
+      "l4-to-iu-yori",
+      "l8-hazu-wake",
+      "l8-koto-wa-ga",
+      "l8-wake-dewa-nai"
+    ],
     "id": "l11-03t",
     "kanji": [
       {
@@ -11720,6 +12393,9 @@
   },
   {
     "forms": [],
+    "grammarIds": [
+      "l12-kenjougo-2"
+    ],
     "id": "l11-08jx23grjy",
     "kanji": [
       {
@@ -11743,6 +12419,9 @@
   },
   {
     "forms": [],
+    "grammarIds": [
+      "l11-you-to-suru"
+    ],
     "id": "l11-0rys90e",
     "kanji": [
       {
@@ -11770,6 +12449,10 @@
   },
   {
     "forms": [],
+    "grammarIds": [
+      "l11-you-to-suru",
+      "l9-sasete-moraitai"
+    ],
     "id": "l11-2hvz82f",
     "kanji": [
       {
@@ -11797,6 +12480,11 @@
   },
   {
     "forms": [],
+    "grammarIds": [
+      "l1-tekara",
+      "l5-no-dakara",
+      "l9-te-moraitai"
+    ],
     "id": "l11-2sxs5d",
     "kanji": [
       {
@@ -11828,6 +12516,9 @@
   },
   {
     "forms": [],
+    "grammarIds": [
+      "l11-you-to-suru"
+    ],
     "id": "l11-3kq375b",
     "kanji": [
       {
@@ -11863,6 +12554,16 @@
   },
   {
     "forms": [],
+    "grammarIds": [
+      "l10-beki",
+      "l4-hanmen",
+      "l4-kawari-ni",
+      "l6-tatoe",
+      "l7-toiu-koto",
+      "l8-wake-dewa-nai",
+      "l9-te-moraitai",
+      "l9-to-ba-tara-ii"
+    ],
     "id": "l11-3kqvg",
     "kanji": [
       {
@@ -11918,6 +12619,9 @@
   },
   {
     "forms": [],
+    "grammarIds": [
+      "l11-tsumori"
+    ],
     "id": "l11-44q912m",
     "kanji": [
       {
@@ -11976,6 +12680,9 @@
   },
   {
     "forms": [],
+    "grammarIds": [
+      "l11-you-to-suru"
+    ],
     "id": "l11-68j4a2azko84nb6x",
     "kanji": [
       {
@@ -11999,6 +12706,9 @@
   },
   {
     "forms": [],
+    "grammarIds": [
+      "l11-you-to-suru"
+    ],
     "id": "l11-68jq1kq04lxn1e",
     "kanji": [
       {
@@ -12026,6 +12736,10 @@
   },
   {
     "forms": [],
+    "grammarIds": [
+      "l11-koto-ni-suru",
+      "l11-tsumori"
+    ],
     "id": "l11-6s1az0j",
     "kanji": [
       {
@@ -12101,6 +12815,10 @@
   },
   {
     "forms": [],
+    "grammarIds": [
+      "l1-uchini",
+      "l10-beki"
+    ],
     "id": "l11-7rs",
     "kanji": [
       {
@@ -12128,6 +12846,9 @@
   },
   {
     "forms": [],
+    "grammarIds": [
+      "l11-koto-ni-suru"
+    ],
     "id": "l11-88j2fy28h3ub",
     "kanji": [
       {
@@ -12174,6 +12895,9 @@
   },
   {
     "forms": [],
+    "grammarIds": [
+      "l11-you-ni-suru"
+    ],
     "id": "l11-8pr073bjs8a98a",
     "kanji": [
       {
@@ -12220,6 +12944,11 @@
   },
   {
     "forms": [],
+    "grammarIds": [
+      "l11-koto-ni-suru",
+      "l2-hodo",
+      "l8-hazu-wake"
+    ],
     "id": "l11-cbk233g",
     "kanji": [
       {
@@ -12251,6 +12980,9 @@
   },
   {
     "forms": [],
+    "grammarIds": [
+      "l11-you-to-suru"
+    ],
     "id": "l11-d70a",
     "kanji": [
       {
@@ -12274,6 +13006,10 @@
   },
   {
     "forms": [],
+    "grammarIds": [
+      "l11-you-to-suru",
+      "l12-kenjougo-2"
+    ],
     "id": "l11-ess",
     "kanji": [
       {
@@ -12325,6 +13061,9 @@
   },
   {
     "forms": [],
+    "grammarIds": [
+      "l11-tsumori"
+    ],
     "id": "l11-f9jh4377a",
     "kanji": [
       {
@@ -12348,6 +13087,9 @@
   },
   {
     "forms": [],
+    "grammarIds": [
+      "l11-tsumori"
+    ],
     "id": "l11-fhqy31b",
     "kanji": [
       {
@@ -12371,6 +13113,9 @@
   },
   {
     "forms": [],
+    "grammarIds": [
+      "l11-you-to-suru"
+    ],
     "id": "l11-g2xt77a",
     "kanji": [
       {
@@ -12429,6 +13174,11 @@
   },
   {
     "forms": [],
+    "grammarIds": [
+      "l1-uchini",
+      "l11-tsumori",
+      "l2-tsuideni"
+    ],
     "id": "l11-hyuo64i",
     "kanji": [
       {
@@ -12487,6 +13237,9 @@
   },
   {
     "forms": [],
+    "grammarIds": [
+      "l6-sae"
+    ],
     "id": "l11-kpu237b",
     "kanji": [
       {
@@ -12510,6 +13263,9 @@
   },
   {
     "forms": [],
+    "grammarIds": [
+      "l11-you-ni-suru"
+    ],
     "id": "l11-lbr96o",
     "kanji": [
       {
@@ -12533,6 +13289,9 @@
   },
   {
     "forms": [],
+    "grammarIds": [
+      "l12-sonkeigo"
+    ],
     "id": "l11-ldr85b",
     "kanji": [
       {
@@ -12560,6 +13319,9 @@
   },
   {
     "forms": [],
+    "grammarIds": [
+      "l11-koto-ni-suru"
+    ],
     "id": "l11-lzs",
     "kanji": [
       {
@@ -12587,6 +13349,9 @@
   },
   {
     "forms": [],
+    "grammarIds": [
+      "l11-koto-ni-suru"
+    ],
     "id": "l11-m9jydr906a",
     "kanji": [
       {
@@ -12610,6 +13375,9 @@
   },
   {
     "forms": [],
+    "grammarIds": [
+      "l11-tsumori"
+    ],
     "id": "l11-n8j010w",
     "kanji": [
       {
@@ -12633,6 +13401,9 @@
   },
   {
     "forms": [],
+    "grammarIds": [
+      "l11-tsumori"
+    ],
     "id": "l11-n8j122p",
     "kanji": [
       {
@@ -12656,6 +13427,9 @@
   },
   {
     "forms": [],
+    "grammarIds": [
+      "l11-koto-ni-suru"
+    ],
     "id": "l11-n8jub3cc3947e",
     "kanji": [
       {
@@ -12679,6 +13453,10 @@
   },
   {
     "forms": [],
+    "grammarIds": [
+      "l10-koto",
+      "l11-you-ni-suru"
+    ],
     "id": "l11-n8jydre5865b",
     "kanji": [
       {
@@ -12706,6 +13484,10 @@
   },
   {
     "forms": [],
+    "grammarIds": [
+      "l11-you-to-suru",
+      "l4-ippo"
+    ],
     "id": "l11-n8jz050a",
     "kanji": [
       {
@@ -12764,6 +13546,9 @@
   },
   {
     "forms": [],
+    "grammarIds": [
+      "l11-koto-ni-suru"
+    ],
     "id": "l11-obku31n",
     "kanji": [
       {
@@ -12791,6 +13576,9 @@
   },
   {
     "forms": [],
+    "grammarIds": [
+      "l11-you-to-suru"
+    ],
     "id": "l11-p8jwhq89r",
     "kanji": [
       {
@@ -12814,6 +13602,9 @@
   },
   {
     "forms": [],
+    "grammarIds": [
+      "l11-you-to-suru"
+    ],
     "id": "l11-p8jxa8bwjs42m9j0a",
     "kanji": [
       {
@@ -12837,6 +13628,10 @@
   },
   {
     "forms": [],
+    "grammarIds": [
+      "l11-koto-ni-suru",
+      "l8-hazu-wake"
+    ],
     "id": "l11-prvs59b",
     "kanji": [
       {
@@ -12864,6 +13659,12 @@
   },
   {
     "forms": [],
+    "grammarIds": [
+      "l11-you-ni-suru",
+      "l2-toori",
+      "l3-kurai-wa-nai",
+      "l7-tte"
+    ],
     "id": "l11-qev043a",
     "kanji": [
       {
@@ -12903,6 +13704,9 @@
   },
   {
     "forms": [],
+    "grammarIds": [
+      "l3-kurai-nara"
+    ],
     "id": "l11-tpv67h",
     "kanji": [
       {
@@ -12926,6 +13730,10 @@
   },
   {
     "forms": [],
+    "grammarIds": [
+      "l11-tsumori",
+      "l8-toha-kagiranai"
+    ],
     "id": "l11-u2tp8o",
     "kanji": [
       {
@@ -12953,6 +13761,9 @@
   },
   {
     "forms": [],
+    "grammarIds": [
+      "l11-you-to-suru"
+    ],
     "id": "l11-u8jxbl0a3on382b",
     "kanji": [
       {
@@ -12980,6 +13791,10 @@
   },
   {
     "forms": [],
+    "grammarIds": [
+      "l1-tokoro",
+      "l8-nai-koto-wa-nai"
+    ],
     "id": "l11-w22as22a",
     "kanji": [
       {
@@ -13011,6 +13826,9 @@
   },
   {
     "forms": [],
+    "grammarIds": [
+      "l5-kara-koto"
+    ],
     "id": "l11-wgv71a119e",
     "kanji": [
       {
@@ -13034,6 +13852,11 @@
   },
   {
     "forms": [],
+    "grammarIds": [
+      "l11-you-ni-suru",
+      "l2-niyotte",
+      "l3-kurai"
+    ],
     "id": "l11-wgv94k",
     "kanji": [
       {
@@ -13065,6 +13888,12 @@
   },
   {
     "forms": [],
+    "grammarIds": [
+      "l11-koto-ni-suru",
+      "l4-kawari-ni",
+      "l7-iwareteiru",
+      "l7-toka"
+    ],
     "id": "l11-wmq999a",
     "kanji": [
       {
@@ -13112,6 +13941,9 @@
   },
   {
     "forms": [],
+    "grammarIds": [
+      "l1-tokoro"
+    ],
     "id": "l11-x5yw15d",
     "kanji": [
       {
@@ -13135,6 +13967,13 @@
   },
   {
     "forms": [],
+    "grammarIds": [
+      "l1-uchini",
+      "l10-beki",
+      "l11-you-ni-suru",
+      "l5-okage-sei",
+      "l9-sasete-moraitai"
+    ],
     "id": "l11-y8jw72n",
     "kanji": [
       {
@@ -13174,6 +14013,9 @@
   },
   {
     "forms": [],
+    "grammarIds": [
+      "l1-aida"
+    ],
     "id": "l11-zfvo28e",
     "kanji": [
       {
@@ -13228,6 +14070,9 @@
   },
   {
     "forms": [],
+    "grammarIds": [
+      "l12-sonkeigo"
+    ],
     "id": "l12-0try30n",
     "kanji": [
       {
@@ -13251,6 +14096,9 @@
   },
   {
     "forms": [],
+    "grammarIds": [
+      "l12-kenjougo-1"
+    ],
     "id": "l12-18jj329txx8a",
     "kanji": [
       {
@@ -13274,6 +14122,9 @@
   },
   {
     "forms": [],
+    "grammarIds": [
+      "l12-kenjougo-2"
+    ],
     "id": "l12-1cr868l",
     "kanji": [
       {
@@ -13297,6 +14148,9 @@
   },
   {
     "forms": [],
+    "grammarIds": [
+      "l12-sonkeigo"
+    ],
     "id": "l12-1kr672c",
     "kanji": [
       {
@@ -13343,6 +14197,14 @@
   },
   {
     "forms": [],
+    "grammarIds": [
+      "l1-tokoro",
+      "l10-koto",
+      "l12-kenjougo-1",
+      "l5-okage-sei",
+      "l7-tte",
+      "l9-to-ba-tara-ii"
+    ],
     "id": "l12-44qr78f",
     "kanji": [
       {
@@ -13426,6 +14288,9 @@
   },
   {
     "forms": [],
+    "grammarIds": [
+      "l12-sonkeigo"
+    ],
     "id": "l12-68j475m",
     "kanji": [
       {
@@ -13449,6 +14314,9 @@
   },
   {
     "forms": [],
+    "grammarIds": [
+      "l12-kenjougo-2"
+    ],
     "id": "l12-68je4iu271a",
     "kanji": [
       {
@@ -13472,6 +14340,9 @@
   },
   {
     "forms": [],
+    "grammarIds": [
+      "l12-sonkeigo"
+    ],
     "id": "l12-6oqv21hktb",
     "kanji": [
       {
@@ -13495,6 +14366,9 @@
   },
   {
     "forms": [],
+    "grammarIds": [
+      "l12-kenjougo-2"
+    ],
     "id": "l12-78j870k",
     "kanji": [
       {
@@ -13526,6 +14400,9 @@
   },
   {
     "forms": [],
+    "grammarIds": [
+      "l12-sonkeigo"
+    ],
     "id": "l12-79q401a",
     "kanji": [
       {
@@ -13549,6 +14426,10 @@
   },
   {
     "forms": [],
+    "grammarIds": [
+      "l12-sonkeigo",
+      "l7-toka"
+    ],
     "id": "l12-7ovyh",
     "kanji": [
       {
@@ -13607,6 +14488,10 @@
   },
   {
     "forms": [],
+    "grammarIds": [
+      "l12-kenjougo-2",
+      "l6-tewa-dewa"
+    ],
     "id": "l12-fiqq16a",
     "kanji": [
       {
@@ -13634,6 +14519,11 @@
   },
   {
     "forms": [],
+    "grammarIds": [
+      "l12-kenjougo-1",
+      "l3-ni-kagiru",
+      "l8-koto-wa-ga"
+    ],
     "id": "l12-g7qs82g",
     "kanji": [
       {
@@ -13665,6 +14555,9 @@
   },
   {
     "forms": [],
+    "grammarIds": [
+      "l12-sonkeigo"
+    ],
     "id": "l12-ickm6g6erd1061b",
     "kanji": [
       {
@@ -13688,6 +14581,9 @@
   },
   {
     "forms": [],
+    "grammarIds": [
+      "l12-kenjougo-1"
+    ],
     "id": "l12-jvrx1n81f",
     "kanji": [
       {
@@ -13711,6 +14607,9 @@
   },
   {
     "forms": [],
+    "grammarIds": [
+      "l12-teineigo"
+    ],
     "id": "l12-jvrx70bvu0a",
     "kanji": [
       {
@@ -13734,6 +14633,9 @@
   },
   {
     "forms": [],
+    "grammarIds": [
+      "l12-teineigo"
+    ],
     "id": "l12-jvrx76e",
     "kanji": [
       {
@@ -13757,6 +14659,9 @@
   },
   {
     "forms": [],
+    "grammarIds": [
+      "l12-sonkeigo"
+    ],
     "id": "l12-jzu084asjo",
     "kanji": [
       {
@@ -13819,6 +14724,9 @@
   },
   {
     "forms": [],
+    "grammarIds": [
+      "l12-kenjougo-2"
+    ],
     "id": "l12-nbk237h",
     "kanji": [
       {
@@ -13842,6 +14750,10 @@
   },
   {
     "forms": [],
+    "grammarIds": [
+      "l12-sonkeigo",
+      "l8-wake-dewa-nai"
+    ],
     "id": "l12-od0a279a",
     "kanji": [
       {
@@ -13869,6 +14781,9 @@
   },
   {
     "forms": [],
+    "grammarIds": [
+      "l12-kenjougo-1"
+    ],
     "id": "l12-qtuy47f",
     "kanji": [
       {
@@ -13896,6 +14811,9 @@
   },
   {
     "forms": [],
+    "grammarIds": [
+      "l12-sonkeigo"
+    ],
     "id": "l12-r8j4aya6j5268b",
     "kanji": [
       {
@@ -13919,6 +14837,9 @@
   },
   {
     "forms": [],
+    "grammarIds": [
+      "l12-kenjougo-1"
+    ],
     "id": "l12-t8j790t",
     "kanji": [
       {
@@ -13946,6 +14867,11 @@
   },
   {
     "forms": [],
+    "grammarIds": [
+      "l12-kenjougo-1",
+      "l12-sonkeigo",
+      "l7-toka"
+    ],
     "id": "l12-t8j841k",
     "kanji": [
       {
@@ -14040,6 +14966,9 @@
   },
   {
     "forms": [],
+    "grammarIds": [
+      "l12-sonkeigo"
+    ],
     "id": "l12-vqqu27c",
     "kanji": [
       {
@@ -14067,6 +14996,9 @@
   },
   {
     "forms": [],
+    "grammarIds": [
+      "l12-kenjougo-2"
+    ],
     "id": "l12-w8jw60hfx1b",
     "kanji": [
       {
@@ -14090,6 +15022,9 @@
   },
   {
     "forms": [],
+    "grammarIds": [
+      "l12-kenjougo-2"
+    ],
     "id": "l12-wgv71a483g",
     "kanji": [
       {
@@ -14113,6 +15048,9 @@
   },
   {
     "forms": [],
+    "grammarIds": [
+      "l12-sonkeigo"
+    ],
     "id": "l12-wmqt98c",
     "kanji": [
       {
@@ -14239,6 +15177,9 @@
   },
   {
     "forms": [],
+    "grammarIds": [
+      "l5-kara-koto"
+    ],
     "id": "l5-gokai",
     "kanji": [
       {
@@ -14267,6 +15208,9 @@
   },
   {
     "forms": [],
+    "grammarIds": [
+      "l5-tame"
+    ],
     "id": "l5-hokokusho",
     "kanji": [
       {
@@ -14332,6 +15276,9 @@
   },
   {
     "forms": [],
+    "grammarIds": [
+      "l5-ni-yotte"
+    ],
     "id": "l5-kangaekata",
     "kanji": [
       {
@@ -14360,6 +15307,9 @@
   },
   {
     "forms": [],
+    "grammarIds": [
+      "l5-tame"
+    ],
     "id": "l5-kesseki",
     "kanji": [
       {
@@ -14392,6 +15342,10 @@
   },
   {
     "forms": [],
+    "grammarIds": [
+      "l5-ni-yotte",
+      "l9-to-ba-tara-ii"
+    ],
     "id": "l5-kibo",
     "kanji": [
       {
@@ -14424,6 +15378,10 @@
   },
   {
     "forms": [],
+    "grammarIds": [
+      "l5-okage-sei",
+      "l7-toiu-koto"
+    ],
     "id": "l5-koji",
     "kanji": [
       {
@@ -14460,6 +15418,9 @@
   },
   {
     "forms": [],
+    "grammarIds": [
+      "l5-tame"
+    ],
     "id": "l5-minaoshi",
     "kanji": [
       {
@@ -14488,6 +15449,9 @@
   },
   {
     "forms": [],
+    "grammarIds": [
+      "l5-kara-koto"
+    ],
     "id": "l5-oyako",
     "kanji": [
       {
@@ -14516,6 +15480,9 @@
   },
   {
     "forms": [],
+    "grammarIds": [
+      "l5-ni-yotte"
+    ],
     "id": "l5-seisan",
     "kanji": [
       {
@@ -14544,6 +15511,9 @@
   },
   {
     "forms": [],
+    "grammarIds": [
+      "l5-ni-yotte"
+    ],
     "id": "l5-shiharai",
     "kanji": [
       {
@@ -14572,6 +15542,9 @@
   },
   {
     "forms": [],
+    "grammarIds": [
+      "l5-no-dakara"
+    ],
     "id": "l5-shinken",
     "kanji": [
       {
@@ -14600,6 +15573,10 @@
   },
   {
     "forms": [],
+    "grammarIds": [
+      "l2-niyotte",
+      "l5-no-dakara"
+    ],
     "id": "l5-shukan",
     "kanji": [
       {
@@ -14692,6 +15669,9 @@
   },
   {
     "forms": [],
+    "grammarIds": [
+      "l5-no-dakara"
+    ],
     "id": "l5-tozen",
     "kanji": [
       {
@@ -14732,6 +15712,9 @@
   },
   {
     "forms": [],
+    "grammarIds": [
+      "l5-ni-yotte"
+    ],
     "id": "l5-zairyo-fusoku",
     "kanji": [
       {
@@ -14798,6 +15781,9 @@
   },
   {
     "forms": [],
+    "grammarIds": [
+      "l6-sae"
+    ],
     "id": "l6-chosen",
     "kanji": [
       {
@@ -14826,6 +15812,9 @@
   },
   {
     "forms": [],
+    "grammarIds": [
+      "l6-ba-tara-nara"
+    ],
     "id": "l6-gakusei-waribiki",
     "kanji": [
       {
@@ -14864,6 +15853,9 @@
   },
   {
     "forms": [],
+    "grammarIds": [
+      "l6-nara"
+    ],
     "id": "l6-hako",
     "kanji": [
       {
@@ -14928,6 +15920,9 @@
   },
   {
     "forms": [],
+    "grammarIds": [
+      "l6-sae"
+    ],
     "id": "l6-jobu",
     "kanji": [
       {
@@ -14968,6 +15963,9 @@
   },
   {
     "forms": [],
+    "grammarIds": [
+      "l6-tatoe"
+    ],
     "id": "l6-kashu",
     "kanji": [
       {
@@ -14996,6 +15994,9 @@
   },
   {
     "forms": [],
+    "grammarIds": [
+      "l6-sae"
+    ],
     "id": "l6-manga",
     "kanji": [
       {
@@ -15024,6 +16025,9 @@
   },
   {
     "forms": [],
+    "grammarIds": [
+      "l6-tatoe"
+    ],
     "id": "l6-mawari",
     "kanji": [
       {
@@ -15047,6 +16051,9 @@
   },
   {
     "forms": [],
+    "grammarIds": [
+      "l6-tewa-dewa"
+    ],
     "id": "l6-meiwaku",
     "kanji": [
       {
@@ -15075,6 +16082,9 @@
   },
   {
     "forms": [],
+    "grammarIds": [
+      "l6-tatoe"
+    ],
     "id": "l6-mendo",
     "kanji": [
       {
@@ -15103,6 +16113,9 @@
   },
   {
     "forms": [],
+    "grammarIds": [
+      "l6-tewa-dewa"
+    ],
     "id": "l6-mimai",
     "kanji": [
       {
@@ -15131,6 +16144,9 @@
   },
   {
     "forms": [],
+    "grammarIds": [
+      "l6-tewa-dewa"
+    ],
     "id": "l6-musekinin",
     "kanji": [
       {
@@ -15164,6 +16180,9 @@
   },
   {
     "forms": [],
+    "grammarIds": [
+      "l6-ba-tara-nara"
+    ],
     "id": "l6-nebo",
     "kanji": [
       {
@@ -15192,6 +16211,9 @@
   },
   {
     "forms": [],
+    "grammarIds": [
+      "l6-tewa-dewa"
+    ],
     "id": "l6-nennai",
     "kanji": [
       {
@@ -15220,6 +16242,9 @@
   },
   {
     "forms": [],
+    "grammarIds": [
+      "l6-tewa-dewa"
+    ],
     "id": "l6-shujutsu",
     "kanji": [
       {
@@ -15280,6 +16305,9 @@
   },
   {
     "forms": [],
+    "grammarIds": [
+      "l6-sae"
+    ],
     "id": "l6-taikutsu",
     "kanji": [
       {
@@ -15308,6 +16336,9 @@
   },
   {
     "forms": [],
+    "grammarIds": [
+      "l6-sae"
+    ],
     "id": "l6-yurusu",
     "kanji": [
       {
@@ -15335,6 +16366,9 @@
   },
   {
     "forms": [],
+    "grammarIds": [
+      "l6-ba-tara-nara"
+    ],
     "id": "l6-zannen",
     "kanji": [
       {
@@ -15367,6 +16401,9 @@
   },
   {
     "forms": [],
+    "grammarIds": [
+      "l7-toiu"
+    ],
     "id": "l7-atari",
     "kanji": [
       {
@@ -15390,6 +16427,9 @@
   },
   {
     "forms": [],
+    "grammarIds": [
+      "l7-toiu"
+    ],
     "id": "l7-chugoku",
     "kanji": [
       {
@@ -15466,6 +16506,9 @@
   },
   {
     "forms": [],
+    "grammarIds": [
+      "l7-toiu-koto"
+    ],
     "id": "l7-doro",
     "kanji": [
       {
@@ -15494,6 +16537,9 @@
   },
   {
     "forms": [],
+    "grammarIds": [
+      "l7-tte"
+    ],
     "id": "l7-ekimae",
     "kanji": [
       {
@@ -15522,6 +16568,9 @@
   },
   {
     "forms": [],
+    "grammarIds": [
+      "l7-iwareteiru"
+    ],
     "id": "l7-fuku",
     "kanji": [
       {
@@ -15597,6 +16646,9 @@
   },
   {
     "forms": [],
+    "grammarIds": [
+      "l7-toka"
+    ],
     "id": "l7-kau",
     "kanji": [
       {
@@ -15620,6 +16672,9 @@
   },
   {
     "forms": [],
+    "grammarIds": [
+      "l7-iwareteiru"
+    ],
     "id": "l7-kuroi",
     "kanji": [
       {
@@ -15643,6 +16698,9 @@
   },
   {
     "forms": [],
+    "grammarIds": [
+      "l7-tte"
+    ],
     "id": "l7-kyoinshitsu",
     "kanji": [
       {
@@ -15676,6 +16734,9 @@
   },
   {
     "forms": [],
+    "grammarIds": [
+      "l7-toiu"
+    ],
     "id": "l7-matsuri",
     "kanji": [
       {
@@ -15715,6 +16776,9 @@
   },
   {
     "forms": [],
+    "grammarIds": [
+      "l7-toiu"
+    ],
     "id": "l7-mukashi",
     "kanji": [
       {
@@ -15766,6 +16830,12 @@
   },
   {
     "forms": [],
+    "grammarIds": [
+      "l5-tame",
+      "l7-toiu",
+      "l7-toiu-koto",
+      "l9-te-moraitai"
+    ],
     "id": "l7-mura",
     "kanji": [
       {
@@ -15813,6 +16883,9 @@
   },
   {
     "forms": [],
+    "grammarIds": [
+      "l7-iwareteiru"
+    ],
     "id": "l7-natto",
     "kanji": [
       {
@@ -15841,6 +16914,10 @@
   },
   {
     "forms": [],
+    "grammarIds": [
+      "l1-uchini",
+      "l7-toiu"
+    ],
     "id": "l7-nihon",
     "kanji": [
       {
@@ -15873,6 +16950,9 @@
   },
   {
     "forms": [],
+    "grammarIds": [
+      "l7-toiu"
+    ],
     "id": "l7-nohara",
     "kanji": [
       {
@@ -15933,6 +17013,9 @@
   },
   {
     "forms": [],
+    "grammarIds": [
+      "l7-iwareteiru"
+    ],
     "id": "l7-ryuko",
     "kanji": [
       {
@@ -15961,6 +17044,9 @@
   },
   {
     "forms": [],
+    "grammarIds": [
+      "l7-iwareteiru"
+    ],
     "id": "l7-senshu",
     "kanji": [
       {
@@ -16021,6 +17107,9 @@
   },
   {
     "forms": [],
+    "grammarIds": [
+      "l7-iwareteiru"
+    ],
     "id": "l7-taikai",
     "kanji": [
       {
@@ -16049,6 +17138,9 @@
   },
   {
     "forms": [],
+    "grammarIds": [
+      "l3-kurai"
+    ],
     "id": "l7-tenki-yoho",
     "kanji": [
       {
@@ -16087,6 +17179,9 @@
   },
   {
     "forms": [],
+    "grammarIds": [
+      "l7-toiu"
+    ],
     "id": "l7-tsutawaru",
     "kanji": [
       {
@@ -16110,6 +17205,9 @@
   },
   {
     "forms": [],
+    "grammarIds": [
+      "l8-wake-dewa-nai"
+    ],
     "id": "l8-boshi",
     "kanji": [
       {
@@ -16138,6 +17236,9 @@
   },
   {
     "forms": [],
+    "grammarIds": [
+      "l8-toha-kagiranai"
+    ],
     "id": "l8-hoken",
     "kanji": [
       {
@@ -16433,6 +17534,9 @@
   },
   {
     "forms": [],
+    "grammarIds": [
+      "l8-hazu-wake"
+    ],
     "id": "l8-kokka-shiken",
     "kanji": [
       {
@@ -16654,6 +17758,11 @@
   },
   {
     "forms": [],
+    "grammarIds": [
+      "l1-uchini",
+      "l8-hazu-wake",
+      "l9-sasete-moraitai"
+    ],
     "id": "l8-renshu",
     "kanji": [
       {
@@ -16710,6 +17819,9 @@
   },
   {
     "forms": [],
+    "grammarIds": [
+      "l8-toha-kagiranai"
+    ],
     "id": "l8-ryokochu",
     "kanji": [
       {
@@ -16743,6 +17855,9 @@
   },
   {
     "forms": [],
+    "grammarIds": [
+      "l8-koto-wa-ga"
+    ],
     "id": "l8-seicho",
     "kanji": [
       {
@@ -16775,6 +17890,11 @@
   },
   {
     "forms": [],
+    "grammarIds": [
+      "l10-tara-doka",
+      "l4-kawari-ni",
+      "l8-nai-koto-wa-nai"
+    ],
     "id": "l8-shinpai",
     "kanji": [
       {
@@ -16827,6 +17947,9 @@
   },
   {
     "forms": [],
+    "grammarIds": [
+      "l8-toha-kagiranai"
+    ],
     "id": "l8-shitsu",
     "kanji": [
       {
@@ -16850,6 +17973,9 @@
   },
   {
     "forms": [],
+    "grammarIds": [
+      "l8-koto-wa-ga"
+    ],
     "id": "l8-sodateru",
     "kanji": [
       {
@@ -16873,6 +17999,10 @@
   },
   {
     "forms": [],
+    "grammarIds": [
+      "l2-hodo",
+      "l8-koto-wa-ga"
+    ],
     "id": "l8-taihen",
     "kanji": [
       {
@@ -16905,6 +18035,9 @@
   },
   {
     "forms": [],
+    "grammarIds": [
+      "l8-wake-dewa-nai"
+    ],
     "id": "l8-tenkin",
     "kanji": [
       {
@@ -16960,6 +18093,9 @@
   },
   {
     "forms": [],
+    "grammarIds": [
+      "l8-toha-kagiranai"
+    ],
     "id": "l8-uta",
     "kanji": [
       {
@@ -16983,6 +18119,10 @@
   },
   {
     "forms": [],
+    "grammarIds": [
+      "l8-koto-wa-ga",
+      "l8-wake-dewa-nai"
+    ],
     "id": "l8-wasureru",
     "kanji": [
       {
@@ -17042,6 +18182,9 @@
   },
   {
     "forms": [],
+    "grammarIds": [
+      "l8-hazu-wake"
+    ],
     "id": "l8-yasashii",
     "kanji": [
       {
@@ -17097,6 +18240,9 @@
   },
   {
     "forms": [],
+    "grammarIds": [
+      "l9-sasete-moraitai"
+    ],
     "id": "l9-hiruyasumi",
     "kanji": [
       {
@@ -17125,6 +18271,10 @@
   },
   {
     "forms": [],
+    "grammarIds": [
+      "l4-hanmen",
+      "l9-te-moraitai"
+    ],
     "id": "l9-hitori",
     "kanji": [
       {
@@ -17161,6 +18311,9 @@
   },
   {
     "forms": [],
+    "grammarIds": [
+      "l9-to-ba-tara-ii"
+    ],
     "id": "l9-jimu",
     "kanji": [
       {
@@ -17189,6 +18342,9 @@
   },
   {
     "forms": [],
+    "grammarIds": [
+      "l9-to-ba-tara-ii"
+    ],
     "id": "l9-ki-ga-susumanai",
     "kanji": [
       {
@@ -17217,6 +18373,10 @@
   },
   {
     "forms": [],
+    "grammarIds": [
+      "l10-koto",
+      "l9-to-ba-tara-ii"
+    ],
     "id": "l9-moshikomisho",
     "kanji": [
       {
@@ -17254,6 +18414,9 @@
   },
   {
     "forms": [],
+    "grammarIds": [
+      "l9-te-moraitai"
+    ],
     "id": "l9-nayami",
     "kanji": [
       {
@@ -17277,6 +18440,9 @@
   },
   {
     "forms": [],
+    "grammarIds": [
+      "l9-to-ba-tara-ii"
+    ],
     "id": "l9-nyugaku-shiken",
     "kanji": [
       {
@@ -17315,6 +18481,9 @@
   },
   {
     "forms": [],
+    "grammarIds": [
+      "l9-sasete-moraitai"
+    ],
     "id": "l9-nyukan",
     "kanji": [
       {
@@ -17343,6 +18512,10 @@
   },
   {
     "forms": [],
+    "grammarIds": [
+      "l5-kara-koto",
+      "l9-te-moraitai"
+    ],
     "id": "l9-oya",
     "kanji": [
       {
@@ -17390,6 +18563,10 @@
   },
   {
     "forms": [],
+    "grammarIds": [
+      "l5-okage-sei",
+      "l9-to-ba-tara-ii"
+    ],
     "id": "l9-saikin",
     "kanji": [
       {
@@ -17478,6 +18655,9 @@
   },
   {
     "forms": [],
+    "grammarIds": [
+      "l9-te-moraitai"
+    ],
     "id": "l9-shizen-kankyo",
     "kanji": [
       {
@@ -17516,6 +18696,9 @@
   },
   {
     "forms": [],
+    "grammarIds": [
+      "l9-te-moraitai"
+    ],
     "id": "l9-shorui",
     "kanji": [
       {
@@ -17544,6 +18727,9 @@
   },
   {
     "forms": [],
+    "grammarIds": [
+      "l9-to-ba-tara-ii"
+    ],
     "id": "l9-sotsugyoshiki",
     "kanji": [
       {
@@ -17577,6 +18763,9 @@
   },
   {
     "forms": [],
+    "grammarIds": [
+      "l9-sasete-moraitai"
+    ],
     "id": "l9-tencho",
     "kanji": [
       {
@@ -17609,6 +18798,10 @@
   },
   {
     "forms": [],
+    "grammarIds": [
+      "l1-tekara",
+      "l9-sasete-moraitai"
+    ],
     "id": "l9-tenin",
     "kanji": [
       {
@@ -17641,6 +18834,11 @@
   },
   {
     "forms": [],
+    "grammarIds": [
+      "l10-meirei-kinshi",
+      "l4-kawari-ni",
+      "l9-te-moraitai"
+    ],
     "id": "l9-tetsudau",
     "kanji": [
       {
@@ -17693,6 +18891,9 @@
   },
   {
     "forms": [],
+    "grammarIds": [
+      "l9-te-moraitai"
+    ],
     "id": "l9-toshi-o-toru",
     "kanji": [
       {
@@ -17721,6 +18922,11 @@
   },
   {
     "forms": [],
+    "grammarIds": [
+      "l10-tara-doka",
+      "l5-okage-sei",
+      "l9-to-ba-tara-ii"
+    ],
     "id": "l9-tsukareru",
     "kanji": [
       {
@@ -17752,6 +18958,9 @@
   },
   {
     "forms": [],
+    "grammarIds": [
+      "l9-sasete-moraitai"
+    ],
     "id": "l9-undojo",
     "kanji": [
       {
@@ -17785,6 +18994,9 @@
   },
   {
     "forms": [],
+    "grammarIds": [
+      "l9-to-ba-tara-ii"
+    ],
     "id": "l9-wakare",
     "kanji": [
       {
@@ -18066,6 +19278,11 @@
   },
   {
     "forms": [],
+    "grammarIds": [
+      "l10-meirei-kinshi",
+      "l11-koto-ni-suru",
+      "l11-you-to-suru"
+    ],
     "id": "learning-support-05567c942fb5",
     "kanji": [
       {
@@ -18128,6 +19345,9 @@
   },
   {
     "forms": [],
+    "grammarIds": [
+      "l2-hodo"
+    ],
     "id": "learning-support-05c340f6dac3",
     "kanji": [
       {
@@ -18274,6 +19494,9 @@
   },
   {
     "forms": [],
+    "grammarIds": [
+      "l11-you-to-suru"
+    ],
     "id": "learning-support-08a3ed212d48",
     "kanji": [
       {
@@ -18700,6 +19923,9 @@
   },
   {
     "forms": [],
+    "grammarIds": [
+      "l7-tte"
+    ],
     "id": "learning-support-0ee474702346",
     "kanji": [
       {
@@ -18888,6 +20114,9 @@
   },
   {
     "forms": [],
+    "grammarIds": [
+      "l9-te-moraitai"
+    ],
     "id": "learning-support-13ab63d79a46",
     "kanji": [
       {
@@ -19019,6 +20248,9 @@
   },
   {
     "forms": [],
+    "grammarIds": [
+      "l3-kurai"
+    ],
     "id": "learning-support-15f41364211a",
     "kanji": [
       {
@@ -19304,6 +20536,9 @@
   },
   {
     "forms": [],
+    "grammarIds": [
+      "l8-toha-kagiranai"
+    ],
     "id": "learning-support-1df61a9f3bfc",
     "kanji": [
       {
@@ -19335,6 +20570,11 @@
   },
   {
     "forms": [],
+    "grammarIds": [
+      "l11-you-to-suru",
+      "l4-ippo",
+      "l7-toiu-koto"
+    ],
     "id": "learning-support-1ed0362cc310",
     "kanji": [
       {
@@ -19401,6 +20641,9 @@
   },
   {
     "forms": [],
+    "grammarIds": [
+      "l1-aida"
+    ],
     "id": "learning-support-2007947770c4",
     "kanji": [
       {
@@ -19732,6 +20975,9 @@
   },
   {
     "forms": [],
+    "grammarIds": [
+      "l4-ippo"
+    ],
     "id": "learning-support-25664c20f924",
     "kanji": [
       {
@@ -20262,6 +21508,9 @@
   },
   {
     "forms": [],
+    "grammarIds": [
+      "l4-ni-taishite"
+    ],
     "id": "learning-support-2d555713001b",
     "kanji": [
       {
@@ -21535,6 +22784,9 @@
   },
   {
     "forms": [],
+    "grammarIds": [
+      "l3-kurai-nara"
+    ],
     "id": "learning-support-3c5ff54bea11",
     "kanji": [
       {
@@ -21655,6 +22907,10 @@
   },
   {
     "forms": [],
+    "grammarIds": [
+      "l4-kawari-ni",
+      "l6-ba-tara-nara"
+    ],
     "id": "learning-support-3e015d0a8b33",
     "kanji": [
       {
@@ -21748,6 +23004,9 @@
   },
   {
     "forms": [],
+    "grammarIds": [
+      "l4-to-iu-yori"
+    ],
     "id": "learning-support-406d15f6e9b0",
     "kanji": [
       {
@@ -21902,6 +23161,11 @@
   },
   {
     "forms": [],
+    "grammarIds": [
+      "l3-kurai",
+      "l4-ippo",
+      "l4-to-iu-yori"
+    ],
     "id": "learning-support-442da9022261",
     "kanji": [
       {
@@ -21933,6 +23197,10 @@
   },
   {
     "forms": [],
+    "grammarIds": [
+      "l4-ippo",
+      "l6-ba-tara-nara"
+    ],
     "id": "learning-support-452102ad0a8b",
     "kanji": [
       {
@@ -22249,6 +23517,9 @@
   },
   {
     "forms": [],
+    "grammarIds": [
+      "l4-ni-taishite"
+    ],
     "id": "learning-support-47ac4cdd7616",
     "kanji": [
       {
@@ -23113,6 +24384,12 @@
   },
   {
     "forms": [],
+    "grammarIds": [
+      "l2-hodo",
+      "l2-niyotte",
+      "l5-okage-sei",
+      "l9-sasete-moraitai"
+    ],
     "id": "learning-support-55a030e65fc5",
     "kanji": [
       {
@@ -23385,6 +24662,9 @@
   },
   {
     "forms": [],
+    "grammarIds": [
+      "l12-sonkeigo"
+    ],
     "id": "learning-support-5bb88bc7a4d6",
     "kanji": [
       {
@@ -23597,6 +24877,9 @@
   },
   {
     "forms": [],
+    "grammarIds": [
+      "l1-tokoro"
+    ],
     "id": "learning-support-612da95d9708",
     "kanji": [
       {
@@ -24500,6 +25783,9 @@
   },
   {
     "forms": [],
+    "grammarIds": [
+      "l11-you-ni-suru"
+    ],
     "id": "learning-support-776c4df05ffb",
     "kanji": [
       {
@@ -24554,6 +25840,9 @@
   },
   {
     "forms": [],
+    "grammarIds": [
+      "l6-tatoe"
+    ],
     "id": "learning-support-7895818d56e3",
     "kanji": [
       {
@@ -24850,6 +26139,9 @@
   },
   {
     "forms": [],
+    "grammarIds": [
+      "l11-tsumori"
+    ],
     "id": "learning-support-7d173a914c66",
     "kanji": [
       {
@@ -25066,6 +26358,9 @@
   },
   {
     "forms": [],
+    "grammarIds": [
+      "l1-aida"
+    ],
     "id": "learning-support-7fe5e3694262",
     "kanji": [
       {
@@ -25466,6 +26761,9 @@
   },
   {
     "forms": [],
+    "grammarIds": [
+      "l11-koto-ni-suru"
+    ],
     "id": "learning-support-89807c7c22d2",
     "kanji": [
       {
@@ -26066,6 +27364,9 @@
   },
   {
     "forms": [],
+    "grammarIds": [
+      "l9-to-ba-tara-ii"
+    ],
     "id": "learning-support-95c5e2db36b8",
     "kanji": [
       {
@@ -26307,6 +27608,9 @@
   },
   {
     "forms": [],
+    "grammarIds": [
+      "l7-toiu-koto"
+    ],
     "id": "learning-support-988f9bb24f32",
     "kanji": [
       {
@@ -26570,6 +27874,11 @@
   },
   {
     "forms": [],
+    "grammarIds": [
+      "l11-tsumori",
+      "l12-sonkeigo",
+      "l5-ni-yotte"
+    ],
     "id": "learning-support-9dda296d478a",
     "kanji": [
       {
@@ -26729,6 +28038,9 @@
   },
   {
     "forms": [],
+    "grammarIds": [
+      "l11-you-ni-suru"
+    ],
     "id": "learning-support-a082687f7a72",
     "kanji": [
       {
@@ -26849,6 +28161,9 @@
   },
   {
     "forms": [],
+    "grammarIds": [
+      "l7-toiu-koto"
+    ],
     "id": "learning-support-a2962b07bcbf",
     "kanji": [
       {
@@ -26918,6 +28233,12 @@
   },
   {
     "forms": [],
+    "grammarIds": [
+      "l10-tara-doka",
+      "l6-sae",
+      "l7-iwareteiru",
+      "l9-to-ba-tara-ii"
+    ],
     "id": "learning-support-a556e5edce0d",
     "kanji": [
       {
@@ -27034,6 +28355,10 @@
   },
   {
     "forms": [],
+    "grammarIds": [
+      "l1-aida",
+      "l8-wake-dewa-nai"
+    ],
     "id": "learning-support-a61fa96731d1",
     "kanji": [
       {
@@ -27088,6 +28413,9 @@
   },
   {
     "forms": [],
+    "grammarIds": [
+      "l11-you-ni-suru"
+    ],
     "id": "learning-support-a7c36fdb7072",
     "kanji": [
       {
@@ -27200,6 +28528,10 @@
   },
   {
     "forms": [],
+    "grammarIds": [
+      "l1-uchini",
+      "l3-kurai-nara"
+    ],
     "id": "learning-support-ab366b6c9dc3",
     "kanji": [
       {
@@ -27316,6 +28648,9 @@
   },
   {
     "forms": [],
+    "grammarIds": [
+      "l12-kenjougo-1"
+    ],
     "id": "learning-support-ae534d4ca872",
     "kanji": [
       {
@@ -27355,6 +28690,9 @@
   },
   {
     "forms": [],
+    "grammarIds": [
+      "l12-kenjougo-2"
+    ],
     "id": "learning-support-aeff3c4d965a",
     "kanji": [
       {
@@ -27476,6 +28814,9 @@
   },
   {
     "forms": [],
+    "grammarIds": [
+      "l7-toiu-koto"
+    ],
     "id": "learning-support-aff4676eedaf",
     "kanji": [
       {
@@ -27935,6 +29276,10 @@
   },
   {
     "forms": [],
+    "grammarIds": [
+      "l11-you-ni-suru",
+      "l11-you-to-suru"
+    ],
     "id": "learning-support-b8630e0875a7",
     "kanji": [
       {
@@ -28653,6 +29998,12 @@
   },
   {
     "forms": [],
+    "grammarIds": [
+      "l1-uchini",
+      "l10-beki",
+      "l10-tara-doka",
+      "l3-kurai"
+    ],
     "id": "learning-support-c373555102ff",
     "kanji": [
       {
@@ -29168,6 +30519,9 @@
   },
   {
     "forms": [],
+    "grammarIds": [
+      "l1-tekara"
+    ],
     "id": "learning-support-cb029e617e68",
     "kanji": [
       {
@@ -29391,6 +30745,9 @@
   },
   {
     "forms": [],
+    "grammarIds": [
+      "l5-ni-yotte"
+    ],
     "id": "learning-support-d00ef0a9d527",
     "kanji": [
       {
@@ -29426,6 +30783,9 @@
   },
   {
     "forms": [],
+    "grammarIds": [
+      "l5-kara-koto"
+    ],
     "id": "learning-support-d11d9a620724",
     "kanji": [
       {
@@ -29812,6 +31172,9 @@
   },
   {
     "forms": [],
+    "grammarIds": [
+      "l6-sae"
+    ],
     "id": "learning-support-d68e6616e9c6",
     "kanji": [
       {
@@ -29928,6 +31291,9 @@
   },
   {
     "forms": [],
+    "grammarIds": [
+      "l4-hanmen"
+    ],
     "id": "learning-support-d8fe6a260322",
     "kanji": [
       {
@@ -30727,6 +32093,9 @@
   },
   {
     "forms": [],
+    "grammarIds": [
+      "l7-toiu-koto"
+    ],
     "id": "learning-support-e706075e850e",
     "kanji": [
       {
@@ -30823,6 +32192,9 @@
   },
   {
     "forms": [],
+    "grammarIds": [
+      "l12-teineigo"
+    ],
     "id": "learning-support-e8f22989ca5c",
     "kanji": [
       {
@@ -31020,6 +32392,9 @@
   },
   {
     "forms": [],
+    "grammarIds": [
+      "l7-tte"
+    ],
     "id": "learning-support-ed36e1d3a7ba",
     "kanji": [
       {
@@ -31310,6 +32685,10 @@
   },
   {
     "forms": [],
+    "grammarIds": [
+      "l11-you-to-suru",
+      "l3-kurai"
+    ],
     "id": "learning-support-f17fa2d7e1a8",
     "kanji": [
       {
@@ -31822,6 +33201,9 @@
   },
   {
     "forms": [],
+    "grammarIds": [
+      "l7-tte"
+    ],
     "id": "learning-support-fcd46c5e08f5",
     "kanji": [
       {
@@ -31960,6 +33342,10 @@
   },
   {
     "forms": [],
+    "grammarIds": [
+      "l8-koto-wa-ga",
+      "l8-wake-dewa-nai"
+    ],
     "id": "learning-support-fcea29f1923b",
     "kanji": [
       {
@@ -32053,6 +33439,10 @@
   },
   {
     "forms": [],
+    "grammarIds": [
+      "l12-kenjougo-1",
+      "l12-kenjougo-2"
+    ],
     "id": "learning-support-ff30b3309756",
     "kanji": [
       {
@@ -32119,6 +33509,10 @@
   },
   {
     "forms": [],
+    "grammarIds": [
+      "l2-hodo",
+      "l5-tame"
+    ],
     "id": "machi",
     "kanji": [
       {
@@ -32266,6 +33660,9 @@
   },
   {
     "forms": [],
+    "grammarIds": [
+      "l10-meirei-kinshi"
+    ],
     "id": "meirei-suru",
     "kanji": [
       {
@@ -32295,6 +33692,9 @@
   },
   {
     "forms": [],
+    "grammarIds": [
+      "l1-tekara"
+    ],
     "id": "menkyo",
     "kanji": [
       {
@@ -32324,6 +33724,9 @@
   },
   {
     "forms": [],
+    "grammarIds": [
+      "l9-to-ba-tara-ii"
+    ],
     "id": "meta-bakei",
     "kanji": [
       {
@@ -32347,6 +33750,9 @@
   },
   {
     "forms": [],
+    "grammarIds": [
+      "l10-meirei-kinshi"
+    ],
     "id": "meta-dan",
     "kanji": [
       {
@@ -32370,6 +33776,14 @@
   },
   {
     "forms": [],
+    "grammarIds": [
+      "l10-beki",
+      "l10-koto",
+      "l10-meirei-kinshi",
+      "l10-tara-doka",
+      "l9-te-moraitai",
+      "l9-to-ba-tara-ii"
+    ],
     "id": "meta-dou",
     "kanji": [
       {
@@ -32413,6 +33827,10 @@
   },
   {
     "forms": [],
+    "grammarIds": [
+      "l10-meirei-kinshi",
+      "l9-sasete-moraitai"
+    ],
     "id": "meta-doushi",
     "kanji": [
       {
@@ -32440,6 +33858,30 @@
   },
   {
     "forms": [],
+    "grammarIds": [
+      "l3-kurai",
+      "l4-hanmen",
+      "l4-ippo",
+      "l4-kawari-ni",
+      "l4-ni-taishite",
+      "l4-to-iu-yori",
+      "l5-kara-koto",
+      "l5-no-dakara",
+      "l5-okage-sei",
+      "l5-tame",
+      "l6-nara",
+      "l6-tewa-dewa",
+      "l7-iwareteiru",
+      "l7-toiu",
+      "l7-toiu-koto",
+      "l7-toka",
+      "l7-tte",
+      "l8-hazu-wake",
+      "l8-koto-wa-ga",
+      "l8-toha-kagiranai",
+      "l8-wake-dewa-nai",
+      "l9-to-ba-tara-ii"
+    ],
     "id": "meta-futsukei",
     "kanji": [
       {
@@ -32587,6 +34029,9 @@
   },
   {
     "forms": [],
+    "grammarIds": [
+      "l9-to-ba-tara-ii"
+    ],
     "id": "meta-genzaikei",
     "kanji": [
       {
@@ -32614,6 +34059,9 @@
   },
   {
     "forms": [],
+    "grammarIds": [
+      "l7-toiu-koto"
+    ],
     "id": "meta-inyoukei",
     "kanji": [
       {
@@ -32637,6 +34085,9 @@
   },
   {
     "forms": [],
+    "grammarIds": [
+      "l7-toiu-koto"
+    ],
     "id": "meta-irai",
     "kanji": [
       {
@@ -32660,6 +34111,14 @@
   },
   {
     "forms": [],
+    "grammarIds": [
+      "l10-beki",
+      "l10-koto",
+      "l10-meirei-kinshi",
+      "l3-kurai-nara",
+      "l3-ni-kagiru",
+      "l9-to-ba-tara-ii"
+    ],
     "id": "meta-jishokei",
     "kanji": [
       {
@@ -32763,6 +34222,9 @@
   },
   {
     "forms": [],
+    "grammarIds": [
+      "l9-to-ba-tara-ii"
+    ],
     "id": "meta-jogen",
     "kanji": [
       {
@@ -32786,6 +34248,9 @@
   },
   {
     "forms": [],
+    "grammarIds": [
+      "l10-beki"
+    ],
     "id": "meta-kako",
     "kanji": [
       {
@@ -32809,6 +34274,9 @@
   },
   {
     "forms": [],
+    "grammarIds": [
+      "l9-sasete-moraitai"
+    ],
     "id": "meta-kei",
     "kanji": [
       {
@@ -32832,6 +34300,9 @@
   },
   {
     "forms": [],
+    "grammarIds": [
+      "l10-meirei-kinshi"
+    ],
     "id": "meta-kinshi",
     "kanji": [
       {
@@ -32855,6 +34326,9 @@
   },
   {
     "forms": [],
+    "grammarIds": [
+      "l10-beki"
+    ],
     "id": "meta-koukai",
     "kanji": [
       {
@@ -32878,6 +34352,9 @@
   },
   {
     "forms": [],
+    "grammarIds": [
+      "l12-kenjougo-2"
+    ],
     "id": "meta-mairu",
     "kanji": [
       {
@@ -32901,6 +34378,9 @@
   },
   {
     "forms": [],
+    "grammarIds": [
+      "l10-beki"
+    ],
     "id": "meta-meishi",
     "kanji": [
       {
@@ -32924,6 +34404,13 @@
   },
   {
     "forms": [],
+    "grammarIds": [
+      "l10-koto",
+      "l3-ni-kagiru",
+      "l8-nai-koto-wa-nai",
+      "l9-te-moraitai",
+      "l9-to-ba-tara-ii"
+    ],
     "id": "meta-naikei",
     "kanji": [
       {
@@ -32963,6 +34450,9 @@
   },
   {
     "forms": [],
+    "grammarIds": [
+      "l3-kurai-nara"
+    ],
     "id": "meta-sentaku",
     "kanji": [
       {
@@ -32986,6 +34476,9 @@
   },
   {
     "forms": [],
+    "grammarIds": [
+      "l9-sasete-moraitai"
+    ],
     "id": "meta-shieki",
     "kanji": [
       {
@@ -33017,6 +34510,9 @@
   },
   {
     "forms": [],
+    "grammarIds": [
+      "l10-tara-doka"
+    ],
     "id": "meta-takei",
     "kanji": [
       {
@@ -33040,6 +34536,10 @@
   },
   {
     "forms": [],
+    "grammarIds": [
+      "l9-sasete-moraitai",
+      "l9-te-moraitai"
+    ],
     "id": "meta-tekei",
     "kanji": [
       {
@@ -33111,6 +34611,9 @@
   },
   {
     "forms": [],
+    "grammarIds": [
+      "l9-sasete-moraitai"
+    ],
     "id": "mijikai",
     "kanji": [
       {
@@ -33135,6 +34638,9 @@
   },
   {
     "forms": [],
+    "grammarIds": [
+      "l4-ni-taishite"
+    ],
     "id": "mina",
     "kanji": [
       {
@@ -33163,6 +34669,12 @@
   },
   {
     "forms": [],
+    "grammarIds": [
+      "l1-aida",
+      "l1-tokoro",
+      "l3-ni-kagiru",
+      "l9-te-moraitai"
+    ],
     "id": "miru",
     "kanji": [
       {
@@ -33267,6 +34779,13 @@
   },
   {
     "forms": [],
+    "grammarIds": [
+      "l3-kurai",
+      "l7-toiu-koto",
+      "l7-toka",
+      "l8-hazu-wake",
+      "l8-nai-koto-wa-nai"
+    ],
     "id": "mise",
     "kanji": [
       {
@@ -33355,6 +34874,9 @@
   },
   {
     "forms": [],
+    "grammarIds": [
+      "l11-you-ni-suru"
+    ],
     "id": "mizu",
     "kanji": [
       {
@@ -33386,6 +34908,9 @@
   },
   {
     "forms": [],
+    "grammarIds": [
+      "l3-ni-kagiru"
+    ],
     "id": "mizuumi",
     "kanji": [
       {
@@ -33409,6 +34934,10 @@
   },
   {
     "forms": [],
+    "grammarIds": [
+      "l1-tekara",
+      "l2-hodo"
+    ],
     "id": "mono",
     "kanji": [
       {
@@ -33547,6 +35076,9 @@
   },
   {
     "forms": [],
+    "grammarIds": [
+      "l1-uchini"
+    ],
     "id": "muzukashii",
     "kanji": [
       {
@@ -33595,6 +35127,11 @@
   },
   {
     "forms": [],
+    "grammarIds": [
+      "l1-tokoro",
+      "l4-ni-taishite",
+      "l7-iwareteiru"
+    ],
     "id": "naka",
     "kanji": [
       {
@@ -33767,6 +35304,9 @@
   },
   {
     "forms": [],
+    "grammarIds": [
+      "l1-tekara"
+    ],
     "id": "naoru",
     "kanji": [
       {
@@ -33791,6 +35331,9 @@
   },
   {
     "forms": [],
+    "grammarIds": [
+      "l1-tokoro"
+    ],
     "id": "naru",
     "kanji": [
       {
@@ -33878,6 +35421,9 @@
   },
   {
     "forms": [],
+    "grammarIds": [
+      "l1-uchini"
+    ],
     "id": "nemuru",
     "kanji": [
       {
@@ -33938,6 +35484,9 @@
   },
   {
     "forms": [],
+    "grammarIds": [
+      "l4-ippo"
+    ],
     "id": "nigate",
     "kanji": [
       {
@@ -34169,6 +35718,10 @@
   },
   {
     "forms": [],
+    "grammarIds": [
+      "l1-aida",
+      "l1-uchini"
+    ],
     "id": "niwa",
     "kanji": [
       {
@@ -34213,6 +35766,9 @@
   },
   {
     "forms": [],
+    "grammarIds": [
+      "l1-uchini"
+    ],
     "id": "noboru",
     "kanji": [
       {
@@ -34392,6 +35948,9 @@
   },
   {
     "forms": [],
+    "grammarIds": [
+      "l2-tabini"
+    ],
     "id": "okoru",
     "kanji": [
       {
@@ -34451,6 +36010,9 @@
   },
   {
     "forms": [],
+    "grammarIds": [
+      "l2-tabini"
+    ],
     "id": "omizu",
     "kanji": [
       {
@@ -34509,6 +36071,9 @@
   },
   {
     "forms": [],
+    "grammarIds": [
+      "l4-hanmen"
+    ],
     "id": "omoshiroi",
     "kanji": [
       {
@@ -34546,6 +36111,9 @@
   },
   {
     "forms": [],
+    "grammarIds": [
+      "l9-sasete-moraitai"
+    ],
     "id": "onaji",
     "kanji": [
       {
@@ -34609,6 +36177,9 @@
   },
   {
     "forms": [],
+    "grammarIds": [
+      "l1-uchini"
+    ],
     "id": "ongaku",
     "kanji": [
       {
@@ -34669,6 +36240,16 @@
   },
   {
     "forms": [],
+    "grammarIds": [
+      "l10-tara-doka",
+      "l2-hodo",
+      "l3-ni-kagiru",
+      "l4-hanmen",
+      "l4-ippo",
+      "l4-kawari-ni",
+      "l5-tame",
+      "l8-koto-wa-ga"
+    ],
     "id": "ooi",
     "kanji": [
       {
@@ -34765,6 +36346,9 @@
   },
   {
     "forms": [],
+    "grammarIds": [
+      "l8-hazu-wake"
+    ],
     "id": "ookii",
     "kanji": [
       {
@@ -34817,6 +36401,9 @@
   },
   {
     "forms": [],
+    "grammarIds": [
+      "l4-ni-taishite"
+    ],
     "id": "osaka",
     "kanji": [
       {
@@ -34912,6 +36499,11 @@
   },
   {
     "forms": [],
+    "grammarIds": [
+      "l10-beki",
+      "l5-okage-sei",
+      "l8-nai-koto-wa-nai"
+    ],
     "id": "owaru",
     "kanji": [
       {
@@ -35188,6 +36780,9 @@
   },
   {
     "forms": [],
+    "grammarIds": [
+      "l1-tekara"
+    ],
     "id": "p3l1-undou",
     "kanji": [
       {
@@ -35400,6 +36995,10 @@
   },
   {
     "forms": [],
+    "grammarIds": [
+      "l7-toiu-koto",
+      "l8-koto-wa-ga"
+    ],
     "id": "p3l2-tegami",
     "kanji": [
       {
@@ -36497,6 +38096,9 @@
   },
   {
     "forms": [],
+    "grammarIds": [
+      "l4-ippo"
+    ],
     "id": "p3l4-yononaka",
     "kanji": [
       {
@@ -36875,6 +38477,9 @@
   },
   {
     "forms": [],
+    "grammarIds": [
+      "l1-tekara"
+    ],
     "id": "p4-l1-unten",
     "kanji": [
       {
@@ -37893,6 +39498,9 @@
   },
   {
     "forms": [],
+    "grammarIds": [
+      "l8-hazu-wake"
+    ],
     "id": "part1-word-021c00423f04",
     "kanji": [
       {
@@ -37921,6 +39529,9 @@
         "surface": "乗れなかった"
       }
     ],
+    "grammarIds": [
+      "l6-ba-tara-nara"
+    ],
     "id": "part1-word-0b1e7f1c068f",
     "kanji": [
       {
@@ -37944,6 +39555,9 @@
   },
   {
     "forms": [],
+    "grammarIds": [
+      "l4-to-iu-yori"
+    ],
     "id": "part1-word-1006729a359c",
     "kanji": [
       {
@@ -37982,6 +39596,9 @@
         "surface": "貸して"
       }
     ],
+    "grammarIds": [
+      "l6-nara"
+    ],
     "id": "part1-word-1122cac4095f",
     "kanji": [
       {
@@ -38009,6 +39626,11 @@
         "reading": "わるく",
         "surface": "悪く"
       }
+    ],
+    "grammarIds": [
+      "l10-tara-doka",
+      "l5-kara-koto",
+      "l9-to-ba-tara-ii"
     ],
     "id": "part1-word-13b6dbec0365",
     "kanji": [
@@ -38046,6 +39668,9 @@
         "surface": "迷わず"
       }
     ],
+    "grammarIds": [
+      "l2-toori"
+    ],
     "id": "part1-word-1d221f2decc0",
     "kanji": [
       {
@@ -38073,6 +39698,12 @@
         "reading": "かえら",
         "surface": "帰ら"
       }
+    ],
+    "grammarIds": [
+      "l11-you-ni-suru",
+      "l4-kawari-ni",
+      "l4-ni-taishite",
+      "l9-sasete-moraitai"
     ],
     "id": "part1-word-1d22f1d02306",
     "kanji": [
@@ -38109,6 +39740,9 @@
   },
   {
     "forms": [],
+    "grammarIds": [
+      "l5-ni-yotte"
+    ],
     "id": "part1-word-1d48dc95a366",
     "kanji": [
       {
@@ -38140,6 +39774,10 @@
         "reading": "うけた",
         "surface": "受けた"
       }
+    ],
+    "grammarIds": [
+      "l10-tara-doka",
+      "l6-tatoe"
     ],
     "id": "part1-word-20989c0cb5dd",
     "kanji": [
@@ -38177,6 +39815,9 @@
         "surface": "行わ"
       }
     ],
+    "grammarIds": [
+      "l7-toiu"
+    ],
     "id": "part1-word-2139fab2183a",
     "kanji": [
       {
@@ -38200,6 +39841,10 @@
   },
   {
     "forms": [],
+    "grammarIds": [
+      "l5-no-dakara",
+      "l7-toiu"
+    ],
     "id": "part1-word-230d5c734305",
     "kanji": [
       {
@@ -38227,6 +39872,9 @@
   },
   {
     "forms": [],
+    "grammarIds": [
+      "l3-kurai"
+    ],
     "id": "part1-word-23afff6d4bbe",
     "kanji": [
       {
@@ -38254,6 +39902,9 @@
         "reading": "はしれ",
         "surface": "走れ"
       }
+    ],
+    "grammarIds": [
+      "l4-to-iu-yori"
     ],
     "id": "part1-word-244e13892048",
     "kanji": [
@@ -38283,6 +39934,9 @@
         "surface": "怒ら"
       }
     ],
+    "grammarIds": [
+      "l11-koto-ni-suru"
+    ],
     "id": "part1-word-2e0f32c097f5",
     "kanji": [
       {
@@ -38311,6 +39965,10 @@
         "surface": "来い"
       }
     ],
+    "grammarIds": [
+      "l10-meirei-kinshi",
+      "l2-tabini"
+    ],
     "id": "part1-word-2e2abd26ca43",
     "kanji": [
       {
@@ -38338,6 +39996,10 @@
   },
   {
     "forms": [],
+    "grammarIds": [
+      "l10-koto",
+      "l7-toiu"
+    ],
     "id": "part1-word-319e218950c1",
     "kanji": [
       {
@@ -38370,6 +40032,9 @@
         "surface": "笑わないで"
       }
     ],
+    "grammarIds": [
+      "l5-no-dakara"
+    ],
     "id": "part1-word-327c67b8308d",
     "kanji": [
       {
@@ -38397,6 +40062,10 @@
         "reading": "ねん",
         "surface": "年"
       }
+    ],
+    "grammarIds": [
+      "l12-sonkeigo",
+      "l7-toiu"
     ],
     "id": "part1-word-358fc382cb32",
     "kanji": [
@@ -38430,6 +40099,9 @@
         "surface": "出かけた"
       }
     ],
+    "grammarIds": [
+      "l1-aida"
+    ],
     "id": "part1-word-375cfbefdd6b",
     "kanji": [
       {
@@ -38461,6 +40133,10 @@
         "reading": "かぎります",
         "surface": "限ります"
       }
+    ],
+    "grammarIds": [
+      "l3-ni-kagiru",
+      "l8-toha-kagiranai"
     ],
     "id": "part1-word-382bde5adf63",
     "kanji": [
@@ -38506,6 +40182,9 @@
         "surface": "撮るなら"
       }
     ],
+    "grammarIds": [
+      "l3-ni-kagiru"
+    ],
     "id": "part1-word-4cc27797ba98",
     "kanji": [
       {
@@ -38534,6 +40213,9 @@
         "surface": "痛く"
       }
     ],
+    "grammarIds": [
+      "l11-you-to-suru"
+    ],
     "id": "part1-word-4dae36779424",
     "kanji": [
       {
@@ -38557,6 +40239,9 @@
   },
   {
     "forms": [],
+    "grammarIds": [
+      "l1-aida"
+    ],
     "id": "part1-word-4dcfec8f3b9d",
     "kanji": [
       {
@@ -38594,6 +40279,9 @@
         "surface": "合わない"
       }
     ],
+    "grammarIds": [
+      "l3-kurai-nara"
+    ],
     "id": "part1-word-54e1f7a772dd",
     "kanji": [
       {
@@ -38622,6 +40310,9 @@
         "surface": "勧めて"
       }
     ],
+    "grammarIds": [
+      "l11-you-to-suru"
+    ],
     "id": "part1-word-5a0ee38ab2a8",
     "kanji": [],
     "meanings": [
@@ -38639,6 +40330,11 @@
   },
   {
     "forms": [],
+    "grammarIds": [
+      "l11-you-ni-suru",
+      "l12-sonkeigo",
+      "l7-toka"
+    ],
     "id": "part1-word-6365c5ac4707",
     "kanji": [
       {
@@ -38675,6 +40371,9 @@
         "surface": "変えたら"
       }
     ],
+    "grammarIds": [
+      "l10-tara-doka"
+    ],
     "id": "part1-word-64e3e1674044",
     "kanji": [
       {
@@ -38706,6 +40405,15 @@
         "reading": "いって",
         "surface": "行って"
       }
+    ],
+    "grammarIds": [
+      "l11-koto-ni-suru",
+      "l3-kurai-nara",
+      "l4-ni-taishite",
+      "l5-tame",
+      "l6-tewa-dewa",
+      "l7-tte",
+      "l9-sasete-moraitai"
     ],
     "id": "part1-word-66e4692df7b6",
     "kanji": [
@@ -38759,6 +40467,9 @@
         "surface": "間に合って"
       }
     ],
+    "grammarIds": [
+      "l6-ba-tara-nara"
+    ],
     "id": "part1-word-675232ef057b",
     "kanji": [
       {
@@ -38792,6 +40503,10 @@
         "surface": "決め"
       }
     ],
+    "grammarIds": [
+      "l1-tekara",
+      "l10-beki"
+    ],
     "id": "part1-word-6a98f898ab70",
     "kanji": [
       {
@@ -38819,6 +40534,9 @@
   },
   {
     "forms": [],
+    "grammarIds": [
+      "l4-hanmen"
+    ],
     "id": "part1-word-6b5522979276",
     "kanji": [
       {
@@ -38859,6 +40577,9 @@
   },
   {
     "forms": [],
+    "grammarIds": [
+      "l7-tte"
+    ],
     "id": "part1-word-6c4661d6728e",
     "kanji": [
       {
@@ -38886,6 +40607,14 @@
         "reading": "つくら",
         "surface": "作ら"
       }
+    ],
+    "grammarIds": [
+      "l11-you-ni-suru",
+      "l2-toori",
+      "l3-kurai-nara",
+      "l3-kurai-wa-nai",
+      "l8-wake-dewa-nai",
+      "l9-sasete-moraitai"
     ],
     "id": "part1-word-6e922a750ec0",
     "kanji": [
@@ -38935,6 +40664,9 @@
         "surface": "戻れない"
       }
     ],
+    "grammarIds": [
+      "l7-toiu-koto"
+    ],
     "id": "part1-word-75082ab67bcf",
     "kanji": [
       {
@@ -38958,6 +40690,9 @@
   },
   {
     "forms": [],
+    "grammarIds": [
+      "l12-kenjougo-1"
+    ],
     "id": "part1-word-781627dce1a8",
     "kanji": [
       {
@@ -38989,6 +40724,9 @@
   },
   {
     "forms": [],
+    "grammarIds": [
+      "l7-tte"
+    ],
     "id": "part1-word-799a9f79d2f0",
     "kanji": [
       {
@@ -39021,6 +40759,9 @@
         "reading": "ひきうけなけれ",
         "surface": "引き受けなけれ"
       }
+    ],
+    "grammarIds": [
+      "l9-to-ba-tara-ii"
     ],
     "id": "part1-word-7c1b86324386",
     "kanji": [
@@ -39055,6 +40796,9 @@
         "surface": "頼ま"
       }
     ],
+    "grammarIds": [
+      "l4-to-iu-yori"
+    ],
     "id": "part1-word-7e9d38afeba0",
     "kanji": [
       {
@@ -39078,6 +40822,9 @@
   },
   {
     "forms": [],
+    "grammarIds": [
+      "l5-ni-yotte"
+    ],
     "id": "part1-word-8208cbb873b3",
     "kanji": [
       {
@@ -39105,6 +40852,13 @@
         "reading": "たべ",
         "surface": "食べ"
       }
+    ],
+    "grammarIds": [
+      "l1-uchini",
+      "l11-you-ni-suru",
+      "l2-tabini",
+      "l3-kurai",
+      "l9-sasete-moraitai"
     ],
     "id": "part1-word-86f67e2dc3eb",
     "kanji": [
@@ -39145,6 +40899,9 @@
   },
   {
     "forms": [],
+    "grammarIds": [
+      "l9-to-ba-tara-ii"
+    ],
     "id": "part1-word-8b467ceb0fa1",
     "kanji": [
       {
@@ -39173,6 +40930,9 @@
   },
   {
     "forms": [],
+    "grammarIds": [
+      "l11-tsumori"
+    ],
     "id": "part1-word-8b76d100eff6",
     "kanji": [
       {
@@ -39206,6 +40966,10 @@
         "surface": "借り"
       }
     ],
+    "grammarIds": [
+      "l12-kenjougo-1",
+      "l8-wake-dewa-nai"
+    ],
     "id": "part1-word-8cd440a18106",
     "kanji": [
       {
@@ -39233,6 +40997,9 @@
   },
   {
     "forms": [],
+    "grammarIds": [
+      "l12-kenjougo-2"
+    ],
     "id": "part1-word-8e7b94555518",
     "kanji": [
       {
@@ -39256,6 +41023,9 @@
   },
   {
     "forms": [],
+    "grammarIds": [
+      "l9-to-ba-tara-ii"
+    ],
     "id": "part1-word-94696ff83dc6",
     "kanji": [
       {
@@ -39284,6 +41054,9 @@
   },
   {
     "forms": [],
+    "grammarIds": [
+      "l5-kara-koto"
+    ],
     "id": "part1-word-94c207682133",
     "kanji": [
       {
@@ -39317,6 +41090,9 @@
         "surface": "楽しめ"
       }
     ],
+    "grammarIds": [
+      "l8-koto-wa-ga"
+    ],
     "id": "part1-word-965a2f5b090f",
     "kanji": [
       {
@@ -39344,6 +41120,10 @@
         "reading": "かえた",
         "surface": "買えた"
       }
+    ],
+    "grammarIds": [
+      "l6-ba-tara-nara",
+      "l8-hazu-wake"
     ],
     "id": "part1-word-99ffe7bdb3bd",
     "kanji": [
@@ -39377,6 +41157,9 @@
         "surface": "止まれ"
       }
     ],
+    "grammarIds": [
+      "l10-meirei-kinshi"
+    ],
     "id": "part1-word-9d1aa046d6da",
     "kanji": [
       {
@@ -39404,6 +41187,10 @@
         "reading": "なん",
         "surface": "何"
       }
+    ],
+    "grammarIds": [
+      "l11-koto-ni-suru",
+      "l12-sonkeigo"
     ],
     "id": "part1-word-9d47958486c4",
     "kanji": [
@@ -39445,6 +41232,9 @@
         "surface": "続いた"
       }
     ],
+    "grammarIds": [
+      "l5-okage-sei"
+    ],
     "id": "part1-word-a1db204b87e6",
     "kanji": [
       {
@@ -39473,6 +41263,9 @@
         "surface": "泳げます"
       }
     ],
+    "grammarIds": [
+      "l8-koto-wa-ga"
+    ],
     "id": "part1-word-aab3f3ef3296",
     "kanji": [
       {
@@ -39496,6 +41289,9 @@
   },
   {
     "forms": [],
+    "grammarIds": [
+      "l9-sasete-moraitai"
+    ],
     "id": "part1-word-adf1208e305b",
     "kanji": [
       {
@@ -39529,6 +41325,9 @@
         "surface": "降りろ"
       }
     ],
+    "grammarIds": [
+      "l10-meirei-kinshi"
+    ],
     "id": "part1-word-ae00442122cf",
     "kanji": [
       {
@@ -39560,6 +41359,13 @@
         "reading": "いわ",
         "surface": "言わ"
       }
+    ],
+    "grammarIds": [
+      "l10-meirei-kinshi",
+      "l4-ippo",
+      "l6-sae",
+      "l7-iwareteiru",
+      "l9-sasete-moraitai"
     ],
     "id": "part1-word-ae0cc00f94c9",
     "kanji": [
@@ -39621,6 +41427,12 @@
         "surface": "思って"
       }
     ],
+    "grammarIds": [
+      "l10-beki",
+      "l3-kurai",
+      "l3-kurai-wa-nai",
+      "l9-te-moraitai"
+    ],
     "id": "part1-word-bad913ed8fe0",
     "kanji": [
       {
@@ -39661,6 +41473,11 @@
         "surface": "買わなけれ"
       }
     ],
+    "grammarIds": [
+      "l1-tekara",
+      "l11-koto-ni-suru",
+      "l6-tatoe"
+    ],
     "id": "part1-word-bdb125e5c61b",
     "kanji": [
       {
@@ -39697,6 +41514,9 @@
         "surface": "建て"
       }
     ],
+    "grammarIds": [
+      "l6-tewa-dewa"
+    ],
     "id": "part1-word-c5741f54d6eb",
     "kanji": [
       {
@@ -39720,6 +41540,9 @@
   },
   {
     "forms": [],
+    "grammarIds": [
+      "l7-toiu-koto"
+    ],
     "id": "part1-word-cd20f3cfa6af",
     "kanji": [
       {
@@ -39743,6 +41566,9 @@
   },
   {
     "forms": [],
+    "grammarIds": [
+      "l4-ippo"
+    ],
     "id": "part1-word-cfeca5e5ef2b",
     "kanji": [
       {
@@ -39776,6 +41602,9 @@
         "surface": "折れ"
       }
     ],
+    "grammarIds": [
+      "l3-kurai"
+    ],
     "id": "part1-word-d517e5d931b9",
     "kanji": [
       {
@@ -39804,6 +41633,9 @@
         "surface": "住んで"
       }
     ],
+    "grammarIds": [
+      "l12-sonkeigo"
+    ],
     "id": "part1-word-d671097071c6",
     "kanji": [
       {
@@ -39831,6 +41663,9 @@
         "reading": "めしあがります",
         "surface": "召し上がります"
       }
+    ],
+    "grammarIds": [
+      "l12-sonkeigo"
     ],
     "id": "part1-word-d9c64cdfa1cf",
     "kanji": [
@@ -39869,6 +41704,9 @@
         "surface": "撮れます"
       }
     ],
+    "grammarIds": [
+      "l3-ni-kagiru"
+    ],
     "id": "part1-word-da271b731621",
     "kanji": [
       {
@@ -39896,6 +41734,9 @@
         "reading": "みせ",
         "surface": "見せ"
       }
+    ],
+    "grammarIds": [
+      "l12-kenjougo-1"
     ],
     "id": "part1-word-db35a99e2801",
     "kanji": [
@@ -39925,6 +41766,9 @@
         "surface": "深く"
       }
     ],
+    "grammarIds": [
+      "l4-kawari-ni"
+    ],
     "id": "part1-word-de718a81e956",
     "kanji": [
       {
@@ -39948,6 +41792,10 @@
   },
   {
     "forms": [],
+    "grammarIds": [
+      "l10-tara-doka",
+      "l6-sae"
+    ],
     "id": "part1-word-df6f68109abe",
     "kanji": [
       {
@@ -39985,6 +41833,10 @@
         "surface": "飲み"
       }
     ],
+    "grammarIds": [
+      "l10-meirei-kinshi",
+      "l4-ni-taishite"
+    ],
     "id": "part1-word-e0bcec9bd956",
     "kanji": [
       {
@@ -40016,6 +41868,10 @@
         "reading": "きまった",
         "surface": "決まった"
       }
+    ],
+    "grammarIds": [
+      "l5-okage-sei",
+      "l7-toiu-koto"
     ],
     "id": "part1-word-e4e7e09df079",
     "kanji": [
@@ -40049,6 +41905,9 @@
         "surface": "走れ"
       }
     ],
+    "grammarIds": [
+      "l10-meirei-kinshi"
+    ],
     "id": "part1-word-e881d8911391",
     "kanji": [
       {
@@ -40077,6 +41936,9 @@
         "surface": "行け"
       }
     ],
+    "grammarIds": [
+      "l6-nara"
+    ],
     "id": "part1-word-e964e7f30aec",
     "kanji": [
       {
@@ -40104,6 +41966,13 @@
         "reading": "よみ",
         "surface": "読み"
       }
+    ],
+    "grammarIds": [
+      "l10-koto",
+      "l5-ni-yotte",
+      "l6-nara",
+      "l6-sae",
+      "l8-koto-wa-ga"
     ],
     "id": "part1-word-eb7e67590252",
     "kanji": [
@@ -40144,6 +42013,9 @@
   },
   {
     "forms": [],
+    "grammarIds": [
+      "l3-kurai-wa-nai"
+    ],
     "id": "part1-word-ee9753fd86c1",
     "kanji": [
       {
@@ -40177,6 +42049,11 @@
         "surface": "教えて"
       }
     ],
+    "grammarIds": [
+      "l12-kenjougo-1",
+      "l2-toori",
+      "l4-kawari-ni"
+    ],
     "id": "part1-word-f2fa049fdd83",
     "kanji": [
       {
@@ -40208,6 +42085,10 @@
   },
   {
     "forms": [],
+    "grammarIds": [
+      "l2-hodo",
+      "l2-tsuideni"
+    ],
     "id": "part1-word-f5a8d92a636c",
     "kanji": [
       {
@@ -40245,6 +42126,11 @@
         "surface": "書き"
       }
     ],
+    "grammarIds": [
+      "l10-beki",
+      "l10-koto",
+      "l12-sonkeigo"
+    ],
     "id": "part1-word-f7c7f35d9e38",
     "kanji": [
       {
@@ -40281,6 +42167,9 @@
         "surface": "歩けない"
       }
     ],
+    "grammarIds": [
+      "l8-nai-koto-wa-nai"
+    ],
     "id": "part1-word-f8ca22b877a5",
     "kanji": [
       {
@@ -40304,6 +42193,9 @@
   },
   {
     "forms": [],
+    "grammarIds": [
+      "l9-te-moraitai"
+    ],
     "id": "part1-word-fc60a66d5cd0",
     "kanji": [
       {
@@ -42160,6 +44052,9 @@
   },
   {
     "forms": [],
+    "grammarIds": [
+      "l8-hazu-wake"
+    ],
     "id": "renshu-suru",
     "kanji": [
       {
@@ -42215,6 +44110,9 @@
   },
   {
     "forms": [],
+    "grammarIds": [
+      "l4-hanmen"
+    ],
     "id": "review-p3-seikatsu",
     "kanji": [
       {
@@ -42238,6 +44136,9 @@
   },
   {
     "forms": [],
+    "grammarIds": [
+      "l1-aida"
+    ],
     "id": "rusu",
     "kanji": [
       {
@@ -42397,6 +44298,9 @@
   },
   {
     "forms": [],
+    "grammarIds": [
+      "l4-kawari-ni"
+    ],
     "id": "ryoshin",
     "kanji": [
       {
@@ -42453,6 +44357,9 @@
   },
   {
     "forms": [],
+    "grammarIds": [
+      "l11-tsumori"
+    ],
     "id": "saki",
     "kanji": [
       {
@@ -42501,6 +44408,9 @@
   },
   {
     "forms": [],
+    "grammarIds": [
+      "l3-kurai-nara"
+    ],
     "id": "sanka-suru",
     "kanji": [
       {
@@ -42530,6 +44440,9 @@
   },
   {
     "forms": [],
+    "grammarIds": [
+      "l2-tsuideni"
+    ],
     "id": "sanpo",
     "kanji": [
       {
@@ -42600,6 +44513,9 @@
   },
   {
     "forms": [],
+    "grammarIds": [
+      "l3-kurai-nara"
+    ],
     "id": "seikatsu-suru",
     "kanji": [
       {
@@ -42629,6 +44545,9 @@
   },
   {
     "forms": [],
+    "grammarIds": [
+      "l5-no-dakara"
+    ],
     "id": "sekai",
     "kanji": [
       {
@@ -42669,6 +44588,9 @@
   },
   {
     "forms": [],
+    "grammarIds": [
+      "l4-ippo"
+    ],
     "id": "sekinin",
     "kanji": [
       {
@@ -42705,6 +44627,9 @@
   },
   {
     "forms": [],
+    "grammarIds": [
+      "l3-kurai"
+    ],
     "id": "senaka",
     "kanji": [
       {
@@ -42898,6 +44823,9 @@
   },
   {
     "forms": [],
+    "grammarIds": [
+      "l3-kurai-nara"
+    ],
     "id": "setsumeikai",
     "kanji": [
       {
@@ -42936,6 +44864,10 @@
   },
   {
     "forms": [],
+    "grammarIds": [
+      "l1-aida",
+      "l4-ippo"
+    ],
     "id": "sewa",
     "kanji": [
       {
@@ -42969,6 +44901,9 @@
   },
   {
     "forms": [],
+    "grammarIds": [
+      "l4-to-iu-yori"
+    ],
     "id": "shacho",
     "kanji": [
       {
@@ -43265,6 +45200,9 @@
   },
   {
     "forms": [],
+    "grammarIds": [
+      "l2-tsuideni"
+    ],
     "id": "shiraberu",
     "kanji": [
       {
@@ -43313,6 +45251,10 @@
   },
   {
     "forms": [],
+    "grammarIds": [
+      "l5-ni-yotte",
+      "l8-toha-kagiranai"
+    ],
     "id": "shiru",
     "kanji": [
       {
@@ -43401,6 +45343,9 @@
   },
   {
     "forms": [],
+    "grammarIds": [
+      "l4-kawari-ni"
+    ],
     "id": "shogatsu",
     "kanji": [
       {
@@ -43503,6 +45448,9 @@
   },
   {
     "forms": [],
+    "grammarIds": [
+      "l2-hodo"
+    ],
     "id": "shoten",
     "kanji": [
       {
@@ -43560,6 +45508,9 @@
   },
   {
     "forms": [],
+    "grammarIds": [
+      "l1-tekara"
+    ],
     "id": "sodan-suru",
     "kanji": [
       {
@@ -43645,6 +45596,9 @@
   },
   {
     "forms": [],
+    "grammarIds": [
+      "l4-ni-taishite"
+    ],
     "id": "sotoasobi",
     "kanji": [
       {
@@ -43706,6 +45660,14 @@
   },
   {
     "forms": [],
+    "grammarIds": [
+      "l3-kurai-nara",
+      "l3-kurai-wa-nai",
+      "l4-ippo",
+      "l4-ni-taishite",
+      "l8-nai-koto-wa-nai",
+      "l8-wake-dewa-nai"
+    ],
     "id": "suki",
     "kanji": [
       {
@@ -44011,6 +45973,9 @@
   },
   {
     "forms": [],
+    "grammarIds": [
+      "l3-kurai-nara"
+    ],
     "id": "taikei",
     "kanji": [
       {
@@ -44093,6 +46058,13 @@
   },
   {
     "forms": [],
+    "grammarIds": [
+      "l1-tekara",
+      "l6-tatoe",
+      "l8-koto-wa-ga",
+      "l8-toha-kagiranai",
+      "l8-wake-dewa-nai"
+    ],
     "id": "takai",
     "kanji": [
       {
@@ -44185,6 +46157,10 @@
   },
   {
     "forms": [],
+    "grammarIds": [
+      "l3-kurai-wa-nai",
+      "l8-wake-dewa-nai"
+    ],
     "id": "tanoshii",
     "kanji": [
       {
@@ -44225,6 +46201,10 @@
   },
   {
     "forms": [],
+    "grammarIds": [
+      "l1-tokoro",
+      "l8-koto-wa-ga"
+    ],
     "id": "tanoshimi",
     "kanji": [
       {
@@ -44289,6 +46269,9 @@
   },
   {
     "forms": [],
+    "grammarIds": [
+      "l3-kurai"
+    ],
     "id": "tatsu",
     "kanji": [
       {
@@ -44316,6 +46299,10 @@
   },
   {
     "forms": [],
+    "grammarIds": [
+      "l4-ni-taishite",
+      "l5-okage-sei"
+    ],
     "id": "tenki",
     "kanji": [
       {
@@ -44389,6 +46376,9 @@
   },
   {
     "forms": [],
+    "grammarIds": [
+      "l1-tokoro"
+    ],
     "id": "tobitatsu",
     "kanji": [
       {
@@ -44446,6 +46436,9 @@
   },
   {
     "forms": [],
+    "grammarIds": [
+      "l4-hanmen"
+    ],
     "id": "tokai",
     "kanji": [
       {
@@ -44475,6 +46468,9 @@
   },
   {
     "forms": [],
+    "grammarIds": [
+      "l1-uchini"
+    ],
     "id": "tokeru",
     "kanji": [
       {
@@ -44499,6 +46495,9 @@
   },
   {
     "forms": [],
+    "grammarIds": [
+      "l3-ni-kagiru"
+    ],
     "id": "tokoro-place",
     "kanji": [
       {
@@ -44535,6 +46534,9 @@
   },
   {
     "forms": [],
+    "grammarIds": [
+      "l4-ni-taishite"
+    ],
     "id": "tokyo",
     "kanji": [
       {
@@ -44595,6 +46597,10 @@
   },
   {
     "forms": [],
+    "grammarIds": [
+      "l1-tekara",
+      "l11-you-to-suru"
+    ],
     "id": "toru",
     "kanji": [
       {
@@ -44664,6 +46670,9 @@
   },
   {
     "forms": [],
+    "grammarIds": [
+      "l2-hodo"
+    ],
     "id": "tsukaikata",
     "kanji": [
       {
@@ -44728,6 +46737,10 @@
   },
   {
     "forms": [],
+    "grammarIds": [
+      "l11-you-ni-suru",
+      "l6-nara"
+    ],
     "id": "tsukau",
     "kanji": [
       {
@@ -44903,6 +46916,9 @@
   },
   {
     "forms": [],
+    "grammarIds": [
+      "l2-toori"
+    ],
     "id": "tsuku",
     "kanji": [
       {
@@ -45046,6 +47062,9 @@
   },
   {
     "forms": [],
+    "grammarIds": [
+      "l2-tabini"
+    ],
     "id": "tsuyoi",
     "kanji": [
       {
@@ -45125,6 +47144,9 @@
   },
   {
     "forms": [],
+    "grammarIds": [
+      "l3-kurai"
+    ],
     "id": "ude",
     "kanji": [
       {
@@ -45173,6 +47195,9 @@
   },
   {
     "forms": [],
+    "grammarIds": [
+      "l4-ippo"
+    ],
     "id": "umareru",
     "kanji": [
       {
@@ -45261,6 +47286,9 @@
   },
   {
     "forms": [],
+    "grammarIds": [
+      "l1-tekara"
+    ],
     "id": "unten-suru",
     "kanji": [
       {
@@ -45290,6 +47318,9 @@
   },
   {
     "forms": [],
+    "grammarIds": [
+      "l2-hodo"
+    ],
     "id": "ureru",
     "kanji": [
       {
@@ -45545,6 +47576,9 @@
   },
   {
     "forms": [],
+    "grammarIds": [
+      "l4-kawari-ni"
+    ],
     "id": "yamada-san",
     "kanji": [
       {
@@ -45577,6 +47611,9 @@
   },
   {
     "forms": [],
+    "grammarIds": [
+      "l2-toori"
+    ],
     "id": "yarikata",
     "kanji": [
       {
@@ -45638,6 +47675,11 @@
   },
   {
     "forms": [],
+    "grammarIds": [
+      "l10-tara-doka",
+      "l7-tte",
+      "l9-to-ba-tara-ii"
+    ],
     "id": "yasumu",
     "kanji": [
       {
@@ -45862,6 +47904,9 @@
   },
   {
     "forms": [],
+    "grammarIds": [
+      "l3-kurai"
+    ],
     "id": "yureru",
     "kanji": [
       {
