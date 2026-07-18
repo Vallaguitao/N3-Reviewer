@@ -105,6 +105,33 @@
     return target?.closest?.("[data-vocab-id]")?.dataset.vocabId || "";
   }
 
+  function vocabularyBankHref(prefix, id) {
+    return (
+      `${prefix || "."}/vocabulary.html?vocab=${encodeURIComponent(id)}`
+    );
+  }
+
+  function requestedVocabularyId(search) {
+    return new URLSearchParams(String(search || "")).get("vocab") || "";
+  }
+
+  function positionAnchoredCard(anchorRect, cardRect, viewport) {
+    const margin = viewport.margin ?? 12;
+    const gap = viewport.gap ?? 10;
+    const maxLeft = Math.max(margin, viewport.width - margin - cardRect.width);
+    const left = Math.min(Math.max(anchorRect.left, margin), maxLeft);
+    const below = anchorRect.bottom + gap;
+    const above = anchorRect.top - gap - cardRect.height;
+    const placement = (
+      below + cardRect.height <= viewport.height - margin
+      || above < margin
+    ) ? "bottom" : "top";
+    const preferredTop = placement === "bottom" ? below : above;
+    const maxTop = Math.max(margin, viewport.height - margin - cardRect.height);
+    const top = Math.min(Math.max(preferredTop, margin), maxTop);
+    return { left, top, placement };
+  }
+
   function setDetailsOpen(doc, open) {
     const main = doc.querySelector("main");
     const shell = doc.querySelector("[data-vocab-details]");
@@ -126,7 +153,11 @@
     return `${prefix}/${href}`;
   }
 
-  function renderDetails(container, record) {
+  function renderDetails(
+    container,
+    record,
+    { vocabularyHref = "", desktopHint = false } = {},
+  ) {
     const doc = container.ownerDocument;
     container.replaceChildren();
 
@@ -183,6 +214,25 @@
       }
       container.append(occurrenceHeading, occurrenceList);
     }
+
+    if (vocabularyHref) {
+      const link = element(
+        doc,
+        "a",
+        "Go to this word in Vocabulary",
+        "button vocab-bank-link",
+      );
+      link.href = vocabularyHref;
+      link.dataset.vocabBankLink = "";
+      container.append(link);
+    } else if (desktopHint) {
+      container.append(element(
+        doc,
+        "p",
+        "Click the word to open it in Vocabulary.",
+        "vocab-desktop-hint",
+      ));
+    }
   }
 
   function renderResults(container, records) {
@@ -198,6 +248,7 @@
       );
       button.type = "button";
       button.dataset.vocabId = record.id;
+      button.id = `vocab-result-${record.id}`;
       button.lang = "ja";
       container.append(button);
     }
@@ -230,17 +281,51 @@
     const status = doc.querySelector("[data-vocab-status]");
     const empty = doc.querySelector("[data-vocab-empty]");
     const mobileQuery = root?.matchMedia?.("(max-width: 48rem)") || null;
+    const isVocabularyBank = Boolean(results);
+    const prefix = doc.body.dataset.rootPrefix || ".";
+    let deepLinkedRecord = isVocabularyBank
+      ? records.find(record => (
+        record.id === requestedVocabularyId(root?.location?.search)
+      )) || null
+      : null;
     let lastSelectedWord = null;
     let restoringFocus = false;
 
     populatePartOptions(part, records);
 
-    function selectRecord(id) {
+    function selectRecord(id, options = {}) {
       if (!details) return;
       renderDetails(
         details,
         records.find(record => record.id === id) || null,
+        options,
       );
+    }
+
+    function positionDetails() {
+      if (
+        isVocabularyBank
+        || mobileQuery?.matches
+        || !lastSelectedWord
+        || !detailsShell
+      ) return;
+      const anchorRect = lastSelectedWord.getBoundingClientRect();
+      const cardRect = detailsShell.getBoundingClientRect();
+      const position = positionAnchoredCard(anchorRect, cardRect, {
+        width: root.innerWidth,
+        height: root.innerHeight,
+        margin: 12,
+        gap: 10,
+      });
+      detailsShell.style.setProperty(
+        "--vocab-card-left",
+        `${position.left}px`,
+      );
+      detailsShell.style.setProperty(
+        "--vocab-card-top",
+        `${position.top}px`,
+      );
+      detailsShell.dataset.vocabPlacement = position.placement;
     }
 
     function selectFromTarget(target) {
@@ -249,38 +334,46 @@
       if (!id) return;
 
       lastSelectedWord = target.closest?.("[data-vocab-id]") || target;
-      selectRecord(id);
+      if (isVocabularyBank) {
+        selectRecord(id);
+        return;
+      }
+
+      const href = vocabularyBankHref(prefix, id);
+      selectRecord(id, mobileQuery?.matches
+        ? { vocabularyHref: href }
+        : { desktopHint: true });
+      lastSelectedWord.setAttribute?.("aria-expanded", "true");
       if (mobileQuery?.matches && detailsShell) {
         doc.dispatchEvent(new CustomEvent("study-overlay-open", {
           detail: { kind: "vocabulary" },
         }));
         setDetailsOpen(doc, true);
+      } else if (detailsShell) {
+        setDetailsOpen(doc, true);
+        positionDetails();
       }
     }
 
     function closeDetails(returnFocus) {
-      if (!mobileQuery?.matches) return;
+      if (isVocabularyBank) return;
+      const focusTarget = lastSelectedWord;
+      lastSelectedWord?.setAttribute?.("aria-expanded", "false");
       setDetailsOpen(doc, false);
-      if (returnFocus && lastSelectedWord?.focus) {
+      if (returnFocus && focusTarget?.focus) {
         restoringFocus = true;
-        lastSelectedWord.focus({ preventScroll: true });
+        focusTarget.focus({ preventScroll: true });
         restoringFocus = false;
       }
+      lastSelectedWord = null;
     }
 
     function syncViewport() {
-      if (!detailsShell) return;
-      if (mobileQuery?.matches) {
-        setDetailsOpen(doc, false);
-      } else {
-        doc.querySelector("main")?.removeAttribute(
-          "data-vocab-details-open",
-        );
-        detailsShell.removeAttribute("aria-hidden");
-      }
+      if (!detailsShell || isVocabularyBank) return;
+      closeDetails(false);
     }
 
-    function update() {
+    function update(useDeepLink = false) {
       if (!results) return;
       const filtered = filter(records, search?.value || "", {
         lessonId: lesson?.value === "all"
@@ -300,18 +393,30 @@
         key(b),
         sort?.value === "english" ? "en" : "ja",
       ));
-      renderResults(results, filtered);
+      const displayed = useDeepLink && deepLinkedRecord
+        ? [deepLinkedRecord]
+        : filtered;
+      renderResults(results, displayed);
       if (status) {
-        status.textContent = `${filtered.length} vocabulary entries`;
+        status.textContent = `${displayed.length} vocabulary entries`;
       }
       if (empty) {
-        empty.hidden = filtered.length !== 0;
+        empty.hidden = displayed.length !== 0;
+      }
+
+      if (useDeepLink && deepLinkedRecord) {
+        const result = [...results.querySelectorAll("[data-vocab-id]")]
+          .find(node => node.dataset.vocabId === deepLinkedRecord.id);
+        if (result) {
+          result.dataset.vocabDeepLinked = "";
+          selectRecord(deepLinkedRecord.id);
+          result.scrollIntoView?.({ block: "center" });
+          result.focus?.({ preventScroll: true });
+        }
       }
     }
 
     doc.addEventListener("click", event => {
-      selectFromTarget(event.target);
-
       if (event.target.closest("[data-close-vocab-details]")) {
         closeDetails(true);
         return;
@@ -323,17 +428,46 @@
         if (grammar) grammar.value = "all";
         if (part) part.value = "all";
         if (sort) sort.value = "reading";
+        deepLinkedRecord = null;
         update();
         search?.focus();
+        return;
+      }
+
+      const id = vocabIdFromTarget(event.target);
+      if (!id) return;
+      if (isVocabularyBank || mobileQuery?.matches) {
+        selectFromTarget(event.target);
+      } else if (root?.location) {
+        root.location.href = vocabularyBankHref(prefix, id);
       }
     });
 
     doc.addEventListener("mouseover", event => {
-      selectFromTarget(event.target);
+      if (!isVocabularyBank && !mobileQuery?.matches) {
+        selectFromTarget(event.target);
+      }
+    });
+
+    doc.addEventListener("mouseout", event => {
+      if (isVocabularyBank || mobileQuery?.matches) return;
+      const word = event.target.closest?.("[data-vocab-id]");
+      if (!word || word !== lastSelectedWord) return;
+      if (word.contains?.(event.relatedTarget)) return;
+      if (doc.activeElement === word) return;
+      closeDetails(false);
     });
 
     doc.addEventListener("focusin", event => {
       selectFromTarget(event.target);
+    });
+
+    doc.addEventListener("focusout", event => {
+      if (isVocabularyBank || mobileQuery?.matches) return;
+      const word = event.target.closest?.("[data-vocab-id]");
+      if (!word || word !== lastSelectedWord) return;
+      if (word.contains?.(event.relatedTarget)) return;
+      closeDetails(false);
     });
 
     doc.addEventListener("keydown", event => {
@@ -345,15 +479,20 @@
     });
 
     mobileQuery?.addEventListener?.("change", syncViewport);
+    root?.addEventListener?.("resize", positionDetails);
+    root?.addEventListener?.("scroll", positionDetails, { passive: true });
 
     [search, lesson, grammar, part, sort].filter(Boolean).forEach(control => {
       control.addEventListener(
         control.tagName === "INPUT" ? "input" : "change",
-        update,
+        () => {
+          deepLinkedRecord = null;
+          update();
+        },
       );
     });
 
-    update();
+    update(true);
     syncViewport();
   }
 
@@ -364,6 +503,9 @@
     filter,
     getById,
     vocabIdFromTarget,
+    vocabularyBankHref,
+    requestedVocabularyId,
+    positionAnchoredCard,
     setDetailsOpen,
     renderDetails,
     renderResults,

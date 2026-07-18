@@ -129,19 +129,35 @@
     question.append(toolbar, status, rationale);
   }
 
-  function announce(status, message, state) {
+  function announce(status, message, state, focusStatus = true) {
     status.textContent = message;
     if (state) {
       status.dataset.state = state;
     } else {
       delete status.dataset.state;
     }
-    status.focus();
+    if (focusStatus) status.focus();
   }
 
   function currentOrder(question) {
     return [...question.querySelectorAll("[data-order-token]")]
       .map(token => token.dataset.orderToken);
+  }
+
+  function questionIsAnswered(question, record = recordFor(question)) {
+    if (!question || !record) return false;
+    if (record.type === "ordering") {
+      return currentOrder(question).length === record.correct.length;
+    }
+    if (record.type === "multi-selection") {
+      return question.querySelectorAll("input:checked").length > 0;
+    }
+    if (record.type === "text") {
+      return Boolean(
+        question.querySelector("[data-text-answer]")?.value.trim(),
+      );
+    }
+    return Boolean(question.querySelector("input:checked"));
   }
 
   function revealRationales(question, record) {
@@ -184,10 +200,10 @@
     }
   }
 
-  function checkQuestion(question) {
+  function checkQuestion(question, { focusStatus = true } = {}) {
     const record = recordFor(question);
     const status = question.querySelector('[role="status"]');
-    if (!record || !status) return;
+    if (!record || !status) return null;
 
     let result;
     if (record.type === "ordering") {
@@ -197,30 +213,46 @@
           status,
           "Complete the sentence order before checking.",
           "incorrect",
+          focusStatus,
         );
-        return;
+        return null;
       }
       result = scoreOrder(selected, record.correct);
     } else if (record.type === "multi-selection") {
       const selected = [...question.querySelectorAll("input:checked")]
         .map(input => input.value);
       if (!selected.length) {
-        announce(status, "Select at least one answer first.", "incorrect");
-        return;
+        announce(
+          status,
+          "Select at least one answer first.",
+          "incorrect",
+          focusStatus,
+        );
+        return null;
       }
       result = scoreMultiSelection(selected, record.correct);
     } else if (record.type === "text") {
       const input = question.querySelector("[data-text-answer]");
       if (!input || !input.value.trim()) {
-        announce(status, "Enter an answer first.", "incorrect");
-        return;
+        announce(
+          status,
+          "Enter an answer first.",
+          "incorrect",
+          focusStatus,
+        );
+        return null;
       }
       result = scoreTextAnswer(input.value, record.correct);
     } else {
       const selected = question.querySelector("input:checked");
       if (!selected) {
-        announce(status, "Select an answer first.", "incorrect");
-        return;
+        announce(
+          status,
+          "Select an answer first.",
+          "incorrect",
+          focusStatus,
+        );
+        return null;
       }
       result = scoreSelection(selected.value, record.correct);
     }
@@ -232,10 +264,12 @@
         ? "Correct. Review the explanation to reinforce the pattern."
         : "Not yet. Review why each option does or does not fit.",
       question.dataset.result,
+      focusStatus,
     );
     revealRationales(question, record);
     revealGeneratedExplanation(question, record);
     updateSummary(question.closest("[data-quiz-set]"));
+    return result;
   }
 
   function resetQuestion(question) {
@@ -262,6 +296,9 @@
       delete status.dataset.state;
     }
     delete question.dataset.result;
+    setQuestionLocked(question, false);
+    const reset = question.querySelector("[data-reset-question]");
+    if (reset) reset.hidden = true;
 
     const list = question.querySelector("[data-order-list]");
     if (list?.dataset.originalOrder) {
@@ -275,6 +312,146 @@
       }
     }
     updateSummary(question.closest("[data-quiz-set]"));
+  }
+
+  function setQuestionLocked(question, locked) {
+    question.querySelectorAll(
+      "input, button[data-move-order]",
+    ).forEach(control => {
+      control.disabled = Boolean(locked);
+    });
+    question.toggleAttribute?.("data-locked", Boolean(locked));
+  }
+
+  function ensureSetControls(set) {
+    const doc = set.ownerDocument;
+    let summary = set.querySelector("[data-score-summary]");
+    if (!summary && doc) {
+      summary = doc.createElement("p");
+      summary.dataset.scoreSummary = "";
+      summary.setAttribute("role", "status");
+      summary.setAttribute("aria-live", "polite");
+      set.append(summary);
+    }
+
+    let submit = set.querySelector("[data-submit-set]");
+    const legacySubmit = set.querySelector("[data-check-set]");
+    if (!submit && legacySubmit) {
+      submit = legacySubmit;
+      delete submit.dataset.checkSet;
+      submit.dataset.submitSet = "";
+      submit.textContent = "Submit answers";
+    }
+
+    let reset = set.querySelector("[data-reset-set]");
+    if (!submit && doc) {
+      const toolbar = doc.createElement("div");
+      toolbar.className = "toolbar section-submit-controls";
+      toolbar.dataset.sectionControls = "";
+      submit = doc.createElement("button");
+      submit.type = "button";
+      submit.dataset.submitSet = "";
+      submit.textContent = "Submit answers";
+      reset = doc.createElement("button");
+      reset.type = "button";
+      reset.className = "secondary";
+      reset.dataset.resetSet = "";
+      reset.textContent = "Try again";
+      toolbar.append(submit, reset);
+      set.append(toolbar);
+    }
+    if (reset) reset.hidden = true;
+
+    const total = set.querySelectorAll("[data-quiz-id]").length;
+    if (summary && !summary.textContent.trim()) {
+      summary.textContent = `Answer all ${total} questions, then submit.`;
+    }
+    return { summary, submit, reset };
+  }
+
+  function submitQuizSet(set) {
+    const questions = [...set.querySelectorAll("[data-quiz-id]")];
+    const total = questions.length;
+    const answeredQuestions = questions.filter(question => (
+      questionIsAnswered(question)
+    ));
+    const answered = answeredQuestions.length;
+    const summary = set.querySelector("[data-score-summary]");
+    const submit = set.querySelector("[data-submit-set]");
+    const reset = set.querySelector("[data-reset-set]");
+
+    if (answered !== total) {
+      if (summary) {
+        summary.textContent = (
+          `Answer all ${total} questions before submitting. `
+          + `${answered} of ${total} answered.`
+        );
+      }
+      const firstUnanswered = questions.find(question => (
+        !questionIsAnswered(question)
+      ));
+      if (firstUnanswered) {
+        firstUnanswered.tabIndex = -1;
+        firstUnanswered.focus?.();
+      }
+      return { submitted: false, answered, correct: 0, total };
+    }
+
+    if (set.dataset.submitted === "true") {
+      const correct = questions.filter(
+        question => question.dataset.result === "correct",
+      ).length;
+      return { submitted: true, answered, correct, total };
+    }
+
+    let correct = 0;
+    for (const question of questions) {
+      const result = checkQuestion(question, { focusStatus: false });
+      if (result?.correct) correct += 1;
+      setQuestionLocked(question, true);
+    }
+
+    set.dataset.submitted = "true";
+    set.toggleAttribute?.("data-locked", true);
+    if (summary) {
+      summary.textContent = (
+        `${correct} correct out of ${total}. `
+        + "Review each correction and explanation below."
+      );
+    }
+    if (submit) submit.disabled = true;
+    if (reset) reset.hidden = false;
+    summary?.focus?.();
+    return { submitted: true, answered, correct, total };
+  }
+
+  function resetQuizSet(set) {
+    const questions = [...set.querySelectorAll("[data-quiz-id]")];
+    questions.forEach(question => resetQuestion(question));
+    delete set.dataset.submitted;
+    set.toggleAttribute?.("data-locked", false);
+    const summary = set.querySelector("[data-score-summary]");
+    const submit = set.querySelector("[data-submit-set]");
+    const reset = set.querySelector("[data-reset-set]");
+    if (summary) {
+      summary.textContent = (
+        `Answer all ${questions.length} questions, then submit.`
+      );
+    }
+    if (submit) submit.disabled = false;
+    if (reset) reset.hidden = true;
+  }
+
+  function activateImmediateQuestion(question) {
+    const result = checkQuestion(question, { focusStatus: false });
+    if (!result) return null;
+    setQuestionLocked(question, true);
+    const reset = question.querySelector("[data-reset-question]");
+    if (reset) {
+      reset.hidden = false;
+      reset.disabled = false;
+    }
+    return result;
   }
 
   function submitFullMock(set) {
@@ -385,6 +562,16 @@
       });
     });
 
+    doc.querySelectorAll(
+      '[data-quiz-mode="section-submit"]',
+    ).forEach(ensureSetControls);
+
+    doc.querySelectorAll(
+      '[data-quiz-mode="instant"] [data-reset-question]',
+    ).forEach(reset => {
+      reset.hidden = true;
+    });
+
     doc.addEventListener("click", event => {
       const check = event.target.closest("[data-check-question]");
       if (check) {
@@ -405,9 +592,18 @@
 
       const resetSet = event.target.closest("[data-reset-set]");
       if (resetSet) {
-        resetSet.closest("[data-quiz-set]")
-          ?.querySelectorAll("[data-quiz-id]")
-          .forEach(resetQuestion);
+        const set = resetSet.closest("[data-quiz-set]");
+        if (set?.dataset.quizMode === "section-submit") {
+          resetQuizSet(set);
+        } else {
+          set?.querySelectorAll("[data-quiz-id]")
+            .forEach(resetQuestion);
+        }
+      }
+
+      const submitSet = event.target.closest("[data-submit-set]");
+      if (submitSet) {
+        submitQuizSet(submitSet.closest("[data-quiz-set]"));
       }
 
       const move = event.target.closest("[data-move-order]");
@@ -425,6 +621,18 @@
         resetFullMock(newAttempt.closest("[data-full-mock]"));
       }
     });
+
+    doc.addEventListener("change", event => {
+      const question = event.target.closest?.("[data-quiz-id]");
+      const set = question?.closest?.('[data-quiz-mode="instant"]');
+      if (
+        set
+        && event.target.matches?.("input[type='radio']")
+        && !question.dataset.result
+      ) {
+        activateImmediateQuestion(question);
+      }
+    });
   }
 
   return {
@@ -436,10 +644,16 @@
     orderButtonLabel,
     quizRecords,
     recordForId,
+    questionIsAnswered,
     ensureHint,
     ensureControls,
+    ensureSetControls,
     checkQuestion,
     resetQuestion,
+    setQuestionLocked,
+    submitQuizSet,
+    resetQuizSet,
+    activateImmediateQuestion,
     submitFullMock,
     resetFullMock,
     bind,
