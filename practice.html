@@ -9,54 +9,69 @@
   <script defer src="assets/js/site.js"></script>
 </head>
 <body data-page="practice" data-root-prefix=".">
-  <a class="skip-link" href="#main-content">Skip to practice choices</a>
-  <header class="site-header">
-    <a class="site-mark" href="index.html">N3 Study Desk</a>
-    <nav aria-label="Primary">
-      <a href="index.html">Home</a>
-      <a href="lessons/index.html">Lessons</a>
-      <a href="vocabulary.html">Vocabulary</a>
-      <a aria-current="page" href="practice.html">Practice</a>
-      <a href="curriculum.html">Curriculum</a>
-      <a href="study-guide.html">How to study</a>
-    </nav>
-  </header>
+  <a class="skip-link" href="#main-content">Skip to assessment map</a>
+  <header class="site-header"><a class="site-mark" href="index.html">N3 Study Desk</a><nav aria-label="Primary"><a href="index.html">Home</a><details class="study-menu" data-study-menu><summary data-study-menu-trigger aria-controls="study-menu-panel" aria-expanded="false">Study</summary><div class="study-menu-panel" id="study-menu-panel"><p>Choose a book part</p><a href="lessons/index.html"><span class="study-menu-number" aria-hidden="true">一</span><span><strong>Grammar by meaning</strong><small>Lessons 1–12</small></span></a><a href="groups/index.html"><span class="study-menu-number" aria-hidden="true">二</span><span><strong>Mixed grammar groups</strong><small>Groups A–J and reviews</small></span></a><a href="sentence/index.html"><span class="study-menu-number" aria-hidden="true">三</span><span><strong>Sentence building</strong><small>Four lessons and review</small></span></a><a href="passage/index.html"><span class="study-menu-number" aria-hidden="true">四</span><span><strong>Passage grammar</strong><small>Ten lessons and five reviews</small></span></a></div></details><a href="vocabulary.html">Vocabulary</a><a href="practice.html" aria-current="page">Practice</a><a href="curriculum.html">Curriculum</a><a href="study-guide.html">How to use</a></nav></header>
   <main id="main-content" tabindex="-1">
     <section class="page-hero">
-      <div>
-        <p class="eyebrow">Source-book practice desk</p>
-        <h1>Practice from the book</h1>
-        <p class="lede">Open each paired Lessons 1–12 exercise set in its ending lesson, then finish with the separate cumulative Full Mock.</p>
-      </div>
-      <p class="hero-note">105 paired questions · 13 cumulative questions · English support after answering</p>
+      <div><p class="eyebrow">Source-book assessment desk</p><h1>Open the exact set you need.</h1><p class="lede">Jump directly to paired exercises, cumulative reviews, or the Full Mock without searching through every lesson page.</p></div>
+      <p class="hero-note"><strong>Book exercises and reviews</strong><br>Complete the set, then submit for feedback.</p>
     </section>
 
-    <section aria-labelledby="part1-practice-title">
-      <p class="eyebrow">Part 1 · Grammar</p>
-      <h2 id="part1-practice-title">Paired book exercises</h2>
-      <div class="card-grid lesson-choice-grid">
-        <article class="card"><span class="tag">18 questions</span><h3>Lessons 1–2</h3><p>Complete the source exercise at the end of Lesson 2.</p><a class="button" href="lessons/lesson-02-kankei.html#book-exercises-01-02">Open Lessons 1–2 exercises</a></article>
-        <article class="card"><span class="tag">18 questions</span><h3>Lessons 3–4</h3><p>Complete the source exercise at the end of Lesson 4.</p><a class="button" href="lessons/lesson-04-contrast.html#book-exercises-03-04">Open Lessons 3–4 exercises</a></article>
-        <article class="card"><span class="tag">17 questions</span><h3>Lessons 5–6</h3><p>Complete the source exercise at the end of Lesson 6.</p><a class="button" href="lessons/lesson-06-conditions.html#book-exercises-05-06">Open Lessons 5–6 exercises</a></article>
-        <article class="card"><span class="tag">16 questions</span><h3>Lessons 7–8</h3><p>Complete the source exercise at the end of Lesson 8.</p><a class="button" href="lessons/lesson-08-negation.html#book-exercises-07-08">Open Lessons 7–8 exercises</a></article>
-        <article class="card"><span class="tag">18 questions</span><h3>Lessons 9–10</h3><p>Complete the source exercise at the end of Lesson 10.</p><a class="button" href="lessons/lesson-10-advice.html#book-exercises-09-10">Open Lessons 9–10 exercises</a></article>
-        <article class="card"><span class="tag">18 questions</span><h3>Lessons 11–12</h3><p>Complete the source exercise at the end of Lesson 12.</p><a class="button" href="lessons/lesson-12-keigo.html#book-exercises-11-12">Open Lessons 11–12 exercises</a></article>
-        <article class="card"><span class="tag">13 questions</span><h3>Lessons 1–12 Full Mock</h3><p>Answer every cumulative source question before submitting the complete attempt.</p><a class="button" href="lessons/full-mock-01-12.html">Open the Lessons 1–12 Full Mock</a></article>
-      </div>
-    </section>
+    <div class="practice-index-layout">
+      <aside class="assessment-rail" aria-label="Assessment map">
+        <p>Assessment map</p>
+        <nav>
+          <a href="#part1-exercises"><span aria-hidden="true">一</span> Part 1 exercises</a>
+          <a href="#part2-reviews"><span aria-hidden="true">二</span> Part 2 reviews</a>
+          <a href="#part3-review"><span aria-hidden="true">三</span> Part 3 review</a>
+          <a href="#part4-reviews"><span aria-hidden="true">四</span> Part 4 reviews</a>
+          <a href="#full-mock"><span aria-hidden="true">模</span> Full Mock</a>
+        </nav>
+      </aside>
 
-    <section aria-labelledby="other-practice-title">
-      <p class="eyebrow">Keep studying</p>
-      <h2 id="other-practice-title">Groups and later book parts</h2>
-      <div class="card-grid lesson-choice-grid">
-        <article class="card"><span class="tag">Groups A–J</span><h3>Mixed grammar groups</h3><p>Study the ten source-book grouping lessons and their cumulative sets.</p><a class="button" href="groups/index.html">Open Groups A–J</a></article>
-        <article class="card"><span class="tag">13 source items</span><h3>Groups A–E cumulative set</h3><p>Complete the book's first grouping assessment.</p><a class="button" href="groups/review-a-e.html">Open Groups A–E assessment</a></article>
-        <article class="card"><span class="tag">13 source items</span><h3>Groups A–J cumulative set</h3><p>Complete the book's full grouping assessment.</p><a class="button" href="groups/review-a-j.html">Open Groups A–J assessment</a></article>
-        <article class="card"><span class="tag">18 source items</span><h3>Part 3 sentence building</h3><p>Arrange all Lessons 1–4 ★ questions in source order.</p><a class="button" href="sentence/review-01-04.html">Open Part 3 assessment</a></article>
-        <article class="card"><span class="tag">Five source sets</span><h3>Part 4 passage grammar</h3><p>Read the complete book passages and answer every printed blank.</p><a class="button" href="passage/index.html">Open Part 4 assessments</a></article>
+      <div class="assessment-list">
+        <section class="assessment-section" id="part1-exercises" aria-labelledby="part1-exercises-title">
+          <header><p class="eyebrow">Part 1 exercises</p><h2 id="part1-exercises-title">Paired Lessons 1–12 exercises</h2><p>Book exercise behavior: <strong>Complete the set, then submit.</strong></p></header>
+          <article class="assessment-row"><span class="assessment-row-number">1–2</span><div><h3>Lessons 1–2 exercises</h3><p>18 source questions · opens at the exercise anchor in Lesson 2.</p></div><a href="lessons/lesson-02-kankei.html#book-exercises-01-02">Open set</a></article>
+          <article class="assessment-row"><span class="assessment-row-number">3–4</span><div><h3>Lessons 3–4 exercises</h3><p>18 source questions · opens at the exercise anchor in Lesson 4.</p></div><a href="lessons/lesson-04-contrast.html#book-exercises-03-04">Open set</a></article>
+          <article class="assessment-row"><span class="assessment-row-number">5–6</span><div><h3>Lessons 5–6 exercises</h3><p>17 source questions · opens at the exercise anchor in Lesson 6.</p></div><a href="lessons/lesson-06-conditions.html#book-exercises-05-06">Open set</a></article>
+          <article class="assessment-row"><span class="assessment-row-number">7–8</span><div><h3>Lessons 7–8 exercises</h3><p>16 source questions · opens at the exercise anchor in Lesson 8.</p></div><a href="lessons/lesson-08-negation.html#book-exercises-07-08">Open set</a></article>
+          <article class="assessment-row"><span class="assessment-row-number">9–10</span><div><h3>Lessons 9–10 exercises</h3><p>18 source questions · opens at the exercise anchor in Lesson 10.</p></div><a href="lessons/lesson-10-advice.html#book-exercises-09-10">Open set</a></article>
+          <article class="assessment-row"><span class="assessment-row-number">11–12</span><div><h3>Lessons 11–12 exercises</h3><p>18 source questions · opens at the exercise anchor in Lesson 12.</p></div><a href="lessons/lesson-12-keigo.html#book-exercises-11-12">Open set</a></article>
+        </section>
+
+        <section class="assessment-section" id="part2-reviews" aria-labelledby="part2-reviews-title">
+          <header><p class="eyebrow">Part 2 reviews</p><h2 id="part2-reviews-title">Mixed group reviews</h2><p>Complete the set, then submit.</p></header>
+          <article class="assessment-row"><span class="assessment-row-number">A–E</span><div><h3>Groups A–E Review</h3><p>13 cumulative source questions.</p></div><a href="groups/review-a-e.html">Open review</a></article>
+          <article class="assessment-row"><span class="assessment-row-number">A–J</span><div><h3>Groups A–J Review</h3><p>Full Part 2 cumulative source review.</p></div><a href="groups/review-a-j.html">Open review</a></article>
+        </section>
+
+        <section class="assessment-section" id="part3-review" aria-labelledby="part3-review-title">
+          <header><p class="eyebrow">Part 3 review</p><h2 id="part3-review-title">Sentence-building review</h2><p>Complete the set, then submit.</p></header>
+          <article class="assessment-row"><span class="assessment-row-number">1–4</span><div><h3>Lessons 1–4 Review</h3><p>18 exact numbered ★ questions in source order.</p></div><a href="sentence/review-01-04.html">Open review</a></article>
+        </section>
+
+        <section class="assessment-section" id="part4-reviews" aria-labelledby="part4-reviews-title">
+          <header><p class="eyebrow">Part 4 reviews</p><h2 id="part4-reviews-title">Passage grammar reviews</h2><p>Complete each two-passage set, then submit.</p></header>
+          <article class="assessment-row"><span class="assessment-row-number">1–2</span><div><h3>Lessons 1–2 Review</h3><p>Two source passages with ten blanks.</p></div><a href="passage/review-01-02.html">Open review</a></article>
+          <article class="assessment-row"><span class="assessment-row-number">3–4</span><div><h3>Lessons 3–4 Review</h3><p>Two source passages with ten blanks.</p></div><a href="passage/review-03-04.html">Open review</a></article>
+          <article class="assessment-row"><span class="assessment-row-number">5–6</span><div><h3>Lessons 5–6 Review</h3><p>Two source passages with ten blanks.</p></div><a href="passage/review-05-06.html">Open review</a></article>
+          <article class="assessment-row"><span class="assessment-row-number">7–8</span><div><h3>Lessons 7–8 Review</h3><p>Two source passages with ten blanks.</p></div><a href="passage/review-07-08.html">Open review</a></article>
+          <article class="assessment-row"><span class="assessment-row-number">9–10</span><div><h3>Lessons 9–10 Review</h3><p>Two source passages with ten blanks.</p></div><a href="passage/review-09-10.html">Open review</a></article>
+        </section>
+
+        <section class="assessment-section" id="full-mock" aria-labelledby="full-mock-title">
+          <header><p class="eyebrow">Full Mock</p><h2 id="full-mock-title">Lessons 1–12 cumulative assessment</h2><p>Complete the set, then submit. Feedback appears only after all thirteen source questions are answered.</p></header>
+          <article class="assessment-row"><span class="assessment-row-number">模</span><div><h3>Lessons 1–12 Full Mock</h3><p>13 cumulative source questions · one complete attempt.</p></div><a class="button" href="lessons/full-mock-01-12.html">Open Full Mock</a></article>
+        </section>
       </div>
-    </section>
+    </div>
+
+    <aside class="usage-callout" aria-labelledby="expanded-practice-title">
+      <div><p class="eyebrow">Inside the study pages</p><h2 id="expanded-practice-title">Expanded practice works differently.</h2><p>The added Expanded practice sections check answers individually and let you retry immediately. They remain inside their matching lesson or group and are not mixed into this source-book assessment index.</p></div>
+      <a href="study-guide.html">Learn how quizzes work</a>
+    </aside>
   </main>
-  <footer><p>N3 Study Desk · Source-book practice</p></footer>
+  <footer class="site-footer" data-context-label="N3 Study Desk · Source-book practice"><div class="site-footer-intro"><p class="site-footer-context">N3 Study Desk · Source-book practice</p><p class="site-footer-kicker">Study tools at a glance</p></div><dl class="site-footer-functions"><div><dt>Reading settings</dt><dd>Show or hide readings and English support while you study.</dd></div><div><dt>Vocabulary details</dt><dd>Open readings, meanings, and lesson occurrences in the vocabulary bank.</dd></div><div><dt>Lesson navigation</dt><dd>Use Study to move between the four guided part indexes.</dd></div><div><dt>Practice behavior</dt><dd>Submit complete book sets, or check expanded practice answers individually.</dd></div></dl><nav aria-label="Study support"><a class="site-footer-guide" href="study-guide.html">How to use</a></nav></footer>
 </body>
 </html>

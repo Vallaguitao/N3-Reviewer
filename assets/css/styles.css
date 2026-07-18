@@ -2,7 +2,7 @@
   color-scheme: light;
   --ink: #172126;
   --ink-soft: #3f4b4f;
-  --matcha: #677341;
+  --matcha: #5B6840;
   --matcha-deep: #4f5d32;
   --surface: #EFF3F0;
   --paper: #FFFFFF;
@@ -15,6 +15,14 @@
   --radius-sm: .45rem;
   --radius-md: .85rem;
   --radius-lg: 1.35rem;
+  --space-1: .5rem;
+  --space-2: .75rem;
+  --space-3: 1rem;
+  --space-4: 1.5rem;
+  --space-5: 2rem;
+  --space-6: 3rem;
+  --space-7: 4.5rem;
+  --space-8: 6rem;
   --step--1: clamp(.78rem, .75rem + .12vw, .88rem);
   --step-0: clamp(1rem, .95rem + .2vw, 1.12rem);
   --step-1: clamp(1.35rem, 1.15rem + .7vw, 1.8rem);
@@ -195,9 +203,7 @@ button.secondary:hover,
   border-bottom: 1px solid rgb(255 255 255 / 12%);
   padding: .8rem clamp(1rem, 3vw, 2.5rem);
   color: var(--paper);
-  background:
-    linear-gradient(90deg, transparent 0 72%, rgb(255 255 255 / 4%) 72% 73%, transparent 73%),
-    var(--ink);
+  background: var(--ink);
 }
 
 .site-mark {
@@ -212,14 +218,19 @@ button.secondary:hover,
 
 .site-header nav {
   display: flex;
+  align-items: center;
   flex-wrap: wrap;
   justify-content: flex-end;
   gap: .25rem;
 }
 
-.site-header nav a {
+.site-header nav > a,
+.study-menu > summary {
+  display: inline-flex;
+  align-items: center;
+  min-height: 2.75rem;
   border-radius: var(--radius-sm);
-  padding: .45rem .65rem;
+  padding: .55rem .75rem;
   color: var(--paper);
   font-size: var(--step--1);
   font-weight: 650;
@@ -1517,4 +1528,503 @@ footer p {
 .sentence-star {
   color: var(--rust);
   font-weight: 900;
+}
+
+/* Guided syllabus system */
+
+.guided-hero,
+.part-index-hero {
+  display: grid;
+  grid-template-columns: minmax(0, 1.35fr) minmax(15rem, .65fr);
+  align-items: end;
+  gap: clamp(var(--space-5), 5vw, var(--space-8));
+  margin-block-end: var(--space-7);
+  border-bottom: 1px solid var(--line-strong);
+  padding-block: var(--space-4) var(--space-6);
+}
+
+.guided-hero h1,
+.part-index-hero h1,
+.syllabus-ledger h2,
+.part-ledger h2,
+.chapter-number {
+  font-family: Georgia, "Yu Mincho", serif;
+}
+
+.guided-hero-actions,
+.part-index-actions {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: var(--space-3);
+  margin-block-start: var(--space-5);
+}
+
+.chapter-number {
+  display: block;
+  color: var(--rust);
+  font-size: clamp(3.75rem, 9vw, 8rem);
+  line-height: .8;
+}
+
+.study-menu {
+  position: relative;
+  display: flex;
+  align-items: center;
+  margin: 0;
+}
+
+.study-menu > summary {
+  cursor: pointer;
+  list-style: none;
+}
+
+.study-menu > summary::-webkit-details-marker {
+  display: none;
+}
+
+.study-menu > summary::after {
+  content: "";
+  width: .45rem;
+  height: .45rem;
+  margin-inline-start: .55rem;
+  border-inline-end: 2px solid currentColor;
+  border-block-end: 2px solid currentColor;
+  transform: translateY(-.15rem) rotate(45deg);
+}
+
+.study-menu[open] > summary,
+.study-menu[data-current="true"] > summary,
+.study-menu > summary:hover {
+  background: var(--matcha);
+}
+
+.study-menu-panel {
+  position: absolute;
+  z-index: 40;
+  inset-block-start: calc(100% + .35rem);
+  inset-inline-start: 50%;
+  width: min(24rem, calc(100vw - 2rem));
+  border: 1px solid var(--line-strong);
+  border-radius: var(--radius-md);
+  padding: var(--space-2);
+  color: var(--ink);
+  background: var(--paper);
+  box-shadow: var(--shadow);
+  transform: translateX(-50%);
+}
+
+.study-menu-panel::before {
+  content: "";
+  position: absolute;
+  inset: -.4rem 0 auto;
+  height: .4rem;
+}
+
+.study-menu:not([open]) .study-menu-panel {
+  display: none;
+}
+
+.study-menu-panel > p {
+  margin: 0;
+  padding: .55rem .65rem .35rem;
+  color: var(--ink-soft);
+  font-size: .72rem;
+  font-weight: 800;
+  letter-spacing: .1em;
+  text-transform: uppercase;
+}
+
+.site-header .study-menu-panel a {
+  display: grid;
+  grid-template-columns: 2rem minmax(0, 1fr);
+  gap: var(--space-2);
+  border-radius: var(--radius-sm);
+  padding: .7rem .65rem;
+  color: var(--ink);
+}
+
+.site-header .study-menu-panel a:hover {
+  background: var(--surface);
+}
+
+.study-menu-panel strong,
+.study-menu-panel small {
+  display: block;
+}
+
+.study-menu-panel small {
+  margin-block-start: .15rem;
+  color: var(--ink-soft);
+  font-weight: 500;
+}
+
+.study-menu-number {
+  color: var(--rust);
+  font-family: Georgia, "Yu Mincho", serif;
+  font-size: 1.3rem;
+  line-height: 1;
+}
+
+.syllabus-ledger,
+.part-ledger,
+.assessment-list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.syllabus-ledger {
+  border-bottom: 1px solid var(--line-strong);
+}
+
+.syllabus-ledger-row,
+.syllabus-row,
+.part-ledger-row,
+.assessment-row {
+  display: grid;
+  grid-template-columns: minmax(3.5rem, .18fr) minmax(0, 1fr) auto;
+  align-items: center;
+  gap: clamp(var(--space-3), 3vw, var(--space-5));
+  min-height: 5.5rem;
+  border-top: 1px solid var(--line);
+  padding-block: var(--space-4);
+}
+
+.syllabus-ledger-row:first-child,
+.syllabus-row:first-of-type,
+.part-ledger-row:first-child,
+.assessment-row:first-child {
+  border-top-color: var(--line-strong);
+}
+
+.syllabus-ledger-number,
+.part-ledger-number,
+.assessment-row-number {
+  color: var(--rust);
+  font: 700 var(--step-1) / 1 Georgia, "Yu Mincho", serif;
+}
+
+.syllabus-ledger-row h3,
+.syllabus-row h3,
+.part-ledger-row h3,
+.assessment-row h3 {
+  margin: 0;
+}
+
+.syllabus-ledger-row p,
+.syllabus-row p,
+.part-ledger-row p,
+.assessment-row p {
+  max-width: 62ch;
+  margin: .35rem 0 0;
+  color: var(--ink-soft);
+}
+
+.support-band,
+.vocabulary-band,
+.part-transition,
+.usage-callout {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) auto;
+  align-items: center;
+  gap: var(--space-5);
+  margin-block: var(--space-7);
+  border-inline-start: .35rem solid var(--rust);
+  padding: clamp(var(--space-4), 4vw, var(--space-6));
+  background: var(--paper);
+  box-shadow: 0 8px 30px rgb(23 33 38 / 5%);
+}
+
+.support-band > :last-child,
+.vocabulary-band > :last-child,
+.part-transition > :last-child,
+.usage-callout > :last-child {
+  margin-block-end: 0;
+}
+
+.vocabulary-band dl {
+  display: grid;
+  min-width: min(24rem, 100%);
+  margin: 0;
+  border-block: 1px solid var(--line);
+}
+
+.vocabulary-band dl > div {
+  display: grid;
+  grid-template-columns: 5.5rem minmax(0, 1fr);
+  align-items: baseline;
+  gap: var(--space-3);
+  padding-block: var(--space-2);
+  border-bottom: 1px solid var(--line);
+}
+
+.vocabulary-band dl > div:last-child {
+  border-bottom: 0;
+}
+
+.vocabulary-band dt {
+  color: var(--rust);
+  font-family: Georgia, "Yu Mincho", serif;
+  font-size: var(--step-1);
+  font-weight: 700;
+}
+
+.vocabulary-band dd {
+  margin: 0;
+  color: var(--ink-soft);
+  font-size: var(--step--1);
+}
+
+.part-index-layout,
+.practice-index-layout {
+  display: grid;
+  grid-template-columns: minmax(11rem, .28fr) minmax(0, 1fr);
+  gap: clamp(var(--space-5), 5vw, var(--space-7));
+  align-items: start;
+}
+
+.part-index-rail,
+.assessment-rail {
+  position: sticky;
+  top: var(--space-3);
+  align-self: start;
+  border-top: .25rem solid var(--matcha);
+  padding-block-start: var(--space-3);
+}
+
+.part-index-rail p,
+.assessment-rail p {
+  margin-block-end: var(--space-2);
+  color: var(--ink-soft);
+  font-size: .75rem;
+  font-weight: 800;
+  letter-spacing: .1em;
+  text-transform: uppercase;
+}
+
+.part-index-rail nav,
+.assessment-rail nav {
+  display: grid;
+  gap: .2rem;
+}
+
+.part-index-rail a,
+.assessment-rail a {
+  border-inline-start: .2rem solid transparent;
+  padding: .55rem .65rem;
+  color: var(--ink-soft);
+  font-size: var(--step--1);
+  font-weight: 700;
+  text-decoration: none;
+}
+
+.part-index-rail a:hover,
+.assessment-rail a:hover,
+.part-index-rail a[aria-current="location"],
+.assessment-rail a[aria-current="location"] {
+  border-inline-start-color: var(--rust);
+  color: var(--ink);
+  background: var(--paper);
+}
+
+.part-ledger-section,
+.assessment-section {
+  scroll-margin-top: var(--space-4);
+  margin-block-end: var(--space-7);
+}
+
+.part-ledger-section > header,
+.assessment-section > header {
+  margin-block-end: var(--space-4);
+}
+
+.part-review-row {
+  border-inline-start: .25rem solid var(--matcha);
+  padding-inline-start: var(--space-4);
+  background: rgb(255 255 255 / 45%);
+}
+
+.site-footer {
+  display: grid;
+  grid-template-columns: minmax(11rem, .7fr) minmax(0, 2.3fr) auto;
+  align-items: center;
+  gap: var(--space-5);
+  padding: var(--space-6) clamp(var(--space-3), 4vw, var(--space-7));
+  color: var(--paper);
+  text-align: start;
+  background: var(--ink);
+}
+
+.site-footer-context {
+  margin: 0;
+  color: #DCE7A5;
+  font-weight: 750;
+}
+
+.site-footer-kicker {
+  margin: .3rem 0 0;
+  color: rgb(255 255 255 / 68%);
+  font-size: var(--step--1);
+}
+
+.site-footer-functions {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(10rem, 1fr));
+  gap: var(--space-4);
+  margin: 0;
+}
+
+.site-footer-functions > div {
+  border-inline-start: 1px solid rgb(255 255 255 / 20%);
+  padding-inline-start: var(--space-3);
+}
+
+.site-footer-functions dt {
+  margin-block-end: .3rem;
+  color: var(--paper);
+  font-size: var(--step--1);
+  font-weight: 800;
+}
+
+.site-footer-functions dd {
+  margin: 0;
+  color: rgb(255 255 255 / 68%);
+  font-size: .76rem;
+  line-height: 1.5;
+}
+
+.site-footer nav {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+  gap: .5rem var(--space-3);
+}
+
+.site-footer a {
+  color: var(--paper);
+  font-size: var(--step--1);
+  font-weight: 700;
+}
+
+.site-footer-guide {
+  display: inline-flex;
+  align-items: center;
+  min-height: 2.75rem;
+  border: 1px solid rgb(255 255 255 / 35%);
+  border-radius: var(--radius-sm);
+  padding: .55rem .8rem;
+  text-decoration: none;
+}
+
+.site-footer-guide:hover {
+  border-color: #DCE7A5;
+  background: rgb(255 255 255 / 8%);
+}
+
+.site-footer-compact {
+  grid-template-columns: minmax(0, 1fr) auto;
+  padding-block: var(--space-4);
+}
+
+.curriculum-part-action {
+  display: inline-flex;
+  align-items: center;
+  width: fit-content;
+  margin-block: 0 var(--space-4);
+  text-decoration: none;
+}
+
+@media (max-width: 48rem) {
+  .site-header nav {
+    width: 100%;
+  }
+
+  .study-menu {
+    position: static;
+  }
+
+  .study-menu-panel {
+    position: absolute;
+    inset-block-start: 100%;
+    inset-inline: .75rem;
+    width: auto;
+    max-height: min(32rem, calc(100vh - 1.5rem));
+    overflow-y: auto;
+    transform: none;
+  }
+
+  .guided-hero,
+  .part-index-hero,
+  .part-index-layout,
+  .practice-index-layout,
+  .support-band,
+  .vocabulary-band,
+  .part-transition,
+  .usage-callout,
+  .site-footer {
+    grid-template-columns: minmax(0, 1fr);
+  }
+
+  .guided-hero,
+  .part-index-hero {
+    margin-block-end: var(--space-6);
+    padding-block-end: var(--space-5);
+  }
+
+  .part-index-rail,
+  .assessment-rail {
+    position: static;
+    min-width: 0;
+    border-top-width: .2rem;
+  }
+
+  .part-index-rail nav,
+  .assessment-rail nav {
+    display: flex;
+    gap: .35rem;
+    overflow-x: auto;
+    padding-block-end: .6rem;
+    scrollbar-width: thin;
+  }
+
+  .part-index-rail a,
+  .assessment-rail a {
+    flex: 0 0 auto;
+    border: 1px solid var(--line);
+    border-radius: 999px;
+    padding: .5rem .75rem;
+    background: var(--paper);
+    white-space: nowrap;
+  }
+
+  .syllabus-ledger-row,
+  .syllabus-row,
+  .part-ledger-row,
+  .assessment-row {
+    grid-template-columns: 2.5rem minmax(0, 1fr);
+  }
+
+  .syllabus-ledger-row > .button,
+  .syllabus-row > .button,
+  .part-ledger-row > .button,
+  .assessment-row > .button {
+    grid-column: 2;
+    justify-self: start;
+  }
+
+  .site-footer nav {
+    justify-content: flex-start;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .study-menu-panel,
+  .syllabus-ledger-row,
+  .syllabus-row,
+  .part-ledger-row,
+  .assessment-row {
+    animation: none !important;
+    transition: none !important;
+  }
 }
