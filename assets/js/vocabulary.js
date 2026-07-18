@@ -13,61 +13,8 @@
     String(value || "").normalize("NFKC").trim().toLowerCase()
   );
 
-  function uniqueValues(values) {
-    return [...new Set(values || [])];
-  }
-
-  function uniqueOccurrences(values) {
-    const seen = new Set();
-    return (values || []).filter(occurrence => {
-      const key = `${occurrence?.href || ""}\u0000${occurrence?.label || ""}`;
-      if (seen.has(key)) return false;
-      seen.add(key);
-      return true;
-    });
-  }
-
-  function mergeActiveRecords(legacyRecords, generatedPart1Records) {
-    const generated = new Map(
-      (generatedPart1Records || []).map(record => [record.id, record]),
-    );
-    const active = new Map();
-
-    for (const record of legacyRecords || []) {
-      active.set(record.id, { ...record });
-    }
-
-    for (const record of generated.values()) {
-      const legacy = active.get(record.id) || {};
-      active.set(record.id, {
-        ...legacy,
-        ...record,
-        lessonIds: uniqueValues([
-          ...(legacy.lessonIds || []),
-          ...(record.lessonIds || []),
-        ]),
-        grammarIds: uniqueValues([
-          ...(legacy.grammarIds || []),
-          ...(record.grammarIds || []),
-        ]),
-        occurrences: uniqueOccurrences([
-          ...(legacy.occurrences || []),
-          ...(record.occurrences || []),
-        ]),
-      });
-    }
-
-    return [...active.values()].sort((left, right) => (
-      String(left.reading || "").localeCompare(String(right.reading || ""), "ja")
-      || String(left.id || "").localeCompare(String(right.id || ""), "en")
-    ));
-  }
-
   function activeRecords() {
-    return mergeActiveRecords(
-      root?.N3VocabularyData || [],
-      root?.N3Part1VocabularyData || [],
-    );
+    return Object.freeze([...(root?.N3VocabularyData || [])]);
   }
 
   function filter(records, query, filters) {
@@ -699,7 +646,6 @@
 
   return {
     normalize,
-    mergeActiveRecords,
     activeRecords,
     filter,
     getById,

@@ -65,7 +65,7 @@
       choices: Object.entries(record.rationales || {}).map(
         ([value, rationale]) => ({
           value,
-          correct: correctValues.includes(value),
+          correct: record.type === "text" || correctValues.includes(value),
           rationale: String(rationale || ""),
         }),
       ),
@@ -76,26 +76,15 @@
     return `Move ${String(tokenText || "").trim()} ${direction}`;
   }
 
-  function quizRecords(
-    legacyRecords = root?.N3QuizData || [],
-    generatedRecords = root?.N3Part1BookQuizData || [],
-  ) {
-    const records = [];
-    const seen = new Set();
-    for (const record of [...generatedRecords, ...legacyRecords]) {
-      if (!record?.id || seen.has(record.id)) continue;
-      seen.add(record.id);
-      records.push(record);
-    }
-    return records;
+  function quizRecords(records = root?.N3QuizData || []) {
+    return Object.freeze([...records]);
   }
 
   function recordForId(
     id,
-    legacyRecords = root?.N3QuizData || [],
-    generatedRecords = root?.N3Part1BookQuizData || [],
+    records = root?.N3QuizData || [],
   ) {
-    return quizRecords(legacyRecords, generatedRecords).find(
+    return quizRecords(records).find(
       item => item.id === id,
     ) || null;
   }
