@@ -1642,7 +1642,6 @@ footer p {
   border-radius: var(--radius-sm);
   padding: .7rem .65rem;
   color: var(--ink);
-  text-decoration: none;
 }
 
 .site-header .study-menu-panel a:hover {
@@ -1936,6 +1935,242 @@ footer p {
   text-decoration: none;
 }
 
+.curriculum-journey-hero {
+  margin-block-end: var(--space-5);
+}
+
+.curriculum-principle {
+  border-inline-start: .3rem solid var(--rust);
+  padding: var(--space-4) 0 var(--space-4) var(--space-4);
+}
+
+.curriculum-principle > :last-child {
+  margin-block-end: 0;
+}
+
+.curriculum-overview {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 1px;
+  margin: 0 0 var(--space-7);
+  border: 1px solid var(--line);
+  border-radius: var(--radius-md);
+  padding: 0;
+  overflow: hidden;
+  background: var(--line);
+  list-style: none;
+}
+
+.curriculum-overview-item {
+  display: grid;
+  grid-template-columns: auto minmax(0, 1fr);
+  align-items: center;
+  gap: var(--space-3);
+  min-height: 6.5rem;
+  padding: var(--space-4);
+  background: var(--paper);
+}
+
+.curriculum-overview-marker {
+  color: var(--rust);
+  font: 700 var(--step-2) / 1 Georgia, "Yu Mincho", serif;
+}
+
+.curriculum-overview-item strong,
+.curriculum-overview-item small {
+  display: block;
+}
+
+.curriculum-overview-item small {
+  margin-block-start: .3rem;
+  color: var(--ink-soft);
+  line-height: 1.4;
+}
+
+.curriculum-journey-layout {
+  display: grid;
+  grid-template-columns: minmax(11rem, .25fr) minmax(0, 1fr);
+  gap: clamp(var(--space-5), 5vw, var(--space-8));
+  align-items: start;
+}
+
+.curriculum-rail {
+  position: sticky;
+  top: var(--space-3);
+  align-self: start;
+  border-block-start: .25rem solid var(--matcha);
+  padding-block-start: var(--space-3);
+}
+
+.curriculum-rail > p {
+  margin: 0 0 var(--space-2);
+  color: var(--ink-soft);
+  font-size: .75rem;
+  font-weight: 800;
+  letter-spacing: .1em;
+  text-transform: uppercase;
+}
+
+.curriculum-rail nav {
+  display: grid;
+  gap: .2rem;
+}
+
+.curriculum-rail a {
+  border-inline-start: .2rem solid transparent;
+  padding: .65rem .75rem;
+  color: var(--ink-soft);
+  font-size: var(--step--1);
+  font-weight: 700;
+  text-decoration: none;
+}
+
+.curriculum-rail a:hover,
+.curriculum-rail a:focus-visible {
+  border-inline-start-color: var(--rust);
+  color: var(--ink);
+  background: var(--paper);
+}
+
+.curriculum-stages {
+  min-width: 0;
+}
+
+.curriculum-stage {
+  display: grid;
+  grid-template-columns: clamp(3.5rem, 7vw, 5.5rem) minmax(0, 1fr);
+  gap: clamp(var(--space-3), 3vw, var(--space-5));
+  scroll-margin-top: var(--space-5);
+  margin-block-end: var(--space-5);
+}
+
+.curriculum-stage-marker {
+  display: grid;
+  place-items: center;
+  width: clamp(3.5rem, 7vw, 5.5rem);
+  height: clamp(3.5rem, 7vw, 5.5rem);
+  border-radius: 50%;
+  color: var(--paper);
+  background: var(--rust);
+  font: 700 clamp(1.5rem, 3vw, 2.35rem) / 1 Georgia, "Yu Mincho", serif;
+}
+
+.curriculum-stage-panel {
+  border: 1px solid var(--line);
+  border-radius: var(--radius-md);
+  padding: clamp(var(--space-4), 4vw, var(--space-6));
+  background: var(--paper);
+  box-shadow: 0 12px 36px rgb(23 33 38 / 6%);
+}
+
+.curriculum-stage-header {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: var(--space-5);
+  margin-block-end: var(--space-5);
+}
+
+.curriculum-stage-title {
+  margin-block-end: var(--space-2);
+  font-family: Georgia, "Yu Mincho", serif;
+}
+
+.curriculum-stage-purpose {
+  max-width: 62ch;
+  margin-block-end: 0;
+  color: var(--ink-soft);
+}
+
+.curriculum-stage-header .curriculum-part-action {
+  flex: 0 0 auto;
+  margin: 0;
+}
+
+.curriculum-stage-details {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: var(--space-5);
+  margin: 0;
+}
+
+.curriculum-stage-details > div {
+  border-block-start: 1px solid var(--line);
+  padding-block-start: var(--space-3);
+}
+
+.curriculum-stage-details dt,
+.curriculum-readiness strong {
+  color: var(--matcha);
+  font-size: .78rem;
+  font-weight: 850;
+  letter-spacing: .08em;
+  text-transform: uppercase;
+}
+
+.curriculum-stage-details dd {
+  max-width: 58ch;
+  margin: .45rem 0 0;
+  color: var(--ink-soft);
+}
+
+.curriculum-readiness {
+  display: grid;
+  gap: .35rem;
+  margin-block-start: var(--space-5);
+  border-inline-start: .25rem solid var(--matcha);
+  padding: var(--space-3) var(--space-4);
+  color: var(--ink-soft);
+  background: #E6EDDF;
+}
+
+.curriculum-bridge {
+  margin: 0 0 var(--space-5) calc(clamp(3.5rem, 7vw, 5.5rem) + clamp(var(--space-3), 3vw, var(--space-5)));
+  border-radius: var(--radius-sm);
+  padding: var(--space-3) var(--space-4);
+  color: var(--ink-soft);
+  background: #E6EDDF;
+}
+
+.curriculum-bridge p {
+  margin: 0;
+}
+
+.curriculum-final {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) auto;
+  align-items: center;
+  gap: var(--space-5);
+  margin-block: var(--space-7);
+  border-inline-start: .35rem solid var(--rust);
+  padding: clamp(var(--space-4), 4vw, var(--space-6));
+  background: var(--paper);
+  box-shadow: 0 8px 30px rgb(23 33 38 / 5%);
+}
+
+.curriculum-final-title {
+  margin: 0 0 var(--space-2);
+  font-family: Georgia, "Yu Mincho", serif;
+  font-size: var(--step-2);
+  font-weight: 700;
+  line-height: 1.15;
+}
+
+.curriculum-final p:last-child {
+  margin-block-end: 0;
+  color: var(--ink-soft);
+}
+
+@media (max-width: 64rem) {
+  .curriculum-overview {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .curriculum-stage-header {
+    display: grid;
+  }
+}
+
 @media (max-width: 48rem) {
   .site-header nav {
     width: 100%;
@@ -2014,8 +2249,87 @@ footer p {
     justify-self: start;
   }
 
+  .curriculum-journey-hero,
+  .curriculum-journey-layout,
+  .curriculum-final {
+    grid-template-columns: minmax(0, 1fr);
+  }
+
+  .curriculum-principle {
+    padding-block: var(--space-3);
+  }
+
+  .curriculum-overview {
+    margin-block-end: var(--space-6);
+  }
+
+  .curriculum-overview-item {
+    min-height: 5.5rem;
+    padding: var(--space-3);
+  }
+
+  .curriculum-rail {
+    position: static;
+    min-width: 0;
+    border-block-start-width: .2rem;
+  }
+
+  .curriculum-rail nav {
+    display: flex;
+    gap: .35rem;
+    max-width: 100%;
+    overflow-x: auto;
+    padding-block-end: .6rem;
+    scrollbar-width: thin;
+  }
+
+  .curriculum-rail a {
+    flex: 0 0 auto;
+    border: 1px solid var(--line);
+    border-radius: 999px;
+    padding: .5rem .75rem;
+    background: var(--paper);
+    white-space: nowrap;
+  }
+
+  .curriculum-stage {
+    grid-template-columns: minmax(0, 1fr);
+    gap: var(--space-3);
+    margin-block-end: var(--space-6);
+  }
+
+  .curriculum-stage-marker {
+    width: 3.75rem;
+    height: 3.75rem;
+  }
+
+  .curriculum-stage-header,
+  .curriculum-stage-details {
+    grid-template-columns: minmax(0, 1fr);
+  }
+
+  .curriculum-stage-header .curriculum-part-action {
+    justify-content: center;
+    width: 100%;
+  }
+
+  .curriculum-bridge {
+    margin: 0 0 var(--space-6);
+  }
+
+  .curriculum-final .button {
+    justify-content: center;
+    width: 100%;
+  }
+
   .site-footer nav {
     justify-content: flex-start;
+  }
+}
+
+@media (max-width: 30rem) {
+  .curriculum-overview {
+    grid-template-columns: minmax(0, 1fr);
   }
 }
 
