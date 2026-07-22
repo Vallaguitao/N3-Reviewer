@@ -3,12 +3,26 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
+<!-- SITE-METADATA:START -->
+<meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'; style-src 'self'; img-src 'self'; font-src 'self'; media-src 'none'; connect-src 'none'; object-src 'none'; frame-src 'none'; worker-src 'none'; manifest-src 'none'; base-uri 'none'; form-action 'none'">
+<meta name="description" content="Search the lesson-linked vocabulary bank for Japanese content words from Parts 1–4 and their study context.">
+<link rel="canonical" href="https://vallaguitao.github.io/N3-Reviewer/vocabulary.html">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="N3 Study Desk">
+<meta property="og:title" content="Vocabulary | N3 Study Desk">
+<meta property="og:description" content="Search the lesson-linked vocabulary bank for Japanese content words from Parts 1–4 and their study context.">
+<meta property="og:url" content="https://vallaguitao.github.io/N3-Reviewer/vocabulary.html">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="Vocabulary | N3 Study Desk">
+<meta name="twitter:description" content="Search the lesson-linked vocabulary bank for Japanese content words from Parts 1–4 and their study context.">
+<!-- SITE-METADATA:END -->
+
   <title>Vocabulary | N3 Study Desk</title>
   <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
   <link rel="stylesheet" href="assets/css/styles.css">
   <script defer src="assets/js/site.js"></script>
   <script defer src="assets/js/data/all-vocabulary-data.js"></script>
-  <script defer src="assets/js/vocabulary.js"></script>
+  <script defer src="assets/js/vocabulary.js?v=20260722-occurrence-links"></script>
 </head>
 <body data-page="vocabulary" data-root-prefix=".">
   <a class="skip-link" href="#main-content">Skip to the vocabulary bank</a>
@@ -206,6 +220,7 @@
         <div>
           <p data-vocab-empty hidden>No matching Parts 1–4 word was found. Clear the filters and try again.</p>
           <div class="vocab-results" id="vocab-results" data-vocab-results></div>
+          <button class="secondary vocab-show-more" type="button" data-vocab-show-more hidden>Show 50 more</button>
         </div>
         <aside class="vocab-detail" id="vocab-details" data-vocab-details aria-label="Selected vocabulary details" aria-live="polite">
           <p>Select a word to see its kanji and lesson occurrences.</p>

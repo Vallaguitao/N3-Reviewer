@@ -870,6 +870,30 @@ main[data-vocab-details-open] .vocab-rail {
   background: var(--paper);
 }
 
+.vocab-result-japanese,
+.vocab-result-meanings {
+  display: block;
+}
+
+.vocab-result-meanings {
+  margin-top: .25rem;
+  color: var(--ink-soft);
+  font-size: .92em;
+}
+
+.vocab-result-separator {
+  display: none;
+}
+
+.vocab-show-more {
+  display: block;
+  margin: 1rem auto 0;
+}
+
+.vocab-show-more[hidden] {
+  display: none;
+}
+
 .vocab-detail {
   position: sticky;
   top: 1rem;
@@ -1260,6 +1284,7 @@ footer p {
   .question button,
   .order-list button,
   .vocab-result,
+  [data-vocab-show-more],
   .reading-settings-trigger,
   .reading-settings-panel,
   .topic-navigation,

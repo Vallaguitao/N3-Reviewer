@@ -13,6 +13,10 @@
     String(value || "").normalize("NFKC").trim().toLowerCase()
   );
 
+  const INITIAL_VISIBLE_RESULTS = 50;
+  const RESULT_BATCH_SIZE = 50;
+  const COUNT_FORMAT = new Intl.NumberFormat("en-US");
+
   const LEARNER_PART_ORDER = Object.freeze([
     "Noun",
     "Group 1 Verb",
@@ -90,6 +94,55 @@
     ));
   }
 
+  function safeNonnegativeInteger(value) {
+    const number = Number(value);
+    if (!Number.isFinite(number) || number <= 0) return 0;
+    return Math.min(Math.floor(number), Number.MAX_SAFE_INTEGER);
+  }
+
+  function visibleResultState(total, requestedLimit) {
+    const safeTotal = safeNonnegativeInteger(total);
+    const visible = Math.min(
+      safeTotal,
+      safeNonnegativeInteger(requestedLimit),
+    );
+    let status = "No vocabulary entries match these filters.";
+    if (safeTotal > 0 && visible >= safeTotal) {
+      const noun = safeTotal === 1 ? "entry" : "entries";
+      status = `Showing all ${COUNT_FORMAT.format(safeTotal)} vocabulary ${noun}.`;
+    } else if (safeTotal > 0) {
+      status = (
+        `Showing ${COUNT_FORMAT.format(visible)} of `
+        + `${COUNT_FORMAT.format(safeTotal)} vocabulary entries.`
+      );
+    }
+    return Object.freeze({
+      total: safeTotal,
+      visible,
+      hasMore: visible < safeTotal,
+      status,
+    });
+  }
+
+  function resultWindow(records, requestedLimit, deepLinkedRecord) {
+    const source = Array.isArray(records) ? records : [];
+    if (
+      deepLinkedRecord
+      && typeof deepLinkedRecord === "object"
+      && !Array.isArray(deepLinkedRecord)
+    ) {
+      return [deepLinkedRecord];
+    }
+    const state = visibleResultState(source.length, requestedLimit);
+    return source.slice(0, state.visible);
+  }
+
+  function nextVisibleLimit(currentLimit, total) {
+    const safeTotal = safeNonnegativeInteger(total);
+    const safeCurrent = safeNonnegativeInteger(currentLimit);
+    return Math.min(safeTotal, safeCurrent + RESULT_BATCH_SIZE);
+  }
+
   function selectedFilterValue(control) {
     return control?.value && control.value !== "all" ? control.value : "";
   }
@@ -120,6 +173,10 @@
 
   function vocabIdFromTarget(target) {
     return target?.closest?.("[data-vocab-id]")?.dataset.vocabId || "";
+  }
+
+  function isDetailsNavigationTarget(target) {
+    return Boolean(target?.closest?.("[data-vocab-details] a[href]"));
   }
 
   function contextFromTarget(target) {
@@ -402,15 +459,46 @@
       const button = element(
         doc,
         "button",
-        `${record.written} · ${record.reading} · ${record.meanings.join("; ")}`,
+        "",
         "vocab-result",
       );
       button.type = "button";
       button.dataset.vocabId = record.id;
       button.id = `vocab-result-${record.id}`;
-      button.lang = "ja";
+      const japanese = element(
+        doc,
+        "span",
+        `${record.written} · ${record.reading}`,
+        "vocab-result-japanese",
+      );
+      japanese.lang = "ja";
+      const separator = element(
+        doc,
+        "span",
+        " · ",
+        "vocab-result-separator",
+      );
+      separator.setAttribute("aria-hidden", "true");
+      const meanings = element(
+        doc,
+        "span",
+        record.meanings.join("; "),
+        "vocab-result-meanings",
+      );
+      meanings.lang = "en";
+      button.append(japanese, separator, meanings);
       container.append(button);
     }
+  }
+
+  function focusResultAt(container, index) {
+    if (!container || !Number.isInteger(index) || index < 0) return null;
+    const results = container.querySelectorAll?.("[data-vocab-id]") || [];
+    const result = results[index] || null;
+    if (!result) return null;
+    result.focus?.({ preventScroll: true });
+    result.scrollIntoView?.({ block: "nearest" });
+    return result;
   }
 
   function populatePartOptions(select, records) {
@@ -454,6 +542,7 @@
     const part = doc.querySelector("[data-vocab-part]");
     const topic = doc.querySelector("[data-vocab-topic]");
     const results = doc.querySelector("[data-vocab-results]");
+    const showMore = doc.querySelector("[data-vocab-show-more]");
     const status = doc.querySelector("[data-vocab-status]");
     const empty = doc.querySelector("[data-vocab-empty]");
     const mobileQuery = root?.matchMedia?.("(max-width: 48rem)") || null;
@@ -464,6 +553,7 @@
         record.id === requestedVocabularyId(root?.location?.search)
       )) || null
       : null;
+    let visibleLimit = INITIAL_VISIBLE_RESULTS;
     let lastSelectedWord = null;
     let restoringFocus = false;
     let hoverClose = null;
@@ -572,23 +662,28 @@
       if (!results) return;
       const state = bankStateFromControls({ search, grammar, part, topic });
       const filtered = sortByReading(filter(records, state.query, state.filters));
-      const displayed = useDeepLink && deepLinkedRecord
-        ? [deepLinkedRecord]
-        : filtered;
+      const linkedRecord = useDeepLink ? deepLinkedRecord : null;
+      const displayed = resultWindow(filtered, visibleLimit, linkedRecord);
+      const resultState = linkedRecord
+        ? visibleResultState(1, 1)
+        : visibleResultState(filtered.length, visibleLimit);
       renderResults(results, displayed);
       if (status) {
-        status.textContent = `${displayed.length} vocabulary entries`;
+        status.textContent = resultState.status;
       }
       if (empty) {
-        empty.hidden = displayed.length !== 0;
+        empty.hidden = filtered.length !== 0;
+      }
+      if (showMore) {
+        showMore.hidden = Boolean(linkedRecord || !resultState.hasMore);
       }
 
-      if (useDeepLink && deepLinkedRecord) {
+      if (linkedRecord) {
         const result = [...results.querySelectorAll("[data-vocab-id]")]
-          .find(node => node.dataset.vocabId === deepLinkedRecord.id);
+          .find(node => node.dataset.vocabId === linkedRecord.id);
         if (result) {
           result.dataset.vocabDeepLinked = "";
-          selectRecord(deepLinkedRecord.id);
+          selectRecord(linkedRecord.id);
           result.scrollIntoView?.({ block: "center" });
           result.focus?.({ preventScroll: true });
         }
@@ -601,13 +696,25 @@
         return;
       }
 
+      const reveal = event.target.closest("[data-vocab-show-more]");
+      if (reveal && results) {
+        const firstNewIndex = results.querySelectorAll("[data-vocab-id]").length;
+        visibleLimit = nextVisibleLimit(visibleLimit, records.length);
+        update();
+        focusResultAt(results, firstNewIndex);
+        return;
+      }
+
       if (event.target.closest("[data-clear-filters]")) {
         resetBankControls({ search, grammar, part, topic });
+        visibleLimit = INITIAL_VISIBLE_RESULTS;
         deepLinkedRecord = null;
         update();
         search?.focus();
         return;
       }
+
+      if (isDetailsNavigationTarget(event.target)) return;
 
       const id = vocabIdFromTarget(event.target);
       if (!id) return;
@@ -702,6 +809,7 @@
       control.addEventListener(
         control.tagName === "INPUT" ? "input" : "change",
         () => {
+          visibleLimit = INITIAL_VISIBLE_RESULTS;
           deepLinkedRecord = null;
           update();
         },
@@ -713,6 +821,8 @@
   }
 
   return {
+    INITIAL_VISIBLE_RESULTS,
+    RESULT_BATCH_SIZE,
     normalize,
     partOfSpeechValues,
     partOfSpeechLabel,
@@ -720,10 +830,14 @@
     activeRecords,
     filter,
     sortByReading,
+    visibleResultState,
+    resultWindow,
+    nextVisibleLimit,
     bankStateFromControls,
     resetBankControls,
     getById,
     vocabIdFromTarget,
+    isDetailsNavigationTarget,
     contextFromTarget,
     detailModel,
     vocabularyBankHref,
@@ -735,6 +849,7 @@
     setDetailsOpen,
     renderDetails,
     renderResults,
+    focusResultAt,
     bind,
   };
 }));
