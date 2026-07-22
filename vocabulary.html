@@ -11,7 +11,7 @@
   <script defer src="assets/js/vocabulary.js"></script>
 </head>
 <body data-page="vocabulary" data-root-prefix=".">
-  <a class="skip-link" href="#main-content">Skip to lesson content</a>
+  <a class="skip-link" href="#main-content">Skip to the vocabulary bank</a>
   <header class="site-header"><a class="site-mark" href="index.html">N3 Study Desk</a><nav aria-label="Primary"><a href="index.html">Home</a><details class="study-menu" data-study-menu><summary data-study-menu-trigger aria-controls="study-menu-panel" aria-expanded="false">Study</summary><div class="study-menu-panel" id="study-menu-panel"><p>Choose a book part</p><a href="lessons/index.html"><span class="study-menu-number" aria-hidden="true">一</span><span><strong>Grammar by meaning</strong><small>Lessons 1–12</small></span></a><a href="groups/index.html"><span class="study-menu-number" aria-hidden="true">二</span><span><strong>Mixed grammar groups</strong><small>Groups A–J and reviews</small></span></a><a href="sentence/index.html"><span class="study-menu-number" aria-hidden="true">三</span><span><strong>Sentence building</strong><small>Four lessons and review</small></span></a><a href="passage/index.html"><span class="study-menu-number" aria-hidden="true">四</span><span><strong>Passage grammar</strong><small>Ten lessons and five reviews</small></span></a></div></details><a href="vocabulary.html" aria-current="page">Vocabulary</a><a href="practice.html">Practice</a><a href="curriculum.html">Curriculum</a><a href="study-guide.html">How to use</a></nav></header>
   <main id="main-content" tabindex="-1">
     <section class="page-hero">
@@ -24,111 +24,190 @@
     </section>
     <section class="card" aria-labelledby="vocabulary-bank-title">
       <h2 id="vocabulary-bank-title">Active curriculum word bank</h2>
-      <div class="filters">
+      <p id="vocab-filter-help">Use any filter by itself or combine filters. Topic and Grammar Point each select one option at a time. Choose Clear filters to show the complete bank again.</p>
+      <div class="filters" aria-describedby="vocab-filter-help">
         <div class="field">
           <label for="vocab-search">Search kanji, kana, or English</label>
-          <input id="vocab-search" type="search" data-vocab-search autocomplete="off">
+          <input id="vocab-search" type="search" data-vocab-search autocomplete="off" aria-controls="vocab-results">
         </div>
         <div class="field">
           <label for="vocab-part">Part of speech</label>
-          <select id="vocab-part" data-vocab-part>
+          <select id="vocab-part" data-vocab-part aria-controls="vocab-results">
             <option value="all">All parts of speech</option>
           </select>
         </div>
         <div class="field">
+          <label for="vocab-topic">Topic</label>
+          <select id="vocab-topic" data-vocab-topic aria-controls="vocab-results">
+            <option value="all">All topics</option>
+          </select>
+        </div>
+        <div class="field">
           <label for="vocab-grammar">Grammar point</label>
-          <select id="vocab-grammar" data-vocab-grammar>
+          <select id="vocab-grammar" data-vocab-grammar aria-controls="vocab-results">
             <option value="all">All grammar points</option>
-            <optgroup label="Lesson 1">
+            <optgroup label="Part 1 · Lesson 1">
               <option value="l1-uchini">～うちに</option>
               <option value="l1-aida">～間／～間に</option>
               <option value="l1-tekara">～てからでないと</option>
               <option value="l1-tokoro">～ところ</option>
             </optgroup>
-            <optgroup label="Lesson 2">
+            <optgroup label="Part 1 · Lesson 2">
               <option value="l2-toori">～とおり／～どおり</option>
               <option value="l2-niyotte">～によって</option>
               <option value="l2-tabini">～たびに</option>
               <option value="l2-hodo">～ほど</option>
               <option value="l2-tsuideni">～ついでに</option>
             </optgroup>
-            <optgroup label="Lesson 3">
+            <optgroup label="Part 1 · Lesson 3">
               <option value="l3-kurai">～くらい／～ほど</option>
               <option value="l3-kurai-wa-nai">～くらい…はない／～ほど…はない</option>
               <option value="l3-kurai-nara">～くらいなら</option>
               <option value="l3-ni-kagiru">～に限る</option>
             </optgroup>
-            <optgroup label="Lesson 4">
+            <optgroup label="Part 1 · Lesson 4">
               <option value="l4-ni-taishite">～に対して</option>
               <option value="l4-hanmen">～反面</option>
               <option value="l4-ippo">～一方（で）</option>
               <option value="l4-to-iu-yori">～というより</option>
               <option value="l4-kawari-ni">～かわりに</option>
             </optgroup>
-            <optgroup label="Lesson 5">
+            <optgroup label="Part 1 · Lesson 5">
               <option value="l5-tame">～ためだ・～ため（に）</option>
               <option value="l5-ni-yotte">～によって・～による</option>
               <option value="l5-kara-koto">～から・～ことから</option>
               <option value="l5-okage-sei">～おかげ・～せい</option>
               <option value="l5-no-dakara">～のだから</option>
             </optgroup>
-            <optgroup label="Lesson 6">
+            <optgroup label="Part 1 · Lesson 6">
               <option value="l6-nara">～（の）なら</option>
               <option value="l6-tewa-dewa">～ては・～（の）では</option>
               <option value="l6-sae">～さえ～ば・～さえ～なら</option>
               <option value="l6-tatoe">たとえ～ても・～でも</option>
               <option value="l6-ba-tara-nara">～ば／～たら／～なら…のに</option>
             </optgroup>
-            <optgroup label="Lesson 7">
+            <optgroup label="Part 1 · Lesson 7">
               <option value="l7-toiu-koto">～ということだ・～とのことだ</option>
               <option value="l7-iwareteiru">～と言われている</option>
               <option value="l7-toka">～とか</option>
               <option value="l7-tte">～って</option>
               <option value="l7-toiu">～という</option>
             </optgroup>
-            <optgroup label="Lesson 8">
+            <optgroup label="Part 1 · Lesson 8">
               <option value="l8-hazu-wake">～はずがない・～わけがない</option>
               <option value="l8-toha-kagiranai">～とは限らない</option>
               <option value="l8-wake-dewa-nai">～わけではない・～というわけではない・～のではない</option>
               <option value="l8-nai-koto-wa-nai">～ないことはない</option>
               <option value="l8-koto-wa-ga">～ことは～が、…</option>
             </optgroup>
-            <optgroup label="Lesson 9">
+            <optgroup label="Part 1 · Lesson 9">
               <option value="l9-te-moraitai">～てもらいたい・～ていただきたい・～てほしい</option>
               <option value="l9-sasete-moraitai">～（さ）せてもらいたい・～（さ）せていただきたい</option>
               <option value="l9-to-ba-tara-ii">～といい・～ばいい・～たらいい</option>
             </optgroup>
-            <optgroup label="Lesson 10">
+            <optgroup label="Part 1 · Lesson 10">
               <option value="l10-meirei-kinshi">～こと・～な</option>
               <option value="l10-koto">～ことだ</option>
               <option value="l10-beki">～べきだ・～べきではない</option>
               <option value="l10-tara-doka">～たらどうか</option>
             </optgroup>
-            <optgroup label="Lesson 11">
+            <optgroup label="Part 1 · Lesson 11">
               <option value="l11-koto-ni-suru">～ことにする・～ことにしている</option>
               <option value="l11-you-ni-suru">～ようにする・～ようにしている</option>
               <option value="l11-you-to-suru">～（よ）うとする</option>
               <option value="l11-tsumori">～つもりだ</option>
             </optgroup>
-            <optgroup label="Lesson 12">
+            <optgroup label="Part 1 · Lesson 12">
               <option value="l12-sonkeigo">尊敬語</option>
               <option value="l12-kenjougo-1">謙譲語1</option>
               <option value="l12-kenjougo-2">謙譲語2</option>
               <option value="l12-teineigo">丁寧語</option>
+            </optgroup>
+            <optgroup label="Part 2 · Group A">
+              <option value="p2-group-a">助詞のさまざまな働き</option>
+            </optgroup>
+            <optgroup label="Part 2 · Group B">
+              <option value="p2-group-b">助詞のような働きをする言葉</option>
+            </optgroup>
+            <optgroup label="Part 2 · Group C">
+              <option value="p2-group-c">「こと」と「の」の使い方</option>
+            </optgroup>
+            <optgroup label="Part 2 · Group D">
+              <option value="p2-group-d">「よう」の使い方</option>
+            </optgroup>
+            <optgroup label="Part 2 · Group E">
+              <option value="p2-group-e">「わけ」の使い方</option>
+            </optgroup>
+            <optgroup label="Part 2 · Group F">
+              <option value="p2-group-f">「ばかり」の使い方</option>
+            </optgroup>
+            <optgroup label="Part 2 · Group G">
+              <option value="p2-group-g">「する」と「なる」の整理</option>
+            </optgroup>
+            <optgroup label="Part 2 · Group H">
+              <option value="p2-group-h">「たら・ば・と・なら」の特別な使い方</option>
+            </optgroup>
+            <optgroup label="Part 2 · Group I">
+              <option value="p2-group-i">後ろの形が決まっている副詞</option>
+            </optgroup>
+            <optgroup label="Part 2 · Group J">
+              <option value="p2-group-j">意味を広げる形</option>
+            </optgroup>
+            <optgroup label="Part 3 · Lesson 1">
+              <option value="p3-lesson-1">引用</option>
+            </optgroup>
+            <optgroup label="Part 3 · Lesson 2">
+              <option value="p3-lesson-2">名詞修飾</option>
+            </optgroup>
+            <optgroup label="Part 3 · Lesson 3">
+              <option value="p3-lesson-3">～という・～といった</option>
+            </optgroup>
+            <optgroup label="Part 3 · Lesson 4">
+              <option value="p3-lesson-4">決まった形</option>
+            </optgroup>
+            <optgroup label="Part 4 · Lesson 1">
+              <option value="p4-lesson-1">文の始めと終わりの対応</option>
+            </optgroup>
+            <optgroup label="Part 4 · Lesson 2">
+              <option value="p4-lesson-2">時制・～ている</option>
+            </optgroup>
+            <optgroup label="Part 4 · Lesson 3">
+              <option value="p4-lesson-3">他動詞・自動詞</option>
+            </optgroup>
+            <optgroup label="Part 4 · Lesson 4">
+              <option value="p4-lesson-4">～てくる・～ていく</option>
+            </optgroup>
+            <optgroup label="Part 4 · Lesson 5">
+              <option value="p4-lesson-5">受身・使役・使役受身</option>
+            </optgroup>
+            <optgroup label="Part 4 · Lesson 6">
+              <option value="p4-lesson-6">～てあげる・～てもらう・～てくれる</option>
+            </optgroup>
+            <optgroup label="Part 4 · Lesson 7">
+              <option value="p4-lesson-7">こ・そ・あ</option>
+            </optgroup>
+            <optgroup label="Part 4 · Lesson 8">
+              <option value="p4-lesson-8">は・が</option>
+            </optgroup>
+            <optgroup label="Part 4 · Lesson 9">
+              <option value="p4-lesson-9">接続表現</option>
+            </optgroup>
+            <optgroup label="Part 4 · Lesson 10">
+              <option value="p4-lesson-10">文章の雰囲気の統一</option>
             </optgroup>
           </select>
         </div>
       </div>
       <div class="toolbar">
         <button class="secondary" type="button" data-clear-filters>Clear filters</button>
-        <p data-vocab-status role="status" aria-live="polite">0 vocabulary entries</p>
+        <p data-vocab-status role="status" aria-live="polite" aria-atomic="true">0 vocabulary entries</p>
       </div>
       <div class="vocab-bank-layout">
         <div>
           <p data-vocab-empty hidden>No matching Parts 1–4 word was found. Clear the filters and try again.</p>
-          <div class="vocab-results" data-vocab-results></div>
+          <div class="vocab-results" id="vocab-results" data-vocab-results></div>
         </div>
-        <aside class="vocab-detail" data-vocab-details aria-label="Selected vocabulary details">
+        <aside class="vocab-detail" id="vocab-details" data-vocab-details aria-label="Selected vocabulary details" aria-live="polite">
           <p>Select a word to see its kanji and lesson occurrences.</p>
         </aside>
       </div>

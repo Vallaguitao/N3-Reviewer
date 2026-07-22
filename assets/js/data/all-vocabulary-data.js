@@ -8,7 +8,9 @@
   {
     "forms": [],
     "grammarIds": [
-      "l2-hodo"
+      "l2-hodo",
+      "p2-group-f",
+      "p3-lesson-3"
     ],
     "id": "agaru",
     "kanji": [
@@ -36,15 +38,21 @@
         "label": "Lesson 3: ～という・～といった | N3 Study Desk"
       }
     ],
-    "partOfSpeech": "godan verb",
+    "partOfSpeech": [
+      "Group 1 Verb"
+    ],
     "reading": "あがる",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "上がる"
   },
   {
     "forms": [],
     "grammarIds": [
       "l1-aida",
-      "l8-wake-dewa-nai"
+      "l8-wake-dewa-nai",
+      "p2-group-a"
     ],
     "id": "aida",
     "kanji": [
@@ -81,8 +89,14 @@
         "label": "Lesson 8: Strong and partial negation 絶対～ない・必ず～とは言えない"
       }
     ],
-    "partOfSpeech": "noun / grammar expression",
+    "partOfSpeech": [
+      "Noun",
+      "Expression"
+    ],
     "reading": "あいだ",
+    "topicIds": [
+      "time-dates-schedules"
+    ],
     "written": "間"
   },
   {
@@ -112,12 +126,20 @@
         "label": "Lesson 1: Time relationships ～とき"
       }
     ],
-    "partOfSpeech": "grammar expression",
+    "partOfSpeech": [
+      "Expression"
+    ],
     "reading": "あいだに",
+    "topicIds": [
+      "time-dates-schedules"
+    ],
     "written": "間に"
   },
   {
     "forms": [],
+    "grammarIds": [
+      "p2-group-h"
+    ],
     "id": "aji",
     "kanji": [
       {
@@ -140,12 +162,21 @@
         "label": "Group H: Special uses of たら・ば・と・なら | N3 Study Desk"
       }
     ],
-    "partOfSpeech": "noun",
+    "partOfSpeech": [
+      "Noun"
+    ],
     "reading": "あじ",
+    "topicIds": [
+      "food-cooking"
+    ],
     "written": "味"
   },
   {
     "forms": [],
+    "grammarIds": [
+      "p2-group-c",
+      "p2-group-j"
+    ],
     "id": "akachan",
     "kanji": [
       {
@@ -167,14 +198,23 @@
         "label": "Group J: Forms that broaden meaning | N3 Study Desk"
       }
     ],
-    "partOfSpeech": "noun",
+    "partOfSpeech": [
+      "Noun"
+    ],
     "reading": "あかちゃん",
+    "topicIds": [
+      "people-family-relationships"
+    ],
     "written": "赤ちゃん"
   },
   {
     "forms": [],
     "grammarIds": [
-      "l1-uchini"
+      "l1-uchini",
+      "p2-group-d",
+      "p2-group-g",
+      "p4-lesson-3",
+      "p4-lesson-9"
     ],
     "id": "akarui",
     "kanji": [
@@ -214,15 +254,29 @@
         "label": "Part 4 Lesson 9: 接続表現 | N3 Study Desk"
       }
     ],
-    "partOfSpeech": "i-adjective",
+    "partOfSpeech": [
+      "I-Adjective"
+    ],
     "reading": "あかるい",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "明るい"
   },
   {
     "forms": [],
     "grammarIds": [
       "l3-kurai",
-      "l6-nara"
+      "l6-nara",
+      "p2-group-a",
+      "p2-group-b",
+      "p2-group-d",
+      "p2-group-f",
+      "p2-group-h",
+      "p2-group-i",
+      "p2-group-j",
+      "p3-lesson-4",
+      "p4-lesson-10"
     ],
     "id": "ame",
     "kanji": [
@@ -289,12 +343,21 @@
         "label": "Lesson 4: Fixed patterns | N3 Study Desk"
       }
     ],
-    "partOfSpeech": "noun",
+    "partOfSpeech": [
+      "Noun"
+    ],
     "reading": "あめ",
+    "topicIds": [
+      "nature-weather"
+    ],
     "written": "雨"
   },
   {
     "forms": [],
+    "grammarIds": [
+      "p2-group-h",
+      "p3-lesson-3"
+    ],
     "id": "ani",
     "kanji": [
       {
@@ -316,12 +379,22 @@
         "label": "Lesson 3: ～という・～といった | N3 Study Desk"
       }
     ],
-    "partOfSpeech": "noun",
+    "partOfSpeech": [
+      "Noun"
+    ],
     "reading": "あに",
+    "topicIds": [
+      "people-family-relationships"
+    ],
     "written": "兄"
   },
   {
     "forms": [],
+    "grammarIds": [
+      "p2-group-d",
+      "p3-lesson-1",
+      "p4-lesson-7"
+    ],
     "id": "anzen",
     "kanji": [
       {
@@ -353,15 +426,24 @@
         "label": "Lesson 1: Quotation | N3 Study Desk"
       }
     ],
-    "partOfSpeech": "noun / na-adjective",
+    "partOfSpeech": [
+      "Noun",
+      "Na-Adjective"
+    ],
     "reading": "あんぜん",
+    "topicIds": [
+      "society-public-services"
+    ],
     "written": "安全"
   },
   {
     "forms": [],
     "grammarIds": [
       "l2-toori",
-      "l4-to-iu-yori"
+      "l4-to-iu-yori",
+      "p2-group-g",
+      "p2-group-h",
+      "p2-group-j"
     ],
     "id": "aruku",
     "kanji": [
@@ -396,15 +478,26 @@
         "label": "Lesson 4: Contrast ～とは違って"
       }
     ],
-    "partOfSpeech": "godan verb",
+    "partOfSpeech": [
+      "Group 1 Verb"
+    ],
     "reading": "あるく",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "歩く"
   },
   {
     "forms": [],
     "grammarIds": [
       "l12-sonkeigo",
-      "l5-tame"
+      "l5-tame",
+      "p2-group-e",
+      "p2-group-g",
+      "p2-group-i",
+      "p3-lesson-1",
+      "p3-lesson-4",
+      "p4-lesson-8"
     ],
     "id": "ashita",
     "kanji": [
@@ -456,8 +549,14 @@
         "label": "Lesson 4: Fixed patterns | N3 Study Desk"
       }
     ],
-    "partOfSpeech": "noun / adverb",
+    "partOfSpeech": [
+      "Noun",
+      "Adverb"
+    ],
     "reading": "あした",
+    "topicIds": [
+      "time-dates-schedules"
+    ],
     "written": "明日"
   },
   {
@@ -466,7 +565,13 @@
       "l11-koto-ni-suru",
       "l2-tsuideni",
       "l4-ippo",
-      "l7-toiu-koto"
+      "l7-toiu-koto",
+      "p2-group-b",
+      "p2-group-f",
+      "p2-group-g",
+      "p3-lesson-2",
+      "p3-lesson-4",
+      "p4-lesson-7"
     ],
     "id": "atarashii",
     "kanji": [
@@ -521,14 +626,22 @@
         "label": "Lesson 4: Fixed patterns | N3 Study Desk"
       }
     ],
-    "partOfSpeech": "i-adjective",
+    "partOfSpeech": [
+      "I-Adjective"
+    ],
     "reading": "あたらしい",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "新しい"
   },
   {
     "forms": [],
     "grammarIds": [
-      "l9-sasete-moraitai"
+      "l9-sasete-moraitai",
+      "p2-group-e",
+      "p2-group-g",
+      "p4-lesson-10"
     ],
     "id": "atsui",
     "kanji": [
@@ -559,12 +672,25 @@
         "label": "Part 4 Lesson 10: 文章の雰囲気の統一 | N3 Study Desk"
       }
     ],
-    "partOfSpeech": "i-adjective",
+    "partOfSpeech": [
+      "I-Adjective"
+    ],
     "reading": "あつい",
+    "topicIds": [
+      "nature-weather"
+    ],
     "written": "暑い"
   },
   {
     "forms": [],
+    "grammarIds": [
+      "p2-group-a",
+      "p2-group-c",
+      "p2-group-e",
+      "p2-group-h",
+      "p3-lesson-2",
+      "p3-lesson-3"
+    ],
     "id": "au",
     "kanji": [
       {
@@ -611,14 +737,22 @@
         "label": "Lesson 3: ～という・～といった | N3 Study Desk"
       }
     ],
-    "partOfSpeech": "godan verb",
+    "partOfSpeech": [
+      "Group 1 Verb"
+    ],
     "reading": "あう",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "会う"
   },
   {
     "forms": [],
     "grammarIds": [
-      "l2-niyotte"
+      "l2-niyotte",
+      "p2-group-c",
+      "p2-group-f",
+      "p2-group-i"
     ],
     "id": "baai",
     "kanji": [
@@ -667,14 +801,20 @@
         "label": "Lesson 2: Relationships ～と関係して"
       }
     ],
-    "partOfSpeech": "noun",
+    "partOfSpeech": [
+      "Noun"
+    ],
     "reading": "ばあい",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "場合"
   },
   {
     "forms": [],
     "grammarIds": [
-      "l3-ni-kagiru"
+      "l3-ni-kagiru",
+      "p4-lesson-9"
     ],
     "id": "basho",
     "kanji": [
@@ -703,8 +843,13 @@
         "label": "Part 4 Lesson 9: 接続表現 | N3 Study Desk"
       }
     ],
-    "partOfSpeech": "noun",
+    "partOfSpeech": [
+      "Noun"
+    ],
     "reading": "ばしょ",
+    "topicIds": [
+      "places-directions"
+    ],
     "written": "場所"
   },
   {
@@ -735,12 +880,21 @@
         "label": "Lesson 3: Degree and comparison 比べれば…・～がいちばん"
       }
     ],
-    "partOfSpeech": "noun",
+    "partOfSpeech": [
+      "Noun"
+    ],
     "reading": "べんとう",
+    "topicIds": [
+      "food-cooking"
+    ],
     "written": "弁当"
   },
   {
     "forms": [],
+    "grammarIds": [
+      "p2-group-j",
+      "p4-lesson-9"
+    ],
     "id": "betsu",
     "kanji": [
       {
@@ -763,8 +917,14 @@
         "label": "Part 4 Lesson 9: 接続表現 | N3 Study Desk"
       }
     ],
-    "partOfSpeech": "noun / na-adjective",
+    "partOfSpeech": [
+      "Noun",
+      "Na-Adjective"
+    ],
     "reading": "べつ",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "別"
   },
   {
@@ -795,12 +955,20 @@
         "label": "Lesson 11: Intentions, efforts, and attempts"
       }
     ],
-    "partOfSpeech": "noun",
+    "partOfSpeech": [
+      "Noun"
+    ],
     "reading": "ぶちょう",
+    "topicIds": [
+      "work-business"
+    ],
     "written": "部長"
   },
   {
     "forms": [],
+    "grammarIds": [
+      "p4-lesson-9"
+    ],
     "id": "bungaku",
     "kanji": [
       {
@@ -823,8 +991,13 @@
         "label": "Part 4 Lesson 9: 接続表現 | N3 Study Desk"
       }
     ],
-    "partOfSpeech": "noun",
+    "partOfSpeech": [
+      "Noun"
+    ],
     "reading": "ぶんがく",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "文学"
   },
   {
@@ -864,8 +1037,13 @@
         "label": "Lesson 9: Wishes and requests ～と望む"
       }
     ],
-    "partOfSpeech": "noun",
+    "partOfSpeech": [
+      "Noun"
+    ],
     "reading": "ぶんかさい",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "文化祭"
   },
   {
@@ -911,14 +1089,22 @@
         "label": "Lesson 9: Wishes and requests ～と望む"
       }
     ],
-    "partOfSpeech": "noun / na-adjective",
+    "partOfSpeech": [
+      "Noun",
+      "Na-Adjective"
+    ],
     "reading": "びょうき",
+    "topicIds": [
+      "body-health"
+    ],
     "written": "病気"
   },
   {
     "forms": [],
     "grammarIds": [
-      "l2-niyotte"
+      "l2-niyotte",
+      "p2-group-b",
+      "p2-group-h"
     ],
     "id": "chigau",
     "kanji": [
@@ -950,15 +1136,24 @@
         "label": "Lesson 2: Relationships ～と関係して"
       }
     ],
-    "partOfSpeech": "godan verb",
+    "partOfSpeech": [
+      "Group 1 Verb"
+    ],
     "reading": "ちがう",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "違う"
   },
   {
     "forms": [],
     "grammarIds": [
       "l2-tabini",
-      "l7-toiu-koto"
+      "l7-toiu-koto",
+      "p2-group-b",
+      "p2-group-f",
+      "p3-lesson-4",
+      "p4-lesson-10"
     ],
     "id": "chiho",
     "kanji": [
@@ -1007,12 +1202,22 @@
         "label": "Lesson 4: Fixed patterns | N3 Study Desk"
       }
     ],
-    "partOfSpeech": "noun",
+    "partOfSpeech": [
+      "Noun"
+    ],
     "reading": "ちほう",
+    "topicIds": [
+      "places-directions"
+    ],
     "written": "地方"
   },
   {
     "forms": [],
+    "grammarIds": [
+      "p3-lesson-4",
+      "p4-lesson-6",
+      "p4-lesson-7"
+    ],
     "id": "chikai",
     "kanji": [
       {
@@ -1039,12 +1244,21 @@
         "label": "Lesson 4: Fixed patterns | N3 Study Desk"
       }
     ],
-    "partOfSpeech": "i-adjective",
+    "partOfSpeech": [
+      "I-Adjective"
+    ],
     "reading": "ちかい",
+    "topicIds": [
+      "places-directions"
+    ],
     "written": "近い"
   },
   {
     "forms": [],
+    "grammarIds": [
+      "p3-lesson-3",
+      "p4-lesson-7"
+    ],
     "id": "chikaku",
     "kanji": [
       {
@@ -1067,12 +1281,21 @@
         "label": "Lesson 3: ～という・～といった | N3 Study Desk"
       }
     ],
-    "partOfSpeech": "noun / adverb",
+    "partOfSpeech": [
+      "Noun",
+      "Adverb"
+    ],
     "reading": "ちかく",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "近く"
   },
   {
     "forms": [],
+    "grammarIds": [
+      "p3-lesson-4"
+    ],
     "id": "chizu",
     "kanji": [
       {
@@ -1095,8 +1318,13 @@
         "label": "Lesson 4: Fixed patterns | N3 Study Desk"
       }
     ],
-    "partOfSpeech": "noun",
+    "partOfSpeech": [
+      "Noun"
+    ],
     "reading": "ちず",
+    "topicIds": [
+      "places-directions"
+    ],
     "written": "地図"
   },
   {
@@ -1126,12 +1354,20 @@
         "label": "Lesson 4: Contrast ～とは違って"
       }
     ],
-    "partOfSpeech": "noun",
+    "partOfSpeech": [
+      "Noun"
+    ],
     "reading": "ちょうなん",
+    "topicIds": [
+      "people-family-relationships"
+    ],
     "written": "長男"
   },
   {
     "forms": [],
+    "grammarIds": [
+      "p4-lesson-9"
+    ],
     "id": "chosa",
     "kanji": [
       {
@@ -1155,8 +1391,14 @@
         "label": "Part 4 Lesson 9: 接続表現 | N3 Study Desk"
       }
     ],
-    "partOfSpeech": "noun / suru verb",
+    "partOfSpeech": [
+      "Noun",
+      "Group 3 Verb"
+    ],
     "reading": "ちょうさ",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "調査"
   },
   {
@@ -1187,14 +1429,20 @@
         "label": "Lesson 2: Relationships ～と関係して"
       }
     ],
-    "partOfSpeech": "suru verb",
+    "partOfSpeech": [
+      "Group 3 Verb"
+    ],
     "reading": "ちゅうもんする",
+    "topicIds": [
+      "places-directions"
+    ],
     "written": "注文する"
   },
   {
     "forms": [],
     "grammarIds": [
-      "l12-sonkeigo"
+      "l12-sonkeigo",
+      "p4-lesson-9"
     ],
     "id": "daigaku",
     "kanji": [
@@ -1223,8 +1471,13 @@
         "label": "Part 4 Lesson 9: 接続表現 | N3 Study Desk"
       }
     ],
-    "partOfSpeech": "noun",
+    "partOfSpeech": [
+      "Noun"
+    ],
     "reading": "だいがく",
+    "topicIds": [
+      "school-study"
+    ],
     "written": "大学"
   },
   {
@@ -1255,12 +1508,21 @@
         "label": "Lesson 10: Advice and commands ～したほうがいい・～なさい"
       }
     ],
-    "partOfSpeech": "noun / na-adjective",
+    "partOfSpeech": [
+      "Noun",
+      "Na-Adjective"
+    ],
     "reading": "だいじ",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "大事"
   },
   {
     "forms": [],
+    "grammarIds": [
+      "p2-group-i"
+    ],
     "id": "daijobu",
     "kanji": [
       {
@@ -1290,8 +1552,13 @@
         "label": "Group I: Adverbs with fixed following forms | N3 Study Desk"
       }
     ],
-    "partOfSpeech": "na-adjective",
+    "partOfSpeech": [
+      "Na-Adjective"
+    ],
     "reading": "だいじょうぶ",
+    "topicIds": [
+      "places-directions"
+    ],
     "written": "大丈夫"
   },
   {
@@ -1322,8 +1589,13 @@
         "label": "Lesson 4: Contrast ～とは違って"
       }
     ],
-    "partOfSpeech": "noun",
+    "partOfSpeech": [
+      "Noun"
+    ],
     "reading": "だんせい",
+    "topicIds": [
+      "people-family-relationships"
+    ],
     "written": "男性"
   },
   {
@@ -1331,7 +1603,13 @@
     "grammarIds": [
       "l10-koto",
       "l10-meirei-kinshi",
-      "l2-tsuideni"
+      "l2-tsuideni",
+      "p2-group-a",
+      "p2-group-d",
+      "p2-group-e",
+      "p2-group-h",
+      "p2-group-i",
+      "p2-group-j"
     ],
     "id": "dasu",
     "kanji": [
@@ -1403,15 +1681,21 @@
         "label": "Lesson 10: Advice and commands ～したほうがいい・～なさい"
       }
     ],
-    "partOfSpeech": "godan verb",
+    "partOfSpeech": [
+      "Group 1 Verb"
+    ],
     "reading": "だす",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "出す"
   },
   {
     "forms": [],
     "grammarIds": [
       "l1-tokoro",
-      "l6-tewa-dewa"
+      "l6-tewa-dewa",
+      "p2-group-f"
     ],
     "id": "dekiagaru",
     "kanji": [
@@ -1439,12 +1723,25 @@
         "label": "Lesson 6: Conditions and hypotheses もし、…"
       }
     ],
-    "partOfSpeech": "godan verb",
+    "partOfSpeech": [
+      "Group 1 Verb"
+    ],
     "reading": "できあがる",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "でき上がる"
   },
   {
     "forms": [],
+    "grammarIds": [
+      "p2-group-d",
+      "p2-group-e",
+      "p2-group-f",
+      "p2-group-h",
+      "p2-group-i",
+      "p3-lesson-1"
+    ],
     "id": "densha",
     "kanji": [
       {
@@ -1491,8 +1788,13 @@
         "label": "Lesson 1: Quotation | N3 Study Desk"
       }
     ],
-    "partOfSpeech": "noun",
+    "partOfSpeech": [
+      "Noun"
+    ],
     "reading": "でんしゃ",
+    "topicIds": [
+      "travel-transportation"
+    ],
     "written": "電車"
   },
   {
@@ -1502,7 +1804,11 @@
       "l2-tabini",
       "l7-toiu-koto",
       "l8-hazu-wake",
-      "l8-wake-dewa-nai"
+      "l8-wake-dewa-nai",
+      "p2-group-d",
+      "p2-group-g",
+      "p2-group-h",
+      "p4-lesson-9"
     ],
     "id": "denwa",
     "kanji": [
@@ -1567,8 +1873,14 @@
         "label": "Part 4 Lesson 9: 接続表現 | N3 Study Desk"
       }
     ],
-    "partOfSpeech": "noun / suru verb",
+    "partOfSpeech": [
+      "Noun",
+      "Group 3 Verb"
+    ],
     "reading": "でんわ",
+    "topicIds": [
+      "communication-media"
+    ],
     "written": "電話"
   },
   {
@@ -1576,7 +1888,12 @@
     "grammarIds": [
       "l11-you-to-suru",
       "l2-tsuideni",
-      "l8-wake-dewa-nai"
+      "l8-wake-dewa-nai",
+      "p2-group-a",
+      "p2-group-e",
+      "p2-group-h",
+      "p4-lesson-8",
+      "p4-lesson-9"
     ],
     "id": "deru",
     "kanji": [
@@ -1640,8 +1957,13 @@
         "label": "Part 4 Lesson 9: 接続表現 | N3 Study Desk"
       }
     ],
-    "partOfSpeech": "ichidan verb",
+    "partOfSpeech": [
+      "Group 2 Verb"
+    ],
     "reading": "でる",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "出る"
   },
   {
@@ -1676,8 +1998,13 @@
         "label": "Lesson 7: Reported information and hearsay ～だそうだ"
       }
     ],
-    "partOfSpeech": "noun",
+    "partOfSpeech": [
+      "Noun"
+    ],
     "reading": "どうぶつ",
+    "topicIds": [
+      "nature-weather"
+    ],
     "written": "動物"
   },
   {
@@ -1708,15 +2035,22 @@
         "label": "Lesson 3: Degree and comparison 比べれば…・～がいちばん"
       }
     ],
-    "partOfSpeech": "noun",
+    "partOfSpeech": [
+      "Noun"
+    ],
     "reading": "どくしん",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "独身"
   },
   {
     "forms": [],
     "grammarIds": [
       "l1-tekara",
-      "l4-to-iu-yori"
+      "l4-to-iu-yori",
+      "p2-group-e",
+      "p2-group-j"
     ],
     "id": "e-picture",
     "kanji": [
@@ -1748,14 +2082,21 @@
         "label": "Lesson 4: Contrast ～とは違って"
       }
     ],
-    "partOfSpeech": "noun",
+    "partOfSpeech": [
+      "Noun"
+    ],
     "reading": "え",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "絵"
   },
   {
     "forms": [],
     "grammarIds": [
-      "l3-ni-kagiru"
+      "l3-ni-kagiru",
+      "p2-group-a",
+      "p3-lesson-4"
     ],
     "id": "eiga",
     "kanji": [
@@ -1788,8 +2129,13 @@
         "label": "Lesson 4: Fixed patterns | N3 Study Desk"
       }
     ],
-    "partOfSpeech": "noun",
+    "partOfSpeech": [
+      "Noun"
+    ],
     "reading": "えいが",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "映画"
   },
   {
@@ -1825,14 +2171,23 @@
         "label": "Lesson 3: Degree and comparison 比べれば…・～がいちばん"
       }
     ],
-    "partOfSpeech": "noun",
+    "partOfSpeech": [
+      "Noun"
+    ],
     "reading": "えいがかん",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "映画館"
   },
   {
     "forms": [],
     "grammarIds": [
-      "l4-kawari-ni"
+      "l4-kawari-ni",
+      "p2-group-f",
+      "p2-group-h",
+      "p2-group-i",
+      "p3-lesson-4"
     ],
     "id": "eigo",
     "kanji": [
@@ -1872,14 +2227,25 @@
         "label": "Lesson 4: Fixed patterns | N3 Study Desk"
       }
     ],
-    "partOfSpeech": "noun",
+    "partOfSpeech": [
+      "Noun"
+    ],
     "reading": "えいご",
+    "topicIds": [
+      "school-study"
+    ],
     "written": "英語"
   },
   {
     "forms": [],
     "grammarIds": [
-      "l8-nai-koto-wa-nai"
+      "l8-nai-koto-wa-nai",
+      "p2-group-h",
+      "p2-group-j",
+      "p3-lesson-2",
+      "p3-lesson-3",
+      "p3-lesson-4",
+      "p4-lesson-2"
     ],
     "id": "eki",
     "kanji": [
@@ -1926,12 +2292,20 @@
         "label": "Lesson 4: Fixed patterns | N3 Study Desk"
       }
     ],
-    "partOfSpeech": "noun",
+    "partOfSpeech": [
+      "Noun"
+    ],
     "reading": "えき",
+    "topicIds": [
+      "travel-transportation"
+    ],
     "written": "駅"
   },
   {
     "forms": [],
+    "grammarIds": [
+      "p4-lesson-1"
+    ],
     "id": "erabu",
     "kanji": [
       {
@@ -1950,8 +2324,13 @@
         "label": "Part 4 Lesson 1: 文の始めと終わりの対応 | N3 Study Desk"
       }
     ],
-    "partOfSpeech": "godan verb",
+    "partOfSpeech": [
+      "Group 1 Verb"
+    ],
     "reading": "えらぶ",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "選ぶ"
   },
   {
@@ -1982,8 +2361,14 @@
         "label": "Lesson 3: Degree and comparison 比べれば…・～がいちばん"
       }
     ],
-    "partOfSpeech": "noun / na-adjective",
+    "partOfSpeech": [
+      "Noun",
+      "Na-Adjective"
+    ],
     "reading": "ふあん",
+    "topicIds": [
+      "feelings-personality"
+    ],
     "written": "不安"
   },
   {
@@ -2013,15 +2398,22 @@
         "label": "Lesson 4: Contrast ～とは違って"
       }
     ],
-    "partOfSpeech": "na-adjective",
+    "partOfSpeech": [
+      "Na-Adjective"
+    ],
     "reading": "ふべん",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "不便"
   },
   {
     "forms": [],
     "grammarIds": [
       "l2-hodo",
-      "l4-hanmen"
+      "l4-hanmen",
+      "p2-group-i",
+      "p4-lesson-9"
     ],
     "id": "fueru",
     "kanji": [
@@ -2053,14 +2445,20 @@
         "label": "Part 4 Lesson 9: 接続表現 | N3 Study Desk"
       }
     ],
-    "partOfSpeech": "ichidan verb",
+    "partOfSpeech": [
+      "Group 2 Verb"
+    ],
     "reading": "ふえる",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "増える"
   },
   {
     "forms": [],
     "grammarIds": [
-      "l1-uchini"
+      "l1-uchini",
+      "p3-lesson-4"
     ],
     "id": "fujisan",
     "kanji": [
@@ -2093,14 +2491,28 @@
         "label": "Lesson 4: Fixed patterns | N3 Study Desk"
       }
     ],
-    "partOfSpeech": "proper noun",
+    "partOfSpeech": [
+      "Noun"
+    ],
     "reading": "ふじさん",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "富士山"
   },
   {
     "forms": [],
     "grammarIds": [
-      "l3-kurai"
+      "l3-kurai",
+      "p2-group-a",
+      "p2-group-e",
+      "p2-group-f",
+      "p2-group-h",
+      "p3-lesson-4",
+      "p4-lesson-10",
+      "p4-lesson-2",
+      "p4-lesson-3",
+      "p4-lesson-8"
     ],
     "id": "furu",
     "kanji": [
@@ -2155,15 +2567,23 @@
         "label": "Lesson 4: Fixed patterns | N3 Study Desk"
       }
     ],
-    "partOfSpeech": "godan verb",
+    "partOfSpeech": [
+      "Group 1 Verb"
+    ],
     "reading": "ふる",
+    "topicIds": [
+      "nature-weather"
+    ],
     "written": "降る"
   },
   {
     "forms": [],
     "grammarIds": [
       "l7-toiu",
-      "l8-toha-kagiranai"
+      "l8-toha-kagiranai",
+      "p2-group-d",
+      "p3-lesson-3",
+      "p3-lesson-4"
     ],
     "id": "furui",
     "kanji": [
@@ -2198,12 +2618,20 @@
         "label": "Lesson 4: Fixed patterns | N3 Study Desk"
       }
     ],
-    "partOfSpeech": "i-adjective",
+    "partOfSpeech": [
+      "I-Adjective"
+    ],
     "reading": "ふるい",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "古い"
   },
   {
     "forms": [],
+    "grammarIds": [
+      "p2-group-a"
+    ],
     "id": "ga-hanabi",
     "kanji": [
       {
@@ -2221,12 +2649,20 @@
         "label": "Group A: Particles with various functions | N3 Study Desk"
       }
     ],
-    "partOfSpeech": "noun",
+    "partOfSpeech": [
+      "Noun"
+    ],
     "reading": "はなび",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "花火"
   },
   {
     "forms": [],
+    "grammarIds": [
+      "p2-group-a"
+    ],
     "id": "ga-hokkyoku",
     "kanji": [
       {
@@ -2244,12 +2680,20 @@
         "label": "Group A: Particles with various functions | N3 Study Desk"
       }
     ],
-    "partOfSpeech": "noun",
+    "partOfSpeech": [
+      "Noun"
+    ],
     "reading": "ほっきょく",
+    "topicIds": [
+      "places-directions"
+    ],
     "written": "北極"
   },
   {
     "forms": [],
+    "grammarIds": [
+      "p3-lesson-4"
+    ],
     "id": "ga-jusho",
     "kanji": [
       {
@@ -2267,12 +2711,20 @@
         "label": "Lesson 4: Fixed patterns | N3 Study Desk"
       }
     ],
-    "partOfSpeech": "noun",
+    "partOfSpeech": [
+      "Noun"
+    ],
     "reading": "じゅうしょ",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "住所"
   },
   {
     "forms": [],
+    "grammarIds": [
+      "p2-group-a"
+    ],
     "id": "ga-keigo",
     "kanji": [
       {
@@ -2290,12 +2742,20 @@
         "label": "Group A: Particles with various functions | N3 Study Desk"
       }
     ],
-    "partOfSpeech": "noun",
+    "partOfSpeech": [
+      "Noun"
+    ],
     "reading": "けいご",
+    "topicIds": [
+      "school-study"
+    ],
     "written": "敬語"
   },
   {
     "forms": [],
+    "grammarIds": [
+      "p2-group-a"
+    ],
     "id": "ga-kenson",
     "kanji": [
       {
@@ -2313,12 +2773,20 @@
         "label": "Group A: Particles with various functions | N3 Study Desk"
       }
     ],
-    "partOfSpeech": "noun",
+    "partOfSpeech": [
+      "Noun"
+    ],
     "reading": "けんそん",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "謙遜"
   },
   {
     "forms": [],
+    "grammarIds": [
+      "p2-group-a"
+    ],
     "id": "ga-kyokutan",
     "kanji": [
       {
@@ -2344,14 +2812,20 @@
         "label": "Group A: Particles with various functions | N3 Study Desk"
       }
     ],
-    "partOfSpeech": "noun",
+    "partOfSpeech": [
+      "Noun"
+    ],
     "reading": "きょくたん",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "極端"
   },
   {
     "forms": [],
     "grammarIds": [
-      "l8-toha-kagiranai"
+      "l8-toha-kagiranai",
+      "p2-group-a"
     ],
     "id": "ga-nedan",
     "kanji": [
@@ -2374,12 +2848,20 @@
         "label": "Lesson 8: Strong and partial negation 絶対～ない・必ず～とは言えない"
       }
     ],
-    "partOfSpeech": "noun",
+    "partOfSpeech": [
+      "Noun"
+    ],
     "reading": "ねだん",
+    "topicIds": [
+      "money-shopping"
+    ],
     "written": "値段"
   },
   {
     "forms": [],
+    "grammarIds": [
+      "p2-group-a"
+    ],
     "id": "ga-nengajo",
     "kanji": [
       {
@@ -2397,14 +2879,20 @@
         "label": "Group A: Particles with various functions | N3 Study Desk"
       }
     ],
-    "partOfSpeech": "noun",
+    "partOfSpeech": [
+      "Noun"
+    ],
     "reading": "ねんがじょう",
+    "topicIds": [
+      "time-dates-schedules"
+    ],
     "written": "年賀状"
   },
   {
     "forms": [],
     "grammarIds": [
-      "l11-koto-ni-suru"
+      "l11-koto-ni-suru",
+      "p2-group-a"
     ],
     "id": "ga-reizoko",
     "kanji": [
@@ -2427,12 +2915,20 @@
         "label": "Lesson 11: Intentions, efforts, and attempts"
       }
     ],
-    "partOfSpeech": "noun",
+    "partOfSpeech": [
+      "Noun"
+    ],
     "reading": "れいぞうこ",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "冷蔵庫"
   },
   {
     "forms": [],
+    "grammarIds": [
+      "p2-group-a"
+    ],
     "id": "ga-saifu",
     "kanji": [
       {
@@ -2450,12 +2946,20 @@
         "label": "Group A: Particles with various functions | N3 Study Desk"
       }
     ],
-    "partOfSpeech": "noun",
+    "partOfSpeech": [
+      "Noun"
+    ],
     "reading": "さいふ",
+    "topicIds": [
+      "money-shopping"
+    ],
     "written": "財布"
   },
   {
     "forms": [],
+    "grammarIds": [
+      "p2-group-a"
+    ],
     "id": "ga-saiteigen",
     "kanji": [
       {
@@ -2477,12 +2981,20 @@
         "label": "Group A: Particles with various functions | N3 Study Desk"
       }
     ],
-    "partOfSpeech": "noun",
+    "partOfSpeech": [
+      "Noun"
+    ],
     "reading": "さいていげん",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "最低限"
   },
   {
     "forms": [],
+    "grammarIds": [
+      "p2-group-a"
+    ],
     "id": "ga-shakkin",
     "kanji": [
       {
@@ -2500,12 +3012,20 @@
         "label": "Group A: Particles with various functions | N3 Study Desk"
       }
     ],
-    "partOfSpeech": "noun",
+    "partOfSpeech": [
+      "Noun"
+    ],
     "reading": "しゃっきん",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "借金"
   },
   {
     "forms": [],
+    "grammarIds": [
+      "p2-group-a"
+    ],
     "id": "ga-shiryo",
     "kanji": [
       {
@@ -2523,8 +3043,13 @@
         "label": "Group A: Particles with various functions | N3 Study Desk"
       }
     ],
-    "partOfSpeech": "noun",
+    "partOfSpeech": [
+      "Noun"
+    ],
     "reading": "しりょう",
+    "topicIds": [
+      "technology"
+    ],
     "written": "資料"
   },
   {
@@ -2554,12 +3079,21 @@
         "label": "Lesson 7: Reported information and hearsay ～だそうだ"
       }
     ],
-    "partOfSpeech": "noun",
+    "partOfSpeech": [
+      "Noun"
+    ],
     "reading": "しゅっちょう",
+    "topicIds": [
+      "work-business",
+      "travel-transportation"
+    ],
     "written": "出張"
   },
   {
     "forms": [],
+    "grammarIds": [
+      "p2-group-a"
+    ],
     "id": "ga-tamagoyaki",
     "kanji": [
       {
@@ -2577,12 +3111,20 @@
         "label": "Group A: Particles with various functions | N3 Study Desk"
       }
     ],
-    "partOfSpeech": "noun",
+    "partOfSpeech": [
+      "Noun"
+    ],
     "reading": "たまごやき",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "卵焼き"
   },
   {
     "forms": [],
+    "grammarIds": [
+      "p2-group-a"
+    ],
     "id": "ga-teian",
     "kanji": [
       {
@@ -2604,12 +3146,21 @@
         "label": "Group A: Particles with various functions | N3 Study Desk"
       }
     ],
-    "partOfSpeech": "noun",
+    "partOfSpeech": [
+      "Noun"
+    ],
     "reading": "ていあん",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "提案"
   },
   {
     "forms": [],
+    "grammarIds": [
+      "p2-group-a",
+      "p2-group-j"
+    ],
     "id": "ga-teido",
     "kanji": [
       {
@@ -2643,14 +3194,20 @@
         "label": "Group J: Forms that broaden meaning | N3 Study Desk"
       }
     ],
-    "partOfSpeech": "noun",
+    "partOfSpeech": [
+      "Noun"
+    ],
     "reading": "ていど",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "程度"
   },
   {
     "forms": [],
     "grammarIds": [
-      "l7-toiu"
+      "l7-toiu",
+      "p2-group-a"
     ],
     "id": "ga-tofu",
     "kanji": [
@@ -2673,14 +3230,20 @@
         "label": "Lesson 7: Reported information and hearsay ～だそうだ"
       }
     ],
-    "partOfSpeech": "noun",
+    "partOfSpeech": [
+      "Noun"
+    ],
     "reading": "とうふ",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "豆腐"
   },
   {
     "forms": [],
     "grammarIds": [
-      "l7-iwareteiru"
+      "l7-iwareteiru",
+      "p2-group-a"
     ],
     "id": "ga-yusho",
     "kanji": [
@@ -2703,8 +3266,13 @@
         "label": "Lesson 7: Reported information and hearsay ～だそうだ"
       }
     ],
-    "partOfSpeech": "noun",
+    "partOfSpeech": [
+      "Noun"
+    ],
     "reading": "ゆうしょう",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "優勝"
   },
   {
@@ -2730,12 +3298,20 @@
         "label": "Lesson 2: Relationships ～と関係して"
       }
     ],
-    "partOfSpeech": "noun",
+    "partOfSpeech": [
+      "Noun"
+    ],
     "reading": "がい",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "害"
   },
   {
     "forms": [],
+    "grammarIds": [
+      "p2-group-d"
+    ],
     "id": "gamen",
     "kanji": [
       {
@@ -2759,8 +3335,13 @@
         "label": "Group D: Uses of よう | N3 Study Desk"
       }
     ],
-    "partOfSpeech": "noun",
+    "partOfSpeech": [
+      "Noun"
+    ],
     "reading": "がめん",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "画面"
   },
   {
@@ -2785,12 +3366,20 @@
         "label": "Lesson 2: Relationships ～と関係して"
       }
     ],
-    "partOfSpeech": "noun",
+    "partOfSpeech": [
+      "Noun"
+    ],
     "reading": "ちゅうし",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "中止"
   },
   {
     "forms": [],
+    "grammarIds": [
+      "p2-group-b"
+    ],
     "id": "gb-daihyou",
     "kanji": [
       {
@@ -2808,12 +3397,20 @@
         "label": "Group B: Words that work like particles | N3 Study Desk"
       }
     ],
-    "partOfSpeech": "noun",
+    "partOfSpeech": [
+      "Noun"
+    ],
     "reading": "だいひょう",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "代表"
   },
   {
     "forms": [],
+    "grammarIds": [
+      "p2-group-b"
+    ],
     "id": "gb-dentouteki",
     "kanji": [
       {
@@ -2831,12 +3428,20 @@
         "label": "Group B: Words that work like particles | N3 Study Desk"
       }
     ],
-    "partOfSpeech": "noun",
+    "partOfSpeech": [
+      "Noun"
+    ],
     "reading": "でんとうてき",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "伝統的"
   },
   {
     "forms": [],
+    "grammarIds": [
+      "p2-group-b"
+    ],
     "id": "gb-endaka",
     "kanji": [
       {
@@ -2854,14 +3459,21 @@
         "label": "Group B: Words that work like particles | N3 Study Desk"
       }
     ],
-    "partOfSpeech": "noun",
+    "partOfSpeech": [
+      "Noun"
+    ],
     "reading": "えんだか",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "円高"
   },
   {
     "forms": [],
     "grammarIds": [
-      "l6-tatoe"
+      "l6-tatoe",
+      "p2-group-b",
+      "p3-lesson-2"
     ],
     "id": "gb-hantai",
     "kanji": [
@@ -2892,12 +3504,20 @@
         "label": "Lesson 2: Noun description | N3 Study Desk"
       }
     ],
-    "partOfSpeech": "noun",
+    "partOfSpeech": [
+      "Noun"
+    ],
     "reading": "はんたい",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "反対"
   },
   {
     "forms": [],
+    "grammarIds": [
+      "p2-group-b"
+    ],
     "id": "gb-heiwa",
     "kanji": [
       {
@@ -2915,12 +3535,20 @@
         "label": "Group B: Words that work like particles | N3 Study Desk"
       }
     ],
-    "partOfSpeech": "noun",
+    "partOfSpeech": [
+      "Noun"
+    ],
     "reading": "へいわ",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "平和"
   },
   {
     "forms": [],
+    "grammarIds": [
+      "p2-group-b"
+    ],
     "id": "gb-hihan",
     "kanji": [
       {
@@ -2938,12 +3566,20 @@
         "label": "Group B: Words that work like particles | N3 Study Desk"
       }
     ],
-    "partOfSpeech": "noun",
+    "partOfSpeech": [
+      "Noun"
+    ],
     "reading": "ひはん",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "批判"
   },
   {
     "forms": [],
+    "grammarIds": [
+      "p2-group-b"
+    ],
     "id": "gb-juudai",
     "kanji": [
       {
@@ -2961,12 +3597,20 @@
         "label": "Group B: Words that work like particles | N3 Study Desk"
       }
     ],
-    "partOfSpeech": "noun",
+    "partOfSpeech": [
+      "Noun"
+    ],
     "reading": "じゅうだい",
+    "topicIds": [
+      "feelings-personality"
+    ],
     "written": "重大"
   },
   {
     "forms": [],
+    "grammarIds": [
+      "p2-group-b"
+    ],
     "id": "gb-juumin",
     "kanji": [
       {
@@ -2984,8 +3628,13 @@
         "label": "Group B: Words that work like particles | N3 Study Desk"
       }
     ],
-    "partOfSpeech": "noun",
+    "partOfSpeech": [
+      "Noun"
+    ],
     "reading": "じゅうみん",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "住民"
   },
   {
@@ -3010,12 +3659,20 @@
         "label": "Lesson 2: Relationships ～と関係して"
       }
     ],
-    "partOfSpeech": "noun",
+    "partOfSpeech": [
+      "Noun"
+    ],
     "reading": "かんじかた",
+    "topicIds": [
+      "feelings-personality"
+    ],
     "written": "感じ方"
   },
   {
     "forms": [],
+    "grammarIds": [
+      "p2-group-b"
+    ],
     "id": "gb-kansou",
     "kanji": [
       {
@@ -3033,12 +3690,20 @@
         "label": "Group B: Words that work like particles | N3 Study Desk"
       }
     ],
-    "partOfSpeech": "noun",
+    "partOfSpeech": [
+      "Noun"
+    ],
     "reading": "かんそう",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "感想"
   },
   {
     "forms": [],
+    "grammarIds": [
+      "p2-group-b"
+    ],
     "id": "gb-kokuhi",
     "kanji": [
       {
@@ -3056,14 +3721,20 @@
         "label": "Group B: Words that work like particles | N3 Study Desk"
       }
     ],
-    "partOfSpeech": "noun",
+    "partOfSpeech": [
+      "Noun"
+    ],
     "reading": "こくひ",
+    "topicIds": [
+      "society-public-services"
+    ],
     "written": "国費"
   },
   {
     "forms": [],
     "grammarIds": [
-      "l5-ni-yotte"
+      "l5-ni-yotte",
+      "p2-group-b"
     ],
     "id": "gb-koujou",
     "kanji": [
@@ -3086,12 +3757,20 @@
         "label": "Lesson 5: Reasons and causes ～だから"
       }
     ],
-    "partOfSpeech": "noun",
+    "partOfSpeech": [
+      "Noun"
+    ],
     "reading": "こうじょう",
+    "topicIds": [
+      "work-business"
+    ],
     "written": "工場"
   },
   {
     "forms": [],
+    "grammarIds": [
+      "p2-group-b"
+    ],
     "id": "gb-kyoiku",
     "kanji": [
       {
@@ -3109,12 +3788,20 @@
         "label": "Group B: Words that work like particles | N3 Study Desk"
       }
     ],
-    "partOfSpeech": "noun",
+    "partOfSpeech": [
+      "Noun"
+    ],
     "reading": "きょういく",
+    "topicIds": [
+      "school-study"
+    ],
     "written": "教育"
   },
   {
     "forms": [],
+    "grammarIds": [
+      "p2-group-b"
+    ],
     "id": "gb-mumei",
     "kanji": [
       {
@@ -3132,12 +3819,20 @@
         "label": "Group B: Words that work like particles | N3 Study Desk"
       }
     ],
-    "partOfSpeech": "noun",
+    "partOfSpeech": [
+      "Noun"
+    ],
     "reading": "むめい",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "無名"
   },
   {
     "forms": [],
+    "grammarIds": [
+      "p2-group-b"
+    ],
     "id": "gb-omoide",
     "kanji": [
       {
@@ -3155,12 +3850,21 @@
         "label": "Group B: Words that work like particles | N3 Study Desk"
       }
     ],
-    "partOfSpeech": "noun",
+    "partOfSpeech": [
+      "Noun"
+    ],
     "reading": "おもいで",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "思い出"
   },
   {
     "forms": [],
+    "grammarIds": [
+      "p2-group-b",
+      "p3-lesson-4"
+    ],
     "id": "gb-ryuugakusei",
     "kanji": [
       {
@@ -3186,12 +3890,20 @@
         "label": "Lesson 4: Fixed patterns | N3 Study Desk"
       }
     ],
-    "partOfSpeech": "noun",
+    "partOfSpeech": [
+      "Noun"
+    ],
     "reading": "りゅうがくせい",
+    "topicIds": [
+      "school-study"
+    ],
     "written": "留学生"
   },
   {
     "forms": [],
+    "grammarIds": [
+      "p2-group-b"
+    ],
     "id": "gb-sanchi",
     "kanji": [
       {
@@ -3209,12 +3921,20 @@
         "label": "Group B: Words that work like particles | N3 Study Desk"
       }
     ],
-    "partOfSpeech": "noun",
+    "partOfSpeech": [
+      "Noun"
+    ],
     "reading": "さんち",
+    "topicIds": [
+      "places-directions"
+    ],
     "written": "産地"
   },
   {
     "forms": [],
+    "grammarIds": [
+      "p4-lesson-7"
+    ],
     "id": "gb-shichou",
     "kanji": [
       {
@@ -3232,12 +3952,20 @@
         "label": "Part 4 Lesson 7: こ・そ・あ | N3 Study Desk"
       }
     ],
-    "partOfSpeech": "noun",
+    "partOfSpeech": [
+      "Noun"
+    ],
     "reading": "しちょう",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "市長"
   },
   {
     "forms": [],
+    "grammarIds": [
+      "p2-group-c"
+    ],
     "id": "gc-enbun",
     "kanji": [
       {
@@ -3255,12 +3983,21 @@
         "label": "Group C: Uses of こと and の | N3 Study Desk"
       }
     ],
-    "partOfSpeech": "noun",
+    "partOfSpeech": [
+      "Noun"
+    ],
     "reading": "しおからい",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "塩辛い"
   },
   {
     "forms": [],
+    "grammarIds": [
+      "p2-group-c",
+      "p4-lesson-9"
+    ],
     "id": "gc-henji",
     "kanji": [
       {
@@ -3282,8 +4019,13 @@
         "label": "Part 4 Lesson 9: 接続表現 | N3 Study Desk"
       }
     ],
-    "partOfSpeech": "noun",
+    "partOfSpeech": [
+      "Noun"
+    ],
     "reading": "へんじ",
+    "topicIds": [
+      "communication-media"
+    ],
     "written": "返事"
   },
   {
@@ -3308,12 +4050,20 @@
         "label": "Lesson 6: Conditions and hypotheses もし、…"
       }
     ],
-    "partOfSpeech": "noun",
+    "partOfSpeech": [
+      "Noun"
+    ],
     "reading": "ひつよう",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "必要"
   },
   {
     "forms": [],
+    "grammarIds": [
+      "p2-group-c"
+    ],
     "id": "gc-jittai",
     "kanji": [
       {
@@ -3331,12 +4081,20 @@
         "label": "Group C: Uses of こと and の | N3 Study Desk"
       }
     ],
-    "partOfSpeech": "noun",
+    "partOfSpeech": [
+      "Noun"
+    ],
     "reading": "じったい",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "実体"
   },
   {
     "forms": [],
+    "grammarIds": [
+      "p2-group-c"
+    ],
     "id": "gc-kankaku",
     "kanji": [
       {
@@ -3354,12 +4112,20 @@
         "label": "Group C: Uses of こと and の | N3 Study Desk"
       }
     ],
-    "partOfSpeech": "noun",
+    "partOfSpeech": [
+      "Noun"
+    ],
     "reading": "かんかく",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "感覚"
   },
   {
     "forms": [],
+    "grammarIds": [
+      "p2-group-c"
+    ],
     "id": "gc-mangaka",
     "kanji": [
       {
@@ -3377,12 +4143,20 @@
         "label": "Group C: Uses of こと and の | N3 Study Desk"
       }
     ],
-    "partOfSpeech": "noun",
+    "partOfSpeech": [
+      "Noun"
+    ],
     "reading": "まんがか",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "漫画家"
   },
   {
     "forms": [],
+    "grammarIds": [
+      "p2-group-c"
+    ],
     "id": "gc-mensetsu",
     "kanji": [
       {
@@ -3400,12 +4174,22 @@
         "label": "Group C: Uses of こと and の | N3 Study Desk"
       }
     ],
-    "partOfSpeech": "noun",
+    "partOfSpeech": [
+      "Noun"
+    ],
     "reading": "めんせつ",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "面接"
   },
   {
     "forms": [],
+    "grammarIds": [
+      "p2-group-c",
+      "p2-group-d",
+      "p2-group-g"
+    ],
     "id": "gc-mokuteki",
     "kanji": [
       {
@@ -3435,12 +4219,20 @@
         "label": "Group G: Organizing する and なる | N3 Study Desk"
       }
     ],
-    "partOfSpeech": "noun",
+    "partOfSpeech": [
+      "Noun"
+    ],
     "reading": "もくてき",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "目的"
   },
   {
     "forms": [],
+    "grammarIds": [
+      "p2-group-c"
+    ],
     "id": "gc-naiyou",
     "kanji": [
       {
@@ -3458,12 +4250,20 @@
         "label": "Group C: Uses of こと and の | N3 Study Desk"
       }
     ],
-    "partOfSpeech": "noun",
+    "partOfSpeech": [
+      "Noun"
+    ],
     "reading": "ないよう",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "内容"
   },
   {
     "forms": [],
+    "grammarIds": [
+      "p2-group-c"
+    ],
     "id": "gc-seisankakkei",
     "kanji": [
       {
@@ -3481,12 +4281,20 @@
         "label": "Group C: Uses of こと and の | N3 Study Desk"
       }
     ],
-    "partOfSpeech": "noun",
+    "partOfSpeech": [
+      "Noun"
+    ],
     "reading": "せいさんかくけい",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "正三角形"
   },
   {
     "forms": [],
+    "grammarIds": [
+      "p2-group-c"
+    ],
     "id": "gc-shourai",
     "kanji": [
       {
@@ -3504,8 +4312,13 @@
         "label": "Group C: Uses of こと and の | N3 Study Desk"
       }
     ],
-    "partOfSpeech": "noun",
+    "partOfSpeech": [
+      "Noun"
+    ],
     "reading": "しょうらい",
+    "topicIds": [
+      "time-dates-schedules"
+    ],
     "written": "将来"
   },
   {
@@ -3530,12 +4343,20 @@
         "label": "Lesson 5: Reasons and causes ～だから"
       }
     ],
-    "partOfSpeech": "noun",
+    "partOfSpeech": [
+      "Noun"
+    ],
     "reading": "しゅうしょく",
+    "topicIds": [
+      "work-business"
+    ],
     "written": "就職"
   },
   {
     "forms": [],
+    "grammarIds": [
+      "p2-group-c"
+    ],
     "id": "gc-tokuchou",
     "kanji": [
       {
@@ -3553,12 +4374,20 @@
         "label": "Group C: Uses of こと and の | N3 Study Desk"
       }
     ],
-    "partOfSpeech": "noun",
+    "partOfSpeech": [
+      "Noun"
+    ],
     "reading": "とくちょう",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "特徴"
   },
   {
     "forms": [],
+    "grammarIds": [
+      "p2-group-c"
+    ],
     "id": "gc-zangyou",
     "kanji": [
       {
@@ -3576,12 +4405,21 @@
         "label": "Group C: Uses of こと and の | N3 Study Desk"
       }
     ],
-    "partOfSpeech": "noun",
+    "partOfSpeech": [
+      "Noun"
+    ],
     "reading": "ざんぎょう",
+    "topicIds": [
+      "work-business"
+    ],
     "written": "残業"
   },
   {
     "forms": [],
+    "grammarIds": [
+      "p2-group-a",
+      "p2-group-d"
+    ],
     "id": "gd-akachan",
     "kanji": [
       {
@@ -3603,12 +4441,22 @@
         "label": "Group D: Uses of よう | N3 Study Desk"
       }
     ],
-    "partOfSpeech": "word",
+    "partOfSpeech": [
+      "Noun"
+    ],
     "reading": "あかんぼう",
+    "topicIds": [
+      "people-family-relationships"
+    ],
     "written": "赤ん坊"
   },
   {
     "forms": [],
+    "grammarIds": [
+      "p2-group-d",
+      "p2-group-j",
+      "p4-lesson-4"
+    ],
     "id": "gd-atatakai",
     "kanji": [
       {
@@ -3638,15 +4486,21 @@
         "label": "Part 4 Lesson 4: ～てくる・～ていく | N3 Study Desk"
       }
     ],
-    "partOfSpeech": "word",
+    "partOfSpeech": [
+      "I-Adjective"
+    ],
     "reading": "あたたかい",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "暖かい"
   },
   {
     "forms": [],
     "grammarIds": [
       "l1-tokoro",
-      "l5-ni-yotte"
+      "l5-ni-yotte",
+      "p2-group-d"
     ],
     "id": "gd-chuui",
     "kanji": [
@@ -3673,14 +4527,21 @@
         "label": "Lesson 5: Reasons and causes ～だから"
       }
     ],
-    "partOfSpeech": "word",
+    "partOfSpeech": [
+      "Noun",
+      "Group 3 Verb"
+    ],
     "reading": "ちゅうい",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "注意"
   },
   {
     "forms": [],
     "grammarIds": [
-      "l9-to-ba-tara-ii"
+      "l9-to-ba-tara-ii",
+      "p2-group-d"
     ],
     "id": "gd-goukaku",
     "kanji": [
@@ -3703,12 +4564,21 @@
         "label": "Lesson 9: Wishes and requests ～と望む"
       }
     ],
-    "partOfSpeech": "word",
+    "partOfSpeech": [
+      "Noun",
+      "Group 3 Verb"
+    ],
     "reading": "ごうかく",
+    "topicIds": [
+      "school-study"
+    ],
     "written": "合格"
   },
   {
     "forms": [],
+    "grammarIds": [
+      "p2-group-d"
+    ],
     "id": "gd-henshin",
     "kanji": [
       {
@@ -3726,12 +4596,20 @@
         "label": "Group D: Uses of よう | N3 Study Desk"
       }
     ],
-    "partOfSpeech": "word",
+    "partOfSpeech": [
+      "Noun"
+    ],
     "reading": "へんしん",
+    "topicIds": [
+      "communication-media"
+    ],
     "written": "返信"
   },
   {
     "forms": [],
+    "grammarIds": [
+      "p2-group-d"
+    ],
     "id": "gd-hikkurikaesu",
     "kanji": [
       {
@@ -3749,8 +4627,13 @@
         "label": "Group D: Uses of よう | N3 Study Desk"
       }
     ],
-    "partOfSpeech": "word",
+    "partOfSpeech": [
+      "Group 1 Verb"
+    ],
     "reading": "ひっくりかえす",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "ひっくり返す"
   },
   {
@@ -3775,12 +4658,20 @@
         "label": "Lesson 3: Degree and comparison 比べれば…・～がいちばん"
       }
     ],
-    "partOfSpeech": "word",
+    "partOfSpeech": [
+      "Noun"
+    ],
     "reading": "じしん",
+    "topicIds": [
+      "nature-weather"
+    ],
     "written": "地震"
   },
   {
     "forms": [],
+    "grammarIds": [
+      "p2-group-d"
+    ],
     "id": "gd-koishii",
     "kanji": [
       {
@@ -3798,12 +4689,20 @@
         "label": "Group D: Uses of よう | N3 Study Desk"
       }
     ],
-    "partOfSpeech": "word",
+    "partOfSpeech": [
+      "I-Adjective"
+    ],
     "reading": "こい",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "濃い"
   },
   {
     "forms": [],
+    "grammarIds": [
+      "p2-group-d"
+    ],
     "id": "gd-mezurashii",
     "kanji": [
       {
@@ -3821,8 +4720,13 @@
         "label": "Group D: Uses of よう | N3 Study Desk"
       }
     ],
-    "partOfSpeech": "word",
+    "partOfSpeech": [
+      "I-Adjective"
+    ],
     "reading": "めずらしい",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "珍しい"
   },
   {
@@ -3847,12 +4751,20 @@
         "label": "Lesson 5: Reasons and causes ～だから"
       }
     ],
-    "partOfSpeech": "word",
+    "partOfSpeech": [
+      "Group 2 Verb"
+    ],
     "reading": "にている",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "似ている"
   },
   {
     "forms": [],
+    "grammarIds": [
+      "p2-group-d"
+    ],
     "id": "gd-nutrition",
     "kanji": [
       {
@@ -3870,14 +4782,20 @@
         "label": "Group D: Uses of よう | N3 Study Desk"
       }
     ],
-    "partOfSpeech": "word",
+    "partOfSpeech": [
+      "Noun"
+    ],
     "reading": "えいよう",
+    "topicIds": [
+      "body-health"
+    ],
     "written": "栄養"
   },
   {
     "forms": [],
     "grammarIds": [
-      "l8-toha-kagiranai"
+      "l8-toha-kagiranai",
+      "p2-group-d"
     ],
     "id": "gd-shimbun",
     "kanji": [
@@ -3900,12 +4818,20 @@
         "label": "Lesson 8: Strong and partial negation 絶対～ない・必ず～とは言えない"
       }
     ],
-    "partOfSpeech": "word",
+    "partOfSpeech": [
+      "Noun"
+    ],
     "reading": "しんぶん",
+    "topicIds": [
+      "communication-media"
+    ],
     "written": "新聞"
   },
   {
     "forms": [],
+    "grammarIds": [
+      "p2-group-d"
+    ],
     "id": "gd-souzou",
     "kanji": [
       {
@@ -3923,15 +4849,22 @@
         "label": "Group D: Uses of よう | N3 Study Desk"
       }
     ],
-    "partOfSpeech": "word",
+    "partOfSpeech": [
+      "Noun",
+      "Group 3 Verb"
+    ],
     "reading": "そうぞう",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "想像"
   },
   {
     "forms": [],
     "grammarIds": [
       "l2-tabini",
-      "l3-kurai"
+      "l3-kurai",
+      "p2-group-d"
     ],
     "id": "gd-taifuu",
     "kanji": [
@@ -3958,14 +4891,20 @@
         "label": "Lesson 3: Degree and comparison 比べれば…・～がいちばん"
       }
     ],
-    "partOfSpeech": "word",
+    "partOfSpeech": [
+      "Noun"
+    ],
     "reading": "たいふう",
+    "topicIds": [
+      "nature-weather"
+    ],
     "written": "台風"
   },
   {
     "forms": [],
     "grammarIds": [
-      "l12-sonkeigo"
+      "l12-sonkeigo",
+      "p2-group-d"
     ],
     "id": "gd-zasshi",
     "kanji": [
@@ -3988,12 +4927,20 @@
         "label": "Lesson 12: Respectful, humble, and polite language"
       }
     ],
-    "partOfSpeech": "word",
+    "partOfSpeech": [
+      "Noun"
+    ],
     "reading": "ざっし",
+    "topicIds": [
+      "communication-media"
+    ],
     "written": "雑誌"
   },
   {
     "forms": [],
+    "grammarIds": [
+      "p2-group-e"
+    ],
     "id": "ge-gaka",
     "kanji": [
       {
@@ -4011,12 +4958,20 @@
         "label": "Group E: Uses of わけ | N3 Study Desk"
       }
     ],
-    "partOfSpeech": "word",
+    "partOfSpeech": [
+      "Noun"
+    ],
     "reading": "がか",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "画家"
   },
   {
     "forms": [],
+    "grammarIds": [
+      "p2-group-e"
+    ],
     "id": "ge-jitensha",
     "kanji": [
       {
@@ -4034,8 +4989,13 @@
         "label": "Group E: Uses of わけ | N3 Study Desk"
       }
     ],
-    "partOfSpeech": "word",
+    "partOfSpeech": [
+      "Noun"
+    ],
     "reading": "じてんしゃ",
+    "topicIds": [
+      "travel-transportation"
+    ],
     "written": "自転車"
   },
   {
@@ -4043,7 +5003,8 @@
     "grammarIds": [
       "l12-sonkeigo",
       "l4-ippo",
-      "l5-tame"
+      "l5-tame",
+      "p2-group-e"
     ],
     "id": "ge-kaigi",
     "kanji": [
@@ -4074,12 +5035,21 @@
         "label": "Lesson 12: Respectful, humble, and polite language"
       }
     ],
-    "partOfSpeech": "word",
+    "partOfSpeech": [
+      "Noun",
+      "Group 3 Verb"
+    ],
     "reading": "かいぎ",
+    "topicIds": [
+      "work-business"
+    ],
     "written": "会議"
   },
   {
     "forms": [],
+    "grammarIds": [
+      "p2-group-e"
+    ],
     "id": "ge-kakushin",
     "kanji": [
       {
@@ -4097,15 +5067,22 @@
         "label": "Group E: Uses of わけ | N3 Study Desk"
       }
     ],
-    "partOfSpeech": "word",
+    "partOfSpeech": [
+      "Noun",
+      "Group 3 Verb"
+    ],
     "reading": "かくしん",
+    "topicIds": [
+      "feelings-personality"
+    ],
     "written": "確信"
   },
   {
     "forms": [],
     "grammarIds": [
       "l2-toori",
-      "l8-nai-koto-wa-nai"
+      "l8-nai-koto-wa-nai",
+      "p2-group-g"
     ],
     "id": "ge-kekka",
     "kanji": [
@@ -4132,8 +5109,13 @@
         "label": "Lesson 8: Strong and partial negation 絶対～ない・必ず～とは言えない"
       }
     ],
-    "partOfSpeech": "word",
+    "partOfSpeech": [
+      "Noun"
+    ],
     "reading": "けっか",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "結果"
   },
   {
@@ -4158,12 +5140,21 @@
         "label": "Lesson 2: Relationships ～と関係して"
       }
     ],
-    "partOfSpeech": "word",
+    "partOfSpeech": [
+      "Noun",
+      "Group 3 Verb"
+    ],
     "reading": "きたい",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "期待"
   },
   {
     "forms": [],
+    "grammarIds": [
+      "p2-group-i"
+    ],
     "id": "ge-ningyou",
     "kanji": [
       {
@@ -4181,12 +5172,21 @@
         "label": "Group I: Adverbs with fixed following forms | N3 Study Desk"
       }
     ],
-    "partOfSpeech": "word",
+    "partOfSpeech": [
+      "Noun"
+    ],
     "reading": "にんぎょう",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "人形"
   },
   {
     "forms": [],
+    "grammarIds": [
+      "p2-group-a",
+      "p2-group-e"
+    ],
     "id": "ge-renshuu",
     "kanji": [
       {
@@ -4208,12 +5208,20 @@
         "label": "Group E: Uses of わけ | N3 Study Desk"
       }
     ],
-    "partOfSpeech": "word",
+    "partOfSpeech": [
+      "Noun"
+    ],
     "reading": "れんきゅう",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "連休"
   },
   {
     "forms": [],
+    "grammarIds": [
+      "p2-group-i"
+    ],
     "id": "ge-seikou",
     "kanji": [
       {
@@ -4231,12 +5239,21 @@
         "label": "Group I: Adverbs with fixed following forms | N3 Study Desk"
       }
     ],
-    "partOfSpeech": "word",
+    "partOfSpeech": [
+      "Noun",
+      "Group 3 Verb"
+    ],
     "reading": "せいこう",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "成功"
   },
   {
     "forms": [],
+    "grammarIds": [
+      "p2-group-e"
+    ],
     "id": "ge-shinyuu",
     "kanji": [
       {
@@ -4254,8 +5271,13 @@
         "label": "Group E: Uses of わけ | N3 Study Desk"
       }
     ],
-    "partOfSpeech": "word",
+    "partOfSpeech": [
+      "Noun"
+    ],
     "reading": "しんゆう",
+    "topicIds": [
+      "people-family-relationships"
+    ],
     "written": "親友"
   },
   {
@@ -4280,12 +5302,20 @@
         "label": "Lesson 6: Conditions and hypotheses もし、…"
       }
     ],
-    "partOfSpeech": "word",
+    "partOfSpeech": [
+      "Noun"
+    ],
     "reading": "たいど",
+    "topicIds": [
+      "feelings-personality"
+    ],
     "written": "態度"
   },
   {
     "forms": [],
+    "grammarIds": [
+      "p2-group-e"
+    ],
     "id": "ge-tanomi",
     "kanji": [
       {
@@ -4303,12 +5333,21 @@
         "label": "Group E: Uses of わけ | N3 Study Desk"
       }
     ],
-    "partOfSpeech": "word",
+    "partOfSpeech": [
+      "Noun"
+    ],
     "reading": "たのみ",
+    "topicIds": [
+      "communication-media"
+    ],
     "written": "頼み"
   },
   {
     "forms": [],
+    "grammarIds": [
+      "p2-group-e",
+      "p2-group-g"
+    ],
     "id": "ge-toshokan",
     "kanji": [
       {
@@ -4330,12 +5369,20 @@
         "label": "Group G: Organizing する and なる | N3 Study Desk"
       }
     ],
-    "partOfSpeech": "word",
+    "partOfSpeech": [
+      "Noun"
+    ],
     "reading": "としょかん",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "図書館"
   },
   {
     "forms": [],
+    "grammarIds": [
+      "p2-group-e"
+    ],
     "id": "ge-toukyoueki",
     "kanji": [
       {
@@ -4353,14 +5400,20 @@
         "label": "Group E: Uses of わけ | N3 Study Desk"
       }
     ],
-    "partOfSpeech": "word",
+    "partOfSpeech": [
+      "Noun"
+    ],
     "reading": "とうきょうえき",
+    "topicIds": [
+      "travel-transportation"
+    ],
     "written": "東京駅"
   },
   {
     "forms": [],
     "grammarIds": [
-      "l2-niyotte"
+      "l2-niyotte",
+      "p2-group-e"
     ],
     "id": "ge-yonaka",
     "kanji": [
@@ -4383,14 +5436,20 @@
         "label": "Lesson 2: Relationships ～と関係して"
       }
     ],
-    "partOfSpeech": "word",
+    "partOfSpeech": [
+      "Noun"
+    ],
     "reading": "よなか",
+    "topicIds": [
+      "time-dates-schedules"
+    ],
     "written": "夜中"
   },
   {
     "forms": [],
     "grammarIds": [
-      "l2-tsuideni"
+      "l2-tsuideni",
+      "p2-group-h"
     ],
     "id": "genkan",
     "kanji": [
@@ -4419,14 +5478,21 @@
         "label": "Lesson 2: Relationships ～と関係して"
       }
     ],
-    "partOfSpeech": "noun",
+    "partOfSpeech": [
+      "Noun"
+    ],
     "reading": "げんかん",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "玄関"
   },
   {
     "forms": [],
     "grammarIds": [
-      "l12-sonkeigo"
+      "l12-sonkeigo",
+      "p2-group-j",
+      "p4-lesson-9"
     ],
     "id": "genki",
     "kanji": [
@@ -4460,14 +5526,21 @@
         "label": "Part 4 Lesson 9: 接続表現 | N3 Study Desk"
       }
     ],
-    "partOfSpeech": "na-adjective / noun",
+    "partOfSpeech": [
+      "Noun",
+      "Na-Adjective"
+    ],
     "reading": "げんき",
+    "topicIds": [
+      "body-health"
+    ],
     "written": "元気"
   },
   {
     "forms": [],
     "grammarIds": [
-      "l12-kenjougo-1"
+      "l12-kenjougo-1",
+      "p2-group-f"
     ],
     "id": "gf-annai",
     "kanji": [
@@ -4490,12 +5563,25 @@
         "label": "Lesson 12: Respectful, humble, and polite language"
       }
     ],
-    "partOfSpeech": "word",
+    "partOfSpeech": [
+      "Noun",
+      "Group 3 Verb"
+    ],
     "reading": "あんない",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "案内"
   },
   {
     "forms": [],
+    "grammarIds": [
+      "p2-group-a",
+      "p2-group-d",
+      "p2-group-f",
+      "p3-lesson-1",
+      "p4-lesson-9"
+    ],
     "id": "gf-benkyo",
     "kanji": [
       {
@@ -4533,14 +5619,21 @@
         "label": "Lesson 1: Quotation | N3 Study Desk"
       }
     ],
-    "partOfSpeech": "word",
+    "partOfSpeech": [
+      "Noun",
+      "Group 3 Verb"
+    ],
     "reading": "べんきょう",
+    "topicIds": [
+      "school-study"
+    ],
     "written": "勉強"
   },
   {
     "forms": [],
     "grammarIds": [
-      "l5-ni-yotte"
+      "l5-ni-yotte",
+      "p2-group-f"
     ],
     "id": "gf-gaikokugo",
     "kanji": [
@@ -4563,12 +5656,20 @@
         "label": "Lesson 5: Reasons and causes ～だから"
       }
     ],
-    "partOfSpeech": "word",
+    "partOfSpeech": [
+      "Noun"
+    ],
     "reading": "がいこくご",
+    "topicIds": [
+      "school-study"
+    ],
     "written": "外国語"
   },
   {
     "forms": [],
+    "grammarIds": [
+      "p2-group-f"
+    ],
     "id": "gf-henrei",
     "kanji": [
       {
@@ -4586,12 +5687,21 @@
         "label": "Group F: Uses of ばかり | N3 Study Desk"
       }
     ],
-    "partOfSpeech": "word",
+    "partOfSpeech": [
+      "Noun",
+      "Group 3 Verb"
+    ],
     "reading": "おかえし",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "お返し"
   },
   {
     "forms": [],
+    "grammarIds": [
+      "p2-group-f"
+    ],
     "id": "gf-hihan",
     "kanji": [
       {
@@ -4609,12 +5719,22 @@
         "label": "Group F: Uses of ばかり | N3 Study Desk"
       }
     ],
-    "partOfSpeech": "word",
+    "partOfSpeech": [
+      "Noun",
+      "Group 3 Verb"
+    ],
     "reading": "ひなん",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "非難"
   },
   {
     "forms": [],
+    "grammarIds": [
+      "p2-group-d",
+      "p2-group-f"
+    ],
     "id": "gf-inoru",
     "kanji": [
       {
@@ -4636,12 +5756,21 @@
         "label": "Group F: Uses of ばかり | N3 Study Desk"
       }
     ],
-    "partOfSpeech": "word",
+    "partOfSpeech": [
+      "Group 1 Verb"
+    ],
     "reading": "いのる",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "祈る"
   },
   {
     "forms": [],
+    "grammarIds": [
+      "p2-group-f",
+      "p2-group-i"
+    ],
     "id": "gf-junbi",
     "kanji": [
       {
@@ -4671,14 +5800,23 @@
         "label": "Group I: Adverbs with fixed following forms | N3 Study Desk"
       }
     ],
-    "partOfSpeech": "word",
+    "partOfSpeech": [
+      "Noun",
+      "Group 3 Verb"
+    ],
     "reading": "じゅんび",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "準備"
   },
   {
     "forms": [],
     "grammarIds": [
-      "l5-no-dakara"
+      "l5-no-dakara",
+      "p2-group-b",
+      "p2-group-f",
+      "p2-group-g"
     ],
     "id": "gf-kaigi",
     "kanji": [
@@ -4713,14 +5851,24 @@
         "label": "Lesson 5: Reasons and causes ～だから"
       }
     ],
-    "partOfSpeech": "word",
+    "partOfSpeech": [
+      "Noun",
+      "Group 3 Verb"
+    ],
     "reading": "かいわ",
+    "topicIds": [
+      "communication-media"
+    ],
     "written": "会話"
   },
   {
     "forms": [],
     "grammarIds": [
-      "l5-kara-koto"
+      "l5-kara-koto",
+      "p2-group-b",
+      "p2-group-d",
+      "p2-group-f",
+      "p4-lesson-2"
     ],
     "id": "gf-kankei",
     "kanji": [
@@ -4763,12 +5911,21 @@
         "label": "Part 4 Lesson 2: 時制・～ている | N3 Study Desk"
       }
     ],
-    "partOfSpeech": "word",
+    "partOfSpeech": [
+      "Noun",
+      "Group 3 Verb"
+    ],
     "reading": "かんけい",
+    "topicIds": [
+      "people-family-relationships"
+    ],
     "written": "関係"
   },
   {
     "forms": [],
+    "grammarIds": [
+      "p2-group-f"
+    ],
     "id": "gf-kanshin",
     "kanji": [
       {
@@ -4786,12 +5943,21 @@
         "label": "Group F: Uses of ばかり | N3 Study Desk"
       }
     ],
-    "partOfSpeech": "word",
+    "partOfSpeech": [
+      "Noun"
+    ],
     "reading": "かんしん",
+    "topicIds": [
+      "feelings-personality"
+    ],
     "written": "関心"
   },
   {
     "forms": [],
+    "grammarIds": [
+      "p2-group-f",
+      "p4-lesson-8"
+    ],
     "id": "gf-kekkon",
     "kanji": [
       {
@@ -4813,8 +5979,14 @@
         "label": "Part 4 Lesson 8: は・が | N3 Study Desk"
       }
     ],
-    "partOfSpeech": "word",
+    "partOfSpeech": [
+      "Noun",
+      "Group 3 Verb"
+    ],
     "reading": "けっこん",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "結婚"
   },
   {
@@ -4839,12 +6011,21 @@
         "label": "Lesson 11: Intentions, efforts, and attempts"
       }
     ],
-    "partOfSpeech": "word",
+    "partOfSpeech": [
+      "Noun",
+      "Group 3 Verb"
+    ],
     "reading": "にゅうしゃ",
+    "topicIds": [
+      "work-business"
+    ],
     "written": "入社"
   },
   {
     "forms": [],
+    "grammarIds": [
+      "p2-group-f"
+    ],
     "id": "gf-sekai",
     "kanji": [
       {
@@ -4862,12 +6043,20 @@
         "label": "Group F: Uses of ばかり | N3 Study Desk"
       }
     ],
-    "partOfSpeech": "word",
+    "partOfSpeech": [
+      "Noun"
+    ],
     "reading": "せかいじゅう",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "世界中"
   },
   {
     "forms": [],
+    "grammarIds": [
+      "p2-group-f"
+    ],
     "id": "gf-shoutaijou",
     "kanji": [
       {
@@ -4885,12 +6074,20 @@
         "label": "Group F: Uses of ばかり | N3 Study Desk"
       }
     ],
-    "partOfSpeech": "word",
+    "partOfSpeech": [
+      "Noun"
+    ],
     "reading": "しょうたいじょう",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "招待状"
   },
   {
     "forms": [],
+    "grammarIds": [
+      "p2-group-f"
+    ],
     "id": "gf-sofu",
     "kanji": [
       {
@@ -4908,12 +6105,20 @@
         "label": "Group F: Uses of ばかり | N3 Study Desk"
       }
     ],
-    "partOfSpeech": "word",
+    "partOfSpeech": [
+      "Noun"
+    ],
     "reading": "そふ",
+    "topicIds": [
+      "people-family-relationships"
+    ],
     "written": "祖父"
   },
   {
     "forms": [],
+    "grammarIds": [
+      "p2-group-g"
+    ],
     "id": "gg-henshin",
     "kanji": [
       {
@@ -4931,12 +6136,20 @@
         "label": "Group G: Organizing する and なる | N3 Study Desk"
       }
     ],
-    "partOfSpeech": "word",
+    "partOfSpeech": [
+      "Noun"
+    ],
     "reading": "へんしん",
+    "topicIds": [
+      "communication-media"
+    ],
     "written": "返信"
   },
   {
     "forms": [],
+    "grammarIds": [
+      "p2-group-g"
+    ],
     "id": "gg-jidou",
     "kanji": [
       {
@@ -4954,12 +6167,20 @@
         "label": "Group G: Organizing する and なる | N3 Study Desk"
       }
     ],
-    "partOfSpeech": "word",
+    "partOfSpeech": [
+      "Noun"
+    ],
     "reading": "じどう",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "自動"
   },
   {
     "forms": [],
+    "grammarIds": [
+      "p2-group-g"
+    ],
     "id": "gg-renkyuu",
     "kanji": [
       {
@@ -4977,12 +6198,20 @@
         "label": "Group G: Organizing する and なる | N3 Study Desk"
       }
     ],
-    "partOfSpeech": "word",
+    "partOfSpeech": [
+      "Noun"
+    ],
     "reading": "れんきゅう",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "連休"
   },
   {
     "forms": [],
+    "grammarIds": [
+      "p2-group-g"
+    ],
     "id": "gg-seifuku",
     "kanji": [
       {
@@ -5000,12 +6229,20 @@
         "label": "Group G: Organizing する and なる | N3 Study Desk"
       }
     ],
-    "partOfSpeech": "word",
+    "partOfSpeech": [
+      "Noun"
+    ],
     "reading": "せいふく",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "制服"
   },
   {
     "forms": [],
+    "grammarIds": [
+      "p2-group-g"
+    ],
     "id": "gg-shucchou",
     "kanji": [
       {
@@ -5023,12 +6260,22 @@
         "label": "Group G: Organizing する and なる | N3 Study Desk"
       }
     ],
-    "partOfSpeech": "word",
+    "partOfSpeech": [
+      "Noun",
+      "Group 3 Verb"
+    ],
     "reading": "しゅっちょう",
+    "topicIds": [
+      "work-business",
+      "travel-transportation"
+    ],
     "written": "出張"
   },
   {
     "forms": [],
+    "grammarIds": [
+      "p2-group-g"
+    ],
     "id": "gg-shuppatsubi",
     "kanji": [
       {
@@ -5050,12 +6297,21 @@
         "label": "Group G: Organizing する and なる | N3 Study Desk"
       }
     ],
-    "partOfSpeech": "word",
+    "partOfSpeech": [
+      "Noun"
+    ],
     "reading": "しゅっぱつび",
+    "topicIds": [
+      "time-dates-schedules",
+      "travel-transportation"
+    ],
     "written": "出発日"
   },
   {
     "forms": [],
+    "grammarIds": [
+      "p2-group-g"
+    ],
     "id": "gg-suibun",
     "kanji": [
       {
@@ -5073,12 +6329,20 @@
         "label": "Group G: Organizing する and なる | N3 Study Desk"
       }
     ],
-    "partOfSpeech": "word",
+    "partOfSpeech": [
+      "Noun"
+    ],
     "reading": "すいぶん",
+    "topicIds": [
+      "food-cooking"
+    ],
     "written": "水分"
   },
   {
     "forms": [],
+    "grammarIds": [
+      "p2-group-g"
+    ],
     "id": "gg-taiyou",
     "kanji": [
       {
@@ -5096,12 +6360,20 @@
         "label": "Group G: Organizing する and なる | N3 Study Desk"
       }
     ],
-    "partOfSpeech": "word",
+    "partOfSpeech": [
+      "Noun"
+    ],
     "reading": "たいよう",
+    "topicIds": [
+      "nature-weather"
+    ],
     "written": "太陽"
   },
   {
     "forms": [],
+    "grammarIds": [
+      "p2-group-h"
+    ],
     "id": "gh-guuzen",
     "kanji": [
       {
@@ -5123,12 +6395,22 @@
         "label": "Group H: Special uses of たら・ば・と・なら | N3 Study Desk"
       }
     ],
-    "partOfSpeech": "word",
+    "partOfSpeech": [
+      "Noun",
+      "Adverb"
+    ],
     "reading": "ぐうぜん",
+    "topicIds": [
+      "time-dates-schedules",
+      "home-daily-life"
+    ],
     "written": "偶然"
   },
   {
     "forms": [],
+    "grammarIds": [
+      "p2-group-h"
+    ],
     "id": "gh-henji",
     "kanji": [
       {
@@ -5146,14 +6428,21 @@
         "label": "Group H: Special uses of たら・ば・と・なら | N3 Study Desk"
       }
     ],
-    "partOfSpeech": "word",
+    "partOfSpeech": [
+      "Noun",
+      "Group 3 Verb"
+    ],
     "reading": "へんじ",
+    "topicIds": [
+      "communication-media"
+    ],
     "written": "返事"
   },
   {
     "forms": [],
     "grammarIds": [
-      "l6-ba-tara-nara"
+      "l6-ba-tara-nara",
+      "p2-group-h"
     ],
     "id": "gh-hikouki",
     "kanji": [
@@ -5176,12 +6465,20 @@
         "label": "Lesson 6: Conditions and hypotheses もし、…"
       }
     ],
-    "partOfSpeech": "word",
+    "partOfSpeech": [
+      "Noun"
+    ],
     "reading": "ひこうき",
+    "topicIds": [
+      "travel-transportation"
+    ],
     "written": "飛行機"
   },
   {
     "forms": [],
+    "grammarIds": [
+      "p2-group-h"
+    ],
     "id": "gh-jinsei",
     "kanji": [
       {
@@ -5199,12 +6496,20 @@
         "label": "Group H: Special uses of たら・ば・と・なら | N3 Study Desk"
       }
     ],
-    "partOfSpeech": "word",
+    "partOfSpeech": [
+      "Noun"
+    ],
     "reading": "じんせい",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "人生"
   },
   {
     "forms": [],
+    "grammarIds": [
+      "p2-group-h"
+    ],
     "id": "gh-ningyou",
     "kanji": [
       {
@@ -5222,15 +6527,21 @@
         "label": "Group H: Special uses of たら・ば・と・なら | N3 Study Desk"
       }
     ],
-    "partOfSpeech": "word",
+    "partOfSpeech": [
+      "Noun"
+    ],
     "reading": "にんぎょう",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "人形"
   },
   {
     "forms": [],
     "grammarIds": [
       "l11-you-to-suru",
-      "l4-ni-taishite"
+      "l4-ni-taishite",
+      "p2-group-h"
     ],
     "id": "gh-ooame",
     "kanji": [
@@ -5257,12 +6568,20 @@
         "label": "Lesson 11: Intentions, efforts, and attempts"
       }
     ],
-    "partOfSpeech": "word",
+    "partOfSpeech": [
+      "Noun"
+    ],
     "reading": "おおあめ",
+    "topicIds": [
+      "nature-weather"
+    ],
     "written": "大雨"
   },
   {
     "forms": [],
+    "grammarIds": [
+      "p2-group-h"
+    ],
     "id": "gh-otoko",
     "kanji": [
       {
@@ -5280,12 +6599,20 @@
         "label": "Group H: Special uses of たら・ば・と・なら | N3 Study Desk"
       }
     ],
-    "partOfSpeech": "word",
+    "partOfSpeech": [
+      "Noun"
+    ],
     "reading": "おおおとこ",
+    "topicIds": [
+      "people-family-relationships"
+    ],
     "written": "大男"
   },
   {
     "forms": [],
+    "grammarIds": [
+      "p2-group-h"
+    ],
     "id": "gh-shumi",
     "kanji": [
       {
@@ -5303,15 +6630,21 @@
         "label": "Group H: Special uses of たら・ば・と・なら | N3 Study Desk"
       }
     ],
-    "partOfSpeech": "word",
+    "partOfSpeech": [
+      "Noun"
+    ],
     "reading": "しゅみ",
+    "topicIds": [
+      "feelings-personality"
+    ],
     "written": "趣味"
   },
   {
     "forms": [],
     "grammarIds": [
       "l11-you-to-suru",
-      "l3-kurai"
+      "l3-kurai",
+      "p2-group-h"
     ],
     "id": "gh-totsuzen",
     "kanji": [
@@ -5338,12 +6671,20 @@
         "label": "Lesson 11: Intentions, efforts, and attempts"
       }
     ],
-    "partOfSpeech": "word",
+    "partOfSpeech": [
+      "Adverb"
+    ],
     "reading": "とつぜん",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "突然"
   },
   {
     "forms": [],
+    "grammarIds": [
+      "p2-group-h"
+    ],
     "id": "gh-yukigesiki",
     "kanji": [
       {
@@ -5361,12 +6702,20 @@
         "label": "Group H: Special uses of たら・ば・と・なら | N3 Study Desk"
       }
     ],
-    "partOfSpeech": "word",
+    "partOfSpeech": [
+      "Noun"
+    ],
     "reading": "ゆきげしき",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "雪景色"
   },
   {
     "forms": [],
+    "grammarIds": [
+      "p2-group-i"
+    ],
     "id": "gi-jikken",
     "kanji": [
       {
@@ -5384,12 +6733,21 @@
         "label": "Group I: Adverbs with fixed following forms | N3 Study Desk"
       }
     ],
-    "partOfSpeech": "word",
+    "partOfSpeech": [
+      "Noun",
+      "Group 3 Verb"
+    ],
     "reading": "じっけん",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "実験"
   },
   {
     "forms": [],
+    "grammarIds": [
+      "p2-group-i"
+    ],
     "id": "gi-jinkou",
     "kanji": [
       {
@@ -5407,12 +6765,20 @@
         "label": "Group I: Adverbs with fixed following forms | N3 Study Desk"
       }
     ],
-    "partOfSpeech": "word",
+    "partOfSpeech": [
+      "Noun"
+    ],
     "reading": "じんこう",
+    "topicIds": [
+      "society-public-services"
+    ],
     "written": "人口"
   },
   {
     "forms": [],
+    "grammarIds": [
+      "p2-group-i"
+    ],
     "id": "gi-kaiketsu",
     "kanji": [
       {
@@ -5430,12 +6796,21 @@
         "label": "Group I: Adverbs with fixed following forms | N3 Study Desk"
       }
     ],
-    "partOfSpeech": "word",
+    "partOfSpeech": [
+      "Noun",
+      "Group 3 Verb"
+    ],
     "reading": "かいけつ",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "解決"
   },
   {
     "forms": [],
+    "grammarIds": [
+      "p2-group-i"
+    ],
     "id": "gi-onsen",
     "kanji": [
       {
@@ -5453,12 +6828,20 @@
         "label": "Group I: Adverbs with fixed following forms | N3 Study Desk"
       }
     ],
-    "partOfSpeech": "word",
+    "partOfSpeech": [
+      "Noun"
+    ],
     "reading": "おんせん",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "温泉"
   },
   {
     "forms": [],
+    "grammarIds": [
+      "p2-group-i"
+    ],
     "id": "gi-sagasu",
     "kanji": [
       {
@@ -5476,12 +6859,21 @@
         "label": "Group I: Adverbs with fixed following forms | N3 Study Desk"
       }
     ],
-    "partOfSpeech": "word",
+    "partOfSpeech": [
+      "Group 1 Verb"
+    ],
     "reading": "さがす",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "捜す"
   },
   {
     "forms": [],
+    "grammarIds": [
+      "p2-group-i",
+      "p2-group-j"
+    ],
     "id": "gi-shippai",
     "kanji": [
       {
@@ -5503,12 +6895,21 @@
         "label": "Group J: Forms that broaden meaning | N3 Study Desk"
       }
     ],
-    "partOfSpeech": "word",
+    "partOfSpeech": [
+      "Noun",
+      "Group 3 Verb"
+    ],
     "reading": "しっぱい",
+    "topicIds": [
+      "school-study"
+    ],
     "written": "失敗"
   },
   {
     "forms": [],
+    "grammarIds": [
+      "p2-group-i"
+    ],
     "id": "gi-yoyaku",
     "kanji": [
       {
@@ -5526,12 +6927,21 @@
         "label": "Group I: Adverbs with fixed following forms | N3 Study Desk"
       }
     ],
-    "partOfSpeech": "word",
+    "partOfSpeech": [
+      "Noun",
+      "Group 3 Verb"
+    ],
     "reading": "よやく",
+    "topicIds": [
+      "travel-transportation"
+    ],
     "written": "予約"
   },
   {
     "forms": [],
+    "grammarIds": [
+      "p2-group-e"
+    ],
     "id": "ginko",
     "kanji": [
       {
@@ -5554,14 +6964,20 @@
         "label": "Group E: Uses of わけ | N3 Study Desk"
       }
     ],
-    "partOfSpeech": "noun",
+    "partOfSpeech": [
+      "Noun"
+    ],
     "reading": "ぎんこう",
+    "topicIds": [
+      "money-shopping"
+    ],
     "written": "銀行"
   },
   {
     "forms": [],
     "grammarIds": [
-      "l11-koto-ni-suru"
+      "l11-koto-ni-suru",
+      "p2-group-j"
     ],
     "id": "gj-damatte",
     "kanji": [
@@ -5584,15 +7000,22 @@
         "label": "Lesson 11: Intentions, efforts, and attempts"
       }
     ],
-    "partOfSpeech": "word",
+    "partOfSpeech": [
+      "Group 1 Verb"
+    ],
     "reading": "だまって",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "黙って"
   },
   {
     "forms": [],
     "grammarIds": [
       "l11-tsumori",
-      "l5-kara-koto"
+      "l5-kara-koto",
+      "p2-group-h",
+      "p2-group-j"
     ],
     "id": "gj-kao",
     "kanji": [
@@ -5623,12 +7046,20 @@
         "label": "Lesson 11: Intentions, efforts, and attempts"
       }
     ],
-    "partOfSpeech": "word",
+    "partOfSpeech": [
+      "Noun"
+    ],
     "reading": "かお",
+    "topicIds": [
+      "body-health"
+    ],
     "written": "顔"
   },
   {
     "forms": [],
+    "grammarIds": [
+      "p2-group-j"
+    ],
     "id": "gj-katai",
     "kanji": [
       {
@@ -5646,12 +7077,21 @@
         "label": "Group J: Forms that broaden meaning | N3 Study Desk"
       }
     ],
-    "partOfSpeech": "word",
+    "partOfSpeech": [
+      "I-Adjective"
+    ],
     "reading": "かたくて",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "硬くて"
   },
   {
     "forms": [],
+    "grammarIds": [
+      "p2-group-j",
+      "p4-lesson-7"
+    ],
     "id": "gj-kojin",
     "kanji": [
       {
@@ -5673,12 +7113,20 @@
         "label": "Part 4 Lesson 7: こ・そ・あ | N3 Study Desk"
       }
     ],
-    "partOfSpeech": "word",
+    "partOfSpeech": [
+      "Na-Adjective"
+    ],
     "reading": "こじんてき",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "個人的"
   },
   {
     "forms": [],
+    "grammarIds": [
+      "p2-group-j"
+    ],
     "id": "gj-kuroban",
     "kanji": [
       {
@@ -5696,14 +7144,20 @@
         "label": "Group J: Forms that broaden meaning | N3 Study Desk"
       }
     ],
-    "partOfSpeech": "word",
+    "partOfSpeech": [
+      "Noun"
+    ],
     "reading": "こくばん",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "黒板"
   },
   {
     "forms": [],
     "grammarIds": [
-      "l8-koto-wa-ga"
+      "l8-koto-wa-ga",
+      "p2-group-j"
     ],
     "id": "gj-kyori",
     "kanji": [
@@ -5726,12 +7180,20 @@
         "label": "Lesson 8: Strong and partial negation 絶対～ない・必ず～とは言えない"
       }
     ],
-    "partOfSpeech": "word",
+    "partOfSpeech": [
+      "Noun"
+    ],
     "reading": "きょり",
+    "topicIds": [
+      "places-directions"
+    ],
     "written": "距離"
   },
   {
     "forms": [],
+    "grammarIds": [
+      "p2-group-j"
+    ],
     "id": "gj-nenrei",
     "kanji": [
       {
@@ -5749,12 +7211,20 @@
         "label": "Group J: Forms that broaden meaning | N3 Study Desk"
       }
     ],
-    "partOfSpeech": "word",
+    "partOfSpeech": [
+      "Noun"
+    ],
     "reading": "ねんれい",
+    "topicIds": [
+      "time-dates-schedules"
+    ],
     "written": "年齢"
   },
   {
     "forms": [],
+    "grammarIds": [
+      "p2-group-j"
+    ],
     "id": "gj-shokuba",
     "kanji": [
       {
@@ -5772,12 +7242,20 @@
         "label": "Group J: Forms that broaden meaning | N3 Study Desk"
       }
     ],
-    "partOfSpeech": "word",
+    "partOfSpeech": [
+      "Noun"
+    ],
     "reading": "しょくば",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "職場"
   },
   {
     "forms": [],
+    "grammarIds": [
+      "p2-group-j"
+    ],
     "id": "gj-totsuzen",
     "kanji": [
       {
@@ -5795,12 +7273,20 @@
         "label": "Group J: Forms that broaden meaning | N3 Study Desk"
       }
     ],
-    "partOfSpeech": "word",
+    "partOfSpeech": [
+      "Adverb"
+    ],
     "reading": "とつぜん",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "突然"
   },
   {
     "forms": [],
+    "grammarIds": [
+      "p3-lesson-4"
+    ],
     "id": "gogo",
     "kanji": [
       {
@@ -5824,14 +7310,25 @@
         "label": "Lesson 4: Fixed patterns | N3 Study Desk"
       }
     ],
-    "partOfSpeech": "noun / adverb",
+    "partOfSpeech": [
+      "Noun",
+      "Adverb"
+    ],
     "reading": "ごご",
+    "topicIds": [
+      "time-dates-schedules"
+    ],
     "written": "午後"
   },
   {
     "forms": [],
     "grammarIds": [
-      "l2-tabini"
+      "l2-tabini",
+      "p2-group-a",
+      "p2-group-f",
+      "p2-group-g",
+      "p2-group-i",
+      "p4-lesson-2"
     ],
     "id": "gohan",
     "kanji": [
@@ -5879,8 +7376,13 @@
         "label": "Part 4 Lesson 2: 時制・～ている | N3 Study Desk"
       }
     ],
-    "partOfSpeech": "noun",
+    "partOfSpeech": [
+      "Noun"
+    ],
     "reading": "ごはん",
+    "topicIds": [
+      "food-cooking"
+    ],
     "written": "ご飯"
   },
   {
@@ -5906,8 +7408,13 @@
         "label": "Lesson 1: Time relationships ～とき"
       }
     ],
-    "partOfSpeech": "ichidan verb",
+    "partOfSpeech": [
+      "Group 2 Verb"
+    ],
     "reading": "はえる",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "生える"
   },
   {
@@ -5939,14 +7446,27 @@
         "label": "Lesson 3: Degree and comparison 比べれば…・～がいちばん"
       }
     ],
-    "partOfSpeech": "i-adjective",
+    "partOfSpeech": [
+      "I-Adjective"
+    ],
     "reading": "はげしい",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "激しい"
   },
   {
     "forms": [],
     "grammarIds": [
-      "l2-tabini"
+      "l2-tabini",
+      "p2-group-a",
+      "p2-group-g",
+      "p2-group-i",
+      "p2-group-j",
+      "p3-lesson-1",
+      "p3-lesson-2",
+      "p3-lesson-4",
+      "p4-lesson-6"
     ],
     "id": "haha",
     "kanji": [
@@ -6009,15 +7529,24 @@
         "label": "Lesson 4: Fixed patterns | N3 Study Desk"
       }
     ],
-    "partOfSpeech": "noun",
+    "partOfSpeech": [
+      "Noun"
+    ],
     "reading": "はは",
+    "topicIds": [
+      "people-family-relationships"
+    ],
     "written": "母"
   },
   {
     "forms": [],
     "grammarIds": [
       "l10-beki",
-      "l8-toha-kagiranai"
+      "l8-toha-kagiranai",
+      "p2-group-a",
+      "p2-group-e",
+      "p2-group-g",
+      "p2-group-h"
     ],
     "id": "hairu",
     "kanji": [
@@ -6077,15 +7606,22 @@
         "label": "Lesson 10: Advice and commands ～したほうがいい・～なさい"
       }
     ],
-    "partOfSpeech": "godan verb",
+    "partOfSpeech": [
+      "Group 1 Verb"
+    ],
     "reading": "はいる",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "入る"
   },
   {
     "forms": [],
     "grammarIds": [
       "l1-tokoro",
-      "l7-toiu-koto"
+      "l7-toiu-koto",
+      "p2-group-i",
+      "p3-lesson-1"
     ],
     "id": "hajimaru",
     "kanji": [
@@ -6117,15 +7653,25 @@
         "label": "Lesson 1: Quotation | N3 Study Desk"
       }
     ],
-    "partOfSpeech": "godan verb",
+    "partOfSpeech": [
+      "Group 1 Verb"
+    ],
     "reading": "はじまる",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "始まる"
   },
   {
     "forms": [],
     "grammarIds": [
       "l10-beki",
-      "l6-tewa-dewa"
+      "l6-tewa-dewa",
+      "p2-group-c",
+      "p2-group-f",
+      "p2-group-h",
+      "p2-group-j",
+      "p4-lesson-7"
     ],
     "id": "hajimeru",
     "kanji": [
@@ -6177,14 +7723,23 @@
         "label": "Part 4 Lesson 7: こ・そ・あ | N3 Study Desk"
       }
     ],
-    "partOfSpeech": "ichidan verb",
+    "partOfSpeech": [
+      "Group 2 Verb"
+    ],
     "reading": "はじめる",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "始める"
   },
   {
     "forms": [],
     "grammarIds": [
-      "l2-toori"
+      "l2-toori",
+      "p2-group-a",
+      "p2-group-c",
+      "p3-lesson-3",
+      "p4-lesson-8"
     ],
     "id": "hajimete",
     "kanji": [
@@ -6219,8 +7774,13 @@
         "label": "Lesson 3: ～という・～といった | N3 Study Desk"
       }
     ],
-    "partOfSpeech": "adverb",
+    "partOfSpeech": [
+      "Adverb"
+    ],
     "reading": "はじめて",
+    "topicIds": [
+      "time-dates-schedules"
+    ],
     "written": "初めて"
   },
   {
@@ -6251,14 +7811,26 @@
         "label": "Lesson 10: Advice and commands ～したほうがいい・～なさい"
       }
     ],
-    "partOfSpeech": "godan verb",
+    "partOfSpeech": [
+      "Group 1 Verb"
+    ],
     "reading": "はなしあう",
+    "topicIds": [
+      "communication-media"
+    ],
     "written": "話し合う"
   },
   {
     "forms": [],
     "grammarIds": [
-      "l4-ippo"
+      "l4-ippo",
+      "p2-group-a",
+      "p2-group-b",
+      "p2-group-c",
+      "p2-group-d",
+      "p2-group-f",
+      "p2-group-j",
+      "p3-lesson-2"
     ],
     "id": "hanasu",
     "kanji": [
@@ -6334,12 +7906,21 @@
         "label": "Lesson 2: Noun description | N3 Study Desk"
       }
     ],
-    "partOfSpeech": "godan verb",
+    "partOfSpeech": [
+      "Group 1 Verb"
+    ],
     "reading": "はなす",
+    "topicIds": [
+      "communication-media"
+    ],
     "written": "話す"
   },
   {
     "forms": [],
+    "grammarIds": [
+      "p2-group-d",
+      "p2-group-j"
+    ],
     "id": "haru",
     "kanji": [
       {
@@ -6369,12 +7950,24 @@
         "label": "Group J: Forms that broaden meaning | N3 Study Desk"
       }
     ],
-    "partOfSpeech": "noun",
+    "partOfSpeech": [
+      "Noun"
+    ],
     "reading": "はる",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "春"
   },
   {
     "forms": [],
+    "grammarIds": [
+      "p2-group-d",
+      "p2-group-h",
+      "p2-group-j",
+      "p3-lesson-2",
+      "p4-lesson-4"
+    ],
     "id": "hashiru",
     "kanji": [
       {
@@ -6416,12 +8009,24 @@
         "label": "Lesson 2: Noun description | N3 Study Desk"
       }
     ],
-    "partOfSpeech": "godan verb",
+    "partOfSpeech": [
+      "Group 1 Verb"
+    ],
     "reading": "はしる",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "走る"
   },
   {
     "forms": [],
+    "grammarIds": [
+      "p2-group-d",
+      "p2-group-e",
+      "p2-group-g",
+      "p2-group-j",
+      "p3-lesson-1"
+    ],
     "id": "hataraku",
     "kanji": [
       {
@@ -6455,12 +8060,23 @@
         "label": "Lesson 1: Quotation | N3 Study Desk"
       }
     ],
-    "partOfSpeech": "godan verb",
+    "partOfSpeech": [
+      "Group 1 Verb"
+    ],
     "reading": "はたらく",
+    "topicIds": [
+      "home-daily-life",
+      "work-business"
+    ],
     "written": "働く"
   },
   {
     "forms": [],
+    "grammarIds": [
+      "p2-group-g",
+      "p4-lesson-2",
+      "p4-lesson-9"
+    ],
     "id": "hayai",
     "kanji": [
       {
@@ -6487,12 +8103,26 @@
         "label": "Part 4 Lesson 9: 接続表現 | N3 Study Desk"
       }
     ],
-    "partOfSpeech": "i-adjective",
+    "partOfSpeech": [
+      "I-Adjective"
+    ],
     "reading": "はやい",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "早い"
   },
   {
     "forms": [],
+    "grammarIds": [
+      "p2-group-b",
+      "p2-group-c",
+      "p2-group-g",
+      "p2-group-h",
+      "p4-lesson-1",
+      "p4-lesson-8",
+      "p4-lesson-9"
+    ],
     "id": "heya",
     "kanji": [
       {
@@ -6559,14 +8189,20 @@
         "label": "Part 4 Lesson 9: 接続表現 | N3 Study Desk"
       }
     ],
-    "partOfSpeech": "noun",
+    "partOfSpeech": [
+      "Noun"
+    ],
     "reading": "へや",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "部屋"
   },
   {
     "forms": [],
     "grammarIds": [
-      "l1-uchini"
+      "l1-uchini",
+      "p2-group-h"
     ],
     "id": "hiku",
     "kanji": [
@@ -6589,12 +8225,20 @@
         "label": "Lesson 1: Time relationships ～とき"
       }
     ],
-    "partOfSpeech": "godan verb",
+    "partOfSpeech": [
+      "Group 1 Verb"
+    ],
     "reading": "ひく",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "弾く"
   },
   {
     "forms": [],
+    "grammarIds": [
+      "p2-group-a"
+    ],
     "id": "hikui",
     "kanji": [
       {
@@ -6613,8 +8257,13 @@
         "label": "Group A: Particles with various functions | N3 Study Desk"
       }
     ],
-    "partOfSpeech": "i-adjective",
+    "partOfSpeech": [
+      "I-Adjective"
+    ],
     "reading": "ひくい",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "低い"
   },
   {
@@ -6645,8 +8294,13 @@
         "label": "Lesson 9: Wishes and requests ～と望む"
       }
     ],
-    "partOfSpeech": "noun",
+    "partOfSpeech": [
+      "Noun"
+    ],
     "reading": "ひるごはん",
+    "topicIds": [
+      "food-cooking"
+    ],
     "written": "昼ご飯"
   },
   {
@@ -6662,7 +8316,24 @@
       "l5-ni-yotte",
       "l6-tatoe",
       "l7-toiu-koto",
-      "l9-to-ba-tara-ii"
+      "l9-to-ba-tara-ii",
+      "p2-group-a",
+      "p2-group-b",
+      "p2-group-d",
+      "p2-group-f",
+      "p2-group-g",
+      "p2-group-h",
+      "p2-group-i",
+      "p2-group-j",
+      "p3-lesson-1",
+      "p3-lesson-2",
+      "p3-lesson-4",
+      "p4-lesson-1",
+      "p4-lesson-10",
+      "p4-lesson-2",
+      "p4-lesson-6",
+      "p4-lesson-7",
+      "p4-lesson-8"
     ],
     "id": "hito",
     "kanji": [
@@ -6858,12 +8529,20 @@
         "label": "Lesson 4: Fixed patterns | N3 Study Desk"
       }
     ],
-    "partOfSpeech": "noun",
+    "partOfSpeech": [
+      "Noun"
+    ],
     "reading": "ひと",
+    "topicIds": [
+      "people-family-relationships"
+    ],
     "written": "人"
   },
   {
     "forms": [],
+    "grammarIds": [
+      "p2-group-b"
+    ],
     "id": "hitobito",
     "kanji": [
       {
@@ -6886,8 +8565,13 @@
         "label": "Group B: Words that work like particles | N3 Study Desk"
       }
     ],
-    "partOfSpeech": "noun",
+    "partOfSpeech": [
+      "Noun"
+    ],
     "reading": "ひとびと",
+    "topicIds": [
+      "people-family-relationships"
+    ],
     "written": "人々"
   },
   {
@@ -6923,12 +8607,26 @@
         "label": "Lesson 4: Contrast ～とは違って"
       }
     ],
-    "partOfSpeech": "noun",
+    "partOfSpeech": [
+      "Noun"
+    ],
     "reading": "ひとりたび",
+    "topicIds": [
+      "travel-transportation"
+    ],
     "written": "一人旅"
   },
   {
     "forms": [],
+    "grammarIds": [
+      "p2-group-a",
+      "p2-group-c",
+      "p2-group-d",
+      "p2-group-e",
+      "p2-group-f",
+      "p2-group-i",
+      "p4-lesson-1"
+    ],
     "id": "hitsuyo",
     "kanji": [
       {
@@ -6992,14 +8690,24 @@
         "label": "Part 4 Lesson 1: 文の始めと終わりの対応 | N3 Study Desk"
       }
     ],
-    "partOfSpeech": "na-adjective / noun",
+    "partOfSpeech": [
+      "Noun",
+      "Na-Adjective"
+    ],
     "reading": "ひつよう",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "必要"
   },
   {
     "forms": [],
     "grammarIds": [
-      "l12-kenjougo-2"
+      "l12-kenjougo-2",
+      "p2-group-a",
+      "p2-group-i",
+      "p3-lesson-1",
+      "p4-lesson-9"
     ],
     "id": "hoho",
     "kanji": [
@@ -7044,8 +8752,13 @@
         "label": "Lesson 1: Quotation | N3 Study Desk"
       }
     ],
-    "partOfSpeech": "noun",
+    "partOfSpeech": [
+      "Noun"
+    ],
     "reading": "ほうほう",
+    "topicIds": [
+      "school-study"
+    ],
     "written": "方法"
   },
   {
@@ -7057,7 +8770,14 @@
       "l3-kurai",
       "l6-nara",
       "l8-koto-wa-ga",
-      "l8-wake-dewa-nai"
+      "l8-wake-dewa-nai",
+      "p2-group-e",
+      "p2-group-h",
+      "p2-group-i",
+      "p2-group-j",
+      "p3-lesson-2",
+      "p3-lesson-4",
+      "p4-lesson-9"
     ],
     "id": "hon",
     "kanji": [
@@ -7136,8 +8856,13 @@
         "label": "Lesson 4: Fixed patterns | N3 Study Desk"
       }
     ],
-    "partOfSpeech": "noun",
+    "partOfSpeech": [
+      "Noun"
+    ],
     "reading": "ほん",
+    "topicIds": [
+      "school-study"
+    ],
     "written": "本"
   },
   {
@@ -7163,15 +8888,22 @@
         "label": "Lesson 3: Degree and comparison 比べれば…・～がいちばん"
       }
     ],
-    "partOfSpeech": "i-adjective",
+    "partOfSpeech": [
+      "I-Adjective"
+    ],
     "reading": "ほそい",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "細い"
   },
   {
     "forms": [],
     "grammarIds": [
       "l1-uchini",
-      "l10-tara-doka"
+      "l10-tara-doka",
+      "p2-group-f",
+      "p4-lesson-8"
     ],
     "id": "ichido",
     "kanji": [
@@ -7208,8 +8940,14 @@
         "label": "Part 4 Lesson 8: は・が | N3 Study Desk"
       }
     ],
-    "partOfSpeech": "noun / adverb",
+    "partOfSpeech": [
+      "Noun",
+      "Adverb"
+    ],
     "reading": "いちど",
+    "topicIds": [
+      "time-dates-schedules"
+    ],
     "written": "一度"
   },
   {
@@ -7219,7 +8957,14 @@
       "l12-kenjougo-2",
       "l4-ni-taishite",
       "l6-tewa-dewa",
-      "l8-hazu-wake"
+      "l8-hazu-wake",
+      "p2-group-c",
+      "p2-group-g",
+      "p2-group-h",
+      "p2-group-i",
+      "p4-lesson-1",
+      "p4-lesson-8",
+      "p4-lesson-9"
     ],
     "id": "ie",
     "kanji": [
@@ -7291,14 +9036,22 @@
         "label": "Part 4 Lesson 9: 接続表現 | N3 Study Desk"
       }
     ],
-    "partOfSpeech": "noun",
+    "partOfSpeech": [
+      "Noun"
+    ],
     "reading": "いえ",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "家"
   },
   {
     "forms": [],
     "grammarIds": [
-      "l4-ippo"
+      "l4-ippo",
+      "p2-group-b",
+      "p2-group-j",
+      "p3-lesson-2"
     ],
     "id": "iken",
     "kanji": [
@@ -7343,8 +9096,13 @@
         "label": "Lesson 2: Noun description | N3 Study Desk"
       }
     ],
-    "partOfSpeech": "noun",
+    "partOfSpeech": [
+      "Noun"
+    ],
     "reading": "いけん",
+    "topicIds": [
+      "communication-media"
+    ],
     "written": "意見"
   },
   {
@@ -7353,7 +9111,14 @@
       "l11-you-to-suru",
       "l3-ni-kagiru",
       "l7-toka",
-      "l9-te-moraitai"
+      "l9-te-moraitai",
+      "p2-group-a",
+      "p2-group-c",
+      "p2-group-e",
+      "p2-group-g",
+      "p2-group-i",
+      "p3-lesson-2",
+      "p4-lesson-1"
     ],
     "id": "iku",
     "kanji": [
@@ -7424,8 +9189,13 @@
         "label": "Lesson 2: Noun description | N3 Study Desk"
       }
     ],
-    "partOfSpeech": "godan verb",
+    "partOfSpeech": [
+      "Group 1 Verb"
+    ],
     "reading": "いく",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "行く"
   },
   {
@@ -7434,7 +9204,14 @@
       "l3-kurai-nara",
       "l5-ni-yotte",
       "l6-tewa-dewa",
-      "l8-nai-koto-wa-nai"
+      "l8-nai-koto-wa-nai",
+      "p2-group-b",
+      "p2-group-c",
+      "p2-group-e",
+      "p2-group-f",
+      "p2-group-j",
+      "p3-lesson-4",
+      "p4-lesson-2"
     ],
     "id": "ima",
     "kanji": [
@@ -7505,12 +9282,22 @@
         "label": "Lesson 4: Fixed patterns | N3 Study Desk"
       }
     ],
-    "partOfSpeech": "noun / adverb",
+    "partOfSpeech": [
+      "Noun",
+      "Adverb"
+    ],
     "reading": "いま",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "今"
   },
   {
     "forms": [],
+    "grammarIds": [
+      "p2-group-a",
+      "p4-lesson-9"
+    ],
     "id": "imouto",
     "kanji": [
       {
@@ -7532,15 +9319,25 @@
         "label": "Part 4 Lesson 9: 接続表現 | N3 Study Desk"
       }
     ],
-    "partOfSpeech": "noun",
+    "partOfSpeech": [
+      "Noun"
+    ],
     "reading": "いもうと",
+    "topicIds": [
+      "people-family-relationships"
+    ],
     "written": "妹"
   },
   {
     "forms": [],
     "grammarIds": [
       "l1-aida",
-      "l10-meirei-kinshi"
+      "l10-meirei-kinshi",
+      "p2-group-a",
+      "p2-group-d",
+      "p2-group-h",
+      "p3-lesson-3",
+      "p4-lesson-4"
     ],
     "id": "inu",
     "kanji": [
@@ -7587,12 +9384,22 @@
         "label": "Lesson 3: ～という・～といった | N3 Study Desk"
       }
     ],
-    "partOfSpeech": "noun",
+    "partOfSpeech": [
+      "Noun"
+    ],
     "reading": "いぬ",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "犬"
   },
   {
     "forms": [],
+    "grammarIds": [
+      "p2-group-d",
+      "p3-lesson-3",
+      "p4-lesson-9"
+    ],
     "id": "iro",
     "kanji": [
       {
@@ -7618,8 +9425,13 @@
         "label": "Lesson 3: ～という・～といった | N3 Study Desk"
       }
     ],
-    "partOfSpeech": "noun",
+    "partOfSpeech": [
+      "Noun"
+    ],
     "reading": "いろ",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "色"
   },
   {
@@ -7627,7 +9439,13 @@
     "grammarIds": [
       "l2-hodo",
       "l5-okage-sei",
-      "l7-toiu-koto"
+      "l7-toiu-koto",
+      "p2-group-a",
+      "p2-group-f",
+      "p2-group-i",
+      "p2-group-j",
+      "p3-lesson-3",
+      "p3-lesson-4"
     ],
     "id": "isogashii",
     "kanji": [
@@ -7682,8 +9500,13 @@
         "label": "Lesson 4: Fixed patterns | N3 Study Desk"
       }
     ],
-    "partOfSpeech": "i-adjective",
+    "partOfSpeech": [
+      "I-Adjective"
+    ],
     "reading": "いそがしい",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "忙しい"
   },
   {
@@ -7709,8 +9532,13 @@
         "label": "Lesson 3: Degree and comparison 比べれば…・～がいちばん"
       }
     ],
-    "partOfSpeech": "noun",
+    "partOfSpeech": [
+      "Noun"
+    ],
     "reading": "いたみ",
+    "topicIds": [
+      "body-health"
+    ],
     "written": "痛み"
   },
   {
@@ -7719,7 +9547,21 @@
       "l11-koto-ni-suru",
       "l11-tsumori",
       "l7-tte",
-      "l9-sasete-moraitai"
+      "l9-sasete-moraitai",
+      "p2-group-a",
+      "p2-group-b",
+      "p2-group-c",
+      "p2-group-d",
+      "p2-group-e",
+      "p2-group-f",
+      "p2-group-i",
+      "p2-group-j",
+      "p3-lesson-1",
+      "p3-lesson-2",
+      "p3-lesson-3",
+      "p4-lesson-1",
+      "p4-lesson-2",
+      "p4-lesson-8"
     ],
     "id": "iu",
     "kanji": [
@@ -7919,8 +9761,13 @@
         "label": "Lesson 3: ～という・～といった | N3 Study Desk"
       }
     ],
-    "partOfSpeech": "godan verb",
+    "partOfSpeech": [
+      "Group 1 Verb"
+    ],
     "reading": "いう",
+    "topicIds": [
+      "communication-media"
+    ],
     "written": "言う"
   },
   {
@@ -7930,7 +9777,14 @@
       "l3-kurai-nara",
       "l4-ippo",
       "l8-wake-dewa-nai",
-      "l9-te-moraitai"
+      "l9-te-moraitai",
+      "p2-group-a",
+      "p2-group-f",
+      "p2-group-j",
+      "p3-lesson-1",
+      "p3-lesson-4",
+      "p4-lesson-1",
+      "p4-lesson-7"
     ],
     "id": "jibun",
     "kanji": [
@@ -8027,8 +9881,13 @@
         "label": "Lesson 4: Fixed patterns | N3 Study Desk"
       }
     ],
-    "partOfSpeech": "noun",
+    "partOfSpeech": [
+      "Noun"
+    ],
     "reading": "じぶん",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "自分"
   },
   {
@@ -8038,7 +9897,12 @@
       "l4-hanmen",
       "l4-kawari-ni",
       "l8-nai-koto-wa-nai",
-      "l9-sasete-moraitai"
+      "l9-sasete-moraitai",
+      "p2-group-c",
+      "p2-group-e",
+      "p2-group-i",
+      "p3-lesson-4",
+      "p4-lesson-2"
     ],
     "id": "jikan",
     "kanji": [
@@ -8103,12 +9967,20 @@
         "label": "Lesson 4: Fixed patterns | N3 Study Desk"
       }
     ],
-    "partOfSpeech": "noun",
+    "partOfSpeech": [
+      "Noun"
+    ],
     "reading": "じかん",
+    "topicIds": [
+      "time-dates-schedules"
+    ],
     "written": "時間"
   },
   {
     "forms": [],
+    "grammarIds": [
+      "p4-lesson-7"
+    ],
     "id": "jikken",
     "kanji": [
       {
@@ -8131,8 +10003,14 @@
         "label": "Part 4 Lesson 7: こ・そ・あ | N3 Study Desk"
       }
     ],
-    "partOfSpeech": "noun / suru verb",
+    "partOfSpeech": [
+      "Noun",
+      "Group 3 Verb"
+    ],
     "reading": "じっけん",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "実験"
   },
   {
@@ -8168,8 +10046,13 @@
         "label": "Lesson 4: Contrast ～とは違って"
       }
     ],
-    "partOfSpeech": "noun",
+    "partOfSpeech": [
+      "Noun"
+    ],
     "reading": "じっこうりょく",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "実行力"
   },
   {
@@ -8199,12 +10082,21 @@
         "label": "Lesson 4: Contrast ～とは違って"
       }
     ],
-    "partOfSpeech": "noun",
+    "partOfSpeech": [
+      "Noun"
+    ],
     "reading": "じなん",
+    "topicIds": [
+      "time-dates-schedules",
+      "people-family-relationships"
+    ],
     "written": "次男"
   },
   {
     "forms": [],
+    "grammarIds": [
+      "p3-lesson-3"
+    ],
     "id": "jishin",
     "kanji": [
       {
@@ -8227,12 +10119,22 @@
         "label": "Lesson 3: ～という・～といった | N3 Study Desk"
       }
     ],
-    "partOfSpeech": "noun",
+    "partOfSpeech": [
+      "Noun"
+    ],
     "reading": "じしん",
+    "topicIds": [
+      "nature-weather"
+    ],
     "written": "地震"
   },
   {
     "forms": [],
+    "grammarIds": [
+      "p2-group-c",
+      "p2-group-f",
+      "p2-group-j"
+    ],
     "id": "jissai",
     "kanji": [
       {
@@ -8280,8 +10182,14 @@
         "label": "Group J: Forms that broaden meaning | N3 Study Desk"
       }
     ],
-    "partOfSpeech": "noun / adverb",
+    "partOfSpeech": [
+      "Noun",
+      "Adverb"
+    ],
     "reading": "じっさい",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "実際"
   },
   {
@@ -8317,12 +10225,22 @@
         "label": "Lesson 4: Contrast ～とは違って"
       }
     ],
-    "partOfSpeech": "noun / na-adjective",
+    "partOfSpeech": [
+      "Noun",
+      "Na-Adjective"
+    ],
     "reading": "じゆう",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "自由"
   },
   {
     "forms": [],
+    "grammarIds": [
+      "p2-group-c",
+      "p4-lesson-7"
+    ],
     "id": "joho",
     "kanji": [
       {
@@ -8349,14 +10267,20 @@
         "label": "Part 4 Lesson 7: こ・そ・あ | N3 Study Desk"
       }
     ],
-    "partOfSpeech": "noun",
+    "partOfSpeech": [
+      "Noun"
+    ],
     "reading": "じょうほう",
+    "topicIds": [
+      "communication-media"
+    ],
     "written": "情報"
   },
   {
     "forms": [],
     "grammarIds": [
-      "l4-ni-taishite"
+      "l4-ni-taishite",
+      "p2-group-b"
     ],
     "id": "josei",
     "kanji": [
@@ -8385,14 +10309,24 @@
         "label": "Lesson 4: Contrast ～とは違って"
       }
     ],
-    "partOfSpeech": "noun",
+    "partOfSpeech": [
+      "Noun"
+    ],
     "reading": "じょせい",
+    "topicIds": [
+      "people-family-relationships"
+    ],
     "written": "女性"
   },
   {
     "forms": [],
     "grammarIds": [
-      "l2-hodo"
+      "l2-hodo",
+      "p2-group-a",
+      "p2-group-e",
+      "p2-group-h",
+      "p3-lesson-2",
+      "p3-lesson-4"
     ],
     "id": "jozu",
     "kanji": [
@@ -8441,12 +10375,22 @@
         "label": "Lesson 4: Fixed patterns | N3 Study Desk"
       }
     ],
-    "partOfSpeech": "na-adjective / noun",
+    "partOfSpeech": [
+      "Noun",
+      "Na-Adjective"
+    ],
     "reading": "じょうず",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "上手"
   },
   {
     "forms": [],
+    "grammarIds": [
+      "p2-group-a",
+      "p2-group-g"
+    ],
     "id": "jubun",
     "kanji": [
       {
@@ -8478,14 +10422,21 @@
         "label": "Group G: Organizing する and なる | N3 Study Desk"
       }
     ],
-    "partOfSpeech": "na-adjective / adverb",
+    "partOfSpeech": [
+      "Na-Adjective",
+      "Adverb"
+    ],
     "reading": "じゅうぶん",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "十分"
   },
   {
     "forms": [],
     "grammarIds": [
-      "l5-kara-koto"
+      "l5-kara-koto",
+      "p2-group-e"
     ],
     "id": "juyo",
     "kanji": [
@@ -8514,14 +10465,24 @@
         "label": "Lesson 5: Reasons and causes ～だから"
       }
     ],
-    "partOfSpeech": "noun",
+    "partOfSpeech": [
+      "Noun"
+    ],
     "reading": "じゅぎょう",
+    "topicIds": [
+      "school-study"
+    ],
     "written": "授業"
   },
   {
     "forms": [],
     "grammarIds": [
-      "l4-ni-taishite"
+      "l4-ni-taishite",
+      "p2-group-a",
+      "p2-group-c",
+      "p2-group-d",
+      "p2-group-e",
+      "p3-lesson-1"
     ],
     "id": "ka-department",
     "kanji": [
@@ -8565,8 +10526,13 @@
         "label": "Lesson 1: Quotation | N3 Study Desk"
       }
     ],
-    "partOfSpeech": "noun",
+    "partOfSpeech": [
+      "Noun"
+    ],
     "reading": "か",
+    "topicIds": [
+      "work-business"
+    ],
     "written": "課"
   },
   {
@@ -8597,15 +10563,23 @@
         "label": "Lesson 2: Relationships ～と関係して"
       }
     ],
-    "partOfSpeech": "noun",
+    "partOfSpeech": [
+      "Noun"
+    ],
     "reading": "かち",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "価値"
   },
   {
     "forms": [],
     "grammarIds": [
       "l1-tokoro",
-      "l7-toka"
+      "l7-toka",
+      "p2-group-a",
+      "p2-group-c",
+      "p2-group-h"
     ],
     "id": "kaeru",
     "kanji": [
@@ -8645,8 +10619,13 @@
         "label": "Lesson 7: Reported information and hearsay ～だそうだ"
       }
     ],
-    "partOfSpeech": "godan verb",
+    "partOfSpeech": [
+      "Group 1 Verb"
+    ],
     "reading": "かえる",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "帰る"
   },
   {
@@ -8684,14 +10663,20 @@
         "label": "Lesson 8: Strong and partial negation 絶対～ない・必ず～とは言えない"
       }
     ],
-    "partOfSpeech": "expression",
+    "partOfSpeech": [
+      "Expression"
+    ],
     "reading": "かぎらない",
+    "topicIds": [
+      "school-study"
+    ],
     "written": "限らない"
   },
   {
     "forms": [],
     "grammarIds": [
-      "l2-hodo"
+      "l2-hodo",
+      "p4-lesson-10"
     ],
     "id": "kagu",
     "kanji": [
@@ -8719,8 +10704,13 @@
         "label": "Part 4 Lesson 10: 文章の雰囲気の統一 | N3 Study Desk"
       }
     ],
-    "partOfSpeech": "noun",
+    "partOfSpeech": [
+      "Noun"
+    ],
     "reading": "かぐ",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "家具"
   },
   {
@@ -8756,8 +10746,13 @@
         "label": "Lesson 12: Respectful, humble, and polite language"
       }
     ],
-    "partOfSpeech": "noun",
+    "partOfSpeech": [
+      "Noun"
+    ],
     "reading": "かいちょう",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "会長"
   },
   {
@@ -8802,12 +10797,25 @@
         "label": "Lesson 6: Conditions and hypotheses もし、…"
       }
     ],
-    "partOfSpeech": "noun / suru verb",
+    "partOfSpeech": [
+      "Noun",
+      "Group 3 Verb"
+    ],
     "reading": "かいがいりょこう",
+    "topicIds": [
+      "travel-transportation"
+    ],
     "written": "海外旅行"
   },
   {
     "forms": [],
+    "grammarIds": [
+      "p2-group-b",
+      "p2-group-g",
+      "p2-group-i",
+      "p3-lesson-1",
+      "p3-lesson-3"
+    ],
     "id": "kaigi",
     "kanji": [
       {
@@ -8851,15 +10859,21 @@
         "label": "Lesson 3: ～という・～といった | N3 Study Desk"
       }
     ],
-    "partOfSpeech": "noun",
+    "partOfSpeech": [
+      "Noun"
+    ],
     "reading": "かいぎ",
+    "topicIds": [
+      "work-business"
+    ],
     "written": "会議"
   },
   {
     "forms": [],
     "grammarIds": [
       "l12-kenjougo-1",
-      "l2-toori"
+      "l2-toori",
+      "p2-group-g"
     ],
     "id": "kaijo",
     "kanji": [
@@ -8892,12 +10906,21 @@
         "label": "Lesson 12: Respectful, humble, and polite language"
       }
     ],
-    "partOfSpeech": "noun",
+    "partOfSpeech": [
+      "Noun"
+    ],
     "reading": "かいじょう",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "会場"
   },
   {
     "forms": [],
+    "grammarIds": [
+      "p2-group-b",
+      "p2-group-j"
+    ],
     "id": "kaimono",
     "kanji": [
       {
@@ -8924,8 +10947,13 @@
         "label": "Group J: Forms that broaden meaning | N3 Study Desk"
       }
     ],
-    "partOfSpeech": "noun",
+    "partOfSpeech": [
+      "Noun"
+    ],
     "reading": "かいもの",
+    "topicIds": [
+      "money-shopping"
+    ],
     "written": "買い物"
   },
   {
@@ -8934,7 +10962,15 @@
       "l10-meirei-kinshi",
       "l12-sonkeigo",
       "l2-toori",
-      "l8-toha-kagiranai"
+      "l8-toha-kagiranai",
+      "p2-group-a",
+      "p2-group-b",
+      "p2-group-d",
+      "p2-group-g",
+      "p2-group-j",
+      "p3-lesson-2",
+      "p3-lesson-4",
+      "p4-lesson-7"
     ],
     "id": "kaku",
     "kanji": [
@@ -9013,8 +11049,13 @@
         "label": "Lesson 4: Fixed patterns | N3 Study Desk"
       }
     ],
-    "partOfSpeech": "godan verb",
+    "partOfSpeech": [
+      "Group 1 Verb"
+    ],
     "reading": "かく",
+    "topicIds": [
+      "school-study"
+    ],
     "written": "書く"
   },
   {
@@ -9045,14 +11086,23 @@
         "label": "Lesson 8: Strong and partial negation 絶対～ない・必ず～とは言えない"
       }
     ],
-    "partOfSpeech": "suru verb",
+    "partOfSpeech": [
+      "Group 3 Verb"
+    ],
     "reading": "かくにんする",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "確認する"
   },
   {
     "forms": [],
     "grammarIds": [
-      "l4-kawari-ni"
+      "l4-kawari-ni",
+      "p2-group-a",
+      "p2-group-b",
+      "p2-group-e",
+      "p3-lesson-4"
     ],
     "id": "kangaeru",
     "kanji": [
@@ -9104,14 +11154,24 @@
         "label": "Lesson 4: Fixed patterns | N3 Study Desk"
       }
     ],
-    "partOfSpeech": "ichidan verb",
+    "partOfSpeech": [
+      "Group 2 Verb"
+    ],
     "reading": "かんがえる",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "考える"
   },
   {
     "forms": [],
     "grammarIds": [
-      "l3-kurai-wa-nai"
+      "l3-kurai-wa-nai",
+      "p2-group-a",
+      "p2-group-c",
+      "p2-group-d",
+      "p2-group-g",
+      "p2-group-j"
     ],
     "id": "kanji",
     "kanji": [
@@ -9160,8 +11220,14 @@
         "label": "Lesson 3: Degree and comparison 比べれば…・～がいちばん"
       }
     ],
-    "partOfSpeech": "noun",
+    "partOfSpeech": [
+      "Noun"
+    ],
     "reading": "かんじ",
+    "topicIds": [
+      "feelings-personality",
+      "school-study"
+    ],
     "written": "漢字"
   },
   {
@@ -9187,12 +11253,21 @@
         "label": "Lesson 8: Strong and partial negation 絶対～ない・必ず～とは言えない"
       }
     ],
-    "partOfSpeech": "i-adjective",
+    "partOfSpeech": [
+      "I-Adjective"
+    ],
     "reading": "からい",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "辛い"
   },
   {
     "forms": [],
+    "grammarIds": [
+      "p2-group-a",
+      "p2-group-j"
+    ],
     "id": "karui",
     "kanji": [
       {
@@ -9219,8 +11294,13 @@
         "label": "Group J: Forms that broaden meaning | N3 Study Desk"
       }
     ],
-    "partOfSpeech": "i-adjective",
+    "partOfSpeech": [
+      "I-Adjective"
+    ],
     "reading": "かるい",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "軽い"
   },
   {
@@ -9246,12 +11326,20 @@
         "label": "Lesson 1: Time relationships ～とき"
       }
     ],
-    "partOfSpeech": "ichidan verb",
+    "partOfSpeech": [
+      "Group 2 Verb"
+    ],
     "reading": "かさねる",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "重ねる"
   },
   {
     "forms": [],
+    "grammarIds": [
+      "p4-lesson-10"
+    ],
     "id": "katai",
     "kanji": [
       {
@@ -9270,15 +11358,28 @@
         "label": "Part 4 Lesson 10: 文章の雰囲気の統一 | N3 Study Desk"
       }
     ],
-    "partOfSpeech": "i-adjective",
+    "partOfSpeech": [
+      "I-Adjective"
+    ],
     "reading": "かたい",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "硬い"
   },
   {
     "forms": [],
     "grammarIds": [
       "l7-toka",
-      "l8-wake-dewa-nai"
+      "l8-wake-dewa-nai",
+      "p2-group-a",
+      "p2-group-c",
+      "p2-group-d",
+      "p2-group-e",
+      "p2-group-f",
+      "p3-lesson-2",
+      "p4-lesson-2",
+      "p4-lesson-9"
     ],
     "id": "kau",
     "kanji": [
@@ -9341,12 +11442,22 @@
         "label": "Lesson 2: Noun description | N3 Study Desk"
       }
     ],
-    "partOfSpeech": "godan verb",
+    "partOfSpeech": [
+      "Group 1 Verb"
+    ],
     "reading": "かう",
+    "topicIds": [
+      "money-shopping"
+    ],
     "written": "買う"
   },
   {
     "forms": [],
+    "grammarIds": [
+      "p2-group-g",
+      "p2-group-i",
+      "p4-lesson-9"
+    ],
     "id": "kawaru",
     "kanji": [
       {
@@ -9373,14 +11484,22 @@
         "label": "Part 4 Lesson 9: 接続表現 | N3 Study Desk"
       }
     ],
-    "partOfSpeech": "godan verb",
+    "partOfSpeech": [
+      "Group 1 Verb"
+    ],
     "reading": "かわる",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "変わる"
   },
   {
     "forms": [],
     "grammarIds": [
-      "l3-kurai"
+      "l3-kurai",
+      "p2-group-h",
+      "p3-lesson-4",
+      "p4-lesson-8"
     ],
     "id": "kaze-wind",
     "kanji": [
@@ -9415,14 +11534,22 @@
         "label": "Lesson 4: Fixed patterns | N3 Study Desk"
       }
     ],
-    "partOfSpeech": "noun",
+    "partOfSpeech": [
+      "Noun"
+    ],
     "reading": "かぜ",
+    "topicIds": [
+      "nature-weather"
+    ],
     "written": "風"
   },
   {
     "forms": [],
     "grammarIds": [
-      "l1-tekara"
+      "l1-tekara",
+      "p2-group-a",
+      "p2-group-b",
+      "p4-lesson-9"
     ],
     "id": "kazoku",
     "kanji": [
@@ -9466,12 +11593,21 @@
         "label": "Part 4 Lesson 9: 接続表現 | N3 Study Desk"
       }
     ],
-    "partOfSpeech": "noun",
+    "partOfSpeech": [
+      "Noun"
+    ],
     "reading": "かぞく",
+    "topicIds": [
+      "people-family-relationships",
+      "home-daily-life"
+    ],
     "written": "家族"
   },
   {
     "forms": [],
+    "grammarIds": [
+      "p2-group-a"
+    ],
     "id": "keiken",
     "kanji": [
       {
@@ -9494,12 +11630,22 @@
         "label": "Group A: Particles with various functions | N3 Study Desk"
       }
     ],
-    "partOfSpeech": "noun",
+    "partOfSpeech": [
+      "Noun"
+    ],
     "reading": "けいけん",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "経験"
   },
   {
     "forms": [],
+    "grammarIds": [
+      "p2-group-f",
+      "p2-group-i",
+      "p4-lesson-9"
+    ],
     "id": "kekka",
     "kanji": [
       {
@@ -9531,12 +11677,20 @@
         "label": "Part 4 Lesson 9: 接続表現 | N3 Study Desk"
       }
     ],
-    "partOfSpeech": "noun",
+    "partOfSpeech": [
+      "Noun"
+    ],
     "reading": "けっか",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "結果"
   },
   {
     "forms": [],
+    "grammarIds": [
+      "p2-group-b"
+    ],
     "id": "kenchikuka",
     "kanji": [
       {
@@ -9564,12 +11718,20 @@
         "label": "Group B: Words that work like particles | N3 Study Desk"
       }
     ],
-    "partOfSpeech": "noun",
+    "partOfSpeech": [
+      "Noun"
+    ],
     "reading": "けんちくか",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "建築家"
   },
   {
     "forms": [],
+    "grammarIds": [
+      "p2-group-b"
+    ],
     "id": "kenko",
     "kanji": [
       {
@@ -9593,8 +11755,14 @@
         "label": "Group B: Words that work like particles | N3 Study Desk"
       }
     ],
-    "partOfSpeech": "noun / na-adjective",
+    "partOfSpeech": [
+      "Noun",
+      "Na-Adjective"
+    ],
     "reading": "けんこう",
+    "topicIds": [
+      "body-health"
+    ],
     "written": "健康"
   },
   {
@@ -9629,12 +11797,22 @@
         "label": "Lesson 12: Respectful, humble, and polite language"
       }
     ],
-    "partOfSpeech": "noun / suru verb",
+    "partOfSpeech": [
+      "Noun",
+      "Group 3 Verb"
+    ],
     "reading": "けんきゅう",
+    "topicIds": [
+      "school-study"
+    ],
     "written": "研究"
   },
   {
     "forms": [],
+    "grammarIds": [
+      "p2-group-g",
+      "p2-group-j"
+    ],
     "id": "keshiki",
     "kanji": [
       {
@@ -9666,12 +11844,20 @@
         "label": "Group J: Forms that broaden meaning | N3 Study Desk"
       }
     ],
-    "partOfSpeech": "noun",
+    "partOfSpeech": [
+      "Noun"
+    ],
     "reading": "けしき",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "景色"
   },
   {
     "forms": [],
+    "grammarIds": [
+      "p2-group-h"
+    ],
     "id": "ki-ga-tsuku",
     "kanji": [
       {
@@ -9690,12 +11876,20 @@
         "label": "Group H: Special uses of たら・ば・と・なら | N3 Study Desk"
       }
     ],
-    "partOfSpeech": "expression",
+    "partOfSpeech": [
+      "Expression"
+    ],
     "reading": "きがつく",
+    "topicIds": [
+      "school-study"
+    ],
     "written": "気がつく"
   },
   {
     "forms": [],
+    "grammarIds": [
+      "p4-lesson-10"
+    ],
     "id": "kikai",
     "kanji": [
       {
@@ -9719,8 +11913,13 @@
         "label": "Part 4 Lesson 10: 文章の雰囲気の統一 | N3 Study Desk"
       }
     ],
-    "partOfSpeech": "noun",
+    "partOfSpeech": [
+      "Noun"
+    ],
     "reading": "きかい",
+    "topicIds": [
+      "technology"
+    ],
     "written": "機械"
   },
   {
@@ -9732,7 +11931,17 @@
       "l4-ippo",
       "l7-tte",
       "l9-te-moraitai",
-      "l9-to-ba-tara-ii"
+      "l9-to-ba-tara-ii",
+      "p2-group-a",
+      "p2-group-b",
+      "p2-group-f",
+      "p2-group-h",
+      "p2-group-i",
+      "p2-group-j",
+      "p3-lesson-1",
+      "p3-lesson-2",
+      "p3-lesson-3",
+      "p4-lesson-8"
     ],
     "id": "kiku",
     "kanji": [
@@ -9844,12 +12053,21 @@
         "label": "Lesson 3: ～という・～といった | N3 Study Desk"
       }
     ],
-    "partOfSpeech": "godan verb",
+    "partOfSpeech": [
+      "Group 1 Verb"
+    ],
     "reading": "きく",
+    "topicIds": [
+      "communication-media"
+    ],
     "written": "聞く"
   },
   {
     "forms": [],
+    "grammarIds": [
+      "p2-group-g",
+      "p2-group-j"
+    ],
     "id": "kimeru",
     "kanji": [
       {
@@ -9875,8 +12093,13 @@
         "label": "Group J: Forms that broaden meaning | N3 Study Desk"
       }
     ],
-    "partOfSpeech": "ichidan verb",
+    "partOfSpeech": [
+      "Group 2 Verb"
+    ],
     "reading": "きめる",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "決める"
   },
   {
@@ -9907,8 +12130,14 @@
         "label": "Lesson 1: Time relationships ～とき"
       }
     ],
-    "partOfSpeech": "noun / suru verb",
+    "partOfSpeech": [
+      "Noun",
+      "Group 3 Verb"
+    ],
     "reading": "きんちょう",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "緊張"
   },
   {
@@ -9944,12 +12173,20 @@
         "label": "Lesson 4: Contrast ～とは違って"
       }
     ],
-    "partOfSpeech": "noun",
+    "partOfSpeech": [
+      "Noun"
+    ],
     "reading": "きんちょうかん",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "緊張感"
   },
   {
     "forms": [],
+    "grammarIds": [
+      "p2-group-b"
+    ],
     "id": "kinjo",
     "kanji": [
       {
@@ -9973,12 +12210,21 @@
         "label": "Group B: Words that work like particles | N3 Study Desk"
       }
     ],
-    "partOfSpeech": "noun",
+    "partOfSpeech": [
+      "Noun"
+    ],
     "reading": "きんじょ",
+    "topicIds": [
+      "places-directions"
+    ],
     "written": "近所"
   },
   {
     "forms": [],
+    "grammarIds": [
+      "p2-group-f",
+      "p3-lesson-2"
+    ],
     "id": "kinou",
     "kanji": [
       {
@@ -10005,12 +12251,21 @@
         "label": "Lesson 2: Noun description | N3 Study Desk"
       }
     ],
-    "partOfSpeech": "noun / adverb",
+    "partOfSpeech": [
+      "Noun",
+      "Adverb"
+    ],
     "reading": "きのう",
+    "topicIds": [
+      "time-dates-schedules"
+    ],
     "written": "昨日"
   },
   {
     "forms": [],
+    "grammarIds": [
+      "p4-lesson-10"
+    ],
     "id": "kion",
     "kanji": [
       {
@@ -10033,12 +12288,20 @@
         "label": "Part 4 Lesson 10: 文章の雰囲気の統一 | N3 Study Desk"
       }
     ],
-    "partOfSpeech": "noun",
+    "partOfSpeech": [
+      "Noun"
+    ],
     "reading": "きおん",
+    "topicIds": [
+      "nature-weather"
+    ],
     "written": "気温"
   },
   {
     "forms": [],
+    "grammarIds": [
+      "p3-lesson-2"
+    ],
     "id": "kippu",
     "kanji": [
       {
@@ -10061,14 +12324,20 @@
         "label": "Lesson 2: Noun description | N3 Study Desk"
       }
     ],
-    "partOfSpeech": "noun",
+    "partOfSpeech": [
+      "Noun"
+    ],
     "reading": "きっぷ",
+    "topicIds": [
+      "travel-transportation"
+    ],
     "written": "切符"
   },
   {
     "forms": [],
     "grammarIds": [
-      "l4-hanmen"
+      "l4-hanmen",
+      "p4-lesson-10"
     ],
     "id": "kiraku",
     "kanji": [
@@ -10097,12 +12366,20 @@
         "label": "Part 4 Lesson 10: 文章の雰囲気の統一 | N3 Study Desk"
       }
     ],
-    "partOfSpeech": "na-adjective",
+    "partOfSpeech": [
+      "Na-Adjective"
+    ],
     "reading": "きらく",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "気楽"
   },
   {
     "forms": [],
+    "grammarIds": [
+      "p2-group-d"
+    ],
     "id": "kitai",
     "kanji": [
       {
@@ -10130,8 +12407,14 @@
         "label": "Group D: Uses of よう | N3 Study Desk"
       }
     ],
-    "partOfSpeech": "noun / suru verb",
+    "partOfSpeech": [
+      "Noun",
+      "Group 3 Verb"
+    ],
     "reading": "きたい",
+    "topicIds": [
+      "feelings-personality"
+    ],
     "written": "期待"
   },
   {
@@ -10171,8 +12454,14 @@
         "label": "Lesson 2: Relationships ～と関係して"
       }
     ],
-    "partOfSpeech": "noun",
+    "partOfSpeech": [
+      "Noun"
+    ],
     "reading": "きたくじかん",
+    "topicIds": [
+      "time-dates-schedules",
+      "home-daily-life"
+    ],
     "written": "帰宅時間"
   },
   {
@@ -10202,8 +12491,13 @@
         "label": "Lesson 2: Relationships ～と関係して"
       }
     ],
-    "partOfSpeech": "noun",
+    "partOfSpeech": [
+      "Noun"
+    ],
     "reading": "こうばん",
+    "topicIds": [
+      "society-public-services"
+    ],
     "written": "交番"
   },
   {
@@ -10214,7 +12508,20 @@
       "l10-beki",
       "l11-you-ni-suru",
       "l4-ippo",
-      "l8-koto-wa-ga"
+      "l8-koto-wa-ga",
+      "p2-group-a",
+      "p2-group-b",
+      "p2-group-d",
+      "p2-group-f",
+      "p2-group-g",
+      "p2-group-h",
+      "p2-group-i",
+      "p2-group-j",
+      "p3-lesson-2",
+      "p3-lesson-4",
+      "p4-lesson-1",
+      "p4-lesson-3",
+      "p4-lesson-7"
     ],
     "id": "kodomo",
     "kanji": [
@@ -10329,12 +12636,21 @@
         "label": "Lesson 4: Fixed patterns | N3 Study Desk"
       }
     ],
-    "partOfSpeech": "noun",
+    "partOfSpeech": [
+      "Noun"
+    ],
     "reading": "こども",
+    "topicIds": [
+      "people-family-relationships"
+    ],
     "written": "子ども"
   },
   {
     "forms": [],
+    "grammarIds": [
+      "p2-group-d",
+      "p3-lesson-3"
+    ],
     "id": "koe",
     "kanji": [
       {
@@ -10357,12 +12673,25 @@
         "label": "Lesson 3: ～という・～といった | N3 Study Desk"
       }
     ],
-    "partOfSpeech": "noun",
+    "partOfSpeech": [
+      "Noun"
+    ],
     "reading": "こえ",
+    "topicIds": [
+      "communication-media"
+    ],
     "written": "声"
   },
   {
     "forms": [],
+    "grammarIds": [
+      "p2-group-a",
+      "p2-group-g",
+      "p2-group-h",
+      "p3-lesson-4",
+      "p4-lesson-7",
+      "p4-lesson-8"
+    ],
     "id": "koen",
     "kanji": [
       {
@@ -10405,14 +12734,21 @@
         "label": "Lesson 4: Fixed patterns | N3 Study Desk"
       }
     ],
-    "partOfSpeech": "noun",
+    "partOfSpeech": [
+      "Noun"
+    ],
     "reading": "こうえん",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "公園"
   },
   {
     "forms": [],
     "grammarIds": [
-      "l1-tokoro"
+      "l1-tokoro",
+      "p3-lesson-1",
+      "p4-lesson-10"
     ],
     "id": "kotae",
     "kanji": [
@@ -10439,8 +12775,14 @@
         "label": "Lesson 1: Quotation | N3 Study Desk"
       }
     ],
-    "partOfSpeech": "noun",
+    "partOfSpeech": [
+      "Noun"
+    ],
     "reading": "こたえ",
+    "topicIds": [
+      "school-study",
+      "communication-media"
+    ],
     "written": "答え"
   },
   {
@@ -10449,7 +12791,10 @@
       "l11-tsumori",
       "l2-niyotte",
       "l5-ni-yotte",
-      "l7-iwareteiru"
+      "l7-iwareteiru",
+      "p2-group-b",
+      "p2-group-d",
+      "p2-group-g"
     ],
     "id": "kotoshi",
     "kanji": [
@@ -10497,8 +12842,13 @@
         "label": "Lesson 11: Intentions, efforts, and attempts"
       }
     ],
-    "partOfSpeech": "noun",
+    "partOfSpeech": [
+      "Noun"
+    ],
     "reading": "ことし",
+    "topicIds": [
+      "time-dates-schedules"
+    ],
     "written": "今年"
   },
   {
@@ -10506,7 +12856,13 @@
     "grammarIds": [
       "l12-sonkeigo",
       "l2-niyotte",
-      "l5-ni-yotte"
+      "l5-ni-yotte",
+      "p2-group-a",
+      "p2-group-b",
+      "p2-group-d",
+      "p2-group-f",
+      "p2-group-i",
+      "p4-lesson-1"
     ],
     "id": "kuni",
     "kanji": [
@@ -10562,14 +12918,21 @@
         "label": "Part 4 Lesson 1: 文の始めと終わりの対応 | N3 Study Desk"
       }
     ],
-    "partOfSpeech": "noun",
+    "partOfSpeech": [
+      "Noun"
+    ],
     "reading": "くに",
+    "topicIds": [
+      "places-directions"
+    ],
     "written": "国"
   },
   {
     "forms": [],
     "grammarIds": [
-      "l1-uchini"
+      "l1-uchini",
+      "p2-group-g",
+      "p2-group-i"
     ],
     "id": "kurai-dark",
     "kanji": [
@@ -10601,8 +12964,13 @@
         "label": "Lesson 1: Time relationships ～とき"
       }
     ],
-    "partOfSpeech": "i-adjective",
+    "partOfSpeech": [
+      "I-Adjective"
+    ],
     "reading": "くらい",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "暗い"
   },
   {
@@ -10610,7 +12978,17 @@
     "grammarIds": [
       "l10-meirei-kinshi",
       "l7-tte",
-      "l8-hazu-wake"
+      "l8-hazu-wake",
+      "p2-group-b",
+      "p2-group-d",
+      "p2-group-e",
+      "p2-group-f",
+      "p2-group-h",
+      "p2-group-i",
+      "p3-lesson-1",
+      "p3-lesson-2",
+      "p4-lesson-2",
+      "p4-lesson-8"
     ],
     "id": "kuru",
     "kanji": [
@@ -10713,14 +13091,26 @@
         "label": "Lesson 2: Noun description | N3 Study Desk"
       }
     ],
-    "partOfSpeech": "irregular verb",
+    "partOfSpeech": [
+      "Group 3 Verb"
+    ],
     "reading": "くる",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "来る"
   },
   {
     "forms": [],
     "grammarIds": [
-      "l1-tekara"
+      "l1-tekara",
+      "p2-group-a",
+      "p2-group-c",
+      "p2-group-e",
+      "p2-group-g",
+      "p2-group-j",
+      "p4-lesson-1",
+      "p4-lesson-8"
     ],
     "id": "kuruma",
     "kanji": [
@@ -10776,8 +13166,13 @@
         "label": "Part 4 Lesson 8: は・が | N3 Study Desk"
       }
     ],
-    "partOfSpeech": "noun",
+    "partOfSpeech": [
+      "Noun"
+    ],
     "reading": "くるま",
+    "topicIds": [
+      "travel-transportation"
+    ],
     "written": "車"
   },
   {
@@ -10803,12 +13198,24 @@
         "label": "Lesson 1: Time relationships ～とき"
       }
     ],
-    "partOfSpeech": "noun",
+    "partOfSpeech": [
+      "Noun"
+    ],
     "reading": "くさ",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "草"
   },
   {
     "forms": [],
+    "grammarIds": [
+      "p2-group-d",
+      "p2-group-g",
+      "p2-group-h",
+      "p2-group-i",
+      "p3-lesson-3"
+    ],
     "id": "kusuri",
     "kanji": [
       {
@@ -10843,14 +13250,21 @@
         "label": "Lesson 3: ～という・～といった | N3 Study Desk"
       }
     ],
-    "partOfSpeech": "noun",
+    "partOfSpeech": [
+      "Noun"
+    ],
     "reading": "くすり",
+    "topicIds": [
+      "body-health"
+    ],
     "written": "薬"
   },
   {
     "forms": [],
     "grammarIds": [
-      "l2-tsuideni"
+      "l2-tsuideni",
+      "p2-group-f",
+      "p2-group-j"
     ],
     "id": "kutsu",
     "kanji": [
@@ -10881,8 +13295,13 @@
         "label": "Lesson 2: Relationships ～と関係して"
       }
     ],
-    "partOfSpeech": "noun",
+    "partOfSpeech": [
+      "Noun"
+    ],
     "reading": "くつ",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "靴"
   },
   {
@@ -10895,7 +13314,12 @@
       "l7-tte",
       "l8-hazu-wake",
       "l9-sasete-moraitai",
-      "l9-to-ba-tara-ii"
+      "l9-to-ba-tara-ii",
+      "p2-group-a",
+      "p2-group-d",
+      "p2-group-e",
+      "p2-group-i",
+      "p2-group-j"
     ],
     "id": "kyo",
     "kanji": [
@@ -10999,8 +13423,14 @@
         "label": "Lesson 12: Respectful, humble, and polite language"
       }
     ],
-    "partOfSpeech": "noun / adverb",
+    "partOfSpeech": [
+      "Noun",
+      "Adverb"
+    ],
     "reading": "きょう",
+    "topicIds": [
+      "time-dates-schedules"
+    ],
     "written": "今日"
   },
   {
@@ -11030,14 +13460,20 @@
         "label": "Lesson 4: Contrast ～とは違って"
       }
     ],
-    "partOfSpeech": "noun",
+    "partOfSpeech": [
+      "Noun"
+    ],
     "reading": "きょうじゅ",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "教授"
   },
   {
     "forms": [],
     "grammarIds": [
-      "l1-uchini"
+      "l1-uchini",
+      "p2-group-b"
     ],
     "id": "kyoku",
     "kanji": [
@@ -11061,8 +13497,13 @@
         "label": "Lesson 1: Time relationships ～とき"
       }
     ],
-    "partOfSpeech": "noun",
+    "partOfSpeech": [
+      "Noun"
+    ],
     "reading": "きょく",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "曲"
   },
   {
@@ -11103,14 +13544,24 @@
         "label": "Lesson 4: Contrast ～とは違って"
       }
     ],
-    "partOfSpeech": "noun",
+    "partOfSpeech": [
+      "Noun"
+    ],
     "reading": "きょうそうあいて",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "競争相手"
   },
   {
     "forms": [],
     "grammarIds": [
-      "l12-sonkeigo"
+      "l12-sonkeigo",
+      "p2-group-a",
+      "p2-group-d",
+      "p2-group-i",
+      "p3-lesson-2",
+      "p3-lesson-3"
     ],
     "id": "kyoto",
     "kanji": [
@@ -11154,8 +13605,13 @@
         "label": "Lesson 3: ～という・～といった | N3 Study Desk"
       }
     ],
-    "partOfSpeech": "proper noun",
+    "partOfSpeech": [
+      "Noun"
+    ],
     "reading": "きょうと",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "京都"
   },
   {
@@ -11180,8 +13636,13 @@
         "label": "Lesson 10: Advice and commands ～したほうがいい・～なさい"
       }
     ],
-    "partOfSpeech": "i-adjective",
+    "partOfSpeech": [
+      "I-Adjective"
+    ],
     "reading": "あぶない",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "危ない"
   },
   {
@@ -11216,14 +13677,20 @@
         "label": "Lesson 10: Advice and commands ～したほうがいい・～なさい"
       }
     ],
-    "partOfSpeech": "noun",
+    "partOfSpeech": [
+      "Noun"
+    ],
     "reading": "あかしんごう",
+    "topicIds": [
+      "travel-transportation"
+    ],
     "written": "赤信号"
   },
   {
     "forms": [],
     "grammarIds": [
-      "l10-tara-doka"
+      "l10-tara-doka",
+      "p2-group-e"
     ],
     "id": "l10-ayamaru",
     "kanji": [
@@ -11246,8 +13713,13 @@
         "label": "Lesson 10: Advice and commands ～したほうがいい・～なさい"
       }
     ],
-    "partOfSpeech": "godan verb",
+    "partOfSpeech": [
+      "Group 1 Verb"
+    ],
     "reading": "あやまる",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "謝る"
   },
   {
@@ -11282,12 +13754,21 @@
         "label": "Lesson 10: Advice and commands ～したほうがいい・～なさい"
       }
     ],
-    "partOfSpeech": "noun",
+    "partOfSpeech": [
+      "Noun"
+    ],
     "reading": "ちゅういがき",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "注意書き"
   },
   {
     "forms": [],
+    "grammarIds": [
+      "p2-group-e",
+      "p2-group-g"
+    ],
     "id": "l10-daiji",
     "kanji": [
       {
@@ -11314,14 +13795,23 @@
         "label": "Group G: Organizing する and なる | N3 Study Desk"
       }
     ],
-    "partOfSpeech": "noun; na-adjective",
+    "partOfSpeech": [
+      "Noun",
+      "Na-Adjective"
+    ],
     "reading": "だいじ",
+    "topicIds": [
+      "feelings-personality"
+    ],
     "written": "大事"
   },
   {
     "forms": [],
     "grammarIds": [
-      "l10-koto"
+      "l10-koto",
+      "p2-group-a",
+      "p2-group-b",
+      "p2-group-g"
     ],
     "id": "l10-gakko",
     "kanji": [
@@ -11357,14 +13847,20 @@
         "label": "Lesson 10: Advice and commands ～したほうがいい・～なさい"
       }
     ],
-    "partOfSpeech": "noun",
+    "partOfSpeech": [
+      "Noun"
+    ],
     "reading": "がっこう",
+    "topicIds": [
+      "school-study"
+    ],
     "written": "学校"
   },
   {
     "forms": [],
     "grammarIds": [
-      "l10-koto"
+      "l10-koto",
+      "p2-group-e"
     ],
     "id": "l10-getsuyobi",
     "kanji": [
@@ -11397,8 +13893,13 @@
         "label": "Lesson 10: Advice and commands ～したほうがいい・～なさい"
       }
     ],
-    "partOfSpeech": "noun",
+    "partOfSpeech": [
+      "Noun"
+    ],
     "reading": "げつようび",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "月曜日"
   },
   {
@@ -11428,8 +13929,14 @@
         "label": "Lesson 10: Advice and commands ～したほうがいい・～なさい"
       }
     ],
-    "partOfSpeech": "noun; suru verb",
+    "partOfSpeech": [
+      "Noun",
+      "Group 3 Verb"
+    ],
     "reading": "ひっこし",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "引っ越し"
   },
   {
@@ -11464,8 +13971,14 @@
         "label": "Lesson 10: Advice and commands ～したほうがいい・～なさい"
       }
     ],
-    "partOfSpeech": "noun; suru verb",
+    "partOfSpeech": [
+      "Noun",
+      "Group 3 Verb"
+    ],
     "reading": "いみ",
+    "topicIds": [
+      "school-study"
+    ],
     "written": "意味"
   },
   {
@@ -11500,8 +14013,13 @@
         "label": "Lesson 10: Advice and commands ～したほうがいい・～なさい"
       }
     ],
-    "partOfSpeech": "noun",
+    "partOfSpeech": [
+      "Noun"
+    ],
     "reading": "いしゃ",
+    "topicIds": [
+      "body-health"
+    ],
     "written": "医者"
   },
   {
@@ -11541,15 +14059,23 @@
         "label": "Lesson 10: Advice and commands ～したほうがいい・～なさい"
       }
     ],
-    "partOfSpeech": "noun",
+    "partOfSpeech": [
+      "Noun"
+    ],
     "reading": "かいしゃ",
+    "topicIds": [
+      "work-business"
+    ],
     "written": "会社"
   },
   {
     "forms": [],
     "grammarIds": [
       "l10-koto",
-      "l8-toha-kagiranai"
+      "l8-toha-kagiranai",
+      "p2-group-g",
+      "p3-lesson-2",
+      "p4-lesson-6"
     ],
     "id": "l10-kanarazu",
     "kanji": [
@@ -11584,8 +14110,13 @@
         "label": "Lesson 2: Noun description | N3 Study Desk"
       }
     ],
-    "partOfSpeech": "adverb",
+    "partOfSpeech": [
+      "Adverb"
+    ],
     "reading": "かならず",
+    "topicIds": [
+      "school-study"
+    ],
     "written": "必ず"
   },
   {
@@ -11615,8 +14146,13 @@
         "label": "Lesson 10: Advice and commands ～したほうがいい・～なさい"
       }
     ],
-    "partOfSpeech": "na-adjective",
+    "partOfSpeech": [
+      "Na-Adjective"
+    ],
     "reading": "かんたん",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "簡単"
   },
   {
@@ -11646,8 +14182,14 @@
         "label": "Lesson 10: Advice and commands ～したほうがいい・～なさい"
       }
     ],
-    "partOfSpeech": "noun; suru verb",
+    "partOfSpeech": [
+      "Noun",
+      "Group 3 Verb"
+    ],
     "reading": "かんとく",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "監督"
   },
   {
@@ -11655,7 +14197,9 @@
     "grammarIds": [
       "l10-koto",
       "l7-iwareteiru",
-      "l7-toiu-koto"
+      "l7-toiu-koto",
+      "p2-group-f",
+      "p2-group-g"
     ],
     "id": "l10-kawa",
     "kanji": [
@@ -11690,8 +14234,13 @@
         "label": "Lesson 10: Advice and commands ～したほうがいい・～なさい"
       }
     ],
-    "partOfSpeech": "noun",
+    "partOfSpeech": [
+      "Noun"
+    ],
     "reading": "かわ",
+    "topicIds": [
+      "nature-weather"
+    ],
     "written": "川"
   },
   {
@@ -11736,8 +14285,14 @@
         "label": "Lesson 10: Advice and commands ～したほうがいい・～なさい"
       }
     ],
-    "partOfSpeech": "noun; suru verb",
+    "partOfSpeech": [
+      "Noun",
+      "Group 3 Verb"
+    ],
     "reading": "けんこうしんだん",
+    "topicIds": [
+      "body-health"
+    ],
     "written": "健康診断"
   },
   {
@@ -11772,8 +14327,14 @@
         "label": "Lesson 10: Advice and commands ～したほうがいい・～なさい"
       }
     ],
-    "partOfSpeech": "noun; adverb",
+    "partOfSpeech": [
+      "Noun",
+      "Adverb"
+    ],
     "reading": "きょうじゅう",
+    "topicIds": [
+      "time-dates-schedules"
+    ],
     "written": "今日中"
   },
   {
@@ -11817,8 +14378,14 @@
         "label": "Lesson 10: Advice and commands ～したほうがいい・～なさい"
       }
     ],
-    "partOfSpeech": "noun; suru verb",
+    "partOfSpeech": [
+      "Noun",
+      "Group 3 Verb"
+    ],
     "reading": "めいれい",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "命令"
   },
   {
@@ -11848,14 +14415,23 @@
         "label": "Lesson 10: Advice and commands ～したほうがいい・～なさい"
       }
     ],
-    "partOfSpeech": "noun",
+    "partOfSpeech": [
+      "Noun"
+    ],
     "reading": "めいわくめーる",
+    "topicIds": [
+      "communication-media"
+    ],
     "written": "迷惑メール"
   },
   {
     "forms": [],
     "grammarIds": [
-      "l3-kurai-nara"
+      "l3-kurai-nara",
+      "p2-group-e",
+      "p2-group-g",
+      "p2-group-i",
+      "p3-lesson-1"
     ],
     "id": "l10-okureru",
     "kanji": [
@@ -11894,8 +14470,13 @@
         "label": "Lesson 1: Quotation | N3 Study Desk"
       }
     ],
-    "partOfSpeech": "ichidan verb",
+    "partOfSpeech": [
+      "Group 2 Verb"
+    ],
     "reading": "おくれる",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "遅れる"
   },
   {
@@ -11925,8 +14506,13 @@
         "label": "Lesson 12: Respectful, humble, and polite language"
       }
     ],
-    "partOfSpeech": "noun",
+    "partOfSpeech": [
+      "Noun"
+    ],
     "reading": "おさけ",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "お酒"
   },
   {
@@ -11951,8 +14537,13 @@
         "label": "Lesson 10: Advice and commands ～したほうがいい・～なさい"
       }
     ],
-    "partOfSpeech": "godan verb",
+    "partOfSpeech": [
+      "Group 1 Verb"
+    ],
     "reading": "およぐ",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "泳ぐ"
   },
   {
@@ -11991,8 +14582,14 @@
         "label": "Lesson 10: Advice and commands ～したほうがいい・～なさい"
       }
     ],
-    "partOfSpeech": "noun; adverb",
+    "partOfSpeech": [
+      "Noun",
+      "Adverb"
+    ],
     "reading": "らいしゅう",
+    "topicIds": [
+      "time-dates-schedules"
+    ],
     "written": "来週"
   },
   {
@@ -12037,8 +14634,14 @@
         "label": "Lesson 10: Advice and commands ～したほうがいい・～なさい"
       }
     ],
-    "partOfSpeech": "noun; suru verb",
+    "partOfSpeech": [
+      "Noun",
+      "Group 3 Verb"
+    ],
     "reading": "しあい",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "試合"
   },
   {
@@ -12063,14 +14666,23 @@
         "label": "Lesson 10: Advice and commands ～したほうがいい・～なさい"
       }
     ],
-    "partOfSpeech": "godan verb",
+    "partOfSpeech": [
+      "Group 1 Verb"
+    ],
     "reading": "したがう",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "従う"
   },
   {
     "forms": [],
     "grammarIds": [
-      "l10-meirei-kinshi"
+      "l10-meirei-kinshi",
+      "p2-group-d",
+      "p2-group-j",
+      "p3-lesson-1",
+      "p4-lesson-3"
     ],
     "id": "l10-tanomu",
     "kanji": [
@@ -12109,8 +14721,13 @@
         "label": "Lesson 1: Quotation | N3 Study Desk"
       }
     ],
-    "partOfSpeech": "godan verb",
+    "partOfSpeech": [
+      "Group 1 Verb"
+    ],
     "reading": "たのむ",
+    "topicIds": [
+      "communication-media"
+    ],
     "written": "頼む"
   },
   {
@@ -12145,8 +14762,13 @@
         "label": "Lesson 10: Advice and commands ～したほうがいい・～なさい"
       }
     ],
-    "partOfSpeech": "noun",
+    "partOfSpeech": [
+      "Noun"
+    ],
     "reading": "たてふだ",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "立て札"
   },
   {
@@ -12155,7 +14777,10 @@
       "l10-meirei-kinshi",
       "l11-koto-ni-suru",
       "l4-to-iu-yori",
-      "l5-kara-koto"
+      "l5-kara-koto",
+      "p2-group-a",
+      "p2-group-h",
+      "p3-lesson-2"
     ],
     "id": "l10-tomodachi",
     "kanji": [
@@ -12210,8 +14835,13 @@
         "label": "Lesson 2: Noun description | N3 Study Desk"
       }
     ],
-    "partOfSpeech": "noun",
+    "partOfSpeech": [
+      "Noun"
+    ],
     "reading": "ともだち",
+    "topicIds": [
+      "people-family-relationships"
+    ],
     "written": "友だち"
   },
   {
@@ -12246,8 +14876,13 @@
         "label": "Lesson 10: Advice and commands ～したほうがいい・～なさい"
       }
     ],
-    "partOfSpeech": "ichidan verb",
+    "partOfSpeech": [
+      "Group 2 Verb"
+    ],
     "reading": "やめる",
+    "topicIds": [
+      "work-business"
+    ],
     "written": "辞める"
   },
   {
@@ -12277,8 +14912,14 @@
         "label": "Lesson 10: Advice and commands ～したほうがいい・～なさい"
       }
     ],
-    "partOfSpeech": "adverbial phrase",
+    "partOfSpeech": [
+      "Adverb",
+      "Expression"
+    ],
     "reading": "よるおそく",
+    "topicIds": [
+      "time-dates-schedules"
+    ],
     "written": "夜遅く"
   },
   {
@@ -12288,7 +14929,14 @@
       "l4-to-iu-yori",
       "l8-hazu-wake",
       "l8-koto-wa-ga",
-      "l8-wake-dewa-nai"
+      "l8-wake-dewa-nai",
+      "p2-group-a",
+      "p2-group-d",
+      "p2-group-f",
+      "p2-group-h",
+      "p2-group-j",
+      "p3-lesson-4",
+      "p4-lesson-9"
     ],
     "id": "l11-03t",
     "kanji": [
@@ -12387,8 +15035,13 @@
         "label": "Lesson 4: Fixed patterns | N3 Study Desk"
       }
     ],
-    "partOfSpeech": "pronoun",
+    "partOfSpeech": [
+      "Pronoun"
+    ],
     "reading": "かれ",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "彼"
   },
   {
@@ -12413,14 +15066,21 @@
         "label": "Lesson 12: Respectful, humble, and polite language"
       }
     ],
-    "partOfSpeech": "noun; verb",
+    "partOfSpeech": [
+      "Noun",
+      "Group 2 Verb"
+    ],
     "reading": "かたづけ",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "片付け"
   },
   {
     "forms": [],
     "grammarIds": [
-      "l11-you-to-suru"
+      "l11-you-to-suru",
+      "p2-group-c"
     ],
     "id": "l11-0rys90e",
     "kanji": [
@@ -12443,8 +15103,14 @@
         "label": "Lesson 11: Intentions, efforts, and attempts"
       }
     ],
-    "partOfSpeech": "noun",
+    "partOfSpeech": [
+      "Noun"
+    ],
     "reading": "びょういん",
+    "topicIds": [
+      "body-health",
+      "society-public-services"
+    ],
     "written": "病院"
   },
   {
@@ -12474,8 +15140,14 @@
         "label": "Lesson 11: Intentions, efforts, and attempts"
       }
     ],
-    "partOfSpeech": "noun; verb",
+    "partOfSpeech": [
+      "Noun",
+      "Group 3 Verb"
+    ],
     "reading": "せつめい",
+    "topicIds": [
+      "school-study"
+    ],
     "written": "説明"
   },
   {
@@ -12510,14 +15182,21 @@
         "label": "Lesson 9: Wishes and requests ～と望む"
       }
     ],
-    "partOfSpeech": "noun; na-adjective",
+    "partOfSpeech": [
+      "Noun",
+      "Na-Adjective"
+    ],
     "reading": "むり",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "無理"
   },
   {
     "forms": [],
     "grammarIds": [
-      "l11-you-to-suru"
+      "l11-you-to-suru",
+      "p2-group-e"
     ],
     "id": "l11-3kq375b",
     "kanji": [
@@ -12548,8 +15227,13 @@
         "label": "Lesson 11: Intentions, efforts, and attempts"
       }
     ],
-    "partOfSpeech": "noun",
+    "partOfSpeech": [
+      "Noun"
+    ],
     "reading": "じじょう",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "事情"
   },
   {
@@ -12613,8 +15297,13 @@
         "label": "Lesson 10: Advice and commands ～したほうがいい・～なさい"
       }
     ],
-    "partOfSpeech": "noun",
+    "partOfSpeech": [
+      "Noun"
+    ],
     "reading": "しごと",
+    "topicIds": [
+      "work-business"
+    ],
     "written": "仕事"
   },
   {
@@ -12639,12 +15328,22 @@
         "label": "Lesson 11: Intentions, efforts, and attempts"
       }
     ],
-    "partOfSpeech": "noun",
+    "partOfSpeech": [
+      "Noun"
+    ],
     "reading": "せんぱい",
+    "topicIds": [
+      "people-family-relationships"
+    ],
     "written": "先輩"
   },
   {
     "forms": [],
+    "grammarIds": [
+      "p2-group-c",
+      "p2-group-g",
+      "p2-group-h"
+    ],
     "id": "l11-5rz",
     "kanji": [
       {
@@ -12674,8 +15373,13 @@
         "label": "Group H: Special uses of たら・ば・と・なら | N3 Study Desk"
       }
     ],
-    "partOfSpeech": "noun",
+    "partOfSpeech": [
+      "Noun"
+    ],
     "reading": "まど",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "窓"
   },
   {
@@ -12700,14 +15404,20 @@
         "label": "Lesson 11: Intentions, efforts, and attempts"
       }
     ],
-    "partOfSpeech": "expression",
+    "partOfSpeech": [
+      "Expression"
+    ],
     "reading": "てをのばして",
+    "topicIds": [
+      "body-health"
+    ],
     "written": "手を伸ばして"
   },
   {
     "forms": [],
     "grammarIds": [
-      "l11-you-to-suru"
+      "l11-you-to-suru",
+      "p2-group-h"
     ],
     "id": "l11-68jq1kq04lxn1e",
     "kanji": [
@@ -12730,15 +15440,27 @@
         "label": "Lesson 11: Intentions, efforts, and attempts"
       }
     ],
-    "partOfSpeech": "verb form",
+    "partOfSpeech": [
+      "Group 1 Verb"
+    ],
     "reading": "ふりだした",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "降り出した"
   },
   {
     "forms": [],
     "grammarIds": [
       "l11-koto-ni-suru",
-      "l11-tsumori"
+      "l11-tsumori",
+      "p2-group-a",
+      "p2-group-b",
+      "p2-group-f",
+      "p2-group-g",
+      "p2-group-j",
+      "p3-lesson-2",
+      "p4-lesson-10"
     ],
     "id": "l11-6s1az0j",
     "kanji": [
@@ -12809,8 +15531,13 @@
         "label": "Lesson 2: Noun description | N3 Study Desk"
       }
     ],
-    "partOfSpeech": "noun",
+    "partOfSpeech": [
+      "Noun"
+    ],
     "reading": "ことば",
+    "topicIds": [
+      "school-study"
+    ],
     "written": "言葉"
   },
   {
@@ -12840,8 +15567,13 @@
         "label": "Lesson 10: Advice and commands ～したほうがいい・～なさい"
       }
     ],
-    "partOfSpeech": "noun",
+    "partOfSpeech": [
+      "Noun"
+    ],
     "reading": "そと",
+    "topicIds": [
+      "places-directions"
+    ],
     "written": "外"
   },
   {
@@ -12866,12 +15598,20 @@
         "label": "Lesson 11: Intentions, efforts, and attempts"
       }
     ],
-    "partOfSpeech": "expression",
+    "partOfSpeech": [
+      "Expression"
+    ],
     "reading": "くちをだす",
+    "topicIds": [
+      "school-study"
+    ],
     "written": "口を出す"
   },
   {
     "forms": [],
+    "grammarIds": [
+      "p2-group-b"
+    ],
     "id": "l11-8ey897b",
     "kanji": [
       {
@@ -12889,8 +15629,14 @@
         "label": "Group B: Words that work like particles | N3 Study Desk"
       }
     ],
-    "partOfSpeech": "noun; verb",
+    "partOfSpeech": [
+      "Noun",
+      "Group 3 Verb"
+    ],
     "reading": "りかい",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "理解"
   },
   {
@@ -12915,12 +15661,21 @@
         "label": "Lesson 11: Intentions, efforts, and attempts"
       }
     ],
-    "partOfSpeech": "noun",
+    "partOfSpeech": [
+      "Noun"
+    ],
     "reading": "しゅうごうじかん",
+    "topicIds": [
+      "time-dates-schedules",
+      "work-business"
+    ],
     "written": "集合時間"
   },
   {
     "forms": [],
+    "grammarIds": [
+      "p2-group-a"
+    ],
     "id": "l11-b8qr92aw73a",
     "kanji": [
       {
@@ -12938,8 +15693,13 @@
         "label": "Group A: Particles with various functions | N3 Study Desk"
       }
     ],
-    "partOfSpeech": "noun",
+    "partOfSpeech": [
+      "Noun"
+    ],
     "reading": "れいぞうこ",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "冷蔵庫"
   },
   {
@@ -12974,8 +15734,13 @@
         "label": "Lesson 11: Intentions, efforts, and attempts"
       }
     ],
-    "partOfSpeech": "noun",
+    "partOfSpeech": [
+      "Noun"
+    ],
     "reading": "やすみ",
+    "topicIds": [
+      "time-dates-schedules"
+    ],
     "written": "休み"
   },
   {
@@ -13000,15 +15765,26 @@
         "label": "Lesson 11: Intentions, efforts, and attempts"
       }
     ],
-    "partOfSpeech": "noun",
+    "partOfSpeech": [
+      "Noun"
+    ],
     "reading": "こし",
+    "topicIds": [
+      "places-directions"
+    ],
     "written": "腰"
   },
   {
     "forms": [],
     "grammarIds": [
       "l11-you-to-suru",
-      "l12-kenjougo-2"
+      "l12-kenjougo-2",
+      "p2-group-e",
+      "p2-group-g",
+      "p2-group-h",
+      "p2-group-j",
+      "p3-lesson-4",
+      "p4-lesson-10"
     ],
     "id": "l11-ess",
     "kanji": [
@@ -13055,8 +15831,13 @@
         "label": "Lesson 4: Fixed patterns | N3 Study Desk"
       }
     ],
-    "partOfSpeech": "noun",
+    "partOfSpeech": [
+      "Noun"
+    ],
     "reading": "よる",
+    "topicIds": [
+      "time-dates-schedules"
+    ],
     "written": "夜"
   },
   {
@@ -13081,8 +15862,13 @@
         "label": "Lesson 11: Intentions, efforts, and attempts"
       }
     ],
-    "partOfSpeech": "verb form",
+    "partOfSpeech": [
+      "Group 1 Verb"
+    ],
     "reading": "おこった",
+    "topicIds": [
+      "feelings-personality"
+    ],
     "written": "怒った"
   },
   {
@@ -13107,8 +15893,13 @@
         "label": "Lesson 11: Intentions, efforts, and attempts"
       }
     ],
-    "partOfSpeech": "noun",
+    "partOfSpeech": [
+      "Noun"
+    ],
     "reading": "としうえ",
+    "topicIds": [
+      "people-family-relationships"
+    ],
     "written": "年上"
   },
   {
@@ -13133,12 +15924,21 @@
         "label": "Lesson 11: Intentions, efforts, and attempts"
       }
     ],
-    "partOfSpeech": "noun",
+    "partOfSpeech": [
+      "Noun"
+    ],
     "reading": "にもつ",
+    "topicIds": [
+      "travel-transportation"
+    ],
     "written": "荷物"
   },
   {
     "forms": [],
+    "grammarIds": [
+      "p2-group-j",
+      "p3-lesson-4"
+    ],
     "id": "l11-h4tu9n",
     "kanji": [
       {
@@ -13168,8 +15968,13 @@
         "label": "Lesson 4: Fixed patterns | N3 Study Desk"
       }
     ],
-    "partOfSpeech": "noun",
+    "partOfSpeech": [
+      "Noun"
+    ],
     "reading": "さいご",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "最後"
   },
   {
@@ -13204,12 +16009,22 @@
         "label": "Lesson 11: Intentions, efforts, and attempts"
       }
     ],
-    "partOfSpeech": "noun; verb",
+    "partOfSpeech": [
+      "Noun",
+      "Group 3 Verb"
+    ],
     "reading": "そうじ",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "掃除"
   },
   {
     "forms": [],
+    "grammarIds": [
+      "p2-group-a",
+      "p2-group-c"
+    ],
     "id": "l11-j9jg7395f",
     "kanji": [
       {
@@ -13231,8 +16046,14 @@
         "label": "Group C: Uses of こと and の | N3 Study Desk"
       }
     ],
-    "partOfSpeech": "adverbial verb form",
+    "partOfSpeech": [
+      "Adverb",
+      "Expression"
+    ],
     "reading": "だまって",
+    "topicIds": [
+      "school-study"
+    ],
     "written": "黙って"
   },
   {
@@ -13257,8 +16078,13 @@
         "label": "Lesson 6: Conditions and hypotheses もし、…"
       }
     ],
-    "partOfSpeech": "noun",
+    "partOfSpeech": [
+      "Noun"
+    ],
     "reading": "あいて",
+    "topicIds": [
+      "people-family-relationships"
+    ],
     "written": "相手"
   },
   {
@@ -13283,8 +16109,13 @@
         "label": "Lesson 11: Intentions, efforts, and attempts"
       }
     ],
-    "partOfSpeech": "na-adjective",
+    "partOfSpeech": [
+      "Na-Adjective"
+    ],
     "reading": "たいせつ",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "大切"
   },
   {
@@ -13313,14 +16144,20 @@
         "label": "Lesson 12: Respectful, humble, and polite language"
       }
     ],
-    "partOfSpeech": "noun",
+    "partOfSpeech": [
+      "Noun"
+    ],
     "reading": "なまえ",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "名前"
   },
   {
     "forms": [],
     "grammarIds": [
-      "l11-koto-ni-suru"
+      "l11-koto-ni-suru",
+      "p2-group-a"
     ],
     "id": "l11-lzs",
     "kanji": [
@@ -13343,8 +16180,13 @@
         "label": "Lesson 11: Intentions, efforts, and attempts"
       }
     ],
-    "partOfSpeech": "noun",
+    "partOfSpeech": [
+      "Noun"
+    ],
     "reading": "むすめ",
+    "topicIds": [
+      "people-family-relationships"
+    ],
     "written": "娘"
   },
   {
@@ -13369,8 +16211,13 @@
         "label": "Lesson 11: Intentions, efforts, and attempts"
       }
     ],
-    "partOfSpeech": "verb form",
+    "partOfSpeech": [
+      "Group 2 Verb"
+    ],
     "reading": "つれて",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "連れて"
   },
   {
@@ -13395,8 +16242,13 @@
         "label": "Lesson 11: Intentions, efforts, and attempts"
       }
     ],
-    "partOfSpeech": "i-adjective",
+    "partOfSpeech": [
+      "I-Adjective"
+    ],
     "reading": "わかい",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "若い"
   },
   {
@@ -13421,8 +16273,13 @@
         "label": "Lesson 11: Intentions, efforts, and attempts"
       }
     ],
-    "partOfSpeech": "i-adjective",
+    "partOfSpeech": [
+      "I-Adjective"
+    ],
     "reading": "きたない",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "汚い"
   },
   {
@@ -13447,8 +16304,13 @@
         "label": "Lesson 11: Intentions, efforts, and attempts"
       }
     ],
-    "partOfSpeech": "expression",
+    "partOfSpeech": [
+      "Expression"
+    ],
     "reading": "きにしない",
+    "topicIds": [
+      "school-study"
+    ],
     "written": "気にしない"
   },
   {
@@ -13478,8 +16340,13 @@
         "label": "Lesson 11: Intentions, efforts, and attempts"
       }
     ],
-    "partOfSpeech": "verb form",
+    "partOfSpeech": [
+      "Group 2 Verb"
+    ],
     "reading": "おくれない",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "遅れない"
   },
   {
@@ -13509,12 +16376,21 @@
         "label": "Lesson 11: Intentions, efforts, and attempts"
       }
     ],
-    "partOfSpeech": "i-adjective",
+    "partOfSpeech": [
+      "I-Adjective"
+    ],
     "reading": "おもい",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "重い"
   },
   {
     "forms": [],
+    "grammarIds": [
+      "p2-group-a",
+      "p2-group-g"
+    ],
     "id": "l11-nqv",
     "kanji": [
       {
@@ -13540,14 +16416,20 @@
         "label": "Group G: Organizing する and なる | N3 Study Desk"
       }
     ],
-    "partOfSpeech": "noun",
+    "partOfSpeech": [
+      "Noun"
+    ],
     "reading": "つくえ",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "机"
   },
   {
     "forms": [],
     "grammarIds": [
-      "l11-koto-ni-suru"
+      "l11-koto-ni-suru",
+      "p2-group-e"
     ],
     "id": "l11-obku31n",
     "kanji": [
@@ -13570,8 +16452,13 @@
         "label": "Lesson 11: Intentions, efforts, and attempts"
       }
     ],
-    "partOfSpeech": "verb",
+    "partOfSpeech": [
+      "Group 1 Verb"
+    ],
     "reading": "ことわる",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "断る"
   },
   {
@@ -13596,8 +16483,14 @@
         "label": "Lesson 11: Intentions, efforts, and attempts"
       }
     ],
-    "partOfSpeech": "volitional verb",
+    "partOfSpeech": [
+      "Group 1 Verb"
+    ],
     "reading": "ねむろう",
+    "topicIds": [
+      "body-health",
+      "home-daily-life"
+    ],
     "written": "眠ろう"
   },
   {
@@ -13622,8 +16515,13 @@
         "label": "Lesson 11: Intentions, efforts, and attempts"
       }
     ],
-    "partOfSpeech": "volitional verb",
+    "partOfSpeech": [
+      "Group 2 Verb"
+    ],
     "reading": "もちあげよう",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "持ち上げよう"
   },
   {
@@ -13653,8 +16551,13 @@
         "label": "Lesson 11: Intentions, efforts, and attempts"
       }
     ],
-    "partOfSpeech": "noun",
+    "partOfSpeech": [
+      "Noun"
+    ],
     "reading": "やくそく",
+    "topicIds": [
+      "time-dates-schedules"
+    ],
     "written": "約束"
   },
   {
@@ -13698,8 +16601,13 @@
         "label": "Lesson 11: Intentions, efforts, and attempts"
       }
     ],
-    "partOfSpeech": "noun",
+    "partOfSpeech": [
+      "Noun"
+    ],
     "reading": "りょうり",
+    "topicIds": [
+      "food-cooking"
+    ],
     "written": "料理"
   },
   {
@@ -13724,8 +16632,14 @@
         "label": "Lesson 3: Degree and comparison 比べれば…・～がいちばん"
       }
     ],
-    "partOfSpeech": "noun; adverb",
+    "partOfSpeech": [
+      "Noun",
+      "Adverb"
+    ],
     "reading": "まいあさ",
+    "topicIds": [
+      "time-dates-schedules"
+    ],
     "written": "毎朝"
   },
   {
@@ -13755,14 +16669,21 @@
         "label": "Lesson 11: Intentions, efforts, and attempts"
       }
     ],
-    "partOfSpeech": "noun; adverb",
+    "partOfSpeech": [
+      "Noun",
+      "Adverb"
+    ],
     "reading": "ほんとう",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "本当"
   },
   {
     "forms": [],
     "grammarIds": [
-      "l11-you-to-suru"
+      "l11-you-to-suru",
+      "p2-group-a"
     ],
     "id": "l11-u8jxbl0a3on382b",
     "kanji": [
@@ -13785,15 +16706,22 @@
         "label": "Lesson 11: Intentions, efforts, and attempts"
       }
     ],
-    "partOfSpeech": "verb form",
+    "partOfSpeech": [
+      "Group 2 Verb"
+    ],
     "reading": "ねむれなかった",
+    "topicIds": [
+      "body-health",
+      "home-daily-life"
+    ],
     "written": "眠れなかった"
   },
   {
     "forms": [],
     "grammarIds": [
       "l1-tokoro",
-      "l8-nai-koto-wa-nai"
+      "l8-nai-koto-wa-nai",
+      "p2-group-h"
     ],
     "id": "l11-w22as22a",
     "kanji": [
@@ -13820,8 +16748,13 @@
         "label": "Lesson 8: Strong and partial negation 絶対～ない・必ず～とは言えない"
       }
     ],
-    "partOfSpeech": "noun",
+    "partOfSpeech": [
+      "Noun"
+    ],
     "reading": "しけん",
+    "topicIds": [
+      "school-study"
+    ],
     "written": "試験"
   },
   {
@@ -13846,8 +16779,13 @@
         "label": "Lesson 5: Reasons and causes ～だから"
       }
     ],
-    "partOfSpeech": "noun",
+    "partOfSpeech": [
+      "Noun"
+    ],
     "reading": "にほんご",
+    "topicIds": [
+      "school-study"
+    ],
     "written": "日本語"
   },
   {
@@ -13882,8 +16820,14 @@
         "label": "Lesson 11: Intentions, efforts, and attempts"
       }
     ],
-    "partOfSpeech": "noun; adverb",
+    "partOfSpeech": [
+      "Noun",
+      "Adverb"
+    ],
     "reading": "まいにち",
+    "topicIds": [
+      "time-dates-schedules"
+    ],
     "written": "毎日"
   },
   {
@@ -13892,7 +16836,9 @@
       "l11-koto-ni-suru",
       "l4-kawari-ni",
       "l7-iwareteiru",
-      "l7-toka"
+      "l7-toka",
+      "p2-group-a",
+      "p2-group-i"
     ],
     "id": "l11-wmq999a",
     "kanji": [
@@ -13935,8 +16881,13 @@
         "label": "Lesson 11: Intentions, efforts, and attempts"
       }
     ],
-    "partOfSpeech": "noun",
+    "partOfSpeech": [
+      "Noun"
+    ],
     "reading": "こんど",
+    "topicIds": [
+      "time-dates-schedules"
+    ],
     "written": "今度"
   },
   {
@@ -13961,8 +16912,13 @@
         "label": "Lesson 1: Time relationships ～とき"
       }
     ],
-    "partOfSpeech": "noun",
+    "partOfSpeech": [
+      "Noun"
+    ],
     "reading": "しゅんかん",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "瞬間"
   },
   {
@@ -14007,8 +16963,13 @@
         "label": "Lesson 11: Intentions, efforts, and attempts"
       }
     ],
-    "partOfSpeech": "adverb",
+    "partOfSpeech": [
+      "Adverb"
+    ],
     "reading": "はやく",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "早く"
   },
   {
@@ -14037,12 +16998,21 @@
         "label": "Lesson 1: Time relationships ～とき"
       }
     ],
-    "partOfSpeech": "noun; verb",
+    "partOfSpeech": [
+      "Noun",
+      "Group 3 Verb"
+    ],
     "reading": "りょこう",
+    "topicIds": [
+      "travel-transportation"
+    ],
     "written": "旅行"
   },
   {
     "forms": [],
+    "grammarIds": [
+      "p4-lesson-8"
+    ],
     "id": "l11-zw0av2d",
     "kanji": [
       {
@@ -14064,8 +17034,13 @@
         "label": "Part 4 Lesson 8: は・が | N3 Study Desk"
       }
     ],
-    "partOfSpeech": "noun",
+    "partOfSpeech": [
+      "Noun"
+    ],
     "reading": "わかもの",
+    "topicIds": [
+      "people-family-relationships"
+    ],
     "written": "若者"
   },
   {
@@ -14090,8 +17065,13 @@
         "label": "Lesson 12: Respectful, humble, and polite language"
       }
     ],
-    "partOfSpeech": "noun",
+    "partOfSpeech": [
+      "Noun"
+    ],
     "reading": "わしょく",
+    "topicIds": [
+      "food-cooking"
+    ],
     "written": "和食"
   },
   {
@@ -14116,8 +17096,13 @@
         "label": "Lesson 12: Respectful, humble, and polite language"
       }
     ],
-    "partOfSpeech": "verb stem",
+    "partOfSpeech": [
+      "Group 2 Verb"
+    ],
     "reading": "もうしあげ",
+    "topicIds": [
+      "communication-media"
+    ],
     "written": "申し上げ"
   },
   {
@@ -14142,8 +17127,13 @@
         "label": "Lesson 12: Respectful, humble, and polite language"
       }
     ],
-    "partOfSpeech": "noun",
+    "partOfSpeech": [
+      "Noun"
+    ],
     "reading": "さしみ",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "刺身"
   },
   {
@@ -14168,12 +17158,21 @@
         "label": "Lesson 12: Respectful, humble, and polite language"
       }
     ],
-    "partOfSpeech": "noun; verb",
+    "partOfSpeech": [
+      "Noun",
+      "Group 3 Verb"
+    ],
     "reading": "そつぎょう",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "卒業"
   },
   {
     "forms": [],
+    "grammarIds": [
+      "p4-lesson-8"
+    ],
     "id": "l12-2yqz8f",
     "kanji": [
       {
@@ -14191,8 +17190,13 @@
         "label": "Part 4 Lesson 8: は・が | N3 Study Desk"
       }
     ],
-    "partOfSpeech": "noun",
+    "partOfSpeech": [
+      "Noun"
+    ],
     "reading": "みぎがわ",
+    "topicIds": [
+      "places-directions"
+    ],
     "written": "右側"
   },
   {
@@ -14282,8 +17286,13 @@
         "label": "Lesson 12: Respectful, humble, and polite language"
       }
     ],
-    "partOfSpeech": "noun",
+    "partOfSpeech": [
+      "Noun"
+    ],
     "reading": "せんせい",
+    "topicIds": [
+      "school-study"
+    ],
     "written": "先生"
   },
   {
@@ -14308,8 +17317,13 @@
         "label": "Lesson 12: Respectful, humble, and polite language"
       }
     ],
-    "partOfSpeech": "verb stem",
+    "partOfSpeech": [
+      "Group 1 Verb"
+    ],
     "reading": "さがし",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "探し"
   },
   {
@@ -14334,8 +17348,13 @@
         "label": "Lesson 12: Respectful, humble, and polite language"
       }
     ],
-    "partOfSpeech": "humble verb",
+    "partOfSpeech": [
+      "Group 1 Verb"
+    ],
     "reading": "もうします",
+    "topicIds": [
+      "communication-media"
+    ],
     "written": "申します"
   },
   {
@@ -14360,8 +17379,13 @@
         "label": "Lesson 12: Respectful, humble, and polite language"
       }
     ],
-    "partOfSpeech": "noun",
+    "partOfSpeech": [
+      "Noun"
+    ],
     "reading": "けんきゅうかい",
+    "topicIds": [
+      "school-study"
+    ],
     "written": "研究会"
   },
   {
@@ -14394,8 +17418,13 @@
         "label": "Lesson 12: Respectful, humble, and polite language"
       }
     ],
-    "partOfSpeech": "verb stem",
+    "partOfSpeech": [
+      "Noun"
+    ],
     "reading": "ぞんじ",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "存じ"
   },
   {
@@ -14420,8 +17449,14 @@
         "label": "Lesson 12: Respectful, humble, and polite language"
       }
     ],
-    "partOfSpeech": "noun; verb",
+    "partOfSpeech": [
+      "Noun",
+      "Group 3 Verb"
+    ],
     "reading": "しゅっせき",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "出席"
   },
   {
@@ -14455,12 +17490,21 @@
         "label": "Lesson 12: Respectful, humble, and polite language"
       }
     ],
-    "partOfSpeech": "noun",
+    "partOfSpeech": [
+      "Noun"
+    ],
     "reading": "らいげつ",
+    "topicIds": [
+      "time-dates-schedules"
+    ],
     "written": "来月"
   },
   {
     "forms": [],
+    "grammarIds": [
+      "p2-group-d",
+      "p2-group-g"
+    ],
     "id": "l12-bnqq5j",
     "kanji": [
       {
@@ -14482,8 +17526,13 @@
         "label": "Group G: Organizing する and なる | N3 Study Desk"
       }
     ],
-    "partOfSpeech": "noun",
+    "partOfSpeech": [
+      "Noun"
+    ],
     "reading": "うけつけ",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "受付"
   },
   {
@@ -14513,8 +17562,13 @@
         "label": "Lesson 12: Respectful, humble, and polite language"
       }
     ],
-    "partOfSpeech": "proper noun",
+    "partOfSpeech": [
+      "Noun"
+    ],
     "reading": "やまなか",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "山中"
   },
   {
@@ -14549,8 +17603,13 @@
         "label": "Lesson 12: Respectful, humble, and polite language"
       }
     ],
-    "partOfSpeech": "noun",
+    "partOfSpeech": [
+      "Noun"
+    ],
     "reading": "しゃしん",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "写真"
   },
   {
@@ -14575,8 +17634,13 @@
         "label": "Lesson 12: Respectful, humble, and polite language"
       }
     ],
-    "partOfSpeech": "noun",
+    "partOfSpeech": [
+      "Noun"
+    ],
     "reading": "しんエネルギー",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "新エネルギー"
   },
   {
@@ -14601,8 +17665,13 @@
         "label": "Lesson 12: Respectful, humble, and polite language"
       }
     ],
-    "partOfSpeech": "noun",
+    "partOfSpeech": [
+      "Noun"
+    ],
     "reading": "かんせいひん",
+    "topicIds": [
+      "money-shopping"
+    ],
     "written": "完成品"
   },
   {
@@ -14627,8 +17696,13 @@
         "label": "Lesson 12: Respectful, humble, and polite language"
       }
     ],
-    "partOfSpeech": "noun",
+    "partOfSpeech": [
+      "Noun"
+    ],
     "reading": "しんせいひん",
+    "topicIds": [
+      "money-shopping"
+    ],
     "written": "新製品"
   },
   {
@@ -14653,8 +17727,13 @@
         "label": "Lesson 12: Respectful, humble, and polite language"
       }
     ],
-    "partOfSpeech": "noun",
+    "partOfSpeech": [
+      "Noun"
+    ],
     "reading": "ようひん",
+    "topicIds": [
+      "money-shopping"
+    ],
     "written": "用品"
   },
   {
@@ -14679,12 +17758,24 @@
         "label": "Lesson 12: Respectful, humble, and polite language"
       }
     ],
-    "partOfSpeech": "noun",
+    "partOfSpeech": [
+      "Noun"
+    ],
     "reading": "すいせんじょう",
+    "topicIds": [
+      "communication-media"
+    ],
     "written": "推薦状"
   },
   {
     "forms": [],
+    "grammarIds": [
+      "p2-group-a",
+      "p2-group-b",
+      "p2-group-c",
+      "p2-group-h",
+      "p3-lesson-2"
+    ],
     "id": "l12-lzrx70k",
     "kanji": [
       {
@@ -14718,8 +17809,14 @@
         "label": "Lesson 2: Noun description | N3 Study Desk"
       }
     ],
-    "partOfSpeech": "noun; verb",
+    "partOfSpeech": [
+      "Noun",
+      "Group 3 Verb"
+    ],
     "reading": "しつもん",
+    "topicIds": [
+      "school-study"
+    ],
     "written": "質問"
   },
   {
@@ -14744,8 +17841,13 @@
         "label": "Lesson 12: Respectful, humble, and polite language"
       }
     ],
-    "partOfSpeech": "verb stem",
+    "partOfSpeech": [
+      "Group 1 Verb"
+    ],
     "reading": "まいり",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "参り"
   },
   {
@@ -14775,8 +17877,14 @@
         "label": "Lesson 12: Respectful, humble, and polite language"
       }
     ],
-    "partOfSpeech": "noun; verb",
+    "partOfSpeech": [
+      "Noun",
+      "Group 3 Verb"
+    ],
     "reading": "れんらく",
+    "topicIds": [
+      "communication-media"
+    ],
     "written": "連絡"
   },
   {
@@ -14805,8 +17913,14 @@
         "label": "Lesson 12: Respectful, humble, and polite language"
       }
     ],
-    "partOfSpeech": "noun; verb",
+    "partOfSpeech": [
+      "Noun",
+      "Group 3 Verb"
+    ],
     "reading": "はいけん",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "拝見"
   },
   {
@@ -14831,14 +17945,20 @@
         "label": "Lesson 12: Respectful, humble, and polite language"
       }
     ],
-    "partOfSpeech": "respectful verb",
+    "partOfSpeech": [
+      "Group 2 Verb"
+    ],
     "reading": "みえました",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "見えました"
   },
   {
     "forms": [],
     "grammarIds": [
-      "l12-kenjougo-1"
+      "l12-kenjougo-1",
+      "p2-group-a"
     ],
     "id": "l12-t8j790t",
     "kanji": [
@@ -14861,8 +17981,13 @@
         "label": "Lesson 12: Respectful, humble, and polite language"
       }
     ],
-    "partOfSpeech": "noun",
+    "partOfSpeech": [
+      "Noun"
+    ],
     "reading": "おれい",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "お礼"
   },
   {
@@ -14901,12 +18026,26 @@
         "label": "Lesson 12: Respectful, humble, and polite language"
       }
     ],
-    "partOfSpeech": "noun",
+    "partOfSpeech": [
+      "Noun"
+    ],
     "reading": "おたく",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "お宅"
   },
   {
     "forms": [],
+    "grammarIds": [
+      "p2-group-b",
+      "p2-group-c",
+      "p2-group-d",
+      "p2-group-h",
+      "p3-lesson-1",
+      "p3-lesson-3",
+      "p4-lesson-7"
+    ],
     "id": "l12-v6qq2w",
     "kanji": [
       {
@@ -14960,14 +18099,20 @@
         "label": "Lesson 3: ～という・～といった | N3 Study Desk"
       }
     ],
-    "partOfSpeech": "noun",
+    "partOfSpeech": [
+      "Noun"
+    ],
     "reading": "ないよう",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "内容"
   },
   {
     "forms": [],
     "grammarIds": [
-      "l12-sonkeigo"
+      "l12-sonkeigo",
+      "p3-lesson-1"
     ],
     "id": "l12-vqqu27c",
     "kanji": [
@@ -14990,8 +18135,13 @@
         "label": "Lesson 1: Quotation | N3 Study Desk"
       }
     ],
-    "partOfSpeech": "noun",
+    "partOfSpeech": [
+      "Noun"
+    ],
     "reading": "なんじ",
+    "topicIds": [
+      "time-dates-schedules"
+    ],
     "written": "何時"
   },
   {
@@ -15016,8 +18166,13 @@
         "label": "Lesson 12: Respectful, humble, and polite language"
       }
     ],
-    "partOfSpeech": "noun",
+    "partOfSpeech": [
+      "Noun"
+    ],
     "reading": "いきさき",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "行き先"
   },
   {
@@ -15042,14 +18197,20 @@
         "label": "Lesson 12: Respectful, humble, and polite language"
       }
     ],
-    "partOfSpeech": "noun",
+    "partOfSpeech": [
+      "Noun"
+    ],
     "reading": "にほんしゅ",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "日本酒"
   },
   {
     "forms": [],
     "grammarIds": [
-      "l12-sonkeigo"
+      "l12-sonkeigo",
+      "p2-group-i"
     ],
     "id": "l12-wmqt98c",
     "kanji": [
@@ -15076,12 +18237,20 @@
         "label": "Lesson 12: Respectful, humble, and polite language"
       }
     ],
-    "partOfSpeech": "noun",
+    "partOfSpeech": [
+      "Noun"
+    ],
     "reading": "こんばん",
+    "topicIds": [
+      "time-dates-schedules"
+    ],
     "written": "今晩"
   },
   {
     "forms": [],
+    "grammarIds": [
+      "p2-group-d"
+    ],
     "id": "l12-ykq325i",
     "kanji": [
       {
@@ -15099,12 +18268,21 @@
         "label": "Group D: Uses of よう | N3 Study Desk"
       }
     ],
-    "partOfSpeech": "noun; verb",
+    "partOfSpeech": [
+      "Noun",
+      "Group 3 Verb"
+    ],
     "reading": "しゅうりょう",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "終了"
   },
   {
     "forms": [],
+    "grammarIds": [
+      "p2-group-i"
+    ],
     "id": "l5-byoki",
     "kanji": [
       {
@@ -15127,12 +18305,24 @@
         "label": "Group I: Adverbs with fixed following forms | N3 Study Desk"
       }
     ],
-    "partOfSpeech": "noun",
+    "partOfSpeech": [
+      "Noun"
+    ],
     "reading": "びょうき",
+    "topicIds": [
+      "body-health"
+    ],
     "written": "病気"
   },
   {
     "forms": [],
+    "grammarIds": [
+      "p2-group-d",
+      "p3-lesson-1",
+      "p3-lesson-4",
+      "p4-lesson-1",
+      "p4-lesson-2"
+    ],
     "id": "l5-chui",
     "kanji": [
       {
@@ -15171,8 +18361,13 @@
         "label": "Lesson 4: Fixed patterns | N3 Study Desk"
       }
     ],
-    "partOfSpeech": "noun",
+    "partOfSpeech": [
+      "Noun"
+    ],
     "reading": "ちゅうい",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "注意"
   },
   {
@@ -15202,8 +18397,13 @@
         "label": "Lesson 5: Reasons and causes ～だから"
       }
     ],
-    "partOfSpeech": "noun",
+    "partOfSpeech": [
+      "Noun"
+    ],
     "reading": "ごかい",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "誤解"
   },
   {
@@ -15238,12 +18438,20 @@
         "label": "Lesson 5: Reasons and causes ～だから"
       }
     ],
-    "partOfSpeech": "noun",
+    "partOfSpeech": [
+      "Noun"
+    ],
     "reading": "ほうこくしょ",
+    "topicIds": [
+      "communication-media"
+    ],
     "written": "報告書"
   },
   {
     "forms": [],
+    "grammarIds": [
+      "p3-lesson-1"
+    ],
     "id": "l5-isha",
     "kanji": [
       {
@@ -15270,8 +18478,13 @@
         "label": "Lesson 1: Quotation | N3 Study Desk"
       }
     ],
-    "partOfSpeech": "noun",
+    "partOfSpeech": [
+      "Noun"
+    ],
     "reading": "いしゃ",
+    "topicIds": [
+      "body-health"
+    ],
     "written": "医者"
   },
   {
@@ -15301,14 +18514,20 @@
         "label": "Lesson 5: Reasons and causes ～だから"
       }
     ],
-    "partOfSpeech": "noun",
+    "partOfSpeech": [
+      "Noun"
+    ],
     "reading": "かんがえかた",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "考え方"
   },
   {
     "forms": [],
     "grammarIds": [
-      "l5-tame"
+      "l5-tame",
+      "p4-lesson-9"
     ],
     "id": "l5-kesseki",
     "kanji": [
@@ -15336,8 +18555,13 @@
         "label": "Part 4 Lesson 9: 接続表現 | N3 Study Desk"
       }
     ],
-    "partOfSpeech": "noun",
+    "partOfSpeech": [
+      "Noun"
+    ],
     "reading": "けっせき",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "欠席"
   },
   {
@@ -15372,15 +18596,21 @@
         "label": "Lesson 9: Wishes and requests ～と望む"
       }
     ],
-    "partOfSpeech": "noun",
+    "partOfSpeech": [
+      "Noun"
+    ],
     "reading": "きぼう",
+    "topicIds": [
+      "feelings-personality"
+    ],
     "written": "希望"
   },
   {
     "forms": [],
     "grammarIds": [
       "l5-okage-sei",
-      "l7-toiu-koto"
+      "l7-toiu-koto",
+      "p2-group-j"
     ],
     "id": "l5-koji",
     "kanji": [
@@ -15412,8 +18642,13 @@
         "label": "Lesson 7: Reported information and hearsay ～だそうだ"
       }
     ],
-    "partOfSpeech": "noun",
+    "partOfSpeech": [
+      "Noun"
+    ],
     "reading": "こうじ",
+    "topicIds": [
+      "work-business"
+    ],
     "written": "工事"
   },
   {
@@ -15443,8 +18678,13 @@
         "label": "Lesson 5: Reasons and causes ～だから"
       }
     ],
-    "partOfSpeech": "noun",
+    "partOfSpeech": [
+      "Noun"
+    ],
     "reading": "みなおし",
+    "topicIds": [
+      "school-study"
+    ],
     "written": "見直し"
   },
   {
@@ -15474,8 +18714,13 @@
         "label": "Lesson 5: Reasons and causes ～だから"
       }
     ],
-    "partOfSpeech": "noun",
+    "partOfSpeech": [
+      "Noun"
+    ],
     "reading": "おやこ",
+    "topicIds": [
+      "people-family-relationships"
+    ],
     "written": "親子"
   },
   {
@@ -15505,8 +18750,13 @@
         "label": "Lesson 5: Reasons and causes ～だから"
       }
     ],
-    "partOfSpeech": "noun",
+    "partOfSpeech": [
+      "Noun"
+    ],
     "reading": "せいさん",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "生産"
   },
   {
@@ -15536,8 +18786,13 @@
         "label": "Lesson 5: Reasons and causes ～だから"
       }
     ],
-    "partOfSpeech": "noun",
+    "partOfSpeech": [
+      "Noun"
+    ],
     "reading": "しはらい",
+    "topicIds": [
+      "money-shopping"
+    ],
     "written": "支払い"
   },
   {
@@ -15567,8 +18822,13 @@
         "label": "Lesson 5: Reasons and causes ～だから"
       }
     ],
-    "partOfSpeech": "na-adjective",
+    "partOfSpeech": [
+      "Na-Adjective"
+    ],
     "reading": "しんけん",
+    "topicIds": [
+      "feelings-personality"
+    ],
     "written": "真剣"
   },
   {
@@ -15603,12 +18863,21 @@
         "label": "Lesson 5: Reasons and causes ～だから"
       }
     ],
-    "partOfSpeech": "noun",
+    "partOfSpeech": [
+      "Noun"
+    ],
     "reading": "しゅうかん",
+    "topicIds": [
+      "home-daily-life",
+      "society-public-services"
+    ],
     "written": "習慣"
   },
   {
     "forms": [],
+    "grammarIds": [
+      "p4-lesson-9"
+    ],
     "id": "l5-shushoku",
     "kanji": [
       {
@@ -15631,12 +18900,21 @@
         "label": "Part 4 Lesson 9: 接続表現 | N3 Study Desk"
       }
     ],
-    "partOfSpeech": "noun",
+    "partOfSpeech": [
+      "Noun"
+    ],
     "reading": "しゅうしょく",
+    "topicIds": [
+      "work-business"
+    ],
     "written": "就職"
   },
   {
     "forms": [],
+    "grammarIds": [
+      "p3-lesson-2",
+      "p3-lesson-3"
+    ],
     "id": "l5-taifu",
     "kanji": [
       {
@@ -15663,14 +18941,21 @@
         "label": "Lesson 3: ～という・～といった | N3 Study Desk"
       }
     ],
-    "partOfSpeech": "noun",
+    "partOfSpeech": [
+      "Noun"
+    ],
     "reading": "たいふう",
+    "topicIds": [
+      "nature-weather"
+    ],
     "written": "台風"
   },
   {
     "forms": [],
     "grammarIds": [
-      "l5-no-dakara"
+      "l5-no-dakara",
+      "p2-group-a",
+      "p2-group-e"
     ],
     "id": "l5-tozen",
     "kanji": [
@@ -15706,8 +18991,13 @@
         "label": "Lesson 5: Reasons and causes ～だから"
       }
     ],
-    "partOfSpeech": "na-adjective",
+    "partOfSpeech": [
+      "Na-Adjective"
+    ],
     "reading": "とうぜん",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "当然"
   },
   {
@@ -15747,12 +19037,20 @@
         "label": "Lesson 5: Reasons and causes ～だから"
       }
     ],
-    "partOfSpeech": "noun",
+    "partOfSpeech": [
+      "Noun"
+    ],
     "reading": "ざいりょうぶそく",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "材料不足"
   },
   {
     "forms": [],
+    "grammarIds": [
+      "p2-group-b"
+    ],
     "id": "l6-aite",
     "kanji": [
       {
@@ -15775,8 +19073,13 @@
         "label": "Group B: Words that work like particles | N3 Study Desk"
       }
     ],
-    "partOfSpeech": "noun",
+    "partOfSpeech": [
+      "Noun"
+    ],
     "reading": "あいて",
+    "topicIds": [
+      "people-family-relationships"
+    ],
     "written": "相手"
   },
   {
@@ -15806,8 +19109,13 @@
         "label": "Lesson 6: Conditions and hypotheses もし、…"
       }
     ],
-    "partOfSpeech": "noun",
+    "partOfSpeech": [
+      "Noun"
+    ],
     "reading": "ちょうせん",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "挑戦"
   },
   {
@@ -15847,14 +19155,21 @@
         "label": "Lesson 6: Conditions and hypotheses もし、…"
       }
     ],
-    "partOfSpeech": "noun",
+    "partOfSpeech": [
+      "Noun"
+    ],
     "reading": "がくせいわりびき",
+    "topicIds": [
+      "school-study",
+      "money-shopping"
+    ],
     "written": "学生割引"
   },
   {
     "forms": [],
     "grammarIds": [
-      "l6-nara"
+      "l6-nara",
+      "p2-group-h"
     ],
     "id": "l6-hako",
     "kanji": [
@@ -15881,12 +19196,20 @@
         "label": "Lesson 6: Conditions and hypotheses もし、…"
       }
     ],
-    "partOfSpeech": "noun",
+    "partOfSpeech": [
+      "Noun"
+    ],
     "reading": "はこ",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "箱"
   },
   {
     "forms": [],
+    "grammarIds": [
+      "p4-lesson-3"
+    ],
     "id": "l6-hikoki",
     "kanji": [
       {
@@ -15914,14 +19237,21 @@
         "label": "Part 4 Lesson 3: 他動詞・自動詞 | N3 Study Desk"
       }
     ],
-    "partOfSpeech": "noun",
+    "partOfSpeech": [
+      "Noun"
+    ],
     "reading": "ひこうき",
+    "topicIds": [
+      "travel-transportation"
+    ],
     "written": "飛行機"
   },
   {
     "forms": [],
     "grammarIds": [
-      "l6-sae"
+      "l6-sae",
+      "p2-group-g",
+      "p2-group-j"
     ],
     "id": "l6-jobu",
     "kanji": [
@@ -15957,8 +19287,13 @@
         "label": "Lesson 6: Conditions and hypotheses もし、…"
       }
     ],
-    "partOfSpeech": "na-adjective",
+    "partOfSpeech": [
+      "Na-Adjective"
+    ],
     "reading": "じょうぶ",
+    "topicIds": [
+      "body-health"
+    ],
     "written": "丈夫"
   },
   {
@@ -15988,8 +19323,13 @@
         "label": "Lesson 6: Conditions and hypotheses もし、…"
       }
     ],
-    "partOfSpeech": "noun",
+    "partOfSpeech": [
+      "Noun"
+    ],
     "reading": "かしゅ",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "歌手"
   },
   {
@@ -16019,8 +19359,13 @@
         "label": "Lesson 6: Conditions and hypotheses もし、…"
       }
     ],
-    "partOfSpeech": "noun",
+    "partOfSpeech": [
+      "Noun"
+    ],
     "reading": "まんが",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "漫画"
   },
   {
@@ -16045,8 +19390,13 @@
         "label": "Lesson 6: Conditions and hypotheses もし、…"
       }
     ],
-    "partOfSpeech": "noun",
+    "partOfSpeech": [
+      "Noun"
+    ],
     "reading": "まわり",
+    "topicIds": [
+      "people-family-relationships"
+    ],
     "written": "周り"
   },
   {
@@ -16076,8 +19426,13 @@
         "label": "Lesson 6: Conditions and hypotheses もし、…"
       }
     ],
-    "partOfSpeech": "na-adjective",
+    "partOfSpeech": [
+      "Na-Adjective"
+    ],
     "reading": "めいわく",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "迷惑"
   },
   {
@@ -16107,8 +19462,13 @@
         "label": "Lesson 6: Conditions and hypotheses もし、…"
       }
     ],
-    "partOfSpeech": "na-adjective",
+    "partOfSpeech": [
+      "Na-Adjective"
+    ],
     "reading": "めんどう",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "面倒"
   },
   {
@@ -16138,8 +19498,14 @@
         "label": "Lesson 6: Conditions and hypotheses もし、…"
       }
     ],
-    "partOfSpeech": "noun",
+    "partOfSpeech": [
+      "Noun"
+    ],
     "reading": "みまい",
+    "topicIds": [
+      "people-family-relationships",
+      "body-health"
+    ],
     "written": "見舞い"
   },
   {
@@ -16174,8 +19540,13 @@
         "label": "Lesson 6: Conditions and hypotheses もし、…"
       }
     ],
-    "partOfSpeech": "na-adjective",
+    "partOfSpeech": [
+      "Na-Adjective"
+    ],
     "reading": "むせきにん",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "無責任"
   },
   {
@@ -16205,8 +19576,13 @@
         "label": "Lesson 6: Conditions and hypotheses もし、…"
       }
     ],
-    "partOfSpeech": "noun",
+    "partOfSpeech": [
+      "Noun"
+    ],
     "reading": "ねぼう",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "寝坊"
   },
   {
@@ -16236,8 +19612,13 @@
         "label": "Lesson 6: Conditions and hypotheses もし、…"
       }
     ],
-    "partOfSpeech": "noun",
+    "partOfSpeech": [
+      "Noun"
+    ],
     "reading": "ねんない",
+    "topicIds": [
+      "time-dates-schedules"
+    ],
     "written": "年内"
   },
   {
@@ -16267,12 +19648,20 @@
         "label": "Lesson 6: Conditions and hypotheses もし、…"
       }
     ],
-    "partOfSpeech": "noun",
+    "partOfSpeech": [
+      "Noun"
+    ],
     "reading": "しゅじゅつ",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "手術"
   },
   {
     "forms": [],
+    "grammarIds": [
+      "p2-group-b"
+    ],
     "id": "l6-taido",
     "kanji": [
       {
@@ -16299,8 +19688,13 @@
         "label": "Group B: Words that work like particles | N3 Study Desk"
       }
     ],
-    "partOfSpeech": "noun",
+    "partOfSpeech": [
+      "Noun"
+    ],
     "reading": "たいど",
+    "topicIds": [
+      "feelings-personality"
+    ],
     "written": "態度"
   },
   {
@@ -16330,14 +19724,20 @@
         "label": "Lesson 6: Conditions and hypotheses もし、…"
       }
     ],
-    "partOfSpeech": "na-adjective",
+    "partOfSpeech": [
+      "Na-Adjective"
+    ],
     "reading": "たいくつ",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "退屈"
   },
   {
     "forms": [],
     "grammarIds": [
-      "l6-sae"
+      "l6-sae",
+      "p2-group-i"
     ],
     "id": "l6-yurusu",
     "kanji": [
@@ -16360,14 +19760,20 @@
         "label": "Lesson 6: Conditions and hypotheses もし、…"
       }
     ],
-    "partOfSpeech": "godan verb",
+    "partOfSpeech": [
+      "Group 1 Verb"
+    ],
     "reading": "ゆるす",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "許す"
   },
   {
     "forms": [],
     "grammarIds": [
-      "l6-ba-tara-nara"
+      "l6-ba-tara-nara",
+      "p2-group-f"
     ],
     "id": "l6-zannen",
     "kanji": [
@@ -16395,8 +19801,13 @@
         "label": "Lesson 6: Conditions and hypotheses もし、…"
       }
     ],
-    "partOfSpeech": "na-adjective",
+    "partOfSpeech": [
+      "Na-Adjective"
+    ],
     "reading": "ざんねん",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "残念"
   },
   {
@@ -16421,14 +19832,21 @@
         "label": "Lesson 7: Reported information and hearsay ～だそうだ"
       }
     ],
-    "partOfSpeech": "noun",
+    "partOfSpeech": [
+      "Noun"
+    ],
     "reading": "あたり",
+    "topicIds": [
+      "places-directions"
+    ],
     "written": "辺り"
   },
   {
     "forms": [],
     "grammarIds": [
-      "l7-toiu"
+      "l7-toiu",
+      "p2-group-g",
+      "p4-lesson-1"
     ],
     "id": "l7-chugoku",
     "kanji": [
@@ -16460,12 +19878,23 @@
         "label": "Part 4 Lesson 1: 文の始めと終わりの対応 | N3 Study Desk"
       }
     ],
-    "partOfSpeech": "proper noun",
+    "partOfSpeech": [
+      "Noun"
+    ],
     "reading": "ちゅうごく",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "中国"
   },
   {
     "forms": [],
+    "grammarIds": [
+      "p2-group-a",
+      "p2-group-i",
+      "p2-group-j",
+      "p4-lesson-1"
+    ],
     "id": "l7-dobutsu",
     "kanji": [
       {
@@ -16500,8 +19929,13 @@
         "label": "Part 4 Lesson 1: 文の始めと終わりの対応 | N3 Study Desk"
       }
     ],
-    "partOfSpeech": "noun",
+    "partOfSpeech": [
+      "Noun"
+    ],
     "reading": "どうぶつ",
+    "topicIds": [
+      "nature-weather"
+    ],
     "written": "動物"
   },
   {
@@ -16531,8 +19965,13 @@
         "label": "Lesson 7: Reported information and hearsay ～だそうだ"
       }
     ],
-    "partOfSpeech": "noun",
+    "partOfSpeech": [
+      "Noun"
+    ],
     "reading": "どうろ",
+    "topicIds": [
+      "travel-transportation"
+    ],
     "written": "道路"
   },
   {
@@ -16562,14 +20001,24 @@
         "label": "Lesson 7: Reported information and hearsay ～だそうだ"
       }
     ],
-    "partOfSpeech": "noun",
+    "partOfSpeech": [
+      "Noun"
+    ],
     "reading": "えきまえ",
+    "topicIds": [
+      "travel-transportation",
+      "places-directions"
+    ],
     "written": "駅前"
   },
   {
     "forms": [],
     "grammarIds": [
-      "l7-iwareteiru"
+      "l7-iwareteiru",
+      "p2-group-a",
+      "p3-lesson-2",
+      "p3-lesson-3",
+      "p4-lesson-6"
     ],
     "id": "l7-fuku",
     "kanji": [
@@ -16608,12 +20057,20 @@
         "label": "Lesson 3: ～という・～といった | N3 Study Desk"
       }
     ],
-    "partOfSpeech": "noun",
+    "partOfSpeech": [
+      "Noun"
+    ],
     "reading": "ふく",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "服"
   },
   {
     "forms": [],
+    "grammarIds": [
+      "p2-group-f"
+    ],
     "id": "l7-happyo",
     "kanji": [
       {
@@ -16640,8 +20097,14 @@
         "label": "Group F: Uses of ばかり | N3 Study Desk"
       }
     ],
-    "partOfSpeech": "noun; suru verb",
+    "partOfSpeech": [
+      "Noun",
+      "Group 3 Verb"
+    ],
     "reading": "はっぴょう",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "発表"
   },
   {
@@ -16666,8 +20129,13 @@
         "label": "Lesson 7: Reported information and hearsay ～だそうだ"
       }
     ],
-    "partOfSpeech": "godan verb",
+    "partOfSpeech": [
+      "Group 1 Verb"
+    ],
     "reading": "かう",
+    "topicIds": [
+      "nature-weather"
+    ],
     "written": "飼う"
   },
   {
@@ -16692,8 +20160,13 @@
         "label": "Lesson 7: Reported information and hearsay ～だそうだ"
       }
     ],
-    "partOfSpeech": "i-adjective",
+    "partOfSpeech": [
+      "I-Adjective"
+    ],
     "reading": "くろい",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "黒い"
   },
   {
@@ -16728,14 +20201,21 @@
         "label": "Lesson 7: Reported information and hearsay ～だそうだ"
       }
     ],
-    "partOfSpeech": "noun",
+    "partOfSpeech": [
+      "Noun"
+    ],
     "reading": "きょういんしつ",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "教員室"
   },
   {
     "forms": [],
     "grammarIds": [
-      "l7-toiu"
+      "l7-toiu",
+      "p2-group-b",
+      "p2-group-j"
     ],
     "id": "l7-matsuri",
     "kanji": [
@@ -16770,14 +20250,24 @@
         "label": "Lesson 7: Reported information and hearsay ～だそうだ"
       }
     ],
-    "partOfSpeech": "noun",
+    "partOfSpeech": [
+      "Noun"
+    ],
     "reading": "まつり",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "祭り"
   },
   {
     "forms": [],
     "grammarIds": [
-      "l7-toiu"
+      "l7-toiu",
+      "p2-group-b",
+      "p2-group-c",
+      "p2-group-h",
+      "p3-lesson-2",
+      "p4-lesson-8"
     ],
     "id": "l7-mukashi",
     "kanji": [
@@ -16824,8 +20314,14 @@
         "label": "Lesson 2: Noun description | N3 Study Desk"
       }
     ],
-    "partOfSpeech": "noun; adverb",
+    "partOfSpeech": [
+      "Noun",
+      "Adverb"
+    ],
     "reading": "むかし",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "昔"
   },
   {
@@ -16834,7 +20330,9 @@
       "l5-tame",
       "l7-toiu",
       "l7-toiu-koto",
-      "l9-te-moraitai"
+      "l9-te-moraitai",
+      "p2-group-c",
+      "p4-lesson-8"
     ],
     "id": "l7-mura",
     "kanji": [
@@ -16877,8 +20375,13 @@
         "label": "Part 4 Lesson 8: は・が | N3 Study Desk"
       }
     ],
-    "partOfSpeech": "noun",
+    "partOfSpeech": [
+      "Noun"
+    ],
     "reading": "むら",
+    "topicIds": [
+      "places-directions"
+    ],
     "written": "村"
   },
   {
@@ -16908,8 +20411,13 @@
         "label": "Lesson 7: Reported information and hearsay ～だそうだ"
       }
     ],
-    "partOfSpeech": "noun",
+    "partOfSpeech": [
+      "Noun"
+    ],
     "reading": "なっとう",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "納豆"
   },
   {
@@ -16944,8 +20452,13 @@
         "label": "Lesson 7: Reported information and hearsay ～だそうだ"
       }
     ],
-    "partOfSpeech": "proper noun",
+    "partOfSpeech": [
+      "Noun"
+    ],
     "reading": "にほん",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "日本"
   },
   {
@@ -16975,12 +20488,21 @@
         "label": "Lesson 7: Reported information and hearsay ～だそうだ"
       }
     ],
-    "partOfSpeech": "noun",
+    "partOfSpeech": [
+      "Noun"
+    ],
     "reading": "のはら",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "野原"
   },
   {
     "forms": [],
+    "grammarIds": [
+      "p2-group-d",
+      "p3-lesson-1"
+    ],
     "id": "l7-raishu",
     "kanji": [
       {
@@ -17007,8 +20529,13 @@
         "label": "Lesson 1: Quotation | N3 Study Desk"
       }
     ],
-    "partOfSpeech": "noun",
+    "partOfSpeech": [
+      "Noun"
+    ],
     "reading": "らいしゅう",
+    "topicIds": [
+      "time-dates-schedules"
+    ],
     "written": "来週"
   },
   {
@@ -17038,8 +20565,14 @@
         "label": "Lesson 7: Reported information and hearsay ～だそうだ"
       }
     ],
-    "partOfSpeech": "noun; suru verb",
+    "partOfSpeech": [
+      "Noun",
+      "Group 3 Verb"
+    ],
     "reading": "りゅうこう",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "流行"
   },
   {
@@ -17069,12 +20602,21 @@
         "label": "Lesson 7: Reported information and hearsay ～だそうだ"
       }
     ],
-    "partOfSpeech": "noun",
+    "partOfSpeech": [
+      "Noun"
+    ],
     "reading": "せんしゅ",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "選手"
   },
   {
     "forms": [],
+    "grammarIds": [
+      "p2-group-a",
+      "p2-group-c"
+    ],
     "id": "l7-shumatsu",
     "kanji": [
       {
@@ -17101,8 +20643,13 @@
         "label": "Group C: Uses of こと and の | N3 Study Desk"
       }
     ],
-    "partOfSpeech": "noun",
+    "partOfSpeech": [
+      "Noun"
+    ],
     "reading": "しゅうまつ",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "週末"
   },
   {
@@ -17132,8 +20679,13 @@
         "label": "Lesson 7: Reported information and hearsay ～だそうだ"
       }
     ],
-    "partOfSpeech": "noun",
+    "partOfSpeech": [
+      "Noun"
+    ],
     "reading": "たいかい",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "大会"
   },
   {
@@ -17173,8 +20725,13 @@
         "label": "Lesson 3: Degree and comparison 比べれば…・～がいちばん"
       }
     ],
-    "partOfSpeech": "noun",
+    "partOfSpeech": [
+      "Noun"
+    ],
     "reading": "てんきよほう",
+    "topicIds": [
+      "nature-weather"
+    ],
     "written": "天気予報"
   },
   {
@@ -17199,8 +20756,13 @@
         "label": "Lesson 7: Reported information and hearsay ～だそうだ"
       }
     ],
-    "partOfSpeech": "godan verb",
+    "partOfSpeech": [
+      "Group 1 Verb"
+    ],
     "reading": "つたわる",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "伝わる"
   },
   {
@@ -17230,8 +20792,13 @@
         "label": "Lesson 8: Strong and partial negation 絶対～ない・必ず～とは言えない"
       }
     ],
-    "partOfSpeech": "noun",
+    "partOfSpeech": [
+      "Noun"
+    ],
     "reading": "ぼうし",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "帽子"
   },
   {
@@ -17261,12 +20828,21 @@
         "label": "Lesson 8: Strong and partial negation 絶対～ない・必ず～とは言えない"
       }
     ],
-    "partOfSpeech": "noun",
+    "partOfSpeech": [
+      "Noun"
+    ],
     "reading": "ほけん",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "保険"
   },
   {
     "forms": [],
+    "grammarIds": [
+      "p2-group-a",
+      "p2-group-c"
+    ],
     "id": "l8-honto",
     "kanji": [
       {
@@ -17297,12 +20873,27 @@
         "label": "Group C: Uses of こと and の | N3 Study Desk"
       }
     ],
-    "partOfSpeech": "noun; na-adjective",
+    "partOfSpeech": [
+      "Noun",
+      "Na-Adjective"
+    ],
     "reading": "ほんとう",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "本当"
   },
   {
     "forms": [],
+    "grammarIds": [
+      "p2-group-a",
+      "p2-group-c",
+      "p2-group-d",
+      "p2-group-e",
+      "p2-group-h",
+      "p2-group-j",
+      "p3-lesson-3"
+    ],
     "id": "l8-imi",
     "kanji": [
       {
@@ -17365,12 +20956,26 @@
         "label": "Lesson 3: ～という・～といった | N3 Study Desk"
       }
     ],
-    "partOfSpeech": "noun",
+    "partOfSpeech": [
+      "Noun"
+    ],
     "reading": "いみ",
+    "topicIds": [
+      "school-study"
+    ],
     "written": "意味"
   },
   {
     "forms": [],
+    "grammarIds": [
+      "p2-group-a",
+      "p2-group-b",
+      "p2-group-e",
+      "p2-group-g",
+      "p3-lesson-3",
+      "p4-lesson-10",
+      "p4-lesson-9"
+    ],
     "id": "l8-kaisha",
     "kanji": [
       {
@@ -17425,12 +21030,21 @@
         "label": "Lesson 3: ～という・～といった | N3 Study Desk"
       }
     ],
-    "partOfSpeech": "noun",
+    "partOfSpeech": [
+      "Noun"
+    ],
     "reading": "かいしゃ",
+    "topicIds": [
+      "work-business"
+    ],
     "written": "会社"
   },
   {
     "forms": [],
+    "grammarIds": [
+      "p2-group-a",
+      "p4-lesson-10"
+    ],
     "id": "l8-kakunin",
     "kanji": [
       {
@@ -17457,12 +21071,23 @@
         "label": "Part 4 Lesson 10: 文章の雰囲気の統一 | N3 Study Desk"
       }
     ],
-    "partOfSpeech": "noun; suru verb",
+    "partOfSpeech": [
+      "Noun",
+      "Group 3 Verb"
+    ],
     "reading": "かくにん",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "確認"
   },
   {
     "forms": [],
+    "grammarIds": [
+      "p2-group-a",
+      "p2-group-c",
+      "p2-group-j"
+    ],
     "id": "l8-kantan",
     "kanji": [
       {
@@ -17505,12 +21130,20 @@
         "label": "Group J: Forms that broaden meaning | N3 Study Desk"
       }
     ],
-    "partOfSpeech": "na-adjective",
+    "partOfSpeech": [
+      "Na-Adjective"
+    ],
     "reading": "かんたん",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "簡単"
   },
   {
     "forms": [],
+    "grammarIds": [
+      "p2-group-e"
+    ],
     "id": "l8-kariru",
     "kanji": [
       {
@@ -17528,8 +21161,13 @@
         "label": "Group E: Uses of わけ | N3 Study Desk"
       }
     ],
-    "partOfSpeech": "ichidan verb",
+    "partOfSpeech": [
+      "Group 2 Verb"
+    ],
     "reading": "かりる",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "借りる"
   },
   {
@@ -17569,12 +21207,27 @@
         "label": "Lesson 8: Strong and partial negation 絶対～ない・必ず～とは言えない"
       }
     ],
-    "partOfSpeech": "noun",
+    "partOfSpeech": [
+      "Noun"
+    ],
     "reading": "こっかしけん",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "国家試験"
   },
   {
     "forms": [],
+    "grammarIds": [
+      "p2-group-a",
+      "p2-group-c",
+      "p2-group-d",
+      "p2-group-e",
+      "p2-group-f",
+      "p2-group-i",
+      "p2-group-j",
+      "p4-lesson-9"
+    ],
     "id": "l8-mainichi",
     "kanji": [
       {
@@ -17625,12 +21278,29 @@
         "label": "Part 4 Lesson 9: 接続表現 | N3 Study Desk"
       }
     ],
-    "partOfSpeech": "noun; adverb",
+    "partOfSpeech": [
+      "Noun",
+      "Adverb"
+    ],
     "reading": "まいにち",
+    "topicIds": [
+      "time-dates-schedules"
+    ],
     "written": "毎日"
   },
   {
     "forms": [],
+    "grammarIds": [
+      "p2-group-a",
+      "p2-group-b",
+      "p2-group-d",
+      "p2-group-f",
+      "p2-group-h",
+      "p2-group-i",
+      "p3-lesson-3",
+      "p3-lesson-4",
+      "p4-lesson-10"
+    ],
     "id": "l8-mondai",
     "kanji": [
       {
@@ -17697,12 +21367,20 @@
         "label": "Lesson 4: Fixed patterns | N3 Study Desk"
       }
     ],
-    "partOfSpeech": "noun",
+    "partOfSpeech": [
+      "Noun"
+    ],
     "reading": "もんだい",
+    "topicIds": [
+      "school-study"
+    ],
     "written": "問題"
   },
   {
     "forms": [],
+    "grammarIds": [
+      "p2-group-d"
+    ],
     "id": "l8-oyogu",
     "kanji": [
       {
@@ -17720,12 +21398,21 @@
         "label": "Group D: Uses of よう | N3 Study Desk"
       }
     ],
-    "partOfSpeech": "godan verb",
+    "partOfSpeech": [
+      "Group 1 Verb"
+    ],
     "reading": "およぐ",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "泳ぐ"
   },
   {
     "forms": [],
+    "grammarIds": [
+      "p2-group-i",
+      "p4-lesson-9"
+    ],
     "id": "l8-renraku",
     "kanji": [
       {
@@ -17752,8 +21439,14 @@
         "label": "Part 4 Lesson 9: 接続表現 | N3 Study Desk"
       }
     ],
-    "partOfSpeech": "noun; suru verb",
+    "partOfSpeech": [
+      "Noun",
+      "Group 3 Verb"
+    ],
     "reading": "れんらく",
+    "topicIds": [
+      "communication-media"
+    ],
     "written": "連絡"
   },
   {
@@ -17761,7 +21454,12 @@
     "grammarIds": [
       "l1-uchini",
       "l8-hazu-wake",
-      "l9-sasete-moraitai"
+      "l9-sasete-moraitai",
+      "p2-group-a",
+      "p2-group-e",
+      "p2-group-g",
+      "p2-group-i",
+      "p4-lesson-10"
     ],
     "id": "l8-renshu",
     "kanji": [
@@ -17813,8 +21511,14 @@
         "label": "Part 4 Lesson 10: 文章の雰囲気の統一 | N3 Study Desk"
       }
     ],
-    "partOfSpeech": "noun; suru verb",
+    "partOfSpeech": [
+      "Noun",
+      "Group 3 Verb"
+    ],
     "reading": "れんしゅう",
+    "topicIds": [
+      "school-study"
+    ],
     "written": "練習"
   },
   {
@@ -17849,14 +21553,21 @@
         "label": "Lesson 8: Strong and partial negation 絶対～ない・必ず～とは言えない"
       }
     ],
-    "partOfSpeech": "noun; adverb",
+    "partOfSpeech": [
+      "Noun",
+      "Adverb"
+    ],
     "reading": "りょこうちゅう",
+    "topicIds": [
+      "time-dates-schedules"
+    ],
     "written": "旅行中"
   },
   {
     "forms": [],
     "grammarIds": [
-      "l8-koto-wa-ga"
+      "l8-koto-wa-ga",
+      "p2-group-b"
     ],
     "id": "l8-seicho",
     "kanji": [
@@ -17884,8 +21595,14 @@
         "label": "Lesson 8: Strong and partial negation 絶対～ない・必ず～とは言えない"
       }
     ],
-    "partOfSpeech": "noun; suru verb",
+    "partOfSpeech": [
+      "Noun",
+      "Group 3 Verb"
+    ],
     "reading": "せいちょう",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "成長"
   },
   {
@@ -17893,7 +21610,10 @@
     "grammarIds": [
       "l10-tara-doka",
       "l4-kawari-ni",
-      "l8-nai-koto-wa-nai"
+      "l8-nai-koto-wa-nai",
+      "p2-group-c",
+      "p2-group-f",
+      "p2-group-i"
     ],
     "id": "l8-shinpai",
     "kanji": [
@@ -17941,8 +21661,15 @@
         "label": "Lesson 10: Advice and commands ～したほうがいい・～なさい"
       }
     ],
-    "partOfSpeech": "noun; na-adjective",
+    "partOfSpeech": [
+      "Noun",
+      "Na-Adjective",
+      "Special Na-Adjective Ending in I"
+    ],
     "reading": "しんぱい",
+    "topicIds": [
+      "feelings-personality"
+    ],
     "written": "心配"
   },
   {
@@ -17967,8 +21694,13 @@
         "label": "Lesson 8: Strong and partial negation 絶対～ない・必ず～とは言えない"
       }
     ],
-    "partOfSpeech": "noun",
+    "partOfSpeech": [
+      "Noun"
+    ],
     "reading": "しつ",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "質"
   },
   {
@@ -17993,8 +21725,13 @@
         "label": "Lesson 8: Strong and partial negation 絶対～ない・必ず～とは言えない"
       }
     ],
-    "partOfSpeech": "ichidan verb",
+    "partOfSpeech": [
+      "Group 2 Verb"
+    ],
     "reading": "そだてる",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "育てる"
   },
   {
@@ -18029,8 +21766,13 @@
         "label": "Lesson 8: Strong and partial negation 絶対～ない・必ず～とは言えない"
       }
     ],
-    "partOfSpeech": "na-adjective",
+    "partOfSpeech": [
+      "Na-Adjective"
+    ],
     "reading": "たいへん",
+    "topicIds": [
+      "feelings-personality"
+    ],
     "written": "大変"
   },
   {
@@ -18060,12 +21802,21 @@
         "label": "Lesson 8: Strong and partial negation 絶対～ない・必ず～とは言えない"
       }
     ],
-    "partOfSpeech": "noun; suru verb",
+    "partOfSpeech": [
+      "Noun",
+      "Group 3 Verb"
+    ],
     "reading": "てんきん",
+    "topicIds": [
+      "work-business"
+    ],
     "written": "転勤"
   },
   {
     "forms": [],
+    "grammarIds": [
+      "p2-group-a"
+    ],
     "id": "l8-tokeru",
     "kanji": [
       {
@@ -18087,8 +21838,13 @@
         "label": "Group A: Particles with various functions | N3 Study Desk"
       }
     ],
-    "partOfSpeech": "ichidan verb",
+    "partOfSpeech": [
+      "Group 2 Verb"
+    ],
     "reading": "とける",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "解ける"
   },
   {
@@ -18113,8 +21869,13 @@
         "label": "Lesson 8: Strong and partial negation 絶対～ない・必ず～とは言えない"
       }
     ],
-    "partOfSpeech": "noun",
+    "partOfSpeech": [
+      "Noun"
+    ],
     "reading": "うた",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "歌"
   },
   {
@@ -18144,12 +21905,21 @@
         "label": "Lesson 8: Strong and partial negation 絶対～ない・必ず～とは言えない"
       }
     ],
-    "partOfSpeech": "ichidan verb",
+    "partOfSpeech": [
+      "Group 2 Verb"
+    ],
     "reading": "わすれる",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "忘れる"
   },
   {
     "forms": [],
+    "grammarIds": [
+      "p2-group-e",
+      "p2-group-g"
+    ],
     "id": "l8-yakusoku",
     "kanji": [
       {
@@ -18176,8 +21946,14 @@
         "label": "Group G: Organizing する and なる | N3 Study Desk"
       }
     ],
-    "partOfSpeech": "noun; suru verb",
+    "partOfSpeech": [
+      "Noun",
+      "Group 3 Verb"
+    ],
     "reading": "やくそく",
+    "topicIds": [
+      "time-dates-schedules"
+    ],
     "written": "約束"
   },
   {
@@ -18202,12 +21978,21 @@
         "label": "Lesson 8: Strong and partial negation 絶対～ない・必ず～とは言えない"
       }
     ],
-    "partOfSpeech": "i-adjective",
+    "partOfSpeech": [
+      "I-Adjective"
+    ],
     "reading": "やさしい",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "易しい"
   },
   {
     "forms": [],
+    "grammarIds": [
+      "p2-group-c",
+      "p4-lesson-9"
+    ],
     "id": "l9-gokaku",
     "kanji": [
       {
@@ -18234,8 +22019,14 @@
         "label": "Part 4 Lesson 9: 接続表現 | N3 Study Desk"
       }
     ],
-    "partOfSpeech": "noun; suru verb",
+    "partOfSpeech": [
+      "Noun",
+      "Group 3 Verb"
+    ],
     "reading": "ごうかく",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "合格"
   },
   {
@@ -18265,15 +22056,21 @@
         "label": "Lesson 9: Wishes and requests ～と望む"
       }
     ],
-    "partOfSpeech": "noun",
+    "partOfSpeech": [
+      "Noun"
+    ],
     "reading": "ひるやすみ",
+    "topicIds": [
+      "food-cooking"
+    ],
     "written": "昼休み"
   },
   {
     "forms": [],
     "grammarIds": [
       "l4-hanmen",
-      "l9-te-moraitai"
+      "l9-te-moraitai",
+      "p2-group-j"
     ],
     "id": "l9-hitori",
     "kanji": [
@@ -18305,8 +22102,13 @@
         "label": "Lesson 9: Wishes and requests ～と望む"
       }
     ],
-    "partOfSpeech": "noun",
+    "partOfSpeech": [
+      "Noun"
+    ],
     "reading": "ひとり",
+    "topicIds": [
+      "people-family-relationships"
+    ],
     "written": "一人"
   },
   {
@@ -18336,8 +22138,13 @@
         "label": "Lesson 9: Wishes and requests ～と望む"
       }
     ],
-    "partOfSpeech": "noun",
+    "partOfSpeech": [
+      "Noun"
+    ],
     "reading": "じむ",
+    "topicIds": [
+      "work-business"
+    ],
     "written": "事務"
   },
   {
@@ -18367,8 +22174,13 @@
         "label": "Lesson 9: Wishes and requests ～と望む"
       }
     ],
-    "partOfSpeech": "expression",
+    "partOfSpeech": [
+      "Expression"
+    ],
     "reading": "きがすすまない",
+    "topicIds": [
+      "school-study"
+    ],
     "written": "気が進まない"
   },
   {
@@ -18408,8 +22220,13 @@
         "label": "Lesson 10: Advice and commands ～したほうがいい・～なさい"
       }
     ],
-    "partOfSpeech": "noun",
+    "partOfSpeech": [
+      "Noun"
+    ],
     "reading": "もうしこみしょ",
+    "topicIds": [
+      "school-study"
+    ],
     "written": "申込書"
   },
   {
@@ -18434,8 +22251,13 @@
         "label": "Lesson 9: Wishes and requests ～と望む"
       }
     ],
-    "partOfSpeech": "noun",
+    "partOfSpeech": [
+      "Noun"
+    ],
     "reading": "なやみ",
+    "topicIds": [
+      "feelings-personality"
+    ],
     "written": "悩み"
   },
   {
@@ -18475,8 +22297,13 @@
         "label": "Lesson 9: Wishes and requests ～と望む"
       }
     ],
-    "partOfSpeech": "noun",
+    "partOfSpeech": [
+      "Noun"
+    ],
     "reading": "にゅうがくしけん",
+    "topicIds": [
+      "places-directions"
+    ],
     "written": "入学試験"
   },
   {
@@ -18506,15 +22333,24 @@
         "label": "Lesson 9: Wishes and requests ～と望む"
       }
     ],
-    "partOfSpeech": "noun; abbreviation",
+    "partOfSpeech": [
+      "Noun"
+    ],
     "reading": "にゅうかん",
+    "topicIds": [
+      "work-business",
+      "society-public-services"
+    ],
     "written": "入管"
   },
   {
     "forms": [],
     "grammarIds": [
       "l5-kara-koto",
-      "l9-te-moraitai"
+      "l9-te-moraitai",
+      "p2-group-a",
+      "p2-group-b",
+      "p2-group-g"
     ],
     "id": "l9-oya",
     "kanji": [
@@ -18557,15 +22393,23 @@
         "label": "Lesson 9: Wishes and requests ～と望む"
       }
     ],
-    "partOfSpeech": "noun",
+    "partOfSpeech": [
+      "Noun"
+    ],
     "reading": "おや",
+    "topicIds": [
+      "people-family-relationships"
+    ],
     "written": "親"
   },
   {
     "forms": [],
     "grammarIds": [
       "l5-okage-sei",
-      "l9-to-ba-tara-ii"
+      "l9-to-ba-tara-ii",
+      "p2-group-b",
+      "p2-group-f",
+      "p2-group-g"
     ],
     "id": "l9-saikin",
     "kanji": [
@@ -18613,12 +22457,22 @@
         "label": "Lesson 9: Wishes and requests ～と望む"
       }
     ],
-    "partOfSpeech": "noun; adverb",
+    "partOfSpeech": [
+      "Noun",
+      "Adverb"
+    ],
     "reading": "さいきん",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "最近"
   },
   {
     "forms": [],
+    "grammarIds": [
+      "p2-group-f",
+      "p2-group-i"
+    ],
     "id": "l9-shiryo",
     "kanji": [
       {
@@ -18649,8 +22503,13 @@
         "label": "Group I: Adverbs with fixed following forms | N3 Study Desk"
       }
     ],
-    "partOfSpeech": "noun",
+    "partOfSpeech": [
+      "Noun"
+    ],
     "reading": "しりょう",
+    "topicIds": [
+      "technology"
+    ],
     "written": "資料"
   },
   {
@@ -18690,8 +22549,14 @@
         "label": "Lesson 9: Wishes and requests ～と望む"
       }
     ],
-    "partOfSpeech": "noun",
+    "partOfSpeech": [
+      "Noun"
+    ],
     "reading": "しぜんかんきょう",
+    "topicIds": [
+      "nature-weather",
+      "society-public-services"
+    ],
     "written": "自然環境"
   },
   {
@@ -18721,8 +22586,13 @@
         "label": "Lesson 9: Wishes and requests ～と望む"
       }
     ],
-    "partOfSpeech": "noun",
+    "partOfSpeech": [
+      "Noun"
+    ],
     "reading": "しょるい",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "書類"
   },
   {
@@ -18757,14 +22627,20 @@
         "label": "Lesson 9: Wishes and requests ～と望む"
       }
     ],
-    "partOfSpeech": "noun",
+    "partOfSpeech": [
+      "Noun"
+    ],
     "reading": "そつぎょうしき",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "卒業式"
   },
   {
     "forms": [],
     "grammarIds": [
-      "l9-sasete-moraitai"
+      "l9-sasete-moraitai",
+      "p3-lesson-1"
     ],
     "id": "l9-tencho",
     "kanji": [
@@ -18792,8 +22668,14 @@
         "label": "Lesson 1: Quotation | N3 Study Desk"
       }
     ],
-    "partOfSpeech": "noun",
+    "partOfSpeech": [
+      "Noun"
+    ],
     "reading": "てんちょう",
+    "topicIds": [
+      "work-business",
+      "money-shopping"
+    ],
     "written": "店長"
   },
   {
@@ -18828,8 +22710,14 @@
         "label": "Lesson 9: Wishes and requests ～と望む"
       }
     ],
-    "partOfSpeech": "noun",
+    "partOfSpeech": [
+      "Noun"
+    ],
     "reading": "てんいん",
+    "topicIds": [
+      "work-business",
+      "money-shopping"
+    ],
     "written": "店員"
   },
   {
@@ -18837,7 +22725,10 @@
     "grammarIds": [
       "l10-meirei-kinshi",
       "l4-kawari-ni",
-      "l9-te-moraitai"
+      "l9-te-moraitai",
+      "p2-group-e",
+      "p2-group-f",
+      "p2-group-g"
     ],
     "id": "l9-tetsudau",
     "kanji": [
@@ -18885,8 +22776,13 @@
         "label": "Lesson 10: Advice and commands ～したほうがいい・～なさい"
       }
     ],
-    "partOfSpeech": "godan verb",
+    "partOfSpeech": [
+      "Group 1 Verb"
+    ],
     "reading": "てつだう",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "手伝う"
   },
   {
@@ -18916,8 +22812,14 @@
         "label": "Lesson 9: Wishes and requests ～と望む"
       }
     ],
-    "partOfSpeech": "expression; godan verb",
+    "partOfSpeech": [
+      "Group 1 Verb",
+      "Expression"
+    ],
     "reading": "としをとる",
+    "topicIds": [
+      "time-dates-schedules"
+    ],
     "written": "年を取る"
   },
   {
@@ -18952,8 +22854,13 @@
         "label": "Lesson 10: Advice and commands ～したほうがいい・～なさい"
       }
     ],
-    "partOfSpeech": "ichidan verb",
+    "partOfSpeech": [
+      "Group 2 Verb"
+    ],
     "reading": "つかれる",
+    "topicIds": [
+      "body-health"
+    ],
     "written": "疲れる"
   },
   {
@@ -18988,8 +22895,13 @@
         "label": "Lesson 9: Wishes and requests ～と望む"
       }
     ],
-    "partOfSpeech": "noun",
+    "partOfSpeech": [
+      "Noun"
+    ],
     "reading": "うんどうじょう",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "運動場"
   },
   {
@@ -19014,12 +22926,20 @@
         "label": "Lesson 9: Wishes and requests ～と望む"
       }
     ],
-    "partOfSpeech": "noun",
+    "partOfSpeech": [
+      "Noun"
+    ],
     "reading": "わかれ",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "別れ"
   },
   {
     "forms": [],
+    "grammarIds": [
+      "p4-lesson-1"
+    ],
     "id": "learning-support-0024055e8eb6",
     "kanji": [
       {
@@ -19037,12 +22957,20 @@
         "label": "Part 4 Lesson 1: 文の始めと終わりの対応 | N3 Study Desk"
       }
     ],
-    "partOfSpeech": "動詞 / 自立 / * / *",
+    "partOfSpeech": [
+      "Group 2 Verb"
+    ],
     "reading": "はなれる",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "離れる"
   },
   {
     "forms": [],
+    "grammarIds": [
+      "p2-group-b"
+    ],
     "id": "learning-support-00283ee1a052",
     "kanji": [
       {
@@ -19060,12 +22988,20 @@
         "label": "Group B: Words that work like particles | N3 Study Desk"
       }
     ],
-    "partOfSpeech": "名詞 / 一般 / * / *",
+    "partOfSpeech": [
+      "Noun"
+    ],
     "reading": "ぼっちゃん",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "坊っちゃん"
   },
   {
     "forms": [],
+    "grammarIds": [
+      "p2-group-a"
+    ],
     "id": "learning-support-01dda94e7765",
     "kanji": [
       {
@@ -19087,12 +23023,20 @@
         "label": "Group A: Particles with various functions | N3 Study Desk"
       }
     ],
-    "partOfSpeech": "名詞 / 一般 / * / *",
+    "partOfSpeech": [
+      "Noun"
+    ],
     "reading": "はんい",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "範囲"
   },
   {
     "forms": [],
+    "grammarIds": [
+      "p2-group-b"
+    ],
     "id": "learning-support-02424c2277cd",
     "kanji": [
       {
@@ -19110,12 +23054,20 @@
         "label": "Group B: Words that work like particles | N3 Study Desk"
       }
     ],
-    "partOfSpeech": "名詞 / 一般 / * / *",
+    "partOfSpeech": [
+      "Noun"
+    ],
     "reading": "やくわり",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "役割"
   },
   {
     "forms": [],
+    "grammarIds": [
+      "p2-group-j"
+    ],
     "id": "learning-support-03423be53267",
     "kanji": [
       {
@@ -19133,12 +23085,21 @@
         "label": "Group J: Forms that broaden meaning | N3 Study Desk"
       }
     ],
-    "partOfSpeech": "動詞 / 自立 / * / *",
+    "partOfSpeech": [
+      "Group 1 Verb"
+    ],
     "reading": "うごきだす",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "動き出す"
   },
   {
     "forms": [],
+    "grammarIds": [
+      "p2-group-a",
+      "p4-lesson-8"
+    ],
     "id": "learning-support-0422a82e00bc",
     "kanji": [
       {
@@ -19164,12 +23125,21 @@
         "label": "Part 4 Lesson 8: は・が | N3 Study Desk"
       }
     ],
-    "partOfSpeech": "名詞 / サ変接続 / * / *",
+    "partOfSpeech": [
+      "Noun",
+      "Group 3 Verb"
+    ],
     "reading": "ひてい",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "否定"
   },
   {
     "forms": [],
+    "grammarIds": [
+      "p4-lesson-9"
+    ],
     "id": "learning-support-0470fc929f3f",
     "kanji": [
       {
@@ -19187,12 +23157,23 @@
         "label": "Part 4 Lesson 9: 接続表現 | N3 Study Desk"
       }
     ],
-    "partOfSpeech": "動詞 / 自立 / * / *",
+    "partOfSpeech": [
+      "Group 1 Verb"
+    ],
     "reading": "こむ",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "込む"
   },
   {
     "forms": [],
+    "grammarIds": [
+      "p2-group-g",
+      "p2-group-j",
+      "p4-lesson-3",
+      "p4-lesson-4"
+    ],
     "id": "learning-support-04d6c4bd44c7",
     "kanji": [
       {
@@ -19226,12 +23207,21 @@
         "label": "Part 4 Lesson 4: ～てくる・～ていく | N3 Study Desk"
       }
     ],
-    "partOfSpeech": "名詞 / サ変接続 / * / *",
+    "partOfSpeech": [
+      "Noun",
+      "Group 3 Verb"
+    ],
     "reading": "いち",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "位置"
   },
   {
     "forms": [],
+    "grammarIds": [
+      "p2-group-d"
+    ],
     "id": "learning-support-04ee2e546ff7",
     "kanji": [
       {
@@ -19249,12 +23239,20 @@
         "label": "Group D: Uses of よう | N3 Study Desk"
       }
     ],
-    "partOfSpeech": "名詞 / 一般 / * / *",
+    "partOfSpeech": [
+      "Noun"
+    ],
     "reading": "しゅるい",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "種類"
   },
   {
     "forms": [],
+    "grammarIds": [
+      "p3-lesson-2"
+    ],
     "id": "learning-support-05550395aeee",
     "kanji": [
       {
@@ -19272,8 +23270,13 @@
         "label": "Lesson 2: Noun description | N3 Study Desk"
       }
     ],
-    "partOfSpeech": "動詞 / 自立 / * / *",
+    "partOfSpeech": [
+      "Group 1 Verb"
+    ],
     "reading": "ひろがる",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "広がる"
   },
   {
@@ -19281,7 +23284,9 @@
     "grammarIds": [
       "l10-meirei-kinshi",
       "l11-koto-ni-suru",
-      "l11-you-to-suru"
+      "l11-you-to-suru",
+      "p2-group-b",
+      "p2-group-d"
     ],
     "id": "learning-support-05567c942fb5",
     "kanji": [
@@ -19316,12 +23321,20 @@
         "label": "Lesson 11: Intentions, efforts, and attempts"
       }
     ],
-    "partOfSpeech": "名詞 / 一般 / * / *",
+    "partOfSpeech": [
+      "Noun"
+    ],
     "reading": "ちち",
+    "topicIds": [
+      "people-family-relationships"
+    ],
     "written": "父"
   },
   {
     "forms": [],
+    "grammarIds": [
+      "p2-group-c"
+    ],
     "id": "learning-support-05b5de61ab72",
     "kanji": [
       {
@@ -19339,14 +23352,21 @@
         "label": "Group C: Uses of こと and の | N3 Study Desk"
       }
     ],
-    "partOfSpeech": "動詞 / 自立 / * / *",
+    "partOfSpeech": [
+      "Group 1 Verb"
+    ],
     "reading": "いそぐ",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "急ぐ"
   },
   {
     "forms": [],
     "grammarIds": [
-      "l2-hodo"
+      "l2-hodo",
+      "p2-group-e",
+      "p2-group-j"
     ],
     "id": "learning-support-05c340f6dac3",
     "kanji": [
@@ -19373,12 +23393,20 @@
         "label": "Lesson 2: Relationships ～と関係して"
       }
     ],
-    "partOfSpeech": "副詞 / 一般 / * / *",
+    "partOfSpeech": [
+      "Adverb"
+    ],
     "reading": "ほんとうに",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "本当に"
   },
   {
     "forms": [],
+    "grammarIds": [
+      "p2-group-g"
+    ],
     "id": "learning-support-05e77cc928d6",
     "kanji": [
       {
@@ -19396,12 +23424,20 @@
         "label": "Group G: Organizing する and なる | N3 Study Desk"
       }
     ],
-    "partOfSpeech": "名詞 / 一般 / * / *",
+    "partOfSpeech": [
+      "Noun"
+    ],
     "reading": "がっき",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "楽器"
   },
   {
     "forms": [],
+    "grammarIds": [
+      "p2-group-a"
+    ],
     "id": "learning-support-07757ea0b332",
     "kanji": [
       {
@@ -19419,12 +23455,21 @@
         "label": "Group A: Particles with various functions | N3 Study Desk"
       }
     ],
-    "partOfSpeech": "名詞 / サ変接続 / * / *",
+    "partOfSpeech": [
+      "Noun",
+      "Group 3 Verb"
+    ],
     "reading": "たび",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "旅"
   },
   {
     "forms": [],
+    "grammarIds": [
+      "p4-lesson-8"
+    ],
     "id": "learning-support-07a4101167df",
     "kanji": [
       {
@@ -19442,12 +23487,20 @@
         "label": "Part 4 Lesson 8: は・が | N3 Study Desk"
       }
     ],
-    "partOfSpeech": "動詞 / 自立 / * / *",
+    "partOfSpeech": [
+      "Group 1 Verb"
+    ],
     "reading": "なく",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "鳴く"
   },
   {
     "forms": [],
+    "grammarIds": [
+      "p2-group-b"
+    ],
     "id": "learning-support-0832acafe43e",
     "kanji": [
       {
@@ -19465,12 +23518,20 @@
         "label": "Group B: Words that work like particles | N3 Study Desk"
       }
     ],
-    "partOfSpeech": "名詞 / 形容動詞語幹 / * / *",
+    "partOfSpeech": [
+      "Na-Adjective"
+    ],
     "reading": "あるじ",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "主"
   },
   {
     "forms": [],
+    "grammarIds": [
+      "p2-group-b"
+    ],
     "id": "learning-support-086b73816f90",
     "kanji": [
       {
@@ -19488,14 +23549,23 @@
         "label": "Group B: Words that work like particles | N3 Study Desk"
       }
     ],
-    "partOfSpeech": "名詞 / 副詞可能 / * / *",
+    "partOfSpeech": [
+      "Noun",
+      "Adverb"
+    ],
     "reading": "しがつ",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "４月"
   },
   {
     "forms": [],
     "grammarIds": [
-      "l11-you-to-suru"
+      "l11-you-to-suru",
+      "p2-group-a",
+      "p2-group-g",
+      "p4-lesson-8"
     ],
     "id": "learning-support-08a3ed212d48",
     "kanji": [
@@ -19530,12 +23600,21 @@
         "label": "Part 4 Lesson 8: は・が | N3 Study Desk"
       }
     ],
-    "partOfSpeech": "名詞 / 非自立 / 副詞可能 / *",
+    "partOfSpeech": [
+      "Adverb",
+      "Other"
+    ],
     "reading": "うえ",
+    "topicIds": [
+      "places-directions"
+    ],
     "written": "上"
   },
   {
     "forms": [],
+    "grammarIds": [
+      "p2-group-i"
+    ],
     "id": "learning-support-0a9768a00533",
     "kanji": [
       {
@@ -19553,12 +23632,20 @@
         "label": "Group I: Adverbs with fixed following forms | N3 Study Desk"
       }
     ],
-    "partOfSpeech": "副詞 / 一般 / * / *",
+    "partOfSpeech": [
+      "Adverb"
+    ],
     "reading": "しだいに",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "次第に"
   },
   {
     "forms": [],
+    "grammarIds": [
+      "p2-group-a"
+    ],
     "id": "learning-support-0b01b8005fda",
     "kanji": [
       {
@@ -19580,12 +23667,21 @@
         "label": "Group A: Particles with various functions | N3 Study Desk"
       }
     ],
-    "partOfSpeech": "名詞 / 固有名詞 / 地域 / 一般",
+    "partOfSpeech": [
+      "Noun"
+    ],
     "reading": "やまのうえ",
+    "topicIds": [
+      "nature-weather"
+    ],
     "written": "山の上"
   },
   {
     "forms": [],
+    "grammarIds": [
+      "p4-lesson-1",
+      "p4-lesson-8"
+    ],
     "id": "learning-support-0b2acf3460a7",
     "kanji": [
       {
@@ -19611,12 +23707,22 @@
         "label": "Part 4 Lesson 8: は・が | N3 Study Desk"
       }
     ],
-    "partOfSpeech": "副詞 / 一般 / * / *",
+    "partOfSpeech": [
+      "Adverb"
+    ],
     "reading": "とくに",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "特に"
   },
   {
     "forms": [],
+    "grammarIds": [
+      "p2-group-d",
+      "p2-group-i",
+      "p4-lesson-8"
+    ],
     "id": "learning-support-0c1dbd4838de",
     "kanji": [
       {
@@ -19642,12 +23748,25 @@
         "label": "Part 4 Lesson 8: は・が | N3 Study Desk"
       }
     ],
-    "partOfSpeech": "名詞 / 一般 / * / *",
+    "partOfSpeech": [
+      "Noun"
+    ],
     "reading": "ふたつ",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "二つ"
   },
   {
     "forms": [],
+    "grammarIds": [
+      "p2-group-a",
+      "p2-group-c",
+      "p2-group-g",
+      "p2-group-i",
+      "p2-group-j",
+      "p4-lesson-8"
+    ],
     "id": "learning-support-0c27b9183fdc",
     "kanji": [
       {
@@ -19705,12 +23824,21 @@
         "label": "Part 4 Lesson 8: は・が | N3 Study Desk"
       }
     ],
-    "partOfSpeech": "動詞 / 自立 / * / *",
+    "partOfSpeech": [
+      "Group 2 Verb"
+    ],
     "reading": "みえる",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "見える"
   },
   {
     "forms": [],
+    "grammarIds": [
+      "p2-group-d",
+      "p4-lesson-1"
+    ],
     "id": "learning-support-0caca661c56d",
     "kanji": [
       {
@@ -19732,12 +23860,22 @@
         "label": "Part 4 Lesson 1: 文の始めと終わりの対応 | N3 Study Desk"
       }
     ],
-    "partOfSpeech": "名詞 / 一般 / * / *",
+    "partOfSpeech": [
+      "Noun"
+    ],
     "reading": "ははおや",
+    "topicIds": [
+      "people-family-relationships"
+    ],
     "written": "母親"
   },
   {
     "forms": [],
+    "grammarIds": [
+      "p2-group-a",
+      "p2-group-c",
+      "p2-group-f"
+    ],
     "id": "learning-support-0cd41a25d3a2",
     "kanji": [
       {
@@ -19767,12 +23905,20 @@
         "label": "Group F: Uses of ばかり | N3 Study Desk"
       }
     ],
-    "partOfSpeech": "動詞 / 自立 / * / *",
+    "partOfSpeech": [
+      "Group 2 Verb"
+    ],
     "reading": "つかえる",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "使える"
   },
   {
     "forms": [],
+    "grammarIds": [
+      "p2-group-a"
+    ],
     "id": "learning-support-0d1e9e4e36be",
     "kanji": [
       {
@@ -19790,12 +23936,20 @@
         "label": "Group A: Particles with various functions | N3 Study Desk"
       }
     ],
-    "partOfSpeech": "副詞 / 一般 / * / *",
+    "partOfSpeech": [
+      "Adverb"
+    ],
     "reading": "なかよく",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "仲よく"
   },
   {
     "forms": [],
+    "grammarIds": [
+      "p4-lesson-9"
+    ],
     "id": "learning-support-0d56731678e7",
     "kanji": [
       {
@@ -19813,12 +23967,20 @@
         "label": "Part 4 Lesson 9: 接続表現 | N3 Study Desk"
       }
     ],
-    "partOfSpeech": "名詞 / 形容動詞語幹 / * / *",
+    "partOfSpeech": [
+      "Na-Adjective"
+    ],
     "reading": "せいかく",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "正確"
   },
   {
     "forms": [],
+    "grammarIds": [
+      "p2-group-g"
+    ],
     "id": "learning-support-0ddf8d04c2c0",
     "kanji": [
       {
@@ -19836,12 +23998,20 @@
         "label": "Group G: Organizing する and なる | N3 Study Desk"
       }
     ],
-    "partOfSpeech": "名詞 / 一般 / * / *",
+    "partOfSpeech": [
+      "Noun"
+    ],
     "reading": "にっき",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "日記"
   },
   {
     "forms": [],
+    "grammarIds": [
+      "p2-group-g"
+    ],
     "id": "learning-support-0e09acfeb78d",
     "kanji": [
       {
@@ -19859,12 +24029,21 @@
         "label": "Group G: Organizing する and なる | N3 Study Desk"
       }
     ],
-    "partOfSpeech": "動詞 / 自立 / * / *",
+    "partOfSpeech": [
+      "Group 2 Verb"
+    ],
     "reading": "こころがける",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "心がける"
   },
   {
     "forms": [],
+    "grammarIds": [
+      "p2-group-b",
+      "p2-group-f"
+    ],
     "id": "learning-support-0e7597cf7363",
     "kanji": [
       {
@@ -19894,12 +24073,20 @@
         "label": "Group F: Uses of ばかり | N3 Study Desk"
       }
     ],
-    "partOfSpeech": "名詞 / 一般 / * / *",
+    "partOfSpeech": [
+      "Noun"
+    ],
     "reading": "もんく",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "文句"
   },
   {
     "forms": [],
+    "grammarIds": [
+      "p2-group-f"
+    ],
     "id": "learning-support-0eaa93c14491",
     "kanji": [
       {
@@ -19917,8 +24104,14 @@
         "label": "Group F: Uses of ばかり | N3 Study Desk"
       }
     ],
-    "partOfSpeech": "名詞 / 副詞可能 / * / *",
+    "partOfSpeech": [
+      "Noun",
+      "Adverb"
+    ],
     "reading": "せんげつ",
+    "topicIds": [
+      "time-dates-schedules"
+    ],
     "written": "先月"
   },
   {
@@ -19943,12 +24136,20 @@
         "label": "Lesson 7: Reported information and hearsay ～だそうだ"
       }
     ],
-    "partOfSpeech": "名詞 / 固有名詞 / 人名 / 姓",
+    "partOfSpeech": [
+      "Noun"
+    ],
     "reading": "おがわ",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "小川"
   },
   {
     "forms": [],
+    "grammarIds": [
+      "p4-lesson-9"
+    ],
     "id": "learning-support-0f5f65f3c653",
     "kanji": [
       {
@@ -19966,12 +24167,20 @@
         "label": "Part 4 Lesson 9: 接続表現 | N3 Study Desk"
       }
     ],
-    "partOfSpeech": "名詞 / 一般 / * / *",
+    "partOfSpeech": [
+      "Noun"
+    ],
     "reading": "しゅうきゅう",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "週休"
   },
   {
     "forms": [],
+    "grammarIds": [
+      "p4-lesson-9"
+    ],
     "id": "learning-support-0f74a8f3a41e",
     "kanji": [
       {
@@ -19989,12 +24198,20 @@
         "label": "Part 4 Lesson 9: 接続表現 | N3 Study Desk"
       }
     ],
-    "partOfSpeech": "名詞 / 一般 / * / *",
+    "partOfSpeech": [
+      "Noun"
+    ],
     "reading": "くうこう",
+    "topicIds": [
+      "travel-transportation"
+    ],
     "written": "空港"
   },
   {
     "forms": [],
+    "grammarIds": [
+      "p2-group-e"
+    ],
     "id": "learning-support-100b82539f7f",
     "kanji": [
       {
@@ -20012,12 +24229,20 @@
         "label": "Group E: Uses of わけ | N3 Study Desk"
       }
     ],
-    "partOfSpeech": "動詞 / 自立 / * / *",
+    "partOfSpeech": [
+      "Group 3 Verb"
+    ],
     "reading": "はんする",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "反する"
   },
   {
     "forms": [],
+    "grammarIds": [
+      "p2-group-e"
+    ],
     "id": "learning-support-1122cac4095f",
     "kanji": [
       {
@@ -20035,12 +24260,21 @@
         "label": "Group E: Uses of わけ | N3 Study Desk"
       }
     ],
-    "partOfSpeech": "動詞 / 自立 / * / *",
+    "partOfSpeech": [
+      "Group 1 Verb"
+    ],
     "reading": "かす",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "貸す"
   },
   {
     "forms": [],
+    "grammarIds": [
+      "p2-group-e",
+      "p2-group-h"
+    ],
     "id": "learning-support-11ac991f5862",
     "kanji": [
       {
@@ -20062,12 +24296,21 @@
         "label": "Group H: Special uses of たら・ば・と・なら | N3 Study Desk"
       }
     ],
-    "partOfSpeech": "名詞 / 副詞可能 / * / *",
+    "partOfSpeech": [
+      "Noun",
+      "Adverb"
+    ],
     "reading": "じじつ",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "事実"
   },
   {
     "forms": [],
+    "grammarIds": [
+      "p4-lesson-9"
+    ],
     "id": "learning-support-1288e600bea0",
     "kanji": [
       {
@@ -20085,12 +24328,20 @@
         "label": "Part 4 Lesson 9: 接続表現 | N3 Study Desk"
       }
     ],
-    "partOfSpeech": "名詞 / 一般 / * / *",
+    "partOfSpeech": [
+      "Noun"
+    ],
     "reading": "こうちゃ",
+    "topicIds": [
+      "food-cooking"
+    ],
     "written": "紅茶"
   },
   {
     "forms": [],
+    "grammarIds": [
+      "p3-lesson-3"
+    ],
     "id": "learning-support-136adbc3604e",
     "kanji": [
       {
@@ -20108,14 +24359,22 @@
         "label": "Lesson 3: ～という・～といった | N3 Study Desk"
       }
     ],
-    "partOfSpeech": "名詞 / サ変接続 / * / *",
+    "partOfSpeech": [
+      "Noun",
+      "Group 3 Verb"
+    ],
     "reading": "へんこう",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "変更"
   },
   {
     "forms": [],
     "grammarIds": [
-      "l9-te-moraitai"
+      "l9-te-moraitai",
+      "p2-group-e",
+      "p2-group-i"
     ],
     "id": "learning-support-13ab63d79a46",
     "kanji": [
@@ -20142,12 +24401,23 @@
         "label": "Lesson 9: Wishes and requests ～と望む"
       }
     ],
-    "partOfSpeech": "名詞 / 非自立 / 副詞可能 / *",
+    "partOfSpeech": [
+      "Adverb",
+      "Other"
+    ],
     "reading": "いじょう",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "以上"
   },
   {
     "forms": [],
+    "grammarIds": [
+      "p2-group-f",
+      "p2-group-h",
+      "p3-lesson-4"
+    ],
     "id": "learning-support-13b6dbec0365",
     "kanji": [
       {
@@ -20173,12 +24443,20 @@
         "label": "Lesson 4: Fixed patterns | N3 Study Desk"
       }
     ],
-    "partOfSpeech": "形容詞 / 自立 / * / *",
+    "partOfSpeech": [
+      "I-Adjective"
+    ],
     "reading": "わるい",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "悪い"
   },
   {
     "forms": [],
+    "grammarIds": [
+      "p4-lesson-8"
+    ],
     "id": "learning-support-142fcb9705c7",
     "kanji": [
       {
@@ -20196,12 +24474,20 @@
         "label": "Part 4 Lesson 8: は・が | N3 Study Desk"
       }
     ],
-    "partOfSpeech": "動詞 / 自立 / * / *",
+    "partOfSpeech": [
+      "Group 2 Verb"
+    ],
     "reading": "とりあげる",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "取り上げる"
   },
   {
     "forms": [],
+    "grammarIds": [
+      "p2-group-g"
+    ],
     "id": "learning-support-1542c1bc6320",
     "kanji": [
       {
@@ -20219,12 +24505,20 @@
         "label": "Group G: Organizing する and なる | N3 Study Desk"
       }
     ],
-    "partOfSpeech": "動詞 / 自立 / * / *",
+    "partOfSpeech": [
+      "Group 2 Verb"
+    ],
     "reading": "あける",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "空ける"
   },
   {
     "forms": [],
+    "grammarIds": [
+      "p2-group-a"
+    ],
     "id": "learning-support-1563e7606fe9",
     "kanji": [
       {
@@ -20242,14 +24536,20 @@
         "label": "Group A: Particles with various functions | N3 Study Desk"
       }
     ],
-    "partOfSpeech": "名詞 / 一般 / * / *",
+    "partOfSpeech": [
+      "Noun"
+    ],
     "reading": "ひろがり",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "広がり"
   },
   {
     "forms": [],
     "grammarIds": [
-      "l3-kurai"
+      "l3-kurai",
+      "p4-lesson-8"
     ],
     "id": "learning-support-15f41364211a",
     "kanji": [
@@ -20272,12 +24572,24 @@
         "label": "Part 4 Lesson 8: は・が | N3 Study Desk"
       }
     ],
-    "partOfSpeech": "動詞 / 自立 / * / *",
+    "partOfSpeech": [
+      "Group 1 Verb"
+    ],
     "reading": "ふく",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "吹く"
   },
   {
     "forms": [],
+    "grammarIds": [
+      "p2-group-e",
+      "p2-group-f",
+      "p3-lesson-1",
+      "p4-lesson-1",
+      "p4-lesson-6"
+    ],
     "id": "learning-support-16fda19d790d",
     "kanji": [
       {
@@ -20311,12 +24623,20 @@
         "label": "Lesson 1: Quotation | N3 Study Desk"
       }
     ],
-    "partOfSpeech": "動詞 / 自立 / * / *",
+    "partOfSpeech": [
+      "Group 1 Verb"
+    ],
     "reading": "もつ",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "持つ"
   },
   {
     "forms": [],
+    "grammarIds": [
+      "p2-group-a"
+    ],
     "id": "learning-support-17c303f7936e",
     "kanji": [
       {
@@ -20338,12 +24658,20 @@
         "label": "Group A: Particles with various functions | N3 Study Desk"
       }
     ],
-    "partOfSpeech": "動詞 / 自立 / * / *",
+    "partOfSpeech": [
+      "Group 1 Verb"
+    ],
     "reading": "たる",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "足る"
   },
   {
     "forms": [],
+    "grammarIds": [
+      "p2-group-d"
+    ],
     "id": "learning-support-189162e30bfb",
     "kanji": [
       {
@@ -20361,12 +24689,21 @@
         "label": "Group D: Uses of よう | N3 Study Desk"
       }
     ],
-    "partOfSpeech": "名詞 / サ変接続 / * / *",
+    "partOfSpeech": [
+      "Noun",
+      "Group 3 Verb"
+    ],
     "reading": "おいのり",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "お祈り"
   },
   {
     "forms": [],
+    "grammarIds": [
+      "p4-lesson-8"
+    ],
     "id": "learning-support-18b65422bb0a",
     "kanji": [
       {
@@ -20384,12 +24721,21 @@
         "label": "Part 4 Lesson 8: は・が | N3 Study Desk"
       }
     ],
-    "partOfSpeech": "名詞 / サ変接続 / * / *",
+    "partOfSpeech": [
+      "Noun",
+      "Group 3 Verb"
+    ],
     "reading": "じゅけん",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "受験"
   },
   {
     "forms": [],
+    "grammarIds": [
+      "p2-group-i"
+    ],
     "id": "learning-support-19f08c094e9f",
     "kanji": [
       {
@@ -20407,12 +24753,21 @@
         "label": "Group I: Adverbs with fixed following forms | N3 Study Desk"
       }
     ],
-    "partOfSpeech": "動詞 / 自立 / * / *",
+    "partOfSpeech": [
+      "Group 2 Verb"
+    ],
     "reading": "たりる",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "足りる"
   },
   {
     "forms": [],
+    "grammarIds": [
+      "p2-group-g",
+      "p4-lesson-3"
+    ],
     "id": "learning-support-19f270c68ff2",
     "kanji": [
       {
@@ -20438,12 +24793,20 @@
         "label": "Part 4 Lesson 3: 他動詞・自動詞 | N3 Study Desk"
       }
     ],
-    "partOfSpeech": "動詞 / 自立 / * / *",
+    "partOfSpeech": [
+      "Group 1 Verb"
+    ],
     "reading": "けす",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "消す"
   },
   {
     "forms": [],
+    "grammarIds": [
+      "p4-lesson-9"
+    ],
     "id": "learning-support-1a680b4cf997",
     "kanji": [
       {
@@ -20461,12 +24824,20 @@
         "label": "Part 4 Lesson 9: 接続表現 | N3 Study Desk"
       }
     ],
-    "partOfSpeech": "動詞 / 自立 / * / *",
+    "partOfSpeech": [
+      "Group 2 Verb"
+    ],
     "reading": "しらせる",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "知らせる"
   },
   {
     "forms": [],
+    "grammarIds": [
+      "p2-group-h"
+    ],
     "id": "learning-support-1a83326bf021",
     "kanji": [
       {
@@ -20484,12 +24855,20 @@
         "label": "Group H: Special uses of たら・ば・と・なら | N3 Study Desk"
       }
     ],
-    "partOfSpeech": "名詞 / 一般 / * / *",
+    "partOfSpeech": [
+      "Noun"
+    ],
     "reading": "うん",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "運"
   },
   {
     "forms": [],
+    "grammarIds": [
+      "p2-group-d"
+    ],
     "id": "learning-support-1b8be0151e59",
     "kanji": [
       {
@@ -20507,12 +24886,20 @@
         "label": "Group D: Uses of よう | N3 Study Desk"
       }
     ],
-    "partOfSpeech": "動詞 / 自立 / * / *",
+    "partOfSpeech": [
+      "Group 2 Verb"
+    ],
     "reading": "わける",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "分ける"
   },
   {
     "forms": [],
+    "grammarIds": [
+      "p2-group-e"
+    ],
     "id": "learning-support-1d6d921b4f4c",
     "kanji": [
       {
@@ -20530,14 +24917,21 @@
         "label": "Group E: Uses of わけ | N3 Study Desk"
       }
     ],
-    "partOfSpeech": "動詞 / 自立 / * / *",
+    "partOfSpeech": [
+      "Group 1 Verb"
+    ],
     "reading": "すく",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "空く"
   },
   {
     "forms": [],
     "grammarIds": [
-      "l8-toha-kagiranai"
+      "l8-toha-kagiranai",
+      "p2-group-f",
+      "p2-group-i"
     ],
     "id": "learning-support-1df61a9f3bfc",
     "kanji": [
@@ -20564,8 +24958,13 @@
         "label": "Lesson 8: Strong and partial negation 絶対～ない・必ず～とは言えない"
       }
     ],
-    "partOfSpeech": "名詞 / 一般 / * / *",
+    "partOfSpeech": [
+      "Noun"
+    ],
     "reading": "にっぽんじん",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "日本人"
   },
   {
@@ -20573,7 +24972,9 @@
     "grammarIds": [
       "l11-you-to-suru",
       "l4-ippo",
-      "l7-toiu-koto"
+      "l7-toiu-koto",
+      "p2-group-f",
+      "p2-group-j"
     ],
     "id": "learning-support-1ed0362cc310",
     "kanji": [
@@ -20608,12 +25009,22 @@
         "label": "Lesson 11: Intentions, efforts, and attempts"
       }
     ],
-    "partOfSpeech": "名詞 / サ変接続 / * / *",
+    "partOfSpeech": [
+      "Noun",
+      "Group 3 Verb"
+    ],
     "reading": "はなし",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "話"
   },
   {
     "forms": [],
+    "grammarIds": [
+      "p2-group-a",
+      "p4-lesson-9"
+    ],
     "id": "learning-support-1f2dcc933be0",
     "kanji": [
       {
@@ -20635,14 +25046,20 @@
         "label": "Part 4 Lesson 9: 接続表現 | N3 Study Desk"
       }
     ],
-    "partOfSpeech": "動詞 / 自立 / * / *",
+    "partOfSpeech": [
+      "Group 2 Verb"
+    ],
     "reading": "いえる",
+    "topicIds": [
+      "communication-media"
+    ],
     "written": "言える"
   },
   {
     "forms": [],
     "grammarIds": [
-      "l1-aida"
+      "l1-aida",
+      "p3-lesson-3"
     ],
     "id": "learning-support-2007947770c4",
     "kanji": [
@@ -20669,12 +25086,20 @@
         "label": "Lesson 3: ～という・～といった | N3 Study Desk"
       }
     ],
-    "partOfSpeech": "名詞 / 一般 / * / *",
+    "partOfSpeech": [
+      "Noun"
+    ],
     "reading": "おかあさん",
+    "topicIds": [
+      "people-family-relationships"
+    ],
     "written": "お母さん"
   },
   {
     "forms": [],
+    "grammarIds": [
+      "p2-group-d"
+    ],
     "id": "learning-support-201a6277c40e",
     "kanji": [
       {
@@ -20692,12 +25117,21 @@
         "label": "Group D: Uses of よう | N3 Study Desk"
       }
     ],
-    "partOfSpeech": "名詞 / サ変接続 / * / *",
+    "partOfSpeech": [
+      "Noun",
+      "Group 3 Verb"
+    ],
     "reading": "ひょうじ",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "表示"
   },
   {
     "forms": [],
+    "grammarIds": [
+      "p2-group-i"
+    ],
     "id": "learning-support-207f712b629d",
     "kanji": [
       {
@@ -20715,12 +25149,20 @@
         "label": "Group I: Adverbs with fixed following forms | N3 Study Desk"
       }
     ],
-    "partOfSpeech": "副詞 / 一般 / * / *",
+    "partOfSpeech": [
+      "Adverb"
+    ],
     "reading": "いまに",
+    "topicIds": [
+      "places-directions"
+    ],
     "written": "今に"
   },
   {
     "forms": [],
+    "grammarIds": [
+      "p2-group-a"
+    ],
     "id": "learning-support-208282da053e",
     "kanji": [
       {
@@ -20738,12 +25180,21 @@
         "label": "Group A: Particles with various functions | N3 Study Desk"
       }
     ],
-    "partOfSpeech": "名詞 / サ変接続 / * / *",
+    "partOfSpeech": [
+      "Noun",
+      "Group 3 Verb"
+    ],
     "reading": "くべつ",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "区別"
   },
   {
     "forms": [],
+    "grammarIds": [
+      "p2-group-j"
+    ],
     "id": "learning-support-20b4c19f1014",
     "kanji": [
       {
@@ -20761,12 +25212,20 @@
         "label": "Group J: Forms that broaden meaning | N3 Study Desk"
       }
     ],
-    "partOfSpeech": "形容詞 / 自立 / * / *",
+    "partOfSpeech": [
+      "I-Adjective"
+    ],
     "reading": "みづらい",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "見づらい"
   },
   {
     "forms": [],
+    "grammarIds": [
+      "p2-group-e"
+    ],
     "id": "learning-support-20f9e15c14a2",
     "kanji": [
       {
@@ -20788,12 +25247,23 @@
         "label": "Group E: Uses of わけ | N3 Study Desk"
       }
     ],
-    "partOfSpeech": "名詞 / 一般 / * / *",
+    "partOfSpeech": [
+      "Noun"
+    ],
     "reading": "いちにんしょう",
+    "topicIds": [
+      "people-family-relationships"
+    ],
     "written": "一人称"
   },
   {
     "forms": [],
+    "grammarIds": [
+      "p2-group-a",
+      "p2-group-b",
+      "p2-group-g",
+      "p2-group-i"
+    ],
     "id": "learning-support-2139fab2183a",
     "kanji": [
       {
@@ -20823,12 +25293,20 @@
         "label": "Group I: Adverbs with fixed following forms | N3 Study Desk"
       }
     ],
-    "partOfSpeech": "動詞 / 自立 / * / *",
+    "partOfSpeech": [
+      "Group 1 Verb"
+    ],
     "reading": "おこなう",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "行う"
   },
   {
     "forms": [],
+    "grammarIds": [
+      "p4-lesson-10"
+    ],
     "id": "learning-support-21e28bfbca45",
     "kanji": [
       {
@@ -20846,12 +25324,22 @@
         "label": "Part 4 Lesson 10: 文章の雰囲気の統一 | N3 Study Desk"
       }
     ],
-    "partOfSpeech": "名詞 / サ変接続 / * / *",
+    "partOfSpeech": [
+      "Noun",
+      "Group 3 Verb"
+    ],
     "reading": "しよう",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "使用"
   },
   {
     "forms": [],
+    "grammarIds": [
+      "p2-group-i",
+      "p4-lesson-8"
+    ],
     "id": "learning-support-22836046e27b",
     "kanji": [
       {
@@ -20873,12 +25361,21 @@
         "label": "Part 4 Lesson 8: は・が | N3 Study Desk"
       }
     ],
-    "partOfSpeech": "名詞 / 一般 / * / *",
+    "partOfSpeech": [
+      "Noun"
+    ],
     "reading": "き",
+    "topicIds": [
+      "nature-weather"
+    ],
     "written": "木"
   },
   {
     "forms": [],
+    "grammarIds": [
+      "p2-group-h",
+      "p4-lesson-7"
+    ],
     "id": "learning-support-22ba4ea959f0",
     "kanji": [
       {
@@ -20900,12 +25397,20 @@
         "label": "Part 4 Lesson 7: こ・そ・あ | N3 Study Desk"
       }
     ],
-    "partOfSpeech": "名詞 / 一般 / * / *",
+    "partOfSpeech": [
+      "Noun"
+    ],
     "reading": "こうこう",
+    "topicIds": [
+      "school-study"
+    ],
     "written": "高校"
   },
   {
     "forms": [],
+    "grammarIds": [
+      "p2-group-h"
+    ],
     "id": "learning-support-22e1dcbc7795",
     "kanji": [
       {
@@ -20923,12 +25428,21 @@
         "label": "Group H: Special uses of たら・ば・と・なら | N3 Study Desk"
       }
     ],
-    "partOfSpeech": "名詞 / サ変接続 / * / *",
+    "partOfSpeech": [
+      "Noun",
+      "Group 3 Verb"
+    ],
     "reading": "かてい",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "仮定"
   },
   {
     "forms": [],
+    "grammarIds": [
+      "p4-lesson-7"
+    ],
     "id": "learning-support-2352c11d7248",
     "kanji": [
       {
@@ -20946,12 +25460,20 @@
         "label": "Part 4 Lesson 7: こ・そ・あ | N3 Study Desk"
       }
     ],
-    "partOfSpeech": "名詞 / 一般 / * / *",
+    "partOfSpeech": [
+      "Noun"
+    ],
     "reading": "どうきゅうせい",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "同級生"
   },
   {
     "forms": [],
+    "grammarIds": [
+      "p2-group-g"
+    ],
     "id": "learning-support-248a353e0981",
     "kanji": [
       {
@@ -20969,14 +25491,20 @@
         "label": "Group G: Organizing する and なる | N3 Study Desk"
       }
     ],
-    "partOfSpeech": "動詞 / 自立 / * / *",
+    "partOfSpeech": [
+      "Group 2 Verb"
+    ],
     "reading": "おきる",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "起きる"
   },
   {
     "forms": [],
     "grammarIds": [
-      "l4-ippo"
+      "l4-ippo",
+      "p4-lesson-9"
     ],
     "id": "learning-support-25664c20f924",
     "kanji": [
@@ -21015,12 +25543,20 @@
         "label": "Part 4 Lesson 9: 接続表現 | N3 Study Desk"
       }
     ],
-    "partOfSpeech": "接続詞 / * / * / *",
+    "partOfSpeech": [
+      "Conjunction"
+    ],
     "reading": "いっぽう",
+    "topicIds": [
+      "body-health"
+    ],
     "written": "一方"
   },
   {
     "forms": [],
+    "grammarIds": [
+      "p2-group-b"
+    ],
     "id": "learning-support-26a429509f06",
     "kanji": [
       {
@@ -21038,12 +25574,23 @@
         "label": "Group B: Words that work like particles | N3 Study Desk"
       }
     ],
-    "partOfSpeech": "名詞 / 一般 / * / *",
+    "partOfSpeech": [
+      "Noun"
+    ],
     "reading": "さくひん",
+    "topicIds": [
+      "work-business"
+    ],
     "written": "作品"
   },
   {
     "forms": [],
+    "grammarIds": [
+      "p2-group-b",
+      "p2-group-d",
+      "p2-group-g",
+      "p4-lesson-6"
+    ],
     "id": "learning-support-26edf660ece1",
     "kanji": [
       {
@@ -21085,12 +25632,29 @@
         "label": "Part 4 Lesson 6: ～てあげる・～てもらう・～てくれる | N3 Study Desk"
       }
     ],
-    "partOfSpeech": "名詞 / サ変接続 / * / *",
+    "partOfSpeech": [
+      "Noun",
+      "Group 3 Verb"
+    ],
     "reading": "こうい",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "行為"
   },
   {
     "forms": [],
+    "grammarIds": [
+      "p2-group-c",
+      "p2-group-d",
+      "p2-group-e",
+      "p2-group-f",
+      "p2-group-h",
+      "p2-group-j",
+      "p3-lesson-1",
+      "p3-lesson-2",
+      "p3-lesson-4"
+    ],
     "id": "learning-support-26f2ddd0a29a",
     "kanji": [
       {
@@ -21208,12 +25772,20 @@
         "label": "Lesson 4: Fixed patterns | N3 Study Desk"
       }
     ],
-    "partOfSpeech": "名詞 / 接尾 / 一般 / *",
+    "partOfSpeech": [
+      "Other"
+    ],
     "reading": "かたち",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "形"
   },
   {
     "forms": [],
+    "grammarIds": [
+      "p2-group-j"
+    ],
     "id": "learning-support-27046b71e1dd",
     "kanji": [
       {
@@ -21231,12 +25803,28 @@
         "label": "Group J: Forms that broaden meaning | N3 Study Desk"
       }
     ],
-    "partOfSpeech": "動詞 / 自立 / * / *",
+    "partOfSpeech": [
+      "Group 2 Verb"
+    ],
     "reading": "われる",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "割れる"
   },
   {
     "forms": [],
+    "grammarIds": [
+      "p2-group-b",
+      "p2-group-c",
+      "p2-group-d",
+      "p2-group-f",
+      "p2-group-g",
+      "p2-group-h",
+      "p2-group-j",
+      "p4-lesson-1",
+      "p4-lesson-6"
+    ],
     "id": "learning-support-271ffb6876a6",
     "kanji": [
       {
@@ -21302,12 +25890,20 @@
         "label": "Part 4 Lesson 6: ～てあげる・～てもらう・～てくれる | N3 Study Desk"
       }
     ],
-    "partOfSpeech": "名詞 / 一般 / * / *",
+    "partOfSpeech": [
+      "Noun"
+    ],
     "reading": "どうし",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "動詞"
   },
   {
     "forms": [],
+    "grammarIds": [
+      "p2-group-a"
+    ],
     "id": "learning-support-27df3d58020a",
     "kanji": [
       {
@@ -21325,12 +25921,20 @@
         "label": "Group A: Particles with various functions | N3 Study Desk"
       }
     ],
-    "partOfSpeech": "名詞 / 一般 / * / *",
+    "partOfSpeech": [
+      "Noun"
+    ],
     "reading": "あし",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "足"
   },
   {
     "forms": [],
+    "grammarIds": [
+      "p2-group-b"
+    ],
     "id": "learning-support-290b31d5575c",
     "kanji": [
       {
@@ -21348,12 +25952,20 @@
         "label": "Group B: Words that work like particles | N3 Study Desk"
       }
     ],
-    "partOfSpeech": "名詞 / 一般 / * / *",
+    "partOfSpeech": [
+      "Noun"
+    ],
     "reading": "かびん",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "花びん"
   },
   {
     "forms": [],
+    "grammarIds": [
+      "p2-group-e"
+    ],
     "id": "learning-support-2932bfdf1f9d",
     "kanji": [
       {
@@ -21375,12 +25987,20 @@
         "label": "Group E: Uses of わけ | N3 Study Desk"
       }
     ],
-    "partOfSpeech": "名詞 / 一般 / * / *",
+    "partOfSpeech": [
+      "Noun"
+    ],
     "reading": "じょうしき",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "常識"
   },
   {
     "forms": [],
+    "grammarIds": [
+      "p3-lesson-4"
+    ],
     "id": "learning-support-296c38ca427b",
     "kanji": [
       {
@@ -21398,12 +26018,20 @@
         "label": "Lesson 4: Fixed patterns | N3 Study Desk"
       }
     ],
-    "partOfSpeech": "動詞 / 自立 / * / *",
+    "partOfSpeech": [
+      "Group 2 Verb"
+    ],
     "reading": "おくれる",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "送れる"
   },
   {
     "forms": [],
+    "grammarIds": [
+      "p2-group-b"
+    ],
     "id": "learning-support-29f857d59ffc",
     "kanji": [
       {
@@ -21421,12 +26049,23 @@
         "label": "Group B: Words that work like particles | N3 Study Desk"
       }
     ],
-    "partOfSpeech": "名詞 / サ変接続 / * / *",
+    "partOfSpeech": [
+      "Noun",
+      "Group 3 Verb"
+    ],
     "reading": "ねあげ",
+    "topicIds": [
+      "money-shopping"
+    ],
     "written": "値上げ"
   },
   {
     "forms": [],
+    "grammarIds": [
+      "p2-group-a",
+      "p3-lesson-3",
+      "p4-lesson-9"
+    ],
     "id": "learning-support-2c4b8df184dd",
     "kanji": [
       {
@@ -21452,12 +26091,22 @@
         "label": "Lesson 3: ～という・～といった | N3 Study Desk"
       }
     ],
-    "partOfSpeech": "名詞 / 一般 / * / *",
+    "partOfSpeech": [
+      "Noun"
+    ],
     "reading": "しょくご",
+    "topicIds": [
+      "time-dates-schedules",
+      "food-cooking"
+    ],
     "written": "食後"
   },
   {
     "forms": [],
+    "grammarIds": [
+      "p2-group-e",
+      "p4-lesson-8"
+    ],
     "id": "learning-support-2cc68f116212",
     "kanji": [
       {
@@ -21479,12 +26128,20 @@
         "label": "Part 4 Lesson 8: は・が | N3 Study Desk"
       }
     ],
-    "partOfSpeech": "名詞 / 一般 / * / *",
+    "partOfSpeech": [
+      "Noun"
+    ],
     "reading": "のうりょく",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "能力"
   },
   {
     "forms": [],
+    "grammarIds": [
+      "p3-lesson-4"
+    ],
     "id": "learning-support-2cdcbaf94853",
     "kanji": [
       {
@@ -21502,14 +26159,24 @@
         "label": "Lesson 4: Fixed patterns | N3 Study Desk"
       }
     ],
-    "partOfSpeech": "名詞 / 一般 / * / *",
+    "partOfSpeech": [
+      "Noun"
+    ],
     "reading": "やまやま",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "山々"
   },
   {
     "forms": [],
     "grammarIds": [
-      "l4-ni-taishite"
+      "l4-ni-taishite",
+      "p2-group-c",
+      "p2-group-e",
+      "p2-group-f",
+      "p2-group-j",
+      "p4-lesson-7"
     ],
     "id": "learning-support-2d555713001b",
     "kanji": [
@@ -21548,12 +26215,21 @@
         "label": "Part 4 Lesson 7: こ・そ・あ | N3 Study Desk"
       }
     ],
-    "partOfSpeech": "動詞 / 自立 / * / *",
+    "partOfSpeech": [
+      "Group 1 Verb"
+    ],
     "reading": "あそぶ",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "遊ぶ"
   },
   {
     "forms": [],
+    "grammarIds": [
+      "p2-group-g",
+      "p4-lesson-3"
+    ],
     "id": "learning-support-2d7d2562d49a",
     "kanji": [
       {
@@ -21579,12 +26255,21 @@
         "label": "Part 4 Lesson 3: 他動詞・自動詞 | N3 Study Desk"
       }
     ],
-    "partOfSpeech": "名詞 / サ変接続 / * / *",
+    "partOfSpeech": [
+      "Noun",
+      "Group 3 Verb"
+    ],
     "reading": "ちゅうもく",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "注目"
   },
   {
     "forms": [],
+    "grammarIds": [
+      "p2-group-f"
+    ],
     "id": "learning-support-2e0f32c097f5",
     "kanji": [
       {
@@ -21602,12 +26287,21 @@
         "label": "Group F: Uses of ばかり | N3 Study Desk"
       }
     ],
-    "partOfSpeech": "動詞 / 自立 / * / *",
+    "partOfSpeech": [
+      "Group 1 Verb"
+    ],
     "reading": "おこる",
+    "topicIds": [
+      "feelings-personality"
+    ],
     "written": "怒る"
   },
   {
     "forms": [],
+    "grammarIds": [
+      "p2-group-a",
+      "p2-group-i"
+    ],
     "id": "learning-support-2eb5b8f659a2",
     "kanji": [
       {
@@ -21633,12 +26327,25 @@
         "label": "Group I: Adverbs with fixed following forms | N3 Study Desk"
       }
     ],
-    "partOfSpeech": "副詞 / 助詞類接続 / * / *",
+    "partOfSpeech": [
+      "Adverb"
+    ],
     "reading": "まったく",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "全く"
   },
   {
     "forms": [],
+    "grammarIds": [
+      "p2-group-a",
+      "p2-group-c",
+      "p2-group-d",
+      "p2-group-e",
+      "p3-lesson-1",
+      "p3-lesson-2"
+    ],
     "id": "learning-support-2ec5748d4782",
     "kanji": [
       {
@@ -21688,12 +26395,20 @@
         "label": "Lesson 2: Noun description | N3 Study Desk"
       }
     ],
-    "partOfSpeech": "名詞 / 接尾 / 助数詞 / *",
+    "partOfSpeech": [
+      "Counter or Number"
+    ],
     "reading": "ぶ",
+    "topicIds": [
+      "work-business"
+    ],
     "written": "部"
   },
   {
     "forms": [],
+    "grammarIds": [
+      "p2-group-d"
+    ],
     "id": "learning-support-2ec7e341be13",
     "kanji": [
       {
@@ -21711,12 +26426,20 @@
         "label": "Group D: Uses of よう | N3 Study Desk"
       }
     ],
-    "partOfSpeech": "名詞 / 一般 / * / *",
+    "partOfSpeech": [
+      "Noun"
+    ],
     "reading": "もじ",
+    "topicIds": [
+      "feelings-personality"
+    ],
     "written": "文字"
   },
   {
     "forms": [],
+    "grammarIds": [
+      "p2-group-d"
+    ],
     "id": "learning-support-2f65b72932d6",
     "kanji": [
       {
@@ -21734,12 +26457,21 @@
         "label": "Group D: Uses of よう | N3 Study Desk"
       }
     ],
-    "partOfSpeech": "名詞 / 一般 / * / *",
+    "partOfSpeech": [
+      "Noun"
+    ],
     "reading": "かきことば",
+    "topicIds": [
+      "school-study"
+    ],
     "written": "書き言葉"
   },
   {
     "forms": [],
+    "grammarIds": [
+      "p2-group-h",
+      "p2-group-i"
+    ],
     "id": "learning-support-2fd7d45c8d01",
     "kanji": [
       {
@@ -21761,12 +26493,20 @@
         "label": "Group I: Adverbs with fixed following forms | N3 Study Desk"
       }
     ],
-    "partOfSpeech": "名詞 / 一般 / * / *",
+    "partOfSpeech": [
+      "Noun"
+    ],
     "reading": "おとこ",
+    "topicIds": [
+      "people-family-relationships"
+    ],
     "written": "男"
   },
   {
     "forms": [],
+    "grammarIds": [
+      "p2-group-j"
+    ],
     "id": "learning-support-2ffd4ef16903",
     "kanji": [
       {
@@ -21784,12 +26524,20 @@
         "label": "Group J: Forms that broaden meaning | N3 Study Desk"
       }
     ],
-    "partOfSpeech": "動詞 / 自立 / * / *",
+    "partOfSpeech": [
+      "Group 2 Verb"
+    ],
     "reading": "よみかける",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "読みかける"
   },
   {
     "forms": [],
+    "grammarIds": [
+      "p4-lesson-2"
+    ],
     "id": "learning-support-3030916eee72",
     "kanji": [
       {
@@ -21807,12 +26555,21 @@
         "label": "Part 4 Lesson 2: 時制・～ている | N3 Study Desk"
       }
     ],
-    "partOfSpeech": "名詞 / 副詞可能 / * / *",
+    "partOfSpeech": [
+      "Noun",
+      "Adverb"
+    ],
     "reading": "げんざい",
+    "topicIds": [
+      "time-dates-schedules"
+    ],
     "written": "現在"
   },
   {
     "forms": [],
+    "grammarIds": [
+      "p4-lesson-7"
+    ],
     "id": "learning-support-30cf0aaae210",
     "kanji": [
       {
@@ -21834,12 +26591,27 @@
         "label": "Part 4 Lesson 7: こ・そ・あ | N3 Study Desk"
       }
     ],
-    "partOfSpeech": "動詞 / 自立 / * / *",
+    "partOfSpeech": [
+      "Group 1 Verb"
+    ],
     "reading": "さす",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "指す"
   },
   {
     "forms": [],
+    "grammarIds": [
+      "p2-group-c",
+      "p2-group-d",
+      "p2-group-g",
+      "p2-group-h",
+      "p2-group-i",
+      "p3-lesson-2",
+      "p3-lesson-3",
+      "p4-lesson-7"
+    ],
     "id": "learning-support-319e218950c1",
     "kanji": [
       {
@@ -21889,12 +26661,23 @@
         "label": "Lesson 3: ～という・～といった | N3 Study Desk"
       }
     ],
-    "partOfSpeech": "名詞 / 副詞可能 / * / *",
+    "partOfSpeech": [
+      "Noun",
+      "Adverb"
+    ],
     "reading": "まえ",
+    "topicIds": [
+      "time-dates-schedules"
+    ],
     "written": "前"
   },
   {
     "forms": [],
+    "grammarIds": [
+      "p2-group-h",
+      "p3-lesson-2",
+      "p4-lesson-3"
+    ],
     "id": "learning-support-321963ed3549",
     "kanji": [
       {
@@ -21936,12 +26719,20 @@
         "label": "Lesson 2: Noun description | N3 Study Desk"
       }
     ],
-    "partOfSpeech": "動詞 / 自立 / * / *",
+    "partOfSpeech": [
+      "Group 2 Verb"
+    ],
     "reading": "あける",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "開ける"
   },
   {
     "forms": [],
+    "grammarIds": [
+      "p2-group-j"
+    ],
     "id": "learning-support-327c67b8308d",
     "kanji": [
       {
@@ -21959,12 +26750,20 @@
         "label": "Group J: Forms that broaden meaning | N3 Study Desk"
       }
     ],
-    "partOfSpeech": "動詞 / 自立 / * / *",
+    "partOfSpeech": [
+      "Group 1 Verb"
+    ],
     "reading": "わらう",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "笑う"
   },
   {
     "forms": [],
+    "grammarIds": [
+      "p2-group-a"
+    ],
     "id": "learning-support-334423945af3",
     "kanji": [
       {
@@ -21982,12 +26781,20 @@
         "label": "Group A: Particles with various functions | N3 Study Desk"
       }
     ],
-    "partOfSpeech": "動詞 / 自立 / * / *",
+    "partOfSpeech": [
+      "Group 2 Verb"
+    ],
     "reading": "つくれる",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "作れる"
   },
   {
     "forms": [],
+    "grammarIds": [
+      "p2-group-g"
+    ],
     "id": "learning-support-33875d61358c",
     "kanji": [
       {
@@ -22005,12 +26812,22 @@
         "label": "Group G: Organizing する and なる | N3 Study Desk"
       }
     ],
-    "partOfSpeech": "名詞 / 一般 / * / *",
+    "partOfSpeech": [
+      "Noun"
+    ],
     "reading": "かじ",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "家事"
   },
   {
     "forms": [],
+    "grammarIds": [
+      "p2-group-f",
+      "p2-group-h",
+      "p3-lesson-1"
+    ],
     "id": "learning-support-33b86212ca4f",
     "kanji": [
       {
@@ -22040,12 +26857,20 @@
         "label": "Lesson 1: Quotation | N3 Study Desk"
       }
     ],
-    "partOfSpeech": "形容詞 / 自立 / * / *",
+    "partOfSpeech": [
+      "I-Adjective"
+    ],
     "reading": "やすい",
+    "topicIds": [
+      "money-shopping"
+    ],
     "written": "安い"
   },
   {
     "forms": [],
+    "grammarIds": [
+      "p2-group-b"
+    ],
     "id": "learning-support-33ea92054544",
     "kanji": [
       {
@@ -22063,12 +26888,20 @@
         "label": "Group B: Words that work like particles | N3 Study Desk"
       }
     ],
-    "partOfSpeech": "名詞 / 一般 / * / *",
+    "partOfSpeech": [
+      "Noun"
+    ],
     "reading": "めいもく",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "名目"
   },
   {
     "forms": [],
+    "grammarIds": [
+      "p2-group-f"
+    ],
     "id": "learning-support-34108268e1f3",
     "kanji": [
       {
@@ -22086,12 +26919,20 @@
         "label": "Group F: Uses of ばかり | N3 Study Desk"
       }
     ],
-    "partOfSpeech": "名詞 / 数 / * / *",
+    "partOfSpeech": [
+      "Counter or Number"
+    ],
     "reading": "に",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "二"
   },
   {
     "forms": [],
+    "grammarIds": [
+      "p2-group-b"
+    ],
     "id": "learning-support-3464318c23f5",
     "kanji": [
       {
@@ -22109,12 +26950,20 @@
         "label": "Group B: Words that work like particles | N3 Study Desk"
       }
     ],
-    "partOfSpeech": "動詞 / 自立 / * / *",
+    "partOfSpeech": [
+      "Group 1 Verb"
+    ],
     "reading": "うたう",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "歌う"
   },
   {
     "forms": [],
+    "grammarIds": [
+      "p2-group-h"
+    ],
     "id": "learning-support-349c1849f28c",
     "kanji": [
       {
@@ -22132,12 +26981,22 @@
         "label": "Group H: Special uses of たら・ば・と・なら | N3 Study Desk"
       }
     ],
-    "partOfSpeech": "動詞 / 自立 / * / *",
+    "partOfSpeech": [
+      "Group 1 Verb"
+    ],
     "reading": "くばる",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "配る"
   },
   {
     "forms": [],
+    "grammarIds": [
+      "p2-group-b",
+      "p2-group-c",
+      "p2-group-i"
+    ],
     "id": "learning-support-358fc382cb32",
     "kanji": [
       {
@@ -22167,12 +27026,20 @@
         "label": "Group I: Adverbs with fixed following forms | N3 Study Desk"
       }
     ],
-    "partOfSpeech": "名詞 / 接尾 / 助数詞 / *",
+    "partOfSpeech": [
+      "Counter or Number"
+    ],
     "reading": "とし",
+    "topicIds": [
+      "time-dates-schedules"
+    ],
     "written": "年"
   },
   {
     "forms": [],
+    "grammarIds": [
+      "p2-group-i"
+    ],
     "id": "learning-support-360e450122f6",
     "kanji": [
       {
@@ -22190,12 +27057,20 @@
         "label": "Group I: Adverbs with fixed following forms | N3 Study Desk"
       }
     ],
-    "partOfSpeech": "動詞 / 自立 / * / *",
+    "partOfSpeech": [
+      "Group 2 Verb"
+    ],
     "reading": "えらべる",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "選べる"
   },
   {
     "forms": [],
+    "grammarIds": [
+      "p2-group-i"
+    ],
     "id": "learning-support-370b10e13a16",
     "kanji": [
       {
@@ -22213,12 +27088,20 @@
         "label": "Group I: Adverbs with fixed following forms | N3 Study Desk"
       }
     ],
-    "partOfSpeech": "名詞 / 一般 / * / *",
+    "partOfSpeech": [
+      "Noun"
+    ],
     "reading": "ふくし",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "副詞"
   },
   {
     "forms": [],
+    "grammarIds": [
+      "p2-group-b"
+    ],
     "id": "learning-support-372ce69caf1f",
     "kanji": [
       {
@@ -22236,12 +27119,20 @@
         "label": "Group B: Words that work like particles | N3 Study Desk"
       }
     ],
-    "partOfSpeech": "名詞 / 一般 / * / *",
+    "partOfSpeech": [
+      "Noun"
+    ],
     "reading": "いし",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "石"
   },
   {
     "forms": [],
+    "grammarIds": [
+      "p2-group-j"
+    ],
     "id": "learning-support-375c7ef77fcb",
     "kanji": [
       {
@@ -22259,12 +27150,20 @@
         "label": "Group J: Forms that broaden meaning | N3 Study Desk"
       }
     ],
-    "partOfSpeech": "動詞 / 自立 / * / *",
+    "partOfSpeech": [
+      "Group 1 Verb"
+    ],
     "reading": "ふむ",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "踏む"
   },
   {
     "forms": [],
+    "grammarIds": [
+      "p2-group-j"
+    ],
     "id": "learning-support-375cfbefdd6b",
     "kanji": [
       {
@@ -22282,12 +27181,20 @@
         "label": "Group J: Forms that broaden meaning | N3 Study Desk"
       }
     ],
-    "partOfSpeech": "動詞 / 自立 / * / *",
+    "partOfSpeech": [
+      "Group 2 Verb"
+    ],
     "reading": "でかける",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "出かける"
   },
   {
     "forms": [],
+    "grammarIds": [
+      "p3-lesson-3"
+    ],
     "id": "learning-support-379317368752",
     "kanji": [
       {
@@ -22305,12 +27212,21 @@
         "label": "Lesson 3: ～という・～といった | N3 Study Desk"
       }
     ],
-    "partOfSpeech": "名詞 / 副詞可能 / * / *",
+    "partOfSpeech": [
+      "Noun",
+      "Adverb"
+    ],
     "reading": "こんげつ",
+    "topicIds": [
+      "time-dates-schedules"
+    ],
     "written": "今月"
   },
   {
     "forms": [],
+    "grammarIds": [
+      "p2-group-h"
+    ],
     "id": "learning-support-37bb355b59eb",
     "kanji": [
       {
@@ -22328,12 +27244,21 @@
         "label": "Group H: Special uses of たら・ば・と・なら | N3 Study Desk"
       }
     ],
-    "partOfSpeech": "名詞 / 副詞可能 / * / *",
+    "partOfSpeech": [
+      "Noun",
+      "Adverb"
+    ],
     "reading": "こんかい",
+    "topicIds": [
+      "time-dates-schedules"
+    ],
     "written": "今回"
   },
   {
     "forms": [],
+    "grammarIds": [
+      "p2-group-d"
+    ],
     "id": "learning-support-38a229670d81",
     "kanji": [
       {
@@ -22351,12 +27276,20 @@
         "label": "Group D: Uses of よう | N3 Study Desk"
       }
     ],
-    "partOfSpeech": "動詞 / 自立 / * / *",
+    "partOfSpeech": [
+      "Group 1 Verb"
+    ],
     "reading": "つきあう",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "つき合う"
   },
   {
     "forms": [],
+    "grammarIds": [
+      "p2-group-a"
+    ],
     "id": "learning-support-38a8411ec3a9",
     "kanji": [
       {
@@ -22374,12 +27307,20 @@
         "label": "Group A: Particles with various functions | N3 Study Desk"
       }
     ],
-    "partOfSpeech": "連体詞 / * / * / *",
+    "partOfSpeech": [
+      "Other"
+    ],
     "reading": "ちいさな",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "小さな"
   },
   {
     "forms": [],
+    "grammarIds": [
+      "p4-lesson-3"
+    ],
     "id": "learning-support-397b682fa72a",
     "kanji": [
       {
@@ -22397,12 +27338,29 @@
         "label": "Part 4 Lesson 3: 他動詞・自動詞 | N3 Study Desk"
       }
     ],
-    "partOfSpeech": "動詞 / 自立 / * / *",
+    "partOfSpeech": [
+      "Group 1 Verb"
+    ],
     "reading": "とぶ",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "飛ぶ"
   },
   {
     "forms": [],
+    "grammarIds": [
+      "p2-group-a",
+      "p2-group-b",
+      "p2-group-c",
+      "p2-group-h",
+      "p3-lesson-1",
+      "p4-lesson-1",
+      "p4-lesson-2",
+      "p4-lesson-3",
+      "p4-lesson-7",
+      "p4-lesson-8"
+    ],
     "id": "learning-support-39b0ac16ca24",
     "kanji": [
       {
@@ -22528,12 +27486,21 @@
         "label": "Lesson 1: Quotation | N3 Study Desk"
       }
     ],
-    "partOfSpeech": "名詞 / 一般 / * / *",
+    "partOfSpeech": [
+      "Noun"
+    ],
     "reading": "ぶん",
+    "topicIds": [
+      "school-study"
+    ],
     "written": "文"
   },
   {
     "forms": [],
+    "grammarIds": [
+      "p4-lesson-1",
+      "p4-lesson-2"
+    ],
     "id": "learning-support-3a292b13b76a",
     "kanji": [
       {
@@ -22555,12 +27522,20 @@
         "label": "Part 4 Lesson 2: 時制・～ている | N3 Study Desk"
       }
     ],
-    "partOfSpeech": "副詞 / 一般 / * / *",
+    "partOfSpeech": [
+      "Adverb"
+    ],
     "reading": "まさしく",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "正しく"
   },
   {
     "forms": [],
+    "grammarIds": [
+      "p2-group-d"
+    ],
     "id": "learning-support-3a2de0afcae9",
     "kanji": [
       {
@@ -22578,12 +27553,20 @@
         "label": "Group D: Uses of よう | N3 Study Desk"
       }
     ],
-    "partOfSpeech": "連体詞 / * / * / *",
+    "partOfSpeech": [
+      "Other"
+    ],
     "reading": "おおきな",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "大きな"
   },
   {
     "forms": [],
+    "grammarIds": [
+      "p4-lesson-3"
+    ],
     "id": "learning-support-3aadcbc234d3",
     "kanji": [
       {
@@ -22605,12 +27588,20 @@
         "label": "Part 4 Lesson 3: 他動詞・自動詞 | N3 Study Desk"
       }
     ],
-    "partOfSpeech": "動詞 / 自立 / * / *",
+    "partOfSpeech": [
+      "Group 2 Verb"
+    ],
     "reading": "とめる",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "止める"
   },
   {
     "forms": [],
+    "grammarIds": [
+      "p3-lesson-1"
+    ],
     "id": "learning-support-3af668310ec7",
     "kanji": [
       {
@@ -22628,12 +27619,20 @@
         "label": "Lesson 1: Quotation | N3 Study Desk"
       }
     ],
-    "partOfSpeech": "名詞 / 一般 / * / *",
+    "partOfSpeech": [
+      "Noun"
+    ],
     "reading": "ことば",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "詞"
   },
   {
     "forms": [],
+    "grammarIds": [
+      "p4-lesson-8"
+    ],
     "id": "learning-support-3af80b5b2a96",
     "kanji": [
       {
@@ -22651,12 +27650,20 @@
         "label": "Part 4 Lesson 8: は・が | N3 Study Desk"
       }
     ],
-    "partOfSpeech": "動詞 / 自立 / * / *",
+    "partOfSpeech": [
+      "Group 1 Verb"
+    ],
     "reading": "ぬぐ",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "脱ぐ"
   },
   {
     "forms": [],
+    "grammarIds": [
+      "p2-group-b"
+    ],
     "id": "learning-support-3b88931b34c1",
     "kanji": [
       {
@@ -22674,12 +27681,21 @@
         "label": "Group B: Words that work like particles | N3 Study Desk"
       }
     ],
-    "partOfSpeech": "名詞 / サ変接続 / * / *",
+    "partOfSpeech": [
+      "Noun",
+      "Group 3 Verb"
+    ],
     "reading": "はんだん",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "判断"
   },
   {
     "forms": [],
+    "grammarIds": [
+      "p2-group-j"
+    ],
     "id": "learning-support-3bd1fc1cbbac",
     "kanji": [
       {
@@ -22697,12 +27713,20 @@
         "label": "Group J: Forms that broaden meaning | N3 Study Desk"
       }
     ],
-    "partOfSpeech": "動詞 / 自立 / * / *",
+    "partOfSpeech": [
+      "Group 1 Verb"
+    ],
     "reading": "かえる",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "返る"
   },
   {
     "forms": [],
+    "grammarIds": [
+      "p2-group-i"
+    ],
     "id": "learning-support-3be88666ba0f",
     "kanji": [
       {
@@ -22720,12 +27744,21 @@
         "label": "Group I: Adverbs with fixed following forms | N3 Study Desk"
       }
     ],
-    "partOfSpeech": "動詞 / 自立 / * / *",
+    "partOfSpeech": [
+      "Group 2 Verb"
+    ],
     "reading": "はれる",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "晴れる"
   },
   {
     "forms": [],
+    "grammarIds": [
+      "p2-group-b",
+      "p3-lesson-2"
+    ],
     "id": "learning-support-3bed765810a1",
     "kanji": [
       {
@@ -22755,12 +27788,20 @@
         "label": "Lesson 2: Noun description | N3 Study Desk"
       }
     ],
-    "partOfSpeech": "助詞 / 格助詞 / 連語 / *",
+    "partOfSpeech": [
+      "Expression"
+    ],
     "reading": "にたいする",
+    "topicIds": [
+      "school-study"
+    ],
     "written": "に対する"
   },
   {
     "forms": [],
+    "grammarIds": [
+      "p3-lesson-3"
+    ],
     "id": "learning-support-3c32cfb08a14",
     "kanji": [
       {
@@ -22778,8 +27819,13 @@
         "label": "Lesson 3: ～という・～といった | N3 Study Desk"
       }
     ],
-    "partOfSpeech": "名詞 / 一般 / * / *",
+    "partOfSpeech": [
+      "Noun"
+    ],
     "reading": "くろ",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "黒"
   },
   {
@@ -22804,12 +27850,20 @@
         "label": "Lesson 3: Degree and comparison 比べれば…・～がいちばん"
       }
     ],
-    "partOfSpeech": "名詞 / 接尾 / 助数詞 / *",
+    "partOfSpeech": [
+      "Counter or Number"
+    ],
     "reading": "ぶん",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "分"
   },
   {
     "forms": [],
+    "grammarIds": [
+      "p2-group-c"
+    ],
     "id": "learning-support-3c62d87ef0d5",
     "kanji": [
       {
@@ -22827,12 +27881,21 @@
         "label": "Group C: Uses of こと and の | N3 Study Desk"
       }
     ],
-    "partOfSpeech": "名詞 / 副詞可能 / * / *",
+    "partOfSpeech": [
+      "Noun",
+      "Adverb"
+    ],
     "reading": "たんじかん",
+    "topicIds": [
+      "time-dates-schedules"
+    ],
     "written": "短時間"
   },
   {
     "forms": [],
+    "grammarIds": [
+      "p3-lesson-4"
+    ],
     "id": "learning-support-3dc18de08548",
     "kanji": [
       {
@@ -22850,12 +27913,24 @@
         "label": "Lesson 4: Fixed patterns | N3 Study Desk"
       }
     ],
-    "partOfSpeech": "名詞 / 一般 / * / *",
+    "partOfSpeech": [
+      "Noun"
+    ],
     "reading": "くみあわせ",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "組み合わせ"
   },
   {
     "forms": [],
+    "grammarIds": [
+      "p2-group-a",
+      "p2-group-b",
+      "p2-group-d",
+      "p2-group-g",
+      "p2-group-h"
+    ],
     "id": "learning-support-3dd04815d84a",
     "kanji": [
       {
@@ -22901,15 +27976,24 @@
         "label": "Group H: Special uses of たら・ば・と・なら | N3 Study Desk"
       }
     ],
-    "partOfSpeech": "動詞 / 自立 / * / *",
+    "partOfSpeech": [
+      "Group 1 Verb"
+    ],
     "reading": "ふくむ",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "含む"
   },
   {
     "forms": [],
     "grammarIds": [
       "l4-kawari-ni",
-      "l6-ba-tara-nara"
+      "l6-ba-tara-nara",
+      "p2-group-e",
+      "p2-group-i",
+      "p3-lesson-1",
+      "p3-lesson-3"
     ],
     "id": "learning-support-3e015d0a8b33",
     "kanji": [
@@ -22952,12 +28036,20 @@
         "label": "Lesson 3: ～という・～といった | N3 Study Desk"
       }
     ],
-    "partOfSpeech": "名詞 / 一般 / * / *",
+    "partOfSpeech": [
+      "Noun"
+    ],
     "reading": "おかね",
+    "topicIds": [
+      "money-shopping"
+    ],
     "written": "お金"
   },
   {
     "forms": [],
+    "grammarIds": [
+      "p2-group-a"
+    ],
     "id": "learning-support-3fd0035449e7",
     "kanji": [
       {
@@ -22975,12 +28067,20 @@
         "label": "Group A: Particles with various functions | N3 Study Desk"
       }
     ],
-    "partOfSpeech": "名詞 / 一般 / * / *",
+    "partOfSpeech": [
+      "Noun"
+    ],
     "reading": "げんかい",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "限界"
   },
   {
     "forms": [],
+    "grammarIds": [
+      "p2-group-c"
+    ],
     "id": "learning-support-402b531dd3da",
     "kanji": [
       {
@@ -22998,14 +28098,21 @@
         "label": "Group C: Uses of こと and の | N3 Study Desk"
       }
     ],
-    "partOfSpeech": "動詞 / 自立 / * / *",
+    "partOfSpeech": [
+      "Group 2 Verb"
+    ],
     "reading": "ながめる",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "眺める"
   },
   {
     "forms": [],
     "grammarIds": [
-      "l4-to-iu-yori"
+      "l4-to-iu-yori",
+      "p2-group-d",
+      "p2-group-i"
     ],
     "id": "learning-support-406d15f6e9b0",
     "kanji": [
@@ -23032,12 +28139,20 @@
         "label": "Lesson 4: Contrast ～とは違って"
       }
     ],
-    "partOfSpeech": "形容詞 / 自立 / * / *",
+    "partOfSpeech": [
+      "I-Adjective"
+    ],
     "reading": "はやい",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "速い"
   },
   {
     "forms": [],
+    "grammarIds": [
+      "p2-group-h"
+    ],
     "id": "learning-support-419813adc361",
     "kanji": [
       {
@@ -23059,12 +28174,20 @@
         "label": "Group H: Special uses of たら・ば・と・なら | N3 Study Desk"
       }
     ],
-    "partOfSpeech": "名詞 / 一般 / * / *",
+    "partOfSpeech": [
+      "Noun"
+    ],
     "reading": "いこう",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "意向"
   },
   {
     "forms": [],
+    "grammarIds": [
+      "p4-lesson-1"
+    ],
     "id": "learning-support-41e21e609c17",
     "kanji": [
       {
@@ -23082,12 +28205,20 @@
         "label": "Part 4 Lesson 1: 文の始めと終わりの対応 | N3 Study Desk"
       }
     ],
-    "partOfSpeech": "動詞 / 自立 / * / *",
+    "partOfSpeech": [
+      "Group 2 Verb"
+    ],
     "reading": "おもいだせる",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "思い出せる"
   },
   {
     "forms": [],
+    "grammarIds": [
+      "p4-lesson-9"
+    ],
     "id": "learning-support-41e221bc4d10",
     "kanji": [
       {
@@ -23105,12 +28236,21 @@
         "label": "Part 4 Lesson 9: 接続表現 | N3 Study Desk"
       }
     ],
-    "partOfSpeech": "接頭詞 / 名詞接続 / * / *",
+    "partOfSpeech": [
+      "Other"
+    ],
     "reading": "ふ",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "不"
   },
   {
     "forms": [],
+    "grammarIds": [
+      "p2-group-d",
+      "p4-lesson-1"
+    ],
     "id": "learning-support-427a61827129",
     "kanji": [
       {
@@ -23132,12 +28272,20 @@
         "label": "Part 4 Lesson 1: 文の始めと終わりの対応 | N3 Study Desk"
       }
     ],
-    "partOfSpeech": "形容詞 / 自立 / * / *",
+    "partOfSpeech": [
+      "I-Adjective"
+    ],
     "reading": "やさしい",
+    "topicIds": [
+      "feelings-personality"
+    ],
     "written": "優しい"
   },
   {
     "forms": [],
+    "grammarIds": [
+      "p2-group-e"
+    ],
     "id": "learning-support-43f91bcf9d9c",
     "kanji": [
       {
@@ -23155,8 +28303,13 @@
         "label": "Group E: Uses of わけ | N3 Study Desk"
       }
     ],
-    "partOfSpeech": "名詞 / 一般 / * / *",
+    "partOfSpeech": [
+      "Noun"
+    ],
     "reading": "げんいん",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "原因"
   },
   {
@@ -23191,15 +28344,25 @@
         "label": "Lesson 4: Contrast ～とは違って"
       }
     ],
-    "partOfSpeech": "名詞 / 接尾 / 一般 / *",
+    "partOfSpeech": [
+      "Other"
+    ],
     "reading": "かん",
+    "topicIds": [
+      "feelings-personality"
+    ],
     "written": "感"
   },
   {
     "forms": [],
     "grammarIds": [
       "l4-ippo",
-      "l6-ba-tara-nara"
+      "l6-ba-tara-nara",
+      "p2-group-d",
+      "p2-group-g",
+      "p3-lesson-1",
+      "p3-lesson-2",
+      "p3-lesson-4"
     ],
     "id": "learning-support-452102ad0a8b",
     "kanji": [
@@ -23242,12 +28405,25 @@
         "label": "Lesson 4: Fixed patterns | N3 Study Desk"
       }
     ],
-    "partOfSpeech": "名詞 / 一般 / * / *",
+    "partOfSpeech": [
+      "Noun"
+    ],
     "reading": "がくせい",
+    "topicIds": [
+      "school-study"
+    ],
     "written": "学生"
   },
   {
     "forms": [],
+    "grammarIds": [
+      "p2-group-c",
+      "p2-group-d",
+      "p2-group-e",
+      "p2-group-f",
+      "p2-group-h",
+      "p2-group-j"
+    ],
     "id": "learning-support-45359e0ac19e",
     "kanji": [
       {
@@ -23373,12 +28549,22 @@
         "label": "Group J: Forms that broaden meaning | N3 Study Desk"
       }
     ],
-    "partOfSpeech": "名詞 / 一般 / * / *",
+    "partOfSpeech": [
+      "Noun"
+    ],
     "reading": "どう",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "動"
   },
   {
     "forms": [],
+    "grammarIds": [
+      "p2-group-e",
+      "p2-group-g",
+      "p4-lesson-8"
+    ],
     "id": "learning-support-45fbcb867017",
     "kanji": [
       {
@@ -23404,12 +28590,29 @@
         "label": "Part 4 Lesson 8: は・が | N3 Study Desk"
       }
     ],
-    "partOfSpeech": "動詞 / 自立 / * / *",
+    "partOfSpeech": [
+      "Group 2 Verb"
+    ],
     "reading": "きる",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "着る"
   },
   {
     "forms": [],
+    "grammarIds": [
+      "p2-group-a",
+      "p2-group-b",
+      "p2-group-d",
+      "p2-group-f",
+      "p2-group-g",
+      "p2-group-h",
+      "p3-lesson-2",
+      "p4-lesson-3",
+      "p4-lesson-5",
+      "p4-lesson-8"
+    ],
     "id": "learning-support-474e600ef27d",
     "kanji": [
       {
@@ -23511,14 +28714,23 @@
         "label": "Lesson 2: Noun description | N3 Study Desk"
       }
     ],
-    "partOfSpeech": "動詞 / 自立 / * / *",
+    "partOfSpeech": [
+      "Group 1 Verb"
+    ],
     "reading": "あらわす",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "表す"
   },
   {
     "forms": [],
     "grammarIds": [
-      "l4-ni-taishite"
+      "l4-ni-taishite",
+      "p2-group-a",
+      "p2-group-b",
+      "p3-lesson-2",
+      "p4-lesson-9"
     ],
     "id": "learning-support-47ac4cdd7616",
     "kanji": [
@@ -23597,12 +28809,20 @@
         "label": "Lesson 2: Noun description | N3 Study Desk"
       }
     ],
-    "partOfSpeech": "助詞 / 格助詞 / 連語 / *",
+    "partOfSpeech": [
+      "Expression"
+    ],
     "reading": "にたいして",
+    "topicIds": [
+      "school-study"
+    ],
     "written": "に対して"
   },
   {
     "forms": [],
+    "grammarIds": [
+      "p4-lesson-1"
+    ],
     "id": "learning-support-47d9978eab42",
     "kanji": [
       {
@@ -23620,12 +28840,21 @@
         "label": "Part 4 Lesson 1: 文の始めと終わりの対応 | N3 Study Desk"
       }
     ],
-    "partOfSpeech": "名詞 / 副詞可能 / * / *",
+    "partOfSpeech": [
+      "Noun",
+      "Adverb"
+    ],
     "reading": "はじめ",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "始め"
   },
   {
     "forms": [],
+    "grammarIds": [
+      "p4-lesson-8"
+    ],
     "id": "learning-support-4860a4efe0af",
     "kanji": [
       {
@@ -23643,12 +28872,20 @@
         "label": "Part 4 Lesson 8: は・が | N3 Study Desk"
       }
     ],
-    "partOfSpeech": "名詞 / 形容動詞語幹 / * / *",
+    "partOfSpeech": [
+      "Na-Adjective"
+    ],
     "reading": "びんぼう",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "貧乏"
   },
   {
     "forms": [],
+    "grammarIds": [
+      "p4-lesson-8"
+    ],
     "id": "learning-support-4886c70b2641",
     "kanji": [
       {
@@ -23666,12 +28903,20 @@
         "label": "Part 4 Lesson 8: は・が | N3 Study Desk"
       }
     ],
-    "partOfSpeech": "名詞 / 一般 / * / *",
+    "partOfSpeech": [
+      "Noun"
+    ],
     "reading": "しゅしょう",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "首相"
   },
   {
     "forms": [],
+    "grammarIds": [
+      "p2-group-d"
+    ],
     "id": "learning-support-48da2af32505",
     "kanji": [
       {
@@ -23689,12 +28934,21 @@
         "label": "Group D: Uses of よう | N3 Study Desk"
       }
     ],
-    "partOfSpeech": "名詞 / サ変接続 / * / *",
+    "partOfSpeech": [
+      "Noun",
+      "Group 3 Verb"
+    ],
     "reading": "まえおき",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "前置き"
   },
   {
     "forms": [],
+    "grammarIds": [
+      "p2-group-i"
+    ],
     "id": "learning-support-4984694e6d99",
     "kanji": [
       {
@@ -23712,12 +28966,21 @@
         "label": "Group I: Adverbs with fixed following forms | N3 Study Desk"
       }
     ],
-    "partOfSpeech": "動詞 / 自立 / * / *",
+    "partOfSpeech": [
+      "Group 1 Verb"
+    ],
     "reading": "まちがう",
+    "topicIds": [
+      "school-study"
+    ],
     "written": "間違う"
   },
   {
     "forms": [],
+    "grammarIds": [
+      "p2-group-i",
+      "p4-lesson-9"
+    ],
     "id": "learning-support-4ad9f1ce2337",
     "kanji": [
       {
@@ -23739,12 +29002,23 @@
         "label": "Part 4 Lesson 9: 接続表現 | N3 Study Desk"
       }
     ],
-    "partOfSpeech": "名詞 / サ変接続 / * / *",
+    "partOfSpeech": [
+      "Noun",
+      "Group 3 Verb"
+    ],
     "reading": "ひょうげん",
+    "topicIds": [
+      "school-study"
+    ],
     "written": "表現"
   },
   {
     "forms": [],
+    "grammarIds": [
+      "p2-group-f",
+      "p2-group-h",
+      "p2-group-j"
+    ],
     "id": "learning-support-4afffe5811b9",
     "kanji": [
       {
@@ -23770,12 +29044,20 @@
         "label": "Group J: Forms that broaden meaning | N3 Study Desk"
       }
     ],
-    "partOfSpeech": "形容詞 / 自立 / * / *",
+    "partOfSpeech": [
+      "I-Adjective"
+    ],
     "reading": "あまい",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "甘い"
   },
   {
     "forms": [],
+    "grammarIds": [
+      "p2-group-a"
+    ],
     "id": "learning-support-4b53630a671c",
     "kanji": [
       {
@@ -23793,12 +29075,20 @@
         "label": "Group A: Particles with various functions | N3 Study Desk"
       }
     ],
-    "partOfSpeech": "動詞 / 自立 / * / *",
+    "partOfSpeech": [
+      "Group 1 Verb"
+    ],
     "reading": "みおとす",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "見落とす"
   },
   {
     "forms": [],
+    "grammarIds": [
+      "p2-group-j"
+    ],
     "id": "learning-support-4d386fdf0d42",
     "kanji": [
       {
@@ -23816,12 +29106,20 @@
         "label": "Group J: Forms that broaden meaning | N3 Study Desk"
       }
     ],
-    "partOfSpeech": "動詞 / 自立 / * / *",
+    "partOfSpeech": [
+      "Group 2 Verb"
+    ],
     "reading": "ひろげる",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "広げる"
   },
   {
     "forms": [],
+    "grammarIds": [
+      "p2-group-i"
+    ],
     "id": "learning-support-4d7cbebb5707",
     "kanji": [
       {
@@ -23839,12 +29137,22 @@
         "label": "Group I: Adverbs with fixed following forms | N3 Study Desk"
       }
     ],
-    "partOfSpeech": "名詞 / 一般 / * / *",
+    "partOfSpeech": [
+      "Noun"
+    ],
     "reading": "ねがい",
+    "topicIds": [
+      "feelings-personality"
+    ],
     "written": "願い"
   },
   {
     "forms": [],
+    "grammarIds": [
+      "p2-group-a",
+      "p2-group-d",
+      "p2-group-i"
+    ],
     "id": "learning-support-4daa103d7db3",
     "kanji": [
       {
@@ -23870,12 +29178,22 @@
         "label": "Group I: Adverbs with fixed following forms | N3 Study Desk"
       }
     ],
-    "partOfSpeech": "名詞 / サ変接続 / * / *",
+    "partOfSpeech": [
+      "Noun",
+      "Group 3 Verb"
+    ],
     "reading": "しゅくだい",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "宿題"
   },
   {
     "forms": [],
+    "grammarIds": [
+      "p2-group-a",
+      "p2-group-d"
+    ],
     "id": "learning-support-4dae36779424",
     "kanji": [
       {
@@ -23897,12 +29215,20 @@
         "label": "Group D: Uses of よう | N3 Study Desk"
       }
     ],
-    "partOfSpeech": "形容詞 / 自立 / * / *",
+    "partOfSpeech": [
+      "I-Adjective"
+    ],
     "reading": "いたい",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "痛い"
   },
   {
     "forms": [],
+    "grammarIds": [
+      "p2-group-g"
+    ],
     "id": "learning-support-4e03fdfaccdd",
     "kanji": [
       {
@@ -23920,12 +29246,20 @@
         "label": "Group G: Organizing する and なる | N3 Study Desk"
       }
     ],
-    "partOfSpeech": "名詞 / 一般 / * / *",
+    "partOfSpeech": [
+      "Noun"
+    ],
     "reading": "しゃいん",
+    "topicIds": [
+      "work-business"
+    ],
     "written": "社員"
   },
   {
     "forms": [],
+    "grammarIds": [
+      "p2-group-j"
+    ],
     "id": "learning-support-4ec440ca2b8e",
     "kanji": [
       {
@@ -23943,12 +29277,20 @@
         "label": "Group J: Forms that broaden meaning | N3 Study Desk"
       }
     ],
-    "partOfSpeech": "名詞 / 一般 / * / *",
+    "partOfSpeech": [
+      "Noun"
+    ],
     "reading": "せいしつ",
+    "topicIds": [
+      "nature-weather"
+    ],
     "written": "性質"
   },
   {
     "forms": [],
+    "grammarIds": [
+      "p2-group-g"
+    ],
     "id": "learning-support-4f1b6b6e3668",
     "kanji": [
       {
@@ -23966,12 +29308,20 @@
         "label": "Group G: Organizing する and なる | N3 Study Desk"
       }
     ],
-    "partOfSpeech": "名詞 / 一般 / * / *",
+    "partOfSpeech": [
+      "Noun"
+    ],
     "reading": "あな",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "穴"
   },
   {
     "forms": [],
+    "grammarIds": [
+      "p2-group-g"
+    ],
     "id": "learning-support-4f83c7703b9d",
     "kanji": [
       {
@@ -23989,12 +29339,20 @@
         "label": "Group G: Organizing する and なる | N3 Study Desk"
       }
     ],
-    "partOfSpeech": "名詞 / 固有名詞 / 組織 / *",
+    "partOfSpeech": [
+      "Noun"
+    ],
     "reading": "まいにちしんぶん",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "毎日新聞"
   },
   {
     "forms": [],
+    "grammarIds": [
+      "p2-group-b"
+    ],
     "id": "learning-support-4f98244fb89f",
     "kanji": [
       {
@@ -24012,12 +29370,23 @@
         "label": "Group B: Words that work like particles | N3 Study Desk"
       }
     ],
-    "partOfSpeech": "名詞 / 副詞可能 / * / *",
+    "partOfSpeech": [
+      "Noun",
+      "Adverb"
+    ],
     "reading": "いちばん",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "一番"
   },
   {
     "forms": [],
+    "grammarIds": [
+      "p2-group-c",
+      "p2-group-h",
+      "p2-group-i"
+    ],
     "id": "learning-support-4fbc32438d12",
     "kanji": [
       {
@@ -24043,12 +29412,23 @@
         "label": "Group I: Adverbs with fixed following forms | N3 Study Desk"
       }
     ],
-    "partOfSpeech": "名詞 / 一般 / * / *",
+    "partOfSpeech": [
+      "Noun"
+    ],
     "reading": "ねつ",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "熱"
   },
   {
     "forms": [],
+    "grammarIds": [
+      "p2-group-a",
+      "p2-group-d",
+      "p2-group-g",
+      "p4-lesson-1"
+    ],
     "id": "learning-support-4fcf7a305855",
     "kanji": [
       {
@@ -24078,12 +29458,20 @@
         "label": "Part 4 Lesson 1: 文の始めと終わりの対応 | N3 Study Desk"
       }
     ],
-    "partOfSpeech": "動詞 / 自立 / * / *",
+    "partOfSpeech": [
+      "Group 2 Verb"
+    ],
     "reading": "よめる",
+    "topicIds": [
+      "school-study"
+    ],
     "written": "読める"
   },
   {
     "forms": [],
+    "grammarIds": [
+      "p2-group-c"
+    ],
     "id": "learning-support-50463fe8e380",
     "kanji": [
       {
@@ -24101,12 +29489,20 @@
         "label": "Group C: Uses of こと and の | N3 Study Desk"
       }
     ],
-    "partOfSpeech": "名詞 / 一般 / * / *",
+    "partOfSpeech": [
+      "Noun"
+    ],
     "reading": "しょくひん",
+    "topicIds": [
+      "food-cooking"
+    ],
     "written": "食品"
   },
   {
     "forms": [],
+    "grammarIds": [
+      "p4-lesson-9"
+    ],
     "id": "learning-support-50810e22cfe8",
     "kanji": [
       {
@@ -24124,12 +29520,21 @@
         "label": "Part 4 Lesson 9: 接続表現 | N3 Study Desk"
       }
     ],
-    "partOfSpeech": "名詞 / サ変接続 / * / *",
+    "partOfSpeech": [
+      "Noun",
+      "Group 3 Verb"
+    ],
     "reading": "せつぞく",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "接続"
   },
   {
     "forms": [],
+    "grammarIds": [
+      "p2-group-c"
+    ],
     "id": "learning-support-5099ac7aef6f",
     "kanji": [
       {
@@ -24147,12 +29552,20 @@
         "label": "Group C: Uses of こと and の | N3 Study Desk"
       }
     ],
-    "partOfSpeech": "名詞 / 一般 / * / *",
+    "partOfSpeech": [
+      "Noun"
+    ],
     "reading": "こうけい",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "光景"
   },
   {
     "forms": [],
+    "grammarIds": [
+      "p2-group-i"
+    ],
     "id": "learning-support-511cbf9eee7a",
     "kanji": [
       {
@@ -24174,12 +29587,20 @@
         "label": "Group I: Adverbs with fixed following forms | N3 Study Desk"
       }
     ],
-    "partOfSpeech": "副詞 / 一般 / * / *",
+    "partOfSpeech": [
+      "Adverb"
+    ],
     "reading": "けっして",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "決して"
   },
   {
     "forms": [],
+    "grammarIds": [
+      "p4-lesson-9"
+    ],
     "id": "learning-support-5151ebf80e7d",
     "kanji": [
       {
@@ -24197,12 +29618,21 @@
         "label": "Part 4 Lesson 9: 接続表現 | N3 Study Desk"
       }
     ],
-    "partOfSpeech": "名詞 / 一般 / * / *",
+    "partOfSpeech": [
+      "Noun"
+    ],
     "reading": "しゅっけつ",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "出欠"
   },
   {
     "forms": [],
+    "grammarIds": [
+      "p2-group-b",
+      "p3-lesson-4"
+    ],
     "id": "learning-support-5171ce1b553c",
     "kanji": [
       {
@@ -24224,12 +29654,20 @@
         "label": "Lesson 4: Fixed patterns | N3 Study Desk"
       }
     ],
-    "partOfSpeech": "名詞 / 一般 / * / *",
+    "partOfSpeech": [
+      "Noun"
+    ],
     "reading": "たいしょう",
+    "topicIds": [
+      "school-study"
+    ],
     "written": "対象"
   },
   {
     "forms": [],
+    "grammarIds": [
+      "p2-group-j"
+    ],
     "id": "learning-support-51ed2ee22026",
     "kanji": [
       {
@@ -24247,12 +29685,21 @@
         "label": "Group J: Forms that broaden meaning | N3 Study Desk"
       }
     ],
-    "partOfSpeech": "名詞 / 形容動詞語幹 / * / *",
+    "partOfSpeech": [
+      "Na-Adjective"
+    ],
     "reading": "かんぜん",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "完全"
   },
   {
     "forms": [],
+    "grammarIds": [
+      "p2-group-c",
+      "p2-group-h"
+    ],
     "id": "learning-support-520cc83d8726",
     "kanji": [
       {
@@ -24274,12 +29721,20 @@
         "label": "Group H: Special uses of たら・ば・と・なら | N3 Study Desk"
       }
     ],
-    "partOfSpeech": "名詞 / 一般 / * / *",
+    "partOfSpeech": [
+      "Noun"
+    ],
     "reading": "りょうほう",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "両方"
   },
   {
     "forms": [],
+    "grammarIds": [
+      "p2-group-g"
+    ],
     "id": "learning-support-526233614e08",
     "kanji": [
       {
@@ -24297,12 +29752,20 @@
         "label": "Group G: Organizing する and なる | N3 Study Desk"
       }
     ],
-    "partOfSpeech": "名詞 / 一般 / * / *",
+    "partOfSpeech": [
+      "Noun"
+    ],
     "reading": "びん",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "便"
   },
   {
     "forms": [],
+    "grammarIds": [
+      "p2-group-d"
+    ],
     "id": "learning-support-532c73de5dd5",
     "kanji": [
       {
@@ -24320,12 +29783,22 @@
         "label": "Group D: Uses of よう | N3 Study Desk"
       }
     ],
-    "partOfSpeech": "名詞 / 一般 / * / *",
+    "partOfSpeech": [
+      "Noun"
+    ],
     "reading": "ばん",
+    "topicIds": [
+      "time-dates-schedules"
+    ],
     "written": "晩"
   },
   {
     "forms": [],
+    "grammarIds": [
+      "p2-group-a",
+      "p2-group-i",
+      "p4-lesson-1"
+    ],
     "id": "learning-support-537f8af3d66c",
     "kanji": [
       {
@@ -24351,12 +29824,20 @@
         "label": "Part 4 Lesson 1: 文の始めと終わりの対応 | N3 Study Desk"
       }
     ],
-    "partOfSpeech": "名詞 / 一般 / * / *",
+    "partOfSpeech": [
+      "Noun"
+    ],
     "reading": "ひとつ",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "一つ"
   },
   {
     "forms": [],
+    "grammarIds": [
+      "p2-group-d"
+    ],
     "id": "learning-support-5434f0c3766b",
     "kanji": [
       {
@@ -24378,8 +29859,14 @@
         "label": "Group D: Uses of よう | N3 Study Desk"
       }
     ],
-    "partOfSpeech": "動詞 / 自立 / * / *",
+    "partOfSpeech": [
+      "Group 2 Verb"
+    ],
     "reading": "もうしあげる",
+    "topicIds": [
+      "feelings-personality",
+      "communication-media"
+    ],
     "written": "申し上げる"
   },
   {
@@ -24388,7 +29875,16 @@
       "l2-hodo",
       "l2-niyotte",
       "l5-okage-sei",
-      "l9-sasete-moraitai"
+      "l9-sasete-moraitai",
+      "p2-group-a",
+      "p2-group-b",
+      "p2-group-c",
+      "p2-group-e",
+      "p2-group-f",
+      "p2-group-g",
+      "p2-group-j",
+      "p4-lesson-2",
+      "p4-lesson-9"
     ],
     "id": "learning-support-55a030e65fc5",
     "kanji": [
@@ -24475,12 +29971,22 @@
         "label": "Part 4 Lesson 9: 接続表現 | N3 Study Desk"
       }
     ],
-    "partOfSpeech": "名詞 / 非自立 / 副詞可能 / *",
+    "partOfSpeech": [
+      "Adverb",
+      "Other"
+    ],
     "reading": "ひ",
+    "topicIds": [
+      "time-dates-schedules"
+    ],
     "written": "日"
   },
   {
     "forms": [],
+    "grammarIds": [
+      "p2-group-a",
+      "p3-lesson-2"
+    ],
     "id": "learning-support-55bea4f5f301",
     "kanji": [
       {
@@ -24506,12 +30012,21 @@
         "label": "Lesson 2: Noun description | N3 Study Desk"
       }
     ],
-    "partOfSpeech": "名詞 / 一般 / * / *",
+    "partOfSpeech": [
+      "Noun"
+    ],
     "reading": "あん",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "案"
   },
   {
     "forms": [],
+    "grammarIds": [
+      "p2-group-j",
+      "p4-lesson-10"
+    ],
     "id": "learning-support-5604c30468e7",
     "kanji": [
       {
@@ -24533,12 +30048,20 @@
         "label": "Part 4 Lesson 10: 文章の雰囲気の統一 | N3 Study Desk"
       }
     ],
-    "partOfSpeech": "名詞 / 一般 / * / *",
+    "partOfSpeech": [
+      "Noun"
+    ],
     "reading": "はなしことば",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "話し言葉"
   },
   {
     "forms": [],
+    "grammarIds": [
+      "p2-group-a"
+    ],
     "id": "learning-support-56af2956cf84",
     "kanji": [
       {
@@ -24560,12 +30083,20 @@
         "label": "Group A: Particles with various functions | N3 Study Desk"
       }
     ],
-    "partOfSpeech": "名詞 / 一般 / * / *",
+    "partOfSpeech": [
+      "Noun"
+    ],
     "reading": "しょうがくせい",
+    "topicIds": [
+      "school-study"
+    ],
     "written": "小学生"
   },
   {
     "forms": [],
+    "grammarIds": [
+      "p2-group-b"
+    ],
     "id": "learning-support-57b588755b99",
     "kanji": [
       {
@@ -24583,12 +30114,21 @@
         "label": "Group B: Words that work like particles | N3 Study Desk"
       }
     ],
-    "partOfSpeech": "名詞 / サ変接続 / * / *",
+    "partOfSpeech": [
+      "Noun",
+      "Group 3 Verb"
+    ],
     "reading": "つうやく",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "通訳"
   },
   {
     "forms": [],
+    "grammarIds": [
+      "p2-group-g"
+    ],
     "id": "learning-support-5a417e318bd8",
     "kanji": [
       {
@@ -24606,12 +30146,20 @@
         "label": "Group G: Organizing する and なる | N3 Study Desk"
       }
     ],
-    "partOfSpeech": "名詞 / 一般 / * / *",
+    "partOfSpeech": [
+      "Noun"
+    ],
     "reading": "じまく",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "字幕"
   },
   {
     "forms": [],
+    "grammarIds": [
+      "p2-group-c"
+    ],
     "id": "learning-support-5a93587f3a34",
     "kanji": [
       {
@@ -24629,12 +30177,21 @@
         "label": "Group C: Uses of こと and の | N3 Study Desk"
       }
     ],
-    "partOfSpeech": "名詞 / 一般 / * / *",
+    "partOfSpeech": [
+      "Noun"
+    ],
     "reading": "もくひょう",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "目標"
   },
   {
     "forms": [],
+    "grammarIds": [
+      "p2-group-c",
+      "p4-lesson-10"
+    ],
     "id": "learning-support-5b9670420a38",
     "kanji": [
       {
@@ -24656,14 +30213,20 @@
         "label": "Part 4 Lesson 10: 文章の雰囲気の統一 | N3 Study Desk"
       }
     ],
-    "partOfSpeech": "名詞 / 一般 / * / *",
+    "partOfSpeech": [
+      "Noun"
+    ],
     "reading": "て",
+    "topicIds": [
+      "body-health"
+    ],
     "written": "手"
   },
   {
     "forms": [],
     "grammarIds": [
-      "l12-sonkeigo"
+      "l12-sonkeigo",
+      "p2-group-d"
     ],
     "id": "learning-support-5bb88bc7a4d6",
     "kanji": [
@@ -24686,12 +30249,20 @@
         "label": "Lesson 12: Respectful, humble, and polite language"
       }
     ],
-    "partOfSpeech": "名詞 / 一般 / * / *",
+    "partOfSpeech": [
+      "Noun"
+    ],
     "reading": "ごぞんじ",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "ご存じ"
   },
   {
     "forms": [],
+    "grammarIds": [
+      "p2-group-e"
+    ],
     "id": "learning-support-5cb07674a3bd",
     "kanji": [
       {
@@ -24709,12 +30280,21 @@
         "label": "Group E: Uses of わけ | N3 Study Desk"
       }
     ],
-    "partOfSpeech": "名詞 / 数 / * / *",
+    "partOfSpeech": [
+      "Counter or Number"
+    ],
     "reading": "さん",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "三"
   },
   {
     "forms": [],
+    "grammarIds": [
+      "p2-group-a",
+      "p3-lesson-2"
+    ],
     "id": "learning-support-5d26933404a4",
     "kanji": [
       {
@@ -24740,12 +30320,22 @@
         "label": "Lesson 2: Noun description | N3 Study Desk"
       }
     ],
-    "partOfSpeech": "名詞 / 一般 / * / *",
+    "partOfSpeech": [
+      "Noun"
+    ],
     "reading": "はたらき",
+    "topicIds": [
+      "work-business"
+    ],
     "written": "働き"
   },
   {
     "forms": [],
+    "grammarIds": [
+      "p2-group-a",
+      "p2-group-g",
+      "p4-lesson-10"
+    ],
     "id": "learning-support-5d7a8d133b7b",
     "kanji": [
       {
@@ -24771,12 +30361,21 @@
         "label": "Part 4 Lesson 10: 文章の雰囲気の統一 | N3 Study Desk"
       }
     ],
-    "partOfSpeech": "名詞 / 副詞可能 / * / *",
+    "partOfSpeech": [
+      "Noun",
+      "Adverb"
+    ],
     "reading": "ひる",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "昼"
   },
   {
     "forms": [],
+    "grammarIds": [
+      "p3-lesson-3"
+    ],
     "id": "learning-support-5f052e8594a3",
     "kanji": [
       {
@@ -24794,12 +30393,20 @@
         "label": "Lesson 3: ～という・～といった | N3 Study Desk"
       }
     ],
-    "partOfSpeech": "動詞 / 自立 / * / *",
+    "partOfSpeech": [
+      "Group 2 Verb"
+    ],
     "reading": "さける",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "避ける"
   },
   {
     "forms": [],
+    "grammarIds": [
+      "p4-lesson-3"
+    ],
     "id": "learning-support-6030b5027684",
     "kanji": [
       {
@@ -24817,12 +30424,21 @@
         "label": "Part 4 Lesson 3: 他動詞・自動詞 | N3 Study Desk"
       }
     ],
-    "partOfSpeech": "動詞 / 自立 / * / *",
+    "partOfSpeech": [
+      "Group 2 Verb"
+    ],
     "reading": "きえる",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "消える"
   },
   {
     "forms": [],
+    "grammarIds": [
+      "p2-group-g",
+      "p3-lesson-2"
+    ],
     "id": "learning-support-6082d893b117",
     "kanji": [
       {
@@ -24848,12 +30464,21 @@
         "label": "Lesson 2: Noun description | N3 Study Desk"
       }
     ],
-    "partOfSpeech": "名詞 / サ変接続 / * / *",
+    "partOfSpeech": [
+      "Noun",
+      "Group 3 Verb"
+    ],
     "reading": "つうがく",
+    "topicIds": [
+      "school-study"
+    ],
     "written": "通学"
   },
   {
     "forms": [],
+    "grammarIds": [
+      "p2-group-e"
+    ],
     "id": "learning-support-6111e87e7234",
     "kanji": [
       {
@@ -24871,14 +30496,21 @@
         "label": "Group E: Uses of わけ | N3 Study Desk"
       }
     ],
-    "partOfSpeech": "名詞 / サ変接続 / * / *",
+    "partOfSpeech": [
+      "Noun",
+      "Group 3 Verb"
+    ],
     "reading": "しょうたい",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "招待"
   },
   {
     "forms": [],
     "grammarIds": [
-      "l1-tokoro"
+      "l1-tokoro",
+      "p4-lesson-2"
     ],
     "id": "learning-support-612da95d9708",
     "kanji": [
@@ -24901,12 +30533,21 @@
         "label": "Part 4 Lesson 2: 時制・～ている | N3 Study Desk"
       }
     ],
-    "partOfSpeech": "副詞 / 助詞類接続 / * / *",
+    "partOfSpeech": [
+      "Adverb"
+    ],
     "reading": "まもなく",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "間もなく"
   },
   {
     "forms": [],
+    "grammarIds": [
+      "p2-group-e",
+      "p2-group-j"
+    ],
     "id": "learning-support-61994485cb78",
     "kanji": [
       {
@@ -24928,12 +30569,20 @@
         "label": "Group J: Forms that broaden meaning | N3 Study Desk"
       }
     ],
-    "partOfSpeech": "動詞 / 自立 / * / *",
+    "partOfSpeech": [
+      "Group 1 Verb"
+    ],
     "reading": "こまる",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "困る"
   },
   {
     "forms": [],
+    "grammarIds": [
+      "p2-group-b"
+    ],
     "id": "learning-support-61fc1c79e543",
     "kanji": [
       {
@@ -24951,12 +30600,21 @@
         "label": "Group B: Words that work like particles | N3 Study Desk"
       }
     ],
-    "partOfSpeech": "名詞 / サ変接続 / * / *",
+    "partOfSpeech": [
+      "Noun",
+      "Group 3 Verb"
+    ],
     "reading": "しこう",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "思考"
   },
   {
     "forms": [],
+    "grammarIds": [
+      "p2-group-a"
+    ],
     "id": "learning-support-6262822f7e8c",
     "kanji": [
       {
@@ -24974,12 +30632,20 @@
         "label": "Group A: Particles with various functions | N3 Study Desk"
       }
     ],
-    "partOfSpeech": "名詞 / 一般 / * / *",
+    "partOfSpeech": [
+      "Noun"
+    ],
     "reading": "まいご",
+    "topicIds": [
+      "people-family-relationships"
+    ],
     "written": "迷子"
   },
   {
     "forms": [],
+    "grammarIds": [
+      "p2-group-b"
+    ],
     "id": "learning-support-629eb3bd05d5",
     "kanji": [
       {
@@ -24997,12 +30663,21 @@
         "label": "Group B: Words that work like particles | N3 Study Desk"
       }
     ],
-    "partOfSpeech": "名詞 / 接尾 / 一般 / *",
+    "partOfSpeech": [
+      "Other"
+    ],
     "reading": "だい",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "代"
   },
   {
     "forms": [],
+    "grammarIds": [
+      "p2-group-i",
+      "p4-lesson-7"
+    ],
     "id": "learning-support-62ebad7ac3b5",
     "kanji": [
       {
@@ -25024,12 +30699,20 @@
         "label": "Part 4 Lesson 7: こ・そ・あ | N3 Study Desk"
       }
     ],
-    "partOfSpeech": "名詞 / 一般 / * / *",
+    "partOfSpeech": [
+      "Noun"
+    ],
     "reading": "じだい",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "時代"
   },
   {
     "forms": [],
+    "grammarIds": [
+      "p2-group-h"
+    ],
     "id": "learning-support-63a580649400",
     "kanji": [
       {
@@ -25047,12 +30730,20 @@
         "label": "Group H: Special uses of たら・ば・と・なら | N3 Study Desk"
       }
     ],
-    "partOfSpeech": "名詞 / 固有名詞 / 人名 / 名",
+    "partOfSpeech": [
+      "Noun"
+    ],
     "reading": "ゆきこ",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "ゆき子"
   },
   {
     "forms": [],
+    "grammarIds": [
+      "p2-group-b"
+    ],
     "id": "learning-support-63d195fd9deb",
     "kanji": [
       {
@@ -25070,12 +30761,20 @@
         "label": "Group B: Words that work like particles | N3 Study Desk"
       }
     ],
-    "partOfSpeech": "名詞 / 一般 / * / *",
+    "partOfSpeech": [
+      "Noun"
+    ],
     "reading": "よろこび",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "喜び"
   },
   {
     "forms": [],
+    "grammarIds": [
+      "p2-group-b"
+    ],
     "id": "learning-support-63d9f749c647",
     "kanji": [
       {
@@ -25093,12 +30792,23 @@
         "label": "Group B: Words that work like particles | N3 Study Desk"
       }
     ],
-    "partOfSpeech": "名詞 / 一般 / * / *",
+    "partOfSpeech": [
+      "Noun"
+    ],
     "reading": "しな",
+    "topicIds": [
+      "money-shopping"
+    ],
     "written": "品"
   },
   {
     "forms": [],
+    "grammarIds": [
+      "p3-lesson-3",
+      "p4-lesson-1",
+      "p4-lesson-3",
+      "p4-lesson-8"
+    ],
     "id": "learning-support-6485c3c2a78f",
     "kanji": [
       {
@@ -25128,12 +30838,20 @@
         "label": "Lesson 3: ～という・～といった | N3 Study Desk"
       }
     ],
-    "partOfSpeech": "名詞 / 一般 / * / *",
+    "partOfSpeech": [
+      "Noun"
+    ],
     "reading": "はな",
+    "topicIds": [
+      "nature-weather"
+    ],
     "written": "花"
   },
   {
     "forms": [],
+    "grammarIds": [
+      "p2-group-g"
+    ],
     "id": "learning-support-64e3e1674044",
     "kanji": [
       {
@@ -25159,12 +30877,20 @@
         "label": "Group G: Organizing する and なる | N3 Study Desk"
       }
     ],
-    "partOfSpeech": "動詞 / 自立 / * / *",
+    "partOfSpeech": [
+      "Group 2 Verb"
+    ],
     "reading": "かえる",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "変える"
   },
   {
     "forms": [],
+    "grammarIds": [
+      "p2-group-a"
+    ],
     "id": "learning-support-658366a1aa98",
     "kanji": [
       {
@@ -25182,12 +30908,20 @@
         "label": "Group A: Particles with various functions | N3 Study Desk"
       }
     ],
-    "partOfSpeech": "名詞 / 一般 / * / *",
+    "partOfSpeech": [
+      "Noun"
+    ],
     "reading": "がくしゃ",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "学者"
   },
   {
     "forms": [],
+    "grammarIds": [
+      "p2-group-a"
+    ],
     "id": "learning-support-65b4a1f58b87",
     "kanji": [
       {
@@ -25205,12 +30939,20 @@
         "label": "Group A: Particles with various functions | N3 Study Desk"
       }
     ],
-    "partOfSpeech": "形容詞 / 自立 / * / *",
+    "partOfSpeech": [
+      "I-Adjective"
+    ],
     "reading": "したしい",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "親しい"
   },
   {
     "forms": [],
+    "grammarIds": [
+      "p2-group-d"
+    ],
     "id": "learning-support-65ce7f43bda7",
     "kanji": [
       {
@@ -25228,12 +30970,20 @@
         "label": "Group D: Uses of よう | N3 Study Desk"
       }
     ],
-    "partOfSpeech": "名詞 / 一般 / * / *",
+    "partOfSpeech": [
+      "Noun"
+    ],
     "reading": "いいかた",
+    "topicIds": [
+      "communication-media"
+    ],
     "written": "言い方"
   },
   {
     "forms": [],
+    "grammarIds": [
+      "p2-group-a"
+    ],
     "id": "learning-support-673e068f9384",
     "kanji": [
       {
@@ -25251,12 +31001,21 @@
         "label": "Group A: Particles with various functions | N3 Study Desk"
       }
     ],
-    "partOfSpeech": "名詞 / サ変接続 / * / *",
+    "partOfSpeech": [
+      "Noun",
+      "Group 3 Verb"
+    ],
     "reading": "げんてい",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "限定"
   },
   {
     "forms": [],
+    "grammarIds": [
+      "p2-group-j"
+    ],
     "id": "learning-support-67f5908e108f",
     "kanji": [
       {
@@ -25274,12 +31033,20 @@
         "label": "Group J: Forms that broaden meaning | N3 Study Desk"
       }
     ],
-    "partOfSpeech": "形容詞 / 自立 / * / *",
+    "partOfSpeech": [
+      "I-Adjective"
+    ],
     "reading": "すずしい",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "涼しい"
   },
   {
     "forms": [],
+    "grammarIds": [
+      "p2-group-i"
+    ],
     "id": "learning-support-67f7726e6702",
     "kanji": [
       {
@@ -25297,12 +31064,20 @@
         "label": "Group I: Adverbs with fixed following forms | N3 Study Desk"
       }
     ],
-    "partOfSpeech": "名詞 / 一般 / * / *",
+    "partOfSpeech": [
+      "Noun"
+    ],
     "reading": "すいちゅう",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "水中"
   },
   {
     "forms": [],
+    "grammarIds": [
+      "p2-group-i"
+    ],
     "id": "learning-support-67fb8c065df7",
     "kanji": [
       {
@@ -25320,12 +31095,22 @@
         "label": "Group I: Adverbs with fixed following forms | N3 Study Desk"
       }
     ],
-    "partOfSpeech": "名詞 / 非自立 / 一般 / *",
+    "partOfSpeech": [
+      "Other"
+    ],
     "reading": "てん",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "点"
   },
   {
     "forms": [],
+    "grammarIds": [
+      "p2-group-b",
+      "p2-group-j",
+      "p3-lesson-4"
+    ],
     "id": "learning-support-689dc7a66e42",
     "kanji": [
       {
@@ -25351,12 +31136,25 @@
         "label": "Lesson 4: Fixed patterns | N3 Study Desk"
       }
     ],
-    "partOfSpeech": "名詞 / 一般 / * / *",
+    "partOfSpeech": [
+      "Noun"
+    ],
     "reading": "しょうせつ",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "小説"
   },
   {
     "forms": [],
+    "grammarIds": [
+      "p2-group-b",
+      "p2-group-d",
+      "p2-group-e",
+      "p2-group-g",
+      "p2-group-h",
+      "p4-lesson-8"
+    ],
     "id": "learning-support-6ab2cd6a841d",
     "kanji": [
       {
@@ -25406,12 +31204,20 @@
         "label": "Part 4 Lesson 8: は・が | N3 Study Desk"
       }
     ],
-    "partOfSpeech": "名詞 / 一般 / * / *",
+    "partOfSpeech": [
+      "Noun"
+    ],
     "reading": "しゅご",
+    "topicIds": [
+      "school-study"
+    ],
     "written": "主語"
   },
   {
     "forms": [],
+    "grammarIds": [
+      "p4-lesson-8"
+    ],
     "id": "learning-support-6b381a57b161",
     "kanji": [
       {
@@ -25429,12 +31235,20 @@
         "label": "Part 4 Lesson 8: は・が | N3 Study Desk"
       }
     ],
-    "partOfSpeech": "名詞 / 形容動詞語幹 / * / *",
+    "partOfSpeech": [
+      "Na-Adjective"
+    ],
     "reading": "しぜん",
+    "topicIds": [
+      "nature-weather"
+    ],
     "written": "自然"
   },
   {
     "forms": [],
+    "grammarIds": [
+      "p2-group-d"
+    ],
     "id": "learning-support-6bcbf0c06c1c",
     "kanji": [
       {
@@ -25452,12 +31266,22 @@
         "label": "Group D: Uses of よう | N3 Study Desk"
       }
     ],
-    "partOfSpeech": "名詞 / サ変接続 / * / *",
+    "partOfSpeech": [
+      "Noun",
+      "Group 3 Verb"
+    ],
     "reading": "けいたい",
+    "topicIds": [
+      "communication-media"
+    ],
     "written": "携帯"
   },
   {
     "forms": [],
+    "grammarIds": [
+      "p2-group-d",
+      "p2-group-g"
+    ],
     "id": "learning-support-6bf6a2e39303",
     "kanji": [
       {
@@ -25479,12 +31303,21 @@
         "label": "Group G: Organizing する and なる | N3 Study Desk"
       }
     ],
-    "partOfSpeech": "名詞 / 形容動詞語幹 / * / *",
+    "partOfSpeech": [
+      "Na-Adjective"
+    ],
     "reading": "かのう",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "可能"
   },
   {
     "forms": [],
+    "grammarIds": [
+      "p2-group-d",
+      "p2-group-g"
+    ],
     "id": "learning-support-6d0bb40a1fd1",
     "kanji": [
       {
@@ -25506,12 +31339,23 @@
         "label": "Group G: Organizing する and なる | N3 Study Desk"
       }
     ],
-    "partOfSpeech": "動詞 / 自立 / * / *",
+    "partOfSpeech": [
+      "Group 1 Verb"
+    ],
     "reading": "さわる",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "触る"
   },
   {
     "forms": [],
+    "grammarIds": [
+      "p2-group-d",
+      "p2-group-h",
+      "p3-lesson-1",
+      "p4-lesson-9"
+    ],
     "id": "learning-support-6d824d511031",
     "kanji": [
       {
@@ -25541,12 +31385,21 @@
         "label": "Lesson 1: Quotation | N3 Study Desk"
       }
     ],
-    "partOfSpeech": "動詞 / 自立 / * / *",
+    "partOfSpeech": [
+      "Group 2 Verb"
+    ],
     "reading": "いれる",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "入れる"
   },
   {
     "forms": [],
+    "grammarIds": [
+      "p2-group-a",
+      "p3-lesson-4"
+    ],
     "id": "learning-support-6f5049e2d485",
     "kanji": [
       {
@@ -25568,12 +31421,22 @@
         "label": "Lesson 4: Fixed patterns | N3 Study Desk"
       }
     ],
-    "partOfSpeech": "名詞 / 一般 / * / *",
+    "partOfSpeech": [
+      "Noun"
+    ],
     "reading": "おとな",
+    "topicIds": [
+      "people-family-relationships"
+    ],
     "written": "大人"
   },
   {
     "forms": [],
+    "grammarIds": [
+      "p2-group-h",
+      "p2-group-i",
+      "p4-lesson-3"
+    ],
     "id": "learning-support-6ff51bace3a7",
     "kanji": [
       {
@@ -25599,12 +31462,20 @@
         "label": "Part 4 Lesson 3: 他動詞・自動詞 | N3 Study Desk"
       }
     ],
-    "partOfSpeech": "名詞 / 一般 / * / *",
+    "partOfSpeech": [
+      "Noun"
+    ],
     "reading": "そら",
+    "topicIds": [
+      "nature-weather"
+    ],
     "written": "空"
   },
   {
     "forms": [],
+    "grammarIds": [
+      "p2-group-i"
+    ],
     "id": "learning-support-70973cf25abb",
     "kanji": [
       {
@@ -25622,12 +31493,24 @@
         "label": "Group I: Adverbs with fixed following forms | N3 Study Desk"
       }
     ],
-    "partOfSpeech": "名詞 / 一般 / * / *",
+    "partOfSpeech": [
+      "Noun"
+    ],
     "reading": "まんがいち",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "万が一"
   },
   {
     "forms": [],
+    "grammarIds": [
+      "p2-group-c",
+      "p2-group-d",
+      "p2-group-g",
+      "p2-group-j",
+      "p3-lesson-3"
+    ],
     "id": "learning-support-7225b79db53f",
     "kanji": [
       {
@@ -25669,12 +31552,23 @@
         "label": "Lesson 3: ～という・～といった | N3 Study Desk"
       }
     ],
-    "partOfSpeech": "動詞 / 自立 / * / *",
+    "partOfSpeech": [
+      "Group 2 Verb"
+    ],
     "reading": "きこえる",
+    "topicIds": [
+      "communication-media"
+    ],
     "written": "聞こえる"
   },
   {
     "forms": [],
+    "grammarIds": [
+      "p2-group-a",
+      "p2-group-e",
+      "p2-group-h",
+      "p2-group-i"
+    ],
     "id": "learning-support-7650278af296",
     "kanji": [
       {
@@ -25708,12 +31602,20 @@
         "label": "Group I: Adverbs with fixed following forms | N3 Study Desk"
       }
     ],
-    "partOfSpeech": "名詞 / 一般 / * / *",
+    "partOfSpeech": [
+      "Noun"
+    ],
     "reading": "さけ",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "酒"
   },
   {
     "forms": [],
+    "grammarIds": [
+      "p3-lesson-3"
+    ],
     "id": "learning-support-76cae354116f",
     "kanji": [
       {
@@ -25731,12 +31633,20 @@
         "label": "Lesson 3: ～という・～といった | N3 Study Desk"
       }
     ],
-    "partOfSpeech": "動詞 / 自立 / * / *",
+    "partOfSpeech": [
+      "Group 2 Verb"
+    ],
     "reading": "たすける",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "助ける"
   },
   {
     "forms": [],
+    "grammarIds": [
+      "p2-group-f"
+    ],
     "id": "learning-support-76e19fba1aae",
     "kanji": [
       {
@@ -25754,12 +31664,20 @@
         "label": "Group F: Uses of ばかり | N3 Study Desk"
       }
     ],
-    "partOfSpeech": "名詞 / 一般 / * / *",
+    "partOfSpeech": [
+      "Noun"
+    ],
     "reading": "ばんぐみ",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "番組"
   },
   {
     "forms": [],
+    "grammarIds": [
+      "p2-group-h"
+    ],
     "id": "learning-support-76f05a073975",
     "kanji": [
       {
@@ -25777,14 +31695,21 @@
         "label": "Group H: Special uses of たら・ば・と・なら | N3 Study Desk"
       }
     ],
-    "partOfSpeech": "動詞 / 自立 / * / *",
+    "partOfSpeech": [
+      "Group 1 Verb"
+    ],
     "reading": "よぶ",
+    "topicIds": [
+      "communication-media"
+    ],
     "written": "呼ぶ"
   },
   {
     "forms": [],
     "grammarIds": [
-      "l11-you-ni-suru"
+      "l11-you-ni-suru",
+      "p2-group-c",
+      "p2-group-h"
     ],
     "id": "learning-support-776c4df05ffb",
     "kanji": [
@@ -25811,12 +31736,20 @@
         "label": "Lesson 11: Intentions, efforts, and attempts"
       }
     ],
-    "partOfSpeech": "名詞 / 一般 / * / *",
+    "partOfSpeech": [
+      "Noun"
+    ],
     "reading": "つま",
+    "topicIds": [
+      "people-family-relationships"
+    ],
     "written": "妻"
   },
   {
     "forms": [],
+    "grammarIds": [
+      "p2-group-a"
+    ],
     "id": "learning-support-77859db1ed79",
     "kanji": [
       {
@@ -25834,14 +31767,20 @@
         "label": "Group A: Particles with various functions | N3 Study Desk"
       }
     ],
-    "partOfSpeech": "副詞 / 一般 / * / *",
+    "partOfSpeech": [
+      "Adverb"
+    ],
     "reading": "あんに",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "暗に"
   },
   {
     "forms": [],
     "grammarIds": [
-      "l6-tatoe"
+      "l6-tatoe",
+      "p2-group-g"
     ],
     "id": "learning-support-7895818d56e3",
     "kanji": [
@@ -25864,12 +31803,22 @@
         "label": "Lesson 6: Conditions and hypotheses もし、…"
       }
     ],
-    "partOfSpeech": "名詞 / 副詞可能 / * / *",
+    "partOfSpeech": [
+      "Noun",
+      "Adverb"
+    ],
     "reading": "まいとし",
+    "topicIds": [
+      "time-dates-schedules"
+    ],
     "written": "毎年"
   },
   {
     "forms": [],
+    "grammarIds": [
+      "p2-group-d",
+      "p2-group-g"
+    ],
     "id": "learning-support-78b07b3703a2",
     "kanji": [
       {
@@ -25891,12 +31840,20 @@
         "label": "Group G: Organizing する and なる | N3 Study Desk"
       }
     ],
-    "partOfSpeech": "名詞 / 一般 / * / *",
+    "partOfSpeech": [
+      "Noun"
+    ],
     "reading": "さんにんしょう",
+    "topicIds": [
+      "people-family-relationships"
+    ],
     "written": "三人称"
   },
   {
     "forms": [],
+    "grammarIds": [
+      "p2-group-j"
+    ],
     "id": "learning-support-78ce317374b4",
     "kanji": [
       {
@@ -25914,12 +31871,20 @@
         "label": "Group J: Forms that broaden meaning | N3 Study Desk"
       }
     ],
-    "partOfSpeech": "名詞 / 固有名詞 / 人名 / 姓",
+    "partOfSpeech": [
+      "Noun"
+    ],
     "reading": "たなか",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "田中"
   },
   {
     "forms": [],
+    "grammarIds": [
+      "p2-group-j"
+    ],
     "id": "learning-support-793da2875f60",
     "kanji": [
       {
@@ -25937,12 +31902,20 @@
         "label": "Group J: Forms that broaden meaning | N3 Study Desk"
       }
     ],
-    "partOfSpeech": "名詞 / 一般 / * / *",
+    "partOfSpeech": [
+      "Noun"
+    ],
     "reading": "けいこう",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "傾向"
   },
   {
     "forms": [],
+    "grammarIds": [
+      "p2-group-c"
+    ],
     "id": "learning-support-795156bbfe89",
     "kanji": [
       {
@@ -25960,12 +31933,20 @@
         "label": "Group C: Uses of こと and の | N3 Study Desk"
       }
     ],
-    "partOfSpeech": "名詞 / 一般 / * / *",
+    "partOfSpeech": [
+      "Noun"
+    ],
     "reading": "こうこうせい",
+    "topicIds": [
+      "school-study"
+    ],
     "written": "高校生"
   },
   {
     "forms": [],
+    "grammarIds": [
+      "p2-group-c"
+    ],
     "id": "learning-support-79e62e3c871f",
     "kanji": [
       {
@@ -25983,12 +31964,20 @@
         "label": "Group C: Uses of こと and の | N3 Study Desk"
       }
     ],
-    "partOfSpeech": "名詞 / 一般 / * / *",
+    "partOfSpeech": [
+      "Noun"
+    ],
     "reading": "ゆめ",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "夢"
   },
   {
     "forms": [],
+    "grammarIds": [
+      "p2-group-j"
+    ],
     "id": "learning-support-79e98bddbdb1",
     "kanji": [
       {
@@ -26006,12 +31995,21 @@
         "label": "Group J: Forms that broaden meaning | N3 Study Desk"
       }
     ],
-    "partOfSpeech": "名詞 / サ変接続 / * / *",
+    "partOfSpeech": [
+      "Noun",
+      "Group 3 Verb"
+    ],
     "reading": "いいわけ",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "言い訳"
   },
   {
     "forms": [],
+    "grammarIds": [
+      "p2-group-a"
+    ],
     "id": "learning-support-7a842087087c",
     "kanji": [
       {
@@ -26029,12 +32027,20 @@
         "label": "Group A: Particles with various functions | N3 Study Desk"
       }
     ],
-    "partOfSpeech": "動詞 / 自立 / * / *",
+    "partOfSpeech": [
+      "Group 1 Verb"
+    ],
     "reading": "いる",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "要る"
   },
   {
     "forms": [],
+    "grammarIds": [
+      "p2-group-i"
+    ],
     "id": "learning-support-7ac71f1f859e",
     "kanji": [
       {
@@ -26052,12 +32058,20 @@
         "label": "Group I: Adverbs with fixed following forms | N3 Study Desk"
       }
     ],
-    "partOfSpeech": "動詞 / 自立 / * / *",
+    "partOfSpeech": [
+      "Group 2 Verb"
+    ],
     "reading": "はらえる",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "払える"
   },
   {
     "forms": [],
+    "grammarIds": [
+      "p2-group-j"
+    ],
     "id": "learning-support-7b0707dad681",
     "kanji": [
       {
@@ -26075,12 +32089,20 @@
         "label": "Group J: Forms that broaden meaning | N3 Study Desk"
       }
     ],
-    "partOfSpeech": "動詞 / 自立 / * / *",
+    "partOfSpeech": [
+      "Group 2 Verb"
+    ],
     "reading": "われる",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "破れる"
   },
   {
     "forms": [],
+    "grammarIds": [
+      "p2-group-g"
+    ],
     "id": "learning-support-7b495329f8f7",
     "kanji": [
       {
@@ -26102,12 +32124,22 @@
         "label": "Group G: Organizing する and なる | N3 Study Desk"
       }
     ],
-    "partOfSpeech": "名詞 / 副詞可能 / * / *",
+    "partOfSpeech": [
+      "Noun",
+      "Adverb"
+    ],
     "reading": "はちがつ",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "８月"
   },
   {
     "forms": [],
+    "grammarIds": [
+      "p2-group-b",
+      "p2-group-d"
+    ],
     "id": "learning-support-7b812f29c42a",
     "kanji": [
       {
@@ -26133,14 +32165,21 @@
         "label": "Group D: Uses of よう | N3 Study Desk"
       }
     ],
-    "partOfSpeech": "名詞 / サ変接続 / * / *",
+    "partOfSpeech": [
+      "Noun",
+      "Group 3 Verb"
+    ],
     "reading": "ようきゅう",
+    "topicIds": [
+      "communication-media"
+    ],
     "written": "要求"
   },
   {
     "forms": [],
     "grammarIds": [
-      "l11-tsumori"
+      "l11-tsumori",
+      "p4-lesson-2"
     ],
     "id": "learning-support-7d173a914c66",
     "kanji": [
@@ -26163,12 +32202,22 @@
         "label": "Part 4 Lesson 2: 時制・～ている | N3 Study Desk"
       }
     ],
-    "partOfSpeech": "名詞 / 接尾 / 助数詞 / *",
+    "partOfSpeech": [
+      "Counter or Number"
+    ],
     "reading": "とし",
+    "topicIds": [
+      "time-dates-schedules"
+    ],
     "written": "歳"
   },
   {
     "forms": [],
+    "grammarIds": [
+      "p2-group-d",
+      "p2-group-i",
+      "p2-group-j"
+    ],
     "id": "learning-support-7db3da6e1bbf",
     "kanji": [
       {
@@ -26194,12 +32243,20 @@
         "label": "Group J: Forms that broaden meaning | N3 Study Desk"
       }
     ],
-    "partOfSpeech": "名詞 / 一般 / * / *",
+    "partOfSpeech": [
+      "Noun"
+    ],
     "reading": "くも",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "雲"
   },
   {
     "forms": [],
+    "grammarIds": [
+      "p4-lesson-8"
+    ],
     "id": "learning-support-7e4fccba7fc7",
     "kanji": [
       {
@@ -26217,12 +32274,20 @@
         "label": "Part 4 Lesson 8: は・が | N3 Study Desk"
       }
     ],
-    "partOfSpeech": "名詞 / 一般 / * / *",
+    "partOfSpeech": [
+      "Noun"
+    ],
     "reading": "とり",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "鳥"
   },
   {
     "forms": [],
+    "grammarIds": [
+      "p2-group-f"
+    ],
     "id": "learning-support-7e7306e3ec45",
     "kanji": [
       {
@@ -26240,12 +32305,21 @@
         "label": "Group F: Uses of ばかり | N3 Study Desk"
       }
     ],
-    "partOfSpeech": "名詞 / 形容動詞語幹 / * / *",
+    "partOfSpeech": [
+      "Na-Adjective"
+    ],
     "reading": "しあわせ",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "幸せ"
   },
   {
     "forms": [],
+    "grammarIds": [
+      "p2-group-d",
+      "p2-group-g"
+    ],
     "id": "learning-support-7f4e93c10e84",
     "kanji": [
       {
@@ -26267,12 +32341,20 @@
         "label": "Group G: Organizing する and なる | N3 Study Desk"
       }
     ],
-    "partOfSpeech": "名詞 / 一般 / * / *",
+    "partOfSpeech": [
+      "Noun"
+    ],
     "reading": "にんげん",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "人間"
   },
   {
     "forms": [],
+    "grammarIds": [
+      "p4-lesson-9"
+    ],
     "id": "learning-support-7f6ffe3432a1",
     "kanji": [
       {
@@ -26290,12 +32372,23 @@
         "label": "Part 4 Lesson 9: 接続表現 | N3 Study Desk"
       }
     ],
-    "partOfSpeech": "名詞 / 一般 / * / *",
+    "partOfSpeech": [
+      "Noun"
+    ],
     "reading": "じこ",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "事故"
   },
   {
     "forms": [],
+    "grammarIds": [
+      "p2-group-c",
+      "p2-group-d",
+      "p3-lesson-2",
+      "p3-lesson-4"
+    ],
     "id": "learning-support-7fa5916da993",
     "kanji": [
       {
@@ -26329,12 +32422,20 @@
         "label": "Lesson 4: Fixed patterns | N3 Study Desk"
       }
     ],
-    "partOfSpeech": "名詞 / 一般 / * / *",
+    "partOfSpeech": [
+      "Noun"
+    ],
     "reading": "けいしき",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "形式"
   },
   {
     "forms": [],
+    "grammarIds": [
+      "p2-group-d"
+    ],
     "id": "learning-support-7fca1acfbdcb",
     "kanji": [
       {
@@ -26352,14 +32453,20 @@
         "label": "Group D: Uses of よう | N3 Study Desk"
       }
     ],
-    "partOfSpeech": "動詞 / 自立 / * / *",
+    "partOfSpeech": [
+      "Group 2 Verb"
+    ],
     "reading": "おとずれる",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "訪れる"
   },
   {
     "forms": [],
     "grammarIds": [
-      "l1-aida"
+      "l1-aida",
+      "p2-group-i"
     ],
     "id": "learning-support-7fe5e3694262",
     "kanji": [
@@ -26382,12 +32489,20 @@
         "label": "Lesson 1: Time relationships ～とき"
       }
     ],
-    "partOfSpeech": "名詞 / 一般 / * / *",
+    "partOfSpeech": [
+      "Noun"
+    ],
     "reading": "あそび",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "遊び"
   },
   {
     "forms": [],
+    "grammarIds": [
+      "p2-group-c"
+    ],
     "id": "learning-support-8011fa51a86c",
     "kanji": [
       {
@@ -26405,12 +32520,20 @@
         "label": "Group C: Uses of こと and の | N3 Study Desk"
       }
     ],
-    "partOfSpeech": "動詞 / 自立 / * / *",
+    "partOfSpeech": [
+      "Group 1 Verb"
+    ],
     "reading": "やくにたつ",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "役に立つ"
   },
   {
     "forms": [],
+    "grammarIds": [
+      "p2-group-g"
+    ],
     "id": "learning-support-80c8c02c83e4",
     "kanji": [
       {
@@ -26428,12 +32551,23 @@
         "label": "Group G: Organizing する and なる | N3 Study Desk"
       }
     ],
-    "partOfSpeech": "名詞 / 一般 / * / *",
+    "partOfSpeech": [
+      "Noun"
+    ],
     "reading": "ちゅうしょく",
+    "topicIds": [
+      "food-cooking"
+    ],
     "written": "昼食"
   },
   {
     "forms": [],
+    "grammarIds": [
+      "p2-group-a",
+      "p2-group-d",
+      "p2-group-g",
+      "p2-group-h"
+    ],
     "id": "learning-support-811101e739a7",
     "kanji": [
       {
@@ -26475,12 +32609,20 @@
         "label": "Group H: Special uses of たら・ば・と・なら | N3 Study Desk"
       }
     ],
-    "partOfSpeech": "名詞 / 一般 / * / *",
+    "partOfSpeech": [
+      "Noun"
+    ],
     "reading": "いし",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "意志"
   },
   {
     "forms": [],
+    "grammarIds": [
+      "p4-lesson-6"
+    ],
     "id": "learning-support-815dc7a9f6e9",
     "kanji": [
       {
@@ -26498,12 +32640,21 @@
         "label": "Part 4 Lesson 6: ～てあげる・～てもらう・～てくれる | N3 Study Desk"
       }
     ],
-    "partOfSpeech": "名詞 / 副詞可能 / * / *",
+    "partOfSpeech": [
+      "Noun",
+      "Adverb"
+    ],
     "reading": "ほんらい",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "本来"
   },
   {
     "forms": [],
+    "grammarIds": [
+      "p4-lesson-2"
+    ],
     "id": "learning-support-817a8e8089da",
     "kanji": [
       {
@@ -26521,12 +32672,20 @@
         "label": "Part 4 Lesson 2: 時制・～ている | N3 Study Desk"
       }
     ],
-    "partOfSpeech": "名詞 / 一般 / * / *",
+    "partOfSpeech": [
+      "Noun"
+    ],
     "reading": "しんかんせん",
+    "topicIds": [
+      "travel-transportation"
+    ],
     "written": "新幹線"
   },
   {
     "forms": [],
+    "grammarIds": [
+      "p2-group-a"
+    ],
     "id": "learning-support-81b23cd20d62",
     "kanji": [
       {
@@ -26544,12 +32703,20 @@
         "label": "Group A: Particles with various functions | N3 Study Desk"
       }
     ],
-    "partOfSpeech": "動詞 / 自立 / * / *",
+    "partOfSpeech": [
+      "Group 2 Verb"
+    ],
     "reading": "かける",
+    "topicIds": [
+      "school-study"
+    ],
     "written": "書ける"
   },
   {
     "forms": [],
+    "grammarIds": [
+      "p2-group-b"
+    ],
     "id": "learning-support-82c99ddfb184",
     "kanji": [
       {
@@ -26567,12 +32734,21 @@
         "label": "Group B: Words that work like particles | N3 Study Desk"
       }
     ],
-    "partOfSpeech": "名詞 / 副詞可能 / * / *",
+    "partOfSpeech": [
+      "Noun",
+      "Adverb"
+    ],
     "reading": "さんがつ",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "３月"
   },
   {
     "forms": [],
+    "grammarIds": [
+      "p4-lesson-8"
+    ],
     "id": "learning-support-8320d2162f2b",
     "kanji": [
       {
@@ -26590,12 +32766,20 @@
         "label": "Part 4 Lesson 8: は・が | N3 Study Desk"
       }
     ],
-    "partOfSpeech": "名詞 / 一般 / * / *",
+    "partOfSpeech": [
+      "Noun"
+    ],
     "reading": "うめ",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "梅"
   },
   {
     "forms": [],
+    "grammarIds": [
+      "p2-group-i"
+    ],
     "id": "learning-support-833af5347ea2",
     "kanji": [
       {
@@ -26613,12 +32797,20 @@
         "label": "Group I: Adverbs with fixed following forms | N3 Study Desk"
       }
     ],
-    "partOfSpeech": "動詞 / 自立 / * / *",
+    "partOfSpeech": [
+      "Group 2 Verb"
+    ],
     "reading": "うえる",
+    "topicIds": [
+      "nature-weather"
+    ],
     "written": "植える"
   },
   {
     "forms": [],
+    "grammarIds": [
+      "p2-group-f"
+    ],
     "id": "learning-support-83da29377598",
     "kanji": [
       {
@@ -26640,12 +32832,20 @@
         "label": "Group F: Uses of ばかり | N3 Study Desk"
       }
     ],
-    "partOfSpeech": "形容詞 / 自立 / * / *",
+    "partOfSpeech": [
+      "I-Adjective"
+    ],
     "reading": "よわい",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "弱い"
   },
   {
     "forms": [],
+    "grammarIds": [
+      "p2-group-h"
+    ],
     "id": "learning-support-85eb994887e2",
     "kanji": [
       {
@@ -26663,12 +32863,20 @@
         "label": "Group H: Special uses of たら・ば・と・なら | N3 Study Desk"
       }
     ],
-    "partOfSpeech": "名詞 / 一般 / * / *",
+    "partOfSpeech": [
+      "Noun"
+    ],
     "reading": "きょうしつ",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "教室"
   },
   {
     "forms": [],
+    "grammarIds": [
+      "p4-lesson-9"
+    ],
     "id": "learning-support-86e7fb81c670",
     "kanji": [
       {
@@ -26686,12 +32894,21 @@
         "label": "Part 4 Lesson 9: 接続表現 | N3 Study Desk"
       }
     ],
-    "partOfSpeech": "名詞 / 副詞可能 / * / *",
+    "partOfSpeech": [
+      "Noun",
+      "Adverb"
+    ],
     "reading": "どようび",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "土曜日"
   },
   {
     "forms": [],
+    "grammarIds": [
+      "p2-group-b"
+    ],
     "id": "learning-support-87333c0d40bb",
     "kanji": [
       {
@@ -26709,12 +32926,20 @@
         "label": "Group B: Words that work like particles | N3 Study Desk"
       }
     ],
-    "partOfSpeech": "名詞 / 一般 / * / *",
+    "partOfSpeech": [
+      "Noun"
+    ],
     "reading": "せいぶつ",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "生物"
   },
   {
     "forms": [],
+    "grammarIds": [
+      "p2-group-d"
+    ],
     "id": "learning-support-8801305851fd",
     "kanji": [
       {
@@ -26732,12 +32957,20 @@
         "label": "Group D: Uses of よう | N3 Study Desk"
       }
     ],
-    "partOfSpeech": "動詞 / 自立 / * / *",
+    "partOfSpeech": [
+      "Group 2 Verb"
+    ],
     "reading": "たとえる",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "例える"
   },
   {
     "forms": [],
+    "grammarIds": [
+      "p2-group-g"
+    ],
     "id": "learning-support-8825d6d6459f",
     "kanji": [
       {
@@ -26755,14 +32988,22 @@
         "label": "Group G: Organizing する and なる | N3 Study Desk"
       }
     ],
-    "partOfSpeech": "名詞 / サ変接続 / * / *",
+    "partOfSpeech": [
+      "Noun",
+      "Group 3 Verb"
+    ],
     "reading": "はなみ",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "花見"
   },
   {
     "forms": [],
     "grammarIds": [
-      "l11-koto-ni-suru"
+      "l11-koto-ni-suru",
+      "p2-group-c",
+      "p2-group-e"
     ],
     "id": "learning-support-89807c7c22d2",
     "kanji": [
@@ -26789,12 +33030,20 @@
         "label": "Lesson 11: Intentions, efforts, and attempts"
       }
     ],
-    "partOfSpeech": "名詞 / 一般 / * / *",
+    "partOfSpeech": [
+      "Noun"
+    ],
     "reading": "おとうさん",
+    "topicIds": [
+      "people-family-relationships"
+    ],
     "written": "お父さん"
   },
   {
     "forms": [],
+    "grammarIds": [
+      "p2-group-d"
+    ],
     "id": "learning-support-8997f64f5278",
     "kanji": [
       {
@@ -26812,12 +33061,20 @@
         "label": "Group D: Uses of よう | N3 Study Desk"
       }
     ],
-    "partOfSpeech": "形容詞 / 自立 / * / *",
+    "partOfSpeech": [
+      "I-Adjective"
+    ],
     "reading": "しろい",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "白い"
   },
   {
     "forms": [],
+    "grammarIds": [
+      "p2-group-f"
+    ],
     "id": "learning-support-89d7f68818ce",
     "kanji": [
       {
@@ -26835,12 +33092,20 @@
         "label": "Group F: Uses of ばかり | N3 Study Desk"
       }
     ],
-    "partOfSpeech": "動詞 / 自立 / * / *",
+    "partOfSpeech": [
+      "Group 2 Verb"
+    ],
     "reading": "まなべる",
+    "topicIds": [
+      "school-study"
+    ],
     "written": "学べる"
   },
   {
     "forms": [],
+    "grammarIds": [
+      "p2-group-e"
+    ],
     "id": "learning-support-8b63615acb79",
     "kanji": [
       {
@@ -26862,12 +33127,21 @@
         "label": "Group E: Uses of わけ | N3 Study Desk"
       }
     ],
-    "partOfSpeech": "名詞 / サ変接続 / * / *",
+    "partOfSpeech": [
+      "Noun",
+      "Group 3 Verb"
+    ],
     "reading": "なっとく",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "納得"
   },
   {
     "forms": [],
+    "grammarIds": [
+      "p2-group-b"
+    ],
     "id": "learning-support-8b7f4fc48025",
     "kanji": [
       {
@@ -26885,12 +33159,20 @@
         "label": "Group B: Words that work like particles | N3 Study Desk"
       }
     ],
-    "partOfSpeech": "名詞 / 一般 / * / *",
+    "partOfSpeech": [
+      "Noun"
+    ],
     "reading": "しかく",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "資格"
   },
   {
     "forms": [],
+    "grammarIds": [
+      "p4-lesson-9"
+    ],
     "id": "learning-support-8bfeb208b416",
     "kanji": [
       {
@@ -26908,12 +33190,21 @@
         "label": "Part 4 Lesson 9: 接続表現 | N3 Study Desk"
       }
     ],
-    "partOfSpeech": "名詞 / 一般 / * / *",
+    "partOfSpeech": [
+      "Noun"
+    ],
     "reading": "あね",
+    "topicIds": [
+      "people-family-relationships"
+    ],
     "written": "姉"
   },
   {
     "forms": [],
+    "grammarIds": [
+      "p2-group-h",
+      "p4-lesson-8"
+    ],
     "id": "learning-support-8c813519f41c",
     "kanji": [
       {
@@ -26935,12 +33226,20 @@
         "label": "Part 4 Lesson 8: は・が | N3 Study Desk"
       }
     ],
-    "partOfSpeech": "名詞 / 一般 / * / *",
+    "partOfSpeech": [
+      "Noun"
+    ],
     "reading": "ひさしぶり",
+    "topicIds": [
+      "time-dates-schedules"
+    ],
     "written": "久しぶり"
   },
   {
     "forms": [],
+    "grammarIds": [
+      "p2-group-j"
+    ],
     "id": "learning-support-8d8001f8cfcd",
     "kanji": [
       {
@@ -26970,12 +33269,21 @@
         "label": "Group J: Forms that broaden meaning | N3 Study Desk"
       }
     ],
-    "partOfSpeech": "動詞 / 自立 / * / *",
+    "partOfSpeech": [
+      "Group 1 Verb"
+    ],
     "reading": "とおす",
+    "topicIds": [
+      "school-study"
+    ],
     "written": "通す"
   },
   {
     "forms": [],
+    "grammarIds": [
+      "p2-group-i",
+      "p2-group-j"
+    ],
     "id": "learning-support-8dc7006bda60",
     "kanji": [
       {
@@ -26997,12 +33305,20 @@
         "label": "Group J: Forms that broaden meaning | N3 Study Desk"
       }
     ],
-    "partOfSpeech": "名詞 / 一般 / * / *",
+    "partOfSpeech": [
+      "Noun"
+    ],
     "reading": "あき",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "秋"
   },
   {
     "forms": [],
+    "grammarIds": [
+      "p3-lesson-1"
+    ],
     "id": "learning-support-8e2ffbbcc152",
     "kanji": [
       {
@@ -27020,12 +33336,20 @@
         "label": "Lesson 1: Quotation | N3 Study Desk"
       }
     ],
-    "partOfSpeech": "名詞 / 形容動詞語幹 / * / *",
+    "partOfSpeech": [
+      "Na-Adjective"
+    ],
     "reading": "ぎもん",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "疑問"
   },
   {
     "forms": [],
+    "grammarIds": [
+      "p2-group-h"
+    ],
     "id": "learning-support-8e3e2ae5c59a",
     "kanji": [
       {
@@ -27043,12 +33367,20 @@
         "label": "Group H: Special uses of たら・ば・と・なら | N3 Study Desk"
       }
     ],
-    "partOfSpeech": "名詞 / 形容動詞語幹 / * / *",
+    "partOfSpeech": [
+      "Na-Adjective"
+    ],
     "reading": "まっしろ",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "真っ白"
   },
   {
     "forms": [],
+    "grammarIds": [
+      "p2-group-j"
+    ],
     "id": "learning-support-8e4ddc04090f",
     "kanji": [
       {
@@ -27066,12 +33398,20 @@
         "label": "Group J: Forms that broaden meaning | N3 Study Desk"
       }
     ],
-    "partOfSpeech": "名詞 / 一般 / * / *",
+    "partOfSpeech": [
+      "Noun"
+    ],
     "reading": "でんち",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "電池"
   },
   {
     "forms": [],
+    "grammarIds": [
+      "p4-lesson-4"
+    ],
     "id": "learning-support-8e862f05f099",
     "kanji": [
       {
@@ -27093,12 +33433,20 @@
         "label": "Part 4 Lesson 4: ～てくる・～ていく | N3 Study Desk"
       }
     ],
-    "partOfSpeech": "名詞 / 一般 / * / *",
+    "partOfSpeech": [
+      "Noun"
+    ],
     "reading": "むこう",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "向こう"
   },
   {
     "forms": [],
+    "grammarIds": [
+      "p2-group-i"
+    ],
     "id": "learning-support-8e8763b3a897",
     "kanji": [
       {
@@ -27120,12 +33468,20 @@
         "label": "Group I: Adverbs with fixed following forms | N3 Study Desk"
       }
     ],
-    "partOfSpeech": "副詞 / 一般 / * / *",
+    "partOfSpeech": [
+      "Adverb"
+    ],
     "reading": "いまにも",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "今にも"
   },
   {
     "forms": [],
+    "grammarIds": [
+      "p2-group-e"
+    ],
     "id": "learning-support-8ea4b03d7f2c",
     "kanji": [
       {
@@ -27143,12 +33499,20 @@
         "label": "Group E: Uses of わけ | N3 Study Desk"
       }
     ],
-    "partOfSpeech": "動詞 / 自立 / * / *",
+    "partOfSpeech": [
+      "Group 1 Verb"
+    ],
     "reading": "かえす",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "返す"
   },
   {
     "forms": [],
+    "grammarIds": [
+      "p3-lesson-1"
+    ],
     "id": "learning-support-8ec35978bd26",
     "kanji": [
       {
@@ -27166,12 +33530,20 @@
         "label": "Lesson 1: Quotation | N3 Study Desk"
       }
     ],
-    "partOfSpeech": "名詞 / 一般 / * / *",
+    "partOfSpeech": [
+      "Noun"
+    ],
     "reading": "じしょ",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "辞書"
   },
   {
     "forms": [],
+    "grammarIds": [
+      "p2-group-c"
+    ],
     "id": "learning-support-8fb52e450274",
     "kanji": [
       {
@@ -27189,12 +33561,22 @@
         "label": "Group C: Uses of こと and の | N3 Study Desk"
       }
     ],
-    "partOfSpeech": "名詞 / 一般 / * / *",
+    "partOfSpeech": [
+      "Noun"
+    ],
     "reading": "みやげ",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "土産"
   },
   {
     "forms": [],
+    "grammarIds": [
+      "p2-group-e",
+      "p2-group-i",
+      "p4-lesson-1"
+    ],
     "id": "learning-support-91094911c054",
     "kanji": [
       {
@@ -27220,12 +33602,20 @@
         "label": "Part 4 Lesson 1: 文の始めと終わりの対応 | N3 Study Desk"
       }
     ],
-    "partOfSpeech": "動詞 / 自立 / * / *",
+    "partOfSpeech": [
+      "Group 2 Verb"
+    ],
     "reading": "まちがえる",
+    "topicIds": [
+      "school-study"
+    ],
     "written": "間違える"
   },
   {
     "forms": [],
+    "grammarIds": [
+      "p2-group-i"
+    ],
     "id": "learning-support-927b45c2eb14",
     "kanji": [
       {
@@ -27243,12 +33633,20 @@
         "label": "Group I: Adverbs with fixed following forms | N3 Study Desk"
       }
     ],
-    "partOfSpeech": "動詞 / 自立 / * / *",
+    "partOfSpeech": [
+      "Group 1 Verb"
+    ],
     "reading": "ふりだす",
+    "topicIds": [
+      "nature-weather"
+    ],
     "written": "降り出す"
   },
   {
     "forms": [],
+    "grammarIds": [
+      "p2-group-d"
+    ],
     "id": "learning-support-936289666e8d",
     "kanji": [
       {
@@ -27266,12 +33664,20 @@
         "label": "Group D: Uses of よう | N3 Study Desk"
       }
     ],
-    "partOfSpeech": "名詞 / 一般 / * / *",
+    "partOfSpeech": [
+      "Noun"
+    ],
     "reading": "やさい",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "野菜"
   },
   {
     "forms": [],
+    "grammarIds": [
+      "p2-group-d"
+    ],
     "id": "learning-support-93bdc81dd9fb",
     "kanji": [
       {
@@ -27289,12 +33695,20 @@
         "label": "Group D: Uses of よう | N3 Study Desk"
       }
     ],
-    "partOfSpeech": "名詞 / 一般 / * / *",
+    "partOfSpeech": [
+      "Noun"
+    ],
     "reading": "うしろ",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "後ろ"
   },
   {
     "forms": [],
+    "grammarIds": [
+      "p2-group-i"
+    ],
     "id": "learning-support-947efd877165",
     "kanji": [
       {
@@ -27312,12 +33726,20 @@
         "label": "Group I: Adverbs with fixed following forms | N3 Study Desk"
       }
     ],
-    "partOfSpeech": "名詞 / 一般 / * / *",
+    "partOfSpeech": [
+      "Noun"
+    ],
     "reading": "さら",
+    "topicIds": [
+      "food-cooking"
+    ],
     "written": "皿"
   },
   {
     "forms": [],
+    "grammarIds": [
+      "p2-group-f"
+    ],
     "id": "learning-support-94b721726e28",
     "kanji": [
       {
@@ -27335,12 +33757,20 @@
         "label": "Group F: Uses of ばかり | N3 Study Desk"
       }
     ],
-    "partOfSpeech": "名詞 / 一般 / * / *",
+    "partOfSpeech": [
+      "Noun"
+    ],
     "reading": "ぶっか",
+    "topicIds": [
+      "money-shopping"
+    ],
     "written": "物価"
   },
   {
     "forms": [],
+    "grammarIds": [
+      "p2-group-d"
+    ],
     "id": "learning-support-9544a3940b1d",
     "kanji": [
       {
@@ -27358,14 +33788,20 @@
         "label": "Group D: Uses of よう | N3 Study Desk"
       }
     ],
-    "partOfSpeech": "名詞 / 一般 / * / *",
+    "partOfSpeech": [
+      "Noun"
+    ],
     "reading": "せいかく",
+    "topicIds": [
+      "feelings-personality"
+    ],
     "written": "性格"
   },
   {
     "forms": [],
     "grammarIds": [
-      "l9-to-ba-tara-ii"
+      "l9-to-ba-tara-ii",
+      "p3-lesson-1"
     ],
     "id": "learning-support-95c5e2db36b8",
     "kanji": [
@@ -27392,12 +33828,20 @@
         "label": "Lesson 1: Quotation | N3 Study Desk"
       }
     ],
-    "partOfSpeech": "動詞 / 自立 / * / *",
+    "partOfSpeech": [
+      "Group 2 Verb"
+    ],
     "reading": "あえる",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "会える"
   },
   {
     "forms": [],
+    "grammarIds": [
+      "p2-group-a"
+    ],
     "id": "learning-support-9654422570c9",
     "kanji": [
       {
@@ -27415,12 +33859,21 @@
         "label": "Group A: Particles with various functions | N3 Study Desk"
       }
     ],
-    "partOfSpeech": "名詞 / サ変接続 / * / *",
+    "partOfSpeech": [
+      "Noun",
+      "Group 3 Verb"
+    ],
     "reading": "いらい",
+    "topicIds": [
+      "communication-media"
+    ],
     "written": "依頼"
   },
   {
     "forms": [],
+    "grammarIds": [
+      "p3-lesson-4"
+    ],
     "id": "learning-support-965a2f5b090f",
     "kanji": [
       {
@@ -27438,12 +33891,23 @@
         "label": "Lesson 4: Fixed patterns | N3 Study Desk"
       }
     ],
-    "partOfSpeech": "動詞 / 自立 / * / *",
+    "partOfSpeech": [
+      "Group 2 Verb"
+    ],
     "reading": "たのしめる",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "楽しめる"
   },
   {
     "forms": [],
+    "grammarIds": [
+      "p2-group-a",
+      "p2-group-d",
+      "p2-group-g",
+      "p2-group-h"
+    ],
     "id": "learning-support-96845304fd98",
     "kanji": [
       {
@@ -27481,12 +33945,20 @@
         "label": "Group H: Special uses of たら・ば・と・なら | N3 Study Desk"
       }
     ],
-    "partOfSpeech": "動詞 / 自立 / * / *",
+    "partOfSpeech": [
+      "Group 1 Verb"
+    ],
     "reading": "おく",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "置く"
   },
   {
     "forms": [],
+    "grammarIds": [
+      "p2-group-g"
+    ],
     "id": "learning-support-96bec84032f5",
     "kanji": [
       {
@@ -27508,12 +33980,24 @@
         "label": "Group G: Organizing する and なる | N3 Study Desk"
       }
     ],
-    "partOfSpeech": "接頭詞 / 名詞接続 / * / *",
+    "partOfSpeech": [
+      "Other"
+    ],
     "reading": "しょう",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "小"
   },
   {
     "forms": [],
+    "grammarIds": [
+      "p2-group-a",
+      "p2-group-b",
+      "p2-group-d",
+      "p3-lesson-3",
+      "p4-lesson-3"
+    ],
     "id": "learning-support-9768eacb27c4",
     "kanji": [
       {
@@ -27579,12 +34063,20 @@
         "label": "Lesson 3: ～という・～といった | N3 Study Desk"
       }
     ],
-    "partOfSpeech": "名詞 / 一般 / * / *",
+    "partOfSpeech": [
+      "Noun"
+    ],
     "reading": "れい",
+    "topicIds": [
+      "school-study"
+    ],
     "written": "例"
   },
   {
     "forms": [],
+    "grammarIds": [
+      "p2-group-a"
+    ],
     "id": "learning-support-97e6b17173e8",
     "kanji": [
       {
@@ -27602,14 +34094,21 @@
         "label": "Group A: Particles with various functions | N3 Study Desk"
       }
     ],
-    "partOfSpeech": "名詞 / サ変接続 / * / *",
+    "partOfSpeech": [
+      "Noun",
+      "Group 3 Verb"
+    ],
     "reading": "きゅうけい",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "休憩"
   },
   {
     "forms": [],
     "grammarIds": [
-      "l7-toiu-koto"
+      "l7-toiu-koto",
+      "p3-lesson-2"
     ],
     "id": "learning-support-988f9bb24f32",
     "kanji": [
@@ -27636,12 +34135,20 @@
         "label": "Lesson 2: Noun description | N3 Study Desk"
       }
     ],
-    "partOfSpeech": "名詞 / 一般 / * / *",
+    "partOfSpeech": [
+      "Noun"
+    ],
     "reading": "し",
+    "topicIds": [
+      "places-directions"
+    ],
     "written": "市"
   },
   {
     "forms": [],
+    "grammarIds": [
+      "p2-group-a"
+    ],
     "id": "learning-support-99ffe7bdb3bd",
     "kanji": [
       {
@@ -27659,12 +34166,21 @@
         "label": "Group A: Particles with various functions | N3 Study Desk"
       }
     ],
-    "partOfSpeech": "動詞 / 自立 / * / *",
+    "partOfSpeech": [
+      "Group 2 Verb"
+    ],
     "reading": "かえる",
+    "topicIds": [
+      "money-shopping"
+    ],
     "written": "買える"
   },
   {
     "forms": [],
+    "grammarIds": [
+      "p2-group-e",
+      "p2-group-j"
+    ],
     "id": "learning-support-9b799806d8d8",
     "kanji": [
       {
@@ -27686,12 +34202,21 @@
         "label": "Group J: Forms that broaden meaning | N3 Study Desk"
       }
     ],
-    "partOfSpeech": "名詞 / 副詞可能 / * / *",
+    "partOfSpeech": [
+      "Noun",
+      "Adverb"
+    ],
     "reading": "とちゅう",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "途中"
   },
   {
     "forms": [],
+    "grammarIds": [
+      "p2-group-g"
+    ],
     "id": "learning-support-9b930132eba4",
     "kanji": [
       {
@@ -27709,12 +34234,20 @@
         "label": "Group G: Organizing する and なる | N3 Study Desk"
       }
     ],
-    "partOfSpeech": "動詞 / 自立 / * / *",
+    "partOfSpeech": [
+      "Group 2 Verb"
+    ],
     "reading": "つれる",
+    "topicIds": [
+      "food-cooking"
+    ],
     "written": "釣れる"
   },
   {
     "forms": [],
+    "grammarIds": [
+      "p2-group-j"
+    ],
     "id": "learning-support-9ba29ec6fa03",
     "kanji": [
       {
@@ -27732,12 +34265,20 @@
         "label": "Group J: Forms that broaden meaning | N3 Study Desk"
       }
     ],
-    "partOfSpeech": "動詞 / 自立 / * / *",
+    "partOfSpeech": [
+      "Group 2 Verb"
+    ],
     "reading": "いれかえる",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "入れ替える"
   },
   {
     "forms": [],
+    "grammarIds": [
+      "p2-group-d"
+    ],
     "id": "learning-support-9c1d724a61f9",
     "kanji": [
       {
@@ -27755,12 +34296,21 @@
         "label": "Group D: Uses of よう | N3 Study Desk"
       }
     ],
-    "partOfSpeech": "名詞 / 副詞可能 / * / *",
+    "partOfSpeech": [
+      "Noun",
+      "Adverb"
+    ],
     "reading": "けさ",
+    "topicIds": [
+      "time-dates-schedules"
+    ],
     "written": "今朝"
   },
   {
     "forms": [],
+    "grammarIds": [
+      "p2-group-e"
+    ],
     "id": "learning-support-9cd7c780c3a3",
     "kanji": [
       {
@@ -27778,12 +34328,20 @@
         "label": "Group E: Uses of わけ | N3 Study Desk"
       }
     ],
-    "partOfSpeech": "名詞 / 一般 / * / *",
+    "partOfSpeech": [
+      "Noun"
+    ],
     "reading": "はん",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "半"
   },
   {
     "forms": [],
+    "grammarIds": [
+      "p2-group-f"
+    ],
     "id": "learning-support-9cdbf2f93d0e",
     "kanji": [
       {
@@ -27801,12 +34359,27 @@
         "label": "Group F: Uses of ばかり | N3 Study Desk"
       }
     ],
-    "partOfSpeech": "動詞 / 自立 / * / *",
+    "partOfSpeech": [
+      "Group 1 Verb"
+    ],
     "reading": "つむ",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "積む"
   },
   {
     "forms": [],
+    "grammarIds": [
+      "p2-group-a",
+      "p2-group-c",
+      "p2-group-e",
+      "p2-group-f",
+      "p2-group-j",
+      "p3-lesson-3",
+      "p4-lesson-3",
+      "p4-lesson-9"
+    ],
     "id": "learning-support-9d47958486c4",
     "kanji": [
       {
@@ -27868,8 +34441,13 @@
         "label": "Lesson 3: ～という・～といった | N3 Study Desk"
       }
     ],
-    "partOfSpeech": "名詞 / 代名詞 / 一般 / *",
+    "partOfSpeech": [
+      "Pronoun"
+    ],
     "reading": "なに",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "何"
   },
   {
@@ -27877,7 +34455,10 @@
     "grammarIds": [
       "l11-tsumori",
       "l12-sonkeigo",
-      "l5-ni-yotte"
+      "l5-ni-yotte",
+      "p2-group-b",
+      "p4-lesson-1",
+      "p4-lesson-6"
     ],
     "id": "learning-support-9dda296d478a",
     "kanji": [
@@ -27916,12 +34497,23 @@
         "label": "Part 4 Lesson 6: ～てあげる・～てもらう・～てくれる | N3 Study Desk"
       }
     ],
-    "partOfSpeech": "名詞 / 非自立 / 一般 / *",
+    "partOfSpeech": [
+      "Other"
+    ],
     "reading": "ほう",
+    "topicIds": [
+      "places-directions"
+    ],
     "written": "方"
   },
   {
     "forms": [],
+    "grammarIds": [
+      "p2-group-c",
+      "p2-group-d",
+      "p3-lesson-4",
+      "p4-lesson-10"
+    ],
     "id": "learning-support-9eaa627a730a",
     "kanji": [
       {
@@ -27955,12 +34547,20 @@
         "label": "Lesson 4: Fixed patterns | N3 Study Desk"
       }
     ],
-    "partOfSpeech": "名詞 / 一般 / * / *",
+    "partOfSpeech": [
+      "Noun"
+    ],
     "reading": "ぶんぽう",
+    "topicIds": [
+      "school-study"
+    ],
     "written": "文法"
   },
   {
     "forms": [],
+    "grammarIds": [
+      "p2-group-g"
+    ],
     "id": "learning-support-9f8eef026f81",
     "kanji": [
       {
@@ -27978,12 +34578,20 @@
         "label": "Group G: Organizing する and なる | N3 Study Desk"
       }
     ],
-    "partOfSpeech": "動詞 / 自立 / * / *",
+    "partOfSpeech": [
+      "Group 1 Verb"
+    ],
     "reading": "おこす",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "起こす"
   },
   {
     "forms": [],
+    "grammarIds": [
+      "p2-group-d"
+    ],
     "id": "learning-support-9fce4b9d833e",
     "kanji": [
       {
@@ -28001,12 +34609,21 @@
         "label": "Group D: Uses of よう | N3 Study Desk"
       }
     ],
-    "partOfSpeech": "動詞 / 自立 / * / *",
+    "partOfSpeech": [
+      "Group 2 Verb"
+    ],
     "reading": "ねむれる",
+    "topicIds": [
+      "body-health",
+      "home-daily-life"
+    ],
     "written": "眠れる"
   },
   {
     "forms": [],
+    "grammarIds": [
+      "p2-group-j"
+    ],
     "id": "learning-support-a02c2a67900e",
     "kanji": [
       {
@@ -28032,14 +34649,20 @@
         "label": "Group J: Forms that broaden meaning | N3 Study Desk"
       }
     ],
-    "partOfSpeech": "名詞 / 形容動詞語幹 / * / *",
+    "partOfSpeech": [
+      "Na-Adjective"
+    ],
     "reading": "きゅう",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "急"
   },
   {
     "forms": [],
     "grammarIds": [
-      "l11-you-ni-suru"
+      "l11-you-ni-suru",
+      "p2-group-c"
     ],
     "id": "learning-support-a082687f7a72",
     "kanji": [
@@ -28062,12 +34685,21 @@
         "label": "Lesson 11: Intentions, efforts, and attempts"
       }
     ],
-    "partOfSpeech": "形容詞 / 自立 / * / *",
+    "partOfSpeech": [
+      "I-Adjective"
+    ],
     "reading": "おそい",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "遅い"
   },
   {
     "forms": [],
+    "grammarIds": [
+      "p2-group-b",
+      "p4-lesson-5"
+    ],
     "id": "learning-support-a10dbb12a838",
     "kanji": [
       {
@@ -28097,12 +34729,20 @@
         "label": "Part 4 Lesson 5: 受身・使役・使役受身 | N3 Study Desk"
       }
     ],
-    "partOfSpeech": "名詞 / 一般 / * / *",
+    "partOfSpeech": [
+      "Noun"
+    ],
     "reading": "たちば",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "立場"
   },
   {
     "forms": [],
+    "grammarIds": [
+      "p2-group-g"
+    ],
     "id": "learning-support-a1cda8cb1101",
     "kanji": [
       {
@@ -28124,12 +34764,23 @@
         "label": "Group G: Organizing する and なる | N3 Study Desk"
       }
     ],
-    "partOfSpeech": "名詞 / 副詞可能 / * / *",
+    "partOfSpeech": [
+      "Noun",
+      "Adverb"
+    ],
     "reading": "はんぶん",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "半分"
   },
   {
     "forms": [],
+    "grammarIds": [
+      "p2-group-g",
+      "p2-group-h",
+      "p4-lesson-2"
+    ],
     "id": "learning-support-a1db204b87e6",
     "kanji": [
       {
@@ -28155,8 +34806,13 @@
         "label": "Part 4 Lesson 2: 時制・～ている | N3 Study Desk"
       }
     ],
-    "partOfSpeech": "動詞 / 自立 / * / *",
+    "partOfSpeech": [
+      "Group 1 Verb"
+    ],
     "reading": "つづく",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "続く"
   },
   {
@@ -28181,12 +34837,20 @@
         "label": "Lesson 7: Reported information and hearsay ～だそうだ"
       }
     ],
-    "partOfSpeech": "名詞 / 接尾 / 一般 / *",
+    "partOfSpeech": [
+      "Other"
+    ],
     "reading": "はやし",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "林"
   },
   {
     "forms": [],
+    "grammarIds": [
+      "p2-group-f"
+    ],
     "id": "learning-support-a380b73ffad2",
     "kanji": [
       {
@@ -28204,12 +34868,21 @@
         "label": "Group F: Uses of ばかり | N3 Study Desk"
       }
     ],
-    "partOfSpeech": "名詞 / サ変接続 / * / *",
+    "partOfSpeech": [
+      "Noun",
+      "Group 3 Verb"
+    ],
     "reading": "かんせい",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "完成"
   },
   {
     "forms": [],
+    "grammarIds": [
+      "p2-group-a"
+    ],
     "id": "learning-support-a4b90be12722",
     "kanji": [
       {
@@ -28227,8 +34900,13 @@
         "label": "Group A: Particles with various functions | N3 Study Desk"
       }
     ],
-    "partOfSpeech": "動詞 / 自立 / * / *",
+    "partOfSpeech": [
+      "Group 2 Verb"
+    ],
     "reading": "まてる",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "待てる"
   },
   {
@@ -28237,7 +34915,9 @@
       "l10-tara-doka",
       "l6-sae",
       "l7-iwareteiru",
-      "l9-to-ba-tara-ii"
+      "l9-to-ba-tara-ii",
+      "p2-group-c",
+      "p2-group-f"
     ],
     "id": "learning-support-a556e5edce0d",
     "kanji": [
@@ -28280,12 +34960,20 @@
         "label": "Lesson 10: Advice and commands ～したほうがいい・～なさい"
       }
     ],
-    "partOfSpeech": "名詞 / 一般 / * / *",
+    "partOfSpeech": [
+      "Noun"
+    ],
     "reading": "からだ",
+    "topicIds": [
+      "body-health"
+    ],
     "written": "体"
   },
   {
     "forms": [],
+    "grammarIds": [
+      "p4-lesson-10"
+    ],
     "id": "learning-support-a565ec9ee0ea",
     "kanji": [
       {
@@ -28303,12 +34991,20 @@
         "label": "Part 4 Lesson 10: 文章の雰囲気の統一 | N3 Study Desk"
       }
     ],
-    "partOfSpeech": "名詞 / 一般 / * / *",
+    "partOfSpeech": [
+      "Noun"
+    ],
     "reading": "あたたかみ",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "温かみ"
   },
   {
     "forms": [],
+    "grammarIds": [
+      "p4-lesson-7"
+    ],
     "id": "learning-support-a56d8cb6100e",
     "kanji": [
       {
@@ -28326,12 +35022,20 @@
         "label": "Part 4 Lesson 7: こ・そ・あ | N3 Study Desk"
       }
     ],
-    "partOfSpeech": "動詞 / 自立 / * / *",
+    "partOfSpeech": [
+      "Group 2 Verb"
+    ],
     "reading": "おきわすれる",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "置き忘れる"
   },
   {
     "forms": [],
+    "grammarIds": [
+      "p2-group-i"
+    ],
     "id": "learning-support-a5e29d6661fb",
     "kanji": [
       {
@@ -28349,15 +35053,21 @@
         "label": "Group I: Adverbs with fixed following forms | N3 Study Desk"
       }
     ],
-    "partOfSpeech": "名詞 / 一般 / * / *",
+    "partOfSpeech": [
+      "Noun"
+    ],
     "reading": "このは",
+    "topicIds": [
+      "nature-weather"
+    ],
     "written": "木の葉"
   },
   {
     "forms": [],
     "grammarIds": [
       "l1-aida",
-      "l8-wake-dewa-nai"
+      "l8-wake-dewa-nai",
+      "p2-group-d"
     ],
     "id": "learning-support-a61fa96731d1",
     "kanji": [
@@ -28384,12 +35094,21 @@
         "label": "Lesson 8: Strong and partial negation 絶対～ない・必ず～とは言えない"
       }
     ],
-    "partOfSpeech": "名詞 / サ変接続 / * / *",
+    "partOfSpeech": [
+      "Noun",
+      "Group 3 Verb"
+    ],
     "reading": "おねがい",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "お願い"
   },
   {
     "forms": [],
+    "grammarIds": [
+      "p2-group-a"
+    ],
     "id": "learning-support-a6c8fd99d7e7",
     "kanji": [
       {
@@ -28407,14 +35126,21 @@
         "label": "Group A: Particles with various functions | N3 Study Desk"
       }
     ],
-    "partOfSpeech": "名詞 / 形容動詞語幹 / * / *",
+    "partOfSpeech": [
+      "Na-Adjective"
+    ],
     "reading": "むちゅう",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "夢中"
   },
   {
     "forms": [],
     "grammarIds": [
-      "l11-you-ni-suru"
+      "l11-you-ni-suru",
+      "p2-group-g",
+      "p2-group-i"
     ],
     "id": "learning-support-a7c36fdb7072",
     "kanji": [
@@ -28449,12 +35175,20 @@
         "label": "Lesson 11: Intentions, efforts, and attempts"
       }
     ],
-    "partOfSpeech": "名詞 / 一般 / * / *",
+    "partOfSpeech": [
+      "Noun"
+    ],
     "reading": "でんき",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "電気"
   },
   {
     "forms": [],
+    "grammarIds": [
+      "p2-group-d"
+    ],
     "id": "learning-support-a7dc742b011d",
     "kanji": [
       {
@@ -28472,12 +35206,21 @@
         "label": "Group D: Uses of よう | N3 Study Desk"
       }
     ],
-    "partOfSpeech": "名詞 / 一般 / * / *",
+    "partOfSpeech": [
+      "Noun"
+    ],
     "reading": "しゃかい",
+    "topicIds": [
+      "society-public-services"
+    ],
     "written": "社会"
   },
   {
     "forms": [],
+    "grammarIds": [
+      "p2-group-d",
+      "p2-group-f"
+    ],
     "id": "learning-support-a95b0a87ad71",
     "kanji": [
       {
@@ -28499,12 +35242,20 @@
         "label": "Group F: Uses of ばかり | N3 Study Desk"
       }
     ],
-    "partOfSpeech": "動詞 / 自立 / * / *",
+    "partOfSpeech": [
+      "Group 1 Verb"
+    ],
     "reading": "ならう",
+    "topicIds": [
+      "school-study"
+    ],
     "written": "習う"
   },
   {
     "forms": [],
+    "grammarIds": [
+      "p2-group-i"
+    ],
     "id": "learning-support-aa663833e45a",
     "kanji": [
       {
@@ -28522,15 +35273,22 @@
         "label": "Group I: Adverbs with fixed following forms | N3 Study Desk"
       }
     ],
-    "partOfSpeech": "名詞 / サ変接続 / * / *",
+    "partOfSpeech": [
+      "Noun",
+      "Group 3 Verb"
+    ],
     "reading": "そうだん",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "相談"
   },
   {
     "forms": [],
     "grammarIds": [
       "l1-uchini",
-      "l3-kurai-nara"
+      "l3-kurai-nara",
+      "p2-group-j"
     ],
     "id": "learning-support-ab366b6c9dc3",
     "kanji": [
@@ -28557,12 +35315,20 @@
         "label": "Lesson 3: Degree and comparison 比べれば…・～がいちばん"
       }
     ],
-    "partOfSpeech": "名詞 / 一般 / * / *",
+    "partOfSpeech": [
+      "Noun"
+    ],
     "reading": "き",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "気"
   },
   {
     "forms": [],
+    "grammarIds": [
+      "p2-group-i"
+    ],
     "id": "learning-support-abbd37156d11",
     "kanji": [
       {
@@ -28588,12 +35354,20 @@
         "label": "Group I: Adverbs with fixed following forms | N3 Study Desk"
       }
     ],
-    "partOfSpeech": "副詞 / 助詞類接続 / * / *",
+    "partOfSpeech": [
+      "Adverb"
+    ],
     "reading": "まんいち",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "万一"
   },
   {
     "forms": [],
+    "grammarIds": [
+      "p2-group-h"
+    ],
     "id": "learning-support-ae00442122cf",
     "kanji": [
       {
@@ -28611,12 +35385,22 @@
         "label": "Group H: Special uses of たら・ば・と・なら | N3 Study Desk"
       }
     ],
-    "partOfSpeech": "動詞 / 自立 / * / *",
+    "partOfSpeech": [
+      "Group 2 Verb"
+    ],
     "reading": "おりる",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "降りる"
   },
   {
     "forms": [],
+    "grammarIds": [
+      "p2-group-h",
+      "p2-group-i",
+      "p4-lesson-10"
+    ],
     "id": "learning-support-ae0f9d6aed1b",
     "kanji": [
       {
@@ -28642,14 +35426,22 @@
         "label": "Part 4 Lesson 10: 文章の雰囲気の統一 | N3 Study Desk"
       }
     ],
-    "partOfSpeech": "動詞 / 自立 / * / *",
+    "partOfSpeech": [
+      "Group 1 Verb"
+    ],
     "reading": "さがる",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "下がる"
   },
   {
     "forms": [],
     "grammarIds": [
-      "l12-kenjougo-1"
+      "l12-kenjougo-1",
+      "p2-group-c",
+      "p2-group-d",
+      "p2-group-i"
     ],
     "id": "learning-support-ae534d4ca872",
     "kanji": [
@@ -28684,14 +35476,25 @@
         "label": "Lesson 12: Respectful, humble, and polite language"
       }
     ],
-    "partOfSpeech": "名詞 / 一般 / * / *",
+    "partOfSpeech": [
+      "Noun"
+    ],
     "reading": "め",
+    "topicIds": [
+      "body-health"
+    ],
     "written": "目"
   },
   {
     "forms": [],
     "grammarIds": [
-      "l12-kenjougo-2"
+      "l12-kenjougo-2",
+      "p2-group-a",
+      "p2-group-f",
+      "p2-group-h",
+      "p2-group-i",
+      "p3-lesson-3",
+      "p4-lesson-10"
     ],
     "id": "learning-support-aeff3c4d965a",
     "kanji": [
@@ -28750,12 +35553,21 @@
         "label": "Lesson 3: ～という・～といった | N3 Study Desk"
       }
     ],
-    "partOfSpeech": "名詞 / 非自立 / 副詞可能 / *",
+    "partOfSpeech": [
+      "Adverb",
+      "Other"
+    ],
     "reading": "のち",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "後"
   },
   {
     "forms": [],
+    "grammarIds": [
+      "p2-group-g"
+    ],
     "id": "learning-support-af699ddbb2fd",
     "kanji": [
       {
@@ -28773,12 +35585,22 @@
         "label": "Group G: Organizing する and なる | N3 Study Desk"
       }
     ],
-    "partOfSpeech": "動詞 / 自立 / * / *",
+    "partOfSpeech": [
+      "Group 2 Verb"
+    ],
     "reading": "つける",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "付ける"
   },
   {
     "forms": [],
+    "grammarIds": [
+      "p2-group-a",
+      "p2-group-f",
+      "p4-lesson-6"
+    ],
     "id": "learning-support-af80712b7bd5",
     "kanji": [
       {
@@ -28808,14 +35630,20 @@
         "label": "Part 4 Lesson 6: ～てあげる・～てもらう・～てくれる | N3 Study Desk"
       }
     ],
-    "partOfSpeech": "名詞 / 一般 / * / *",
+    "partOfSpeech": [
+      "Noun"
+    ],
     "reading": "きもち",
+    "topicIds": [
+      "feelings-personality"
+    ],
     "written": "気持ち"
   },
   {
     "forms": [],
     "grammarIds": [
-      "l7-toiu-koto"
+      "l7-toiu-koto",
+      "p3-lesson-3"
     ],
     "id": "learning-support-aff4676eedaf",
     "kanji": [
@@ -28838,12 +35666,21 @@
         "label": "Lesson 3: ～という・～といった | N3 Study Desk"
       }
     ],
-    "partOfSpeech": "名詞 / 一般 / * / *",
+    "partOfSpeech": [
+      "Noun"
+    ],
     "reading": "しらせ",
+    "topicIds": [
+      "communication-media"
+    ],
     "written": "知らせ"
   },
   {
     "forms": [],
+    "grammarIds": [
+      "p2-group-b",
+      "p4-lesson-10"
+    ],
     "id": "learning-support-b0073ea226c3",
     "kanji": [
       {
@@ -28865,12 +35702,23 @@
         "label": "Part 4 Lesson 10: 文章の雰囲気の統一 | N3 Study Desk"
       }
     ],
-    "partOfSpeech": "名詞 / 形容動詞語幹 / * / *",
+    "partOfSpeech": [
+      "Na-Adjective"
+    ],
     "reading": "ひじょう",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "非常"
   },
   {
     "forms": [],
+    "grammarIds": [
+      "p2-group-d",
+      "p2-group-e",
+      "p2-group-g",
+      "p3-lesson-3"
+    ],
     "id": "learning-support-b00c4af0a291",
     "kanji": [
       {
@@ -28900,12 +35748,21 @@
         "label": "Lesson 3: ～という・～といった | N3 Study Desk"
       }
     ],
-    "partOfSpeech": "名詞 / 副詞可能 / * / *",
+    "partOfSpeech": [
+      "Noun",
+      "Adverb"
+    ],
     "reading": "きんようび",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "金曜日"
   },
   {
     "forms": [],
+    "grammarIds": [
+      "p3-lesson-2"
+    ],
     "id": "learning-support-b0511ea07297",
     "kanji": [
       {
@@ -28923,12 +35780,20 @@
         "label": "Lesson 2: Noun description | N3 Study Desk"
       }
     ],
-    "partOfSpeech": "名詞 / 一般 / * / *",
+    "partOfSpeech": [
+      "Noun"
+    ],
     "reading": "まちなみ",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "町並み"
   },
   {
     "forms": [],
+    "grammarIds": [
+      "p2-group-g"
+    ],
     "id": "learning-support-b0b2986a8e54",
     "kanji": [
       {
@@ -28946,12 +35811,20 @@
         "label": "Group G: Organizing する and なる | N3 Study Desk"
       }
     ],
-    "partOfSpeech": "名詞 / 接尾 / 助数詞 / *",
+    "partOfSpeech": [
+      "Counter or Number"
+    ],
     "reading": "ふくろ",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "袋"
   },
   {
     "forms": [],
+    "grammarIds": [
+      "p2-group-e"
+    ],
     "id": "learning-support-b215f81bda69",
     "kanji": [
       {
@@ -28973,12 +35846,20 @@
         "label": "Group E: Uses of わけ | N3 Study Desk"
       }
     ],
-    "partOfSpeech": "名詞 / 一般 / * / *",
+    "partOfSpeech": [
+      "Noun"
+    ],
     "reading": "しゅくじつ",
+    "topicIds": [
+      "time-dates-schedules"
+    ],
     "written": "祝日"
   },
   {
     "forms": [],
+    "grammarIds": [
+      "p3-lesson-2"
+    ],
     "id": "learning-support-b2dc319b1961",
     "kanji": [
       {
@@ -28996,12 +35877,25 @@
         "label": "Lesson 2: Noun description | N3 Study Desk"
       }
     ],
-    "partOfSpeech": "名詞 / 一般 / * / *",
+    "partOfSpeech": [
+      "Noun"
+    ],
     "reading": "ひがい",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "被害"
   },
   {
     "forms": [],
+    "grammarIds": [
+      "p2-group-b",
+      "p2-group-c",
+      "p2-group-f",
+      "p3-lesson-1",
+      "p3-lesson-4",
+      "p4-lesson-10"
+    ],
     "id": "learning-support-b333744018a3",
     "kanji": [
       {
@@ -29043,12 +35937,20 @@
         "label": "Lesson 4: Fixed patterns | N3 Study Desk"
       }
     ],
-    "partOfSpeech": "動詞 / 自立 / * / *",
+    "partOfSpeech": [
+      "Group 2 Verb"
+    ],
     "reading": "かんじる",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "感じる"
   },
   {
     "forms": [],
+    "grammarIds": [
+      "p4-lesson-3"
+    ],
     "id": "learning-support-b3f81ac90b79",
     "kanji": [
       {
@@ -29066,12 +35968,21 @@
         "label": "Part 4 Lesson 3: 他動詞・自動詞 | N3 Study Desk"
       }
     ],
-    "partOfSpeech": "動詞 / 自立 / * / *",
+    "partOfSpeech": [
+      "Group 1 Verb"
+    ],
     "reading": "かがやく",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "輝く"
   },
   {
     "forms": [],
+    "grammarIds": [
+      "p2-group-b",
+      "p2-group-f"
+    ],
     "id": "learning-support-b459e9db8ca8",
     "kanji": [
       {
@@ -29097,12 +36008,20 @@
         "label": "Group F: Uses of ばかり | N3 Study Desk"
       }
     ],
-    "partOfSpeech": "動詞 / 自立 / * / *",
+    "partOfSpeech": [
+      "Group 1 Verb"
+    ],
     "reading": "へる",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "減る"
   },
   {
     "forms": [],
+    "grammarIds": [
+      "p2-group-a"
+    ],
     "id": "learning-support-b49d7bfd2b31",
     "kanji": [
       {
@@ -29120,12 +36039,20 @@
         "label": "Group A: Particles with various functions | N3 Study Desk"
       }
     ],
-    "partOfSpeech": "名詞 / 形容動詞語幹 / * / *",
+    "partOfSpeech": [
+      "Na-Adjective"
+    ],
     "reading": "からっぽ",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "空っぽ"
   },
   {
     "forms": [],
+    "grammarIds": [
+      "p2-group-h"
+    ],
     "id": "learning-support-b4d7ffd3f947",
     "kanji": [
       {
@@ -29143,12 +36070,20 @@
         "label": "Group H: Special uses of たら・ば・と・なら | N3 Study Desk"
       }
     ],
-    "partOfSpeech": "動詞 / 自立 / * / *",
+    "partOfSpeech": [
+      "Group 1 Verb"
+    ],
     "reading": "とびだす",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "飛び出す"
   },
   {
     "forms": [],
+    "grammarIds": [
+      "p2-group-b"
+    ],
     "id": "learning-support-b517bb8180a6",
     "kanji": [
       {
@@ -29166,12 +36101,20 @@
         "label": "Group B: Words that work like particles | N3 Study Desk"
       }
     ],
-    "partOfSpeech": "動詞 / 自立 / * / *",
+    "partOfSpeech": [
+      "Group 1 Verb"
+    ],
     "reading": "まもる",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "守る"
   },
   {
     "forms": [],
+    "grammarIds": [
+      "p3-lesson-4"
+    ],
     "id": "learning-support-b5b2724a2f68",
     "kanji": [
       {
@@ -29189,12 +36132,23 @@
         "label": "Lesson 4: Fixed patterns | N3 Study Desk"
       }
     ],
-    "partOfSpeech": "名詞 / サ変接続 / * / *",
+    "partOfSpeech": [
+      "Noun",
+      "Group 3 Verb"
+    ],
     "reading": "はってん",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "発展"
   },
   {
     "forms": [],
+    "grammarIds": [
+      "p2-group-g",
+      "p3-lesson-4",
+      "p4-lesson-8"
+    ],
     "id": "learning-support-b66409ed8767",
     "kanji": [
       {
@@ -29224,12 +36178,20 @@
         "label": "Lesson 4: Fixed patterns | N3 Study Desk"
       }
     ],
-    "partOfSpeech": "名詞 / 一般 / * / *",
+    "partOfSpeech": [
+      "Noun"
+    ],
     "reading": "さくら",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "桜"
   },
   {
     "forms": [],
+    "grammarIds": [
+      "p2-group-j"
+    ],
     "id": "learning-support-b6f29d6b8ef9",
     "kanji": [
       {
@@ -29247,12 +36209,20 @@
         "label": "Group J: Forms that broaden meaning | N3 Study Desk"
       }
     ],
-    "partOfSpeech": "名詞 / 一般 / * / *",
+    "partOfSpeech": [
+      "Noun"
+    ],
     "reading": "ようそ",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "要素"
   },
   {
     "forms": [],
+    "grammarIds": [
+      "p2-group-h"
+    ],
     "id": "learning-support-b7b23bf6785e",
     "kanji": [
       {
@@ -29270,15 +36240,21 @@
         "label": "Group H: Special uses of たら・ば・と・なら | N3 Study Desk"
       }
     ],
-    "partOfSpeech": "動詞 / 自立 / * / *",
+    "partOfSpeech": [
+      "Group 2 Verb"
+    ],
     "reading": "ながれる",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "流れる"
   },
   {
     "forms": [],
     "grammarIds": [
       "l11-you-ni-suru",
-      "l11-you-to-suru"
+      "l11-you-to-suru",
+      "p3-lesson-4"
     ],
     "id": "learning-support-b8630e0875a7",
     "kanji": [
@@ -29305,12 +36281,20 @@
         "label": "Lesson 4: Fixed patterns | N3 Study Desk"
       }
     ],
-    "partOfSpeech": "名詞 / 一般 / * / *",
+    "partOfSpeech": [
+      "Noun"
+    ],
     "reading": "おっと",
+    "topicIds": [
+      "people-family-relationships"
+    ],
     "written": "夫"
   },
   {
     "forms": [],
+    "grammarIds": [
+      "p4-lesson-2"
+    ],
     "id": "learning-support-b8c4cd80dbb5",
     "kanji": [
       {
@@ -29328,12 +36312,21 @@
         "label": "Part 4 Lesson 2: 時制・～ている | N3 Study Desk"
       }
     ],
-    "partOfSpeech": "名詞 / 副詞可能 / * / *",
+    "partOfSpeech": [
+      "Noun",
+      "Adverb"
+    ],
     "reading": "せんしゅう",
+    "topicIds": [
+      "time-dates-schedules"
+    ],
     "written": "先週"
   },
   {
     "forms": [],
+    "grammarIds": [
+      "p2-group-b"
+    ],
     "id": "learning-support-b8dac563a6b3",
     "kanji": [
       {
@@ -29355,12 +36348,20 @@
         "label": "Group B: Words that work like particles | N3 Study Desk"
       }
     ],
-    "partOfSpeech": "動詞 / 自立 / * / *",
+    "partOfSpeech": [
+      "Group 2 Verb"
+    ],
     "reading": "むける",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "向ける"
   },
   {
     "forms": [],
+    "grammarIds": [
+      "p2-group-c"
+    ],
     "id": "learning-support-b916d9d10078",
     "kanji": [
       {
@@ -29378,12 +36379,20 @@
         "label": "Group C: Uses of こと and の | N3 Study Desk"
       }
     ],
-    "partOfSpeech": "名詞 / 一般 / * / *",
+    "partOfSpeech": [
+      "Noun"
+    ],
     "reading": "さんかっけい",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "三角形"
   },
   {
     "forms": [],
+    "grammarIds": [
+      "p2-group-i"
+    ],
     "id": "learning-support-b95bcc59addc",
     "kanji": [
       {
@@ -29401,12 +36410,20 @@
         "label": "Group I: Adverbs with fixed following forms | N3 Study Desk"
       }
     ],
-    "partOfSpeech": "動詞 / 自立 / * / *",
+    "partOfSpeech": [
+      "Group 1 Verb"
+    ],
     "reading": "おとす",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "落とす"
   },
   {
     "forms": [],
+    "grammarIds": [
+      "p2-group-f"
+    ],
     "id": "learning-support-b960915a6ed7",
     "kanji": [
       {
@@ -29424,12 +36441,27 @@
         "label": "Group F: Uses of ばかり | N3 Study Desk"
       }
     ],
-    "partOfSpeech": "名詞 / 一般 / * / *",
+    "partOfSpeech": [
+      "Noun"
+    ],
     "reading": "しょうたいきゃく",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "招待客"
   },
   {
     "forms": [],
+    "grammarIds": [
+      "p2-group-a",
+      "p2-group-b",
+      "p2-group-c",
+      "p2-group-f",
+      "p2-group-i",
+      "p3-lesson-1",
+      "p3-lesson-3",
+      "p4-lesson-8"
+    ],
     "id": "learning-support-bad913ed8fe0",
     "kanji": [
       {
@@ -29503,12 +36535,20 @@
         "label": "Lesson 3: ～という・～といった | N3 Study Desk"
       }
     ],
-    "partOfSpeech": "動詞 / 自立 / * / *",
+    "partOfSpeech": [
+      "Group 1 Verb"
+    ],
     "reading": "おもう",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "思う"
   },
   {
     "forms": [],
+    "grammarIds": [
+      "p2-group-i"
+    ],
     "id": "learning-support-bc3d5a165c4a",
     "kanji": [
       {
@@ -29526,12 +36566,20 @@
         "label": "Group I: Adverbs with fixed following forms | N3 Study Desk"
       }
     ],
-    "partOfSpeech": "名詞 / 形容動詞語幹 / * / *",
+    "partOfSpeech": [
+      "Na-Adjective"
+    ],
     "reading": "じゅうよう",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "重要"
   },
   {
     "forms": [],
+    "grammarIds": [
+      "p2-group-a"
+    ],
     "id": "learning-support-bcb792267162",
     "kanji": [
       {
@@ -29549,12 +36597,20 @@
         "label": "Group A: Particles with various functions | N3 Study Desk"
       }
     ],
-    "partOfSpeech": "名詞 / 一般 / * / *",
+    "partOfSpeech": [
+      "Noun"
+    ],
     "reading": "れきし",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "歴史"
   },
   {
     "forms": [],
+    "grammarIds": [
+      "p4-lesson-9"
+    ],
     "id": "learning-support-bcc0ebf62f8e",
     "kanji": [
       {
@@ -29572,12 +36628,21 @@
         "label": "Part 4 Lesson 9: 接続表現 | N3 Study Desk"
       }
     ],
-    "partOfSpeech": "名詞 / ナイ形容詞語幹 / * / *",
+    "partOfSpeech": [
+      "Na-Adjective",
+      "Special Na-Adjective Ending in I"
+    ],
     "reading": "まちがい",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "間違い"
   },
   {
     "forms": [],
+    "grammarIds": [
+      "p2-group-j"
+    ],
     "id": "learning-support-bce12bb5a58d",
     "kanji": [
       {
@@ -29595,12 +36660,21 @@
         "label": "Group J: Forms that broaden meaning | N3 Study Desk"
       }
     ],
-    "partOfSpeech": "動詞 / 自立 / * / *",
+    "partOfSpeech": [
+      "Group 1 Verb"
+    ],
     "reading": "だまる",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "黙る"
   },
   {
     "forms": [],
+    "grammarIds": [
+      "p2-group-d",
+      "p4-lesson-1"
+    ],
     "id": "learning-support-bd157bfbb966",
     "kanji": [
       {
@@ -29622,12 +36696,20 @@
         "label": "Part 4 Lesson 1: 文の始めと終わりの対応 | N3 Study Desk"
       }
     ],
-    "partOfSpeech": "動詞 / 自立 / * / *",
+    "partOfSpeech": [
+      "Group 2 Verb"
+    ],
     "reading": "かえれる",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "帰れる"
   },
   {
     "forms": [],
+    "grammarIds": [
+      "p2-group-b"
+    ],
     "id": "learning-support-bd2ba94516d1",
     "kanji": [
       {
@@ -29649,12 +36731,20 @@
         "label": "Group B: Words that work like particles | N3 Study Desk"
       }
     ],
-    "partOfSpeech": "動詞 / 自立 / * / *",
+    "partOfSpeech": [
+      "Group 2 Verb"
+    ],
     "reading": "もとめる",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "求める"
   },
   {
     "forms": [],
+    "grammarIds": [
+      "p2-group-d"
+    ],
     "id": "learning-support-bd67aff52293",
     "kanji": [
       {
@@ -29672,12 +36762,20 @@
         "label": "Group D: Uses of よう | N3 Study Desk"
       }
     ],
-    "partOfSpeech": "接頭詞 / 名詞接続 / * / *",
+    "partOfSpeech": [
+      "Other"
+    ],
     "reading": "む",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "無"
   },
   {
     "forms": [],
+    "grammarIds": [
+      "p2-group-g"
+    ],
     "id": "learning-support-bd7dce62ae13",
     "kanji": [
       {
@@ -29699,12 +36797,20 @@
         "label": "Group G: Organizing する and なる | N3 Study Desk"
       }
     ],
-    "partOfSpeech": "名詞 / 一般 / * / *",
+    "partOfSpeech": [
+      "Noun"
+    ],
     "reading": "ほね",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "骨"
   },
   {
     "forms": [],
+    "grammarIds": [
+      "p4-lesson-7"
+    ],
     "id": "learning-support-bd9332c19da6",
     "kanji": [
       {
@@ -29722,12 +36828,21 @@
         "label": "Part 4 Lesson 7: こ・そ・あ | N3 Study Desk"
       }
     ],
-    "partOfSpeech": "名詞 / 接尾 / 一般 / *",
+    "partOfSpeech": [
+      "Other"
+    ],
     "reading": "ご",
+    "topicIds": [
+      "school-study"
+    ],
     "written": "語"
   },
   {
     "forms": [],
+    "grammarIds": [
+      "p2-group-e",
+      "p4-lesson-3"
+    ],
     "id": "learning-support-bdad7680578f",
     "kanji": [
       {
@@ -29749,12 +36864,25 @@
         "label": "Part 4 Lesson 3: 他動詞・自動詞 | N3 Study Desk"
       }
     ],
-    "partOfSpeech": "名詞 / 副詞可能 / * / *",
+    "partOfSpeech": [
+      "Noun",
+      "Adverb"
+    ],
     "reading": "こんや",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "今夜"
   },
   {
     "forms": [],
+    "grammarIds": [
+      "p2-group-c",
+      "p2-group-e",
+      "p2-group-f",
+      "p2-group-j",
+      "p3-lesson-3"
+    ],
     "id": "learning-support-be3dacfc93ea",
     "kanji": [
       {
@@ -29804,12 +36932,20 @@
         "label": "Lesson 3: ～という・～といった | N3 Study Desk"
       }
     ],
-    "partOfSpeech": "名詞 / 代名詞 / 一般 / *",
+    "partOfSpeech": [
+      "Pronoun"
+    ],
     "reading": "かのじょ",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "彼女"
   },
   {
     "forms": [],
+    "grammarIds": [
+      "p2-group-f"
+    ],
     "id": "learning-support-be527b9f9d2d",
     "kanji": [
       {
@@ -29827,12 +36963,20 @@
         "label": "Group F: Uses of ばかり | N3 Study Desk"
       }
     ],
-    "partOfSpeech": "名詞 / 一般 / * / *",
+    "partOfSpeech": [
+      "Noun"
+    ],
     "reading": "こころ",
+    "topicIds": [
+      "body-health"
+    ],
     "written": "心"
   },
   {
     "forms": [],
+    "grammarIds": [
+      "p4-lesson-1"
+    ],
     "id": "learning-support-be8402a80a90",
     "kanji": [
       {
@@ -29850,12 +36994,21 @@
         "label": "Part 4 Lesson 1: 文の始めと終わりの対応 | N3 Study Desk"
       }
     ],
-    "partOfSpeech": "名詞 / 副詞可能 / * / *",
+    "partOfSpeech": [
+      "Noun",
+      "Adverb"
+    ],
     "reading": "さくや",
+    "topicIds": [
+      "time-dates-schedules"
+    ],
     "written": "昨夜"
   },
   {
     "forms": [],
+    "grammarIds": [
+      "p2-group-d"
+    ],
     "id": "learning-support-c012fc952216",
     "kanji": [
       {
@@ -29873,12 +37026,20 @@
         "label": "Group D: Uses of よう | N3 Study Desk"
       }
     ],
-    "partOfSpeech": "名詞 / 一般 / * / *",
+    "partOfSpeech": [
+      "Noun"
+    ],
     "reading": "みなさま",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "皆様"
   },
   {
     "forms": [],
+    "grammarIds": [
+      "p2-group-d"
+    ],
     "id": "learning-support-c0afe72b7322",
     "kanji": [
       {
@@ -29896,12 +37057,22 @@
         "label": "Group D: Uses of よう | N3 Study Desk"
       }
     ],
-    "partOfSpeech": "名詞 / 副詞可能 / * / *",
+    "partOfSpeech": [
+      "Noun",
+      "Adverb"
+    ],
     "reading": "だいたい",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "大体"
   },
   {
     "forms": [],
+    "grammarIds": [
+      "p2-group-d",
+      "p4-lesson-10"
+    ],
     "id": "learning-support-c0d834ed7074",
     "kanji": [
       {
@@ -29923,12 +37094,21 @@
         "label": "Part 4 Lesson 10: 文章の雰囲気の統一 | N3 Study Desk"
       }
     ],
-    "partOfSpeech": "名詞 / 副詞可能 / * / *",
+    "partOfSpeech": [
+      "Noun",
+      "Adverb"
+    ],
     "reading": "ぜんたい",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "全体"
   },
   {
     "forms": [],
+    "grammarIds": [
+      "p4-lesson-2"
+    ],
     "id": "learning-support-c0da086fcbcc",
     "kanji": [
       {
@@ -29946,12 +37126,20 @@
         "label": "Part 4 Lesson 2: 時制・～ている | N3 Study Desk"
       }
     ],
-    "partOfSpeech": "名詞 / 一般 / * / *",
+    "partOfSpeech": [
+      "Noun"
+    ],
     "reading": "ばいてん",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "売店"
   },
   {
     "forms": [],
+    "grammarIds": [
+      "p4-lesson-9"
+    ],
     "id": "learning-support-c10cb3070dfe",
     "kanji": [
       {
@@ -29969,12 +37157,21 @@
         "label": "Part 4 Lesson 9: 接続表現 | N3 Study Desk"
       }
     ],
-    "partOfSpeech": "名詞 / サ変接続 / * / *",
+    "partOfSpeech": [
+      "Noun",
+      "Group 3 Verb"
+    ],
     "reading": "さくぶん",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "作文"
   },
   {
     "forms": [],
+    "grammarIds": [
+      "p2-group-e"
+    ],
     "id": "learning-support-c1876925dbb4",
     "kanji": [
       {
@@ -29992,8 +37189,14 @@
         "label": "Group E: Uses of わけ | N3 Study Desk"
       }
     ],
-    "partOfSpeech": "名詞 / 一般 / * / *",
+    "partOfSpeech": [
+      "Noun"
+    ],
     "reading": "おきゃくさま",
+    "topicIds": [
+      "people-family-relationships",
+      "money-shopping"
+    ],
     "written": "お客様"
   },
   {
@@ -30002,7 +37205,14 @@
       "l1-uchini",
       "l10-beki",
       "l10-tara-doka",
-      "l3-kurai"
+      "l3-kurai",
+      "p2-group-a",
+      "p2-group-c",
+      "p2-group-d",
+      "p2-group-f",
+      "p2-group-h",
+      "p2-group-i",
+      "p2-group-j"
     ],
     "id": "learning-support-c373555102ff",
     "kanji": [
@@ -30081,12 +37291,20 @@
         "label": "Lesson 10: Advice and commands ～したほうがいい・～なさい"
       }
     ],
-    "partOfSpeech": "副詞 / 助詞類接続 / * / *",
+    "partOfSpeech": [
+      "Adverb"
+    ],
     "reading": "すこし",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "少し"
   },
   {
     "forms": [],
+    "grammarIds": [
+      "p2-group-c"
+    ],
     "id": "learning-support-c42fa0cf5f44",
     "kanji": [
       {
@@ -30104,12 +37322,21 @@
         "label": "Group C: Uses of こと and の | N3 Study Desk"
       }
     ],
-    "partOfSpeech": "名詞 / 副詞可能 / * / *",
+    "partOfSpeech": [
+      "Noun",
+      "Adverb"
+    ],
     "reading": "いぜん",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "以前"
   },
   {
     "forms": [],
+    "grammarIds": [
+      "p2-group-b"
+    ],
     "id": "learning-support-c482b681824e",
     "kanji": [
       {
@@ -30127,12 +37354,20 @@
         "label": "Group B: Words that work like particles | N3 Study Desk"
       }
     ],
-    "partOfSpeech": "名詞 / 一般 / * / *",
+    "partOfSpeech": [
+      "Noun"
+    ],
     "reading": "けいようし",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "形容詞"
   },
   {
     "forms": [],
+    "grammarIds": [
+      "p2-group-a"
+    ],
     "id": "learning-support-c53be2d952ab",
     "kanji": [
       {
@@ -30150,12 +37385,20 @@
         "label": "Group A: Particles with various functions | N3 Study Desk"
       }
     ],
-    "partOfSpeech": "動詞 / 自立 / * / *",
+    "partOfSpeech": [
+      "Group 2 Verb"
+    ],
     "reading": "しんじる",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "信じる"
   },
   {
     "forms": [],
+    "grammarIds": [
+      "p2-group-c"
+    ],
     "id": "learning-support-c597c353cb48",
     "kanji": [
       {
@@ -30173,12 +37416,20 @@
         "label": "Group C: Uses of こと and の | N3 Study Desk"
       }
     ],
-    "partOfSpeech": "名詞 / 一般 / * / *",
+    "partOfSpeech": [
+      "Noun"
+    ],
     "reading": "となり",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "隣"
   },
   {
     "forms": [],
+    "grammarIds": [
+      "p2-group-f"
+    ],
     "id": "learning-support-c614552d2350",
     "kanji": [
       {
@@ -30200,12 +37451,23 @@
         "label": "Group F: Uses of ばかり | N3 Study Desk"
       }
     ],
-    "partOfSpeech": "名詞 / サ変接続 / * / *",
+    "partOfSpeech": [
+      "Noun",
+      "Group 3 Verb"
+    ],
     "reading": "しゅっぱつ",
+    "topicIds": [
+      "travel-transportation"
+    ],
     "written": "出発"
   },
   {
     "forms": [],
+    "grammarIds": [
+      "p2-group-c",
+      "p2-group-d",
+      "p2-group-g"
+    ],
     "id": "learning-support-c6815e7618a6",
     "kanji": [
       {
@@ -30239,12 +37501,20 @@
         "label": "Group G: Organizing する and なる | N3 Study Desk"
       }
     ],
-    "partOfSpeech": "名詞 / 一般 / * / *",
+    "partOfSpeech": [
+      "Noun"
+    ],
     "reading": "おと",
+    "topicIds": [
+      "communication-media"
+    ],
     "written": "音"
   },
   {
     "forms": [],
+    "grammarIds": [
+      "p4-lesson-2"
+    ],
     "id": "learning-support-c68f2caa2fe5",
     "kanji": [
       {
@@ -30262,12 +37532,21 @@
         "label": "Part 4 Lesson 2: 時制・～ている | N3 Study Desk"
       }
     ],
-    "partOfSpeech": "名詞 / 副詞可能 / * / *",
+    "partOfSpeech": [
+      "Noun",
+      "Adverb"
+    ],
     "reading": "らいねん",
+    "topicIds": [
+      "time-dates-schedules"
+    ],
     "written": "来年"
   },
   {
     "forms": [],
+    "grammarIds": [
+      "p2-group-c"
+    ],
     "id": "learning-support-c6bc56d6df7c",
     "kanji": [
       {
@@ -30285,12 +37564,21 @@
         "label": "Group C: Uses of こと and の | N3 Study Desk"
       }
     ],
-    "partOfSpeech": "名詞 / ナイ形容詞語幹 / * / *",
+    "partOfSpeech": [
+      "Na-Adjective",
+      "Special Na-Adjective Ending in I"
+    ],
     "reading": "ちがい",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "違い"
   },
   {
     "forms": [],
+    "grammarIds": [
+      "p2-group-j"
+    ],
     "id": "learning-support-c730681c17e7",
     "kanji": [
       {
@@ -30308,12 +37596,22 @@
         "label": "Group J: Forms that broaden meaning | N3 Study Desk"
       }
     ],
-    "partOfSpeech": "動詞 / 自立 / * / *",
+    "partOfSpeech": [
+      "Group 2 Verb"
+    ],
     "reading": "こえる",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "超える"
   },
   {
     "forms": [],
+    "grammarIds": [
+      "p2-group-f",
+      "p2-group-h",
+      "p3-lesson-4"
+    ],
     "id": "learning-support-c836ac559ffc",
     "kanji": [
       {
@@ -30339,12 +37637,24 @@
         "label": "Lesson 4: Fixed patterns | N3 Study Desk"
       }
     ],
-    "partOfSpeech": "動詞 / 自立 / * / *",
+    "partOfSpeech": [
+      "Group 2 Verb"
+    ],
     "reading": "はなせる",
+    "topicIds": [
+      "communication-media"
+    ],
     "written": "話せる"
   },
   {
     "forms": [],
+    "grammarIds": [
+      "p2-group-c",
+      "p4-lesson-3",
+      "p4-lesson-5",
+      "p4-lesson-7",
+      "p4-lesson-8"
+    ],
     "id": "learning-support-c838219708fe",
     "kanji": [
       {
@@ -30378,12 +37688,20 @@
         "label": "Part 4 Lesson 8: は・が | N3 Study Desk"
       }
     ],
-    "partOfSpeech": "動詞 / 自立 / * / *",
+    "partOfSpeech": [
+      "Group 2 Verb"
+    ],
     "reading": "つかいわける",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "使い分ける"
   },
   {
     "forms": [],
+    "grammarIds": [
+      "p2-group-g"
+    ],
     "id": "learning-support-c8a0e96a6a7a",
     "kanji": [
       {
@@ -30401,12 +37719,21 @@
         "label": "Group G: Organizing する and なる | N3 Study Desk"
       }
     ],
-    "partOfSpeech": "名詞 / 一般 / * / *",
+    "partOfSpeech": [
+      "Noun"
+    ],
     "reading": "ひかり",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "光"
   },
   {
     "forms": [],
+    "grammarIds": [
+      "p2-group-b",
+      "p2-group-d"
+    ],
     "id": "learning-support-c904982dedce",
     "kanji": [
       {
@@ -30436,12 +37763,21 @@
         "label": "Group D: Uses of よう | N3 Study Desk"
       }
     ],
-    "partOfSpeech": "名詞 / 形容動詞語幹 / * / *",
+    "partOfSpeech": [
+      "Na-Adjective"
+    ],
     "reading": "しんせつ",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "親切"
   },
   {
     "forms": [],
+    "grammarIds": [
+      "p2-group-f",
+      "p2-group-i"
+    ],
     "id": "learning-support-c943d4f77a14",
     "kanji": [
       {
@@ -30463,12 +37799,21 @@
         "label": "Group I: Adverbs with fixed following forms | N3 Study Desk"
       }
     ],
-    "partOfSpeech": "名詞 / サ変接続 / * / *",
+    "partOfSpeech": [
+      "Noun",
+      "Group 3 Verb"
+    ],
     "reading": "いんさつ",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "印刷"
   },
   {
     "forms": [],
+    "grammarIds": [
+      "p4-lesson-3"
+    ],
     "id": "learning-support-c9a15e8777af",
     "kanji": [
       {
@@ -30490,12 +37835,20 @@
         "label": "Part 4 Lesson 3: 他動詞・自動詞 | N3 Study Desk"
       }
     ],
-    "partOfSpeech": "動詞 / 自立 / * / *",
+    "partOfSpeech": [
+      "Group 1 Verb"
+    ],
     "reading": "すわる",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "座る"
   },
   {
     "forms": [],
+    "grammarIds": [
+      "p4-lesson-8"
+    ],
     "id": "learning-support-ca4cbf878d62",
     "kanji": [
       {
@@ -30513,14 +37866,20 @@
         "label": "Part 4 Lesson 8: は・が | N3 Study Desk"
       }
     ],
-    "partOfSpeech": "名詞 / 一般 / * / *",
+    "partOfSpeech": [
+      "Noun"
+    ],
     "reading": "ば",
+    "topicIds": [
+      "places-directions"
+    ],
     "written": "場"
   },
   {
     "forms": [],
     "grammarIds": [
-      "l1-tekara"
+      "l1-tekara",
+      "p2-group-b"
     ],
     "id": "learning-support-cb029e617e68",
     "kanji": [
@@ -30543,12 +37902,21 @@
         "label": "Lesson 1: Time relationships ～とき"
       }
     ],
-    "partOfSpeech": "名詞 / 一般 / * / *",
+    "partOfSpeech": [
+      "Noun"
+    ],
     "reading": "きゃく",
+    "topicIds": [
+      "people-family-relationships",
+      "money-shopping"
+    ],
     "written": "客"
   },
   {
     "forms": [],
+    "grammarIds": [
+      "p2-group-f"
+    ],
     "id": "learning-support-cbaa0ef1a50e",
     "kanji": [
       {
@@ -30566,12 +37934,20 @@
         "label": "Group F: Uses of ばかり | N3 Study Desk"
       }
     ],
-    "partOfSpeech": "名詞 / 一般 / * / *",
+    "partOfSpeech": [
+      "Noun"
+    ],
     "reading": "りょう",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "寮"
   },
   {
     "forms": [],
+    "grammarIds": [
+      "p2-group-d"
+    ],
     "id": "learning-support-cc270e7f06a0",
     "kanji": [
       {
@@ -30589,12 +37965,20 @@
         "label": "Group D: Uses of よう | N3 Study Desk"
       }
     ],
-    "partOfSpeech": "動詞 / 自立 / * / *",
+    "partOfSpeech": [
+      "Group 1 Verb"
+    ],
     "reading": "さます",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "覚ます"
   },
   {
     "forms": [],
+    "grammarIds": [
+      "p4-lesson-9"
+    ],
     "id": "learning-support-cc2bd01f0a70",
     "kanji": [
       {
@@ -30612,12 +37996,20 @@
         "label": "Part 4 Lesson 9: 接続表現 | N3 Study Desk"
       }
     ],
-    "partOfSpeech": "名詞 / 形容動詞語幹 / * / *",
+    "partOfSpeech": [
+      "Na-Adjective"
+    ],
     "reading": "とくべつ",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "特別"
   },
   {
     "forms": [],
+    "grammarIds": [
+      "p2-group-j"
+    ],
     "id": "learning-support-cd08f9cdc2ed",
     "kanji": [
       {
@@ -30635,12 +38027,21 @@
         "label": "Group J: Forms that broaden meaning | N3 Study Desk"
       }
     ],
-    "partOfSpeech": "名詞 / 一般 / * / *",
+    "partOfSpeech": [
+      "Noun"
+    ],
     "reading": "かみ",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "紙"
   },
   {
     "forms": [],
+    "grammarIds": [
+      "p2-group-b",
+      "p3-lesson-4"
+    ],
     "id": "learning-support-ce2ba9fec2d1",
     "kanji": [
       {
@@ -30666,12 +38067,21 @@
         "label": "Lesson 4: Fixed patterns | N3 Study Desk"
       }
     ],
-    "partOfSpeech": "名詞 / サ変接続 / * / *",
+    "partOfSpeech": [
+      "Noun",
+      "Group 3 Verb"
+    ],
     "reading": "さんか",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "参加"
   },
   {
     "forms": [],
+    "grammarIds": [
+      "p2-group-f"
+    ],
     "id": "learning-support-ce2f134cda5b",
     "kanji": [
       {
@@ -30693,12 +38103,20 @@
         "label": "Group F: Uses of ばかり | N3 Study Desk"
       }
     ],
-    "partOfSpeech": "動詞 / 自立 / * / *",
+    "partOfSpeech": [
+      "Group 2 Verb"
+    ],
     "reading": "なれる",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "慣れる"
   },
   {
     "forms": [],
+    "grammarIds": [
+      "p2-group-i"
+    ],
     "id": "learning-support-cefbaa871d25",
     "kanji": [
       {
@@ -30716,12 +38134,20 @@
         "label": "Group I: Adverbs with fixed following forms | N3 Study Desk"
       }
     ],
-    "partOfSpeech": "動詞 / 自立 / * / *",
+    "partOfSpeech": [
+      "Group 1 Verb"
+    ],
     "reading": "いろづく",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "色づく"
   },
   {
     "forms": [],
+    "grammarIds": [
+      "p2-group-j"
+    ],
     "id": "learning-support-cf7176ee7801",
     "kanji": [
       {
@@ -30739,14 +38165,22 @@
         "label": "Group J: Forms that broaden meaning | N3 Study Desk"
       }
     ],
-    "partOfSpeech": "名詞 / 一般 / * / *",
+    "partOfSpeech": [
+      "Noun"
+    ],
     "reading": "こおり",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "氷"
   },
   {
     "forms": [],
     "grammarIds": [
-      "l5-ni-yotte"
+      "l5-ni-yotte",
+      "p2-group-a",
+      "p3-lesson-1",
+      "p4-lesson-9"
     ],
     "id": "learning-support-d00ef0a9d527",
     "kanji": [
@@ -30777,14 +38211,20 @@
         "label": "Lesson 1: Quotation | N3 Study Desk"
       }
     ],
-    "partOfSpeech": "名詞 / 一般 / * / *",
+    "partOfSpeech": [
+      "Noun"
+    ],
     "reading": "つぎ",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "次"
   },
   {
     "forms": [],
     "grammarIds": [
-      "l5-kara-koto"
+      "l5-kara-koto",
+      "p2-group-h"
     ],
     "id": "learning-support-d11d9a620724",
     "kanji": [
@@ -30807,12 +38247,20 @@
         "label": "Lesson 5: Reasons and causes ～だから"
       }
     ],
-    "partOfSpeech": "名詞 / 一般 / * / *",
+    "partOfSpeech": [
+      "Noun"
+    ],
     "reading": "せき",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "席"
   },
   {
     "forms": [],
+    "grammarIds": [
+      "p2-group-i"
+    ],
     "id": "learning-support-d2a1417d8eff",
     "kanji": [
       {
@@ -30830,12 +38278,20 @@
         "label": "Group I: Adverbs with fixed following forms | N3 Study Desk"
       }
     ],
-    "partOfSpeech": "名詞 / 一般 / * / *",
+    "partOfSpeech": [
+      "Noun"
+    ],
     "reading": "かぎ",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "鍵"
   },
   {
     "forms": [],
+    "grammarIds": [
+      "p2-group-j"
+    ],
     "id": "learning-support-d2b2316e45ca",
     "kanji": [
       {
@@ -30853,12 +38309,20 @@
         "label": "Group J: Forms that broaden meaning | N3 Study Desk"
       }
     ],
-    "partOfSpeech": "形容詞 / 自立 / * / *",
+    "partOfSpeech": [
+      "I-Adjective"
+    ],
     "reading": "うすい",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "薄い"
   },
   {
     "forms": [],
+    "grammarIds": [
+      "p2-group-j"
+    ],
     "id": "learning-support-d2dbd78ecab8",
     "kanji": [
       {
@@ -30876,12 +38340,20 @@
         "label": "Group J: Forms that broaden meaning | N3 Study Desk"
       }
     ],
-    "partOfSpeech": "名詞 / 形容動詞語幹 / * / *",
+    "partOfSpeech": [
+      "Na-Adjective"
+    ],
     "reading": "てきせつ",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "適切"
   },
   {
     "forms": [],
+    "grammarIds": [
+      "p2-group-f"
+    ],
     "id": "learning-support-d302678946aa",
     "kanji": [
       {
@@ -30899,12 +38371,20 @@
         "label": "Group F: Uses of ばかり | N3 Study Desk"
       }
     ],
-    "partOfSpeech": "名詞 / 一般 / * / *",
+    "partOfSpeech": [
+      "Noun"
+    ],
     "reading": "いっぽうむかい",
+    "topicIds": [
+      "places-directions"
+    ],
     "written": "一方向"
   },
   {
     "forms": [],
+    "grammarIds": [
+      "p2-group-i"
+    ],
     "id": "learning-support-d3df037cece4",
     "kanji": [
       {
@@ -30922,12 +38402,23 @@
         "label": "Group I: Adverbs with fixed following forms | N3 Study Desk"
       }
     ],
-    "partOfSpeech": "名詞 / サ変接続 / * / *",
+    "partOfSpeech": [
+      "Noun",
+      "Group 3 Verb"
+    ],
     "reading": "おはなし",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "お話"
   },
   {
     "forms": [],
+    "grammarIds": [
+      "p2-group-a",
+      "p2-group-c",
+      "p4-lesson-8"
+    ],
     "id": "learning-support-d3ee1eb4905b",
     "kanji": [
       {
@@ -30961,12 +38452,21 @@
         "label": "Part 4 Lesson 8: は・が | N3 Study Desk"
       }
     ],
-    "partOfSpeech": "名詞 / サ変接続 / * / *",
+    "partOfSpeech": [
+      "Noun",
+      "Group 3 Verb"
+    ],
     "reading": "きょうちょう",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "強調"
   },
   {
     "forms": [],
+    "grammarIds": [
+      "p2-group-j"
+    ],
     "id": "learning-support-d40e2575e03f",
     "kanji": [
       {
@@ -30984,12 +38484,20 @@
         "label": "Group J: Forms that broaden meaning | N3 Study Desk"
       }
     ],
-    "partOfSpeech": "動詞 / 自立 / * / *",
+    "partOfSpeech": [
+      "Group 1 Verb"
+    ],
     "reading": "ぬく",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "抜く"
   },
   {
     "forms": [],
+    "grammarIds": [
+      "p4-lesson-9"
+    ],
     "id": "learning-support-d45f321bc820",
     "kanji": [
       {
@@ -31007,12 +38515,22 @@
         "label": "Part 4 Lesson 9: 接続表現 | N3 Study Desk"
       }
     ],
-    "partOfSpeech": "動詞 / 自立 / * / *",
+    "partOfSpeech": [
+      "Group 1 Verb"
+    ],
     "reading": "かきなおす",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "書き直す"
   },
   {
     "forms": [],
+    "grammarIds": [
+      "p2-group-a",
+      "p2-group-d",
+      "p2-group-i"
+    ],
     "id": "learning-support-d46ae79a267a",
     "kanji": [
       {
@@ -31038,12 +38556,23 @@
         "label": "Group I: Adverbs with fixed following forms | N3 Study Desk"
       }
     ],
-    "partOfSpeech": "名詞 / 副詞可能 / * / *",
+    "partOfSpeech": [
+      "Noun",
+      "Adverb"
+    ],
     "reading": "あさ",
+    "topicIds": [
+      "time-dates-schedules"
+    ],
     "written": "朝"
   },
   {
     "forms": [],
+    "grammarIds": [
+      "p2-group-d",
+      "p2-group-g",
+      "p2-group-j"
+    ],
     "id": "learning-support-d4779ac36c2e",
     "kanji": [
       {
@@ -31073,12 +38602,22 @@
         "label": "Group J: Forms that broaden meaning | N3 Study Desk"
       }
     ],
-    "partOfSpeech": "形容詞 / 自立 / * / *",
+    "partOfSpeech": [
+      "I-Adjective"
+    ],
     "reading": "ちいさい",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "小さい"
   },
   {
     "forms": [],
+    "grammarIds": [
+      "p2-group-h",
+      "p4-lesson-1",
+      "p4-lesson-9"
+    ],
     "id": "learning-support-d630014a3f99",
     "kanji": [
       {
@@ -31104,12 +38643,20 @@
         "label": "Part 4 Lesson 9: 接続表現 | N3 Study Desk"
       }
     ],
-    "partOfSpeech": "名詞 / 接尾 / 助数詞 / *",
+    "partOfSpeech": [
+      "Counter or Number"
+    ],
     "reading": "かい",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "回"
   },
   {
     "forms": [],
+    "grammarIds": [
+      "p4-lesson-10"
+    ],
     "id": "learning-support-d6448fea5207",
     "kanji": [
       {
@@ -31131,12 +38678,21 @@
         "label": "Part 4 Lesson 10: 文章の雰囲気の統一 | N3 Study Desk"
       }
     ],
-    "partOfSpeech": "形容詞 / 自立 / * / *",
+    "partOfSpeech": [
+      "I-Adjective"
+    ],
     "reading": "くわしい",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "詳しい"
   },
   {
     "forms": [],
+    "grammarIds": [
+      "p2-group-b",
+      "p4-lesson-8"
+    ],
     "id": "learning-support-d671097071c6",
     "kanji": [
       {
@@ -31166,14 +38722,20 @@
         "label": "Part 4 Lesson 8: は・が | N3 Study Desk"
       }
     ],
-    "partOfSpeech": "動詞 / 自立 / * / *",
+    "partOfSpeech": [
+      "Group 1 Verb"
+    ],
     "reading": "すむ",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "住む"
   },
   {
     "forms": [],
     "grammarIds": [
-      "l6-sae"
+      "l6-sae",
+      "p4-lesson-8"
     ],
     "id": "learning-support-d68e6616e9c6",
     "kanji": [
@@ -31200,12 +38762,22 @@
         "label": "Part 4 Lesson 8: は・が | N3 Study Desk"
       }
     ],
-    "partOfSpeech": "名詞 / 固有名詞 / 地域 / 一般",
+    "partOfSpeech": [
+      "Noun"
+    ],
     "reading": "たろう",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "太郎"
   },
   {
     "forms": [],
+    "grammarIds": [
+      "p2-group-a",
+      "p3-lesson-2",
+      "p4-lesson-7"
+    ],
     "id": "learning-support-d7f56d8d340f",
     "kanji": [
       {
@@ -31231,12 +38803,21 @@
         "label": "Lesson 2: Noun description | N3 Study Desk"
       }
     ],
-    "partOfSpeech": "動詞 / 自立 / * / *",
+    "partOfSpeech": [
+      "Group 1 Verb"
+    ],
     "reading": "のこる",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "残る"
   },
   {
     "forms": [],
+    "grammarIds": [
+      "p2-group-j",
+      "p3-lesson-4"
+    ],
     "id": "learning-support-d883d813ef5c",
     "kanji": [
       {
@@ -31258,12 +38839,22 @@
         "label": "Lesson 4: Fixed patterns | N3 Study Desk"
       }
     ],
-    "partOfSpeech": "名詞 / サ変接続 / * / *",
+    "partOfSpeech": [
+      "Noun",
+      "Group 3 Verb"
+    ],
     "reading": "かんこう",
+    "topicIds": [
+      "travel-transportation"
+    ],
     "written": "観光"
   },
   {
     "forms": [],
+    "grammarIds": [
+      "p2-group-a",
+      "p4-lesson-9"
+    ],
     "id": "learning-support-d8c3a3f0d0f3",
     "kanji": [
       {
@@ -31285,14 +38876,21 @@
         "label": "Part 4 Lesson 9: 接続表現 | N3 Study Desk"
       }
     ],
-    "partOfSpeech": "名詞 / 副詞可能 / * / *",
+    "partOfSpeech": [
+      "Noun",
+      "Adverb"
+    ],
     "reading": "にちようび",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "日曜日"
   },
   {
     "forms": [],
     "grammarIds": [
-      "l4-hanmen"
+      "l4-hanmen",
+      "p2-group-j"
     ],
     "id": "learning-support-d8fe6a260322",
     "kanji": [
@@ -31315,12 +38913,20 @@
         "label": "Lesson 4: Contrast ～とは違って"
       }
     ],
-    "partOfSpeech": "副詞 / 助詞類接続 / * / *",
+    "partOfSpeech": [
+      "Adverb"
+    ],
     "reading": "なにでも",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "何でも"
   },
   {
     "forms": [],
+    "grammarIds": [
+      "p2-group-a"
+    ],
     "id": "learning-support-d96a82c62512",
     "kanji": [
       {
@@ -31338,12 +38944,20 @@
         "label": "Group A: Particles with various functions | N3 Study Desk"
       }
     ],
-    "partOfSpeech": "名詞 / 一般 / * / *",
+    "partOfSpeech": [
+      "Noun"
+    ],
     "reading": "しょしんしゃ",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "初心者"
   },
   {
     "forms": [],
+    "grammarIds": [
+      "p2-group-a"
+    ],
     "id": "learning-support-d9c64cdfa1cf",
     "kanji": [
       {
@@ -31361,12 +38975,20 @@
         "label": "Group A: Particles with various functions | N3 Study Desk"
       }
     ],
-    "partOfSpeech": "動詞 / 自立 / * / *",
+    "partOfSpeech": [
+      "Group 1 Verb"
+    ],
     "reading": "めしあがる",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "召し上がる"
   },
   {
     "forms": [],
+    "grammarIds": [
+      "p4-lesson-10"
+    ],
     "id": "learning-support-d9c8a04363a6",
     "kanji": [
       {
@@ -31384,12 +39006,22 @@
         "label": "Part 4 Lesson 10: 文章の雰囲気の統一 | N3 Study Desk"
       }
     ],
-    "partOfSpeech": "名詞 / 接尾 / 助数詞 / *",
+    "partOfSpeech": [
+      "Counter or Number"
+    ],
     "reading": "ど",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "度"
   },
   {
     "forms": [],
+    "grammarIds": [
+      "p2-group-a",
+      "p2-group-b",
+      "p2-group-h"
+    ],
     "id": "learning-support-da4198f39c81",
     "kanji": [
       {
@@ -31415,12 +39047,21 @@
         "label": "Group H: Special uses of たら・ば・と・なら | N3 Study Desk"
       }
     ],
-    "partOfSpeech": "名詞 / 非自立 / 副詞可能 / *",
+    "partOfSpeech": [
+      "Adverb",
+      "Other"
+    ],
     "reading": "いがい",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "以外"
   },
   {
     "forms": [],
+    "grammarIds": [
+      "p3-lesson-3"
+    ],
     "id": "learning-support-da7b3e0410b7",
     "kanji": [
       {
@@ -31438,12 +39079,20 @@
         "label": "Lesson 3: ～という・～といった | N3 Study Desk"
       }
     ],
-    "partOfSpeech": "名詞 / 一般 / * / *",
+    "partOfSpeech": [
+      "Noun"
+    ],
     "reading": "あおぞら",
+    "topicIds": [
+      "nature-weather"
+    ],
     "written": "青空"
   },
   {
     "forms": [],
+    "grammarIds": [
+      "p2-group-i"
+    ],
     "id": "learning-support-db01fd59d713",
     "kanji": [
       {
@@ -31461,12 +39110,20 @@
         "label": "Group I: Adverbs with fixed following forms | N3 Study Desk"
       }
     ],
-    "partOfSpeech": "動詞 / 自立 / * / *",
+    "partOfSpeech": [
+      "Group 2 Verb"
+    ],
     "reading": "いきる",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "生きる"
   },
   {
     "forms": [],
+    "grammarIds": [
+      "p2-group-e"
+    ],
     "id": "learning-support-db2003afa10a",
     "kanji": [
       {
@@ -31488,12 +39145,22 @@
         "label": "Group E: Uses of わけ | N3 Study Desk"
       }
     ],
-    "partOfSpeech": "名詞 / サ変接続 / * / *",
+    "partOfSpeech": [
+      "Noun",
+      "Group 3 Verb"
+    ],
     "reading": "すいりょう",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "推量"
   },
   {
     "forms": [],
+    "grammarIds": [
+      "p2-group-a",
+      "p4-lesson-8"
+    ],
     "id": "learning-support-db35a99e2801",
     "kanji": [
       {
@@ -31515,12 +39182,20 @@
         "label": "Part 4 Lesson 8: は・が | N3 Study Desk"
       }
     ],
-    "partOfSpeech": "動詞 / 自立 / * / *",
+    "partOfSpeech": [
+      "Group 2 Verb"
+    ],
     "reading": "みせる",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "見せる"
   },
   {
     "forms": [],
+    "grammarIds": [
+      "p2-group-b"
+    ],
     "id": "learning-support-db403717e564",
     "kanji": [
       {
@@ -31542,12 +39217,22 @@
         "label": "Group B: Words that work like particles | N3 Study Desk"
       }
     ],
-    "partOfSpeech": "副詞 / 助詞類接続 / * / *",
+    "partOfSpeech": [
+      "Adverb"
+    ],
     "reading": "なにより",
+    "topicIds": [
+      "places-directions"
+    ],
     "written": "何より"
   },
   {
     "forms": [],
+    "grammarIds": [
+      "p2-group-c",
+      "p2-group-d",
+      "p2-group-g"
+    ],
     "id": "learning-support-dbd7cd319c62",
     "kanji": [
       {
@@ -31581,12 +39266,25 @@
         "label": "Group G: Organizing する and なる | N3 Study Desk"
       }
     ],
-    "partOfSpeech": "名詞 / 一般 / * / *",
+    "partOfSpeech": [
+      "Noun"
+    ],
     "reading": "さかな",
+    "topicIds": [
+      "food-cooking"
+    ],
     "written": "魚"
   },
   {
     "forms": [],
+    "grammarIds": [
+      "p2-group-a",
+      "p2-group-c",
+      "p2-group-d",
+      "p2-group-e",
+      "p3-lesson-1",
+      "p3-lesson-2"
+    ],
     "id": "learning-support-dbe0f53624c1",
     "kanji": [
       {
@@ -31636,12 +39334,20 @@
         "label": "Lesson 2: Noun description | N3 Study Desk"
       }
     ],
-    "partOfSpeech": "接頭詞 / 数接続 / * / *",
+    "partOfSpeech": [
+      "Other"
+    ],
     "reading": "だい",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "第"
   },
   {
     "forms": [],
+    "grammarIds": [
+      "p4-lesson-8"
+    ],
     "id": "learning-support-dc47bdb3fe59",
     "kanji": [
       {
@@ -31659,12 +39365,20 @@
         "label": "Part 4 Lesson 8: は・が | N3 Study Desk"
       }
     ],
-    "partOfSpeech": "名詞 / 一般 / * / *",
+    "partOfSpeech": [
+      "Noun"
+    ],
     "reading": "たいせい",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "大勢"
   },
   {
     "forms": [],
+    "grammarIds": [
+      "p2-group-j"
+    ],
     "id": "learning-support-dd89673ae095",
     "kanji": [
       {
@@ -31682,12 +39396,22 @@
         "label": "Group J: Forms that broaden meaning | N3 Study Desk"
       }
     ],
-    "partOfSpeech": "名詞 / 一般 / * / *",
+    "partOfSpeech": [
+      "Noun"
+    ],
     "reading": "じ",
+    "topicIds": [
+      "feelings-personality"
+    ],
     "written": "字"
   },
   {
     "forms": [],
+    "grammarIds": [
+      "p2-group-g",
+      "p3-lesson-4",
+      "p4-lesson-3"
+    ],
     "id": "learning-support-dddceb65a568",
     "kanji": [
       {
@@ -31713,12 +39437,20 @@
         "label": "Lesson 4: Fixed patterns | N3 Study Desk"
       }
     ],
-    "partOfSpeech": "動詞 / 自立 / * / *",
+    "partOfSpeech": [
+      "Group 1 Verb"
+    ],
     "reading": "ひらく",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "開く"
   },
   {
     "forms": [],
+    "grammarIds": [
+      "p4-lesson-9"
+    ],
     "id": "learning-support-de118b98e8a6",
     "kanji": [
       {
@@ -31736,12 +39468,21 @@
         "label": "Part 4 Lesson 9: 接続表現 | N3 Study Desk"
       }
     ],
-    "partOfSpeech": "名詞 / サ変接続 / * / *",
+    "partOfSpeech": [
+      "Noun",
+      "Group 3 Verb"
+    ],
     "reading": "もちはこび",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "持ち運び"
   },
   {
     "forms": [],
+    "grammarIds": [
+      "p2-group-h"
+    ],
     "id": "learning-support-de68433b8dc6",
     "kanji": [
       {
@@ -31771,12 +39512,21 @@
         "label": "Group H: Special uses of たら・ば・と・なら | N3 Study Desk"
       }
     ],
-    "partOfSpeech": "名詞 / サ変接続 / * / *",
+    "partOfSpeech": [
+      "Noun",
+      "Group 3 Verb"
+    ],
     "reading": "どうさ",
+    "topicIds": [
+      "work-business"
+    ],
     "written": "動作"
   },
   {
     "forms": [],
+    "grammarIds": [
+      "p3-lesson-3"
+    ],
     "id": "learning-support-df41ceba50b0",
     "kanji": [
       {
@@ -31794,12 +39544,20 @@
         "label": "Lesson 3: ～という・～といった | N3 Study Desk"
       }
     ],
-    "partOfSpeech": "名詞 / 固有名詞 / 地域 / 一般",
+    "partOfSpeech": [
+      "Noun"
+    ],
     "reading": "なら",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "奈良"
   },
   {
     "forms": [],
+    "grammarIds": [
+      "p4-lesson-9"
+    ],
     "id": "learning-support-df83eb2b9c2d",
     "kanji": [
       {
@@ -31817,12 +39575,20 @@
         "label": "Part 4 Lesson 9: 接続表現 | N3 Study Desk"
       }
     ],
-    "partOfSpeech": "名詞 / 一般 / * / *",
+    "partOfSpeech": [
+      "Noun"
+    ],
     "reading": "りゆう",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "理由"
   },
   {
     "forms": [],
+    "grammarIds": [
+      "p2-group-f"
+    ],
     "id": "learning-support-e09559f0e35b",
     "kanji": [
       {
@@ -31840,12 +39606,20 @@
         "label": "Group F: Uses of ばかり | N3 Study Desk"
       }
     ],
-    "partOfSpeech": "名詞 / 一般 / * / *",
+    "partOfSpeech": [
+      "Noun"
+    ],
     "reading": "どうが",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "動画"
   },
   {
     "forms": [],
+    "grammarIds": [
+      "p4-lesson-10"
+    ],
     "id": "learning-support-e0b3c0db0c00",
     "kanji": [
       {
@@ -31871,12 +39645,20 @@
         "label": "Part 4 Lesson 10: 文章の雰囲気の統一 | N3 Study Desk"
       }
     ],
-    "partOfSpeech": "名詞 / 一般 / * / *",
+    "partOfSpeech": [
+      "Noun"
+    ],
     "reading": "せいひん",
+    "topicIds": [
+      "money-shopping"
+    ],
     "written": "製品"
   },
   {
     "forms": [],
+    "grammarIds": [
+      "p2-group-b"
+    ],
     "id": "learning-support-e2a52daf957e",
     "kanji": [
       {
@@ -31894,12 +39676,20 @@
         "label": "Group B: Words that work like particles | N3 Study Desk"
       }
     ],
-    "partOfSpeech": "名詞 / 一般 / * / *",
+    "partOfSpeech": [
+      "Noun"
+    ],
     "reading": "せいふ",
+    "topicIds": [
+      "society-public-services"
+    ],
     "written": "政府"
   },
   {
     "forms": [],
+    "grammarIds": [
+      "p2-group-b"
+    ],
     "id": "learning-support-e394e09d00e4",
     "kanji": [
       {
@@ -31917,12 +39707,21 @@
         "label": "Group B: Words that work like particles | N3 Study Desk"
       }
     ],
-    "partOfSpeech": "名詞 / サ変接続 / * / *",
+    "partOfSpeech": [
+      "Noun",
+      "Group 3 Verb"
+    ],
     "reading": "せっけい",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "設計"
   },
   {
     "forms": [],
+    "grammarIds": [
+      "p2-group-i"
+    ],
     "id": "learning-support-e3ad76810f3c",
     "kanji": [
       {
@@ -31940,12 +39739,20 @@
         "label": "Group I: Adverbs with fixed following forms | N3 Study Desk"
       }
     ],
-    "partOfSpeech": "名詞 / 一般 / * / *",
+    "partOfSpeech": [
+      "Noun"
+    ],
     "reading": "とけい",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "時計"
   },
   {
     "forms": [],
+    "grammarIds": [
+      "p2-group-d"
+    ],
     "id": "learning-support-e3b150f283c1",
     "kanji": [
       {
@@ -31963,12 +39770,20 @@
         "label": "Group D: Uses of よう | N3 Study Desk"
       }
     ],
-    "partOfSpeech": "名詞 / 一般 / * / *",
+    "partOfSpeech": [
+      "Noun"
+    ],
     "reading": "かかりいん",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "係員"
   },
   {
     "forms": [],
+    "grammarIds": [
+      "p4-lesson-8"
+    ],
     "id": "learning-support-e4e5715dc0e1",
     "kanji": [
       {
@@ -31986,12 +39801,25 @@
         "label": "Part 4 Lesson 8: は・が | N3 Study Desk"
       }
     ],
-    "partOfSpeech": "名詞 / 一般 / * / *",
+    "partOfSpeech": [
+      "Noun"
+    ],
     "reading": "げんしょう",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "現象"
   },
   {
     "forms": [],
+    "grammarIds": [
+      "p2-group-e",
+      "p2-group-g",
+      "p2-group-i",
+      "p3-lesson-4",
+      "p4-lesson-7",
+      "p4-lesson-9"
+    ],
     "id": "learning-support-e4e7e09df079",
     "kanji": [
       {
@@ -32033,12 +39861,21 @@
         "label": "Lesson 4: Fixed patterns | N3 Study Desk"
       }
     ],
-    "partOfSpeech": "動詞 / 自立 / * / *",
+    "partOfSpeech": [
+      "Group 1 Verb"
+    ],
     "reading": "きまる",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "決まる"
   },
   {
     "forms": [],
+    "grammarIds": [
+      "p2-group-b",
+      "p2-group-c"
+    ],
     "id": "learning-support-e53de0668008",
     "kanji": [
       {
@@ -32060,12 +39897,22 @@
         "label": "Group C: Uses of こと and の | N3 Study Desk"
       }
     ],
-    "partOfSpeech": "名詞 / サ変接続 / * / *",
+    "partOfSpeech": [
+      "Noun",
+      "Group 3 Verb"
+    ],
     "reading": "ひょうか",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "評価"
   },
   {
     "forms": [],
+    "grammarIds": [
+      "p2-group-a",
+      "p2-group-f"
+    ],
     "id": "learning-support-e6afab391a17",
     "kanji": [
       {
@@ -32087,14 +39934,20 @@
         "label": "Group F: Uses of ばかり | N3 Study Desk"
       }
     ],
-    "partOfSpeech": "名詞 / 一般 / * / *",
+    "partOfSpeech": [
+      "Noun"
+    ],
     "reading": "おんなのこ",
+    "topicIds": [
+      "people-family-relationships"
+    ],
     "written": "女の子"
   },
   {
     "forms": [],
     "grammarIds": [
-      "l7-toiu-koto"
+      "l7-toiu-koto",
+      "p2-group-d"
     ],
     "id": "learning-support-e706075e850e",
     "kanji": [
@@ -32117,12 +39970,20 @@
         "label": "Lesson 7: Reported information and hearsay ～だそうだ"
       }
     ],
-    "partOfSpeech": "名詞 / 固有名詞 / 地域 / 国",
+    "partOfSpeech": [
+      "Noun"
+    ],
     "reading": "べい",
+    "topicIds": [
+      "food-cooking"
+    ],
     "written": "米"
   },
   {
     "forms": [],
+    "grammarIds": [
+      "p2-group-g"
+    ],
     "id": "learning-support-e82727193ed6",
     "kanji": [
       {
@@ -32140,12 +40001,20 @@
         "label": "Group G: Organizing する and なる | N3 Study Desk"
       }
     ],
-    "partOfSpeech": "動詞 / 自立 / * / *",
+    "partOfSpeech": [
+      "Group 1 Verb"
+    ],
     "reading": "すう",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "吸う"
   },
   {
     "forms": [],
+    "grammarIds": [
+      "p2-group-j"
+    ],
     "id": "learning-support-e86465ca5ece",
     "kanji": [
       {
@@ -32163,12 +40032,20 @@
         "label": "Group J: Forms that broaden meaning | N3 Study Desk"
       }
     ],
-    "partOfSpeech": "形容詞 / 自立 / * / *",
+    "partOfSpeech": [
+      "I-Adjective"
+    ],
     "reading": "やわらかい",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "軟かい"
   },
   {
     "forms": [],
+    "grammarIds": [
+      "p2-group-i"
+    ],
     "id": "learning-support-e881d8911391",
     "kanji": [
       {
@@ -32186,8 +40063,13 @@
         "label": "Group I: Adverbs with fixed following forms | N3 Study Desk"
       }
     ],
-    "partOfSpeech": "動詞 / 自立 / * / *",
+    "partOfSpeech": [
+      "Group 2 Verb"
+    ],
     "reading": "はしれる",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "走れる"
   },
   {
@@ -32212,12 +40094,21 @@
         "label": "Lesson 12: Respectful, humble, and polite language"
       }
     ],
-    "partOfSpeech": "名詞 / 接尾 / 助数詞 / *",
+    "partOfSpeech": [
+      "Counter or Number"
+    ],
     "reading": "かい",
+    "topicIds": [
+      "places-directions"
+    ],
     "written": "階"
   },
   {
     "forms": [],
+    "grammarIds": [
+      "p2-group-a",
+      "p4-lesson-8"
+    ],
     "id": "learning-support-e9c1a3ae2c33",
     "kanji": [
       {
@@ -32239,12 +40130,21 @@
         "label": "Part 4 Lesson 8: は・が | N3 Study Desk"
       }
     ],
-    "partOfSpeech": "動詞 / 自立 / * / *",
+    "partOfSpeech": [
+      "Group 1 Verb"
+    ],
     "reading": "とおる",
+    "topicIds": [
+      "school-study"
+    ],
     "written": "通る"
   },
   {
     "forms": [],
+    "grammarIds": [
+      "p2-group-d",
+      "p2-group-j"
+    ],
     "id": "learning-support-ea2fe2f5de9a",
     "kanji": [
       {
@@ -32278,12 +40178,21 @@
         "label": "Group J: Forms that broaden meaning | N3 Study Desk"
       }
     ],
-    "partOfSpeech": "動詞 / 自立 / * / *",
+    "partOfSpeech": [
+      "Group 2 Verb"
+    ],
     "reading": "にる",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "似る"
   },
   {
     "forms": [],
+    "grammarIds": [
+      "p2-group-f",
+      "p2-group-g"
+    ],
     "id": "learning-support-eac8dadcd31d",
     "kanji": [
       {
@@ -32313,12 +40222,21 @@
         "label": "Group G: Organizing する and なる | N3 Study Desk"
       }
     ],
-    "partOfSpeech": "名詞 / サ変接続 / * / *",
+    "partOfSpeech": [
+      "Noun",
+      "Group 3 Verb"
+    ],
     "reading": "へんか",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "変化"
   },
   {
     "forms": [],
+    "grammarIds": [
+      "p2-group-b"
+    ],
     "id": "learning-support-eb70301cc971",
     "kanji": [
       {
@@ -32336,12 +40254,20 @@
         "label": "Group B: Words that work like particles | N3 Study Desk"
       }
     ],
-    "partOfSpeech": "名詞 / 固有名詞 / 人名 / 姓",
+    "partOfSpeech": [
+      "Noun"
+    ],
     "reading": "なつめ",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "夏目"
   },
   {
     "forms": [],
+    "grammarIds": [
+      "p4-lesson-2"
+    ],
     "id": "learning-support-ec4e1dfc873d",
     "kanji": [
       {
@@ -32359,12 +40285,21 @@
         "label": "Part 4 Lesson 2: 時制・～ている | N3 Study Desk"
       }
     ],
-    "partOfSpeech": "名詞 / 副詞可能 / * / *",
+    "partOfSpeech": [
+      "Noun",
+      "Adverb"
+    ],
     "reading": "きょねん",
+    "topicIds": [
+      "time-dates-schedules"
+    ],
     "written": "去年"
   },
   {
     "forms": [],
+    "grammarIds": [
+      "p2-group-f"
+    ],
     "id": "learning-support-ec5e038faf99",
     "kanji": [
       {
@@ -32386,14 +40321,21 @@
         "label": "Group F: Uses of ばかり | N3 Study Desk"
       }
     ],
-    "partOfSpeech": "名詞 / 副詞可能 / * / *",
+    "partOfSpeech": [
+      "Noun",
+      "Adverb"
+    ],
     "reading": "ちょくご",
+    "topicIds": [
+      "time-dates-schedules"
+    ],
     "written": "直後"
   },
   {
     "forms": [],
     "grammarIds": [
-      "l7-tte"
+      "l7-tte",
+      "p2-group-j"
     ],
     "id": "learning-support-ed36e1d3a7ba",
     "kanji": [
@@ -32416,12 +40358,20 @@
         "label": "Lesson 7: Reported information and hearsay ～だそうだ"
       }
     ],
-    "partOfSpeech": "名詞 / 接尾 / 人名 / *",
+    "partOfSpeech": [
+      "Other"
+    ],
     "reading": "きみ",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "君"
   },
   {
     "forms": [],
+    "grammarIds": [
+      "p2-group-g"
+    ],
     "id": "learning-support-edba3a49e149",
     "kanji": [
       {
@@ -32439,12 +40389,22 @@
         "label": "Group G: Organizing する and なる | N3 Study Desk"
       }
     ],
-    "partOfSpeech": "名詞 / 一般 / * / *",
+    "partOfSpeech": [
+      "Noun"
+    ],
     "reading": "やね",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "屋根"
   },
   {
     "forms": [],
+    "grammarIds": [
+      "p2-group-a",
+      "p2-group-b",
+      "p4-lesson-2"
+    ],
     "id": "learning-support-edca336b1faf",
     "kanji": [
       {
@@ -32470,12 +40430,21 @@
         "label": "Part 4 Lesson 2: 時制・～ている | N3 Study Desk"
       }
     ],
-    "partOfSpeech": "名詞 / 一般 / * / *",
+    "partOfSpeech": [
+      "Noun"
+    ],
     "reading": "おちゃ",
+    "topicIds": [
+      "food-cooking"
+    ],
     "written": "お茶"
   },
   {
     "forms": [],
+    "grammarIds": [
+      "p4-lesson-3",
+      "p4-lesson-6"
+    ],
     "id": "learning-support-ee972bb89d26",
     "kanji": [
       {
@@ -32509,12 +40478,20 @@
         "label": "Part 4 Lesson 6: ～てあげる・～てもらう・～てくれる | N3 Study Desk"
       }
     ],
-    "partOfSpeech": "接頭詞 / 数接続 / * / *",
+    "partOfSpeech": [
+      "Other"
+    ],
     "reading": "ちゅう",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "注"
   },
   {
     "forms": [],
+    "grammarIds": [
+      "p2-group-e"
+    ],
     "id": "learning-support-eea1f873b226",
     "kanji": [
       {
@@ -32532,12 +40509,20 @@
         "label": "Group E: Uses of わけ | N3 Study Desk"
       }
     ],
-    "partOfSpeech": "名詞 / 一般 / * / *",
+    "partOfSpeech": [
+      "Noun"
+    ],
     "reading": "きげん",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "期限"
   },
   {
     "forms": [],
+    "grammarIds": [
+      "p2-group-d"
+    ],
     "id": "learning-support-eef783663f0c",
     "kanji": [
       {
@@ -32555,12 +40540,20 @@
         "label": "Group D: Uses of よう | N3 Study Desk"
       }
     ],
-    "partOfSpeech": "名詞 / 一般 / * / *",
+    "partOfSpeech": [
+      "Noun"
+    ],
     "reading": "げんご",
+    "topicIds": [
+      "school-study"
+    ],
     "written": "言語"
   },
   {
     "forms": [],
+    "grammarIds": [
+      "p2-group-c"
+    ],
     "id": "learning-support-eefd9de7b8eb",
     "kanji": [
       {
@@ -32578,12 +40571,20 @@
         "label": "Group C: Uses of こと and の | N3 Study Desk"
       }
     ],
-    "partOfSpeech": "動詞 / 自立 / * / *",
+    "partOfSpeech": [
+      "Group 2 Verb"
+    ],
     "reading": "はなしかける",
+    "topicIds": [
+      "communication-media"
+    ],
     "written": "話しかける"
   },
   {
     "forms": [],
+    "grammarIds": [
+      "p2-group-f"
+    ],
     "id": "learning-support-ef340011e339",
     "kanji": [
       {
@@ -32601,12 +40602,22 @@
         "label": "Group F: Uses of ばかり | N3 Study Desk"
       }
     ],
-    "partOfSpeech": "名詞 / サ変接続 / * / *",
+    "partOfSpeech": [
+      "Noun",
+      "Group 3 Verb"
+    ],
     "reading": "こうどう",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "行動"
   },
   {
     "forms": [],
+    "grammarIds": [
+      "p2-group-c",
+      "p2-group-j"
+    ],
     "id": "learning-support-efac1fc5029b",
     "kanji": [
       {
@@ -32628,12 +40639,23 @@
         "label": "Group J: Forms that broaden meaning | N3 Study Desk"
       }
     ],
-    "partOfSpeech": "名詞 / 一般 / * / *",
+    "partOfSpeech": [
+      "Noun"
+    ],
     "reading": "にく",
+    "topicIds": [
+      "food-cooking"
+    ],
     "written": "肉"
   },
   {
     "forms": [],
+    "grammarIds": [
+      "p2-group-j",
+      "p3-lesson-2",
+      "p3-lesson-3",
+      "p4-lesson-8"
+    ],
     "id": "learning-support-f00e187c45ad",
     "kanji": [
       {
@@ -32679,15 +40701,22 @@
         "label": "Lesson 3: ～という・～といった | N3 Study Desk"
       }
     ],
-    "partOfSpeech": "名詞 / 一般 / * / *",
+    "partOfSpeech": [
+      "Noun"
+    ],
     "reading": "めいし",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "名詞"
   },
   {
     "forms": [],
     "grammarIds": [
       "l11-you-to-suru",
-      "l3-kurai"
+      "l3-kurai",
+      "p2-group-a",
+      "p4-lesson-2"
     ],
     "id": "learning-support-f17fa2d7e1a8",
     "kanji": [
@@ -32722,12 +40751,20 @@
         "label": "Part 4 Lesson 2: 時制・～ている | N3 Study Desk"
       }
     ],
-    "partOfSpeech": "名詞 / 一般 / * / *",
+    "partOfSpeech": [
+      "Noun"
+    ],
     "reading": "こ",
+    "topicIds": [
+      "people-family-relationships"
+    ],
     "written": "子"
   },
   {
     "forms": [],
+    "grammarIds": [
+      "p2-group-j"
+    ],
     "id": "learning-support-f24d76d5b9f3",
     "kanji": [
       {
@@ -32745,12 +40782,20 @@
         "label": "Group J: Forms that broaden meaning | N3 Study Desk"
       }
     ],
-    "partOfSpeech": "形容詞 / 自立 / * / *",
+    "partOfSpeech": [
+      "I-Adjective"
+    ],
     "reading": "みずっぽい",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "水っぽい"
   },
   {
     "forms": [],
+    "grammarIds": [
+      "p4-lesson-8"
+    ],
     "id": "learning-support-f2db543159bd",
     "kanji": [
       {
@@ -32768,12 +40813,23 @@
         "label": "Part 4 Lesson 8: は・が | N3 Study Desk"
       }
     ],
-    "partOfSpeech": "名詞 / サ変接続 / * / *",
+    "partOfSpeech": [
+      "Noun",
+      "Group 3 Verb"
+    ],
     "reading": "たいひ",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "対比"
   },
   {
     "forms": [],
+    "grammarIds": [
+      "p2-group-i",
+      "p3-lesson-2",
+      "p4-lesson-1"
+    ],
     "id": "learning-support-f2fa049fdd83",
     "kanji": [
       {
@@ -32799,12 +40855,20 @@
         "label": "Lesson 2: Noun description | N3 Study Desk"
       }
     ],
-    "partOfSpeech": "動詞 / 自立 / * / *",
+    "partOfSpeech": [
+      "Group 2 Verb"
+    ],
     "reading": "おしえる",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "教える"
   },
   {
     "forms": [],
+    "grammarIds": [
+      "p3-lesson-3"
+    ],
     "id": "learning-support-f4553f0b0b64",
     "kanji": [
       {
@@ -32822,12 +40886,20 @@
         "label": "Lesson 3: ～という・～といった | N3 Study Desk"
       }
     ],
-    "partOfSpeech": "名詞 / 一般 / * / *",
+    "partOfSpeech": [
+      "Noun"
+    ],
     "reading": "じさ",
+    "topicIds": [
+      "time-dates-schedules"
+    ],
     "written": "時差"
   },
   {
     "forms": [],
+    "grammarIds": [
+      "p2-group-h"
+    ],
     "id": "learning-support-f57860a6cac4",
     "kanji": [
       {
@@ -32845,12 +40917,22 @@
         "label": "Group H: Special uses of たら・ば・と・なら | N3 Study Desk"
       }
     ],
-    "partOfSpeech": "名詞 / 形容動詞語幹 / * / *",
+    "partOfSpeech": [
+      "Na-Adjective",
+      "Special Na-Adjective Ending in I"
+    ],
     "reading": "とくい",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "得意"
   },
   {
     "forms": [],
+    "grammarIds": [
+      "p2-group-e",
+      "p4-lesson-10"
+    ],
     "id": "learning-support-f5923ebe0d75",
     "kanji": [
       {
@@ -32876,12 +40958,22 @@
         "label": "Part 4 Lesson 10: 文章の雰囲気の統一 | N3 Study Desk"
       }
     ],
-    "partOfSpeech": "名詞 / サ変接続 / * / *",
+    "partOfSpeech": [
+      "Noun",
+      "Group 3 Verb"
+    ],
     "reading": "けつろん",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "結論"
   },
   {
     "forms": [],
+    "grammarIds": [
+      "p4-lesson-2",
+      "p4-lesson-3"
+    ],
     "id": "learning-support-f625608de0db",
     "kanji": [
       {
@@ -32903,12 +40995,20 @@
         "label": "Part 4 Lesson 3: 他動詞・自動詞 | N3 Study Desk"
       }
     ],
-    "partOfSpeech": "名詞 / 一般 / * / *",
+    "partOfSpeech": [
+      "Noun"
+    ],
     "reading": "つき",
+    "topicIds": [
+      "time-dates-schedules"
+    ],
     "written": "月"
   },
   {
     "forms": [],
+    "grammarIds": [
+      "p2-group-a"
+    ],
     "id": "learning-support-f671b4241cc0",
     "kanji": [
       {
@@ -32926,12 +41026,20 @@
         "label": "Group A: Particles with various functions | N3 Study Desk"
       }
     ],
-    "partOfSpeech": "名詞 / 接尾 / 助数詞 / *",
+    "partOfSpeech": [
+      "Counter or Number"
+    ],
     "reading": "えん",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "円"
   },
   {
     "forms": [],
+    "grammarIds": [
+      "p2-group-g"
+    ],
     "id": "learning-support-f6f6770515e7",
     "kanji": [
       {
@@ -32949,12 +41057,20 @@
         "label": "Group G: Organizing する and なる | N3 Study Desk"
       }
     ],
-    "partOfSpeech": "動詞 / 自立 / * / *",
+    "partOfSpeech": [
+      "Group 2 Verb"
+    ],
     "reading": "とおれる",
+    "topicIds": [
+      "school-study"
+    ],
     "written": "通れる"
   },
   {
     "forms": [],
+    "grammarIds": [
+      "p4-lesson-10"
+    ],
     "id": "learning-support-f7242813af11",
     "kanji": [
       {
@@ -32976,12 +41092,20 @@
         "label": "Part 4 Lesson 10: 文章の雰囲気の統一 | N3 Study Desk"
       }
     ],
-    "partOfSpeech": "動詞 / 自立 / * / *",
+    "partOfSpeech": [
+      "Group 2 Verb"
+    ],
     "reading": "だせる",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "出せる"
   },
   {
     "forms": [],
+    "grammarIds": [
+      "p2-group-h"
+    ],
     "id": "learning-support-f78b75b15546",
     "kanji": [
       {
@@ -33003,12 +41127,20 @@
         "label": "Group H: Special uses of たら・ば・と・なら | N3 Study Desk"
       }
     ],
-    "partOfSpeech": "名詞 / 一般 / * / *",
+    "partOfSpeech": [
+      "Noun"
+    ],
     "reading": "はたらきかけ",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "働きかけ"
   },
   {
     "forms": [],
+    "grammarIds": [
+      "p2-group-f"
+    ],
     "id": "learning-support-f7a2ae495fa3",
     "kanji": [
       {
@@ -33026,12 +41158,20 @@
         "label": "Group F: Uses of ばかり | N3 Study Desk"
       }
     ],
-    "partOfSpeech": "名詞 / 一般 / * / *",
+    "partOfSpeech": [
+      "Noun"
+    ],
     "reading": "ばめん",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "場面"
   },
   {
     "forms": [],
+    "grammarIds": [
+      "p2-group-h"
+    ],
     "id": "learning-support-f7a51f2c1c62",
     "kanji": [
       {
@@ -33049,12 +41189,20 @@
         "label": "Group H: Special uses of たら・ば・と・なら | N3 Study Desk"
       }
     ],
-    "partOfSpeech": "動詞 / 自立 / * / *",
+    "partOfSpeech": [
+      "Group 2 Verb"
+    ],
     "reading": "にげる",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "逃げる"
   },
   {
     "forms": [],
+    "grammarIds": [
+      "p4-lesson-9"
+    ],
     "id": "learning-support-f84a6eb0641a",
     "kanji": [
       {
@@ -33072,12 +41220,21 @@
         "label": "Part 4 Lesson 9: 接続表現 | N3 Study Desk"
       }
     ],
-    "partOfSpeech": "名詞 / 一般 / * / *",
+    "partOfSpeech": [
+      "Noun"
+    ],
     "reading": "さっか",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "作家"
   },
   {
     "forms": [],
+    "grammarIds": [
+      "p2-group-g",
+      "p2-group-j"
+    ],
     "id": "learning-support-f9c93afbffec",
     "kanji": [
       {
@@ -33099,12 +41256,21 @@
         "label": "Group J: Forms that broaden meaning | N3 Study Desk"
       }
     ],
-    "partOfSpeech": "名詞 / サ変接続 / * / *",
+    "partOfSpeech": [
+      "Noun",
+      "Group 3 Verb"
+    ],
     "reading": "ちょうしょく",
+    "topicIds": [
+      "food-cooking"
+    ],
     "written": "朝食"
   },
   {
     "forms": [],
+    "grammarIds": [
+      "p4-lesson-3"
+    ],
     "id": "learning-support-f9f80b1a360a",
     "kanji": [
       {
@@ -33126,12 +41292,20 @@
         "label": "Part 4 Lesson 3: 他動詞・自動詞 | N3 Study Desk"
       }
     ],
-    "partOfSpeech": "名詞 / 一般 / * / *",
+    "partOfSpeech": [
+      "Noun"
+    ],
     "reading": "ひ",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "火"
   },
   {
     "forms": [],
+    "grammarIds": [
+      "p4-lesson-10"
+    ],
     "id": "learning-support-fbc8762e523c",
     "kanji": [
       {
@@ -33149,12 +41323,20 @@
         "label": "Part 4 Lesson 10: 文章の雰囲気の統一 | N3 Study Desk"
       }
     ],
-    "partOfSpeech": "名詞 / 一般 / * / *",
+    "partOfSpeech": [
+      "Noun"
+    ],
     "reading": "れいぶん",
+    "topicIds": [
+      "school-study"
+    ],
     "written": "例文"
   },
   {
     "forms": [],
+    "grammarIds": [
+      "p2-group-j"
+    ],
     "id": "learning-support-fc2460d6aa99",
     "kanji": [
       {
@@ -33172,12 +41354,21 @@
         "label": "Group J: Forms that broaden meaning | N3 Study Desk"
       }
     ],
-    "partOfSpeech": "名詞 / サ変接続 / * / *",
+    "partOfSpeech": [
+      "Noun",
+      "Group 3 Verb"
+    ],
     "reading": "ほぞん",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "保存"
   },
   {
     "forms": [],
+    "grammarIds": [
+      "p2-group-f"
+    ],
     "id": "learning-support-fcbac4861ddd",
     "kanji": [
       {
@@ -33195,8 +41386,13 @@
         "label": "Group F: Uses of ばかり | N3 Study Desk"
       }
     ],
-    "partOfSpeech": "名詞 / 一般 / * / *",
+    "partOfSpeech": [
+      "Noun"
+    ],
     "reading": "ほうこう",
+    "topicIds": [
+      "places-directions"
+    ],
     "written": "方向"
   },
   {
@@ -33221,12 +41417,27 @@
         "label": "Lesson 7: Reported information and hearsay ～だそうだ"
       }
     ],
-    "partOfSpeech": "名詞 / 固有名詞 / 人名 / 姓",
+    "partOfSpeech": [
+      "Noun"
+    ],
     "reading": "やまかわ",
+    "topicIds": [
+      "nature-weather"
+    ],
     "written": "山川"
   },
   {
     "forms": [],
+    "grammarIds": [
+      "p2-group-b",
+      "p2-group-c",
+      "p2-group-d",
+      "p2-group-e",
+      "p2-group-f",
+      "p2-group-h",
+      "p2-group-j",
+      "p3-lesson-2"
+    ],
     "id": "learning-support-fcdc62db50a5",
     "kanji": [
       {
@@ -33336,15 +41547,24 @@
         "label": "Lesson 2: Noun description | N3 Study Desk"
       }
     ],
-    "partOfSpeech": "名詞 / 一般 / * / *",
+    "partOfSpeech": [
+      "Noun"
+    ],
     "reading": "な",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "名"
   },
   {
     "forms": [],
     "grammarIds": [
       "l8-koto-wa-ga",
-      "l8-wake-dewa-nai"
+      "l8-wake-dewa-nai",
+      "p2-group-a",
+      "p2-group-c",
+      "p2-group-j",
+      "p4-lesson-1"
     ],
     "id": "learning-support-fcea29f1923b",
     "kanji": [
@@ -33387,12 +41607,20 @@
         "label": "Part 4 Lesson 1: 文の始めと終わりの対応 | N3 Study Desk"
       }
     ],
-    "partOfSpeech": "形容詞 / 自立 / * / *",
+    "partOfSpeech": [
+      "I-Adjective"
+    ],
     "reading": "ながい",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "長い"
   },
   {
     "forms": [],
+    "grammarIds": [
+      "p4-lesson-1"
+    ],
     "id": "learning-support-fd1c93832f8f",
     "kanji": [
       {
@@ -33410,12 +41638,21 @@
         "label": "Part 4 Lesson 1: 文の始めと終わりの対応 | N3 Study Desk"
       }
     ],
-    "partOfSpeech": "名詞 / 副詞可能 / * / *",
+    "partOfSpeech": [
+      "Noun",
+      "Adverb"
+    ],
     "reading": "まいしゅう",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "毎週"
   },
   {
     "forms": [],
+    "grammarIds": [
+      "p2-group-b"
+    ],
     "id": "learning-support-fd8b32c6a431",
     "kanji": [
       {
@@ -33433,15 +41670,23 @@
         "label": "Group B: Words that work like particles | N3 Study Desk"
       }
     ],
-    "partOfSpeech": "名詞 / 固有名詞 / 人名 / 名",
+    "partOfSpeech": [
+      "Noun"
+    ],
     "reading": "そうせき",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "漱石"
   },
   {
     "forms": [],
     "grammarIds": [
       "l12-kenjougo-1",
-      "l12-kenjougo-2"
+      "l12-kenjougo-2",
+      "p2-group-e",
+      "p2-group-g",
+      "p2-group-h"
     ],
     "id": "learning-support-ff30b3309756",
     "kanji": [
@@ -33480,12 +41725,20 @@
         "label": "Lesson 12: Respectful, humble, and polite language"
       }
     ],
-    "partOfSpeech": "名詞 / 接尾 / 助数詞 / *",
+    "partOfSpeech": [
+      "Counter or Number"
+    ],
     "reading": "とき",
+    "topicIds": [
+      "time-dates-schedules"
+    ],
     "written": "時"
   },
   {
     "forms": [],
+    "grammarIds": [
+      "p2-group-i"
+    ],
     "id": "learning-support-fff0dc0674e8",
     "kanji": [
       {
@@ -33503,15 +41756,30 @@
         "label": "Group I: Adverbs with fixed following forms | N3 Study Desk"
       }
     ],
-    "partOfSpeech": "名詞 / サ変接続 / * / *",
+    "partOfSpeech": [
+      "Noun",
+      "Group 3 Verb"
+    ],
     "reading": "けいさん",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "計算"
   },
   {
     "forms": [],
     "grammarIds": [
       "l2-hodo",
-      "l5-tame"
+      "l5-tame",
+      "p2-group-d",
+      "p2-group-e",
+      "p2-group-f",
+      "p2-group-h",
+      "p2-group-i",
+      "p2-group-j",
+      "p3-lesson-3",
+      "p3-lesson-4",
+      "p4-lesson-8"
     ],
     "id": "machi",
     "kanji": [
@@ -33591,12 +41859,21 @@
         "label": "Lesson 4: Fixed patterns | N3 Study Desk"
       }
     ],
-    "partOfSpeech": "noun",
+    "partOfSpeech": [
+      "Noun"
+    ],
     "reading": "まち",
+    "topicIds": [
+      "places-directions"
+    ],
     "written": "町"
   },
   {
     "forms": [],
+    "grammarIds": [
+      "p2-group-d",
+      "p2-group-g"
+    ],
     "id": "maiasa",
     "kanji": [
       {
@@ -33623,12 +41900,23 @@
         "label": "Group G: Organizing する and なる | N3 Study Desk"
       }
     ],
-    "partOfSpeech": "noun / adverb",
+    "partOfSpeech": [
+      "Noun",
+      "Adverb"
+    ],
     "reading": "まいあさ",
+    "topicIds": [
+      "time-dates-schedules"
+    ],
     "written": "毎朝"
   },
   {
     "forms": [],
+    "grammarIds": [
+      "p2-group-e",
+      "p2-group-f",
+      "p2-group-h"
+    ],
     "id": "matsu",
     "kanji": [
       {
@@ -33654,8 +41942,13 @@
         "label": "Group H: Special uses of たら・ば・と・なら | N3 Study Desk"
       }
     ],
-    "partOfSpeech": "godan verb",
+    "partOfSpeech": [
+      "Group 1 Verb"
+    ],
     "reading": "まつ",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "待つ"
   },
   {
@@ -33686,8 +41979,13 @@
         "label": "Lesson 10: Advice and commands ～したほうがいい・～なさい"
       }
     ],
-    "partOfSpeech": "suru verb",
+    "partOfSpeech": [
+      "Group 3 Verb"
+    ],
     "reading": "めいれいする",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "命令する"
   },
   {
@@ -33718,8 +42016,13 @@
         "label": "Lesson 1: Time relationships ～とき"
       }
     ],
-    "partOfSpeech": "noun",
+    "partOfSpeech": [
+      "Noun"
+    ],
     "reading": "めんきょ",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "免許"
   },
   {
@@ -33744,8 +42047,13 @@
         "label": "Lesson 9: Wishes and requests ～と望む"
       }
     ],
-    "partOfSpeech": "grammar terminology",
+    "partOfSpeech": [
+      "Expression"
+    ],
     "reading": "ばけい",
+    "topicIds": [
+      "school-study"
+    ],
     "written": "ば形"
   },
   {
@@ -33770,8 +42078,13 @@
         "label": "Lesson 10: Advice and commands ～したほうがいい・～なさい"
       }
     ],
-    "partOfSpeech": "grammar terminology",
+    "partOfSpeech": [
+      "Expression"
+    ],
     "reading": "だん",
+    "topicIds": [
+      "school-study"
+    ],
     "written": "段"
   },
   {
@@ -33821,8 +42134,13 @@
         "label": "Lesson 10: Advice and commands ～したほうがいい・～なさい"
       }
     ],
-    "partOfSpeech": "grammar terminology",
+    "partOfSpeech": [
+      "Expression"
+    ],
     "reading": "どう",
+    "topicIds": [
+      "school-study"
+    ],
     "written": "動"
   },
   {
@@ -33852,8 +42170,13 @@
         "label": "Lesson 10: Advice and commands ～したほうがいい・～なさい"
       }
     ],
-    "partOfSpeech": "grammar terminology",
+    "partOfSpeech": [
+      "Expression"
+    ],
     "reading": "どうし",
+    "topicIds": [
+      "school-study"
+    ],
     "written": "動詞"
   },
   {
@@ -33880,7 +42203,14 @@
       "l8-koto-wa-ga",
       "l8-toha-kagiranai",
       "l8-wake-dewa-nai",
-      "l9-to-ba-tara-ii"
+      "l9-to-ba-tara-ii",
+      "p2-group-c",
+      "p2-group-d",
+      "p2-group-e",
+      "p2-group-f",
+      "p3-lesson-1",
+      "p3-lesson-2",
+      "p3-lesson-3"
     ],
     "id": "meta-futsukei",
     "kanji": [
@@ -34023,14 +42353,20 @@
         "label": "Lesson 3: ～という・～といった | N3 Study Desk"
       }
     ],
-    "partOfSpeech": "grammar terminology",
+    "partOfSpeech": [
+      "Expression"
+    ],
     "reading": "ふつうけい",
+    "topicIds": [
+      "school-study"
+    ],
     "written": "普通形"
   },
   {
     "forms": [],
     "grammarIds": [
-      "l9-to-ba-tara-ii"
+      "l9-to-ba-tara-ii",
+      "p4-lesson-2"
     ],
     "id": "meta-genzaikei",
     "kanji": [
@@ -34053,8 +42389,14 @@
         "label": "Part 4 Lesson 2: 時制・～ている | N3 Study Desk"
       }
     ],
-    "partOfSpeech": "grammar terminology",
+    "partOfSpeech": [
+      "Expression"
+    ],
     "reading": "げんざいけい",
+    "topicIds": [
+      "time-dates-schedules",
+      "school-study"
+    ],
     "written": "現在形"
   },
   {
@@ -34079,8 +42421,13 @@
         "label": "Lesson 7: Reported information and hearsay ～だそうだ"
       }
     ],
-    "partOfSpeech": "grammar terminology",
+    "partOfSpeech": [
+      "Expression"
+    ],
     "reading": "いんようけい",
+    "topicIds": [
+      "school-study"
+    ],
     "written": "引用形"
   },
   {
@@ -34105,8 +42452,13 @@
         "label": "Lesson 7: Reported information and hearsay ～だそうだ"
       }
     ],
-    "partOfSpeech": "grammar terminology",
+    "partOfSpeech": [
+      "Expression"
+    ],
     "reading": "いらい",
+    "topicIds": [
+      "communication-media"
+    ],
     "written": "依頼"
   },
   {
@@ -34117,7 +42469,13 @@
       "l10-meirei-kinshi",
       "l3-kurai-nara",
       "l3-ni-kagiru",
-      "l9-to-ba-tara-ii"
+      "l9-to-ba-tara-ii",
+      "p2-group-c",
+      "p2-group-d",
+      "p2-group-e",
+      "p2-group-f",
+      "p2-group-h",
+      "p3-lesson-1"
     ],
     "id": "meta-jishokei",
     "kanji": [
@@ -34216,8 +42574,13 @@
         "label": "Lesson 1: Quotation | N3 Study Desk"
       }
     ],
-    "partOfSpeech": "grammar terminology",
+    "partOfSpeech": [
+      "Expression"
+    ],
     "reading": "じしょけい",
+    "topicIds": [
+      "school-study"
+    ],
     "written": "辞書形"
   },
   {
@@ -34242,8 +42605,13 @@
         "label": "Lesson 9: Wishes and requests ～と望む"
       }
     ],
-    "partOfSpeech": "grammar terminology",
+    "partOfSpeech": [
+      "Expression"
+    ],
     "reading": "じょげん",
+    "topicIds": [
+      "school-study"
+    ],
     "written": "助言"
   },
   {
@@ -34268,8 +42636,13 @@
         "label": "Lesson 10: Advice and commands ～したほうがいい・～なさい"
       }
     ],
-    "partOfSpeech": "grammar terminology",
+    "partOfSpeech": [
+      "Expression"
+    ],
     "reading": "かこ",
+    "topicIds": [
+      "time-dates-schedules"
+    ],
     "written": "過去"
   },
   {
@@ -34294,8 +42667,13 @@
         "label": "Lesson 9: Wishes and requests ～と望む"
       }
     ],
-    "partOfSpeech": "grammar terminology",
+    "partOfSpeech": [
+      "Expression"
+    ],
     "reading": "けい",
+    "topicIds": [
+      "school-study"
+    ],
     "written": "形"
   },
   {
@@ -34320,8 +42698,13 @@
         "label": "Lesson 10: Advice and commands ～したほうがいい・～なさい"
       }
     ],
-    "partOfSpeech": "grammar terminology",
+    "partOfSpeech": [
+      "Expression"
+    ],
     "reading": "きんし",
+    "topicIds": [
+      "school-study"
+    ],
     "written": "禁止"
   },
   {
@@ -34346,8 +42729,13 @@
         "label": "Lesson 10: Advice and commands ～したほうがいい・～なさい"
       }
     ],
-    "partOfSpeech": "grammar terminology",
+    "partOfSpeech": [
+      "Expression"
+    ],
     "reading": "こうかい",
+    "topicIds": [
+      "school-study"
+    ],
     "written": "後悔"
   },
   {
@@ -34372,8 +42760,13 @@
         "label": "Lesson 12: Respectful, humble, and polite language"
       }
     ],
-    "partOfSpeech": "grammar terminology",
+    "partOfSpeech": [
+      "Expression"
+    ],
     "reading": "まいる",
+    "topicIds": [
+      "school-study"
+    ],
     "written": "参る"
   },
   {
@@ -34398,8 +42791,13 @@
         "label": "Lesson 10: Advice and commands ～したほうがいい・～なさい"
       }
     ],
-    "partOfSpeech": "grammar terminology",
+    "partOfSpeech": [
+      "Expression"
+    ],
     "reading": "めいし",
+    "topicIds": [
+      "school-study"
+    ],
     "written": "名詞"
   },
   {
@@ -34444,8 +42842,13 @@
         "label": "Lesson 10: Advice and commands ～したほうがいい・～なさい"
       }
     ],
-    "partOfSpeech": "grammar terminology",
+    "partOfSpeech": [
+      "Expression"
+    ],
     "reading": "ないけい",
+    "topicIds": [
+      "school-study"
+    ],
     "written": "ない形"
   },
   {
@@ -34470,14 +42873,21 @@
         "label": "Lesson 3: Degree and comparison 比べれば…・～がいちばん"
       }
     ],
-    "partOfSpeech": "grammar terminology",
+    "partOfSpeech": [
+      "Expression"
+    ],
     "reading": "せんたく",
+    "topicIds": [
+      "school-study"
+    ],
     "written": "選択"
   },
   {
     "forms": [],
     "grammarIds": [
-      "l9-sasete-moraitai"
+      "l9-sasete-moraitai",
+      "p4-lesson-1",
+      "p4-lesson-5"
     ],
     "id": "meta-shieki",
     "kanji": [
@@ -34504,8 +42914,13 @@
         "label": "Part 4 Lesson 5: 受身・使役・使役受身 | N3 Study Desk"
       }
     ],
-    "partOfSpeech": "grammar terminology",
+    "partOfSpeech": [
+      "Expression"
+    ],
     "reading": "しえき",
+    "topicIds": [
+      "school-study"
+    ],
     "written": "使役"
   },
   {
@@ -34530,8 +42945,13 @@
         "label": "Lesson 10: Advice and commands ～したほうがいい・～なさい"
       }
     ],
-    "partOfSpeech": "grammar terminology",
+    "partOfSpeech": [
+      "Expression"
+    ],
     "reading": "たけい",
+    "topicIds": [
+      "school-study"
+    ],
     "written": "た形"
   },
   {
@@ -34561,12 +42981,25 @@
         "label": "Lesson 9: Wishes and requests ～と望む"
       }
     ],
-    "partOfSpeech": "grammar terminology",
+    "partOfSpeech": [
+      "Expression"
+    ],
     "reading": "てけい",
+    "topicIds": [
+      "school-study"
+    ],
     "written": "て形"
   },
   {
     "forms": [],
+    "grammarIds": [
+      "p2-group-a",
+      "p2-group-h",
+      "p2-group-i",
+      "p2-group-j",
+      "p4-lesson-8",
+      "p4-lesson-9"
+    ],
     "id": "michi",
     "kanji": [
       {
@@ -34605,8 +43038,13 @@
         "label": "Part 4 Lesson 9: 接続表現 | N3 Study Desk"
       }
     ],
-    "partOfSpeech": "noun",
+    "partOfSpeech": [
+      "Noun"
+    ],
     "reading": "みち",
+    "topicIds": [
+      "travel-transportation"
+    ],
     "written": "道"
   },
   {
@@ -34632,14 +43070,20 @@
         "label": "Lesson 9: Wishes and requests ～と望む"
       }
     ],
-    "partOfSpeech": "i-adjective",
+    "partOfSpeech": [
+      "I-Adjective"
+    ],
     "reading": "みじかい",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "短い"
   },
   {
     "forms": [],
     "grammarIds": [
-      "l4-ni-taishite"
+      "l4-ni-taishite",
+      "p3-lesson-3"
     ],
     "id": "mina",
     "kanji": [
@@ -34663,8 +43107,14 @@
         "label": "Lesson 3: ～という・～といった | N3 Study Desk"
       }
     ],
-    "partOfSpeech": "noun / adverb",
+    "partOfSpeech": [
+      "Noun",
+      "Adverb"
+    ],
     "reading": "みな",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "皆"
   },
   {
@@ -34673,7 +43123,18 @@
       "l1-aida",
       "l1-tokoro",
       "l3-ni-kagiru",
-      "l9-te-moraitai"
+      "l9-te-moraitai",
+      "p2-group-a",
+      "p2-group-c",
+      "p2-group-f",
+      "p2-group-h",
+      "p2-group-j",
+      "p3-lesson-2",
+      "p3-lesson-4",
+      "p4-lesson-10",
+      "p4-lesson-3",
+      "p4-lesson-4",
+      "p4-lesson-8"
     ],
     "id": "miru",
     "kanji": [
@@ -34773,8 +43234,13 @@
         "label": "Lesson 4: Fixed patterns | N3 Study Desk"
       }
     ],
-    "partOfSpeech": "ichidan verb",
+    "partOfSpeech": [
+      "Group 2 Verb"
+    ],
     "reading": "みる",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "見る"
   },
   {
@@ -34784,7 +43250,12 @@
       "l7-toiu-koto",
       "l7-toka",
       "l8-hazu-wake",
-      "l8-nai-koto-wa-nai"
+      "l8-nai-koto-wa-nai",
+      "p2-group-a",
+      "p2-group-f",
+      "p2-group-h",
+      "p3-lesson-1",
+      "p3-lesson-4"
     ],
     "id": "mise",
     "kanji": [
@@ -34844,12 +43315,21 @@
         "label": "Lesson 4: Fixed patterns | N3 Study Desk"
       }
     ],
-    "partOfSpeech": "noun",
+    "partOfSpeech": [
+      "Noun"
+    ],
     "reading": "みせ",
+    "topicIds": [
+      "food-cooking",
+      "money-shopping"
+    ],
     "written": "店"
   },
   {
     "forms": [],
+    "grammarIds": [
+      "p2-group-f"
+    ],
     "id": "mitsukaru",
     "kanji": [
       {
@@ -34868,14 +43348,21 @@
         "label": "Group F: Uses of ばかり | N3 Study Desk"
       }
     ],
-    "partOfSpeech": "godan verb",
+    "partOfSpeech": [
+      "Group 1 Verb"
+    ],
     "reading": "みつかる",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "見つかる"
   },
   {
     "forms": [],
     "grammarIds": [
-      "l11-you-ni-suru"
+      "l11-you-ni-suru",
+      "p2-group-f",
+      "p4-lesson-1"
     ],
     "id": "mizu",
     "kanji": [
@@ -34902,8 +43389,13 @@
         "label": "Part 4 Lesson 1: 文の始めと終わりの対応 | N3 Study Desk"
       }
     ],
-    "partOfSpeech": "noun",
+    "partOfSpeech": [
+      "Noun"
+    ],
     "reading": "みず",
+    "topicIds": [
+      "food-cooking"
+    ],
     "written": "水"
   },
   {
@@ -34928,15 +43420,26 @@
         "label": "Lesson 3: Degree and comparison 比べれば…・～がいちばん"
       }
     ],
-    "partOfSpeech": "noun",
+    "partOfSpeech": [
+      "Noun"
+    ],
     "reading": "みずうみ",
+    "topicIds": [
+      "nature-weather"
+    ],
     "written": "湖"
   },
   {
     "forms": [],
     "grammarIds": [
       "l1-tekara",
-      "l2-hodo"
+      "l2-hodo",
+      "p2-group-c",
+      "p2-group-f",
+      "p2-group-g",
+      "p2-group-h",
+      "p2-group-i",
+      "p4-lesson-7"
     ],
     "id": "mono",
     "kanji": [
@@ -35004,12 +43507,20 @@
         "label": "Part 4 Lesson 7: こ・そ・あ | N3 Study Desk"
       }
     ],
-    "partOfSpeech": "noun",
+    "partOfSpeech": [
+      "Noun"
+    ],
     "reading": "もの",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "物"
   },
   {
     "forms": [],
+    "grammarIds": [
+      "p2-group-g"
+    ],
     "id": "monogoto",
     "kanji": [
       {
@@ -35033,12 +43544,21 @@
         "label": "Group G: Organizing する and なる | N3 Study Desk"
       }
     ],
-    "partOfSpeech": "noun",
+    "partOfSpeech": [
+      "Noun"
+    ],
     "reading": "ものごと",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "物事"
   },
   {
     "forms": [],
+    "grammarIds": [
+      "p2-group-i",
+      "p3-lesson-1"
+    ],
     "id": "mou-ichido",
     "kanji": [
       {
@@ -35070,14 +43590,25 @@
         "label": "Lesson 1: Quotation | N3 Study Desk"
       }
     ],
-    "partOfSpeech": "adverb",
+    "partOfSpeech": [
+      "Adverb"
+    ],
     "reading": "もういちど",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "もう一度"
   },
   {
     "forms": [],
     "grammarIds": [
-      "l1-uchini"
+      "l1-uchini",
+      "p2-group-a",
+      "p2-group-b",
+      "p2-group-d",
+      "p2-group-i",
+      "p2-group-j",
+      "p3-lesson-4"
     ],
     "id": "muzukashii",
     "kanji": [
@@ -35121,8 +43652,13 @@
         "label": "Lesson 4: Fixed patterns | N3 Study Desk"
       }
     ],
-    "partOfSpeech": "i-adjective",
+    "partOfSpeech": [
+      "I-Adjective"
+    ],
     "reading": "むずかしい",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "難しい"
   },
   {
@@ -35130,7 +43666,16 @@
     "grammarIds": [
       "l1-tokoro",
       "l4-ni-taishite",
-      "l7-iwareteiru"
+      "l7-iwareteiru",
+      "p2-group-b",
+      "p2-group-d",
+      "p2-group-h",
+      "p2-group-i",
+      "p3-lesson-1",
+      "p3-lesson-4",
+      "p4-lesson-2",
+      "p4-lesson-7",
+      "p4-lesson-8"
     ],
     "id": "naka",
     "kanji": [
@@ -35206,12 +43751,24 @@
         "label": "Lesson 4: Fixed patterns | N3 Study Desk"
       }
     ],
-    "partOfSpeech": "noun",
+    "partOfSpeech": [
+      "Noun"
+    ],
     "reading": "なか",
+    "topicIds": [
+      "places-directions"
+    ],
     "written": "中"
   },
   {
     "forms": [],
+    "grammarIds": [
+      "p2-group-a",
+      "p2-group-c",
+      "p2-group-f",
+      "p2-group-i",
+      "p2-group-j"
+    ],
     "id": "naku",
     "kanji": [
       {
@@ -35250,12 +43807,24 @@
         "label": "Group J: Forms that broaden meaning | N3 Study Desk"
       }
     ],
-    "partOfSpeech": "godan verb",
+    "partOfSpeech": [
+      "Group 1 Verb"
+    ],
     "reading": "なく",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "泣く"
   },
   {
     "forms": [],
+    "grammarIds": [
+      "p2-group-a",
+      "p2-group-h",
+      "p2-group-i",
+      "p3-lesson-3",
+      "p3-lesson-4"
+    ],
     "id": "namae",
     "kanji": [
       {
@@ -35298,8 +43867,13 @@
         "label": "Lesson 4: Fixed patterns | N3 Study Desk"
       }
     ],
-    "partOfSpeech": "noun",
+    "partOfSpeech": [
+      "Noun"
+    ],
     "reading": "なまえ",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "名前"
   },
   {
@@ -35325,14 +43899,20 @@
         "label": "Lesson 1: Time relationships ～とき"
       }
     ],
-    "partOfSpeech": "godan verb",
+    "partOfSpeech": [
+      "Group 1 Verb"
+    ],
     "reading": "なおる",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "治る"
   },
   {
     "forms": [],
     "grammarIds": [
-      "l1-tokoro"
+      "l1-tokoro",
+      "p2-group-h"
     ],
     "id": "naru",
     "kanji": [
@@ -35356,12 +43936,21 @@
         "label": "Lesson 1: Time relationships ～とき"
       }
     ],
-    "partOfSpeech": "godan verb",
+    "partOfSpeech": [
+      "Group 1 Verb"
+    ],
     "reading": "なる",
+    "topicIds": [
+      "communication-media"
+    ],
     "written": "鳴る"
   },
   {
     "forms": [],
+    "grammarIds": [
+      "p2-group-h",
+      "p3-lesson-3"
+    ],
     "id": "nedan",
     "kanji": [
       {
@@ -35388,12 +43977,21 @@
         "label": "Lesson 3: ～という・～といった | N3 Study Desk"
       }
     ],
-    "partOfSpeech": "noun",
+    "partOfSpeech": [
+      "Noun"
+    ],
     "reading": "ねだん",
+    "topicIds": [
+      "money-shopping"
+    ],
     "written": "値段"
   },
   {
     "forms": [],
+    "grammarIds": [
+      "p2-group-a",
+      "p2-group-h"
+    ],
     "id": "neko",
     "kanji": [
       {
@@ -35415,14 +44013,20 @@
         "label": "Group H: Special uses of たら・ば・と・なら | N3 Study Desk"
       }
     ],
-    "partOfSpeech": "noun",
+    "partOfSpeech": [
+      "Noun"
+    ],
     "reading": "ねこ",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "猫"
   },
   {
     "forms": [],
     "grammarIds": [
-      "l1-uchini"
+      "l1-uchini",
+      "p2-group-d"
     ],
     "id": "nemuru",
     "kanji": [
@@ -35446,12 +44050,22 @@
         "label": "Lesson 1: Time relationships ～とき"
       }
     ],
-    "partOfSpeech": "godan verb",
+    "partOfSpeech": [
+      "Group 1 Verb"
+    ],
     "reading": "ねむる",
+    "topicIds": [
+      "body-health",
+      "home-daily-life"
+    ],
     "written": "眠る"
   },
   {
     "forms": [],
+    "grammarIds": [
+      "p2-group-g",
+      "p2-group-h"
+    ],
     "id": "neru",
     "kanji": [
       {
@@ -35478,8 +44092,14 @@
         "label": "Group H: Special uses of たら・ば・と・なら | N3 Study Desk"
       }
     ],
-    "partOfSpeech": "ichidan verb",
+    "partOfSpeech": [
+      "Group 2 Verb"
+    ],
     "reading": "ねる",
+    "topicIds": [
+      "body-health",
+      "home-daily-life"
+    ],
     "written": "寝る"
   },
   {
@@ -35510,12 +44130,30 @@
         "label": "Lesson 4: Contrast ～とは違って"
       }
     ],
-    "partOfSpeech": "na-adjective / noun",
+    "partOfSpeech": [
+      "Noun",
+      "Na-Adjective"
+    ],
     "reading": "にがて",
+    "topicIds": [
+      "feelings-personality"
+    ],
     "written": "苦手"
   },
   {
     "forms": [],
+    "grammarIds": [
+      "p2-group-b",
+      "p2-group-d",
+      "p2-group-f",
+      "p2-group-i",
+      "p3-lesson-1",
+      "p3-lesson-3",
+      "p3-lesson-4",
+      "p4-lesson-10",
+      "p4-lesson-2",
+      "p4-lesson-8"
+    ],
     "id": "nihon",
     "kanji": [
       {
@@ -35594,12 +44232,27 @@
         "label": "Lesson 4: Fixed patterns | N3 Study Desk"
       }
     ],
-    "partOfSpeech": "proper noun",
+    "partOfSpeech": [
+      "Noun"
+    ],
     "reading": "にほん",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "日本"
   },
   {
     "forms": [],
+    "grammarIds": [
+      "p2-group-a",
+      "p2-group-b",
+      "p2-group-c",
+      "p2-group-d",
+      "p2-group-i",
+      "p3-lesson-1",
+      "p3-lesson-4",
+      "p4-lesson-8"
+    ],
     "id": "nihongo",
     "kanji": [
       {
@@ -35667,12 +44320,24 @@
         "label": "Lesson 4: Fixed patterns | N3 Study Desk"
       }
     ],
-    "partOfSpeech": "noun",
+    "partOfSpeech": [
+      "Noun"
+    ],
     "reading": "にほんご",
+    "topicIds": [
+      "school-study"
+    ],
     "written": "日本語"
   },
   {
     "forms": [],
+    "grammarIds": [
+      "p2-group-a",
+      "p2-group-d",
+      "p2-group-f",
+      "p3-lesson-2",
+      "p4-lesson-6"
+    ],
     "id": "nimotsu",
     "kanji": [
       {
@@ -35712,15 +44377,24 @@
         "label": "Lesson 2: Noun description | N3 Study Desk"
       }
     ],
-    "partOfSpeech": "noun",
+    "partOfSpeech": [
+      "Noun"
+    ],
     "reading": "にもつ",
+    "topicIds": [
+      "travel-transportation"
+    ],
     "written": "荷物"
   },
   {
     "forms": [],
     "grammarIds": [
       "l1-aida",
-      "l1-uchini"
+      "l1-uchini",
+      "p2-group-c",
+      "p2-group-h",
+      "p2-group-i",
+      "p4-lesson-3"
     ],
     "id": "niwa",
     "kanji": [
@@ -35760,14 +44434,20 @@
         "label": "Part 4 Lesson 3: 他動詞・自動詞 | N3 Study Desk"
       }
     ],
-    "partOfSpeech": "noun",
+    "partOfSpeech": [
+      "Noun"
+    ],
     "reading": "にわ",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "庭"
   },
   {
     "forms": [],
     "grammarIds": [
-      "l1-uchini"
+      "l1-uchini",
+      "p3-lesson-4"
     ],
     "id": "noboru",
     "kanji": [
@@ -35791,12 +44471,27 @@
         "label": "Lesson 4: Fixed patterns | N3 Study Desk"
       }
     ],
-    "partOfSpeech": "godan verb",
+    "partOfSpeech": [
+      "Group 1 Verb"
+    ],
     "reading": "のぼる",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "登る"
   },
   {
     "forms": [],
+    "grammarIds": [
+      "p2-group-a",
+      "p2-group-d",
+      "p2-group-e",
+      "p2-group-g",
+      "p2-group-h",
+      "p2-group-i",
+      "p3-lesson-3",
+      "p4-lesson-2"
+    ],
     "id": "nomu",
     "kanji": [
       {
@@ -35850,12 +44545,20 @@
         "label": "Lesson 3: ～という・～といった | N3 Study Desk"
       }
     ],
-    "partOfSpeech": "godan verb",
+    "partOfSpeech": [
+      "Group 1 Verb"
+    ],
     "reading": "のむ",
+    "topicIds": [
+      "food-cooking"
+    ],
     "written": "飲む"
   },
   {
     "forms": [],
+    "grammarIds": [
+      "p3-lesson-2"
+    ],
     "id": "noru",
     "kanji": [
       {
@@ -35874,12 +44577,23 @@
         "label": "Lesson 2: Noun description | N3 Study Desk"
       }
     ],
-    "partOfSpeech": "godan verb",
+    "partOfSpeech": [
+      "Group 1 Verb"
+    ],
     "reading": "のる",
+    "topicIds": [
+      "travel-transportation"
+    ],
     "written": "乗る"
   },
   {
     "forms": [],
+    "grammarIds": [
+      "p2-group-c",
+      "p2-group-i",
+      "p2-group-j",
+      "p3-lesson-4"
+    ],
     "id": "oboeru",
     "kanji": [
       {
@@ -35918,12 +44632,20 @@
         "label": "Lesson 4: Fixed patterns | N3 Study Desk"
       }
     ],
-    "partOfSpeech": "ichidan verb",
+    "partOfSpeech": [
+      "Group 2 Verb"
+    ],
     "reading": "おぼえる",
+    "topicIds": [
+      "school-study"
+    ],
     "written": "覚える"
   },
   {
     "forms": [],
+    "grammarIds": [
+      "p2-group-a"
+    ],
     "id": "oeru",
     "kanji": [
       {
@@ -35942,14 +44664,21 @@
         "label": "Group A: Particles with various functions | N3 Study Desk"
       }
     ],
-    "partOfSpeech": "ichidan verb",
+    "partOfSpeech": [
+      "Group 2 Verb"
+    ],
     "reading": "おえる",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "終える"
   },
   {
     "forms": [],
     "grammarIds": [
-      "l2-tabini"
+      "l2-tabini",
+      "p2-group-h",
+      "p4-lesson-2"
     ],
     "id": "okoru",
     "kanji": [
@@ -35981,12 +44710,20 @@
         "label": "Part 4 Lesson 2: 時制・～ている | N3 Study Desk"
       }
     ],
-    "partOfSpeech": "godan verb",
+    "partOfSpeech": [
+      "Group 1 Verb"
+    ],
     "reading": "おこる",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "起こる"
   },
   {
     "forms": [],
+    "grammarIds": [
+      "p2-group-f"
+    ],
     "id": "okuru",
     "kanji": [
       {
@@ -36004,8 +44741,13 @@
         "label": "Group F: Uses of ばかり | N3 Study Desk"
       }
     ],
-    "partOfSpeech": "godan verb",
+    "partOfSpeech": [
+      "Group 1 Verb"
+    ],
     "reading": "おくる",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "送る"
   },
   {
@@ -36036,12 +44778,20 @@
         "label": "Lesson 2: Relationships ～と関係して"
       }
     ],
-    "partOfSpeech": "noun",
+    "partOfSpeech": [
+      "Noun"
+    ],
     "reading": "おおみず",
+    "topicIds": [
+      "food-cooking"
+    ],
     "written": "大水"
   },
   {
     "forms": [],
+    "grammarIds": [
+      "p4-lesson-7"
+    ],
     "id": "omoidasu",
     "kanji": [
       {
@@ -36065,14 +44815,21 @@
         "label": "Part 4 Lesson 7: こ・そ・あ | N3 Study Desk"
       }
     ],
-    "partOfSpeech": "godan verb",
+    "partOfSpeech": [
+      "Group 1 Verb"
+    ],
     "reading": "おもいだす",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "思い出す"
   },
   {
     "forms": [],
     "grammarIds": [
-      "l4-hanmen"
+      "l4-hanmen",
+      "p2-group-f",
+      "p3-lesson-4"
     ],
     "id": "omoshiroi",
     "kanji": [
@@ -36105,14 +44862,26 @@
         "label": "Lesson 4: Fixed patterns | N3 Study Desk"
       }
     ],
-    "partOfSpeech": "i-adjective",
+    "partOfSpeech": [
+      "I-Adjective"
+    ],
     "reading": "おもしろい",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "面白い"
   },
   {
     "forms": [],
     "grammarIds": [
-      "l9-sasete-moraitai"
+      "l9-sasete-moraitai",
+      "p2-group-a",
+      "p2-group-c",
+      "p2-group-d",
+      "p2-group-f",
+      "p2-group-h",
+      "p2-group-j",
+      "p4-lesson-10"
     ],
     "id": "onaji",
     "kanji": [
@@ -36171,14 +44940,20 @@
         "label": "Part 4 Lesson 10: 文章の雰囲気の統一 | N3 Study Desk"
       }
     ],
-    "partOfSpeech": "pre-noun adjective",
+    "partOfSpeech": [
+      "Other"
+    ],
     "reading": "おなじ",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "同じ"
   },
   {
     "forms": [],
     "grammarIds": [
-      "l1-uchini"
+      "l1-uchini",
+      "p2-group-h"
     ],
     "id": "ongaku",
     "kanji": [
@@ -36206,12 +44981,20 @@
         "label": "Lesson 1: Time relationships ～とき"
       }
     ],
-    "partOfSpeech": "noun",
+    "partOfSpeech": [
+      "Noun"
+    ],
     "reading": "おんがく",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "音楽"
   },
   {
     "forms": [],
+    "grammarIds": [
+      "p2-group-i"
+    ],
     "id": "ooame",
     "kanji": [
       {
@@ -36234,8 +45017,13 @@
         "label": "Group I: Adverbs with fixed following forms | N3 Study Desk"
       }
     ],
-    "partOfSpeech": "noun",
+    "partOfSpeech": [
+      "Noun"
+    ],
     "reading": "おおあめ",
+    "topicIds": [
+      "nature-weather"
+    ],
     "written": "大雨"
   },
   {
@@ -36248,7 +45036,14 @@
       "l4-ippo",
       "l4-kawari-ni",
       "l5-tame",
-      "l8-koto-wa-ga"
+      "l8-koto-wa-ga",
+      "p2-group-b",
+      "p2-group-c",
+      "p2-group-d",
+      "p2-group-f",
+      "p2-group-h",
+      "p4-lesson-1",
+      "p4-lesson-7"
     ],
     "id": "ooi",
     "kanji": [
@@ -36340,14 +45135,24 @@
         "label": "Part 4 Lesson 7: こ・そ・あ | N3 Study Desk"
       }
     ],
-    "partOfSpeech": "i-adjective",
+    "partOfSpeech": [
+      "I-Adjective"
+    ],
     "reading": "おおい",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "多い"
   },
   {
     "forms": [],
     "grammarIds": [
-      "l8-hazu-wake"
+      "l8-hazu-wake",
+      "p2-group-a",
+      "p2-group-b",
+      "p2-group-c",
+      "p2-group-g",
+      "p2-group-i"
     ],
     "id": "ookii",
     "kanji": [
@@ -36395,14 +45200,20 @@
         "label": "Lesson 8: Strong and partial negation 絶対～ない・必ず～とは言えない"
       }
     ],
-    "partOfSpeech": "i-adjective",
+    "partOfSpeech": [
+      "I-Adjective"
+    ],
     "reading": "おおきい",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "大きい"
   },
   {
     "forms": [],
     "grammarIds": [
-      "l4-ni-taishite"
+      "l4-ni-taishite",
+      "p2-group-g"
     ],
     "id": "osaka",
     "kanji": [
@@ -36430,12 +45241,21 @@
         "label": "Lesson 4: Contrast ～とは違って"
       }
     ],
-    "partOfSpeech": "proper noun",
+    "partOfSpeech": [
+      "Noun"
+    ],
     "reading": "おおさか",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "大阪"
   },
   {
     "forms": [],
+    "grammarIds": [
+      "p2-group-g",
+      "p2-group-h"
+    ],
     "id": "osu",
     "kanji": [
       {
@@ -36458,12 +45278,22 @@
         "label": "Group H: Special uses of たら・ば・と・なら | N3 Study Desk"
       }
     ],
-    "partOfSpeech": "godan verb",
+    "partOfSpeech": [
+      "Group 1 Verb"
+    ],
     "reading": "おす",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "押す"
   },
   {
     "forms": [],
+    "grammarIds": [
+      "p2-group-b",
+      "p2-group-f",
+      "p2-group-j"
+    ],
     "id": "ototo",
     "kanji": [
       {
@@ -36493,8 +45323,13 @@
         "label": "Group J: Forms that broaden meaning | N3 Study Desk"
       }
     ],
-    "partOfSpeech": "noun",
+    "partOfSpeech": [
+      "Noun"
+    ],
     "reading": "おとうと",
+    "topicIds": [
+      "people-family-relationships"
+    ],
     "written": "弟"
   },
   {
@@ -36502,7 +45337,12 @@
     "grammarIds": [
       "l10-beki",
       "l5-okage-sei",
-      "l8-nai-koto-wa-nai"
+      "l8-nai-koto-wa-nai",
+      "p2-group-a",
+      "p2-group-f",
+      "p2-group-i",
+      "p2-group-j",
+      "p4-lesson-1"
     ],
     "id": "owaru",
     "kanji": [
@@ -36558,12 +45398,20 @@
         "label": "Part 4 Lesson 1: 文の始めと終わりの対応 | N3 Study Desk"
       }
     ],
-    "partOfSpeech": "godan verb",
+    "partOfSpeech": [
+      "Group 1 Verb"
+    ],
     "reading": "おわる",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "終わる"
   },
   {
     "forms": [],
+    "grammarIds": [
+      "p3-lesson-1"
+    ],
     "id": "p3l1-gokaku",
     "kanji": [
       {
@@ -36585,12 +45433,21 @@
         "label": "Lesson 1: Quotation | N3 Study Desk"
       }
     ],
-    "partOfSpeech": "word",
+    "partOfSpeech": [
+      "Noun",
+      "Group 3 Verb"
+    ],
     "reading": "ごうかく",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "合格"
   },
   {
     "forms": [],
+    "grammarIds": [
+      "p3-lesson-1"
+    ],
     "id": "p3l1-jouzu",
     "kanji": [
       {
@@ -36612,12 +45469,20 @@
         "label": "Lesson 1: Quotation | N3 Study Desk"
       }
     ],
-    "partOfSpeech": "word",
+    "partOfSpeech": [
+      "Na-Adjective"
+    ],
     "reading": "じょうず",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "上手"
   },
   {
     "forms": [],
+    "grammarIds": [
+      "p3-lesson-1"
+    ],
     "id": "p3l1-kiku",
     "kanji": [
       {
@@ -36639,12 +45504,20 @@
         "label": "Lesson 1: Quotation | N3 Study Desk"
       }
     ],
-    "partOfSpeech": "word",
+    "partOfSpeech": [
+      "Group 1 Verb"
+    ],
     "reading": "きく",
+    "topicIds": [
+      "communication-media"
+    ],
     "written": "聞く"
   },
   {
     "forms": [],
+    "grammarIds": [
+      "p3-lesson-1"
+    ],
     "id": "p3l1-ninki",
     "kanji": [
       {
@@ -36666,12 +45539,20 @@
         "label": "Lesson 1: Quotation | N3 Study Desk"
       }
     ],
-    "partOfSpeech": "word",
+    "partOfSpeech": [
+      "Noun"
+    ],
     "reading": "にんき",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "人気"
   },
   {
     "forms": [],
+    "grammarIds": [
+      "p3-lesson-1"
+    ],
     "id": "p3l1-setsumei",
     "kanji": [
       {
@@ -36693,12 +45574,21 @@
         "label": "Lesson 1: Quotation | N3 Study Desk"
       }
     ],
-    "partOfSpeech": "word",
+    "partOfSpeech": [
+      "Noun",
+      "Group 3 Verb"
+    ],
     "reading": "せつめい",
+    "topicIds": [
+      "school-study"
+    ],
     "written": "説明"
   },
   {
     "forms": [],
+    "grammarIds": [
+      "p3-lesson-1"
+    ],
     "id": "p3l1-susumeru",
     "kanji": [
       {
@@ -36720,12 +45610,20 @@
         "label": "Lesson 1: Quotation | N3 Study Desk"
       }
     ],
-    "partOfSpeech": "word",
+    "partOfSpeech": [
+      "Group 2 Verb"
+    ],
     "reading": "すすめる",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "勧める"
   },
   {
     "forms": [],
+    "grammarIds": [
+      "p3-lesson-1"
+    ],
     "id": "p3l1-taisetsu",
     "kanji": [
       {
@@ -36747,12 +45645,20 @@
         "label": "Lesson 1: Quotation | N3 Study Desk"
       }
     ],
-    "partOfSpeech": "word",
+    "partOfSpeech": [
+      "Na-Adjective"
+    ],
     "reading": "たいせつ",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "大切"
   },
   {
     "forms": [],
+    "grammarIds": [
+      "p3-lesson-1"
+    ],
     "id": "p3l1-tanomu",
     "kanji": [
       {
@@ -36774,14 +45680,20 @@
         "label": "Lesson 1: Quotation | N3 Study Desk"
       }
     ],
-    "partOfSpeech": "word",
+    "partOfSpeech": [
+      "Group 1 Verb"
+    ],
     "reading": "たのむ",
+    "topicIds": [
+      "communication-media"
+    ],
     "written": "頼む"
   },
   {
     "forms": [],
     "grammarIds": [
-      "l1-tekara"
+      "l1-tekara",
+      "p3-lesson-1"
     ],
     "id": "p3l1-undou",
     "kanji": [
@@ -36808,12 +45720,21 @@
         "label": "Lesson 1: Quotation | N3 Study Desk"
       }
     ],
-    "partOfSpeech": "word",
+    "partOfSpeech": [
+      "Noun",
+      "Group 3 Verb"
+    ],
     "reading": "うんどう",
+    "topicIds": [
+      "body-health"
+    ],
     "written": "運動"
   },
   {
     "forms": [],
+    "grammarIds": [
+      "p3-lesson-2"
+    ],
     "id": "p3l2-eki",
     "kanji": [
       {
@@ -36835,12 +45756,20 @@
         "label": "Lesson 2: Noun description | N3 Study Desk"
       }
     ],
-    "partOfSpeech": "word",
+    "partOfSpeech": [
+      "Noun"
+    ],
     "reading": "えき",
+    "topicIds": [
+      "travel-transportation"
+    ],
     "written": "駅"
   },
   {
     "forms": [],
+    "grammarIds": [
+      "p2-group-b"
+    ],
     "id": "p3l2-kansha",
     "kanji": [
       {
@@ -36858,12 +45787,21 @@
         "label": "Group B: Words that work like particles | N3 Study Desk"
       }
     ],
-    "partOfSpeech": "word",
+    "partOfSpeech": [
+      "Noun",
+      "Group 3 Verb"
+    ],
     "reading": "かんしゃ",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "感謝"
   },
   {
     "forms": [],
+    "grammarIds": [
+      "p3-lesson-2"
+    ],
     "id": "p3l2-keshiki",
     "kanji": [
       {
@@ -36885,12 +45823,20 @@
         "label": "Lesson 2: Noun description | N3 Study Desk"
       }
     ],
-    "partOfSpeech": "word",
+    "partOfSpeech": [
+      "Noun"
+    ],
     "reading": "けしき",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "景色"
   },
   {
     "forms": [],
+    "grammarIds": [
+      "p3-lesson-2"
+    ],
     "id": "p3l2-koe",
     "kanji": [
       {
@@ -36912,12 +45858,20 @@
         "label": "Lesson 2: Noun description | N3 Study Desk"
       }
     ],
-    "partOfSpeech": "word",
+    "partOfSpeech": [
+      "Noun"
+    ],
     "reading": "こえ",
+    "topicIds": [
+      "communication-media"
+    ],
     "written": "声"
   },
   {
     "forms": [],
+    "grammarIds": [
+      "p3-lesson-2"
+    ],
     "id": "p3l2-seimei",
     "kanji": [
       {
@@ -36939,12 +45893,20 @@
         "label": "Lesson 2: Noun description | N3 Study Desk"
       }
     ],
-    "partOfSpeech": "word",
+    "partOfSpeech": [
+      "Noun"
+    ],
     "reading": "せいめい",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "生命"
   },
   {
     "forms": [],
+    "grammarIds": [
+      "p4-lesson-1"
+    ],
     "id": "p3l2-shoukai",
     "kanji": [
       {
@@ -36962,12 +45924,21 @@
         "label": "Part 4 Lesson 1: 文の始めと終わりの対応 | N3 Study Desk"
       }
     ],
-    "partOfSpeech": "word",
+    "partOfSpeech": [
+      "Noun",
+      "Group 3 Verb"
+    ],
     "reading": "しょうかい",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "紹介"
   },
   {
     "forms": [],
+    "grammarIds": [
+      "p3-lesson-2"
+    ],
     "id": "p3l2-shuuri",
     "kanji": [
       {
@@ -36989,15 +45960,24 @@
         "label": "Lesson 2: Noun description | N3 Study Desk"
       }
     ],
-    "partOfSpeech": "word",
+    "partOfSpeech": [
+      "Noun",
+      "Group 3 Verb"
+    ],
     "reading": "しゅうり",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "修理"
   },
   {
     "forms": [],
     "grammarIds": [
       "l7-toiu-koto",
-      "l8-koto-wa-ga"
+      "l8-koto-wa-ga",
+      "p2-group-h",
+      "p3-lesson-2",
+      "p3-lesson-4"
     ],
     "id": "p3l2-tegami",
     "kanji": [
@@ -37040,12 +46020,20 @@
         "label": "Lesson 4: Fixed patterns | N3 Study Desk"
       }
     ],
-    "partOfSpeech": "word",
+    "partOfSpeech": [
+      "Noun"
+    ],
     "reading": "てがみ",
+    "topicIds": [
+      "communication-media"
+    ],
     "written": "手紙"
   },
   {
     "forms": [],
+    "grammarIds": [
+      "p3-lesson-2"
+    ],
     "id": "p3l2-toukyoueki",
     "kanji": [
       {
@@ -37067,12 +46055,22 @@
         "label": "Lesson 2: Noun description | N3 Study Desk"
       }
     ],
-    "partOfSpeech": "word",
+    "partOfSpeech": [
+      "Noun"
+    ],
     "reading": "とうきょうえき",
+    "topicIds": [
+      "travel-transportation"
+    ],
     "written": "東京駅"
   },
   {
     "forms": [],
+    "grammarIds": [
+      "p3-lesson-2",
+      "p3-lesson-3",
+      "p4-lesson-9"
+    ],
     "id": "p3l2-ukeru",
     "kanji": [
       {
@@ -37106,12 +46104,20 @@
         "label": "Lesson 3: ～という・～といった | N3 Study Desk"
       }
     ],
-    "partOfSpeech": "word",
+    "partOfSpeech": [
+      "Group 2 Verb"
+    ],
     "reading": "うける",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "受ける"
   },
   {
     "forms": [],
+    "grammarIds": [
+      "p3-lesson-2"
+    ],
     "id": "p3l2-unnei",
     "kanji": [
       {
@@ -37133,12 +46139,21 @@
         "label": "Lesson 2: Noun description | N3 Study Desk"
       }
     ],
-    "partOfSpeech": "word",
+    "partOfSpeech": [
+      "Noun",
+      "Group 3 Verb"
+    ],
     "reading": "うんえい",
+    "topicIds": [
+      "work-business"
+    ],
     "written": "運営"
   },
   {
     "forms": [],
+    "grammarIds": [
+      "p3-lesson-2"
+    ],
     "id": "p3l2-yogoreta",
     "kanji": [
       {
@@ -37160,12 +46175,20 @@
         "label": "Lesson 2: Noun description | N3 Study Desk"
       }
     ],
-    "partOfSpeech": "word",
+    "partOfSpeech": [
+      "Group 2 Verb"
+    ],
     "reading": "よごれた",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "汚れた"
   },
   {
     "forms": [],
+    "grammarIds": [
+      "p3-lesson-2"
+    ],
     "id": "p3l2-yorokobu",
     "kanji": [
       {
@@ -37187,12 +46210,20 @@
         "label": "Lesson 2: Noun description | N3 Study Desk"
       }
     ],
-    "partOfSpeech": "word",
+    "partOfSpeech": [
+      "Group 1 Verb"
+    ],
     "reading": "よろこぶ",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "喜ぶ"
   },
   {
     "forms": [],
+    "grammarIds": [
+      "p3-lesson-3"
+    ],
     "id": "p3l3-butsuri",
     "kanji": [
       {
@@ -37210,12 +46241,20 @@
         "label": "Lesson 3: ～という・～といった | N3 Study Desk"
       }
     ],
-    "partOfSpeech": "word",
+    "partOfSpeech": [
+      "Noun"
+    ],
     "reading": "ぶつり",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "物理"
   },
   {
     "forms": [],
+    "grammarIds": [
+      "p3-lesson-3"
+    ],
     "id": "p3l3-haiiro",
     "kanji": [
       {
@@ -37233,12 +46272,20 @@
         "label": "Lesson 3: ～という・～といった | N3 Study Desk"
       }
     ],
-    "partOfSpeech": "word",
+    "partOfSpeech": [
+      "Noun"
+    ],
     "reading": "はいいろ",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "灰色"
   },
   {
     "forms": [],
+    "grammarIds": [
+      "p3-lesson-3"
+    ],
     "id": "p3l3-hitsuyou",
     "kanji": [
       {
@@ -37256,12 +46303,21 @@
         "label": "Lesson 3: ～という・～といった | N3 Study Desk"
       }
     ],
-    "partOfSpeech": "word",
+    "partOfSpeech": [
+      "Noun",
+      "Na-Adjective"
+    ],
     "reading": "ひつよう",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "必要"
   },
   {
     "forms": [],
+    "grammarIds": [
+      "p3-lesson-3"
+    ],
     "id": "p3l3-joyuu",
     "kanji": [
       {
@@ -37279,12 +46335,20 @@
         "label": "Lesson 3: ～という・～といった | N3 Study Desk"
       }
     ],
-    "partOfSpeech": "word",
+    "partOfSpeech": [
+      "Noun"
+    ],
     "reading": "じょゆう",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "女優"
   },
   {
     "forms": [],
+    "grammarIds": [
+      "p3-lesson-3"
+    ],
     "id": "p3l3-kagaku",
     "kanji": [
       {
@@ -37302,12 +46366,20 @@
         "label": "Lesson 3: ～という・～といった | N3 Study Desk"
       }
     ],
-    "partOfSpeech": "word",
+    "partOfSpeech": [
+      "Noun"
+    ],
     "reading": "かがく",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "化学"
   },
   {
     "forms": [],
+    "grammarIds": [
+      "p3-lesson-3"
+    ],
     "id": "p3l3-kamoku",
     "kanji": [
       {
@@ -37325,12 +46397,22 @@
         "label": "Lesson 3: ～という・～といった | N3 Study Desk"
       }
     ],
-    "partOfSpeech": "word",
+    "partOfSpeech": [
+      "Noun"
+    ],
     "reading": "かもく",
+    "topicIds": [
+      "school-study"
+    ],
     "written": "科目"
   },
   {
     "forms": [],
+    "grammarIds": [
+      "p2-group-a",
+      "p2-group-g",
+      "p3-lesson-3"
+    ],
     "id": "p3l3-kudamono",
     "kanji": [
       {
@@ -37364,12 +46446,20 @@
         "label": "Lesson 3: ～という・～といった | N3 Study Desk"
       }
     ],
-    "partOfSpeech": "word",
+    "partOfSpeech": [
+      "Noun"
+    ],
     "reading": "くだもの",
+    "topicIds": [
+      "food-cooking"
+    ],
     "written": "果物"
   },
   {
     "forms": [],
+    "grammarIds": [
+      "p3-lesson-3"
+    ],
     "id": "p3l3-kurai",
     "kanji": [
       {
@@ -37387,12 +46477,20 @@
         "label": "Lesson 3: ～という・～といった | N3 Study Desk"
       }
     ],
-    "partOfSpeech": "word",
+    "partOfSpeech": [
+      "I-Adjective"
+    ],
     "reading": "くらい",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "暗い"
   },
   {
     "forms": [],
+    "grammarIds": [
+      "p3-lesson-3"
+    ],
     "id": "p3l3-kyouiku",
     "kanji": [
       {
@@ -37410,12 +46508,21 @@
         "label": "Lesson 3: ～という・～といった | N3 Study Desk"
       }
     ],
-    "partOfSpeech": "word",
+    "partOfSpeech": [
+      "Noun",
+      "Group 3 Verb"
+    ],
     "reading": "きょういく",
+    "topicIds": [
+      "school-study"
+    ],
     "written": "教育"
   },
   {
     "forms": [],
+    "grammarIds": [
+      "p3-lesson-3"
+    ],
     "id": "p3l3-matsushita",
     "kanji": [
       {
@@ -37433,12 +46540,20 @@
         "label": "Lesson 3: ～という・～といった | N3 Study Desk"
       }
     ],
-    "partOfSpeech": "word",
+    "partOfSpeech": [
+      "Noun"
+    ],
     "reading": "まつした",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "松下"
   },
   {
     "forms": [],
+    "grammarIds": [
+      "p3-lesson-3"
+    ],
     "id": "p3l3-mezurashii",
     "kanji": [
       {
@@ -37456,12 +46571,20 @@
         "label": "Lesson 3: ～という・～といった | N3 Study Desk"
       }
     ],
-    "partOfSpeech": "word",
+    "partOfSpeech": [
+      "I-Adjective"
+    ],
     "reading": "めずらしい",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "珍しい"
   },
   {
     "forms": [],
+    "grammarIds": [
+      "p3-lesson-3"
+    ],
     "id": "p3l3-mikkabouzu",
     "kanji": [
       {
@@ -37479,12 +46602,20 @@
         "label": "Lesson 3: ～という・～といった | N3 Study Desk"
       }
     ],
-    "partOfSpeech": "word",
+    "partOfSpeech": [
+      "Noun"
+    ],
     "reading": "みっかぼうず",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "三日坊主"
   },
   {
     "forms": [],
+    "grammarIds": [
+      "p3-lesson-3"
+    ],
     "id": "p3l3-mono",
     "kanji": [
       {
@@ -37502,12 +46633,20 @@
         "label": "Lesson 3: ～という・～といった | N3 Study Desk"
       }
     ],
-    "partOfSpeech": "word",
+    "partOfSpeech": [
+      "Noun"
+    ],
     "reading": "もの",
+    "topicIds": [
+      "people-family-relationships"
+    ],
     "written": "者"
   },
   {
     "forms": [],
+    "grammarIds": [
+      "p3-lesson-3"
+    ],
     "id": "p3l3-nakigoe",
     "kanji": [
       {
@@ -37525,12 +46664,22 @@
         "label": "Lesson 3: ～という・～といった | N3 Study Desk"
       }
     ],
-    "partOfSpeech": "word",
+    "partOfSpeech": [
+      "Noun"
+    ],
     "reading": "なきごえ",
+    "topicIds": [
+      "nature-weather",
+      "communication-media"
+    ],
     "written": "鳴き声"
   },
   {
     "forms": [],
+    "grammarIds": [
+      "p2-group-a",
+      "p3-lesson-3"
+    ],
     "id": "p3l3-niau",
     "kanji": [
       {
@@ -37552,12 +46701,20 @@
         "label": "Lesson 3: ～という・～といった | N3 Study Desk"
       }
     ],
-    "partOfSpeech": "word",
+    "partOfSpeech": [
+      "Group 1 Verb"
+    ],
     "reading": "にあう",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "似合う"
   },
   {
     "forms": [],
+    "grammarIds": [
+      "p3-lesson-3"
+    ],
     "id": "p3l3-saigai",
     "kanji": [
       {
@@ -37575,12 +46732,20 @@
         "label": "Lesson 3: ～という・～といった | N3 Study Desk"
       }
     ],
-    "partOfSpeech": "word",
+    "partOfSpeech": [
+      "Noun"
+    ],
     "reading": "さいがい",
+    "topicIds": [
+      "nature-weather"
+    ],
     "written": "災害"
   },
   {
     "forms": [],
+    "grammarIds": [
+      "p3-lesson-3"
+    ],
     "id": "p3l3-sonaeru",
     "kanji": [
       {
@@ -37598,12 +46763,20 @@
         "label": "Lesson 3: ～という・～といった | N3 Study Desk"
       }
     ],
-    "partOfSpeech": "word",
+    "partOfSpeech": [
+      "Group 2 Verb"
+    ],
     "reading": "そなえる",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "備える"
   },
   {
     "forms": [],
+    "grammarIds": [
+      "p3-lesson-3"
+    ],
     "id": "p3l3-suugaku",
     "kanji": [
       {
@@ -37621,12 +46794,20 @@
         "label": "Lesson 3: ～という・～といった | N3 Study Desk"
       }
     ],
-    "partOfSpeech": "word",
+    "partOfSpeech": [
+      "Noun"
+    ],
     "reading": "すうがく",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "数学"
   },
   {
     "forms": [],
+    "grammarIds": [
+      "p3-lesson-3"
+    ],
     "id": "p3l3-tearai",
     "kanji": [
       {
@@ -37644,12 +46825,21 @@
         "label": "Lesson 3: ～という・～といった | N3 Study Desk"
       }
     ],
-    "partOfSpeech": "word",
+    "partOfSpeech": [
+      "Noun",
+      "Group 3 Verb"
+    ],
     "reading": "てあらい",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "手洗い"
   },
   {
     "forms": [],
+    "grammarIds": [
+      "p3-lesson-3"
+    ],
     "id": "p3l3-yameru",
     "kanji": [
       {
@@ -37667,12 +46857,20 @@
         "label": "Lesson 3: ～という・～といった | N3 Study Desk"
       }
     ],
-    "partOfSpeech": "word",
+    "partOfSpeech": [
+      "Group 2 Verb"
+    ],
     "reading": "やめる",
+    "topicIds": [
+      "work-business"
+    ],
     "written": "辞める"
   },
   {
     "forms": [],
+    "grammarIds": [
+      "p3-lesson-3"
+    ],
     "id": "p3l3-yobou",
     "kanji": [
       {
@@ -37690,12 +46888,21 @@
         "label": "Lesson 3: ～という・～といった | N3 Study Desk"
       }
     ],
-    "partOfSpeech": "word",
+    "partOfSpeech": [
+      "Noun",
+      "Group 3 Verb"
+    ],
     "reading": "よぼう",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "予防"
   },
   {
     "forms": [],
+    "grammarIds": [
+      "p3-lesson-3"
+    ],
     "id": "p3l3-yougo",
     "kanji": [
       {
@@ -37713,12 +46920,20 @@
         "label": "Lesson 3: ～という・～といった | N3 Study Desk"
       }
     ],
-    "partOfSpeech": "word",
+    "partOfSpeech": [
+      "Noun"
+    ],
     "reading": "ようご",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "用語"
   },
   {
     "forms": [],
+    "grammarIds": [
+      "p3-lesson-3"
+    ],
     "id": "p3l3-yuumei",
     "kanji": [
       {
@@ -37736,12 +46951,23 @@
         "label": "Lesson 3: ～という・～といった | N3 Study Desk"
       }
     ],
-    "partOfSpeech": "word",
+    "partOfSpeech": [
+      "Na-Adjective",
+      "Special Na-Adjective Ending in I"
+    ],
     "reading": "ゆうめい",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "有名"
   },
   {
     "forms": [],
+    "grammarIds": [
+      "p2-group-c",
+      "p2-group-i",
+      "p4-lesson-9"
+    ],
     "id": "p3l4-benri",
     "kanji": [
       {
@@ -37775,12 +47001,20 @@
         "label": "Part 4 Lesson 9: 接続表現 | N3 Study Desk"
       }
     ],
-    "partOfSpeech": "word",
+    "partOfSpeech": [
+      "Na-Adjective"
+    ],
     "reading": "べんり",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "便利"
   },
   {
     "forms": [],
+    "grammarIds": [
+      "p3-lesson-4"
+    ],
     "id": "p3l4-chuushin",
     "kanji": [
       {
@@ -37802,12 +47036,22 @@
         "label": "Lesson 4: Fixed patterns | N3 Study Desk"
       }
     ],
-    "partOfSpeech": "word",
+    "partOfSpeech": [
+      "Noun"
+    ],
     "reading": "ちゅうしん",
+    "topicIds": [
+      "places-directions"
+    ],
     "written": "中心"
   },
   {
     "forms": [],
+    "grammarIds": [
+      "p2-group-c",
+      "p3-lesson-4",
+      "p4-lesson-1"
+    ],
     "id": "p3l4-gaikoku",
     "kanji": [
       {
@@ -37837,12 +47081,20 @@
         "label": "Lesson 4: Fixed patterns | N3 Study Desk"
       }
     ],
-    "partOfSpeech": "word",
+    "partOfSpeech": [
+      "Noun"
+    ],
     "reading": "がいこく",
+    "topicIds": [
+      "places-directions"
+    ],
     "written": "外国"
   },
   {
     "forms": [],
+    "grammarIds": [
+      "p2-group-h"
+    ],
     "id": "p3l4-jouken",
     "kanji": [
       {
@@ -37860,12 +47112,20 @@
         "label": "Group H: Special uses of たら・ば・と・なら | N3 Study Desk"
       }
     ],
-    "partOfSpeech": "word",
+    "partOfSpeech": [
+      "Noun"
+    ],
     "reading": "じょうけん",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "条件"
   },
   {
     "forms": [],
+    "grammarIds": [
+      "p3-lesson-4"
+    ],
     "id": "p3l4-kazoku",
     "kanji": [
       {
@@ -37883,12 +47143,21 @@
         "label": "Lesson 4: Fixed patterns | N3 Study Desk"
       }
     ],
-    "partOfSpeech": "word",
+    "partOfSpeech": [
+      "Noun"
+    ],
     "reading": "かぞく",
+    "topicIds": [
+      "people-family-relationships",
+      "home-daily-life"
+    ],
     "written": "家族"
   },
   {
     "forms": [],
+    "grammarIds": [
+      "p3-lesson-4"
+    ],
     "id": "p3l4-kenkou",
     "kanji": [
       {
@@ -37906,12 +47175,21 @@
         "label": "Lesson 4: Fixed patterns | N3 Study Desk"
       }
     ],
-    "partOfSpeech": "word",
+    "partOfSpeech": [
+      "Noun",
+      "Na-Adjective"
+    ],
     "reading": "けんこう",
+    "topicIds": [
+      "body-health"
+    ],
     "written": "健康"
   },
   {
     "forms": [],
+    "grammarIds": [
+      "p3-lesson-4"
+    ],
     "id": "p3l4-kokunai",
     "kanji": [
       {
@@ -37929,12 +47207,20 @@
         "label": "Lesson 4: Fixed patterns | N3 Study Desk"
       }
     ],
-    "partOfSpeech": "word",
+    "partOfSpeech": [
+      "Noun"
+    ],
     "reading": "こくない",
+    "topicIds": [
+      "places-directions"
+    ],
     "written": "国内"
   },
   {
     "forms": [],
+    "grammarIds": [
+      "p3-lesson-4"
+    ],
     "id": "p3l4-manzoku",
     "kanji": [
       {
@@ -37952,12 +47238,22 @@
         "label": "Lesson 4: Fixed patterns | N3 Study Desk"
       }
     ],
-    "partOfSpeech": "word",
+    "partOfSpeech": [
+      "Noun",
+      "Group 3 Verb",
+      "Na-Adjective"
+    ],
     "reading": "まんぞく",
+    "topicIds": [
+      "feelings-personality"
+    ],
     "written": "満足"
   },
   {
     "forms": [],
+    "grammarIds": [
+      "p3-lesson-4"
+    ],
     "id": "p3l4-naiyou",
     "kanji": [
       {
@@ -37975,12 +47271,20 @@
         "label": "Lesson 4: Fixed patterns | N3 Study Desk"
       }
     ],
-    "partOfSpeech": "word",
+    "partOfSpeech": [
+      "Noun"
+    ],
     "reading": "ないよう",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "内容"
   },
   {
     "forms": [],
+    "grammarIds": [
+      "p3-lesson-4"
+    ],
     "id": "p3l4-nenmatsu",
     "kanji": [
       {
@@ -37998,12 +47302,20 @@
         "label": "Lesson 4: Fixed patterns | N3 Study Desk"
       }
     ],
-    "partOfSpeech": "word",
+    "partOfSpeech": [
+      "Noun"
+    ],
     "reading": "ねんまつ",
+    "topicIds": [
+      "time-dates-schedules"
+    ],
     "written": "年末"
   },
   {
     "forms": [],
+    "grammarIds": [
+      "p3-lesson-4"
+    ],
     "id": "p3l4-nenshi",
     "kanji": [
       {
@@ -38021,12 +47333,20 @@
         "label": "Lesson 4: Fixed patterns | N3 Study Desk"
       }
     ],
-    "partOfSpeech": "word",
+    "partOfSpeech": [
+      "Noun"
+    ],
     "reading": "ねんし",
+    "topicIds": [
+      "time-dates-schedules"
+    ],
     "written": "年始"
   },
   {
     "forms": [],
+    "grammarIds": [
+      "p3-lesson-4"
+    ],
     "id": "p3l4-nyuuin",
     "kanji": [
       {
@@ -38044,12 +47364,21 @@
         "label": "Lesson 4: Fixed patterns | N3 Study Desk"
       }
     ],
-    "partOfSpeech": "word",
+    "partOfSpeech": [
+      "Noun",
+      "Group 3 Verb"
+    ],
     "reading": "にゅういん",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "入院"
   },
   {
     "forms": [],
+    "grammarIds": [
+      "p3-lesson-4"
+    ],
     "id": "p3l4-shousetsuka",
     "kanji": [
       {
@@ -38067,12 +47396,20 @@
         "label": "Lesson 4: Fixed patterns | N3 Study Desk"
       }
     ],
-    "partOfSpeech": "word",
+    "partOfSpeech": [
+      "Noun"
+    ],
     "reading": "しょうせつか",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "小説家"
   },
   {
     "forms": [],
+    "grammarIds": [
+      "p3-lesson-4"
+    ],
     "id": "p3l4-wasureta",
     "kanji": [
       {
@@ -38090,14 +47427,20 @@
         "label": "Lesson 4: Fixed patterns | N3 Study Desk"
       }
     ],
-    "partOfSpeech": "word",
+    "partOfSpeech": [
+      "Group 2 Verb"
+    ],
     "reading": "わすれた",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "忘れた"
   },
   {
     "forms": [],
     "grammarIds": [
-      "l4-ippo"
+      "l4-ippo",
+      "p3-lesson-4"
     ],
     "id": "p3l4-yononaka",
     "kanji": [
@@ -38120,12 +47463,20 @@
         "label": "Lesson 4: Fixed patterns | N3 Study Desk"
       }
     ],
-    "partOfSpeech": "word",
+    "partOfSpeech": [
+      "Noun"
+    ],
     "reading": "よのなか",
+    "topicIds": [
+      "society-public-services"
+    ],
     "written": "世の中"
   },
   {
     "forms": [],
+    "grammarIds": [
+      "p4-lesson-1"
+    ],
     "id": "p4-l1-bunka",
     "kanji": [
       {
@@ -38148,12 +47499,20 @@
         "label": "Part 4 Lesson 1: 文の始めと終わりの対応 | N3 Study Desk"
       }
     ],
-    "partOfSpeech": "word",
+    "partOfSpeech": [
+      "Noun"
+    ],
     "reading": "ぶんか",
+    "topicIds": [
+      "society-public-services"
+    ],
     "written": "文化"
   },
   {
     "forms": [],
+    "grammarIds": [
+      "p4-lesson-1"
+    ],
     "id": "p4-l1-egao",
     "kanji": [
       {
@@ -38176,12 +47535,20 @@
         "label": "Part 4 Lesson 1: 文の始めと終わりの対応 | N3 Study Desk"
       }
     ],
-    "partOfSpeech": "word",
+    "partOfSpeech": [
+      "Noun"
+    ],
     "reading": "えがお",
+    "topicIds": [
+      "body-health"
+    ],
     "written": "笑顔"
   },
   {
     "forms": [],
+    "grammarIds": [
+      "p4-lesson-1"
+    ],
     "id": "p4-l1-isogi",
     "kanji": [
       {
@@ -38199,12 +47566,23 @@
         "label": "Part 4 Lesson 1: 文の始めと終わりの対応 | N3 Study Desk"
       }
     ],
-    "partOfSpeech": "word",
+    "partOfSpeech": [
+      "Noun"
+    ],
     "reading": "いそぎ",
+    "topicIds": [
+      "work-business"
+    ],
     "written": "急ぎ"
   },
   {
     "forms": [],
+    "grammarIds": [
+      "p2-group-a",
+      "p2-group-f",
+      "p3-lesson-2",
+      "p4-lesson-1"
+    ],
     "id": "p4-l1-joshi",
     "kanji": [
       {
@@ -38255,12 +47633,20 @@
         "label": "Lesson 2: Noun description | N3 Study Desk"
       }
     ],
-    "partOfSpeech": "word",
+    "partOfSpeech": [
+      "Noun"
+    ],
     "reading": "じょし",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "助詞"
   },
   {
     "forms": [],
+    "grammarIds": [
+      "p4-lesson-1"
+    ],
     "id": "p4-l1-keikaku",
     "kanji": [
       {
@@ -38283,12 +47669,21 @@
         "label": "Part 4 Lesson 1: 文の始めと終わりの対応 | N3 Study Desk"
       }
     ],
-    "partOfSpeech": "word",
+    "partOfSpeech": [
+      "Noun",
+      "Group 3 Verb"
+    ],
     "reading": "けいかく",
+    "topicIds": [
+      "work-business"
+    ],
     "written": "計画"
   },
   {
     "forms": [],
+    "grammarIds": [
+      "p4-lesson-1"
+    ],
     "id": "p4-l1-kihon",
     "kanji": [
       {
@@ -38311,12 +47706,20 @@
         "label": "Part 4 Lesson 1: 文の始めと終わりの対応 | N3 Study Desk"
       }
     ],
-    "partOfSpeech": "word",
+    "partOfSpeech": [
+      "Noun"
+    ],
     "reading": "きほん",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "基本"
   },
   {
     "forms": [],
+    "grammarIds": [
+      "p4-lesson-1"
+    ],
     "id": "p4-l1-mondaiten",
     "kanji": [
       {
@@ -38344,12 +47747,23 @@
         "label": "Part 4 Lesson 1: 文の始めと終わりの対応 | N3 Study Desk"
       }
     ],
-    "partOfSpeech": "word",
+    "partOfSpeech": [
+      "Noun"
+    ],
     "reading": "もんだいてん",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "問題点"
   },
   {
     "forms": [],
+    "grammarIds": [
+      "p3-lesson-4",
+      "p4-lesson-1",
+      "p4-lesson-3",
+      "p4-lesson-8"
+    ],
     "id": "p4-l1-saku",
     "kanji": [
       {
@@ -38379,12 +47793,21 @@
         "label": "Lesson 4: Fixed patterns | N3 Study Desk"
       }
     ],
-    "partOfSpeech": "word",
+    "partOfSpeech": [
+      "Group 1 Verb"
+    ],
     "reading": "さく",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "咲く"
   },
   {
     "forms": [],
+    "grammarIds": [
+      "p2-group-d",
+      "p4-lesson-1"
+    ],
     "id": "p4-l1-shokubutsu",
     "kanji": [
       {
@@ -38411,12 +47834,20 @@
         "label": "Part 4 Lesson 1: 文の始めと終わりの対応 | N3 Study Desk"
       }
     ],
-    "partOfSpeech": "word",
+    "partOfSpeech": [
+      "Noun"
+    ],
     "reading": "しょくぶつ",
+    "topicIds": [
+      "nature-weather"
+    ],
     "written": "植物"
   },
   {
     "forms": [],
+    "grammarIds": [
+      "p4-lesson-1"
+    ],
     "id": "p4-l1-sobo",
     "kanji": [
       {
@@ -38439,12 +47870,20 @@
         "label": "Part 4 Lesson 1: 文の始めと終わりの対応 | N3 Study Desk"
       }
     ],
-    "partOfSpeech": "word",
+    "partOfSpeech": [
+      "Noun"
+    ],
     "reading": "そぼ",
+    "topicIds": [
+      "people-family-relationships"
+    ],
     "written": "祖母"
   },
   {
     "forms": [],
+    "grammarIds": [
+      "p4-lesson-1"
+    ],
     "id": "p4-l1-taiou",
     "kanji": [
       {
@@ -38471,14 +47910,22 @@
         "label": "Part 4 Lesson 1: 文の始めと終わりの対応 | N3 Study Desk"
       }
     ],
-    "partOfSpeech": "word",
+    "partOfSpeech": [
+      "Noun",
+      "Group 3 Verb"
+    ],
     "reading": "たいおう",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "対応"
   },
   {
     "forms": [],
     "grammarIds": [
-      "l1-tekara"
+      "l1-tekara",
+      "p2-group-g",
+      "p4-lesson-1"
     ],
     "id": "p4-l1-unten",
     "kanji": [
@@ -38510,12 +47957,21 @@
         "label": "Part 4 Lesson 1: 文の始めと終わりの対応 | N3 Study Desk"
       }
     ],
-    "partOfSpeech": "word",
+    "partOfSpeech": [
+      "Noun",
+      "Group 3 Verb"
+    ],
     "reading": "うんてん",
+    "topicIds": [
+      "work-business"
+    ],
     "written": "運転"
   },
   {
     "forms": [],
+    "grammarIds": [
+      "p4-lesson-10"
+    ],
     "id": "p4-l10-funiki",
     "kanji": [
       {
@@ -38547,12 +48003,20 @@
         "label": "Part 4 Lesson 10: 文章の雰囲気の統一 | N3 Study Desk"
       }
     ],
-    "partOfSpeech": "word",
+    "partOfSpeech": [
+      "Noun"
+    ],
     "reading": "ふんいき",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "雰囲気"
   },
   {
     "forms": [],
+    "grammarIds": [
+      "p4-lesson-10"
+    ],
     "id": "p4-l10-touitsu",
     "kanji": [
       {
@@ -38579,12 +48043,21 @@
         "label": "Part 4 Lesson 10: 文章の雰囲気の統一 | N3 Study Desk"
       }
     ],
-    "partOfSpeech": "word",
+    "partOfSpeech": [
+      "Noun",
+      "Group 3 Verb"
+    ],
     "reading": "とういつ",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "統一"
   },
   {
     "forms": [],
+    "grammarIds": [
+      "p4-lesson-2"
+    ],
     "id": "p4-l2-jiten",
     "kanji": [
       {
@@ -38607,12 +48080,26 @@
         "label": "Part 4 Lesson 2: 時制・～ている | N3 Study Desk"
       }
     ],
-    "partOfSpeech": "word",
+    "partOfSpeech": [
+      "Noun"
+    ],
     "reading": "じてん",
+    "topicIds": [
+      "time-dates-schedules"
+    ],
     "written": "時点"
   },
   {
     "forms": [],
+    "grammarIds": [
+      "p2-group-d",
+      "p2-group-f",
+      "p2-group-g",
+      "p2-group-h",
+      "p2-group-j",
+      "p3-lesson-2",
+      "p4-lesson-2"
+    ],
     "id": "p4-l2-joutai",
     "kanji": [
       {
@@ -38667,12 +48154,20 @@
         "label": "Lesson 2: Noun description | N3 Study Desk"
       }
     ],
-    "partOfSpeech": "word",
+    "partOfSpeech": [
+      "Noun"
+    ],
     "reading": "じょうたい",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "状態"
   },
   {
     "forms": [],
+    "grammarIds": [
+      "p4-lesson-2"
+    ],
     "id": "p4-l2-kaijou",
     "kanji": [
       {
@@ -38695,12 +48190,21 @@
         "label": "Part 4 Lesson 2: 時制・～ている | N3 Study Desk"
       }
     ],
-    "partOfSpeech": "word",
+    "partOfSpeech": [
+      "Noun"
+    ],
     "reading": "かいじょう",
+    "topicIds": [
+      "work-business",
+      "places-directions"
+    ],
     "written": "会場"
   },
   {
     "forms": [],
+    "grammarIds": [
+      "p4-lesson-2"
+    ],
     "id": "p4-l2-kanryou",
     "kanji": [
       {
@@ -38723,12 +48227,21 @@
         "label": "Part 4 Lesson 2: 時制・～ている | N3 Study Desk"
       }
     ],
-    "partOfSpeech": "word",
+    "partOfSpeech": [
+      "Noun",
+      "Group 3 Verb"
+    ],
     "reading": "かんりょう",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "完了"
   },
   {
     "forms": [],
+    "grammarIds": [
+      "p4-lesson-2"
+    ],
     "id": "p4-l2-kekka",
     "kanji": [
       {
@@ -38751,12 +48264,20 @@
         "label": "Part 4 Lesson 2: 時制・～ている | N3 Study Desk"
       }
     ],
-    "partOfSpeech": "word",
+    "partOfSpeech": [
+      "Noun"
+    ],
     "reading": "けっか",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "結果"
   },
   {
     "forms": [],
+    "grammarIds": [
+      "p4-lesson-2"
+    ],
     "id": "p4-l2-mikanryou",
     "kanji": [
       {
@@ -38784,12 +48305,21 @@
         "label": "Part 4 Lesson 2: 時制・～ている | N3 Study Desk"
       }
     ],
-    "partOfSpeech": "word",
+    "partOfSpeech": [
+      "Noun",
+      "Group 3 Verb"
+    ],
     "reading": "みかんりょう",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "未完了"
   },
   {
     "forms": [],
+    "grammarIds": [
+      "p4-lesson-2"
+    ],
     "id": "p4-l2-saifu",
     "kanji": [
       {
@@ -38812,12 +48342,20 @@
         "label": "Part 4 Lesson 2: 時制・～ている | N3 Study Desk"
       }
     ],
-    "partOfSpeech": "word",
+    "partOfSpeech": [
+      "Noun"
+    ],
     "reading": "さいふ",
+    "topicIds": [
+      "money-shopping"
+    ],
     "written": "財布"
   },
   {
     "forms": [],
+    "grammarIds": [
+      "p4-lesson-2"
+    ],
     "id": "p4-l2-shinkouchuu",
     "kanji": [
       {
@@ -38845,12 +48383,20 @@
         "label": "Part 4 Lesson 2: 時制・～ている | N3 Study Desk"
       }
     ],
-    "partOfSpeech": "word",
+    "partOfSpeech": [
+      "Noun"
+    ],
     "reading": "しんこうちゅう",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "進行中"
   },
   {
     "forms": [],
+    "grammarIds": [
+      "p4-lesson-2"
+    ],
     "id": "p4-l2-shuukan",
     "kanji": [
       {
@@ -38873,12 +48419,22 @@
         "label": "Part 4 Lesson 2: 時制・～ている | N3 Study Desk"
       }
     ],
-    "partOfSpeech": "word",
+    "partOfSpeech": [
+      "Noun"
+    ],
     "reading": "しゅうかん",
+    "topicIds": [
+      "home-daily-life",
+      "society-public-services"
+    ],
     "written": "習慣"
   },
   {
     "forms": [],
+    "grammarIds": [
+      "p4-lesson-2",
+      "p4-lesson-7"
+    ],
     "id": "p4-l2-tashikameru",
     "kanji": [
       {
@@ -38900,12 +48456,21 @@
         "label": "Part 4 Lesson 7: こ・そ・あ | N3 Study Desk"
       }
     ],
-    "partOfSpeech": "word",
+    "partOfSpeech": [
+      "Group 2 Verb"
+    ],
     "reading": "たしかめる",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "確かめる"
   },
   {
     "forms": [],
+    "grammarIds": [
+      "p3-lesson-2",
+      "p4-lesson-2"
+    ],
     "id": "p4-l2-yousu",
     "kanji": [
       {
@@ -38932,12 +48497,20 @@
         "label": "Lesson 2: Noun description | N3 Study Desk"
       }
     ],
-    "partOfSpeech": "word",
+    "partOfSpeech": [
+      "Noun"
+    ],
     "reading": "ようす",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "様子"
   },
   {
     "forms": [],
+    "grammarIds": [
+      "p4-lesson-3"
+    ],
     "id": "p4-l3-jidoushi",
     "kanji": [
       {
@@ -38965,12 +48538,20 @@
         "label": "Part 4 Lesson 3: 他動詞・自動詞 | N3 Study Desk"
       }
     ],
-    "partOfSpeech": "word",
+    "partOfSpeech": [
+      "Noun"
+    ],
     "reading": "じどうし",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "自動詞"
   },
   {
     "forms": [],
+    "grammarIds": [
+      "p4-lesson-3"
+    ],
     "id": "p4-l3-tadoushi",
     "kanji": [
       {
@@ -38998,12 +48579,25 @@
         "label": "Part 4 Lesson 3: 他動詞・自動詞 | N3 Study Desk"
       }
     ],
-    "partOfSpeech": "word",
+    "partOfSpeech": [
+      "Noun"
+    ],
     "reading": "たどうし",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "他動詞"
   },
   {
     "forms": [],
+    "grammarIds": [
+      "p2-group-d",
+      "p2-group-e",
+      "p2-group-g",
+      "p2-group-h",
+      "p4-lesson-3",
+      "p4-lesson-5"
+    ],
     "id": "p4-l3-washa",
     "kanji": [
       {
@@ -39062,12 +48656,20 @@
         "label": "Part 4 Lesson 5: 受身・使役・使役受身 | N3 Study Desk"
       }
     ],
-    "partOfSpeech": "word",
+    "partOfSpeech": [
+      "Noun"
+    ],
     "reading": "わしゃ",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "話者"
   },
   {
     "forms": [],
+    "grammarIds": [
+      "p4-lesson-4"
+    ],
     "id": "p4-l4-jiten",
     "kanji": [
       {
@@ -39090,12 +48692,20 @@
         "label": "Part 4 Lesson 4: ～てくる・～ていく | N3 Study Desk"
       }
     ],
-    "partOfSpeech": "word",
+    "partOfSpeech": [
+      "Noun"
+    ],
     "reading": "じてん",
+    "topicIds": [
+      "time-dates-schedules"
+    ],
     "written": "時点"
   },
   {
     "forms": [],
+    "grammarIds": [
+      "p4-lesson-4"
+    ],
     "id": "p4-l4-washa",
     "kanji": [
       {
@@ -39118,12 +48728,21 @@
         "label": "Part 4 Lesson 4: ～てくる・～ていく | N3 Study Desk"
       }
     ],
-    "partOfSpeech": "word",
+    "partOfSpeech": [
+      "Noun"
+    ],
     "reading": "わしゃ",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "話者"
   },
   {
     "forms": [],
+    "grammarIds": [
+      "p4-lesson-3",
+      "p4-lesson-5"
+    ],
     "id": "p4-l5-shieki",
     "kanji": [
       {
@@ -39150,12 +48769,23 @@
         "label": "Part 4 Lesson 5: 受身・使役・使役受身 | N3 Study Desk"
       }
     ],
-    "partOfSpeech": "grammar term",
+    "partOfSpeech": [
+      "Expression"
+    ],
     "reading": "しえき",
+    "topicIds": [
+      "communication-media"
+    ],
     "written": "使役"
   },
   {
     "forms": [],
+    "grammarIds": [
+      "p2-group-b",
+      "p4-lesson-1",
+      "p4-lesson-3",
+      "p4-lesson-5"
+    ],
     "id": "p4-l5-ukemi",
     "kanji": [
       {
@@ -39194,12 +48824,25 @@
         "label": "Part 4 Lesson 5: 受身・使役・使役受身 | N3 Study Desk"
       }
     ],
-    "partOfSpeech": "grammar term",
+    "partOfSpeech": [
+      "Expression"
+    ],
     "reading": "うけみ",
+    "topicIds": [
+      "communication-media"
+    ],
     "written": "受身"
   },
   {
     "forms": [],
+    "grammarIds": [
+      "p4-lesson-1",
+      "p4-lesson-10",
+      "p4-lesson-2",
+      "p4-lesson-3",
+      "p4-lesson-7",
+      "p4-lesson-9"
+    ],
     "id": "p4-l7-bunshou",
     "kanji": [
       {
@@ -39250,12 +48893,21 @@
         "label": "Part 4 Lesson 10: 文章の雰囲気の統一 | N3 Study Desk"
       }
     ],
-    "partOfSpeech": "word",
+    "partOfSpeech": [
+      "Noun"
+    ],
     "reading": "ぶんしょう",
+    "topicIds": [
+      "school-study"
+    ],
     "written": "文章"
   },
   {
     "forms": [],
+    "grammarIds": [
+      "p2-group-e",
+      "p4-lesson-7"
+    ],
     "id": "p4-l7-shinriteki",
     "kanji": [
       {
@@ -39295,12 +48947,20 @@
         "label": "Part 4 Lesson 7: こ・そ・あ | N3 Study Desk"
       }
     ],
-    "partOfSpeech": "word",
+    "partOfSpeech": [
+      "Na-Adjective"
+    ],
     "reading": "しんりてき",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "心理的"
   },
   {
     "forms": [],
+    "grammarIds": [
+      "p4-lesson-8"
+    ],
     "id": "p4-l8-hatsumei",
     "kanji": [
       {
@@ -39323,12 +48983,22 @@
         "label": "Part 4 Lesson 8: は・が | N3 Study Desk"
       }
     ],
-    "partOfSpeech": "word",
+    "partOfSpeech": [
+      "Noun",
+      "Group 3 Verb"
+    ],
     "reading": "はつめい",
+    "topicIds": [
+      "technology"
+    ],
     "written": "発明"
   },
   {
     "forms": [],
+    "grammarIds": [
+      "p2-group-b",
+      "p4-lesson-8"
+    ],
     "id": "p4-l8-wadai",
     "kanji": [
       {
@@ -39367,12 +49037,20 @@
         "label": "Part 4 Lesson 8: は・が | N3 Study Desk"
       }
     ],
-    "partOfSpeech": "word",
+    "partOfSpeech": [
+      "Noun"
+    ],
     "reading": "わだい",
+    "topicIds": [
+      "school-study"
+    ],
     "written": "話題"
   },
   {
     "forms": [],
+    "grammarIds": [
+      "p4-lesson-9"
+    ],
     "id": "p4-l9-konkyo",
     "kanji": [
       {
@@ -39395,12 +49073,20 @@
         "label": "Part 4 Lesson 9: 接続表現 | N3 Study Desk"
       }
     ],
-    "partOfSpeech": "word",
+    "partOfSpeech": [
+      "Noun"
+    ],
     "reading": "こんきょ",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "根拠"
   },
   {
     "forms": [],
+    "grammarIds": [
+      "p4-lesson-9"
+    ],
     "id": "p4-l9-setsuzoku",
     "kanji": [
       {
@@ -39433,12 +49119,20 @@
         "label": "Part 4 Lesson 9: 接続表現 | N3 Study Desk"
       }
     ],
-    "partOfSpeech": "word",
+    "partOfSpeech": [
+      "Noun"
+    ],
     "reading": "せつぞくひょうげん",
+    "topicIds": [
+      "school-study"
+    ],
     "written": "接続表現"
   },
   {
     "forms": [],
+    "grammarIds": [
+      "p2-group-a"
+    ],
     "id": "p4-r0102-tamago",
     "kanji": [
       {
@@ -39464,12 +49158,20 @@
         "label": "Group A: Particles with various functions | N3 Study Desk"
       }
     ],
-    "partOfSpeech": "word",
+    "partOfSpeech": [
+      "Noun"
+    ],
     "reading": "たまご",
+    "topicIds": [
+      "food-cooking"
+    ],
     "written": "卵"
   },
   {
     "forms": [],
+    "grammarIds": [
+      "p3-lesson-2"
+    ],
     "id": "p4-r78-kankyou",
     "kanji": [
       {
@@ -39492,8 +49194,14 @@
         "label": "Lesson 2: Noun description | N3 Study Desk"
       }
     ],
-    "partOfSpeech": "word",
+    "partOfSpeech": [
+      "Noun"
+    ],
     "reading": "かんきょう",
+    "topicIds": [
+      "nature-weather",
+      "society-public-services"
+    ],
     "written": "環境"
   },
   {
@@ -39518,8 +49226,13 @@
         "label": "Lesson 8: Strong and partial negation 絶対～ない・必ず～とは言えない"
       }
     ],
-    "partOfSpeech": "godan verb",
+    "partOfSpeech": [
+      "Group 1 Verb"
+    ],
     "reading": "かつ",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "勝つ"
   },
   {
@@ -39549,8 +49262,13 @@
         "label": "Lesson 6: Conditions and hypotheses もし、…"
       }
     ],
-    "partOfSpeech": "ichidan verb",
+    "partOfSpeech": [
+      "Group 2 Verb"
+    ],
     "reading": "のれる",
+    "topicIds": [
+      "travel-transportation"
+    ],
     "written": "乗れる"
   },
   {
@@ -39585,8 +49303,13 @@
         "label": "Lesson 4: Contrast ～とは違って"
       }
     ],
-    "partOfSpeech": "proper noun",
+    "partOfSpeech": [
+      "Noun"
+    ],
     "reading": "みちこ",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "美知子"
   },
   {
@@ -39616,8 +49339,13 @@
         "label": "Lesson 6: Conditions and hypotheses もし、…"
       }
     ],
-    "partOfSpeech": "godan verb",
+    "partOfSpeech": [
+      "Group 1 Verb"
+    ],
     "reading": "かす",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "貸す"
   },
   {
@@ -39657,8 +49385,13 @@
         "label": "Lesson 10: Advice and commands ～したほうがいい・～なさい"
       }
     ],
-    "partOfSpeech": "i-adjective",
+    "partOfSpeech": [
+      "I-Adjective"
+    ],
     "reading": "わるい",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "悪い"
   },
   {
@@ -39688,8 +49421,13 @@
         "label": "Lesson 2: Relationships ～と関係して"
       }
     ],
-    "partOfSpeech": "godan verb",
+    "partOfSpeech": [
+      "Group 1 Verb"
+    ],
     "reading": "まよう",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "迷う"
   },
   {
@@ -39734,8 +49472,13 @@
         "label": "Lesson 11: Intentions, efforts, and attempts"
       }
     ],
-    "partOfSpeech": "godan verb",
+    "partOfSpeech": [
+      "Group 1 Verb"
+    ],
     "reading": "かえる",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "帰る"
   },
   {
@@ -39760,8 +49503,14 @@
         "label": "Lesson 5: Reasons and causes ～だから"
       }
     ],
-    "partOfSpeech": "noun / expression",
+    "partOfSpeech": [
+      "Noun",
+      "Expression"
+    ],
     "reading": "かた",
+    "topicIds": [
+      "school-study"
+    ],
     "written": "型"
   },
   {
@@ -39800,8 +49549,13 @@
         "label": "Lesson 10: Advice and commands ～したほうがいい・～なさい"
       }
     ],
-    "partOfSpeech": "ichidan verb",
+    "partOfSpeech": [
+      "Group 2 Verb"
+    ],
     "reading": "うける",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "受ける"
   },
   {
@@ -39835,8 +49589,13 @@
         "label": "Lesson 7: Reported information and hearsay ～だそうだ"
       }
     ],
-    "partOfSpeech": "godan verb",
+    "partOfSpeech": [
+      "Group 1 Verb"
+    ],
     "reading": "おこなう",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "行う"
   },
   {
@@ -39866,8 +49625,13 @@
         "label": "Lesson 7: Reported information and hearsay ～だそうだ"
       }
     ],
-    "partOfSpeech": "i-adjective",
+    "partOfSpeech": [
+      "I-Adjective"
+    ],
     "reading": "ひろい",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "広い"
   },
   {
@@ -39892,8 +49656,13 @@
         "label": "Lesson 3: Degree and comparison 比べれば…・～がいちばん"
       }
     ],
-    "partOfSpeech": "ichidan verb",
+    "partOfSpeech": [
+      "Group 2 Verb"
+    ],
     "reading": "たおれる",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "倒れる"
   },
   {
@@ -39923,8 +49692,13 @@
         "label": "Lesson 4: Contrast ～とは違って"
       }
     ],
-    "partOfSpeech": "godan verb",
+    "partOfSpeech": [
+      "Group 1 Verb"
+    ],
     "reading": "はしる",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "走る"
   },
   {
@@ -39954,8 +49728,13 @@
         "label": "Lesson 11: Intentions, efforts, and attempts"
       }
     ],
-    "partOfSpeech": "godan verb",
+    "partOfSpeech": [
+      "Group 1 Verb"
+    ],
     "reading": "おこる",
+    "topicIds": [
+      "feelings-personality"
+    ],
     "written": "怒る"
   },
   {
@@ -39990,8 +49769,13 @@
         "label": "Lesson 10: Advice and commands ～したほうがいい・～なさい"
       }
     ],
-    "partOfSpeech": "irregular verb",
+    "partOfSpeech": [
+      "Group 3 Verb"
+    ],
     "reading": "くる",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "来る"
   },
   {
@@ -40021,8 +49805,14 @@
         "label": "Lesson 10: Advice and commands ～したほうがいい・～なさい"
       }
     ],
-    "partOfSpeech": "noun / expression",
+    "partOfSpeech": [
+      "Noun",
+      "Expression"
+    ],
     "reading": "まえ",
+    "topicIds": [
+      "time-dates-schedules"
+    ],
     "written": "前"
   },
   {
@@ -40052,8 +49842,13 @@
         "label": "Lesson 5: Reasons and causes ～だから"
       }
     ],
-    "partOfSpeech": "godan verb",
+    "partOfSpeech": [
+      "Group 1 Verb"
+    ],
     "reading": "わらう",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "笑う"
   },
   {
@@ -40088,8 +49883,14 @@
         "label": "Lesson 12: Respectful, humble, and polite language"
       }
     ],
-    "partOfSpeech": "noun / expression",
+    "partOfSpeech": [
+      "Noun",
+      "Expression"
+    ],
     "reading": "とし",
+    "topicIds": [
+      "time-dates-schedules"
+    ],
     "written": "年"
   },
   {
@@ -40119,8 +49920,13 @@
         "label": "Lesson 1: Time relationships ～とき"
       }
     ],
-    "partOfSpeech": "ichidan verb",
+    "partOfSpeech": [
+      "Group 2 Verb"
+    ],
     "reading": "でかける",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "出かける"
   },
   {
@@ -40171,8 +49977,13 @@
         "label": "Lesson 8: Strong and partial negation 絶対～ない・必ず～とは言えない"
       }
     ],
-    "partOfSpeech": "godan verb",
+    "partOfSpeech": [
+      "Group 1 Verb"
+    ],
     "reading": "かぎる",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "限る"
   },
   {
@@ -40202,8 +50013,13 @@
         "label": "Lesson 3: Degree and comparison 比べれば…・～がいちばん"
       }
     ],
-    "partOfSpeech": "godan verb",
+    "partOfSpeech": [
+      "Group 1 Verb"
+    ],
     "reading": "とる",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "撮る"
   },
   {
@@ -40233,8 +50049,13 @@
         "label": "Lesson 11: Intentions, efforts, and attempts"
       }
     ],
-    "partOfSpeech": "i-adjective",
+    "partOfSpeech": [
+      "I-Adjective"
+    ],
     "reading": "いたい",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "痛い"
   },
   {
@@ -40268,8 +50089,15 @@
         "label": "Lesson 1: Time relationships ～とき"
       }
     ],
-    "partOfSpeech": "noun / suru verb",
+    "partOfSpeech": [
+      "Noun",
+      "Group 3 Verb"
+    ],
     "reading": "ひるね",
+    "topicIds": [
+      "body-health",
+      "home-daily-life"
+    ],
     "written": "昼寝"
   },
   {
@@ -40299,8 +50127,13 @@
         "label": "Lesson 3: Degree and comparison 比べれば…・～がいちばん"
       }
     ],
-    "partOfSpeech": "godan verb",
+    "partOfSpeech": [
+      "Group 1 Verb"
+    ],
     "reading": "あう",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "合う"
   },
   {
@@ -40324,8 +50157,13 @@
         "label": "Lesson 11: Intentions, efforts, and attempts"
       }
     ],
-    "partOfSpeech": "ichidan verb",
+    "partOfSpeech": [
+      "Group 2 Verb"
+    ],
     "reading": "すすめる",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "勧める"
   },
   {
@@ -40360,8 +50198,14 @@
         "label": "Lesson 12: Respectful, humble, and polite language"
       }
     ],
-    "partOfSpeech": "noun / expression",
+    "partOfSpeech": [
+      "Noun",
+      "Expression"
+    ],
     "reading": "かえり",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "帰り"
   },
   {
@@ -40391,8 +50235,13 @@
         "label": "Lesson 10: Advice and commands ～したほうがいい・～なさい"
       }
     ],
-    "partOfSpeech": "ichidan verb",
+    "partOfSpeech": [
+      "Group 2 Verb"
+    ],
     "reading": "かえる",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "変える"
   },
   {
@@ -40456,8 +50305,13 @@
         "label": "Lesson 11: Intentions, efforts, and attempts"
       }
     ],
-    "partOfSpeech": "godan verb",
+    "partOfSpeech": [
+      "Group 1 Verb"
+    ],
     "reading": "いく",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "行く"
   },
   {
@@ -40492,8 +50346,13 @@
         "label": "Lesson 6: Conditions and hypotheses もし、…"
       }
     ],
-    "partOfSpeech": "godan verb",
+    "partOfSpeech": [
+      "Group 1 Verb"
+    ],
     "reading": "まにあう",
+    "topicIds": [
+      "time-dates-schedules"
+    ],
     "written": "間に合う"
   },
   {
@@ -40528,8 +50387,13 @@
         "label": "Lesson 10: Advice and commands ～したほうがいい・～なさい"
       }
     ],
-    "partOfSpeech": "ichidan verb",
+    "partOfSpeech": [
+      "Group 2 Verb"
+    ],
     "reading": "きめる",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "決める"
   },
   {
@@ -40571,8 +50435,14 @@
         "label": "Lesson 4: Contrast ～とは違って"
       }
     ],
-    "partOfSpeech": "conjunction",
+    "partOfSpeech": [
+      "Conjunction"
+    ],
     "reading": "はんめん",
+    "topicIds": [
+      "time-dates-schedules",
+      "body-health"
+    ],
     "written": "反面"
   },
   {
@@ -40597,8 +50467,14 @@
         "label": "Lesson 7: Reported information and hearsay ～だそうだ"
       }
     ],
-    "partOfSpeech": "noun / expression",
+    "partOfSpeech": [
+      "Noun",
+      "Expression"
+    ],
     "reading": "おくさん",
+    "topicIds": [
+      "people-family-relationships"
+    ],
     "written": "奥さん"
   },
   {
@@ -40653,8 +50529,13 @@
         "label": "Lesson 11: Intentions, efforts, and attempts"
       }
     ],
-    "partOfSpeech": "godan verb",
+    "partOfSpeech": [
+      "Group 1 Verb"
+    ],
     "reading": "つくる",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "作る"
   },
   {
@@ -40684,8 +50565,13 @@
         "label": "Lesson 7: Reported information and hearsay ～だそうだ"
       }
     ],
-    "partOfSpeech": "ichidan verb",
+    "partOfSpeech": [
+      "Group 2 Verb"
+    ],
     "reading": "もどれる",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "戻れる"
   },
   {
@@ -40718,8 +50604,13 @@
         "label": "Lesson 12: Respectful, humble, and polite language"
       }
     ],
-    "partOfSpeech": "godan verb",
+    "partOfSpeech": [
+      "Group 1 Verb"
+    ],
     "reading": "うかがう",
+    "topicIds": [
+      "communication-media"
+    ],
     "written": "伺う"
   },
   {
@@ -40749,8 +50640,13 @@
         "label": "Lesson 7: Reported information and hearsay ～だそうだ"
       }
     ],
-    "partOfSpeech": "proper noun",
+    "partOfSpeech": [
+      "Noun"
+    ],
     "reading": "さとう",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "佐藤"
   },
   {
@@ -40785,8 +50681,13 @@
         "label": "Lesson 9: Wishes and requests ～と望む"
       }
     ],
-    "partOfSpeech": "ichidan verb",
+    "partOfSpeech": [
+      "Group 2 Verb"
+    ],
     "reading": "ひきうける",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "引き受ける"
   },
   {
@@ -40816,8 +50717,13 @@
         "label": "Lesson 4: Contrast ～とは違って"
       }
     ],
-    "partOfSpeech": "godan verb",
+    "partOfSpeech": [
+      "Group 1 Verb"
+    ],
     "reading": "たのむ",
+    "topicIds": [
+      "communication-media"
+    ],
     "written": "頼む"
   },
   {
@@ -40842,8 +50748,13 @@
         "label": "Lesson 5: Reasons and causes ～だから"
       }
     ],
-    "partOfSpeech": "godan verb",
+    "partOfSpeech": [
+      "Group 1 Verb"
+    ],
     "reading": "まなぶ",
+    "topicIds": [
+      "school-study"
+    ],
     "written": "学ぶ"
   },
   {
@@ -40893,8 +50804,13 @@
         "label": "Lesson 11: Intentions, efforts, and attempts"
       }
     ],
-    "partOfSpeech": "ichidan verb",
+    "partOfSpeech": [
+      "Group 2 Verb"
+    ],
     "reading": "たべる",
+    "topicIds": [
+      "food-cooking"
+    ],
     "written": "食べる"
   },
   {
@@ -40924,8 +50840,14 @@
         "label": "Lesson 9: Wishes and requests ～と望む"
       }
     ],
-    "partOfSpeech": "noun / expression",
+    "partOfSpeech": [
+      "Noun",
+      "Expression"
+    ],
     "reading": "かきかた",
+    "topicIds": [
+      "school-study"
+    ],
     "written": "書き方"
   },
   {
@@ -40955,8 +50877,13 @@
         "label": "Lesson 11: Intentions, efforts, and attempts"
       }
     ],
-    "partOfSpeech": "proper noun",
+    "partOfSpeech": [
+      "Noun"
+    ],
     "reading": "ゆみ",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "由美"
   },
   {
@@ -40991,8 +50918,13 @@
         "label": "Lesson 12: Respectful, humble, and polite language"
       }
     ],
-    "partOfSpeech": "ichidan verb",
+    "partOfSpeech": [
+      "Group 2 Verb"
+    ],
     "reading": "かりる",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "借りる"
   },
   {
@@ -41017,8 +50949,13 @@
         "label": "Lesson 12: Respectful, humble, and polite language"
       }
     ],
-    "partOfSpeech": "godan verb",
+    "partOfSpeech": [
+      "Group 1 Verb"
+    ],
     "reading": "もうす",
+    "topicIds": [
+      "communication-media"
+    ],
     "written": "申す"
   },
   {
@@ -41048,8 +50985,14 @@
         "label": "Lesson 9: Wishes and requests ～と望む"
       }
     ],
-    "partOfSpeech": "noun / expression",
+    "partOfSpeech": [
+      "Noun",
+      "Expression"
+    ],
     "reading": "ちょうし",
+    "topicIds": [
+      "school-study"
+    ],
     "written": "調子"
   },
   {
@@ -41079,8 +51022,14 @@
         "label": "Lesson 5: Reasons and causes ～だから"
       }
     ],
-    "partOfSpeech": "noun / counter",
+    "partOfSpeech": [
+      "Noun",
+      "Counter or Number"
+    ],
     "reading": "ふたり",
+    "topicIds": [
+      "people-family-relationships"
+    ],
     "written": "二人"
   },
   {
@@ -41110,8 +51059,13 @@
         "label": "Lesson 8: Strong and partial negation 絶対～ない・必ず～とは言えない"
       }
     ],
-    "partOfSpeech": "ichidan verb",
+    "partOfSpeech": [
+      "Group 2 Verb"
+    ],
     "reading": "たのしめる",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "楽しめる"
   },
   {
@@ -41146,8 +51100,13 @@
         "label": "Lesson 8: Strong and partial negation 絶対～ない・必ず～とは言えない"
       }
     ],
-    "partOfSpeech": "ichidan verb",
+    "partOfSpeech": [
+      "Group 2 Verb"
+    ],
     "reading": "かえる",
+    "topicIds": [
+      "money-shopping"
+    ],
     "written": "買える"
   },
   {
@@ -41177,8 +51136,13 @@
         "label": "Lesson 10: Advice and commands ～したほうがいい・～なさい"
       }
     ],
-    "partOfSpeech": "godan verb",
+    "partOfSpeech": [
+      "Group 1 Verb"
+    ],
     "reading": "とまる",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "止まる"
   },
   {
@@ -41221,8 +51185,14 @@
         "label": "Lesson 12: Respectful, humble, and polite language"
       }
     ],
-    "partOfSpeech": "noun / expression",
+    "partOfSpeech": [
+      "Noun",
+      "Expression"
+    ],
     "reading": "なに",
+    "topicIds": [
+      "school-study"
+    ],
     "written": "何"
   },
   {
@@ -41252,8 +51222,13 @@
         "label": "Lesson 5: Reasons and causes ～だから"
       }
     ],
-    "partOfSpeech": "godan verb",
+    "partOfSpeech": [
+      "Group 1 Verb"
+    ],
     "reading": "つづく",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "続く"
   },
   {
@@ -41283,8 +51258,13 @@
         "label": "Lesson 8: Strong and partial negation 絶対～ない・必ず～とは言えない"
       }
     ],
-    "partOfSpeech": "ichidan verb",
+    "partOfSpeech": [
+      "Group 2 Verb"
+    ],
     "reading": "およげる",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "泳げる"
   },
   {
@@ -41314,8 +51294,14 @@
         "label": "Lesson 9: Wishes and requests ～と望む"
       }
     ],
-    "partOfSpeech": "noun / adverb",
+    "partOfSpeech": [
+      "Noun",
+      "Adverb"
+    ],
     "reading": "なんど",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "何度"
   },
   {
@@ -41345,8 +51331,13 @@
         "label": "Lesson 10: Advice and commands ～したほうがいい・～なさい"
       }
     ],
-    "partOfSpeech": "ichidan verb",
+    "partOfSpeech": [
+      "Group 2 Verb"
+    ],
     "reading": "おりる",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "降りる"
   },
   {
@@ -41412,8 +51403,13 @@
         "label": "Lesson 10: Advice and commands ～したほうがいい・～なさい"
       }
     ],
-    "partOfSpeech": "godan verb",
+    "partOfSpeech": [
+      "Group 1 Verb"
+    ],
     "reading": "いう",
+    "topicIds": [
+      "communication-media"
+    ],
     "written": "言う"
   },
   {
@@ -41462,8 +51458,13 @@
         "label": "Lesson 10: Advice and commands ～したほうがいい・～なさい"
       }
     ],
-    "partOfSpeech": "godan verb",
+    "partOfSpeech": [
+      "Group 1 Verb"
+    ],
     "reading": "おもう",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "思う"
   },
   {
@@ -41503,8 +51504,13 @@
         "label": "Lesson 11: Intentions, efforts, and attempts"
       }
     ],
-    "partOfSpeech": "godan verb",
+    "partOfSpeech": [
+      "Group 1 Verb"
+    ],
     "reading": "かう",
+    "topicIds": [
+      "money-shopping"
+    ],
     "written": "買う"
   },
   {
@@ -41534,8 +51540,13 @@
         "label": "Lesson 6: Conditions and hypotheses もし、…"
       }
     ],
-    "partOfSpeech": "ichidan verb",
+    "partOfSpeech": [
+      "Group 2 Verb"
+    ],
     "reading": "たてる",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "建てる"
   },
   {
@@ -41560,8 +51571,14 @@
         "label": "Lesson 7: Reported information and hearsay ～だそうだ"
       }
     ],
-    "partOfSpeech": "noun / expression",
+    "partOfSpeech": [
+      "Noun",
+      "Expression"
+    ],
     "reading": "しゃ",
+    "topicIds": [
+      "work-business"
+    ],
     "written": "社"
   },
   {
@@ -41591,8 +51608,13 @@
         "label": "Lesson 4: Contrast ～とは違って"
       }
     ],
-    "partOfSpeech": "godan verb",
+    "partOfSpeech": [
+      "Group 1 Verb"
+    ],
     "reading": "とりくむ",
+    "topicIds": [
+      "work-business"
+    ],
     "written": "取り組む"
   },
   {
@@ -41622,8 +51644,13 @@
         "label": "Lesson 3: Degree and comparison 比べれば…・～がいちばん"
       }
     ],
-    "partOfSpeech": "ichidan verb",
+    "partOfSpeech": [
+      "Group 2 Verb"
+    ],
     "reading": "おれる",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "折れる"
   },
   {
@@ -41653,8 +51680,13 @@
         "label": "Lesson 12: Respectful, humble, and polite language"
       }
     ],
-    "partOfSpeech": "godan verb",
+    "partOfSpeech": [
+      "Group 1 Verb"
+    ],
     "reading": "すむ",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "住む"
   },
   {
@@ -41693,8 +51725,13 @@
         "label": "Lesson 12: Respectful, humble, and polite language"
       }
     ],
-    "partOfSpeech": "godan verb",
+    "partOfSpeech": [
+      "Group 1 Verb"
+    ],
     "reading": "めしあがる",
+    "topicIds": [
+      "food-cooking"
+    ],
     "written": "召し上がる"
   },
   {
@@ -41724,8 +51761,13 @@
         "label": "Lesson 3: Degree and comparison 比べれば…・～がいちばん"
       }
     ],
-    "partOfSpeech": "ichidan verb",
+    "partOfSpeech": [
+      "Group 2 Verb"
+    ],
     "reading": "とれる",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "撮れる"
   },
   {
@@ -41755,8 +51797,13 @@
         "label": "Lesson 12: Respectful, humble, and polite language"
       }
     ],
-    "partOfSpeech": "ichidan verb",
+    "partOfSpeech": [
+      "Group 2 Verb"
+    ],
     "reading": "みせる",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "見せる"
   },
   {
@@ -41786,8 +51833,13 @@
         "label": "Lesson 4: Contrast ～とは違って"
       }
     ],
-    "partOfSpeech": "i-adjective",
+    "partOfSpeech": [
+      "I-Adjective"
+    ],
     "reading": "ふかい",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "深い"
   },
   {
@@ -41822,8 +51874,14 @@
         "label": "Lesson 10: Advice and commands ～したほうがいい・～なさい"
       }
     ],
-    "partOfSpeech": "noun / expression",
+    "partOfSpeech": [
+      "Noun",
+      "Expression"
+    ],
     "reading": "ひとこと",
+    "topicIds": [
+      "school-study"
+    ],
     "written": "一言"
   },
   {
@@ -41858,8 +51916,13 @@
         "label": "Lesson 10: Advice and commands ～したほうがいい・～なさい"
       }
     ],
-    "partOfSpeech": "godan verb",
+    "partOfSpeech": [
+      "Group 1 Verb"
+    ],
     "reading": "のむ",
+    "topicIds": [
+      "food-cooking"
+    ],
     "written": "飲む"
   },
   {
@@ -41894,8 +51957,13 @@
         "label": "Lesson 7: Reported information and hearsay ～だそうだ"
       }
     ],
-    "partOfSpeech": "godan verb",
+    "partOfSpeech": [
+      "Group 1 Verb"
+    ],
     "reading": "きまる",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "決まる"
   },
   {
@@ -41925,8 +51993,13 @@
         "label": "Lesson 10: Advice and commands ～したほうがいい・～なさい"
       }
     ],
-    "partOfSpeech": "ichidan verb",
+    "partOfSpeech": [
+      "Group 2 Verb"
+    ],
     "reading": "はしれる",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "走れる"
   },
   {
@@ -41956,8 +52029,13 @@
         "label": "Lesson 6: Conditions and hypotheses もし、…"
       }
     ],
-    "partOfSpeech": "ichidan verb",
+    "partOfSpeech": [
+      "Group 2 Verb"
+    ],
     "reading": "いける",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "行ける"
   },
   {
@@ -42007,8 +52085,13 @@
         "label": "Lesson 10: Advice and commands ～したほうがいい・～なさい"
       }
     ],
-    "partOfSpeech": "godan verb",
+    "partOfSpeech": [
+      "Group 1 Verb"
+    ],
     "reading": "よむ",
+    "topicIds": [
+      "school-study"
+    ],
     "written": "読む"
   },
   {
@@ -42038,8 +52121,14 @@
         "label": "Lesson 3: Degree and comparison 比べれば…・～がいちばん"
       }
     ],
-    "partOfSpeech": "noun / time expression",
+    "partOfSpeech": [
+      "Noun",
+      "Expression"
+    ],
     "reading": "ねんまえ",
+    "topicIds": [
+      "school-study"
+    ],
     "written": "年前"
   },
   {
@@ -42079,8 +52168,13 @@
         "label": "Lesson 12: Respectful, humble, and polite language"
       }
     ],
-    "partOfSpeech": "ichidan verb",
+    "partOfSpeech": [
+      "Group 2 Verb"
+    ],
     "reading": "おしえる",
+    "topicIds": [
+      "communication-media"
+    ],
     "written": "教える"
   },
   {
@@ -42115,8 +52209,14 @@
         "label": "Lesson 2: Relationships ～と関係して"
       }
     ],
-    "partOfSpeech": "noun / suru verb",
+    "partOfSpeech": [
+      "Noun",
+      "Group 3 Verb"
+    ],
     "reading": "せいり",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "整理"
   },
   {
@@ -42156,8 +52256,13 @@
         "label": "Lesson 12: Respectful, humble, and polite language"
       }
     ],
-    "partOfSpeech": "godan verb",
+    "partOfSpeech": [
+      "Group 1 Verb"
+    ],
     "reading": "かく",
+    "topicIds": [
+      "school-study"
+    ],
     "written": "書く"
   },
   {
@@ -42187,8 +52292,13 @@
         "label": "Lesson 8: Strong and partial negation 絶対～ない・必ず～とは言えない"
       }
     ],
-    "partOfSpeech": "ichidan verb",
+    "partOfSpeech": [
+      "Group 2 Verb"
+    ],
     "reading": "あるける",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "歩ける"
   },
   {
@@ -42213,12 +52323,21 @@
         "label": "Lesson 9: Wishes and requests ～と望む"
       }
     ],
-    "partOfSpeech": "noun / expression",
+    "partOfSpeech": [
+      "Noun",
+      "Expression"
+    ],
     "reading": "とおく",
+    "topicIds": [
+      "places-directions"
+    ],
     "written": "遠く"
   },
   {
     "forms": [],
+    "grammarIds": [
+      "p2-group-h"
+    ],
     "id": "part2-word-04777a02b26e",
     "kanji": [
       {
@@ -42236,12 +52355,20 @@
         "label": "Group H: Special uses of たら・ば・と・なら | N3 Study Desk"
       }
     ],
-    "partOfSpeech": "proper noun",
+    "partOfSpeech": [
+      "Noun"
+    ],
     "reading": "まつもとさん",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "松本さん"
   },
   {
     "forms": [],
+    "grammarIds": [
+      "p2-group-e"
+    ],
     "id": "part2-word-099ce10ea0d3",
     "kanji": [
       {
@@ -42263,12 +52390,21 @@
         "label": "Group E: Uses of わけ | N3 Study Desk"
       }
     ],
-    "partOfSpeech": "noun / expression",
+    "partOfSpeech": [
+      "Noun",
+      "Expression"
+    ],
     "reading": "しゃかいてき",
+    "topicIds": [
+      "society-public-services"
+    ],
     "written": "社会的"
   },
   {
     "forms": [],
+    "grammarIds": [
+      "p2-group-j"
+    ],
     "id": "part2-word-0bdc263253c4",
     "kanji": [
       {
@@ -42286,12 +52422,21 @@
         "label": "Group J: Forms that broaden meaning | N3 Study Desk"
       }
     ],
-    "partOfSpeech": "noun / expression",
+    "partOfSpeech": [
+      "Noun",
+      "Expression"
+    ],
     "reading": "せんもんてき",
+    "topicIds": [
+      "school-study"
+    ],
     "written": "専門的"
   },
   {
     "forms": [],
+    "grammarIds": [
+      "p2-group-a"
+    ],
     "id": "part2-word-1190a8023ec5",
     "kanji": [
       {
@@ -42309,12 +52454,21 @@
         "label": "Group A: Particles with various functions | N3 Study Desk"
       }
     ],
-    "partOfSpeech": "noun / expression",
+    "partOfSpeech": [
+      "Noun",
+      "Expression"
+    ],
     "reading": "いちじかん",
+    "topicIds": [
+      "time-dates-schedules"
+    ],
     "written": "一時間"
   },
   {
     "forms": [],
+    "grammarIds": [
+      "p2-group-c"
+    ],
     "id": "part2-word-12304b4ecd93",
     "kanji": [
       {
@@ -42332,12 +52486,21 @@
         "label": "Group C: Uses of こと and の | N3 Study Desk"
       }
     ],
-    "partOfSpeech": "noun / expression",
+    "partOfSpeech": [
+      "Noun",
+      "Expression"
+    ],
     "reading": "さんぺん",
+    "topicIds": [
+      "school-study"
+    ],
     "written": "三辺"
   },
   {
     "forms": [],
+    "grammarIds": [
+      "p2-group-h"
+    ],
     "id": "part2-word-13f71ba5c832",
     "kanji": [
       {
@@ -42355,12 +52518,22 @@
         "label": "Group H: Special uses of たら・ば・と・なら | N3 Study Desk"
       }
     ],
-    "partOfSpeech": "noun / expression",
+    "partOfSpeech": [
+      "Noun",
+      "Expression"
+    ],
     "reading": "すうにん",
+    "topicIds": [
+      "people-family-relationships"
+    ],
     "written": "数人"
   },
   {
     "forms": [],
+    "grammarIds": [
+      "p2-group-a",
+      "p2-group-j"
+    ],
     "id": "part2-word-1cfccd0cdde5",
     "kanji": [
       {
@@ -42386,12 +52559,21 @@
         "label": "Group J: Forms that broaden meaning | N3 Study Desk"
       }
     ],
-    "partOfSpeech": "noun / expression",
+    "partOfSpeech": [
+      "Noun",
+      "Expression"
+    ],
     "reading": "いちにち",
+    "topicIds": [
+      "time-dates-schedules"
+    ],
     "written": "一日"
   },
   {
     "forms": [],
+    "grammarIds": [
+      "p2-group-d"
+    ],
     "id": "part2-word-1ee101af33ab",
     "kanji": [
       {
@@ -42409,12 +52591,21 @@
         "label": "Group D: Uses of よう | N3 Study Desk"
       }
     ],
-    "partOfSpeech": "noun / expression",
+    "partOfSpeech": [
+      "Noun",
+      "Expression"
+    ],
     "reading": "はやしさん",
+    "topicIds": [
+      "school-study"
+    ],
     "written": "林さん"
   },
   {
     "forms": [],
+    "grammarIds": [
+      "p2-group-g"
+    ],
     "id": "part2-word-2264a3bc06dd",
     "kanji": [
       {
@@ -42432,12 +52623,21 @@
         "label": "Group G: Organizing する and なる | N3 Study Desk"
       }
     ],
-    "partOfSpeech": "noun / expression",
+    "partOfSpeech": [
+      "Noun",
+      "Expression"
+    ],
     "reading": "いっかい",
+    "topicIds": [
+      "places-directions"
+    ],
     "written": "一階"
   },
   {
     "forms": [],
+    "grammarIds": [
+      "p2-group-a"
+    ],
     "id": "part2-word-2e610178aea8",
     "kanji": [
       {
@@ -42455,12 +52655,21 @@
         "label": "Group A: Particles with various functions | N3 Study Desk"
       }
     ],
-    "partOfSpeech": "noun / suru verb",
+    "partOfSpeech": [
+      "Noun",
+      "Group 3 Verb"
+    ],
     "reading": "たんじょうび",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "誕生日"
   },
   {
     "forms": [],
+    "grammarIds": [
+      "p2-group-d"
+    ],
     "id": "part2-word-32057132cdbd",
     "kanji": [
       {
@@ -42478,12 +52687,21 @@
         "label": "Group D: Uses of よう | N3 Study Desk"
       }
     ],
-    "partOfSpeech": "noun / expression",
+    "partOfSpeech": [
+      "Noun",
+      "Expression"
+    ],
     "reading": "こんしゅうじゅう",
+    "topicIds": [
+      "time-dates-schedules"
+    ],
     "written": "今週中"
   },
   {
     "forms": [],
+    "grammarIds": [
+      "p2-group-b"
+    ],
     "id": "part2-word-3ead8901295a",
     "kanji": [
       {
@@ -42501,12 +52719,22 @@
         "label": "Group B: Words that work like particles | N3 Study Desk"
       }
     ],
-    "partOfSpeech": "noun / expression",
+    "partOfSpeech": [
+      "Noun",
+      "Expression"
+    ],
     "reading": "かいしゃがわ",
+    "topicIds": [
+      "work-business",
+      "places-directions"
+    ],
     "written": "会社側"
   },
   {
     "forms": [],
+    "grammarIds": [
+      "p2-group-b"
+    ],
     "id": "part2-word-433da13afb2d",
     "kanji": [
       {
@@ -42524,12 +52752,21 @@
         "label": "Group B: Words that work like particles | N3 Study Desk"
       }
     ],
-    "partOfSpeech": "noun / suru verb",
+    "partOfSpeech": [
+      "Noun",
+      "Group 3 Verb"
+    ],
     "reading": "にゅうがく",
+    "topicIds": [
+      "school-study"
+    ],
     "written": "入学"
   },
   {
     "forms": [],
+    "grammarIds": [
+      "p2-group-g"
+    ],
     "id": "part2-word-43b62e58cbaa",
     "kanji": [
       {
@@ -42547,12 +52784,21 @@
         "label": "Group G: Organizing する and なる | N3 Study Desk"
       }
     ],
-    "partOfSpeech": "noun / expression",
+    "partOfSpeech": [
+      "Noun",
+      "Expression"
+    ],
     "reading": "しゅうかんてき",
+    "topicIds": [
+      "school-study"
+    ],
     "written": "習慣的"
   },
   {
     "forms": [],
+    "grammarIds": [
+      "p2-group-a"
+    ],
     "id": "part2-word-48a4da2d6749",
     "kanji": [
       {
@@ -42570,12 +52816,21 @@
         "label": "Group A: Particles with various functions | N3 Study Desk"
       }
     ],
-    "partOfSpeech": "noun / expression",
+    "partOfSpeech": [
+      "Noun",
+      "Expression"
+    ],
     "reading": "わたしたち",
+    "topicIds": [
+      "school-study"
+    ],
     "written": "私たち"
   },
   {
     "forms": [],
+    "grammarIds": [
+      "p2-group-e"
+    ],
     "id": "part2-word-4b91a88afbaf",
     "kanji": [
       {
@@ -42593,12 +52848,21 @@
         "label": "Group E: Uses of わけ | N3 Study Desk"
       }
     ],
-    "partOfSpeech": "noun / expression",
+    "partOfSpeech": [
+      "Noun",
+      "Expression"
+    ],
     "reading": "さんじかん",
+    "topicIds": [
+      "school-study"
+    ],
     "written": "三時間"
   },
   {
     "forms": [],
+    "grammarIds": [
+      "p2-group-f"
+    ],
     "id": "part2-word-57e9cf77fb12",
     "kanji": [
       {
@@ -42616,12 +52880,21 @@
         "label": "Group F: Uses of ばかり | N3 Study Desk"
       }
     ],
-    "partOfSpeech": "noun / expression",
+    "partOfSpeech": [
+      "Noun",
+      "Expression"
+    ],
     "reading": "じゅっさい",
+    "topicIds": [
+      "school-study"
+    ],
     "written": "十歳"
   },
   {
     "forms": [],
+    "grammarIds": [
+      "p2-group-g"
+    ],
     "id": "part2-word-5c63e0bb1eed",
     "kanji": [
       {
@@ -42639,12 +52912,21 @@
         "label": "Group G: Organizing する and なる | N3 Study Desk"
       }
     ],
-    "partOfSpeech": "noun / expression",
+    "partOfSpeech": [
+      "Noun",
+      "Expression"
+    ],
     "reading": "おんがくしつ",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "音楽室"
   },
   {
     "forms": [],
+    "grammarIds": [
+      "p2-group-j"
+    ],
     "id": "part2-word-5ff2f9de41b9",
     "kanji": [
       {
@@ -42662,12 +52944,20 @@
         "label": "Group J: Forms that broaden meaning | N3 Study Desk"
       }
     ],
-    "partOfSpeech": "proper noun",
+    "partOfSpeech": [
+      "Noun"
+    ],
     "reading": "ゆかさん",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "由香さん"
   },
   {
     "forms": [],
+    "grammarIds": [
+      "p2-group-d"
+    ],
     "id": "part2-word-61299f1559e6",
     "kanji": [
       {
@@ -42685,12 +52975,21 @@
         "label": "Group D: Uses of よう | N3 Study Desk"
       }
     ],
-    "partOfSpeech": "noun / expression",
+    "partOfSpeech": [
+      "Noun",
+      "Expression"
+    ],
     "reading": "むすめたち",
+    "topicIds": [
+      "school-study"
+    ],
     "written": "娘たち"
   },
   {
     "forms": [],
+    "grammarIds": [
+      "p2-group-b"
+    ],
     "id": "part2-word-61b6feed8ec3",
     "kanji": [
       {
@@ -42708,12 +53007,21 @@
         "label": "Group B: Words that work like particles | N3 Study Desk"
       }
     ],
-    "partOfSpeech": "noun / suru verb",
+    "partOfSpeech": [
+      "Noun",
+      "Group 3 Verb"
+    ],
     "reading": "さっきょくか",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "作曲家"
   },
   {
     "forms": [],
+    "grammarIds": [
+      "p2-group-j"
+    ],
     "id": "part2-word-633c5e832424",
     "kanji": [
       {
@@ -42731,12 +53039,21 @@
         "label": "Group J: Forms that broaden meaning | N3 Study Desk"
       }
     ],
-    "partOfSpeech": "noun / expression",
+    "partOfSpeech": [
+      "Noun",
+      "Expression"
+    ],
     "reading": "ひとばん",
+    "topicIds": [
+      "time-dates-schedules"
+    ],
     "written": "一晩"
   },
   {
     "forms": [],
+    "grammarIds": [
+      "p2-group-b"
+    ],
     "id": "part2-word-63811cee5165",
     "kanji": [
       {
@@ -42754,12 +53071,20 @@
         "label": "Group B: Words that work like particles | N3 Study Desk"
       }
     ],
-    "partOfSpeech": "proper noun",
+    "partOfSpeech": [
+      "Noun"
+    ],
     "reading": "おおやまくん",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "大山君"
   },
   {
     "forms": [],
+    "grammarIds": [
+      "p2-group-e"
+    ],
     "id": "part2-word-6a4d9bf2a75a",
     "kanji": [
       {
@@ -42777,12 +53102,21 @@
         "label": "Group E: Uses of わけ | N3 Study Desk"
       }
     ],
-    "partOfSpeech": "noun / expression",
+    "partOfSpeech": [
+      "Noun",
+      "Expression"
+    ],
     "reading": "ぎむかん",
+    "topicIds": [
+      "school-study"
+    ],
     "written": "義務感"
   },
   {
     "forms": [],
+    "grammarIds": [
+      "p2-group-e"
+    ],
     "id": "part2-word-72ddf25d4a3c",
     "kanji": [
       {
@@ -42800,12 +53134,21 @@
         "label": "Group E: Uses of わけ | N3 Study Desk"
       }
     ],
-    "partOfSpeech": "noun / expression",
+    "partOfSpeech": [
+      "Noun",
+      "Expression"
+    ],
     "reading": "ひとふくろ",
+    "topicIds": [
+      "school-study"
+    ],
     "written": "一袋"
   },
   {
     "forms": [],
+    "grammarIds": [
+      "p2-group-j"
+    ],
     "id": "part2-word-7520c567e7fb",
     "kanji": [
       {
@@ -42823,12 +53166,21 @@
         "label": "Group J: Forms that broaden meaning | N3 Study Desk"
       }
     ],
-    "partOfSpeech": "noun / suru verb",
+    "partOfSpeech": [
+      "Noun",
+      "Group 3 Verb"
+    ],
     "reading": "えんりょがち",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "遠慮がち"
   },
   {
     "forms": [],
+    "grammarIds": [
+      "p2-group-i"
+    ],
     "id": "part2-word-78fd1a0e8afd",
     "kanji": [
       {
@@ -42846,12 +53198,21 @@
         "label": "Group I: Adverbs with fixed following forms | N3 Study Desk"
       }
     ],
-    "partOfSpeech": "noun / expression",
+    "partOfSpeech": [
+      "Noun",
+      "Expression"
+    ],
     "reading": "じどうしゃ",
+    "topicIds": [
+      "travel-transportation"
+    ],
     "written": "自動車"
   },
   {
     "forms": [],
+    "grammarIds": [
+      "p2-group-a"
+    ],
     "id": "part2-word-7b41234ea782",
     "kanji": [
       {
@@ -42869,12 +53230,21 @@
         "label": "Group A: Particles with various functions | N3 Study Desk"
       }
     ],
-    "partOfSpeech": "noun / suru verb",
+    "partOfSpeech": [
+      "Noun",
+      "Group 3 Verb"
+    ],
     "reading": "かいけつさく",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "解決策"
   },
   {
     "forms": [],
+    "grammarIds": [
+      "p2-group-a"
+    ],
     "id": "part2-word-8de417f9a517",
     "kanji": [
       {
@@ -42892,12 +53262,21 @@
         "label": "Group A: Particles with various functions | N3 Study Desk"
       }
     ],
-    "partOfSpeech": "noun / expression",
+    "partOfSpeech": [
+      "Noun",
+      "Expression"
+    ],
     "reading": "いがいせい",
+    "topicIds": [
+      "school-study"
+    ],
     "written": "意外性"
   },
   {
     "forms": [],
+    "grammarIds": [
+      "p2-group-e"
+    ],
     "id": "part2-word-8f7f7abffa22",
     "kanji": [
       {
@@ -42915,12 +53294,22 @@
         "label": "Group E: Uses of わけ | N3 Study Desk"
       }
     ],
-    "partOfSpeech": "noun / expression",
+    "partOfSpeech": [
+      "Noun",
+      "Expression"
+    ],
     "reading": "さんふくろ",
+    "topicIds": [
+      "school-study"
+    ],
     "written": "三袋"
   },
   {
     "forms": [],
+    "grammarIds": [
+      "p2-group-b",
+      "p2-group-g"
+    ],
     "id": "part2-word-93ff1a80c25c",
     "kanji": [
       {
@@ -42946,12 +53335,22 @@
         "label": "Group G: Organizing する and なる | N3 Study Desk"
       }
     ],
-    "partOfSpeech": "noun / suru verb",
+    "partOfSpeech": [
+      "Noun",
+      "Group 3 Verb"
+    ],
     "reading": "かいぎしつ",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "会議室"
   },
   {
     "forms": [],
+    "grammarIds": [
+      "p2-group-c",
+      "p2-group-h"
+    ],
     "id": "part2-word-949340f5fa76",
     "kanji": [
       {
@@ -42973,12 +53372,21 @@
         "label": "Group H: Special uses of たら・ば・と・なら | N3 Study Desk"
       }
     ],
-    "partOfSpeech": "noun / expression",
+    "partOfSpeech": [
+      "Noun",
+      "Expression"
+    ],
     "reading": "じごろ",
+    "topicIds": [
+      "time-dates-schedules"
+    ],
     "written": "時ごろ"
   },
   {
     "forms": [],
+    "grammarIds": [
+      "p2-group-h"
+    ],
     "id": "part2-word-996b9885c0ae",
     "kanji": [
       {
@@ -43000,12 +53408,21 @@
         "label": "Group H: Special uses of たら・ば・と・なら | N3 Study Desk"
       }
     ],
-    "partOfSpeech": "noun / expression",
+    "partOfSpeech": [
+      "Noun",
+      "Expression"
+    ],
     "reading": "いがいかん",
+    "topicIds": [
+      "school-study"
+    ],
     "written": "意外感"
   },
   {
     "forms": [],
+    "grammarIds": [
+      "p2-group-c"
+    ],
     "id": "part2-word-a32a248886df",
     "kanji": [
       {
@@ -43023,12 +53440,21 @@
         "label": "Group C: Uses of こと and の | N3 Study Desk"
       }
     ],
-    "partOfSpeech": "noun / expression",
+    "partOfSpeech": [
+      "Noun",
+      "Expression"
+    ],
     "reading": "こどもたち",
+    "topicIds": [
+      "school-study"
+    ],
     "written": "子どもたち"
   },
   {
     "forms": [],
+    "grammarIds": [
+      "p2-group-i"
+    ],
     "id": "part2-word-b380f358efd7",
     "kanji": [
       {
@@ -43046,12 +53472,20 @@
         "label": "Group I: Adverbs with fixed following forms | N3 Study Desk"
       }
     ],
-    "partOfSpeech": "proper noun",
+    "partOfSpeech": [
+      "Noun"
+    ],
     "reading": "やまぐちさん",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "山口さん"
   },
   {
     "forms": [],
+    "grammarIds": [
+      "p2-group-g"
+    ],
     "id": "part2-word-b86696a51324",
     "kanji": [
       {
@@ -43073,12 +53507,22 @@
         "label": "Group G: Organizing する and なる | N3 Study Desk"
       }
     ],
-    "partOfSpeech": "noun / suru verb",
+    "partOfSpeech": [
+      "Noun",
+      "Group 3 Verb"
+    ],
     "reading": "しごとちゅう",
+    "topicIds": [
+      "time-dates-schedules",
+      "work-business"
+    ],
     "written": "仕事中"
   },
   {
     "forms": [],
+    "grammarIds": [
+      "p2-group-e"
+    ],
     "id": "part2-word-c098c4906625",
     "kanji": [
       {
@@ -43096,12 +53540,21 @@
         "label": "Group E: Uses of わけ | N3 Study Desk"
       }
     ],
-    "partOfSpeech": "noun / expression",
+    "partOfSpeech": [
+      "Noun",
+      "Expression"
+    ],
     "reading": "しゅかんてき",
+    "topicIds": [
+      "school-study"
+    ],
     "written": "主観的"
   },
   {
     "forms": [],
+    "grammarIds": [
+      "p2-group-a"
+    ],
     "id": "part2-word-c419b3486c7b",
     "kanji": [
       {
@@ -43119,12 +53572,21 @@
         "label": "Group A: Particles with various functions | N3 Study Desk"
       }
     ],
-    "partOfSpeech": "noun / expression",
+    "partOfSpeech": [
+      "Noun",
+      "Expression"
+    ],
     "reading": "いがいさ",
+    "topicIds": [
+      "school-study"
+    ],
     "written": "意外さ"
   },
   {
     "forms": [],
+    "grammarIds": [
+      "p2-group-j"
+    ],
     "id": "part2-word-c68511f6e6e1",
     "kanji": [
       {
@@ -43142,12 +53604,21 @@
         "label": "Group J: Forms that broaden meaning | N3 Study Desk"
       }
     ],
-    "partOfSpeech": "noun / expression",
+    "partOfSpeech": [
+      "Noun",
+      "Expression"
+    ],
     "reading": "まちがいだらけ",
+    "topicIds": [
+      "school-study"
+    ],
     "written": "間違いだらけ"
   },
   {
     "forms": [],
+    "grammarIds": [
+      "p2-group-c"
+    ],
     "id": "part2-word-c6d2ad156603",
     "kanji": [
       {
@@ -43165,12 +53636,21 @@
         "label": "Group C: Uses of こと and の | N3 Study Desk"
       }
     ],
-    "partOfSpeech": "noun / expression",
+    "partOfSpeech": [
+      "Noun",
+      "Expression"
+    ],
     "reading": "きほんてき",
+    "topicIds": [
+      "school-study"
+    ],
     "written": "基本的"
   },
   {
     "forms": [],
+    "grammarIds": [
+      "p2-group-j"
+    ],
     "id": "part2-word-cd1692f5a41d",
     "kanji": [
       {
@@ -43188,12 +53668,21 @@
         "label": "Group J: Forms that broaden meaning | N3 Study Desk"
       }
     ],
-    "partOfSpeech": "noun / expression",
+    "partOfSpeech": [
+      "Noun",
+      "Expression"
+    ],
     "reading": "おくれがち",
+    "topicIds": [
+      "school-study"
+    ],
     "written": "遅れがち"
   },
   {
     "forms": [],
+    "grammarIds": [
+      "p2-group-j"
+    ],
     "id": "part2-word-d19769ae0684",
     "kanji": [
       {
@@ -43211,12 +53700,21 @@
         "label": "Group J: Forms that broaden meaning | N3 Study Desk"
       }
     ],
-    "partOfSpeech": "noun / expression",
+    "partOfSpeech": [
+      "Noun",
+      "Expression"
+    ],
     "reading": "きずだらけ",
+    "topicIds": [
+      "school-study"
+    ],
     "written": "傷だらけ"
   },
   {
     "forms": [],
+    "grammarIds": [
+      "p2-group-e"
+    ],
     "id": "part2-word-d62b0faa95fb",
     "kanji": [
       {
@@ -43234,12 +53732,21 @@
         "label": "Group E: Uses of わけ | N3 Study Desk"
       }
     ],
-    "partOfSpeech": "noun / suru verb",
+    "partOfSpeech": [
+      "Noun",
+      "Group 3 Verb"
+    ],
     "reading": "ていこうかん",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "抵抗感"
   },
   {
     "forms": [],
+    "grammarIds": [
+      "p2-group-d"
+    ],
     "id": "part2-word-e0b229e064e2",
     "kanji": [
       {
@@ -43257,12 +53764,20 @@
         "label": "Group D: Uses of よう | N3 Study Desk"
       }
     ],
-    "partOfSpeech": "proper noun",
+    "partOfSpeech": [
+      "Noun"
+    ],
     "reading": "いけださん",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "池田さん"
   },
   {
     "forms": [],
+    "grammarIds": [
+      "p2-group-j"
+    ],
     "id": "part2-word-e202119ce0d2",
     "kanji": [
       {
@@ -43280,12 +53795,21 @@
         "label": "Group J: Forms that broaden meaning | N3 Study Desk"
       }
     ],
-    "partOfSpeech": "noun / expression",
+    "partOfSpeech": [
+      "Noun",
+      "Expression"
+    ],
     "reading": "きゃくだらけ",
+    "topicIds": [
+      "school-study"
+    ],
     "written": "客だらけ"
   },
   {
     "forms": [],
+    "grammarIds": [
+      "p2-group-e"
+    ],
     "id": "part2-word-e3277cb8a4d2",
     "kanji": [
       {
@@ -43303,12 +53827,21 @@
         "label": "Group E: Uses of わけ | N3 Study Desk"
       }
     ],
-    "partOfSpeech": "noun / expression",
+    "partOfSpeech": [
+      "Noun",
+      "Expression"
+    ],
     "reading": "じゅっこ",
+    "topicIds": [
+      "school-study"
+    ],
     "written": "十個"
   },
   {
     "forms": [],
+    "grammarIds": [
+      "p2-group-g"
+    ],
     "id": "part2-word-e710441952c4",
     "kanji": [
       {
@@ -43326,12 +53859,21 @@
         "label": "Group G: Organizing する and なる | N3 Study Desk"
       }
     ],
-    "partOfSpeech": "noun / expression",
+    "partOfSpeech": [
+      "Noun",
+      "Expression"
+    ],
     "reading": "いしてき",
+    "topicIds": [
+      "school-study"
+    ],
     "written": "意志的"
   },
   {
     "forms": [],
+    "grammarIds": [
+      "p2-group-a"
+    ],
     "id": "part2-word-ec67bc383c25",
     "kanji": [
       {
@@ -43349,12 +53891,20 @@
         "label": "Group A: Particles with various functions | N3 Study Desk"
       }
     ],
-    "partOfSpeech": "proper noun",
+    "partOfSpeech": [
+      "Noun"
+    ],
     "reading": "くみさん",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "久美さん"
   },
   {
     "forms": [],
+    "grammarIds": [
+      "p2-group-b"
+    ],
     "id": "part2-word-f3ed5f6caf76",
     "kanji": [
       {
@@ -43376,12 +53926,22 @@
         "label": "Group B: Words that work like particles | N3 Study Desk"
       }
     ],
-    "partOfSpeech": "noun / suru verb",
+    "partOfSpeech": [
+      "Noun",
+      "Group 3 Verb"
+    ],
     "reading": "りようしゃ",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "利用者"
   },
   {
     "forms": [],
+    "grammarIds": [
+      "p2-group-f",
+      "p2-group-h"
+    ],
     "id": "part2-word-f51b382c2005",
     "kanji": [
       {
@@ -43403,12 +53963,23 @@
         "label": "Group H: Special uses of たら・ば・と・なら | N3 Study Desk"
       }
     ],
-    "partOfSpeech": "proper noun",
+    "partOfSpeech": [
+      "Noun"
+    ],
     "reading": "ちゅうごくご",
+    "topicIds": [
+      "school-study"
+    ],
     "written": "中国語"
   },
   {
     "forms": [],
+    "grammarIds": [
+      "p2-group-b",
+      "p2-group-d",
+      "p2-group-f",
+      "p2-group-h"
+    ],
     "id": "part2-word-fddb7eb59978",
     "kanji": [
       {
@@ -43438,12 +54009,20 @@
         "label": "Group H: Special uses of たら・ば・と・なら | N3 Study Desk"
       }
     ],
-    "partOfSpeech": "proper noun",
+    "partOfSpeech": [
+      "Noun"
+    ],
     "reading": "たなかさん",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "田中さん"
   },
   {
     "forms": [],
+    "grammarIds": [
+      "p3-lesson-4"
+    ],
     "id": "part3-word-076259d44e30",
     "kanji": [
       {
@@ -43461,12 +54040,21 @@
         "label": "Lesson 4: Fixed patterns | N3 Study Desk"
       }
     ],
-    "partOfSpeech": "noun / expression",
+    "partOfSpeech": [
+      "Noun",
+      "Expression"
+    ],
     "reading": "かいしゃいん",
+    "topicIds": [
+      "work-business"
+    ],
     "written": "会社員"
   },
   {
     "forms": [],
+    "grammarIds": [
+      "p3-lesson-3"
+    ],
     "id": "part3-word-211a13698f22",
     "kanji": [
       {
@@ -43484,12 +54072,20 @@
         "label": "Lesson 3: ～という・～といった | N3 Study Desk"
       }
     ],
-    "partOfSpeech": "proper noun",
+    "partOfSpeech": [
+      "Noun"
+    ],
     "reading": "すずきさん",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "鈴木さん"
   },
   {
     "forms": [],
+    "grammarIds": [
+      "p3-lesson-1"
+    ],
     "id": "part3-word-3d77d72df0eb",
     "kanji": [
       {
@@ -43507,12 +54103,21 @@
         "label": "Lesson 1: Quotation | N3 Study Desk"
       }
     ],
-    "partOfSpeech": "noun / suru verb",
+    "partOfSpeech": [
+      "Noun",
+      "Group 3 Verb"
+    ],
     "reading": "めいれいけい",
+    "topicIds": [
+      "school-study"
+    ],
     "written": "命令形"
   },
   {
     "forms": [],
+    "grammarIds": [
+      "p3-lesson-3"
+    ],
     "id": "part3-word-4aa8929078ee",
     "kanji": [
       {
@@ -43530,12 +54135,21 @@
         "label": "Lesson 3: ～という・～といった | N3 Study Desk"
       }
     ],
-    "partOfSpeech": "noun / expression",
+    "partOfSpeech": [
+      "Noun",
+      "Expression"
+    ],
     "reading": "りかけい",
+    "topicIds": [
+      "school-study"
+    ],
     "written": "理科系"
   },
   {
     "forms": [],
+    "grammarIds": [
+      "p3-lesson-4"
+    ],
     "id": "part3-word-61e0e715185e",
     "kanji": [
       {
@@ -43553,12 +54167,20 @@
         "label": "Lesson 4: Fixed patterns | N3 Study Desk"
       }
     ],
-    "partOfSpeech": "proper noun",
+    "partOfSpeech": [
+      "Noun"
+    ],
     "reading": "かんとう",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "関東"
   },
   {
     "forms": [],
+    "grammarIds": [
+      "p3-lesson-4"
+    ],
     "id": "part3-word-75a13e6465d2",
     "kanji": [
       {
@@ -43576,12 +54198,20 @@
         "label": "Lesson 4: Fixed patterns | N3 Study Desk"
       }
     ],
-    "partOfSpeech": "proper noun",
+    "partOfSpeech": [
+      "Noun"
+    ],
     "reading": "とうほく",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "東北"
   },
   {
     "forms": [],
+    "grammarIds": [
+      "p3-lesson-3"
+    ],
     "id": "part3-word-883c855aa560",
     "kanji": [
       {
@@ -43599,12 +54229,20 @@
         "label": "Lesson 3: ～という・～といった | N3 Study Desk"
       }
     ],
-    "partOfSpeech": "proper noun",
+    "partOfSpeech": [
+      "Noun"
+    ],
     "reading": "まきこさん",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "まき子さん"
   },
   {
     "forms": [],
+    "grammarIds": [
+      "p3-lesson-2"
+    ],
     "id": "part3-word-a32a248886df",
     "kanji": [
       {
@@ -43626,12 +54264,21 @@
         "label": "Lesson 2: Noun description | N3 Study Desk"
       }
     ],
-    "partOfSpeech": "noun / expression",
+    "partOfSpeech": [
+      "Noun",
+      "Expression"
+    ],
     "reading": "こどもたち",
+    "topicIds": [
+      "school-study"
+    ],
     "written": "子どもたち"
   },
   {
     "forms": [],
+    "grammarIds": [
+      "p3-lesson-2"
+    ],
     "id": "part3-word-ad063e9d9a9c",
     "kanji": [
       {
@@ -43653,12 +54300,21 @@
         "label": "Lesson 2: Noun description | N3 Study Desk"
       }
     ],
-    "partOfSpeech": "noun / expression",
+    "partOfSpeech": [
+      "Noun",
+      "Expression"
+    ],
     "reading": "しゅだん",
+    "topicIds": [
+      "school-study"
+    ],
     "written": "手段"
   },
   {
     "forms": [],
+    "grammarIds": [
+      "p3-lesson-1"
+    ],
     "id": "part3-word-ec5136f7508a",
     "kanji": [
       {
@@ -43676,12 +54332,21 @@
         "label": "Lesson 1: Quotation | N3 Study Desk"
       }
     ],
-    "partOfSpeech": "noun / suru verb",
+    "partOfSpeech": [
+      "Noun",
+      "Group 3 Verb"
+    ],
     "reading": "きんしけい",
+    "topicIds": [
+      "school-study"
+    ],
     "written": "禁止形"
   },
   {
     "forms": [],
+    "grammarIds": [
+      "p3-lesson-4"
+    ],
     "id": "part3-word-f51b382c2005",
     "kanji": [
       {
@@ -43699,12 +54364,21 @@
         "label": "Lesson 4: Fixed patterns | N3 Study Desk"
       }
     ],
-    "partOfSpeech": "proper noun",
+    "partOfSpeech": [
+      "Noun"
+    ],
     "reading": "ちゅうごくご",
+    "topicIds": [
+      "school-study"
+    ],
     "written": "中国語"
   },
   {
     "forms": [],
+    "grammarIds": [
+      "p3-lesson-1",
+      "p3-lesson-2"
+    ],
     "id": "part3-word-fddb7eb59978",
     "kanji": [
       {
@@ -43726,12 +54400,20 @@
         "label": "Lesson 2: Noun description | N3 Study Desk"
       }
     ],
-    "partOfSpeech": "proper noun",
+    "partOfSpeech": [
+      "Noun"
+    ],
     "reading": "たなかさん",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "田中さん"
   },
   {
     "forms": [],
+    "grammarIds": [
+      "p4-lesson-1"
+    ],
     "id": "part4-word-119fdf575e75",
     "kanji": [
       {
@@ -43749,12 +54431,20 @@
         "label": "Part 4 Lesson 1: 文の始めと終わりの対応 | N3 Study Desk"
       }
     ],
-    "partOfSpeech": "verb",
+    "partOfSpeech": [
+      "Group 2 Verb"
+    ],
     "reading": "かたづける",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "片付ける"
   },
   {
     "forms": [],
+    "grammarIds": [
+      "p4-lesson-10"
+    ],
     "id": "part4-word-180e54178fae",
     "kanji": [
       {
@@ -43772,12 +54462,21 @@
         "label": "Part 4 Lesson 10: 文章の雰囲気の統一 | N3 Study Desk"
       }
     ],
-    "partOfSpeech": "noun / expression",
+    "partOfSpeech": [
+      "Noun",
+      "Expression"
+    ],
     "reading": "ふつうたい",
+    "topicIds": [
+      "school-study"
+    ],
     "written": "普通体"
   },
   {
     "forms": [],
+    "grammarIds": [
+      "p4-lesson-10"
+    ],
     "id": "part4-word-2365e02e568d",
     "kanji": [
       {
@@ -43795,12 +54494,21 @@
         "label": "Part 4 Lesson 10: 文章の雰囲気の統一 | N3 Study Desk"
       }
     ],
-    "partOfSpeech": "noun / expression",
+    "partOfSpeech": [
+      "Noun",
+      "Expression"
+    ],
     "reading": "ていねいたい",
+    "topicIds": [
+      "school-study"
+    ],
     "written": "丁寧体"
   },
   {
     "forms": [],
+    "grammarIds": [
+      "p4-lesson-9"
+    ],
     "id": "part4-word-37ea476f50c6",
     "kanji": [
       {
@@ -43818,12 +54526,21 @@
         "label": "Part 4 Lesson 9: 接続表現 | N3 Study Desk"
       }
     ],
-    "partOfSpeech": "noun / expression",
+    "partOfSpeech": [
+      "Noun",
+      "Expression"
+    ],
     "reading": "ふたりぶん",
+    "topicIds": [
+      "people-family-relationships"
+    ],
     "written": "二人分"
   },
   {
     "forms": [],
+    "grammarIds": [
+      "p4-lesson-6"
+    ],
     "id": "part4-word-61c011286eab",
     "kanji": [
       {
@@ -43841,12 +54558,20 @@
         "label": "Part 4 Lesson 6: ～てあげる・～てもらう・～てくれる | N3 Study Desk"
       }
     ],
-    "partOfSpeech": "proper noun",
+    "partOfSpeech": [
+      "Noun"
+    ],
     "reading": "やまかわさん",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "山川さん"
   },
   {
     "forms": [],
+    "grammarIds": [
+      "p4-lesson-9"
+    ],
     "id": "part4-word-750786cc5554",
     "kanji": [
       {
@@ -43864,12 +54589,21 @@
         "label": "Part 4 Lesson 9: 接続表現 | N3 Study Desk"
       }
     ],
-    "partOfSpeech": "noun / expression",
+    "partOfSpeech": [
+      "Noun",
+      "Expression"
+    ],
     "reading": "ふつか",
+    "topicIds": [
+      "time-dates-schedules"
+    ],
     "written": "二日"
   },
   {
     "forms": [],
+    "grammarIds": [
+      "p4-lesson-8"
+    ],
     "id": "part4-word-8e072e994597",
     "kanji": [
       {
@@ -43887,12 +54621,21 @@
         "label": "Part 4 Lesson 8: は・が | N3 Study Desk"
       }
     ],
-    "partOfSpeech": "proper noun",
+    "partOfSpeech": [
+      "Noun"
+    ],
     "reading": "おうさん",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "王さん"
   },
   {
     "forms": [],
+    "grammarIds": [
+      "p4-lesson-1",
+      "p4-lesson-3"
+    ],
     "id": "part4-word-a32a248886df",
     "kanji": [
       {
@@ -43918,12 +54661,21 @@
         "label": "Part 4 Lesson 3: 他動詞・自動詞 | N3 Study Desk"
       }
     ],
-    "partOfSpeech": "noun / expression",
+    "partOfSpeech": [
+      "Noun",
+      "Expression"
+    ],
     "reading": "こどもたち",
+    "topicIds": [
+      "school-study"
+    ],
     "written": "子どもたち"
   },
   {
     "forms": [],
+    "grammarIds": [
+      "p4-lesson-1"
+    ],
     "id": "part4-word-adf1208e305b",
     "kanji": [
       {
@@ -43941,12 +54693,21 @@
         "label": "Part 4 Lesson 1: 文の始めと終わりの対応 | N3 Study Desk"
       }
     ],
-    "partOfSpeech": "noun / expression",
+    "partOfSpeech": [
+      "Noun",
+      "Expression"
+    ],
     "reading": "なんど",
+    "topicIds": [
+      "school-study"
+    ],
     "written": "何度"
   },
   {
     "forms": [],
+    "grammarIds": [
+      "p4-lesson-2"
+    ],
     "id": "part4-word-bf4944089718",
     "kanji": [
       {
@@ -43964,12 +54725,21 @@
         "label": "Part 4 Lesson 2: 時制・～ている | N3 Study Desk"
       }
     ],
-    "partOfSpeech": "noun / expression",
+    "partOfSpeech": [
+      "Noun",
+      "Expression"
+    ],
     "reading": "ぜんご",
+    "topicIds": [
+      "time-dates-schedules"
+    ],
     "written": "前後"
   },
   {
     "forms": [],
+    "grammarIds": [
+      "p4-lesson-2"
+    ],
     "id": "part4-word-cd02b67599e0",
     "kanji": [
       {
@@ -43987,12 +54757,22 @@
         "label": "Part 4 Lesson 2: 時制・～ている | N3 Study Desk"
       }
     ],
-    "partOfSpeech": "noun / expression",
+    "partOfSpeech": [
+      "Noun",
+      "Expression"
+    ],
     "reading": "かこけい",
+    "topicIds": [
+      "time-dates-schedules",
+      "school-study"
+    ],
     "written": "過去形"
   },
   {
     "forms": [],
+    "grammarIds": [
+      "p4-lesson-9"
+    ],
     "id": "part4-word-ffdcb39f8783",
     "kanji": [
       {
@@ -44010,12 +54790,21 @@
         "label": "Part 4 Lesson 9: 接続表現 | N3 Study Desk"
       }
     ],
-    "partOfSpeech": "proper noun",
+    "partOfSpeech": [
+      "Noun"
+    ],
     "reading": "おがわさん",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "小川さん"
   },
   {
     "forms": [],
+    "grammarIds": [
+      "p2-group-g",
+      "p3-lesson-3"
+    ],
     "id": "raigetsu",
     "kanji": [
       {
@@ -44046,8 +54835,14 @@
         "label": "Lesson 3: ～という・～といった | N3 Study Desk"
       }
     ],
-    "partOfSpeech": "noun / adverb",
+    "partOfSpeech": [
+      "Noun",
+      "Adverb"
+    ],
     "reading": "らいげつ",
+    "topicIds": [
+      "time-dates-schedules"
+    ],
     "written": "来月"
   },
   {
@@ -44077,12 +54872,21 @@
         "label": "Lesson 8: Strong and partial negation 絶対～ない・必ず～とは言えない"
       }
     ],
-    "partOfSpeech": "suru verb",
+    "partOfSpeech": [
+      "Group 3 Verb"
+    ],
     "reading": "れんしゅうする",
+    "topicIds": [
+      "school-study"
+    ],
     "written": "練習する"
   },
   {
     "forms": [],
+    "grammarIds": [
+      "p2-group-e",
+      "p3-lesson-2"
+    ],
     "id": "review-p3-kisoku",
     "kanji": [
       {
@@ -44104,8 +54908,13 @@
         "label": "Lesson 2: Noun description | N3 Study Desk"
       }
     ],
-    "partOfSpeech": "word",
+    "partOfSpeech": [
+      "Noun"
+    ],
     "reading": "きそく",
+    "topicIds": [
+      "society-public-services"
+    ],
     "written": "規則"
   },
   {
@@ -44130,8 +54939,14 @@
         "label": "Lesson 4: Contrast ～とは違って"
       }
     ],
-    "partOfSpeech": "word",
+    "partOfSpeech": [
+      "Noun",
+      "Group 3 Verb"
+    ],
     "reading": "せいかつ",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "生活"
   },
   {
@@ -44166,12 +54981,24 @@
         "label": "Lesson 1: Time relationships ～とき"
       }
     ],
-    "partOfSpeech": "noun",
+    "partOfSpeech": [
+      "Noun"
+    ],
     "reading": "るす",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "留守"
   },
   {
     "forms": [],
+    "grammarIds": [
+      "p2-group-a",
+      "p2-group-f",
+      "p2-group-g",
+      "p2-group-h",
+      "p3-lesson-3"
+    ],
     "id": "ryoko",
     "kanji": [
       {
@@ -44219,12 +55046,28 @@
         "label": "Lesson 3: ～という・～といった | N3 Study Desk"
       }
     ],
-    "partOfSpeech": "noun / suru verb",
+    "partOfSpeech": [
+      "Noun",
+      "Group 3 Verb"
+    ],
     "reading": "りょこう",
+    "topicIds": [
+      "travel-transportation"
+    ],
     "written": "旅行"
   },
   {
     "forms": [],
+    "grammarIds": [
+      "p2-group-c",
+      "p2-group-f",
+      "p2-group-h",
+      "p2-group-i",
+      "p3-lesson-2",
+      "p3-lesson-4",
+      "p4-lesson-1",
+      "p4-lesson-9"
+    ],
     "id": "ryori",
     "kanji": [
       {
@@ -44292,8 +55135,14 @@
         "label": "Lesson 4: Fixed patterns | N3 Study Desk"
       }
     ],
-    "partOfSpeech": "noun / suru verb",
+    "partOfSpeech": [
+      "Noun",
+      "Group 3 Verb"
+    ],
     "reading": "りょうり",
+    "topicIds": [
+      "food-cooking"
+    ],
     "written": "料理"
   },
   {
@@ -44323,12 +55172,20 @@
         "label": "Lesson 4: Contrast ～とは違って"
       }
     ],
-    "partOfSpeech": "noun",
+    "partOfSpeech": [
+      "Noun"
+    ],
     "reading": "りょうしん",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "両親"
   },
   {
     "forms": [],
+    "grammarIds": [
+      "p2-group-a"
+    ],
     "id": "sagasu",
     "kanji": [
       {
@@ -44351,8 +55208,13 @@
         "label": "Group A: Particles with various functions | N3 Study Desk"
       }
     ],
-    "partOfSpeech": "godan verb",
+    "partOfSpeech": [
+      "Group 1 Verb"
+    ],
     "reading": "さがす",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "探す"
   },
   {
@@ -44379,12 +55241,21 @@
         "label": "Lesson 11: Intentions, efforts, and attempts"
       }
     ],
-    "partOfSpeech": "noun / adverb",
+    "partOfSpeech": [
+      "Noun",
+      "Adverb"
+    ],
     "reading": "さき",
+    "topicIds": [
+      "time-dates-schedules"
+    ],
     "written": "先"
   },
   {
     "forms": [],
+    "grammarIds": [
+      "p2-group-e"
+    ],
     "id": "samui",
     "kanji": [
       {
@@ -44402,8 +55273,13 @@
         "label": "Group E: Uses of わけ | N3 Study Desk"
       }
     ],
-    "partOfSpeech": "i-adjective",
+    "partOfSpeech": [
+      "I-Adjective"
+    ],
     "reading": "さむい",
+    "topicIds": [
+      "nature-weather"
+    ],
     "written": "寒い"
   },
   {
@@ -44434,14 +55310,21 @@
         "label": "Lesson 3: Degree and comparison 比べれば…・～がいちばん"
       }
     ],
-    "partOfSpeech": "suru verb",
+    "partOfSpeech": [
+      "Group 3 Verb"
+    ],
     "reading": "さんかする",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "参加する"
   },
   {
     "forms": [],
     "grammarIds": [
-      "l2-tsuideni"
+      "l2-tsuideni",
+      "p2-group-a",
+      "p4-lesson-8"
     ],
     "id": "sanpo",
     "kanji": [
@@ -44474,12 +55357,22 @@
         "label": "Part 4 Lesson 8: は・が | N3 Study Desk"
       }
     ],
-    "partOfSpeech": "noun / suru verb",
+    "partOfSpeech": [
+      "Noun",
+      "Group 3 Verb"
+    ],
     "reading": "さんぽ",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "散歩"
   },
   {
     "forms": [],
+    "grammarIds": [
+      "p2-group-c",
+      "p2-group-f"
+    ],
     "id": "seikatsu",
     "kanji": [
       {
@@ -44507,8 +55400,14 @@
         "label": "Group F: Uses of ばかり | N3 Study Desk"
       }
     ],
-    "partOfSpeech": "noun / suru verb",
+    "partOfSpeech": [
+      "Noun",
+      "Group 3 Verb"
+    ],
     "reading": "せいかつ",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "生活"
   },
   {
@@ -44539,14 +55438,22 @@
         "label": "Lesson 3: Degree and comparison 比べれば…・～がいちばん"
       }
     ],
-    "partOfSpeech": "suru verb",
+    "partOfSpeech": [
+      "Group 3 Verb"
+    ],
     "reading": "せいかつする",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "生活する"
   },
   {
     "forms": [],
     "grammarIds": [
-      "l5-no-dakara"
+      "l5-no-dakara",
+      "p2-group-i",
+      "p3-lesson-4",
+      "p4-lesson-1"
     ],
     "id": "sekai",
     "kanji": [
@@ -44582,14 +55489,21 @@
         "label": "Lesson 4: Fixed patterns | N3 Study Desk"
       }
     ],
-    "partOfSpeech": "noun",
+    "partOfSpeech": [
+      "Noun"
+    ],
     "reading": "せかい",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "世界"
   },
   {
     "forms": [],
     "grammarIds": [
-      "l4-ippo"
+      "l4-ippo",
+      "p2-group-b",
+      "p3-lesson-2"
     ],
     "id": "sekinin",
     "kanji": [
@@ -44621,8 +55535,13 @@
         "label": "Lesson 2: Noun description | N3 Study Desk"
       }
     ],
-    "partOfSpeech": "noun",
+    "partOfSpeech": [
+      "Noun"
+    ],
     "reading": "せきにん",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "責任"
   },
   {
@@ -44652,12 +55571,29 @@
         "label": "Lesson 3: Degree and comparison 比べれば…・～がいちばん"
       }
     ],
-    "partOfSpeech": "noun",
+    "partOfSpeech": [
+      "Noun"
+    ],
     "reading": "せなか",
+    "topicIds": [
+      "body-health",
+      "places-directions"
+    ],
     "written": "背中"
   },
   {
     "forms": [],
+    "grammarIds": [
+      "p2-group-b",
+      "p2-group-d",
+      "p2-group-h",
+      "p2-group-i",
+      "p2-group-j",
+      "p3-lesson-1",
+      "p3-lesson-2",
+      "p4-lesson-1",
+      "p4-lesson-3"
+    ],
     "id": "sensei",
     "kanji": [
       {
@@ -44749,12 +55685,27 @@
         "label": "Lesson 2: Noun description | N3 Study Desk"
       }
     ],
-    "partOfSpeech": "noun",
+    "partOfSpeech": [
+      "Noun"
+    ],
     "reading": "せんせい",
+    "topicIds": [
+      "school-study"
+    ],
     "written": "先生"
   },
   {
     "forms": [],
+    "grammarIds": [
+      "p2-group-b",
+      "p2-group-d",
+      "p2-group-h",
+      "p2-group-i",
+      "p2-group-j",
+      "p3-lesson-2",
+      "p4-lesson-10",
+      "p4-lesson-8"
+    ],
     "id": "setsumei",
     "kanji": [
       {
@@ -44817,14 +55768,21 @@
         "label": "Lesson 2: Noun description | N3 Study Desk"
       }
     ],
-    "partOfSpeech": "noun / suru verb",
+    "partOfSpeech": [
+      "Noun",
+      "Group 3 Verb"
+    ],
     "reading": "せつめい",
+    "topicIds": [
+      "school-study"
+    ],
     "written": "説明"
   },
   {
     "forms": [],
     "grammarIds": [
-      "l3-kurai-nara"
+      "l3-kurai-nara",
+      "p3-lesson-4"
     ],
     "id": "setsumeikai",
     "kanji": [
@@ -44858,8 +55816,13 @@
         "label": "Lesson 4: Fixed patterns | N3 Study Desk"
       }
     ],
-    "partOfSpeech": "noun",
+    "partOfSpeech": [
+      "Noun"
+    ],
     "reading": "せつめいかい",
+    "topicIds": [
+      "communication-media"
+    ],
     "written": "説明会"
   },
   {
@@ -44895,14 +55858,22 @@
         "label": "Lesson 4: Contrast ～とは違って"
       }
     ],
-    "partOfSpeech": "noun / suru verb",
+    "partOfSpeech": [
+      "Noun",
+      "Group 3 Verb"
+    ],
     "reading": "せわ",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "世話"
   },
   {
     "forms": [],
     "grammarIds": [
-      "l4-to-iu-yori"
+      "l4-to-iu-yori",
+      "p2-group-g",
+      "p2-group-h"
     ],
     "id": "shacho",
     "kanji": [
@@ -44934,12 +55905,21 @@
         "label": "Lesson 4: Contrast ～とは違って"
       }
     ],
-    "partOfSpeech": "noun",
+    "partOfSpeech": [
+      "Noun"
+    ],
     "reading": "しゃちょう",
+    "topicIds": [
+      "work-business"
+    ],
     "written": "社長"
   },
   {
     "forms": [],
+    "grammarIds": [
+      "p2-group-a",
+      "p2-group-f"
+    ],
     "id": "shashin",
     "kanji": [
       {
@@ -44967,12 +55947,20 @@
         "label": "Group F: Uses of ばかり | N3 Study Desk"
       }
     ],
-    "partOfSpeech": "noun",
+    "partOfSpeech": [
+      "Noun"
+    ],
     "reading": "しゃしん",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "写真"
   },
   {
     "forms": [],
+    "grammarIds": [
+      "p2-group-i"
+    ],
     "id": "shiai",
     "kanji": [
       {
@@ -44996,12 +55984,27 @@
         "label": "Group I: Adverbs with fixed following forms | N3 Study Desk"
       }
     ],
-    "partOfSpeech": "noun",
+    "partOfSpeech": [
+      "Noun"
+    ],
     "reading": "しあい",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "試合"
   },
   {
     "forms": [],
+    "grammarIds": [
+      "p2-group-a",
+      "p2-group-c",
+      "p2-group-f",
+      "p2-group-h",
+      "p2-group-i",
+      "p4-lesson-1",
+      "p4-lesson-3",
+      "p4-lesson-9"
+    ],
     "id": "shigoto",
     "kanji": [
       {
@@ -45069,12 +56072,25 @@
         "label": "Part 4 Lesson 9: 接続表現 | N3 Study Desk"
       }
     ],
-    "partOfSpeech": "noun",
+    "partOfSpeech": [
+      "Noun"
+    ],
     "reading": "しごと",
+    "topicIds": [
+      "work-business"
+    ],
     "written": "仕事"
   },
   {
     "forms": [],
+    "grammarIds": [
+      "p2-group-a",
+      "p2-group-b",
+      "p2-group-d",
+      "p2-group-e",
+      "p4-lesson-8",
+      "p4-lesson-9"
+    ],
     "id": "shiken",
     "kanji": [
       {
@@ -45118,12 +56134,25 @@
         "label": "Part 4 Lesson 9: 接続表現 | N3 Study Desk"
       }
     ],
-    "partOfSpeech": "noun",
+    "partOfSpeech": [
+      "Noun"
+    ],
     "reading": "しけん",
+    "topicIds": [
+      "school-study"
+    ],
     "written": "試験"
   },
   {
     "forms": [],
+    "grammarIds": [
+      "p2-group-a",
+      "p2-group-b",
+      "p2-group-c",
+      "p2-group-d",
+      "p3-lesson-3",
+      "p4-lesson-7"
+    ],
     "id": "shimesu",
     "kanji": [
       {
@@ -45194,14 +56223,22 @@
         "label": "Lesson 3: ～という・～といった | N3 Study Desk"
       }
     ],
-    "partOfSpeech": "godan verb",
+    "partOfSpeech": [
+      "Group 1 Verb"
+    ],
     "reading": "しめす",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "示す"
   },
   {
     "forms": [],
     "grammarIds": [
-      "l2-tsuideni"
+      "l2-tsuideni",
+      "p2-group-b",
+      "p3-lesson-1",
+      "p4-lesson-10"
     ],
     "id": "shiraberu",
     "kanji": [
@@ -45245,15 +56282,26 @@
         "label": "Lesson 1: Quotation | N3 Study Desk"
       }
     ],
-    "partOfSpeech": "ichidan verb",
+    "partOfSpeech": [
+      "Group 2 Verb"
+    ],
     "reading": "しらべる",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "調べる"
   },
   {
     "forms": [],
     "grammarIds": [
       "l5-ni-yotte",
-      "l8-toha-kagiranai"
+      "l8-toha-kagiranai",
+      "p2-group-a",
+      "p2-group-b",
+      "p2-group-c",
+      "p2-group-d",
+      "p2-group-i",
+      "p3-lesson-3"
     ],
     "id": "shiru",
     "kanji": [
@@ -45305,12 +56353,21 @@
         "label": "Lesson 3: ～という・～といった | N3 Study Desk"
       }
     ],
-    "partOfSpeech": "godan verb",
+    "partOfSpeech": [
+      "Group 1 Verb"
+    ],
     "reading": "しる",
+    "topicIds": [
+      "school-study"
+    ],
     "written": "知る"
   },
   {
     "forms": [],
+    "grammarIds": [
+      "p2-group-d",
+      "p2-group-g"
+    ],
     "id": "shizuka",
     "kanji": [
       {
@@ -45337,8 +56394,13 @@
         "label": "Group G: Organizing する and なる | N3 Study Desk"
       }
     ],
-    "partOfSpeech": "na-adjective",
+    "partOfSpeech": [
+      "Na-Adjective"
+    ],
     "reading": "しずか",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "静か"
   },
   {
@@ -45368,12 +56430,22 @@
         "label": "Lesson 4: Contrast ～とは違って"
       }
     ],
-    "partOfSpeech": "noun",
+    "partOfSpeech": [
+      "Noun"
+    ],
     "reading": "しょうがつ",
+    "topicIds": [
+      "time-dates-schedules"
+    ],
     "written": "正月"
   },
   {
     "forms": [],
+    "grammarIds": [
+      "p2-group-c",
+      "p2-group-f",
+      "p2-group-i"
+    ],
     "id": "shokuji",
     "kanji": [
       {
@@ -45409,12 +56481,22 @@
         "label": "Group I: Adverbs with fixed following forms | N3 Study Desk"
       }
     ],
-    "partOfSpeech": "noun / suru verb",
+    "partOfSpeech": [
+      "Noun",
+      "Group 3 Verb"
+    ],
     "reading": "しょくじ",
+    "topicIds": [
+      "food-cooking"
+    ],
     "written": "食事"
   },
   {
     "forms": [],
+    "grammarIds": [
+      "p4-lesson-7",
+      "p4-lesson-8"
+    ],
     "id": "shorui",
     "kanji": [
       {
@@ -45442,8 +56524,13 @@
         "label": "Part 4 Lesson 8: は・が | N3 Study Desk"
       }
     ],
-    "partOfSpeech": "noun",
+    "partOfSpeech": [
+      "Noun"
+    ],
     "reading": "しょるい",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "書類"
   },
   {
@@ -45474,12 +56561,20 @@
         "label": "Lesson 2: Relationships ～と関係して"
       }
     ],
-    "partOfSpeech": "noun",
+    "partOfSpeech": [
+      "Noun"
+    ],
     "reading": "しょうてん",
+    "topicIds": [
+      "money-shopping"
+    ],
     "written": "商店"
   },
   {
     "forms": [],
+    "grammarIds": [
+      "p2-group-f"
+    ],
     "id": "sobo",
     "kanji": [
       {
@@ -45502,8 +56597,13 @@
         "label": "Group F: Uses of ばかり | N3 Study Desk"
       }
     ],
-    "partOfSpeech": "noun",
+    "partOfSpeech": [
+      "Noun"
+    ],
     "reading": "そぼ",
+    "topicIds": [
+      "people-family-relationships"
+    ],
     "written": "祖母"
   },
   {
@@ -45534,12 +56634,25 @@
         "label": "Lesson 1: Time relationships ～とき"
       }
     ],
-    "partOfSpeech": "suru verb",
+    "partOfSpeech": [
+      "Group 3 Verb"
+    ],
     "reading": "そうだんする",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "相談する"
   },
   {
     "forms": [],
+    "grammarIds": [
+      "p2-group-g",
+      "p2-group-h",
+      "p2-group-i",
+      "p3-lesson-3",
+      "p4-lesson-6",
+      "p4-lesson-8"
+    ],
     "id": "soto",
     "kanji": [
       {
@@ -45590,8 +56703,13 @@
         "label": "Lesson 3: ～という・～といった | N3 Study Desk"
       }
     ],
-    "partOfSpeech": "noun",
+    "partOfSpeech": [
+      "Noun"
+    ],
     "reading": "そと",
+    "topicIds": [
+      "places-directions"
+    ],
     "written": "外"
   },
   {
@@ -45621,12 +56739,20 @@
         "label": "Lesson 4: Contrast ～とは違って"
       }
     ],
-    "partOfSpeech": "noun",
+    "partOfSpeech": [
+      "Noun"
+    ],
     "reading": "そとあそび",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "外遊び"
   },
   {
     "forms": [],
+    "grammarIds": [
+      "p2-group-h"
+    ],
     "id": "souji",
     "kanji": [
       {
@@ -45654,8 +56780,14 @@
         "label": "Group H: Special uses of たら・ば・と・なら | N3 Study Desk"
       }
     ],
-    "partOfSpeech": "noun / suru verb",
+    "partOfSpeech": [
+      "Noun",
+      "Group 3 Verb"
+    ],
     "reading": "そうじ",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "掃除"
   },
   {
@@ -45666,7 +56798,13 @@
       "l4-ippo",
       "l4-ni-taishite",
       "l8-nai-koto-wa-nai",
-      "l8-wake-dewa-nai"
+      "l8-wake-dewa-nai",
+      "p2-group-a",
+      "p2-group-d",
+      "p2-group-h",
+      "p2-group-i",
+      "p3-lesson-3",
+      "p4-lesson-1"
     ],
     "id": "suki",
     "kanji": [
@@ -45747,12 +56885,21 @@
         "label": "Lesson 3: ～という・～といった | N3 Study Desk"
       }
     ],
-    "partOfSpeech": "na-adjective / noun",
+    "partOfSpeech": [
+      "Noun",
+      "Na-Adjective"
+    ],
     "reading": "すき",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "好き"
   },
   {
     "forms": [],
+    "grammarIds": [
+      "p2-group-b"
+    ],
     "id": "sukunai",
     "kanji": [
       {
@@ -45771,12 +56918,21 @@
         "label": "Group B: Words that work like particles | N3 Study Desk"
       }
     ],
-    "partOfSpeech": "i-adjective",
+    "partOfSpeech": [
+      "I-Adjective"
+    ],
     "reading": "すくない",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "少ない"
   },
   {
     "forms": [],
+    "grammarIds": [
+      "p2-group-f",
+      "p2-group-g"
+    ],
     "id": "susumu",
     "kanji": [
       {
@@ -45799,12 +56955,29 @@
         "label": "Group G: Organizing する and なる | N3 Study Desk"
       }
     ],
-    "partOfSpeech": "godan verb",
+    "partOfSpeech": [
+      "Group 1 Verb"
+    ],
     "reading": "すすむ",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "進む"
   },
   {
     "forms": [],
+    "grammarIds": [
+      "p2-group-a",
+      "p2-group-c",
+      "p2-group-f",
+      "p2-group-g",
+      "p2-group-h",
+      "p2-group-i",
+      "p2-group-j",
+      "p3-lesson-4",
+      "p4-lesson-2",
+      "p4-lesson-9"
+    ],
     "id": "taberu",
     "kanji": [
       {
@@ -45906,12 +57079,22 @@
         "label": "Lesson 4: Fixed patterns | N3 Study Desk"
       }
     ],
-    "partOfSpeech": "ichidan verb",
+    "partOfSpeech": [
+      "Group 2 Verb"
+    ],
     "reading": "たべる",
+    "topicIds": [
+      "food-cooking"
+    ],
     "written": "食べる"
   },
   {
     "forms": [],
+    "grammarIds": [
+      "p3-lesson-1",
+      "p4-lesson-1",
+      "p4-lesson-9"
+    ],
     "id": "tadashii",
     "kanji": [
       {
@@ -45938,12 +57121,20 @@
         "label": "Lesson 1: Quotation | N3 Study Desk"
       }
     ],
-    "partOfSpeech": "i-adjective",
+    "partOfSpeech": [
+      "I-Adjective"
+    ],
     "reading": "ただしい",
+    "topicIds": [
+      "school-study"
+    ],
     "written": "正しい"
   },
   {
     "forms": [],
+    "grammarIds": [
+      "p4-lesson-9"
+    ],
     "id": "taihen",
     "kanji": [
       {
@@ -45967,8 +57158,13 @@
         "label": "Part 4 Lesson 9: 接続表現 | N3 Study Desk"
       }
     ],
-    "partOfSpeech": "na-adjective",
+    "partOfSpeech": [
+      "Na-Adjective"
+    ],
     "reading": "たいへん",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "大変"
   },
   {
@@ -45999,12 +57195,24 @@
         "label": "Lesson 3: Degree and comparison 比べれば…・～がいちばん"
       }
     ],
-    "partOfSpeech": "noun",
+    "partOfSpeech": [
+      "Noun"
+    ],
     "reading": "たいけい",
+    "topicIds": [
+      "body-health"
+    ],
     "written": "体型"
   },
   {
     "forms": [],
+    "grammarIds": [
+      "p2-group-b",
+      "p2-group-c",
+      "p4-lesson-2",
+      "p4-lesson-7",
+      "p4-lesson-8"
+    ],
     "id": "taisetsu",
     "kanji": [
       {
@@ -46052,8 +57260,13 @@
         "label": "Part 4 Lesson 8: は・が | N3 Study Desk"
       }
     ],
-    "partOfSpeech": "na-adjective",
+    "partOfSpeech": [
+      "Na-Adjective"
+    ],
     "reading": "たいせつ",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "大切"
   },
   {
@@ -46063,7 +57276,12 @@
       "l6-tatoe",
       "l8-koto-wa-ga",
       "l8-toha-kagiranai",
-      "l8-wake-dewa-nai"
+      "l8-wake-dewa-nai",
+      "p2-group-a",
+      "p2-group-d",
+      "p2-group-g",
+      "p3-lesson-4",
+      "p4-lesson-9"
     ],
     "id": "takai",
     "kanji": [
@@ -46128,12 +57346,20 @@
         "label": "Lesson 4: Fixed patterns | N3 Study Desk"
       }
     ],
-    "partOfSpeech": "i-adjective",
+    "partOfSpeech": [
+      "I-Adjective"
+    ],
     "reading": "たかい",
+    "topicIds": [
+      "money-shopping"
+    ],
     "written": "高い"
   },
   {
     "forms": [],
+    "grammarIds": [
+      "p2-group-g"
+    ],
     "id": "tana",
     "kanji": [
       {
@@ -46151,15 +57377,23 @@
         "label": "Group G: Organizing する and なる | N3 Study Desk"
       }
     ],
-    "partOfSpeech": "noun",
+    "partOfSpeech": [
+      "Noun"
+    ],
     "reading": "たな",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "棚"
   },
   {
     "forms": [],
     "grammarIds": [
       "l3-kurai-wa-nai",
-      "l8-wake-dewa-nai"
+      "l8-wake-dewa-nai",
+      "p2-group-b",
+      "p2-group-g",
+      "p2-group-h"
     ],
     "id": "tanoshii",
     "kanji": [
@@ -46195,8 +57429,13 @@
         "label": "Lesson 8: Strong and partial negation 絶対～ない・必ず～とは言えない"
       }
     ],
-    "partOfSpeech": "i-adjective",
+    "partOfSpeech": [
+      "I-Adjective"
+    ],
     "reading": "たのしい",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "楽しい"
   },
   {
@@ -46227,12 +57466,22 @@
         "label": "Lesson 8: Strong and partial negation 絶対～ない・必ず～とは言えない"
       }
     ],
-    "partOfSpeech": "noun",
+    "partOfSpeech": [
+      "Noun"
+    ],
     "reading": "たのしみ",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "楽しみ"
   },
   {
     "forms": [],
+    "grammarIds": [
+      "p2-group-b",
+      "p2-group-d",
+      "p3-lesson-4"
+    ],
     "id": "tatemono",
     "kanji": [
       {
@@ -46263,14 +57512,20 @@
         "label": "Lesson 4: Fixed patterns | N3 Study Desk"
       }
     ],
-    "partOfSpeech": "noun",
+    "partOfSpeech": [
+      "Noun"
+    ],
     "reading": "たてもの",
+    "topicIds": [
+      "places-directions"
+    ],
     "written": "建物"
   },
   {
     "forms": [],
     "grammarIds": [
-      "l3-kurai"
+      "l3-kurai",
+      "p2-group-a"
     ],
     "id": "tatsu",
     "kanji": [
@@ -46293,15 +57548,21 @@
         "label": "Lesson 3: Degree and comparison 比べれば…・～がいちばん"
       }
     ],
-    "partOfSpeech": "godan verb",
+    "partOfSpeech": [
+      "Group 1 Verb"
+    ],
     "reading": "たつ",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "立つ"
   },
   {
     "forms": [],
     "grammarIds": [
       "l4-ni-taishite",
-      "l5-okage-sei"
+      "l5-okage-sei",
+      "p2-group-j"
     ],
     "id": "tenki",
     "kanji": [
@@ -46337,12 +57598,21 @@
         "label": "Lesson 5: Reasons and causes ～だから"
       }
     ],
-    "partOfSpeech": "noun",
+    "partOfSpeech": [
+      "Noun"
+    ],
     "reading": "てんき",
+    "topicIds": [
+      "nature-weather"
+    ],
     "written": "天気"
   },
   {
     "forms": [],
+    "grammarIds": [
+      "p2-group-a",
+      "p2-group-b"
+    ],
     "id": "tetsuzuki",
     "kanji": [
       {
@@ -46370,8 +57640,13 @@
         "label": "Group B: Words that work like particles | N3 Study Desk"
       }
     ],
-    "partOfSpeech": "noun",
+    "partOfSpeech": [
+      "Noun"
+    ],
     "reading": "てつづき",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "手続き"
   },
   {
@@ -46402,12 +57677,21 @@
         "label": "Lesson 1: Time relationships ～とき"
       }
     ],
-    "partOfSpeech": "godan verb",
+    "partOfSpeech": [
+      "Group 1 Verb"
+    ],
     "reading": "とびたつ",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "飛び立つ"
   },
   {
     "forms": [],
+    "grammarIds": [
+      "p2-group-g",
+      "p3-lesson-2"
+    ],
     "id": "todoku",
     "kanji": [
       {
@@ -46430,8 +57714,13 @@
         "label": "Lesson 2: Noun description | N3 Study Desk"
       }
     ],
-    "partOfSpeech": "godan verb",
+    "partOfSpeech": [
+      "Group 1 Verb"
+    ],
     "reading": "とどく",
+    "topicIds": [
+      "travel-transportation"
+    ],
     "written": "届く"
   },
   {
@@ -46462,8 +57751,13 @@
         "label": "Lesson 4: Contrast ～とは違って"
       }
     ],
-    "partOfSpeech": "noun",
+    "partOfSpeech": [
+      "Noun"
+    ],
     "reading": "とかい",
+    "topicIds": [
+      "places-directions"
+    ],
     "written": "都会"
   },
   {
@@ -46489,14 +57783,22 @@
         "label": "Lesson 1: Time relationships ～とき"
       }
     ],
-    "partOfSpeech": "ichidan verb",
+    "partOfSpeech": [
+      "Group 2 Verb"
+    ],
     "reading": "とける",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "溶ける"
   },
   {
     "forms": [],
     "grammarIds": [
-      "l3-ni-kagiru"
+      "l3-ni-kagiru",
+      "p2-group-d",
+      "p2-group-g",
+      "p4-lesson-8"
     ],
     "id": "tokoro-place",
     "kanji": [
@@ -46528,8 +57830,13 @@
         "label": "Part 4 Lesson 8: は・が | N3 Study Desk"
       }
     ],
-    "partOfSpeech": "noun",
+    "partOfSpeech": [
+      "Noun"
+    ],
     "reading": "ところ",
+    "topicIds": [
+      "places-directions"
+    ],
     "written": "所"
   },
   {
@@ -46559,12 +57866,22 @@
         "label": "Lesson 4: Contrast ～とは違って"
       }
     ],
-    "partOfSpeech": "proper noun",
+    "partOfSpeech": [
+      "Noun"
+    ],
     "reading": "とうきょう",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "東京"
   },
   {
     "forms": [],
+    "grammarIds": [
+      "p2-group-e",
+      "p3-lesson-1",
+      "p4-lesson-3"
+    ],
     "id": "tomaru-stop",
     "kanji": [
       {
@@ -46591,15 +57908,23 @@
         "label": "Lesson 1: Quotation | N3 Study Desk"
       }
     ],
-    "partOfSpeech": "godan verb",
+    "partOfSpeech": [
+      "Group 1 Verb"
+    ],
     "reading": "とまる",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "止まる"
   },
   {
     "forms": [],
     "grammarIds": [
       "l1-tekara",
-      "l11-you-to-suru"
+      "l11-you-to-suru",
+      "p2-group-a",
+      "p2-group-g",
+      "p4-lesson-9"
     ],
     "id": "toru",
     "kanji": [
@@ -46635,12 +57960,20 @@
         "label": "Part 4 Lesson 9: 接続表現 | N3 Study Desk"
       }
     ],
-    "partOfSpeech": "godan verb",
+    "partOfSpeech": [
+      "Group 1 Verb"
+    ],
     "reading": "とる",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "取る"
   },
   {
     "forms": [],
+    "grammarIds": [
+      "p2-group-j"
+    ],
     "id": "totsuzen",
     "kanji": [
       {
@@ -46664,14 +57997,22 @@
         "label": "Group J: Forms that broaden meaning | N3 Study Desk"
       }
     ],
-    "partOfSpeech": "adverb / na-adjective",
+    "partOfSpeech": [
+      "Na-Adjective",
+      "Adverb"
+    ],
     "reading": "とつぜん",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "突然"
   },
   {
     "forms": [],
     "grammarIds": [
-      "l2-hodo"
+      "l2-hodo",
+      "p2-group-h",
+      "p4-lesson-9"
     ],
     "id": "tsukaikata",
     "kanji": [
@@ -46704,12 +58045,21 @@
         "label": "Part 4 Lesson 9: 接続表現 | N3 Study Desk"
       }
     ],
-    "partOfSpeech": "noun",
+    "partOfSpeech": [
+      "Noun"
+    ],
     "reading": "つかいかた",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "使い方"
   },
   {
     "forms": [],
+    "grammarIds": [
+      "p2-group-a",
+      "p2-group-g"
+    ],
     "id": "tsukareru",
     "kanji": [
       {
@@ -46731,15 +58081,38 @@
         "label": "Group G: Organizing する and なる | N3 Study Desk"
       }
     ],
-    "partOfSpeech": "ichidan verb",
+    "partOfSpeech": [
+      "Group 2 Verb"
+    ],
     "reading": "つかれる",
+    "topicIds": [
+      "body-health"
+    ],
     "written": "疲れる"
   },
   {
     "forms": [],
     "grammarIds": [
       "l11-you-ni-suru",
-      "l6-nara"
+      "l6-nara",
+      "p2-group-a",
+      "p2-group-b",
+      "p2-group-c",
+      "p2-group-d",
+      "p2-group-e",
+      "p2-group-f",
+      "p2-group-g",
+      "p2-group-h",
+      "p2-group-i",
+      "p3-lesson-1",
+      "p3-lesson-2",
+      "p3-lesson-4",
+      "p4-lesson-10",
+      "p4-lesson-2",
+      "p4-lesson-4",
+      "p4-lesson-6",
+      "p4-lesson-7",
+      "p4-lesson-9"
     ],
     "id": "tsukau",
     "kanji": [
@@ -46910,14 +58283,22 @@
         "label": "Lesson 4: Fixed patterns | N3 Study Desk"
       }
     ],
-    "partOfSpeech": "godan verb",
+    "partOfSpeech": [
+      "Group 1 Verb"
+    ],
     "reading": "つかう",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "使う"
   },
   {
     "forms": [],
     "grammarIds": [
-      "l2-toori"
+      "l2-toori",
+      "p2-group-e",
+      "p2-group-h",
+      "p4-lesson-9"
     ],
     "id": "tsuku",
     "kanji": [
@@ -46952,12 +58333,26 @@
         "label": "Part 4 Lesson 9: 接続表現 | N3 Study Desk"
       }
     ],
-    "partOfSpeech": "godan verb",
+    "partOfSpeech": [
+      "Group 1 Verb"
+    ],
     "reading": "つく",
+    "topicIds": [
+      "travel-transportation"
+    ],
     "written": "着く"
   },
   {
     "forms": [],
+    "grammarIds": [
+      "p2-group-a",
+      "p2-group-b",
+      "p2-group-f",
+      "p2-group-g",
+      "p2-group-i",
+      "p4-lesson-10",
+      "p4-lesson-6"
+    ],
     "id": "tsukuru",
     "kanji": [
       {
@@ -47024,12 +58419,22 @@
         "label": "Part 4 Lesson 10: 文章の雰囲気の統一 | N3 Study Desk"
       }
     ],
-    "partOfSpeech": "godan verb",
+    "partOfSpeech": [
+      "Group 1 Verb"
+    ],
     "reading": "つくる",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "作る"
   },
   {
     "forms": [],
+    "grammarIds": [
+      "p3-lesson-3",
+      "p4-lesson-1",
+      "p4-lesson-8"
+    ],
     "id": "tsutaeru",
     "kanji": [
       {
@@ -47056,14 +58461,21 @@
         "label": "Lesson 3: ～という・～といった | N3 Study Desk"
       }
     ],
-    "partOfSpeech": "ichidan verb",
+    "partOfSpeech": [
+      "Group 2 Verb"
+    ],
     "reading": "つたえる",
+    "topicIds": [
+      "communication-media"
+    ],
     "written": "伝える"
   },
   {
     "forms": [],
     "grammarIds": [
-      "l2-tabini"
+      "l2-tabini",
+      "p2-group-a",
+      "p3-lesson-4"
     ],
     "id": "tsuyoi",
     "kanji": [
@@ -47090,12 +58502,26 @@
         "label": "Lesson 4: Fixed patterns | N3 Study Desk"
       }
     ],
-    "partOfSpeech": "i-adjective",
+    "partOfSpeech": [
+      "I-Adjective"
+    ],
     "reading": "つよい",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "強い"
   },
   {
     "forms": [],
+    "grammarIds": [
+      "p2-group-c",
+      "p2-group-d",
+      "p2-group-g",
+      "p2-group-h",
+      "p2-group-j",
+      "p4-lesson-2",
+      "p4-lesson-3"
+    ],
     "id": "tsuzukeru",
     "kanji": [
       {
@@ -47138,8 +58564,13 @@
         "label": "Part 4 Lesson 3: 他動詞・自動詞 | N3 Study Desk"
       }
     ],
-    "partOfSpeech": "ichidan verb",
+    "partOfSpeech": [
+      "Group 2 Verb"
+    ],
     "reading": "つづける",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "続ける"
   },
   {
@@ -47165,12 +58596,20 @@
         "label": "Lesson 3: Degree and comparison 比べれば…・～がいちばん"
       }
     ],
-    "partOfSpeech": "noun",
+    "partOfSpeech": [
+      "Noun"
+    ],
     "reading": "うで",
+    "topicIds": [
+      "body-health"
+    ],
     "written": "腕"
   },
   {
     "forms": [],
+    "grammarIds": [
+      "p4-lesson-3"
+    ],
     "id": "ugokasu",
     "kanji": [
       {
@@ -47189,14 +58628,20 @@
         "label": "Part 4 Lesson 3: 他動詞・自動詞 | N3 Study Desk"
       }
     ],
-    "partOfSpeech": "godan verb",
+    "partOfSpeech": [
+      "Group 1 Verb"
+    ],
     "reading": "うごかす",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "動かす"
   },
   {
     "forms": [],
     "grammarIds": [
-      "l4-ippo"
+      "l4-ippo",
+      "p2-group-i"
     ],
     "id": "umareru",
     "kanji": [
@@ -47219,12 +58664,21 @@
         "label": "Lesson 4: Contrast ～とは違って"
       }
     ],
-    "partOfSpeech": "ichidan verb",
+    "partOfSpeech": [
+      "Group 2 Verb"
+    ],
     "reading": "うまれる",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "生まれる"
   },
   {
     "forms": [],
+    "grammarIds": [
+      "p2-group-a",
+      "p2-group-h"
+    ],
     "id": "umi",
     "kanji": [
       {
@@ -47247,12 +58701,21 @@
         "label": "Group H: Special uses of たら・ば・と・なら | N3 Study Desk"
       }
     ],
-    "partOfSpeech": "noun",
+    "partOfSpeech": [
+      "Noun"
+    ],
     "reading": "うみ",
+    "topicIds": [
+      "nature-weather"
+    ],
     "written": "海"
   },
   {
     "forms": [],
+    "grammarIds": [
+      "p2-group-d",
+      "p2-group-f"
+    ],
     "id": "undo",
     "kanji": [
       {
@@ -47280,8 +58743,14 @@
         "label": "Group F: Uses of ばかり | N3 Study Desk"
       }
     ],
-    "partOfSpeech": "noun / suru verb",
+    "partOfSpeech": [
+      "Noun",
+      "Group 3 Verb"
+    ],
     "reading": "うんどう",
+    "topicIds": [
+      "body-health"
+    ],
     "written": "運動"
   },
   {
@@ -47312,8 +58781,13 @@
         "label": "Lesson 1: Time relationships ～とき"
       }
     ],
-    "partOfSpeech": "suru verb",
+    "partOfSpeech": [
+      "Group 3 Verb"
+    ],
     "reading": "うんてんする",
+    "topicIds": [
+      "travel-transportation"
+    ],
     "written": "運転する"
   },
   {
@@ -47339,12 +58813,21 @@
         "label": "Lesson 2: Relationships ～と関係して"
       }
     ],
-    "partOfSpeech": "ichidan verb",
+    "partOfSpeech": [
+      "Group 2 Verb"
+    ],
     "reading": "うれる",
+    "topicIds": [
+      "money-shopping"
+    ],
     "written": "売れる"
   },
   {
     "forms": [],
+    "grammarIds": [
+      "p2-group-b",
+      "p2-group-i"
+    ],
     "id": "uta",
     "kanji": [
       {
@@ -47366,12 +58849,20 @@
         "label": "Group I: Adverbs with fixed following forms | N3 Study Desk"
       }
     ],
-    "partOfSpeech": "noun",
+    "partOfSpeech": [
+      "Noun"
+    ],
     "reading": "うた",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "歌"
   },
   {
     "forms": [],
+    "grammarIds": [
+      "p4-lesson-8"
+    ],
     "id": "utsukushii",
     "kanji": [
       {
@@ -47389,12 +58880,20 @@
         "label": "Part 4 Lesson 8: は・が | N3 Study Desk"
       }
     ],
-    "partOfSpeech": "i-adjective",
+    "partOfSpeech": [
+      "I-Adjective"
+    ],
     "reading": "うつくしい",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "美しい"
   },
   {
     "forms": [],
+    "grammarIds": [
+      "p2-group-b"
+    ],
     "id": "wakai",
     "kanji": [
       {
@@ -47416,12 +58915,26 @@
         "label": "Group B: Words that work like particles | N3 Study Desk"
       }
     ],
-    "partOfSpeech": "i-adjective",
+    "partOfSpeech": [
+      "I-Adjective"
+    ],
     "reading": "わかい",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "若い"
   },
   {
     "forms": [],
+    "grammarIds": [
+      "p2-group-a",
+      "p2-group-b",
+      "p2-group-d",
+      "p2-group-f",
+      "p2-group-i",
+      "p3-lesson-2",
+      "p3-lesson-3"
+    ],
     "id": "wasureru",
     "kanji": [
       {
@@ -47463,12 +58976,23 @@
         "label": "Lesson 3: ～という・～といった | N3 Study Desk"
       }
     ],
-    "partOfSpeech": "ichidan verb",
+    "partOfSpeech": [
+      "Group 2 Verb"
+    ],
     "reading": "わすれる",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "忘れる"
   },
   {
     "forms": [],
+    "grammarIds": [
+      "p2-group-a",
+      "p2-group-c",
+      "p2-group-d",
+      "p2-group-e"
+    ],
     "id": "watashi",
     "kanji": [
       {
@@ -47507,12 +59031,21 @@
         "label": "Group E: Uses of わけ | N3 Study Desk"
       }
     ],
-    "partOfSpeech": "pronoun",
+    "partOfSpeech": [
+      "Pronoun"
+    ],
     "reading": "わたし",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "私"
   },
   {
     "forms": [],
+    "grammarIds": [
+      "p3-lesson-4",
+      "p4-lesson-9"
+    ],
     "id": "yachin",
     "kanji": [
       {
@@ -47539,12 +59072,21 @@
         "label": "Lesson 4: Fixed patterns | N3 Study Desk"
       }
     ],
-    "partOfSpeech": "noun",
+    "partOfSpeech": [
+      "Noun"
+    ],
     "reading": "やちん",
+    "topicIds": [
+      "money-shopping"
+    ],
     "written": "家賃"
   },
   {
     "forms": [],
+    "grammarIds": [
+      "p2-group-h",
+      "p3-lesson-4"
+    ],
     "id": "yama",
     "kanji": [
       {
@@ -47570,14 +59112,20 @@
         "label": "Lesson 4: Fixed patterns | N3 Study Desk"
       }
     ],
-    "partOfSpeech": "noun",
+    "partOfSpeech": [
+      "Noun"
+    ],
     "reading": "やま",
+    "topicIds": [
+      "nature-weather"
+    ],
     "written": "山"
   },
   {
     "forms": [],
     "grammarIds": [
-      "l4-kawari-ni"
+      "l4-kawari-ni",
+      "p2-group-i"
     ],
     "id": "yamada-san",
     "kanji": [
@@ -47605,8 +59153,13 @@
         "label": "Lesson 4: Contrast ～とは違って"
       }
     ],
-    "partOfSpeech": "proper noun",
+    "partOfSpeech": [
+      "Noun"
+    ],
     "reading": "やまださん",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "山田さん"
   },
   {
@@ -47632,12 +59185,23 @@
         "label": "Lesson 2: Relationships ～と関係して"
       }
     ],
-    "partOfSpeech": "noun",
+    "partOfSpeech": [
+      "Noun"
+    ],
     "reading": "やりかた",
+    "topicIds": [
+      "school-study"
+    ],
     "written": "やり方"
   },
   {
     "forms": [],
+    "grammarIds": [
+      "p2-group-a",
+      "p2-group-e",
+      "p2-group-f",
+      "p4-lesson-9"
+    ],
     "id": "yasumi",
     "kanji": [
       {
@@ -47669,8 +59233,13 @@
         "label": "Part 4 Lesson 9: 接続表現 | N3 Study Desk"
       }
     ],
-    "partOfSpeech": "noun",
+    "partOfSpeech": [
+      "Noun"
+    ],
     "reading": "やすみ",
+    "topicIds": [
+      "time-dates-schedules"
+    ],
     "written": "休み"
   },
   {
@@ -47678,7 +59247,11 @@
     "grammarIds": [
       "l10-tara-doka",
       "l7-tte",
-      "l9-to-ba-tara-ii"
+      "l9-to-ba-tara-ii",
+      "p2-group-a",
+      "p2-group-c",
+      "p2-group-e",
+      "p3-lesson-1"
     ],
     "id": "yasumu",
     "kanji": [
@@ -47730,12 +59303,27 @@
         "label": "Lesson 1: Quotation | N3 Study Desk"
       }
     ],
-    "partOfSpeech": "godan verb",
+    "partOfSpeech": [
+      "Group 1 Verb"
+    ],
     "reading": "やすむ",
+    "topicIds": [
+      "time-dates-schedules"
+    ],
     "written": "休む"
   },
   {
     "forms": [],
+    "grammarIds": [
+      "p2-group-g",
+      "p2-group-h",
+      "p2-group-i",
+      "p2-group-j",
+      "p3-lesson-2",
+      "p3-lesson-4",
+      "p4-lesson-1",
+      "p4-lesson-10"
+    ],
     "id": "yomu",
     "kanji": [
       {
@@ -47785,12 +59373,21 @@
         "label": "Lesson 4: Fixed patterns | N3 Study Desk"
       }
     ],
-    "partOfSpeech": "godan verb",
+    "partOfSpeech": [
+      "Group 1 Verb"
+    ],
     "reading": "よむ",
+    "topicIds": [
+      "school-study"
+    ],
     "written": "読む"
   },
   {
     "forms": [],
+    "grammarIds": [
+      "p2-group-d",
+      "p2-group-g"
+    ],
     "id": "yotei",
     "kanji": [
       {
@@ -47818,12 +59415,26 @@
         "label": "Group G: Organizing する and なる | N3 Study Desk"
       }
     ],
-    "partOfSpeech": "noun / suru verb",
+    "partOfSpeech": [
+      "Noun",
+      "Group 3 Verb"
+    ],
     "reading": "よてい",
+    "topicIds": [
+      "time-dates-schedules"
+    ],
     "written": "予定"
   },
   {
     "forms": [],
+    "grammarIds": [
+      "p2-group-e",
+      "p2-group-g",
+      "p2-group-i",
+      "p4-lesson-2",
+      "p4-lesson-3",
+      "p4-lesson-8"
+    ],
     "id": "yuki",
     "kanji": [
       {
@@ -47861,12 +59472,21 @@
         "label": "Part 4 Lesson 8: は・が | N3 Study Desk"
       }
     ],
-    "partOfSpeech": "noun",
+    "partOfSpeech": [
+      "Noun"
+    ],
     "reading": "ゆき",
+    "topicIds": [
+      "nature-weather"
+    ],
     "written": "雪"
   },
   {
     "forms": [],
+    "grammarIds": [
+      "p2-group-b",
+      "p3-lesson-4"
+    ],
     "id": "yumei",
     "kanji": [
       {
@@ -47898,14 +59518,21 @@
         "label": "Lesson 4: Fixed patterns | N3 Study Desk"
       }
     ],
-    "partOfSpeech": "na-adjective",
+    "partOfSpeech": [
+      "Na-Adjective",
+      "Special Na-Adjective Ending in I"
+    ],
     "reading": "ゆうめい",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "有名"
   },
   {
     "forms": [],
     "grammarIds": [
-      "l3-kurai"
+      "l3-kurai",
+      "p2-group-c"
     ],
     "id": "yureru",
     "kanji": [
@@ -47929,12 +59556,23 @@
         "label": "Lesson 3: Degree and comparison 比べれば…・～がいちばん"
       }
     ],
-    "partOfSpeech": "ichidan verb",
+    "partOfSpeech": [
+      "Group 2 Verb"
+    ],
     "reading": "ゆれる",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "揺れる"
   },
   {
     "forms": [],
+    "grammarIds": [
+      "p2-group-a",
+      "p2-group-c",
+      "p2-group-f",
+      "p2-group-j"
+    ],
     "id": "zenbu",
     "kanji": [
       {
@@ -47982,12 +59620,21 @@
         "label": "Group J: Forms that broaden meaning | N3 Study Desk"
       }
     ],
-    "partOfSpeech": "noun / adverb",
+    "partOfSpeech": [
+      "Noun",
+      "Adverb"
+    ],
     "reading": "ぜんぶ",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "全部"
   },
   {
     "forms": [],
+    "grammarIds": [
+      "p2-group-h"
+    ],
     "id": "zenkai",
     "kanji": [
       {
@@ -48011,8 +59658,13 @@
         "label": "Group H: Special uses of たら・ば・と・なら | N3 Study Desk"
       }
     ],
-    "partOfSpeech": "noun",
+    "partOfSpeech": [
+      "Noun"
+    ],
     "reading": "ぜんかい",
+    "topicIds": [
+      "time-dates-schedules"
+    ],
     "written": "前回"
   }
 ]);

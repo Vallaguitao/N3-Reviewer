@@ -13,6 +13,48 @@
     String(value || "").normalize("NFKC").trim().toLowerCase()
   );
 
+  const LEARNER_PART_ORDER = Object.freeze([
+    "Noun",
+    "Group 1 Verb",
+    "Group 2 Verb",
+    "Group 3 Verb",
+    "I-Adjective",
+    "Na-Adjective",
+    "Special Na-Adjective Ending in I",
+    "Adverb",
+    "Expression",
+    "Pronoun",
+    "Conjunction",
+    "Counter or Number",
+    "Other",
+  ]);
+  const TOPIC_OPTIONS = Object.freeze([
+    ["time-dates-schedules", "Time, Dates and Schedules"],
+    ["people-family-relationships", "People, Family and Relationships"],
+    ["body-health", "Body and Health"],
+    ["feelings-personality", "Feelings and Personality"],
+    ["food-cooking", "Food and Cooking"],
+    ["home-daily-life", "Home and Daily Life"],
+    ["school-study", "School and Study"],
+    ["work-business", "Work and Business"],
+    ["money-shopping", "Money and Shopping"],
+    ["travel-transportation", "Travel and Transportation"],
+    ["places-directions", "Places and Directions"],
+    ["nature-weather", "Nature and Weather"],
+    ["communication-media", "Communication and Media"],
+    ["technology", "Technology"],
+    ["society-public-services", "Society and Public Services"],
+  ].map(option => Object.freeze(option)));
+
+  function partOfSpeechValues(record) {
+    const value = record?.partOfSpeech;
+    return Array.isArray(value) ? [...value] : value ? [value] : [];
+  }
+
+  function partOfSpeechLabel(record) {
+    return partOfSpeechValues(record).join(" / ");
+  }
+
   function activeRecords() {
     return Object.freeze([...(root?.N3VocabularyData || [])]);
   }
@@ -32,9 +74,13 @@
       );
       const matchesPart = (
         !filters.partOfSpeech
-        || record.partOfSpeech === filters.partOfSpeech
+        || partOfSpeechValues(record).includes(filters.partOfSpeech)
       );
-      return matchesTerm && matchesGrammar && matchesPart;
+      const matchesTopic = (
+        !filters.topicId
+        || (record.topicIds || []).includes(filters.topicId)
+      );
+      return matchesTerm && matchesGrammar && matchesPart && matchesTopic;
     });
   }
 
@@ -42,6 +88,28 @@
     return [...records].sort((a, b) => (
       normalize(a.reading).localeCompare(normalize(b.reading), "ja")
     ));
+  }
+
+  function selectedFilterValue(control) {
+    return control?.value && control.value !== "all" ? control.value : "";
+  }
+
+  function bankStateFromControls(controls = {}) {
+    return {
+      query: controls.search?.value || "",
+      filters: {
+        grammarId: selectedFilterValue(controls.grammar),
+        partOfSpeech: selectedFilterValue(controls.part),
+        topicId: selectedFilterValue(controls.topic),
+      },
+    };
+  }
+
+  function resetBankControls(controls = {}) {
+    if (controls.search) controls.search.value = "";
+    if (controls.grammar) controls.grammar.value = "all";
+    if (controls.part) controls.part.value = "all";
+    if (controls.topic) controls.topic.value = "all";
   }
 
   function getById(id) {
@@ -70,7 +138,7 @@
       written: record.written,
       reading: record.reading,
       meanings: [...(record.meanings || [])],
-      partOfSpeech: record.partOfSpeech,
+      partOfSpeech: partOfSpeechLabel(record),
     };
     const surface = String(context.surface || "").trim();
     const surfaceReading = String(context.surfaceReading || "").trim();
@@ -348,11 +416,29 @@
   function populatePartOptions(select, records) {
     if (!select || select.options.length > 1) return;
     const doc = select.ownerDocument;
-    const values = [...new Set(records.map(
-      record => record.partOfSpeech,
-    ))].sort((a, b) => a.localeCompare(b, "en"));
+    const values = [...new Set(records.flatMap(partOfSpeechValues))]
+      .sort((a, b) => {
+        const aIndex = LEARNER_PART_ORDER.indexOf(a);
+        const bIndex = LEARNER_PART_ORDER.indexOf(b);
+        if (aIndex !== -1 || bIndex !== -1) {
+          if (aIndex === -1) return 1;
+          if (bIndex === -1) return -1;
+          return aIndex - bIndex;
+        }
+        return a.localeCompare(b, "en");
+      });
     for (const value of values) {
       const option = element(doc, "option", value);
+      option.value = value;
+      select.append(option);
+    }
+  }
+
+  function populateTopicOptions(select) {
+    if (!select || select.options.length > 1) return;
+    const doc = select.ownerDocument;
+    for (const [value, label] of TOPIC_OPTIONS) {
+      const option = element(doc, "option", label);
       option.value = value;
       select.append(option);
     }
@@ -366,6 +452,7 @@
     const search = doc.querySelector("[data-vocab-search]");
     const grammar = doc.querySelector("[data-vocab-grammar]");
     const part = doc.querySelector("[data-vocab-part]");
+    const topic = doc.querySelector("[data-vocab-topic]");
     const results = doc.querySelector("[data-vocab-results]");
     const status = doc.querySelector("[data-vocab-status]");
     const empty = doc.querySelector("[data-vocab-empty]");
@@ -382,6 +469,7 @@
     let hoverClose = null;
 
     populatePartOptions(part, records);
+    populateTopicOptions(topic);
 
     function selectRecord(id, options = {}) {
       if (!details) return;
@@ -482,14 +570,8 @@
 
     function update(useDeepLink = false) {
       if (!results) return;
-      const filtered = sortByReading(filter(records, search?.value || "", {
-        grammarId: grammar?.value === "all"
-          ? ""
-          : grammar?.value || "",
-        partOfSpeech: part?.value === "all"
-          ? ""
-          : part?.value || "",
-      }));
+      const state = bankStateFromControls({ search, grammar, part, topic });
+      const filtered = sortByReading(filter(records, state.query, state.filters));
       const displayed = useDeepLink && deepLinkedRecord
         ? [deepLinkedRecord]
         : filtered;
@@ -520,9 +602,7 @@
       }
 
       if (event.target.closest("[data-clear-filters]")) {
-        if (search) search.value = "";
-        if (grammar) grammar.value = "all";
-        if (part) part.value = "all";
+        resetBankControls({ search, grammar, part, topic });
         deepLinkedRecord = null;
         update();
         search?.focus();
@@ -618,7 +698,7 @@
     root?.addEventListener?.("resize", positionDetails);
     root?.addEventListener?.("scroll", positionDetails, { passive: true });
 
-    [search, grammar, part].filter(Boolean).forEach(control => {
+    [search, grammar, part, topic].filter(Boolean).forEach(control => {
       control.addEventListener(
         control.tagName === "INPUT" ? "input" : "change",
         () => {
@@ -634,9 +714,14 @@
 
   return {
     normalize,
+    partOfSpeechValues,
+    partOfSpeechLabel,
+    topicOptions: TOPIC_OPTIONS,
     activeRecords,
     filter,
     sortByReading,
+    bankStateFromControls,
+    resetBankControls,
     getById,
     vocabIdFromTarget,
     contextFromTarget,

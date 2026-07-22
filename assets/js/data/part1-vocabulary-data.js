@@ -28,8 +28,13 @@
         "label": "Lesson 2: Relationships ～と関係して"
       }
     ],
-    "partOfSpeech": "godan verb",
+    "partOfSpeech": [
+      "Group 1 Verb"
+    ],
     "reading": "あがる",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "上がる"
   },
   {
@@ -69,8 +74,14 @@
         "label": "Lesson 8: Strong and partial negation 絶対～ない・必ず～とは言えない"
       }
     ],
-    "partOfSpeech": "noun / grammar expression",
+    "partOfSpeech": [
+      "Noun",
+      "Expression"
+    ],
     "reading": "あいだ",
+    "topicIds": [
+      "time-dates-schedules"
+    ],
     "written": "間"
   },
   {
@@ -100,8 +111,13 @@
         "label": "Lesson 1: Time relationships ～とき"
       }
     ],
-    "partOfSpeech": "grammar expression",
+    "partOfSpeech": [
+      "Expression"
+    ],
     "reading": "あいだに",
+    "topicIds": [
+      "time-dates-schedules"
+    ],
     "written": "間に"
   },
   {
@@ -127,8 +143,13 @@
         "label": "Lesson 1: Time relationships ～とき"
       }
     ],
-    "partOfSpeech": "i-adjective",
+    "partOfSpeech": [
+      "I-Adjective"
+    ],
     "reading": "あかるい",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "明るい"
   },
   {
@@ -158,8 +179,13 @@
         "label": "Lesson 6: Conditions and hypotheses もし、…"
       }
     ],
-    "partOfSpeech": "noun",
+    "partOfSpeech": [
+      "Noun"
+    ],
     "reading": "あめ",
+    "topicIds": [
+      "nature-weather"
+    ],
     "written": "雨"
   },
   {
@@ -189,8 +215,13 @@
         "label": "Lesson 4: Contrast ～とは違って"
       }
     ],
-    "partOfSpeech": "godan verb",
+    "partOfSpeech": [
+      "Group 1 Verb"
+    ],
     "reading": "あるく",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "歩く"
   },
   {
@@ -225,8 +256,14 @@
         "label": "Lesson 12: Respectful, humble, and polite language"
       }
     ],
-    "partOfSpeech": "noun / adverb",
+    "partOfSpeech": [
+      "Noun",
+      "Adverb"
+    ],
     "reading": "あした",
+    "topicIds": [
+      "time-dates-schedules"
+    ],
     "written": "明日"
   },
   {
@@ -266,8 +303,13 @@
         "label": "Lesson 11: Intentions, efforts, and attempts"
       }
     ],
-    "partOfSpeech": "i-adjective",
+    "partOfSpeech": [
+      "I-Adjective"
+    ],
     "reading": "あたらしい",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "新しい"
   },
   {
@@ -292,8 +334,13 @@
         "label": "Lesson 9: Wishes and requests ～と望む"
       }
     ],
-    "partOfSpeech": "i-adjective",
+    "partOfSpeech": [
+      "I-Adjective"
+    ],
     "reading": "あつい",
+    "topicIds": [
+      "nature-weather"
+    ],
     "written": "暑い"
   },
   {
@@ -324,8 +371,13 @@
         "label": "Lesson 2: Relationships ～と関係して"
       }
     ],
-    "partOfSpeech": "noun",
+    "partOfSpeech": [
+      "Noun"
+    ],
     "reading": "ばあい",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "場合"
   },
   {
@@ -356,8 +408,13 @@
         "label": "Lesson 3: Degree and comparison 比べれば…・～がいちばん"
       }
     ],
-    "partOfSpeech": "noun",
+    "partOfSpeech": [
+      "Noun"
+    ],
     "reading": "ばしょ",
+    "topicIds": [
+      "places-directions"
+    ],
     "written": "場所"
   },
   {
@@ -388,8 +445,13 @@
         "label": "Lesson 3: Degree and comparison 比べれば…・～がいちばん"
       }
     ],
-    "partOfSpeech": "noun",
+    "partOfSpeech": [
+      "Noun"
+    ],
     "reading": "べんとう",
+    "topicIds": [
+      "food-cooking"
+    ],
     "written": "弁当"
   },
   {
@@ -420,8 +482,13 @@
         "label": "Lesson 11: Intentions, efforts, and attempts"
       }
     ],
-    "partOfSpeech": "noun",
+    "partOfSpeech": [
+      "Noun"
+    ],
     "reading": "ぶちょう",
+    "topicIds": [
+      "work-business"
+    ],
     "written": "部長"
   },
   {
@@ -461,8 +528,13 @@
         "label": "Lesson 9: Wishes and requests ～と望む"
       }
     ],
-    "partOfSpeech": "noun",
+    "partOfSpeech": [
+      "Noun"
+    ],
     "reading": "ぶんかさい",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "文化祭"
   },
   {
@@ -508,8 +580,14 @@
         "label": "Lesson 9: Wishes and requests ～と望む"
       }
     ],
-    "partOfSpeech": "noun / na-adjective",
+    "partOfSpeech": [
+      "Noun",
+      "Na-Adjective"
+    ],
     "reading": "びょうき",
+    "topicIds": [
+      "body-health"
+    ],
     "written": "病気"
   },
   {
@@ -539,8 +617,13 @@
         "label": "Lesson 2: Relationships ～と関係して"
       }
     ],
-    "partOfSpeech": "godan verb",
+    "partOfSpeech": [
+      "Group 1 Verb"
+    ],
     "reading": "ちがう",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "違う"
   },
   {
@@ -576,8 +659,13 @@
         "label": "Lesson 7: Reported information and hearsay ～だそうだ"
       }
     ],
-    "partOfSpeech": "noun",
+    "partOfSpeech": [
+      "Noun"
+    ],
     "reading": "ちほう",
+    "topicIds": [
+      "places-directions"
+    ],
     "written": "地方"
   },
   {
@@ -607,8 +695,13 @@
         "label": "Lesson 4: Contrast ～とは違って"
       }
     ],
-    "partOfSpeech": "noun",
+    "partOfSpeech": [
+      "Noun"
+    ],
     "reading": "ちょうなん",
+    "topicIds": [
+      "people-family-relationships"
+    ],
     "written": "長男"
   },
   {
@@ -639,8 +732,13 @@
         "label": "Lesson 2: Relationships ～と関係して"
       }
     ],
-    "partOfSpeech": "suru verb",
+    "partOfSpeech": [
+      "Group 3 Verb"
+    ],
     "reading": "ちゅうもんする",
+    "topicIds": [
+      "places-directions"
+    ],
     "written": "注文する"
   },
   {
@@ -671,8 +769,13 @@
         "label": "Lesson 12: Respectful, humble, and polite language"
       }
     ],
-    "partOfSpeech": "noun",
+    "partOfSpeech": [
+      "Noun"
+    ],
     "reading": "だいがく",
+    "topicIds": [
+      "school-study"
+    ],
     "written": "大学"
   },
   {
@@ -703,8 +806,14 @@
         "label": "Lesson 10: Advice and commands ～したほうがいい・～なさい"
       }
     ],
-    "partOfSpeech": "noun / na-adjective",
+    "partOfSpeech": [
+      "Noun",
+      "Na-Adjective"
+    ],
     "reading": "だいじ",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "大事"
   },
   {
@@ -735,8 +844,13 @@
         "label": "Lesson 4: Contrast ～とは違って"
       }
     ],
-    "partOfSpeech": "noun",
+    "partOfSpeech": [
+      "Noun"
+    ],
     "reading": "だんせい",
+    "topicIds": [
+      "people-family-relationships"
+    ],
     "written": "男性"
   },
   {
@@ -772,8 +886,13 @@
         "label": "Lesson 10: Advice and commands ～したほうがいい・～なさい"
       }
     ],
-    "partOfSpeech": "godan verb",
+    "partOfSpeech": [
+      "Group 1 Verb"
+    ],
     "reading": "だす",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "出す"
   },
   {
@@ -804,8 +923,13 @@
         "label": "Lesson 6: Conditions and hypotheses もし、…"
       }
     ],
-    "partOfSpeech": "godan verb",
+    "partOfSpeech": [
+      "Group 1 Verb"
+    ],
     "reading": "できあがる",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "でき上がる"
   },
   {
@@ -856,8 +980,14 @@
         "label": "Lesson 8: Strong and partial negation 絶対～ない・必ず～とは言えない"
       }
     ],
-    "partOfSpeech": "noun / suru verb",
+    "partOfSpeech": [
+      "Noun",
+      "Group 3 Verb"
+    ],
     "reading": "でんわ",
+    "topicIds": [
+      "communication-media"
+    ],
     "written": "電話"
   },
   {
@@ -893,8 +1023,13 @@
         "label": "Lesson 11: Intentions, efforts, and attempts"
       }
     ],
-    "partOfSpeech": "ichidan verb",
+    "partOfSpeech": [
+      "Group 2 Verb"
+    ],
     "reading": "でる",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "出る"
   },
   {
@@ -929,8 +1064,13 @@
         "label": "Lesson 7: Reported information and hearsay ～だそうだ"
       }
     ],
-    "partOfSpeech": "noun",
+    "partOfSpeech": [
+      "Noun"
+    ],
     "reading": "どうぶつ",
+    "topicIds": [
+      "nature-weather"
+    ],
     "written": "動物"
   },
   {
@@ -961,8 +1101,13 @@
         "label": "Lesson 3: Degree and comparison 比べれば…・～がいちばん"
       }
     ],
-    "partOfSpeech": "noun",
+    "partOfSpeech": [
+      "Noun"
+    ],
     "reading": "どくしん",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "独身"
   },
   {
@@ -993,8 +1138,13 @@
         "label": "Lesson 4: Contrast ～とは違って"
       }
     ],
-    "partOfSpeech": "noun",
+    "partOfSpeech": [
+      "Noun"
+    ],
     "reading": "え",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "絵"
   },
   {
@@ -1025,8 +1175,13 @@
         "label": "Lesson 3: Degree and comparison 比べれば…・～がいちばん"
       }
     ],
-    "partOfSpeech": "noun",
+    "partOfSpeech": [
+      "Noun"
+    ],
     "reading": "えいが",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "映画"
   },
   {
@@ -1062,8 +1217,13 @@
         "label": "Lesson 3: Degree and comparison 比べれば…・～がいちばん"
       }
     ],
-    "partOfSpeech": "noun",
+    "partOfSpeech": [
+      "Noun"
+    ],
     "reading": "えいがかん",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "映画館"
   },
   {
@@ -1093,8 +1253,13 @@
         "label": "Lesson 4: Contrast ～とは違って"
       }
     ],
-    "partOfSpeech": "noun",
+    "partOfSpeech": [
+      "Noun"
+    ],
     "reading": "えいご",
+    "topicIds": [
+      "school-study"
+    ],
     "written": "英語"
   },
   {
@@ -1119,8 +1284,13 @@
         "label": "Lesson 8: Strong and partial negation 絶対～ない・必ず～とは言えない"
       }
     ],
-    "partOfSpeech": "noun",
+    "partOfSpeech": [
+      "Noun"
+    ],
     "reading": "えき",
+    "topicIds": [
+      "travel-transportation"
+    ],
     "written": "駅"
   },
   {
@@ -1151,8 +1321,14 @@
         "label": "Lesson 3: Degree and comparison 比べれば…・～がいちばん"
       }
     ],
-    "partOfSpeech": "noun / na-adjective",
+    "partOfSpeech": [
+      "Noun",
+      "Na-Adjective"
+    ],
     "reading": "ふあん",
+    "topicIds": [
+      "feelings-personality"
+    ],
     "written": "不安"
   },
   {
@@ -1182,8 +1358,13 @@
         "label": "Lesson 4: Contrast ～とは違って"
       }
     ],
-    "partOfSpeech": "na-adjective",
+    "partOfSpeech": [
+      "Na-Adjective"
+    ],
     "reading": "ふべん",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "不便"
   },
   {
@@ -1214,8 +1395,13 @@
         "label": "Lesson 4: Contrast ～とは違って"
       }
     ],
-    "partOfSpeech": "ichidan verb",
+    "partOfSpeech": [
+      "Group 2 Verb"
+    ],
     "reading": "ふえる",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "増える"
   },
   {
@@ -1250,8 +1436,13 @@
         "label": "Lesson 1: Time relationships ～とき"
       }
     ],
-    "partOfSpeech": "proper noun",
+    "partOfSpeech": [
+      "Noun"
+    ],
     "reading": "ふじさん",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "富士山"
   },
   {
@@ -1276,8 +1467,13 @@
         "label": "Lesson 3: Degree and comparison 比べれば…・～がいちばん"
       }
     ],
-    "partOfSpeech": "godan verb",
+    "partOfSpeech": [
+      "Group 1 Verb"
+    ],
     "reading": "ふる",
+    "topicIds": [
+      "nature-weather"
+    ],
     "written": "降る"
   },
   {
@@ -1307,8 +1503,13 @@
         "label": "Lesson 8: Strong and partial negation 絶対～ない・必ず～とは言えない"
       }
     ],
-    "partOfSpeech": "i-adjective",
+    "partOfSpeech": [
+      "I-Adjective"
+    ],
     "reading": "ふるい",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "古い"
   },
   {
@@ -1333,8 +1534,13 @@
         "label": "Lesson 8: Strong and partial negation 絶対～ない・必ず～とは言えない"
       }
     ],
-    "partOfSpeech": "noun",
+    "partOfSpeech": [
+      "Noun"
+    ],
     "reading": "ねだん",
+    "topicIds": [
+      "money-shopping"
+    ],
     "written": "値段"
   },
   {
@@ -1359,8 +1565,13 @@
         "label": "Lesson 11: Intentions, efforts, and attempts"
       }
     ],
-    "partOfSpeech": "noun",
+    "partOfSpeech": [
+      "Noun"
+    ],
     "reading": "れいぞうこ",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "冷蔵庫"
   },
   {
@@ -1390,8 +1601,14 @@
         "label": "Lesson 7: Reported information and hearsay ～だそうだ"
       }
     ],
-    "partOfSpeech": "noun",
+    "partOfSpeech": [
+      "Noun"
+    ],
     "reading": "しゅっちょう",
+    "topicIds": [
+      "work-business",
+      "travel-transportation"
+    ],
     "written": "出張"
   },
   {
@@ -1416,8 +1633,13 @@
         "label": "Lesson 7: Reported information and hearsay ～だそうだ"
       }
     ],
-    "partOfSpeech": "noun",
+    "partOfSpeech": [
+      "Noun"
+    ],
     "reading": "とうふ",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "豆腐"
   },
   {
@@ -1442,8 +1664,13 @@
         "label": "Lesson 7: Reported information and hearsay ～だそうだ"
       }
     ],
-    "partOfSpeech": "noun",
+    "partOfSpeech": [
+      "Noun"
+    ],
     "reading": "ゆうしょう",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "優勝"
   },
   {
@@ -1469,8 +1696,13 @@
         "label": "Lesson 2: Relationships ～と関係して"
       }
     ],
-    "partOfSpeech": "noun",
+    "partOfSpeech": [
+      "Noun"
+    ],
     "reading": "がい",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "害"
   },
   {
@@ -1495,8 +1727,13 @@
         "label": "Lesson 2: Relationships ～と関係して"
       }
     ],
-    "partOfSpeech": "noun",
+    "partOfSpeech": [
+      "Noun"
+    ],
     "reading": "ちゅうし",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "中止"
   },
   {
@@ -1521,8 +1758,13 @@
         "label": "Lesson 6: Conditions and hypotheses もし、…"
       }
     ],
-    "partOfSpeech": "noun",
+    "partOfSpeech": [
+      "Noun"
+    ],
     "reading": "はんたい",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "反対"
   },
   {
@@ -1547,8 +1789,13 @@
         "label": "Lesson 2: Relationships ～と関係して"
       }
     ],
-    "partOfSpeech": "noun",
+    "partOfSpeech": [
+      "Noun"
+    ],
     "reading": "かんじかた",
+    "topicIds": [
+      "feelings-personality"
+    ],
     "written": "感じ方"
   },
   {
@@ -1573,8 +1820,13 @@
         "label": "Lesson 5: Reasons and causes ～だから"
       }
     ],
-    "partOfSpeech": "noun",
+    "partOfSpeech": [
+      "Noun"
+    ],
     "reading": "こうじょう",
+    "topicIds": [
+      "work-business"
+    ],
     "written": "工場"
   },
   {
@@ -1599,8 +1851,13 @@
         "label": "Lesson 6: Conditions and hypotheses もし、…"
       }
     ],
-    "partOfSpeech": "noun",
+    "partOfSpeech": [
+      "Noun"
+    ],
     "reading": "ひつよう",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "必要"
   },
   {
@@ -1625,8 +1882,13 @@
         "label": "Lesson 5: Reasons and causes ～だから"
       }
     ],
-    "partOfSpeech": "noun",
+    "partOfSpeech": [
+      "Noun"
+    ],
     "reading": "しゅうしょく",
+    "topicIds": [
+      "work-business"
+    ],
     "written": "就職"
   },
   {
@@ -1656,8 +1918,14 @@
         "label": "Lesson 5: Reasons and causes ～だから"
       }
     ],
-    "partOfSpeech": "word",
+    "partOfSpeech": [
+      "Noun",
+      "Group 3 Verb"
+    ],
     "reading": "ちゅうい",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "注意"
   },
   {
@@ -1682,8 +1950,14 @@
         "label": "Lesson 9: Wishes and requests ～と望む"
       }
     ],
-    "partOfSpeech": "word",
+    "partOfSpeech": [
+      "Noun",
+      "Group 3 Verb"
+    ],
     "reading": "ごうかく",
+    "topicIds": [
+      "school-study"
+    ],
     "written": "合格"
   },
   {
@@ -1708,8 +1982,13 @@
         "label": "Lesson 3: Degree and comparison 比べれば…・～がいちばん"
       }
     ],
-    "partOfSpeech": "word",
+    "partOfSpeech": [
+      "Noun"
+    ],
     "reading": "じしん",
+    "topicIds": [
+      "nature-weather"
+    ],
     "written": "地震"
   },
   {
@@ -1734,8 +2013,13 @@
         "label": "Lesson 5: Reasons and causes ～だから"
       }
     ],
-    "partOfSpeech": "word",
+    "partOfSpeech": [
+      "Group 2 Verb"
+    ],
     "reading": "にている",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "似ている"
   },
   {
@@ -1760,8 +2044,13 @@
         "label": "Lesson 8: Strong and partial negation 絶対～ない・必ず～とは言えない"
       }
     ],
-    "partOfSpeech": "word",
+    "partOfSpeech": [
+      "Noun"
+    ],
     "reading": "しんぶん",
+    "topicIds": [
+      "communication-media"
+    ],
     "written": "新聞"
   },
   {
@@ -1791,8 +2080,13 @@
         "label": "Lesson 3: Degree and comparison 比べれば…・～がいちばん"
       }
     ],
-    "partOfSpeech": "word",
+    "partOfSpeech": [
+      "Noun"
+    ],
     "reading": "たいふう",
+    "topicIds": [
+      "nature-weather"
+    ],
     "written": "台風"
   },
   {
@@ -1817,8 +2111,13 @@
         "label": "Lesson 12: Respectful, humble, and polite language"
       }
     ],
-    "partOfSpeech": "word",
+    "partOfSpeech": [
+      "Noun"
+    ],
     "reading": "ざっし",
+    "topicIds": [
+      "communication-media"
+    ],
     "written": "雑誌"
   },
   {
@@ -1853,8 +2152,14 @@
         "label": "Lesson 12: Respectful, humble, and polite language"
       }
     ],
-    "partOfSpeech": "word",
+    "partOfSpeech": [
+      "Noun",
+      "Group 3 Verb"
+    ],
     "reading": "かいぎ",
+    "topicIds": [
+      "work-business"
+    ],
     "written": "会議"
   },
   {
@@ -1884,8 +2189,13 @@
         "label": "Lesson 8: Strong and partial negation 絶対～ない・必ず～とは言えない"
       }
     ],
-    "partOfSpeech": "word",
+    "partOfSpeech": [
+      "Noun"
+    ],
     "reading": "けっか",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "結果"
   },
   {
@@ -1910,8 +2220,14 @@
         "label": "Lesson 2: Relationships ～と関係して"
       }
     ],
-    "partOfSpeech": "word",
+    "partOfSpeech": [
+      "Noun",
+      "Group 3 Verb"
+    ],
     "reading": "きたい",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "期待"
   },
   {
@@ -1936,8 +2252,13 @@
         "label": "Lesson 6: Conditions and hypotheses もし、…"
       }
     ],
-    "partOfSpeech": "word",
+    "partOfSpeech": [
+      "Noun"
+    ],
     "reading": "たいど",
+    "topicIds": [
+      "feelings-personality"
+    ],
     "written": "態度"
   },
   {
@@ -1962,8 +2283,13 @@
         "label": "Lesson 2: Relationships ～と関係して"
       }
     ],
-    "partOfSpeech": "word",
+    "partOfSpeech": [
+      "Noun"
+    ],
     "reading": "よなか",
+    "topicIds": [
+      "time-dates-schedules"
+    ],
     "written": "夜中"
   },
   {
@@ -1994,8 +2320,13 @@
         "label": "Lesson 2: Relationships ～と関係して"
       }
     ],
-    "partOfSpeech": "noun",
+    "partOfSpeech": [
+      "Noun"
+    ],
     "reading": "げんかん",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "玄関"
   },
   {
@@ -2027,8 +2358,14 @@
         "label": "Lesson 12: Respectful, humble, and polite language"
       }
     ],
-    "partOfSpeech": "na-adjective / noun",
+    "partOfSpeech": [
+      "Noun",
+      "Na-Adjective"
+    ],
     "reading": "げんき",
+    "topicIds": [
+      "body-health"
+    ],
     "written": "元気"
   },
   {
@@ -2053,8 +2390,14 @@
         "label": "Lesson 12: Respectful, humble, and polite language"
       }
     ],
-    "partOfSpeech": "word",
+    "partOfSpeech": [
+      "Noun",
+      "Group 3 Verb"
+    ],
     "reading": "あんない",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "案内"
   },
   {
@@ -2079,8 +2422,13 @@
         "label": "Lesson 5: Reasons and causes ～だから"
       }
     ],
-    "partOfSpeech": "word",
+    "partOfSpeech": [
+      "Noun"
+    ],
     "reading": "がいこくご",
+    "topicIds": [
+      "school-study"
+    ],
     "written": "外国語"
   },
   {
@@ -2105,8 +2453,14 @@
         "label": "Lesson 5: Reasons and causes ～だから"
       }
     ],
-    "partOfSpeech": "word",
+    "partOfSpeech": [
+      "Noun",
+      "Group 3 Verb"
+    ],
     "reading": "かいわ",
+    "topicIds": [
+      "communication-media"
+    ],
     "written": "会話"
   },
   {
@@ -2131,8 +2485,14 @@
         "label": "Lesson 5: Reasons and causes ～だから"
       }
     ],
-    "partOfSpeech": "word",
+    "partOfSpeech": [
+      "Noun",
+      "Group 3 Verb"
+    ],
     "reading": "かんけい",
+    "topicIds": [
+      "people-family-relationships"
+    ],
     "written": "関係"
   },
   {
@@ -2157,8 +2517,14 @@
         "label": "Lesson 11: Intentions, efforts, and attempts"
       }
     ],
-    "partOfSpeech": "word",
+    "partOfSpeech": [
+      "Noun",
+      "Group 3 Verb"
+    ],
     "reading": "にゅうしゃ",
+    "topicIds": [
+      "work-business"
+    ],
     "written": "入社"
   },
   {
@@ -2183,8 +2549,13 @@
         "label": "Lesson 6: Conditions and hypotheses もし、…"
       }
     ],
-    "partOfSpeech": "word",
+    "partOfSpeech": [
+      "Noun"
+    ],
     "reading": "ひこうき",
+    "topicIds": [
+      "travel-transportation"
+    ],
     "written": "飛行機"
   },
   {
@@ -2214,8 +2585,13 @@
         "label": "Lesson 11: Intentions, efforts, and attempts"
       }
     ],
-    "partOfSpeech": "word",
+    "partOfSpeech": [
+      "Noun"
+    ],
     "reading": "おおあめ",
+    "topicIds": [
+      "nature-weather"
+    ],
     "written": "大雨"
   },
   {
@@ -2245,8 +2621,13 @@
         "label": "Lesson 11: Intentions, efforts, and attempts"
       }
     ],
-    "partOfSpeech": "word",
+    "partOfSpeech": [
+      "Adverb"
+    ],
     "reading": "とつぜん",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "突然"
   },
   {
@@ -2271,8 +2652,13 @@
         "label": "Lesson 11: Intentions, efforts, and attempts"
       }
     ],
-    "partOfSpeech": "word",
+    "partOfSpeech": [
+      "Group 1 Verb"
+    ],
     "reading": "だまって",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "黙って"
   },
   {
@@ -2302,8 +2688,13 @@
         "label": "Lesson 11: Intentions, efforts, and attempts"
       }
     ],
-    "partOfSpeech": "word",
+    "partOfSpeech": [
+      "Noun"
+    ],
     "reading": "かお",
+    "topicIds": [
+      "body-health"
+    ],
     "written": "顔"
   },
   {
@@ -2328,8 +2719,13 @@
         "label": "Lesson 8: Strong and partial negation 絶対～ない・必ず～とは言えない"
       }
     ],
-    "partOfSpeech": "word",
+    "partOfSpeech": [
+      "Noun"
+    ],
     "reading": "きょり",
+    "topicIds": [
+      "places-directions"
+    ],
     "written": "距離"
   },
   {
@@ -2355,8 +2751,13 @@
         "label": "Lesson 2: Relationships ～と関係して"
       }
     ],
-    "partOfSpeech": "noun",
+    "partOfSpeech": [
+      "Noun"
+    ],
     "reading": "ごはん",
+    "topicIds": [
+      "food-cooking"
+    ],
     "written": "ご飯"
   },
   {
@@ -2382,8 +2783,13 @@
         "label": "Lesson 1: Time relationships ～とき"
       }
     ],
-    "partOfSpeech": "ichidan verb",
+    "partOfSpeech": [
+      "Group 2 Verb"
+    ],
     "reading": "はえる",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "生える"
   },
   {
@@ -2415,8 +2821,13 @@
         "label": "Lesson 3: Degree and comparison 比べれば…・～がいちばん"
       }
     ],
-    "partOfSpeech": "i-adjective",
+    "partOfSpeech": [
+      "I-Adjective"
+    ],
     "reading": "はげしい",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "激しい"
   },
   {
@@ -2441,8 +2852,13 @@
         "label": "Lesson 2: Relationships ～と関係して"
       }
     ],
-    "partOfSpeech": "noun",
+    "partOfSpeech": [
+      "Noun"
+    ],
     "reading": "はは",
+    "topicIds": [
+      "people-family-relationships"
+    ],
     "written": "母"
   },
   {
@@ -2473,8 +2889,13 @@
         "label": "Lesson 10: Advice and commands ～したほうがいい・～なさい"
       }
     ],
-    "partOfSpeech": "godan verb",
+    "partOfSpeech": [
+      "Group 1 Verb"
+    ],
     "reading": "はいる",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "入る"
   },
   {
@@ -2505,8 +2926,13 @@
         "label": "Lesson 7: Reported information and hearsay ～だそうだ"
       }
     ],
-    "partOfSpeech": "godan verb",
+    "partOfSpeech": [
+      "Group 1 Verb"
+    ],
     "reading": "はじまる",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "始まる"
   },
   {
@@ -2541,8 +2967,13 @@
         "label": "Lesson 10: Advice and commands ～したほうがいい・～なさい"
       }
     ],
-    "partOfSpeech": "ichidan verb",
+    "partOfSpeech": [
+      "Group 2 Verb"
+    ],
     "reading": "はじめる",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "始める"
   },
   {
@@ -2567,8 +2998,13 @@
         "label": "Lesson 2: Relationships ～と関係して"
       }
     ],
-    "partOfSpeech": "adverb",
+    "partOfSpeech": [
+      "Adverb"
+    ],
     "reading": "はじめて",
+    "topicIds": [
+      "time-dates-schedules"
+    ],
     "written": "初めて"
   },
   {
@@ -2599,8 +3035,13 @@
         "label": "Lesson 10: Advice and commands ～したほうがいい・～なさい"
       }
     ],
-    "partOfSpeech": "godan verb",
+    "partOfSpeech": [
+      "Group 1 Verb"
+    ],
     "reading": "はなしあう",
+    "topicIds": [
+      "communication-media"
+    ],
     "written": "話し合う"
   },
   {
@@ -2626,8 +3067,13 @@
         "label": "Lesson 4: Contrast ～とは違って"
       }
     ],
-    "partOfSpeech": "godan verb",
+    "partOfSpeech": [
+      "Group 1 Verb"
+    ],
     "reading": "はなす",
+    "topicIds": [
+      "communication-media"
+    ],
     "written": "話す"
   },
   {
@@ -2652,8 +3098,13 @@
         "label": "Lesson 1: Time relationships ～とき"
       }
     ],
-    "partOfSpeech": "godan verb",
+    "partOfSpeech": [
+      "Group 1 Verb"
+    ],
     "reading": "ひく",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "弾く"
   },
   {
@@ -2684,8 +3135,13 @@
         "label": "Lesson 9: Wishes and requests ～と望む"
       }
     ],
-    "partOfSpeech": "noun",
+    "partOfSpeech": [
+      "Noun"
+    ],
     "reading": "ひるごはん",
+    "topicIds": [
+      "food-cooking"
+    ],
     "written": "昼ご飯"
   },
   {
@@ -2765,8 +3221,13 @@
         "label": "Lesson 9: Wishes and requests ～と望む"
       }
     ],
-    "partOfSpeech": "noun",
+    "partOfSpeech": [
+      "Noun"
+    ],
     "reading": "ひと",
+    "topicIds": [
+      "people-family-relationships"
+    ],
     "written": "人"
   },
   {
@@ -2802,8 +3263,13 @@
         "label": "Lesson 4: Contrast ～とは違って"
       }
     ],
-    "partOfSpeech": "noun",
+    "partOfSpeech": [
+      "Noun"
+    ],
     "reading": "ひとりたび",
+    "topicIds": [
+      "travel-transportation"
+    ],
     "written": "一人旅"
   },
   {
@@ -2834,8 +3300,13 @@
         "label": "Lesson 12: Respectful, humble, and polite language"
       }
     ],
-    "partOfSpeech": "noun",
+    "partOfSpeech": [
+      "Noun"
+    ],
     "reading": "ほうほう",
+    "topicIds": [
+      "school-study"
+    ],
     "written": "方法"
   },
   {
@@ -2894,8 +3365,13 @@
         "label": "Lesson 12: Respectful, humble, and polite language"
       }
     ],
-    "partOfSpeech": "noun",
+    "partOfSpeech": [
+      "Noun"
+    ],
     "reading": "ほん",
+    "topicIds": [
+      "school-study"
+    ],
     "written": "本"
   },
   {
@@ -2921,8 +3397,13 @@
         "label": "Lesson 3: Degree and comparison 比べれば…・～がいちばん"
       }
     ],
-    "partOfSpeech": "i-adjective",
+    "partOfSpeech": [
+      "I-Adjective"
+    ],
     "reading": "ほそい",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "細い"
   },
   {
@@ -2958,8 +3439,14 @@
         "label": "Lesson 10: Advice and commands ～したほうがいい・～なさい"
       }
     ],
-    "partOfSpeech": "noun / adverb",
+    "partOfSpeech": [
+      "Noun",
+      "Adverb"
+    ],
     "reading": "いちど",
+    "topicIds": [
+      "time-dates-schedules"
+    ],
     "written": "一度"
   },
   {
@@ -3009,8 +3496,13 @@
         "label": "Lesson 12: Respectful, humble, and polite language"
       }
     ],
-    "partOfSpeech": "noun",
+    "partOfSpeech": [
+      "Noun"
+    ],
     "reading": "いえ",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "家"
   },
   {
@@ -3041,8 +3533,13 @@
         "label": "Lesson 4: Contrast ～とは違って"
       }
     ],
-    "partOfSpeech": "noun",
+    "partOfSpeech": [
+      "Noun"
+    ],
     "reading": "いけん",
+    "topicIds": [
+      "communication-media"
+    ],
     "written": "意見"
   },
   {
@@ -3082,8 +3579,13 @@
         "label": "Lesson 11: Intentions, efforts, and attempts"
       }
     ],
-    "partOfSpeech": "godan verb",
+    "partOfSpeech": [
+      "Group 1 Verb"
+    ],
     "reading": "いく",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "行く"
   },
   {
@@ -3123,8 +3625,14 @@
         "label": "Lesson 8: Strong and partial negation 絶対～ない・必ず～とは言えない"
       }
     ],
-    "partOfSpeech": "noun / adverb",
+    "partOfSpeech": [
+      "Noun",
+      "Adverb"
+    ],
     "reading": "いま",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "今"
   },
   {
@@ -3154,8 +3662,13 @@
         "label": "Lesson 10: Advice and commands ～したほうがいい・～なさい"
       }
     ],
-    "partOfSpeech": "noun",
+    "partOfSpeech": [
+      "Noun"
+    ],
     "reading": "いぬ",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "犬"
   },
   {
@@ -3190,8 +3703,13 @@
         "label": "Lesson 7: Reported information and hearsay ～だそうだ"
       }
     ],
-    "partOfSpeech": "i-adjective",
+    "partOfSpeech": [
+      "I-Adjective"
+    ],
     "reading": "いそがしい",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "忙しい"
   },
   {
@@ -3217,8 +3735,13 @@
         "label": "Lesson 3: Degree and comparison 比べれば…・～がいちばん"
       }
     ],
-    "partOfSpeech": "noun",
+    "partOfSpeech": [
+      "Noun"
+    ],
     "reading": "いたみ",
+    "topicIds": [
+      "body-health"
+    ],
     "written": "痛み"
   },
   {
@@ -3263,8 +3786,13 @@
         "label": "Lesson 11: Intentions, efforts, and attempts"
       }
     ],
-    "partOfSpeech": "godan verb",
+    "partOfSpeech": [
+      "Group 1 Verb"
+    ],
     "reading": "いう",
+    "topicIds": [
+      "communication-media"
+    ],
     "written": "言う"
   },
   {
@@ -3319,8 +3847,13 @@
         "label": "Lesson 11: Intentions, efforts, and attempts"
       }
     ],
-    "partOfSpeech": "noun",
+    "partOfSpeech": [
+      "Noun"
+    ],
     "reading": "じぶん",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "自分"
   },
   {
@@ -3375,8 +3908,13 @@
         "label": "Lesson 9: Wishes and requests ～と望む"
       }
     ],
-    "partOfSpeech": "noun",
+    "partOfSpeech": [
+      "Noun"
+    ],
     "reading": "じかん",
+    "topicIds": [
+      "time-dates-schedules"
+    ],
     "written": "時間"
   },
   {
@@ -3412,8 +3950,13 @@
         "label": "Lesson 4: Contrast ～とは違って"
       }
     ],
-    "partOfSpeech": "noun",
+    "partOfSpeech": [
+      "Noun"
+    ],
     "reading": "じっこうりょく",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "実行力"
   },
   {
@@ -3443,8 +3986,14 @@
         "label": "Lesson 4: Contrast ～とは違って"
       }
     ],
-    "partOfSpeech": "noun",
+    "partOfSpeech": [
+      "Noun"
+    ],
     "reading": "じなん",
+    "topicIds": [
+      "time-dates-schedules",
+      "people-family-relationships"
+    ],
     "written": "次男"
   },
   {
@@ -3480,8 +4029,14 @@
         "label": "Lesson 4: Contrast ～とは違って"
       }
     ],
-    "partOfSpeech": "noun / na-adjective",
+    "partOfSpeech": [
+      "Noun",
+      "Na-Adjective"
+    ],
     "reading": "じゆう",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "自由"
   },
   {
@@ -3512,8 +4067,13 @@
         "label": "Lesson 4: Contrast ～とは違って"
       }
     ],
-    "partOfSpeech": "noun",
+    "partOfSpeech": [
+      "Noun"
+    ],
     "reading": "じょせい",
+    "topicIds": [
+      "people-family-relationships"
+    ],
     "written": "女性"
   },
   {
@@ -3544,8 +4104,14 @@
         "label": "Lesson 2: Relationships ～と関係して"
       }
     ],
-    "partOfSpeech": "na-adjective / noun",
+    "partOfSpeech": [
+      "Noun",
+      "Na-Adjective"
+    ],
     "reading": "じょうず",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "上手"
   },
   {
@@ -3576,8 +4142,13 @@
         "label": "Lesson 5: Reasons and causes ～だから"
       }
     ],
-    "partOfSpeech": "noun",
+    "partOfSpeech": [
+      "Noun"
+    ],
     "reading": "じゅぎょう",
+    "topicIds": [
+      "school-study"
+    ],
     "written": "授業"
   },
   {
@@ -3603,8 +4174,13 @@
         "label": "Lesson 4: Contrast ～とは違って"
       }
     ],
-    "partOfSpeech": "noun",
+    "partOfSpeech": [
+      "Noun"
+    ],
     "reading": "か",
+    "topicIds": [
+      "work-business"
+    ],
     "written": "課"
   },
   {
@@ -3635,8 +4211,13 @@
         "label": "Lesson 2: Relationships ～と関係して"
       }
     ],
-    "partOfSpeech": "noun",
+    "partOfSpeech": [
+      "Noun"
+    ],
     "reading": "かち",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "価値"
   },
   {
@@ -3667,8 +4248,13 @@
         "label": "Lesson 7: Reported information and hearsay ～だそうだ"
       }
     ],
-    "partOfSpeech": "godan verb",
+    "partOfSpeech": [
+      "Group 1 Verb"
+    ],
     "reading": "かえる",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "帰る"
   },
   {
@@ -3706,8 +4292,13 @@
         "label": "Lesson 8: Strong and partial negation 絶対～ない・必ず～とは言えない"
       }
     ],
-    "partOfSpeech": "expression",
+    "partOfSpeech": [
+      "Expression"
+    ],
     "reading": "かぎらない",
+    "topicIds": [
+      "school-study"
+    ],
     "written": "限らない"
   },
   {
@@ -3737,8 +4328,13 @@
         "label": "Lesson 2: Relationships ～と関係して"
       }
     ],
-    "partOfSpeech": "noun",
+    "partOfSpeech": [
+      "Noun"
+    ],
     "reading": "かぐ",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "家具"
   },
   {
@@ -3774,8 +4370,13 @@
         "label": "Lesson 12: Respectful, humble, and polite language"
       }
     ],
-    "partOfSpeech": "noun",
+    "partOfSpeech": [
+      "Noun"
+    ],
     "reading": "かいちょう",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "会長"
   },
   {
@@ -3820,8 +4421,14 @@
         "label": "Lesson 6: Conditions and hypotheses もし、…"
       }
     ],
-    "partOfSpeech": "noun / suru verb",
+    "partOfSpeech": [
+      "Noun",
+      "Group 3 Verb"
+    ],
     "reading": "かいがいりょこう",
+    "topicIds": [
+      "travel-transportation"
+    ],
     "written": "海外旅行"
   },
   {
@@ -3857,8 +4464,13 @@
         "label": "Lesson 12: Respectful, humble, and polite language"
       }
     ],
-    "partOfSpeech": "noun",
+    "partOfSpeech": [
+      "Noun"
+    ],
     "reading": "かいじょう",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "会場"
   },
   {
@@ -3898,8 +4510,13 @@
         "label": "Lesson 12: Respectful, humble, and polite language"
       }
     ],
-    "partOfSpeech": "godan verb",
+    "partOfSpeech": [
+      "Group 1 Verb"
+    ],
     "reading": "かく",
+    "topicIds": [
+      "school-study"
+    ],
     "written": "書く"
   },
   {
@@ -3930,8 +4547,13 @@
         "label": "Lesson 8: Strong and partial negation 絶対～ない・必ず～とは言えない"
       }
     ],
-    "partOfSpeech": "suru verb",
+    "partOfSpeech": [
+      "Group 3 Verb"
+    ],
     "reading": "かくにんする",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "確認する"
   },
   {
@@ -3957,8 +4579,13 @@
         "label": "Lesson 4: Contrast ～とは違って"
       }
     ],
-    "partOfSpeech": "ichidan verb",
+    "partOfSpeech": [
+      "Group 2 Verb"
+    ],
     "reading": "かんがえる",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "考える"
   },
   {
@@ -3989,8 +4616,14 @@
         "label": "Lesson 3: Degree and comparison 比べれば…・～がいちばん"
       }
     ],
-    "partOfSpeech": "noun",
+    "partOfSpeech": [
+      "Noun"
+    ],
     "reading": "かんじ",
+    "topicIds": [
+      "feelings-personality",
+      "school-study"
+    ],
     "written": "漢字"
   },
   {
@@ -4016,8 +4649,13 @@
         "label": "Lesson 8: Strong and partial negation 絶対～ない・必ず～とは言えない"
       }
     ],
-    "partOfSpeech": "i-adjective",
+    "partOfSpeech": [
+      "I-Adjective"
+    ],
     "reading": "からい",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "辛い"
   },
   {
@@ -4043,8 +4681,13 @@
         "label": "Lesson 1: Time relationships ～とき"
       }
     ],
-    "partOfSpeech": "ichidan verb",
+    "partOfSpeech": [
+      "Group 2 Verb"
+    ],
     "reading": "かさねる",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "重ねる"
   },
   {
@@ -4074,8 +4717,13 @@
         "label": "Lesson 8: Strong and partial negation 絶対～ない・必ず～とは言えない"
       }
     ],
-    "partOfSpeech": "godan verb",
+    "partOfSpeech": [
+      "Group 1 Verb"
+    ],
     "reading": "かう",
+    "topicIds": [
+      "money-shopping"
+    ],
     "written": "買う"
   },
   {
@@ -4100,8 +4748,13 @@
         "label": "Lesson 3: Degree and comparison 比べれば…・～がいちばん"
       }
     ],
-    "partOfSpeech": "noun",
+    "partOfSpeech": [
+      "Noun"
+    ],
     "reading": "かぜ",
+    "topicIds": [
+      "nature-weather"
+    ],
     "written": "風"
   },
   {
@@ -4131,8 +4784,14 @@
         "label": "Lesson 1: Time relationships ～とき"
       }
     ],
-    "partOfSpeech": "noun",
+    "partOfSpeech": [
+      "Noun"
+    ],
     "reading": "かぞく",
+    "topicIds": [
+      "people-family-relationships",
+      "home-daily-life"
+    ],
     "written": "家族"
   },
   {
@@ -4167,8 +4826,14 @@
         "label": "Lesson 12: Respectful, humble, and polite language"
       }
     ],
-    "partOfSpeech": "noun / suru verb",
+    "partOfSpeech": [
+      "Noun",
+      "Group 3 Verb"
+    ],
     "reading": "けんきゅう",
+    "topicIds": [
+      "school-study"
+    ],
     "written": "研究"
   },
   {
@@ -4224,8 +4889,13 @@
         "label": "Lesson 11: Intentions, efforts, and attempts"
       }
     ],
-    "partOfSpeech": "godan verb",
+    "partOfSpeech": [
+      "Group 1 Verb"
+    ],
     "reading": "きく",
+    "topicIds": [
+      "communication-media"
+    ],
     "written": "聞く"
   },
   {
@@ -4256,8 +4926,14 @@
         "label": "Lesson 1: Time relationships ～とき"
       }
     ],
-    "partOfSpeech": "noun / suru verb",
+    "partOfSpeech": [
+      "Noun",
+      "Group 3 Verb"
+    ],
     "reading": "きんちょう",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "緊張"
   },
   {
@@ -4293,8 +4969,13 @@
         "label": "Lesson 4: Contrast ～とは違って"
       }
     ],
-    "partOfSpeech": "noun",
+    "partOfSpeech": [
+      "Noun"
+    ],
     "reading": "きんちょうかん",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "緊張感"
   },
   {
@@ -4325,8 +5006,13 @@
         "label": "Lesson 4: Contrast ～とは違って"
       }
     ],
-    "partOfSpeech": "na-adjective",
+    "partOfSpeech": [
+      "Na-Adjective"
+    ],
     "reading": "きらく",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "気楽"
   },
   {
@@ -4366,8 +5052,14 @@
         "label": "Lesson 2: Relationships ～と関係して"
       }
     ],
-    "partOfSpeech": "noun",
+    "partOfSpeech": [
+      "Noun"
+    ],
     "reading": "きたくじかん",
+    "topicIds": [
+      "time-dates-schedules",
+      "home-daily-life"
+    ],
     "written": "帰宅時間"
   },
   {
@@ -4397,8 +5089,13 @@
         "label": "Lesson 2: Relationships ～と関係して"
       }
     ],
-    "partOfSpeech": "noun",
+    "partOfSpeech": [
+      "Noun"
+    ],
     "reading": "こうばん",
+    "topicIds": [
+      "society-public-services"
+    ],
     "written": "交番"
   },
   {
@@ -4452,8 +5149,13 @@
         "label": "Lesson 11: Intentions, efforts, and attempts"
       }
     ],
-    "partOfSpeech": "noun",
+    "partOfSpeech": [
+      "Noun"
+    ],
     "reading": "こども",
+    "topicIds": [
+      "people-family-relationships"
+    ],
     "written": "子ども"
   },
   {
@@ -4478,8 +5180,14 @@
         "label": "Lesson 1: Time relationships ～とき"
       }
     ],
-    "partOfSpeech": "noun",
+    "partOfSpeech": [
+      "Noun"
+    ],
     "reading": "こたえ",
+    "topicIds": [
+      "school-study",
+      "communication-media"
+    ],
     "written": "答え"
   },
   {
@@ -4524,8 +5232,13 @@
         "label": "Lesson 11: Intentions, efforts, and attempts"
       }
     ],
-    "partOfSpeech": "noun",
+    "partOfSpeech": [
+      "Noun"
+    ],
     "reading": "ことし",
+    "topicIds": [
+      "time-dates-schedules"
+    ],
     "written": "今年"
   },
   {
@@ -4565,8 +5278,13 @@
         "label": "Lesson 12: Respectful, humble, and polite language"
       }
     ],
-    "partOfSpeech": "noun",
+    "partOfSpeech": [
+      "Noun"
+    ],
     "reading": "くに",
+    "topicIds": [
+      "places-directions"
+    ],
     "written": "国"
   },
   {
@@ -4592,8 +5310,13 @@
         "label": "Lesson 1: Time relationships ～とき"
       }
     ],
-    "partOfSpeech": "i-adjective",
+    "partOfSpeech": [
+      "I-Adjective"
+    ],
     "reading": "くらい",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "暗い"
   },
   {
@@ -4628,8 +5351,13 @@
         "label": "Lesson 10: Advice and commands ～したほうがいい・～なさい"
       }
     ],
-    "partOfSpeech": "irregular verb",
+    "partOfSpeech": [
+      "Group 3 Verb"
+    ],
     "reading": "くる",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "来る"
   },
   {
@@ -4655,8 +5383,13 @@
         "label": "Lesson 1: Time relationships ～とき"
       }
     ],
-    "partOfSpeech": "noun",
+    "partOfSpeech": [
+      "Noun"
+    ],
     "reading": "くるま",
+    "topicIds": [
+      "travel-transportation"
+    ],
     "written": "車"
   },
   {
@@ -4682,8 +5415,13 @@
         "label": "Lesson 1: Time relationships ～とき"
       }
     ],
-    "partOfSpeech": "noun",
+    "partOfSpeech": [
+      "Noun"
+    ],
     "reading": "くさ",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "草"
   },
   {
@@ -4708,8 +5446,13 @@
         "label": "Lesson 2: Relationships ～と関係して"
       }
     ],
-    "partOfSpeech": "noun",
+    "partOfSpeech": [
+      "Noun"
+    ],
     "reading": "くつ",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "靴"
   },
   {
@@ -4774,8 +5517,14 @@
         "label": "Lesson 12: Respectful, humble, and polite language"
       }
     ],
-    "partOfSpeech": "noun / adverb",
+    "partOfSpeech": [
+      "Noun",
+      "Adverb"
+    ],
     "reading": "きょう",
+    "topicIds": [
+      "time-dates-schedules"
+    ],
     "written": "今日"
   },
   {
@@ -4805,8 +5554,13 @@
         "label": "Lesson 4: Contrast ～とは違って"
       }
     ],
-    "partOfSpeech": "noun",
+    "partOfSpeech": [
+      "Noun"
+    ],
     "reading": "きょうじゅ",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "教授"
   },
   {
@@ -4832,8 +5586,13 @@
         "label": "Lesson 1: Time relationships ～とき"
       }
     ],
-    "partOfSpeech": "noun",
+    "partOfSpeech": [
+      "Noun"
+    ],
     "reading": "きょく",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "曲"
   },
   {
@@ -4874,8 +5633,13 @@
         "label": "Lesson 4: Contrast ～とは違って"
       }
     ],
-    "partOfSpeech": "noun",
+    "partOfSpeech": [
+      "Noun"
+    ],
     "reading": "きょうそうあいて",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "競争相手"
   },
   {
@@ -4905,8 +5669,13 @@
         "label": "Lesson 12: Respectful, humble, and polite language"
       }
     ],
-    "partOfSpeech": "proper noun",
+    "partOfSpeech": [
+      "Noun"
+    ],
     "reading": "きょうと",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "京都"
   },
   {
@@ -4931,8 +5700,13 @@
         "label": "Lesson 10: Advice and commands ～したほうがいい・～なさい"
       }
     ],
-    "partOfSpeech": "i-adjective",
+    "partOfSpeech": [
+      "I-Adjective"
+    ],
     "reading": "あぶない",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "危ない"
   },
   {
@@ -4967,8 +5741,13 @@
         "label": "Lesson 10: Advice and commands ～したほうがいい・～なさい"
       }
     ],
-    "partOfSpeech": "noun",
+    "partOfSpeech": [
+      "Noun"
+    ],
     "reading": "あかしんごう",
+    "topicIds": [
+      "travel-transportation"
+    ],
     "written": "赤信号"
   },
   {
@@ -4993,8 +5772,13 @@
         "label": "Lesson 10: Advice and commands ～したほうがいい・～なさい"
       }
     ],
-    "partOfSpeech": "godan verb",
+    "partOfSpeech": [
+      "Group 1 Verb"
+    ],
     "reading": "あやまる",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "謝る"
   },
   {
@@ -5029,8 +5813,13 @@
         "label": "Lesson 10: Advice and commands ～したほうがいい・～なさい"
       }
     ],
-    "partOfSpeech": "noun",
+    "partOfSpeech": [
+      "Noun"
+    ],
     "reading": "ちゅういがき",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "注意書き"
   },
   {
@@ -5060,8 +5849,13 @@
         "label": "Lesson 10: Advice and commands ～したほうがいい・～なさい"
       }
     ],
-    "partOfSpeech": "noun",
+    "partOfSpeech": [
+      "Noun"
+    ],
     "reading": "がっこう",
+    "topicIds": [
+      "school-study"
+    ],
     "written": "学校"
   },
   {
@@ -5096,8 +5890,13 @@
         "label": "Lesson 10: Advice and commands ～したほうがいい・～なさい"
       }
     ],
-    "partOfSpeech": "noun",
+    "partOfSpeech": [
+      "Noun"
+    ],
     "reading": "げつようび",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "月曜日"
   },
   {
@@ -5127,8 +5926,14 @@
         "label": "Lesson 10: Advice and commands ～したほうがいい・～なさい"
       }
     ],
-    "partOfSpeech": "noun; suru verb",
+    "partOfSpeech": [
+      "Noun",
+      "Group 3 Verb"
+    ],
     "reading": "ひっこし",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "引っ越し"
   },
   {
@@ -5163,8 +5968,14 @@
         "label": "Lesson 10: Advice and commands ～したほうがいい・～なさい"
       }
     ],
-    "partOfSpeech": "noun; suru verb",
+    "partOfSpeech": [
+      "Noun",
+      "Group 3 Verb"
+    ],
     "reading": "いみ",
+    "topicIds": [
+      "school-study"
+    ],
     "written": "意味"
   },
   {
@@ -5199,8 +6010,13 @@
         "label": "Lesson 10: Advice and commands ～したほうがいい・～なさい"
       }
     ],
-    "partOfSpeech": "noun",
+    "partOfSpeech": [
+      "Noun"
+    ],
     "reading": "いしゃ",
+    "topicIds": [
+      "body-health"
+    ],
     "written": "医者"
   },
   {
@@ -5240,8 +6056,13 @@
         "label": "Lesson 10: Advice and commands ～したほうがいい・～なさい"
       }
     ],
-    "partOfSpeech": "noun",
+    "partOfSpeech": [
+      "Noun"
+    ],
     "reading": "かいしゃ",
+    "topicIds": [
+      "work-business"
+    ],
     "written": "会社"
   },
   {
@@ -5271,8 +6092,13 @@
         "label": "Lesson 10: Advice and commands ～したほうがいい・～なさい"
       }
     ],
-    "partOfSpeech": "adverb",
+    "partOfSpeech": [
+      "Adverb"
+    ],
     "reading": "かならず",
+    "topicIds": [
+      "school-study"
+    ],
     "written": "必ず"
   },
   {
@@ -5302,8 +6128,13 @@
         "label": "Lesson 10: Advice and commands ～したほうがいい・～なさい"
       }
     ],
-    "partOfSpeech": "na-adjective",
+    "partOfSpeech": [
+      "Na-Adjective"
+    ],
     "reading": "かんたん",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "簡単"
   },
   {
@@ -5333,8 +6164,14 @@
         "label": "Lesson 10: Advice and commands ～したほうがいい・～なさい"
       }
     ],
-    "partOfSpeech": "noun; suru verb",
+    "partOfSpeech": [
+      "Noun",
+      "Group 3 Verb"
+    ],
     "reading": "かんとく",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "監督"
   },
   {
@@ -5369,8 +6206,13 @@
         "label": "Lesson 10: Advice and commands ～したほうがいい・～なさい"
       }
     ],
-    "partOfSpeech": "noun",
+    "partOfSpeech": [
+      "Noun"
+    ],
     "reading": "かわ",
+    "topicIds": [
+      "nature-weather"
+    ],
     "written": "川"
   },
   {
@@ -5415,8 +6257,14 @@
         "label": "Lesson 10: Advice and commands ～したほうがいい・～なさい"
       }
     ],
-    "partOfSpeech": "noun; suru verb",
+    "partOfSpeech": [
+      "Noun",
+      "Group 3 Verb"
+    ],
     "reading": "けんこうしんだん",
+    "topicIds": [
+      "body-health"
+    ],
     "written": "健康診断"
   },
   {
@@ -5451,8 +6299,14 @@
         "label": "Lesson 10: Advice and commands ～したほうがいい・～なさい"
       }
     ],
-    "partOfSpeech": "noun; adverb",
+    "partOfSpeech": [
+      "Noun",
+      "Adverb"
+    ],
     "reading": "きょうじゅう",
+    "topicIds": [
+      "time-dates-schedules"
+    ],
     "written": "今日中"
   },
   {
@@ -5496,8 +6350,14 @@
         "label": "Lesson 10: Advice and commands ～したほうがいい・～なさい"
       }
     ],
-    "partOfSpeech": "noun; suru verb",
+    "partOfSpeech": [
+      "Noun",
+      "Group 3 Verb"
+    ],
     "reading": "めいれい",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "命令"
   },
   {
@@ -5527,8 +6387,13 @@
         "label": "Lesson 10: Advice and commands ～したほうがいい・～なさい"
       }
     ],
-    "partOfSpeech": "noun",
+    "partOfSpeech": [
+      "Noun"
+    ],
     "reading": "めいわくめーる",
+    "topicIds": [
+      "communication-media"
+    ],
     "written": "迷惑メール"
   },
   {
@@ -5553,8 +6418,13 @@
         "label": "Lesson 3: Degree and comparison 比べれば…・～がいちばん"
       }
     ],
-    "partOfSpeech": "ichidan verb",
+    "partOfSpeech": [
+      "Group 2 Verb"
+    ],
     "reading": "おくれる",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "遅れる"
   },
   {
@@ -5584,8 +6454,13 @@
         "label": "Lesson 12: Respectful, humble, and polite language"
       }
     ],
-    "partOfSpeech": "noun",
+    "partOfSpeech": [
+      "Noun"
+    ],
     "reading": "おさけ",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "お酒"
   },
   {
@@ -5610,8 +6485,13 @@
         "label": "Lesson 10: Advice and commands ～したほうがいい・～なさい"
       }
     ],
-    "partOfSpeech": "godan verb",
+    "partOfSpeech": [
+      "Group 1 Verb"
+    ],
     "reading": "およぐ",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "泳ぐ"
   },
   {
@@ -5650,8 +6530,14 @@
         "label": "Lesson 10: Advice and commands ～したほうがいい・～なさい"
       }
     ],
-    "partOfSpeech": "noun; adverb",
+    "partOfSpeech": [
+      "Noun",
+      "Adverb"
+    ],
     "reading": "らいしゅう",
+    "topicIds": [
+      "time-dates-schedules"
+    ],
     "written": "来週"
   },
   {
@@ -5696,8 +6582,14 @@
         "label": "Lesson 10: Advice and commands ～したほうがいい・～なさい"
       }
     ],
-    "partOfSpeech": "noun; suru verb",
+    "partOfSpeech": [
+      "Noun",
+      "Group 3 Verb"
+    ],
     "reading": "しあい",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "試合"
   },
   {
@@ -5722,8 +6614,13 @@
         "label": "Lesson 10: Advice and commands ～したほうがいい・～なさい"
       }
     ],
-    "partOfSpeech": "godan verb",
+    "partOfSpeech": [
+      "Group 1 Verb"
+    ],
     "reading": "したがう",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "従う"
   },
   {
@@ -5748,8 +6645,13 @@
         "label": "Lesson 10: Advice and commands ～したほうがいい・～なさい"
       }
     ],
-    "partOfSpeech": "godan verb",
+    "partOfSpeech": [
+      "Group 1 Verb"
+    ],
     "reading": "たのむ",
+    "topicIds": [
+      "communication-media"
+    ],
     "written": "頼む"
   },
   {
@@ -5784,8 +6686,13 @@
         "label": "Lesson 10: Advice and commands ～したほうがいい・～なさい"
       }
     ],
-    "partOfSpeech": "noun",
+    "partOfSpeech": [
+      "Noun"
+    ],
     "reading": "たてふだ",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "立て札"
   },
   {
@@ -5825,8 +6732,13 @@
         "label": "Lesson 11: Intentions, efforts, and attempts"
       }
     ],
-    "partOfSpeech": "noun",
+    "partOfSpeech": [
+      "Noun"
+    ],
     "reading": "ともだち",
+    "topicIds": [
+      "people-family-relationships"
+    ],
     "written": "友だち"
   },
   {
@@ -5861,8 +6773,13 @@
         "label": "Lesson 10: Advice and commands ～したほうがいい・～なさい"
       }
     ],
-    "partOfSpeech": "ichidan verb",
+    "partOfSpeech": [
+      "Group 2 Verb"
+    ],
     "reading": "やめる",
+    "topicIds": [
+      "work-business"
+    ],
     "written": "辞める"
   },
   {
@@ -5892,8 +6809,14 @@
         "label": "Lesson 10: Advice and commands ～したほうがいい・～なさい"
       }
     ],
-    "partOfSpeech": "adverbial phrase",
+    "partOfSpeech": [
+      "Adverb",
+      "Expression"
+    ],
     "reading": "よるおそく",
+    "topicIds": [
+      "time-dates-schedules"
+    ],
     "written": "夜遅く"
   },
   {
@@ -5938,8 +6861,13 @@
         "label": "Lesson 11: Intentions, efforts, and attempts"
       }
     ],
-    "partOfSpeech": "pronoun",
+    "partOfSpeech": [
+      "Pronoun"
+    ],
     "reading": "かれ",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "彼"
   },
   {
@@ -5964,8 +6892,14 @@
         "label": "Lesson 12: Respectful, humble, and polite language"
       }
     ],
-    "partOfSpeech": "noun; verb",
+    "partOfSpeech": [
+      "Noun",
+      "Group 2 Verb"
+    ],
     "reading": "かたづけ",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "片付け"
   },
   {
@@ -5990,8 +6924,14 @@
         "label": "Lesson 11: Intentions, efforts, and attempts"
       }
     ],
-    "partOfSpeech": "noun",
+    "partOfSpeech": [
+      "Noun"
+    ],
     "reading": "びょういん",
+    "topicIds": [
+      "body-health",
+      "society-public-services"
+    ],
     "written": "病院"
   },
   {
@@ -6021,8 +6961,14 @@
         "label": "Lesson 11: Intentions, efforts, and attempts"
       }
     ],
-    "partOfSpeech": "noun; verb",
+    "partOfSpeech": [
+      "Noun",
+      "Group 3 Verb"
+    ],
     "reading": "せつめい",
+    "topicIds": [
+      "school-study"
+    ],
     "written": "説明"
   },
   {
@@ -6057,8 +7003,14 @@
         "label": "Lesson 9: Wishes and requests ～と望む"
       }
     ],
-    "partOfSpeech": "noun; na-adjective",
+    "partOfSpeech": [
+      "Noun",
+      "Na-Adjective"
+    ],
     "reading": "むり",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "無理"
   },
   {
@@ -6083,8 +7035,13 @@
         "label": "Lesson 11: Intentions, efforts, and attempts"
       }
     ],
-    "partOfSpeech": "noun",
+    "partOfSpeech": [
+      "Noun"
+    ],
     "reading": "じじょう",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "事情"
   },
   {
@@ -6148,8 +7105,13 @@
         "label": "Lesson 10: Advice and commands ～したほうがいい・～なさい"
       }
     ],
-    "partOfSpeech": "noun",
+    "partOfSpeech": [
+      "Noun"
+    ],
     "reading": "しごと",
+    "topicIds": [
+      "work-business"
+    ],
     "written": "仕事"
   },
   {
@@ -6174,8 +7136,13 @@
         "label": "Lesson 11: Intentions, efforts, and attempts"
       }
     ],
-    "partOfSpeech": "noun",
+    "partOfSpeech": [
+      "Noun"
+    ],
     "reading": "せんぱい",
+    "topicIds": [
+      "people-family-relationships"
+    ],
     "written": "先輩"
   },
   {
@@ -6200,8 +7167,13 @@
         "label": "Lesson 11: Intentions, efforts, and attempts"
       }
     ],
-    "partOfSpeech": "expression",
+    "partOfSpeech": [
+      "Expression"
+    ],
     "reading": "てをのばして",
+    "topicIds": [
+      "body-health"
+    ],
     "written": "手を伸ばして"
   },
   {
@@ -6226,8 +7198,13 @@
         "label": "Lesson 11: Intentions, efforts, and attempts"
       }
     ],
-    "partOfSpeech": "verb form",
+    "partOfSpeech": [
+      "Group 1 Verb"
+    ],
     "reading": "ふりだした",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "降り出した"
   },
   {
@@ -6257,8 +7234,13 @@
         "label": "Lesson 11: Intentions, efforts, and attempts"
       }
     ],
-    "partOfSpeech": "noun",
+    "partOfSpeech": [
+      "Noun"
+    ],
     "reading": "ことば",
+    "topicIds": [
+      "school-study"
+    ],
     "written": "言葉"
   },
   {
@@ -6288,8 +7270,13 @@
         "label": "Lesson 10: Advice and commands ～したほうがいい・～なさい"
       }
     ],
-    "partOfSpeech": "noun",
+    "partOfSpeech": [
+      "Noun"
+    ],
     "reading": "そと",
+    "topicIds": [
+      "places-directions"
+    ],
     "written": "外"
   },
   {
@@ -6314,8 +7301,13 @@
         "label": "Lesson 11: Intentions, efforts, and attempts"
       }
     ],
-    "partOfSpeech": "expression",
+    "partOfSpeech": [
+      "Expression"
+    ],
     "reading": "くちをだす",
+    "topicIds": [
+      "school-study"
+    ],
     "written": "口を出す"
   },
   {
@@ -6340,8 +7332,14 @@
         "label": "Lesson 11: Intentions, efforts, and attempts"
       }
     ],
-    "partOfSpeech": "noun",
+    "partOfSpeech": [
+      "Noun"
+    ],
     "reading": "しゅうごうじかん",
+    "topicIds": [
+      "time-dates-schedules",
+      "work-business"
+    ],
     "written": "集合時間"
   },
   {
@@ -6376,8 +7374,13 @@
         "label": "Lesson 11: Intentions, efforts, and attempts"
       }
     ],
-    "partOfSpeech": "noun",
+    "partOfSpeech": [
+      "Noun"
+    ],
     "reading": "やすみ",
+    "topicIds": [
+      "time-dates-schedules"
+    ],
     "written": "休み"
   },
   {
@@ -6402,8 +7405,13 @@
         "label": "Lesson 11: Intentions, efforts, and attempts"
       }
     ],
-    "partOfSpeech": "noun",
+    "partOfSpeech": [
+      "Noun"
+    ],
     "reading": "こし",
+    "topicIds": [
+      "places-directions"
+    ],
     "written": "腰"
   },
   {
@@ -6433,8 +7441,13 @@
         "label": "Lesson 12: Respectful, humble, and polite language"
       }
     ],
-    "partOfSpeech": "noun",
+    "partOfSpeech": [
+      "Noun"
+    ],
     "reading": "よる",
+    "topicIds": [
+      "time-dates-schedules"
+    ],
     "written": "夜"
   },
   {
@@ -6459,8 +7472,13 @@
         "label": "Lesson 11: Intentions, efforts, and attempts"
       }
     ],
-    "partOfSpeech": "verb form",
+    "partOfSpeech": [
+      "Group 1 Verb"
+    ],
     "reading": "おこった",
+    "topicIds": [
+      "feelings-personality"
+    ],
     "written": "怒った"
   },
   {
@@ -6485,8 +7503,13 @@
         "label": "Lesson 11: Intentions, efforts, and attempts"
       }
     ],
-    "partOfSpeech": "noun",
+    "partOfSpeech": [
+      "Noun"
+    ],
     "reading": "としうえ",
+    "topicIds": [
+      "people-family-relationships"
+    ],
     "written": "年上"
   },
   {
@@ -6511,8 +7534,13 @@
         "label": "Lesson 11: Intentions, efforts, and attempts"
       }
     ],
-    "partOfSpeech": "noun",
+    "partOfSpeech": [
+      "Noun"
+    ],
     "reading": "にもつ",
+    "topicIds": [
+      "travel-transportation"
+    ],
     "written": "荷物"
   },
   {
@@ -6547,8 +7575,14 @@
         "label": "Lesson 11: Intentions, efforts, and attempts"
       }
     ],
-    "partOfSpeech": "noun; verb",
+    "partOfSpeech": [
+      "Noun",
+      "Group 3 Verb"
+    ],
     "reading": "そうじ",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "掃除"
   },
   {
@@ -6573,8 +7607,13 @@
         "label": "Lesson 6: Conditions and hypotheses もし、…"
       }
     ],
-    "partOfSpeech": "noun",
+    "partOfSpeech": [
+      "Noun"
+    ],
     "reading": "あいて",
+    "topicIds": [
+      "people-family-relationships"
+    ],
     "written": "相手"
   },
   {
@@ -6599,8 +7638,13 @@
         "label": "Lesson 11: Intentions, efforts, and attempts"
       }
     ],
-    "partOfSpeech": "na-adjective",
+    "partOfSpeech": [
+      "Na-Adjective"
+    ],
     "reading": "たいせつ",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "大切"
   },
   {
@@ -6629,8 +7673,13 @@
         "label": "Lesson 12: Respectful, humble, and polite language"
       }
     ],
-    "partOfSpeech": "noun",
+    "partOfSpeech": [
+      "Noun"
+    ],
     "reading": "なまえ",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "名前"
   },
   {
@@ -6655,8 +7704,13 @@
         "label": "Lesson 11: Intentions, efforts, and attempts"
       }
     ],
-    "partOfSpeech": "noun",
+    "partOfSpeech": [
+      "Noun"
+    ],
     "reading": "むすめ",
+    "topicIds": [
+      "people-family-relationships"
+    ],
     "written": "娘"
   },
   {
@@ -6681,8 +7735,13 @@
         "label": "Lesson 11: Intentions, efforts, and attempts"
       }
     ],
-    "partOfSpeech": "verb form",
+    "partOfSpeech": [
+      "Group 2 Verb"
+    ],
     "reading": "つれて",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "連れて"
   },
   {
@@ -6707,8 +7766,13 @@
         "label": "Lesson 11: Intentions, efforts, and attempts"
       }
     ],
-    "partOfSpeech": "i-adjective",
+    "partOfSpeech": [
+      "I-Adjective"
+    ],
     "reading": "わかい",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "若い"
   },
   {
@@ -6733,8 +7797,13 @@
         "label": "Lesson 11: Intentions, efforts, and attempts"
       }
     ],
-    "partOfSpeech": "i-adjective",
+    "partOfSpeech": [
+      "I-Adjective"
+    ],
     "reading": "きたない",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "汚い"
   },
   {
@@ -6759,8 +7828,13 @@
         "label": "Lesson 11: Intentions, efforts, and attempts"
       }
     ],
-    "partOfSpeech": "expression",
+    "partOfSpeech": [
+      "Expression"
+    ],
     "reading": "きにしない",
+    "topicIds": [
+      "school-study"
+    ],
     "written": "気にしない"
   },
   {
@@ -6790,8 +7864,13 @@
         "label": "Lesson 11: Intentions, efforts, and attempts"
       }
     ],
-    "partOfSpeech": "verb form",
+    "partOfSpeech": [
+      "Group 2 Verb"
+    ],
     "reading": "おくれない",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "遅れない"
   },
   {
@@ -6821,8 +7900,13 @@
         "label": "Lesson 11: Intentions, efforts, and attempts"
       }
     ],
-    "partOfSpeech": "i-adjective",
+    "partOfSpeech": [
+      "I-Adjective"
+    ],
     "reading": "おもい",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "重い"
   },
   {
@@ -6847,8 +7931,13 @@
         "label": "Lesson 11: Intentions, efforts, and attempts"
       }
     ],
-    "partOfSpeech": "verb",
+    "partOfSpeech": [
+      "Group 1 Verb"
+    ],
     "reading": "ことわる",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "断る"
   },
   {
@@ -6873,8 +7962,14 @@
         "label": "Lesson 11: Intentions, efforts, and attempts"
       }
     ],
-    "partOfSpeech": "volitional verb",
+    "partOfSpeech": [
+      "Group 1 Verb"
+    ],
     "reading": "ねむろう",
+    "topicIds": [
+      "body-health",
+      "home-daily-life"
+    ],
     "written": "眠ろう"
   },
   {
@@ -6899,8 +7994,13 @@
         "label": "Lesson 11: Intentions, efforts, and attempts"
       }
     ],
-    "partOfSpeech": "volitional verb",
+    "partOfSpeech": [
+      "Group 2 Verb"
+    ],
     "reading": "もちあげよう",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "持ち上げよう"
   },
   {
@@ -6930,8 +8030,13 @@
         "label": "Lesson 11: Intentions, efforts, and attempts"
       }
     ],
-    "partOfSpeech": "noun",
+    "partOfSpeech": [
+      "Noun"
+    ],
     "reading": "やくそく",
+    "topicIds": [
+      "time-dates-schedules"
+    ],
     "written": "約束"
   },
   {
@@ -6975,8 +8080,13 @@
         "label": "Lesson 11: Intentions, efforts, and attempts"
       }
     ],
-    "partOfSpeech": "noun",
+    "partOfSpeech": [
+      "Noun"
+    ],
     "reading": "りょうり",
+    "topicIds": [
+      "food-cooking"
+    ],
     "written": "料理"
   },
   {
@@ -7001,8 +8111,14 @@
         "label": "Lesson 3: Degree and comparison 比べれば…・～がいちばん"
       }
     ],
-    "partOfSpeech": "noun; adverb",
+    "partOfSpeech": [
+      "Noun",
+      "Adverb"
+    ],
     "reading": "まいあさ",
+    "topicIds": [
+      "time-dates-schedules"
+    ],
     "written": "毎朝"
   },
   {
@@ -7032,8 +8148,14 @@
         "label": "Lesson 11: Intentions, efforts, and attempts"
       }
     ],
-    "partOfSpeech": "noun; adverb",
+    "partOfSpeech": [
+      "Noun",
+      "Adverb"
+    ],
     "reading": "ほんとう",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "本当"
   },
   {
@@ -7058,8 +8180,14 @@
         "label": "Lesson 11: Intentions, efforts, and attempts"
       }
     ],
-    "partOfSpeech": "verb form",
+    "partOfSpeech": [
+      "Group 2 Verb"
+    ],
     "reading": "ねむれなかった",
+    "topicIds": [
+      "body-health",
+      "home-daily-life"
+    ],
     "written": "眠れなかった"
   },
   {
@@ -7089,8 +8217,13 @@
         "label": "Lesson 8: Strong and partial negation 絶対～ない・必ず～とは言えない"
       }
     ],
-    "partOfSpeech": "noun",
+    "partOfSpeech": [
+      "Noun"
+    ],
     "reading": "しけん",
+    "topicIds": [
+      "school-study"
+    ],
     "written": "試験"
   },
   {
@@ -7115,8 +8248,13 @@
         "label": "Lesson 5: Reasons and causes ～だから"
       }
     ],
-    "partOfSpeech": "noun",
+    "partOfSpeech": [
+      "Noun"
+    ],
     "reading": "にほんご",
+    "topicIds": [
+      "school-study"
+    ],
     "written": "日本語"
   },
   {
@@ -7151,8 +8289,14 @@
         "label": "Lesson 11: Intentions, efforts, and attempts"
       }
     ],
-    "partOfSpeech": "noun; adverb",
+    "partOfSpeech": [
+      "Noun",
+      "Adverb"
+    ],
     "reading": "まいにち",
+    "topicIds": [
+      "time-dates-schedules"
+    ],
     "written": "毎日"
   },
   {
@@ -7192,8 +8336,13 @@
         "label": "Lesson 11: Intentions, efforts, and attempts"
       }
     ],
-    "partOfSpeech": "noun",
+    "partOfSpeech": [
+      "Noun"
+    ],
     "reading": "こんど",
+    "topicIds": [
+      "time-dates-schedules"
+    ],
     "written": "今度"
   },
   {
@@ -7218,8 +8367,13 @@
         "label": "Lesson 1: Time relationships ～とき"
       }
     ],
-    "partOfSpeech": "noun",
+    "partOfSpeech": [
+      "Noun"
+    ],
     "reading": "しゅんかん",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "瞬間"
   },
   {
@@ -7264,8 +8418,13 @@
         "label": "Lesson 11: Intentions, efforts, and attempts"
       }
     ],
-    "partOfSpeech": "adverb",
+    "partOfSpeech": [
+      "Adverb"
+    ],
     "reading": "はやく",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "早く"
   },
   {
@@ -7294,8 +8453,14 @@
         "label": "Lesson 1: Time relationships ～とき"
       }
     ],
-    "partOfSpeech": "noun; verb",
+    "partOfSpeech": [
+      "Noun",
+      "Group 3 Verb"
+    ],
     "reading": "りょこう",
+    "topicIds": [
+      "travel-transportation"
+    ],
     "written": "旅行"
   },
   {
@@ -7320,8 +8485,13 @@
         "label": "Lesson 12: Respectful, humble, and polite language"
       }
     ],
-    "partOfSpeech": "noun",
+    "partOfSpeech": [
+      "Noun"
+    ],
     "reading": "わしょく",
+    "topicIds": [
+      "food-cooking"
+    ],
     "written": "和食"
   },
   {
@@ -7346,8 +8516,13 @@
         "label": "Lesson 12: Respectful, humble, and polite language"
       }
     ],
-    "partOfSpeech": "verb stem",
+    "partOfSpeech": [
+      "Group 2 Verb"
+    ],
     "reading": "もうしあげ",
+    "topicIds": [
+      "communication-media"
+    ],
     "written": "申し上げ"
   },
   {
@@ -7372,8 +8547,13 @@
         "label": "Lesson 12: Respectful, humble, and polite language"
       }
     ],
-    "partOfSpeech": "noun",
+    "partOfSpeech": [
+      "Noun"
+    ],
     "reading": "さしみ",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "刺身"
   },
   {
@@ -7398,8 +8578,14 @@
         "label": "Lesson 12: Respectful, humble, and polite language"
       }
     ],
-    "partOfSpeech": "noun; verb",
+    "partOfSpeech": [
+      "Noun",
+      "Group 3 Verb"
+    ],
     "reading": "そつぎょう",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "卒業"
   },
   {
@@ -7489,8 +8675,13 @@
         "label": "Lesson 12: Respectful, humble, and polite language"
       }
     ],
-    "partOfSpeech": "noun",
+    "partOfSpeech": [
+      "Noun"
+    ],
     "reading": "せんせい",
+    "topicIds": [
+      "school-study"
+    ],
     "written": "先生"
   },
   {
@@ -7515,8 +8706,13 @@
         "label": "Lesson 12: Respectful, humble, and polite language"
       }
     ],
-    "partOfSpeech": "verb stem",
+    "partOfSpeech": [
+      "Group 1 Verb"
+    ],
     "reading": "さがし",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "探し"
   },
   {
@@ -7541,8 +8737,13 @@
         "label": "Lesson 12: Respectful, humble, and polite language"
       }
     ],
-    "partOfSpeech": "humble verb",
+    "partOfSpeech": [
+      "Group 1 Verb"
+    ],
     "reading": "もうします",
+    "topicIds": [
+      "communication-media"
+    ],
     "written": "申します"
   },
   {
@@ -7567,8 +8768,13 @@
         "label": "Lesson 12: Respectful, humble, and polite language"
       }
     ],
-    "partOfSpeech": "noun",
+    "partOfSpeech": [
+      "Noun"
+    ],
     "reading": "けんきゅうかい",
+    "topicIds": [
+      "school-study"
+    ],
     "written": "研究会"
   },
   {
@@ -7601,8 +8807,13 @@
         "label": "Lesson 12: Respectful, humble, and polite language"
       }
     ],
-    "partOfSpeech": "verb stem",
+    "partOfSpeech": [
+      "Noun"
+    ],
     "reading": "ぞんじ",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "存じ"
   },
   {
@@ -7627,8 +8838,14 @@
         "label": "Lesson 12: Respectful, humble, and polite language"
       }
     ],
-    "partOfSpeech": "noun; verb",
+    "partOfSpeech": [
+      "Noun",
+      "Group 3 Verb"
+    ],
     "reading": "しゅっせき",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "出席"
   },
   {
@@ -7662,8 +8879,13 @@
         "label": "Lesson 12: Respectful, humble, and polite language"
       }
     ],
-    "partOfSpeech": "noun",
+    "partOfSpeech": [
+      "Noun"
+    ],
     "reading": "らいげつ",
+    "topicIds": [
+      "time-dates-schedules"
+    ],
     "written": "来月"
   },
   {
@@ -7693,8 +8915,13 @@
         "label": "Lesson 12: Respectful, humble, and polite language"
       }
     ],
-    "partOfSpeech": "proper noun",
+    "partOfSpeech": [
+      "Noun"
+    ],
     "reading": "やまなか",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "山中"
   },
   {
@@ -7729,8 +8956,13 @@
         "label": "Lesson 12: Respectful, humble, and polite language"
       }
     ],
-    "partOfSpeech": "noun",
+    "partOfSpeech": [
+      "Noun"
+    ],
     "reading": "しゃしん",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "写真"
   },
   {
@@ -7755,8 +8987,13 @@
         "label": "Lesson 12: Respectful, humble, and polite language"
       }
     ],
-    "partOfSpeech": "noun",
+    "partOfSpeech": [
+      "Noun"
+    ],
     "reading": "しんエネルギー",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "新エネルギー"
   },
   {
@@ -7781,8 +9018,13 @@
         "label": "Lesson 12: Respectful, humble, and polite language"
       }
     ],
-    "partOfSpeech": "noun",
+    "partOfSpeech": [
+      "Noun"
+    ],
     "reading": "かんせいひん",
+    "topicIds": [
+      "money-shopping"
+    ],
     "written": "完成品"
   },
   {
@@ -7807,8 +9049,13 @@
         "label": "Lesson 12: Respectful, humble, and polite language"
       }
     ],
-    "partOfSpeech": "noun",
+    "partOfSpeech": [
+      "Noun"
+    ],
     "reading": "しんせいひん",
+    "topicIds": [
+      "money-shopping"
+    ],
     "written": "新製品"
   },
   {
@@ -7833,8 +9080,13 @@
         "label": "Lesson 12: Respectful, humble, and polite language"
       }
     ],
-    "partOfSpeech": "noun",
+    "partOfSpeech": [
+      "Noun"
+    ],
     "reading": "ようひん",
+    "topicIds": [
+      "money-shopping"
+    ],
     "written": "用品"
   },
   {
@@ -7859,8 +9111,13 @@
         "label": "Lesson 12: Respectful, humble, and polite language"
       }
     ],
-    "partOfSpeech": "noun",
+    "partOfSpeech": [
+      "Noun"
+    ],
     "reading": "すいせんじょう",
+    "topicIds": [
+      "communication-media"
+    ],
     "written": "推薦状"
   },
   {
@@ -7885,8 +9142,13 @@
         "label": "Lesson 12: Respectful, humble, and polite language"
       }
     ],
-    "partOfSpeech": "verb stem",
+    "partOfSpeech": [
+      "Group 1 Verb"
+    ],
     "reading": "まいり",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "参り"
   },
   {
@@ -7916,8 +9178,14 @@
         "label": "Lesson 12: Respectful, humble, and polite language"
       }
     ],
-    "partOfSpeech": "noun; verb",
+    "partOfSpeech": [
+      "Noun",
+      "Group 3 Verb"
+    ],
     "reading": "れんらく",
+    "topicIds": [
+      "communication-media"
+    ],
     "written": "連絡"
   },
   {
@@ -7946,8 +9214,14 @@
         "label": "Lesson 12: Respectful, humble, and polite language"
       }
     ],
-    "partOfSpeech": "noun; verb",
+    "partOfSpeech": [
+      "Noun",
+      "Group 3 Verb"
+    ],
     "reading": "はいけん",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "拝見"
   },
   {
@@ -7972,8 +9246,13 @@
         "label": "Lesson 12: Respectful, humble, and polite language"
       }
     ],
-    "partOfSpeech": "respectful verb",
+    "partOfSpeech": [
+      "Group 2 Verb"
+    ],
     "reading": "みえました",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "見えました"
   },
   {
@@ -7998,8 +9277,13 @@
         "label": "Lesson 12: Respectful, humble, and polite language"
       }
     ],
-    "partOfSpeech": "noun",
+    "partOfSpeech": [
+      "Noun"
+    ],
     "reading": "おれい",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "お礼"
   },
   {
@@ -8038,8 +9322,13 @@
         "label": "Lesson 12: Respectful, humble, and polite language"
       }
     ],
-    "partOfSpeech": "noun",
+    "partOfSpeech": [
+      "Noun"
+    ],
     "reading": "おたく",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "お宅"
   },
   {
@@ -8064,8 +9353,13 @@
         "label": "Lesson 12: Respectful, humble, and polite language"
       }
     ],
-    "partOfSpeech": "noun",
+    "partOfSpeech": [
+      "Noun"
+    ],
     "reading": "なんじ",
+    "topicIds": [
+      "time-dates-schedules"
+    ],
     "written": "何時"
   },
   {
@@ -8090,8 +9384,13 @@
         "label": "Lesson 12: Respectful, humble, and polite language"
       }
     ],
-    "partOfSpeech": "noun",
+    "partOfSpeech": [
+      "Noun"
+    ],
     "reading": "いきさき",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "行き先"
   },
   {
@@ -8116,8 +9415,13 @@
         "label": "Lesson 12: Respectful, humble, and polite language"
       }
     ],
-    "partOfSpeech": "noun",
+    "partOfSpeech": [
+      "Noun"
+    ],
     "reading": "にほんしゅ",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "日本酒"
   },
   {
@@ -8146,8 +9450,13 @@
         "label": "Lesson 12: Respectful, humble, and polite language"
       }
     ],
-    "partOfSpeech": "noun",
+    "partOfSpeech": [
+      "Noun"
+    ],
     "reading": "こんばん",
+    "topicIds": [
+      "time-dates-schedules"
+    ],
     "written": "今晩"
   },
   {
@@ -8177,8 +9486,13 @@
         "label": "Lesson 5: Reasons and causes ～だから"
       }
     ],
-    "partOfSpeech": "noun",
+    "partOfSpeech": [
+      "Noun"
+    ],
     "reading": "ごかい",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "誤解"
   },
   {
@@ -8213,8 +9527,13 @@
         "label": "Lesson 5: Reasons and causes ～だから"
       }
     ],
-    "partOfSpeech": "noun",
+    "partOfSpeech": [
+      "Noun"
+    ],
     "reading": "ほうこくしょ",
+    "topicIds": [
+      "communication-media"
+    ],
     "written": "報告書"
   },
   {
@@ -8244,8 +9563,13 @@
         "label": "Lesson 5: Reasons and causes ～だから"
       }
     ],
-    "partOfSpeech": "noun",
+    "partOfSpeech": [
+      "Noun"
+    ],
     "reading": "かんがえかた",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "考え方"
   },
   {
@@ -8275,8 +9599,13 @@
         "label": "Lesson 5: Reasons and causes ～だから"
       }
     ],
-    "partOfSpeech": "noun",
+    "partOfSpeech": [
+      "Noun"
+    ],
     "reading": "けっせき",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "欠席"
   },
   {
@@ -8311,8 +9640,13 @@
         "label": "Lesson 9: Wishes and requests ～と望む"
       }
     ],
-    "partOfSpeech": "noun",
+    "partOfSpeech": [
+      "Noun"
+    ],
     "reading": "きぼう",
+    "topicIds": [
+      "feelings-personality"
+    ],
     "written": "希望"
   },
   {
@@ -8347,8 +9681,13 @@
         "label": "Lesson 7: Reported information and hearsay ～だそうだ"
       }
     ],
-    "partOfSpeech": "noun",
+    "partOfSpeech": [
+      "Noun"
+    ],
     "reading": "こうじ",
+    "topicIds": [
+      "work-business"
+    ],
     "written": "工事"
   },
   {
@@ -8378,8 +9717,13 @@
         "label": "Lesson 5: Reasons and causes ～だから"
       }
     ],
-    "partOfSpeech": "noun",
+    "partOfSpeech": [
+      "Noun"
+    ],
     "reading": "みなおし",
+    "topicIds": [
+      "school-study"
+    ],
     "written": "見直し"
   },
   {
@@ -8409,8 +9753,13 @@
         "label": "Lesson 5: Reasons and causes ～だから"
       }
     ],
-    "partOfSpeech": "noun",
+    "partOfSpeech": [
+      "Noun"
+    ],
     "reading": "おやこ",
+    "topicIds": [
+      "people-family-relationships"
+    ],
     "written": "親子"
   },
   {
@@ -8440,8 +9789,13 @@
         "label": "Lesson 5: Reasons and causes ～だから"
       }
     ],
-    "partOfSpeech": "noun",
+    "partOfSpeech": [
+      "Noun"
+    ],
     "reading": "せいさん",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "生産"
   },
   {
@@ -8471,8 +9825,13 @@
         "label": "Lesson 5: Reasons and causes ～だから"
       }
     ],
-    "partOfSpeech": "noun",
+    "partOfSpeech": [
+      "Noun"
+    ],
     "reading": "しはらい",
+    "topicIds": [
+      "money-shopping"
+    ],
     "written": "支払い"
   },
   {
@@ -8502,8 +9861,13 @@
         "label": "Lesson 5: Reasons and causes ～だから"
       }
     ],
-    "partOfSpeech": "na-adjective",
+    "partOfSpeech": [
+      "Na-Adjective"
+    ],
     "reading": "しんけん",
+    "topicIds": [
+      "feelings-personality"
+    ],
     "written": "真剣"
   },
   {
@@ -8538,8 +9902,14 @@
         "label": "Lesson 5: Reasons and causes ～だから"
       }
     ],
-    "partOfSpeech": "noun",
+    "partOfSpeech": [
+      "Noun"
+    ],
     "reading": "しゅうかん",
+    "topicIds": [
+      "home-daily-life",
+      "society-public-services"
+    ],
     "written": "習慣"
   },
   {
@@ -8569,8 +9939,13 @@
         "label": "Lesson 5: Reasons and causes ～だから"
       }
     ],
-    "partOfSpeech": "na-adjective",
+    "partOfSpeech": [
+      "Na-Adjective"
+    ],
     "reading": "とうぜん",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "当然"
   },
   {
@@ -8610,8 +9985,13 @@
         "label": "Lesson 5: Reasons and causes ～だから"
       }
     ],
-    "partOfSpeech": "noun",
+    "partOfSpeech": [
+      "Noun"
+    ],
     "reading": "ざいりょうぶそく",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "材料不足"
   },
   {
@@ -8641,8 +10021,13 @@
         "label": "Lesson 6: Conditions and hypotheses もし、…"
       }
     ],
-    "partOfSpeech": "noun",
+    "partOfSpeech": [
+      "Noun"
+    ],
     "reading": "ちょうせん",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "挑戦"
   },
   {
@@ -8682,8 +10067,14 @@
         "label": "Lesson 6: Conditions and hypotheses もし、…"
       }
     ],
-    "partOfSpeech": "noun",
+    "partOfSpeech": [
+      "Noun"
+    ],
     "reading": "がくせいわりびき",
+    "topicIds": [
+      "school-study",
+      "money-shopping"
+    ],
     "written": "学生割引"
   },
   {
@@ -8708,8 +10099,13 @@
         "label": "Lesson 6: Conditions and hypotheses もし、…"
       }
     ],
-    "partOfSpeech": "noun",
+    "partOfSpeech": [
+      "Noun"
+    ],
     "reading": "はこ",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "箱"
   },
   {
@@ -8739,8 +10135,13 @@
         "label": "Lesson 6: Conditions and hypotheses もし、…"
       }
     ],
-    "partOfSpeech": "na-adjective",
+    "partOfSpeech": [
+      "Na-Adjective"
+    ],
     "reading": "じょうぶ",
+    "topicIds": [
+      "body-health"
+    ],
     "written": "丈夫"
   },
   {
@@ -8770,8 +10171,13 @@
         "label": "Lesson 6: Conditions and hypotheses もし、…"
       }
     ],
-    "partOfSpeech": "noun",
+    "partOfSpeech": [
+      "Noun"
+    ],
     "reading": "かしゅ",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "歌手"
   },
   {
@@ -8801,8 +10207,13 @@
         "label": "Lesson 6: Conditions and hypotheses もし、…"
       }
     ],
-    "partOfSpeech": "noun",
+    "partOfSpeech": [
+      "Noun"
+    ],
     "reading": "まんが",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "漫画"
   },
   {
@@ -8827,8 +10238,13 @@
         "label": "Lesson 6: Conditions and hypotheses もし、…"
       }
     ],
-    "partOfSpeech": "noun",
+    "partOfSpeech": [
+      "Noun"
+    ],
     "reading": "まわり",
+    "topicIds": [
+      "people-family-relationships"
+    ],
     "written": "周り"
   },
   {
@@ -8858,8 +10274,13 @@
         "label": "Lesson 6: Conditions and hypotheses もし、…"
       }
     ],
-    "partOfSpeech": "na-adjective",
+    "partOfSpeech": [
+      "Na-Adjective"
+    ],
     "reading": "めいわく",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "迷惑"
   },
   {
@@ -8889,8 +10310,13 @@
         "label": "Lesson 6: Conditions and hypotheses もし、…"
       }
     ],
-    "partOfSpeech": "na-adjective",
+    "partOfSpeech": [
+      "Na-Adjective"
+    ],
     "reading": "めんどう",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "面倒"
   },
   {
@@ -8920,8 +10346,14 @@
         "label": "Lesson 6: Conditions and hypotheses もし、…"
       }
     ],
-    "partOfSpeech": "noun",
+    "partOfSpeech": [
+      "Noun"
+    ],
     "reading": "みまい",
+    "topicIds": [
+      "people-family-relationships",
+      "body-health"
+    ],
     "written": "見舞い"
   },
   {
@@ -8956,8 +10388,13 @@
         "label": "Lesson 6: Conditions and hypotheses もし、…"
       }
     ],
-    "partOfSpeech": "na-adjective",
+    "partOfSpeech": [
+      "Na-Adjective"
+    ],
     "reading": "むせきにん",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "無責任"
   },
   {
@@ -8987,8 +10424,13 @@
         "label": "Lesson 6: Conditions and hypotheses もし、…"
       }
     ],
-    "partOfSpeech": "noun",
+    "partOfSpeech": [
+      "Noun"
+    ],
     "reading": "ねぼう",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "寝坊"
   },
   {
@@ -9018,8 +10460,13 @@
         "label": "Lesson 6: Conditions and hypotheses もし、…"
       }
     ],
-    "partOfSpeech": "noun",
+    "partOfSpeech": [
+      "Noun"
+    ],
     "reading": "ねんない",
+    "topicIds": [
+      "time-dates-schedules"
+    ],
     "written": "年内"
   },
   {
@@ -9049,8 +10496,13 @@
         "label": "Lesson 6: Conditions and hypotheses もし、…"
       }
     ],
-    "partOfSpeech": "noun",
+    "partOfSpeech": [
+      "Noun"
+    ],
     "reading": "しゅじゅつ",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "手術"
   },
   {
@@ -9080,8 +10532,13 @@
         "label": "Lesson 6: Conditions and hypotheses もし、…"
       }
     ],
-    "partOfSpeech": "na-adjective",
+    "partOfSpeech": [
+      "Na-Adjective"
+    ],
     "reading": "たいくつ",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "退屈"
   },
   {
@@ -9106,8 +10563,13 @@
         "label": "Lesson 6: Conditions and hypotheses もし、…"
       }
     ],
-    "partOfSpeech": "godan verb",
+    "partOfSpeech": [
+      "Group 1 Verb"
+    ],
     "reading": "ゆるす",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "許す"
   },
   {
@@ -9137,8 +10599,13 @@
         "label": "Lesson 6: Conditions and hypotheses もし、…"
       }
     ],
-    "partOfSpeech": "na-adjective",
+    "partOfSpeech": [
+      "Na-Adjective"
+    ],
     "reading": "ざんねん",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "残念"
   },
   {
@@ -9163,8 +10630,13 @@
         "label": "Lesson 7: Reported information and hearsay ～だそうだ"
       }
     ],
-    "partOfSpeech": "noun",
+    "partOfSpeech": [
+      "Noun"
+    ],
     "reading": "あたり",
+    "topicIds": [
+      "places-directions"
+    ],
     "written": "辺り"
   },
   {
@@ -9194,8 +10666,13 @@
         "label": "Lesson 7: Reported information and hearsay ～だそうだ"
       }
     ],
-    "partOfSpeech": "proper noun",
+    "partOfSpeech": [
+      "Noun"
+    ],
     "reading": "ちゅうごく",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "中国"
   },
   {
@@ -9225,8 +10702,13 @@
         "label": "Lesson 7: Reported information and hearsay ～だそうだ"
       }
     ],
-    "partOfSpeech": "noun",
+    "partOfSpeech": [
+      "Noun"
+    ],
     "reading": "どうろ",
+    "topicIds": [
+      "travel-transportation"
+    ],
     "written": "道路"
   },
   {
@@ -9256,8 +10738,14 @@
         "label": "Lesson 7: Reported information and hearsay ～だそうだ"
       }
     ],
-    "partOfSpeech": "noun",
+    "partOfSpeech": [
+      "Noun"
+    ],
     "reading": "えきまえ",
+    "topicIds": [
+      "travel-transportation",
+      "places-directions"
+    ],
     "written": "駅前"
   },
   {
@@ -9282,8 +10770,13 @@
         "label": "Lesson 7: Reported information and hearsay ～だそうだ"
       }
     ],
-    "partOfSpeech": "noun",
+    "partOfSpeech": [
+      "Noun"
+    ],
     "reading": "ふく",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "服"
   },
   {
@@ -9308,8 +10801,13 @@
         "label": "Lesson 7: Reported information and hearsay ～だそうだ"
       }
     ],
-    "partOfSpeech": "godan verb",
+    "partOfSpeech": [
+      "Group 1 Verb"
+    ],
     "reading": "かう",
+    "topicIds": [
+      "nature-weather"
+    ],
     "written": "飼う"
   },
   {
@@ -9334,8 +10832,13 @@
         "label": "Lesson 7: Reported information and hearsay ～だそうだ"
       }
     ],
-    "partOfSpeech": "i-adjective",
+    "partOfSpeech": [
+      "I-Adjective"
+    ],
     "reading": "くろい",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "黒い"
   },
   {
@@ -9370,8 +10873,13 @@
         "label": "Lesson 7: Reported information and hearsay ～だそうだ"
       }
     ],
-    "partOfSpeech": "noun",
+    "partOfSpeech": [
+      "Noun"
+    ],
     "reading": "きょういんしつ",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "教員室"
   },
   {
@@ -9396,8 +10904,13 @@
         "label": "Lesson 7: Reported information and hearsay ～だそうだ"
       }
     ],
-    "partOfSpeech": "noun",
+    "partOfSpeech": [
+      "Noun"
+    ],
     "reading": "まつり",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "祭り"
   },
   {
@@ -9422,8 +10935,14 @@
         "label": "Lesson 7: Reported information and hearsay ～だそうだ"
       }
     ],
-    "partOfSpeech": "noun; adverb",
+    "partOfSpeech": [
+      "Noun",
+      "Adverb"
+    ],
     "reading": "むかし",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "昔"
   },
   {
@@ -9463,8 +10982,13 @@
         "label": "Lesson 9: Wishes and requests ～と望む"
       }
     ],
-    "partOfSpeech": "noun",
+    "partOfSpeech": [
+      "Noun"
+    ],
     "reading": "むら",
+    "topicIds": [
+      "places-directions"
+    ],
     "written": "村"
   },
   {
@@ -9494,8 +11018,13 @@
         "label": "Lesson 7: Reported information and hearsay ～だそうだ"
       }
     ],
-    "partOfSpeech": "noun",
+    "partOfSpeech": [
+      "Noun"
+    ],
     "reading": "なっとう",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "納豆"
   },
   {
@@ -9530,8 +11059,13 @@
         "label": "Lesson 7: Reported information and hearsay ～だそうだ"
       }
     ],
-    "partOfSpeech": "proper noun",
+    "partOfSpeech": [
+      "Noun"
+    ],
     "reading": "にほん",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "日本"
   },
   {
@@ -9561,8 +11095,13 @@
         "label": "Lesson 7: Reported information and hearsay ～だそうだ"
       }
     ],
-    "partOfSpeech": "noun",
+    "partOfSpeech": [
+      "Noun"
+    ],
     "reading": "のはら",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "野原"
   },
   {
@@ -9592,8 +11131,14 @@
         "label": "Lesson 7: Reported information and hearsay ～だそうだ"
       }
     ],
-    "partOfSpeech": "noun; suru verb",
+    "partOfSpeech": [
+      "Noun",
+      "Group 3 Verb"
+    ],
     "reading": "りゅうこう",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "流行"
   },
   {
@@ -9623,8 +11168,13 @@
         "label": "Lesson 7: Reported information and hearsay ～だそうだ"
       }
     ],
-    "partOfSpeech": "noun",
+    "partOfSpeech": [
+      "Noun"
+    ],
     "reading": "せんしゅ",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "選手"
   },
   {
@@ -9654,8 +11204,13 @@
         "label": "Lesson 7: Reported information and hearsay ～だそうだ"
       }
     ],
-    "partOfSpeech": "noun",
+    "partOfSpeech": [
+      "Noun"
+    ],
     "reading": "たいかい",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "大会"
   },
   {
@@ -9695,8 +11250,13 @@
         "label": "Lesson 3: Degree and comparison 比べれば…・～がいちばん"
       }
     ],
-    "partOfSpeech": "noun",
+    "partOfSpeech": [
+      "Noun"
+    ],
     "reading": "てんきよほう",
+    "topicIds": [
+      "nature-weather"
+    ],
     "written": "天気予報"
   },
   {
@@ -9721,8 +11281,13 @@
         "label": "Lesson 7: Reported information and hearsay ～だそうだ"
       }
     ],
-    "partOfSpeech": "godan verb",
+    "partOfSpeech": [
+      "Group 1 Verb"
+    ],
     "reading": "つたわる",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "伝わる"
   },
   {
@@ -9752,8 +11317,13 @@
         "label": "Lesson 8: Strong and partial negation 絶対～ない・必ず～とは言えない"
       }
     ],
-    "partOfSpeech": "noun",
+    "partOfSpeech": [
+      "Noun"
+    ],
     "reading": "ぼうし",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "帽子"
   },
   {
@@ -9783,8 +11353,13 @@
         "label": "Lesson 8: Strong and partial negation 絶対～ない・必ず～とは言えない"
       }
     ],
-    "partOfSpeech": "noun",
+    "partOfSpeech": [
+      "Noun"
+    ],
     "reading": "ほけん",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "保険"
   },
   {
@@ -9824,8 +11399,13 @@
         "label": "Lesson 8: Strong and partial negation 絶対～ない・必ず～とは言えない"
       }
     ],
-    "partOfSpeech": "noun",
+    "partOfSpeech": [
+      "Noun"
+    ],
     "reading": "こっかしけん",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "国家試験"
   },
   {
@@ -9865,8 +11445,14 @@
         "label": "Lesson 9: Wishes and requests ～と望む"
       }
     ],
-    "partOfSpeech": "noun; suru verb",
+    "partOfSpeech": [
+      "Noun",
+      "Group 3 Verb"
+    ],
     "reading": "れんしゅう",
+    "topicIds": [
+      "school-study"
+    ],
     "written": "練習"
   },
   {
@@ -9901,8 +11487,14 @@
         "label": "Lesson 8: Strong and partial negation 絶対～ない・必ず～とは言えない"
       }
     ],
-    "partOfSpeech": "noun; adverb",
+    "partOfSpeech": [
+      "Noun",
+      "Adverb"
+    ],
     "reading": "りょこうちゅう",
+    "topicIds": [
+      "time-dates-schedules"
+    ],
     "written": "旅行中"
   },
   {
@@ -9932,8 +11524,14 @@
         "label": "Lesson 8: Strong and partial negation 絶対～ない・必ず～とは言えない"
       }
     ],
-    "partOfSpeech": "noun; suru verb",
+    "partOfSpeech": [
+      "Noun",
+      "Group 3 Verb"
+    ],
     "reading": "せいちょう",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "成長"
   },
   {
@@ -9973,8 +11571,15 @@
         "label": "Lesson 10: Advice and commands ～したほうがいい・～なさい"
       }
     ],
-    "partOfSpeech": "noun; na-adjective",
+    "partOfSpeech": [
+      "Noun",
+      "Na-Adjective",
+      "Special Na-Adjective Ending in I"
+    ],
     "reading": "しんぱい",
+    "topicIds": [
+      "feelings-personality"
+    ],
     "written": "心配"
   },
   {
@@ -9999,8 +11604,13 @@
         "label": "Lesson 8: Strong and partial negation 絶対～ない・必ず～とは言えない"
       }
     ],
-    "partOfSpeech": "noun",
+    "partOfSpeech": [
+      "Noun"
+    ],
     "reading": "しつ",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "質"
   },
   {
@@ -10025,8 +11635,13 @@
         "label": "Lesson 8: Strong and partial negation 絶対～ない・必ず～とは言えない"
       }
     ],
-    "partOfSpeech": "ichidan verb",
+    "partOfSpeech": [
+      "Group 2 Verb"
+    ],
     "reading": "そだてる",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "育てる"
   },
   {
@@ -10061,8 +11676,13 @@
         "label": "Lesson 8: Strong and partial negation 絶対～ない・必ず～とは言えない"
       }
     ],
-    "partOfSpeech": "na-adjective",
+    "partOfSpeech": [
+      "Na-Adjective"
+    ],
     "reading": "たいへん",
+    "topicIds": [
+      "feelings-personality"
+    ],
     "written": "大変"
   },
   {
@@ -10092,8 +11712,14 @@
         "label": "Lesson 8: Strong and partial negation 絶対～ない・必ず～とは言えない"
       }
     ],
-    "partOfSpeech": "noun; suru verb",
+    "partOfSpeech": [
+      "Noun",
+      "Group 3 Verb"
+    ],
     "reading": "てんきん",
+    "topicIds": [
+      "work-business"
+    ],
     "written": "転勤"
   },
   {
@@ -10118,8 +11744,13 @@
         "label": "Lesson 8: Strong and partial negation 絶対～ない・必ず～とは言えない"
       }
     ],
-    "partOfSpeech": "noun",
+    "partOfSpeech": [
+      "Noun"
+    ],
     "reading": "うた",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "歌"
   },
   {
@@ -10149,8 +11780,13 @@
         "label": "Lesson 8: Strong and partial negation 絶対～ない・必ず～とは言えない"
       }
     ],
-    "partOfSpeech": "ichidan verb",
+    "partOfSpeech": [
+      "Group 2 Verb"
+    ],
     "reading": "わすれる",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "忘れる"
   },
   {
@@ -10175,8 +11811,13 @@
         "label": "Lesson 8: Strong and partial negation 絶対～ない・必ず～とは言えない"
       }
     ],
-    "partOfSpeech": "i-adjective",
+    "partOfSpeech": [
+      "I-Adjective"
+    ],
     "reading": "やさしい",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "易しい"
   },
   {
@@ -10206,8 +11847,13 @@
         "label": "Lesson 9: Wishes and requests ～と望む"
       }
     ],
-    "partOfSpeech": "noun",
+    "partOfSpeech": [
+      "Noun"
+    ],
     "reading": "ひるやすみ",
+    "topicIds": [
+      "food-cooking"
+    ],
     "written": "昼休み"
   },
   {
@@ -10242,8 +11888,13 @@
         "label": "Lesson 9: Wishes and requests ～と望む"
       }
     ],
-    "partOfSpeech": "noun",
+    "partOfSpeech": [
+      "Noun"
+    ],
     "reading": "ひとり",
+    "topicIds": [
+      "people-family-relationships"
+    ],
     "written": "一人"
   },
   {
@@ -10273,8 +11924,13 @@
         "label": "Lesson 9: Wishes and requests ～と望む"
       }
     ],
-    "partOfSpeech": "noun",
+    "partOfSpeech": [
+      "Noun"
+    ],
     "reading": "じむ",
+    "topicIds": [
+      "work-business"
+    ],
     "written": "事務"
   },
   {
@@ -10304,8 +11960,13 @@
         "label": "Lesson 9: Wishes and requests ～と望む"
       }
     ],
-    "partOfSpeech": "expression",
+    "partOfSpeech": [
+      "Expression"
+    ],
     "reading": "きがすすまない",
+    "topicIds": [
+      "school-study"
+    ],
     "written": "気が進まない"
   },
   {
@@ -10345,8 +12006,13 @@
         "label": "Lesson 10: Advice and commands ～したほうがいい・～なさい"
       }
     ],
-    "partOfSpeech": "noun",
+    "partOfSpeech": [
+      "Noun"
+    ],
     "reading": "もうしこみしょ",
+    "topicIds": [
+      "school-study"
+    ],
     "written": "申込書"
   },
   {
@@ -10371,8 +12037,13 @@
         "label": "Lesson 9: Wishes and requests ～と望む"
       }
     ],
-    "partOfSpeech": "noun",
+    "partOfSpeech": [
+      "Noun"
+    ],
     "reading": "なやみ",
+    "topicIds": [
+      "feelings-personality"
+    ],
     "written": "悩み"
   },
   {
@@ -10412,8 +12083,13 @@
         "label": "Lesson 9: Wishes and requests ～と望む"
       }
     ],
-    "partOfSpeech": "noun",
+    "partOfSpeech": [
+      "Noun"
+    ],
     "reading": "にゅうがくしけん",
+    "topicIds": [
+      "places-directions"
+    ],
     "written": "入学試験"
   },
   {
@@ -10443,8 +12119,14 @@
         "label": "Lesson 9: Wishes and requests ～と望む"
       }
     ],
-    "partOfSpeech": "noun; abbreviation",
+    "partOfSpeech": [
+      "Noun"
+    ],
     "reading": "にゅうかん",
+    "topicIds": [
+      "work-business",
+      "society-public-services"
+    ],
     "written": "入管"
   },
   {
@@ -10474,8 +12156,13 @@
         "label": "Lesson 9: Wishes and requests ～と望む"
       }
     ],
-    "partOfSpeech": "noun",
+    "partOfSpeech": [
+      "Noun"
+    ],
     "reading": "おや",
+    "topicIds": [
+      "people-family-relationships"
+    ],
     "written": "親"
   },
   {
@@ -10510,8 +12197,14 @@
         "label": "Lesson 9: Wishes and requests ～と望む"
       }
     ],
-    "partOfSpeech": "noun; adverb",
+    "partOfSpeech": [
+      "Noun",
+      "Adverb"
+    ],
     "reading": "さいきん",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "最近"
   },
   {
@@ -10551,8 +12244,14 @@
         "label": "Lesson 9: Wishes and requests ～と望む"
       }
     ],
-    "partOfSpeech": "noun",
+    "partOfSpeech": [
+      "Noun"
+    ],
     "reading": "しぜんかんきょう",
+    "topicIds": [
+      "nature-weather",
+      "society-public-services"
+    ],
     "written": "自然環境"
   },
   {
@@ -10582,8 +12281,13 @@
         "label": "Lesson 9: Wishes and requests ～と望む"
       }
     ],
-    "partOfSpeech": "noun",
+    "partOfSpeech": [
+      "Noun"
+    ],
     "reading": "しょるい",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "書類"
   },
   {
@@ -10618,8 +12322,13 @@
         "label": "Lesson 9: Wishes and requests ～と望む"
       }
     ],
-    "partOfSpeech": "noun",
+    "partOfSpeech": [
+      "Noun"
+    ],
     "reading": "そつぎょうしき",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "卒業式"
   },
   {
@@ -10649,8 +12358,14 @@
         "label": "Lesson 9: Wishes and requests ～と望む"
       }
     ],
-    "partOfSpeech": "noun",
+    "partOfSpeech": [
+      "Noun"
+    ],
     "reading": "てんちょう",
+    "topicIds": [
+      "work-business",
+      "money-shopping"
+    ],
     "written": "店長"
   },
   {
@@ -10685,8 +12400,14 @@
         "label": "Lesson 9: Wishes and requests ～と望む"
       }
     ],
-    "partOfSpeech": "noun",
+    "partOfSpeech": [
+      "Noun"
+    ],
     "reading": "てんいん",
+    "topicIds": [
+      "work-business",
+      "money-shopping"
+    ],
     "written": "店員"
   },
   {
@@ -10726,8 +12447,13 @@
         "label": "Lesson 10: Advice and commands ～したほうがいい・～なさい"
       }
     ],
-    "partOfSpeech": "godan verb",
+    "partOfSpeech": [
+      "Group 1 Verb"
+    ],
     "reading": "てつだう",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "手伝う"
   },
   {
@@ -10757,8 +12483,14 @@
         "label": "Lesson 9: Wishes and requests ～と望む"
       }
     ],
-    "partOfSpeech": "expression; godan verb",
+    "partOfSpeech": [
+      "Group 1 Verb",
+      "Expression"
+    ],
     "reading": "としをとる",
+    "topicIds": [
+      "time-dates-schedules"
+    ],
     "written": "年を取る"
   },
   {
@@ -10793,8 +12525,13 @@
         "label": "Lesson 10: Advice and commands ～したほうがいい・～なさい"
       }
     ],
-    "partOfSpeech": "ichidan verb",
+    "partOfSpeech": [
+      "Group 2 Verb"
+    ],
     "reading": "つかれる",
+    "topicIds": [
+      "body-health"
+    ],
     "written": "疲れる"
   },
   {
@@ -10829,8 +12566,13 @@
         "label": "Lesson 9: Wishes and requests ～と望む"
       }
     ],
-    "partOfSpeech": "noun",
+    "partOfSpeech": [
+      "Noun"
+    ],
     "reading": "うんどうじょう",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "運動場"
   },
   {
@@ -10855,8 +12597,13 @@
         "label": "Lesson 9: Wishes and requests ～と望む"
       }
     ],
-    "partOfSpeech": "noun",
+    "partOfSpeech": [
+      "Noun"
+    ],
     "reading": "わかれ",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "別れ"
   },
   {
@@ -10891,8 +12638,13 @@
         "label": "Lesson 11: Intentions, efforts, and attempts"
       }
     ],
-    "partOfSpeech": "名詞 / 一般 / * / *",
+    "partOfSpeech": [
+      "Noun"
+    ],
     "reading": "ちち",
+    "topicIds": [
+      "people-family-relationships"
+    ],
     "written": "父"
   },
   {
@@ -10917,8 +12669,13 @@
         "label": "Lesson 2: Relationships ～と関係して"
       }
     ],
-    "partOfSpeech": "副詞 / 一般 / * / *",
+    "partOfSpeech": [
+      "Adverb"
+    ],
     "reading": "ほんとうに",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "本当に"
   },
   {
@@ -10943,8 +12700,14 @@
         "label": "Lesson 11: Intentions, efforts, and attempts"
       }
     ],
-    "partOfSpeech": "名詞 / 非自立 / 副詞可能 / *",
+    "partOfSpeech": [
+      "Adverb",
+      "Other"
+    ],
     "reading": "うえ",
+    "topicIds": [
+      "places-directions"
+    ],
     "written": "上"
   },
   {
@@ -10969,8 +12732,13 @@
         "label": "Lesson 7: Reported information and hearsay ～だそうだ"
       }
     ],
-    "partOfSpeech": "名詞 / 固有名詞 / 人名 / 姓",
+    "partOfSpeech": [
+      "Noun"
+    ],
     "reading": "おがわ",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "小川"
   },
   {
@@ -10995,8 +12763,14 @@
         "label": "Lesson 9: Wishes and requests ～と望む"
       }
     ],
-    "partOfSpeech": "名詞 / 非自立 / 副詞可能 / *",
+    "partOfSpeech": [
+      "Adverb",
+      "Other"
+    ],
     "reading": "いじょう",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "以上"
   },
   {
@@ -11021,8 +12795,13 @@
         "label": "Lesson 3: Degree and comparison 比べれば…・～がいちばん"
       }
     ],
-    "partOfSpeech": "動詞 / 自立 / * / *",
+    "partOfSpeech": [
+      "Group 1 Verb"
+    ],
     "reading": "ふく",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "吹く"
   },
   {
@@ -11047,8 +12826,13 @@
         "label": "Lesson 8: Strong and partial negation 絶対～ない・必ず～とは言えない"
       }
     ],
-    "partOfSpeech": "名詞 / 一般 / * / *",
+    "partOfSpeech": [
+      "Noun"
+    ],
     "reading": "にっぽんじん",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "日本人"
   },
   {
@@ -11083,8 +12867,14 @@
         "label": "Lesson 11: Intentions, efforts, and attempts"
       }
     ],
-    "partOfSpeech": "名詞 / サ変接続 / * / *",
+    "partOfSpeech": [
+      "Noun",
+      "Group 3 Verb"
+    ],
     "reading": "はなし",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "話"
   },
   {
@@ -11113,8 +12903,13 @@
         "label": "Lesson 1: Time relationships ～とき"
       }
     ],
-    "partOfSpeech": "名詞 / 一般 / * / *",
+    "partOfSpeech": [
+      "Noun"
+    ],
     "reading": "おかあさん",
+    "topicIds": [
+      "people-family-relationships"
+    ],
     "written": "お母さん"
   },
   {
@@ -11155,8 +12950,13 @@
         "label": "Lesson 4: Contrast ～とは違って"
       }
     ],
-    "partOfSpeech": "接続詞 / * / * / *",
+    "partOfSpeech": [
+      "Conjunction"
+    ],
     "reading": "いっぽう",
+    "topicIds": [
+      "body-health"
+    ],
     "written": "一方"
   },
   {
@@ -11181,8 +12981,13 @@
         "label": "Lesson 4: Contrast ～とは違って"
       }
     ],
-    "partOfSpeech": "動詞 / 自立 / * / *",
+    "partOfSpeech": [
+      "Group 1 Verb"
+    ],
     "reading": "あそぶ",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "遊ぶ"
   },
   {
@@ -11207,8 +13012,13 @@
         "label": "Lesson 3: Degree and comparison 比べれば…・～がいちばん"
       }
     ],
-    "partOfSpeech": "名詞 / 接尾 / 助数詞 / *",
+    "partOfSpeech": [
+      "Counter or Number"
+    ],
     "reading": "ぶん",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "分"
   },
   {
@@ -11238,8 +13048,13 @@
         "label": "Lesson 6: Conditions and hypotheses もし、…"
       }
     ],
-    "partOfSpeech": "名詞 / 一般 / * / *",
+    "partOfSpeech": [
+      "Noun"
+    ],
     "reading": "おかね",
+    "topicIds": [
+      "money-shopping"
+    ],
     "written": "お金"
   },
   {
@@ -11264,8 +13079,13 @@
         "label": "Lesson 4: Contrast ～とは違って"
       }
     ],
-    "partOfSpeech": "形容詞 / 自立 / * / *",
+    "partOfSpeech": [
+      "I-Adjective"
+    ],
     "reading": "はやい",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "速い"
   },
   {
@@ -11300,8 +13120,13 @@
         "label": "Lesson 4: Contrast ～とは違って"
       }
     ],
-    "partOfSpeech": "名詞 / 接尾 / 一般 / *",
+    "partOfSpeech": [
+      "Other"
+    ],
     "reading": "かん",
+    "topicIds": [
+      "feelings-personality"
+    ],
     "written": "感"
   },
   {
@@ -11331,8 +13156,13 @@
         "label": "Lesson 6: Conditions and hypotheses もし、…"
       }
     ],
-    "partOfSpeech": "名詞 / 一般 / * / *",
+    "partOfSpeech": [
+      "Noun"
+    ],
     "reading": "がくせい",
+    "topicIds": [
+      "school-study"
+    ],
     "written": "学生"
   },
   {
@@ -11369,8 +13199,13 @@
         "label": "Lesson 4: Contrast ～とは違って"
       }
     ],
-    "partOfSpeech": "助詞 / 格助詞 / 連語 / *",
+    "partOfSpeech": [
+      "Expression"
+    ],
     "reading": "にたいして",
+    "topicIds": [
+      "school-study"
+    ],
     "written": "に対して"
   },
   {
@@ -11410,8 +13245,14 @@
         "label": "Lesson 9: Wishes and requests ～と望む"
       }
     ],
-    "partOfSpeech": "名詞 / 非自立 / 副詞可能 / *",
+    "partOfSpeech": [
+      "Adverb",
+      "Other"
+    ],
     "reading": "ひ",
+    "topicIds": [
+      "time-dates-schedules"
+    ],
     "written": "日"
   },
   {
@@ -11436,8 +13277,13 @@
         "label": "Lesson 12: Respectful, humble, and polite language"
       }
     ],
-    "partOfSpeech": "名詞 / 一般 / * / *",
+    "partOfSpeech": [
+      "Noun"
+    ],
     "reading": "ごぞんじ",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "ご存じ"
   },
   {
@@ -11462,8 +13308,13 @@
         "label": "Lesson 1: Time relationships ～とき"
       }
     ],
-    "partOfSpeech": "副詞 / 助詞類接続 / * / *",
+    "partOfSpeech": [
+      "Adverb"
+    ],
     "reading": "まもなく",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "間もなく"
   },
   {
@@ -11488,8 +13339,13 @@
         "label": "Lesson 11: Intentions, efforts, and attempts"
       }
     ],
-    "partOfSpeech": "名詞 / 一般 / * / *",
+    "partOfSpeech": [
+      "Noun"
+    ],
     "reading": "つま",
+    "topicIds": [
+      "people-family-relationships"
+    ],
     "written": "妻"
   },
   {
@@ -11514,8 +13370,14 @@
         "label": "Lesson 6: Conditions and hypotheses もし、…"
       }
     ],
-    "partOfSpeech": "名詞 / 副詞可能 / * / *",
+    "partOfSpeech": [
+      "Noun",
+      "Adverb"
+    ],
     "reading": "まいとし",
+    "topicIds": [
+      "time-dates-schedules"
+    ],
     "written": "毎年"
   },
   {
@@ -11540,8 +13402,13 @@
         "label": "Lesson 11: Intentions, efforts, and attempts"
       }
     ],
-    "partOfSpeech": "名詞 / 接尾 / 助数詞 / *",
+    "partOfSpeech": [
+      "Counter or Number"
+    ],
     "reading": "とし",
+    "topicIds": [
+      "time-dates-schedules"
+    ],
     "written": "歳"
   },
   {
@@ -11566,8 +13433,13 @@
         "label": "Lesson 1: Time relationships ～とき"
       }
     ],
-    "partOfSpeech": "名詞 / 一般 / * / *",
+    "partOfSpeech": [
+      "Noun"
+    ],
     "reading": "あそび",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "遊び"
   },
   {
@@ -11592,8 +13464,13 @@
         "label": "Lesson 11: Intentions, efforts, and attempts"
       }
     ],
-    "partOfSpeech": "名詞 / 一般 / * / *",
+    "partOfSpeech": [
+      "Noun"
+    ],
     "reading": "おとうさん",
+    "topicIds": [
+      "people-family-relationships"
+    ],
     "written": "お父さん"
   },
   {
@@ -11618,8 +13495,13 @@
         "label": "Lesson 9: Wishes and requests ～と望む"
       }
     ],
-    "partOfSpeech": "動詞 / 自立 / * / *",
+    "partOfSpeech": [
+      "Group 2 Verb"
+    ],
     "reading": "あえる",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "会える"
   },
   {
@@ -11644,8 +13526,13 @@
         "label": "Lesson 7: Reported information and hearsay ～だそうだ"
       }
     ],
-    "partOfSpeech": "名詞 / 一般 / * / *",
+    "partOfSpeech": [
+      "Noun"
+    ],
     "reading": "し",
+    "topicIds": [
+      "places-directions"
+    ],
     "written": "市"
   },
   {
@@ -11680,8 +13567,13 @@
         "label": "Lesson 12: Respectful, humble, and polite language"
       }
     ],
-    "partOfSpeech": "名詞 / 非自立 / 一般 / *",
+    "partOfSpeech": [
+      "Other"
+    ],
     "reading": "ほう",
+    "topicIds": [
+      "places-directions"
+    ],
     "written": "方"
   },
   {
@@ -11706,8 +13598,13 @@
         "label": "Lesson 11: Intentions, efforts, and attempts"
       }
     ],
-    "partOfSpeech": "形容詞 / 自立 / * / *",
+    "partOfSpeech": [
+      "I-Adjective"
+    ],
     "reading": "おそい",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "遅い"
   },
   {
@@ -11732,8 +13629,13 @@
         "label": "Lesson 7: Reported information and hearsay ～だそうだ"
       }
     ],
-    "partOfSpeech": "名詞 / 接尾 / 一般 / *",
+    "partOfSpeech": [
+      "Other"
+    ],
     "reading": "はやし",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "林"
   },
   {
@@ -11773,8 +13675,13 @@
         "label": "Lesson 10: Advice and commands ～したほうがいい・～なさい"
       }
     ],
-    "partOfSpeech": "名詞 / 一般 / * / *",
+    "partOfSpeech": [
+      "Noun"
+    ],
     "reading": "からだ",
+    "topicIds": [
+      "body-health"
+    ],
     "written": "体"
   },
   {
@@ -11804,8 +13711,14 @@
         "label": "Lesson 8: Strong and partial negation 絶対～ない・必ず～とは言えない"
       }
     ],
-    "partOfSpeech": "名詞 / サ変接続 / * / *",
+    "partOfSpeech": [
+      "Noun",
+      "Group 3 Verb"
+    ],
     "reading": "おねがい",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "お願い"
   },
   {
@@ -11830,8 +13743,13 @@
         "label": "Lesson 11: Intentions, efforts, and attempts"
       }
     ],
-    "partOfSpeech": "名詞 / 一般 / * / *",
+    "partOfSpeech": [
+      "Noun"
+    ],
     "reading": "でんき",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "電気"
   },
   {
@@ -11861,8 +13779,13 @@
         "label": "Lesson 3: Degree and comparison 比べれば…・～がいちばん"
       }
     ],
-    "partOfSpeech": "名詞 / 一般 / * / *",
+    "partOfSpeech": [
+      "Noun"
+    ],
     "reading": "き",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "気"
   },
   {
@@ -11887,8 +13810,13 @@
         "label": "Lesson 12: Respectful, humble, and polite language"
       }
     ],
-    "partOfSpeech": "名詞 / 一般 / * / *",
+    "partOfSpeech": [
+      "Noun"
+    ],
     "reading": "め",
+    "topicIds": [
+      "body-health"
+    ],
     "written": "目"
   },
   {
@@ -11913,8 +13841,14 @@
         "label": "Lesson 12: Respectful, humble, and polite language"
       }
     ],
-    "partOfSpeech": "名詞 / 非自立 / 副詞可能 / *",
+    "partOfSpeech": [
+      "Adverb",
+      "Other"
+    ],
     "reading": "のち",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "後"
   },
   {
@@ -11939,8 +13873,13 @@
         "label": "Lesson 7: Reported information and hearsay ～だそうだ"
       }
     ],
-    "partOfSpeech": "名詞 / 一般 / * / *",
+    "partOfSpeech": [
+      "Noun"
+    ],
     "reading": "しらせ",
+    "topicIds": [
+      "communication-media"
+    ],
     "written": "知らせ"
   },
   {
@@ -11970,8 +13909,13 @@
         "label": "Lesson 11: Intentions, efforts, and attempts"
       }
     ],
-    "partOfSpeech": "名詞 / 一般 / * / *",
+    "partOfSpeech": [
+      "Noun"
+    ],
     "reading": "おっと",
+    "topicIds": [
+      "people-family-relationships"
+    ],
     "written": "夫"
   },
   {
@@ -12011,8 +13955,13 @@
         "label": "Lesson 10: Advice and commands ～したほうがいい・～なさい"
       }
     ],
-    "partOfSpeech": "副詞 / 助詞類接続 / * / *",
+    "partOfSpeech": [
+      "Adverb"
+    ],
     "reading": "すこし",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "少し"
   },
   {
@@ -12037,8 +13986,14 @@
         "label": "Lesson 1: Time relationships ～とき"
       }
     ],
-    "partOfSpeech": "名詞 / 一般 / * / *",
+    "partOfSpeech": [
+      "Noun"
+    ],
     "reading": "きゃく",
+    "topicIds": [
+      "people-family-relationships",
+      "money-shopping"
+    ],
     "written": "客"
   },
   {
@@ -12063,8 +14018,13 @@
         "label": "Lesson 5: Reasons and causes ～だから"
       }
     ],
-    "partOfSpeech": "名詞 / 一般 / * / *",
+    "partOfSpeech": [
+      "Noun"
+    ],
     "reading": "つぎ",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "次"
   },
   {
@@ -12089,8 +14049,13 @@
         "label": "Lesson 5: Reasons and causes ～だから"
       }
     ],
-    "partOfSpeech": "名詞 / 一般 / * / *",
+    "partOfSpeech": [
+      "Noun"
+    ],
     "reading": "せき",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "席"
   },
   {
@@ -12115,8 +14080,13 @@
         "label": "Lesson 6: Conditions and hypotheses もし、…"
       }
     ],
-    "partOfSpeech": "名詞 / 固有名詞 / 地域 / 一般",
+    "partOfSpeech": [
+      "Noun"
+    ],
     "reading": "たろう",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "太郎"
   },
   {
@@ -12141,8 +14111,13 @@
         "label": "Lesson 4: Contrast ～とは違って"
       }
     ],
-    "partOfSpeech": "副詞 / 助詞類接続 / * / *",
+    "partOfSpeech": [
+      "Adverb"
+    ],
     "reading": "なにでも",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "何でも"
   },
   {
@@ -12167,8 +14142,13 @@
         "label": "Lesson 7: Reported information and hearsay ～だそうだ"
       }
     ],
-    "partOfSpeech": "名詞 / 固有名詞 / 地域 / 国",
+    "partOfSpeech": [
+      "Noun"
+    ],
     "reading": "べい",
+    "topicIds": [
+      "food-cooking"
+    ],
     "written": "米"
   },
   {
@@ -12193,8 +14173,13 @@
         "label": "Lesson 12: Respectful, humble, and polite language"
       }
     ],
-    "partOfSpeech": "名詞 / 接尾 / 助数詞 / *",
+    "partOfSpeech": [
+      "Counter or Number"
+    ],
     "reading": "かい",
+    "topicIds": [
+      "places-directions"
+    ],
     "written": "階"
   },
   {
@@ -12219,8 +14204,13 @@
         "label": "Lesson 7: Reported information and hearsay ～だそうだ"
       }
     ],
-    "partOfSpeech": "名詞 / 接尾 / 人名 / *",
+    "partOfSpeech": [
+      "Other"
+    ],
     "reading": "きみ",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "君"
   },
   {
@@ -12250,8 +14240,13 @@
         "label": "Lesson 11: Intentions, efforts, and attempts"
       }
     ],
-    "partOfSpeech": "名詞 / 一般 / * / *",
+    "partOfSpeech": [
+      "Noun"
+    ],
     "reading": "こ",
+    "topicIds": [
+      "people-family-relationships"
+    ],
     "written": "子"
   },
   {
@@ -12276,8 +14271,13 @@
         "label": "Lesson 7: Reported information and hearsay ～だそうだ"
       }
     ],
-    "partOfSpeech": "名詞 / 固有名詞 / 人名 / 姓",
+    "partOfSpeech": [
+      "Noun"
+    ],
     "reading": "やまかわ",
+    "topicIds": [
+      "nature-weather"
+    ],
     "written": "山川"
   },
   {
@@ -12307,8 +14307,13 @@
         "label": "Lesson 8: Strong and partial negation 絶対～ない・必ず～とは言えない"
       }
     ],
-    "partOfSpeech": "形容詞 / 自立 / * / *",
+    "partOfSpeech": [
+      "I-Adjective"
+    ],
     "reading": "ながい",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "長い"
   },
   {
@@ -12342,8 +14347,13 @@
         "label": "Lesson 12: Respectful, humble, and polite language"
       }
     ],
-    "partOfSpeech": "名詞 / 接尾 / 助数詞 / *",
+    "partOfSpeech": [
+      "Counter or Number"
+    ],
     "reading": "とき",
+    "topicIds": [
+      "time-dates-schedules"
+    ],
     "written": "時"
   },
   {
@@ -12374,8 +14384,13 @@
         "label": "Lesson 5: Reasons and causes ～だから"
       }
     ],
-    "partOfSpeech": "noun",
+    "partOfSpeech": [
+      "Noun"
+    ],
     "reading": "まち",
+    "topicIds": [
+      "places-directions"
+    ],
     "written": "町"
   },
   {
@@ -12406,8 +14421,13 @@
         "label": "Lesson 10: Advice and commands ～したほうがいい・～なさい"
       }
     ],
-    "partOfSpeech": "suru verb",
+    "partOfSpeech": [
+      "Group 3 Verb"
+    ],
     "reading": "めいれいする",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "命令する"
   },
   {
@@ -12438,8 +14458,13 @@
         "label": "Lesson 1: Time relationships ～とき"
       }
     ],
-    "partOfSpeech": "noun",
+    "partOfSpeech": [
+      "Noun"
+    ],
     "reading": "めんきょ",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "免許"
   },
   {
@@ -12464,8 +14489,13 @@
         "label": "Lesson 9: Wishes and requests ～と望む"
       }
     ],
-    "partOfSpeech": "grammar terminology",
+    "partOfSpeech": [
+      "Expression"
+    ],
     "reading": "ばけい",
+    "topicIds": [
+      "school-study"
+    ],
     "written": "ば形"
   },
   {
@@ -12490,8 +14520,13 @@
         "label": "Lesson 10: Advice and commands ～したほうがいい・～なさい"
       }
     ],
-    "partOfSpeech": "grammar terminology",
+    "partOfSpeech": [
+      "Expression"
+    ],
     "reading": "だん",
+    "topicIds": [
+      "school-study"
+    ],
     "written": "段"
   },
   {
@@ -12541,8 +14576,13 @@
         "label": "Lesson 10: Advice and commands ～したほうがいい・～なさい"
       }
     ],
-    "partOfSpeech": "grammar terminology",
+    "partOfSpeech": [
+      "Expression"
+    ],
     "reading": "どう",
+    "topicIds": [
+      "school-study"
+    ],
     "written": "動"
   },
   {
@@ -12572,8 +14612,13 @@
         "label": "Lesson 10: Advice and commands ～したほうがいい・～なさい"
       }
     ],
-    "partOfSpeech": "grammar terminology",
+    "partOfSpeech": [
+      "Expression"
+    ],
     "reading": "どうし",
+    "topicIds": [
+      "school-study"
+    ],
     "written": "動詞"
   },
   {
@@ -12703,8 +14748,13 @@
         "label": "Lesson 9: Wishes and requests ～と望む"
       }
     ],
-    "partOfSpeech": "grammar terminology",
+    "partOfSpeech": [
+      "Expression"
+    ],
     "reading": "ふつうけい",
+    "topicIds": [
+      "school-study"
+    ],
     "written": "普通形"
   },
   {
@@ -12729,8 +14779,14 @@
         "label": "Lesson 9: Wishes and requests ～と望む"
       }
     ],
-    "partOfSpeech": "grammar terminology",
+    "partOfSpeech": [
+      "Expression"
+    ],
     "reading": "げんざいけい",
+    "topicIds": [
+      "time-dates-schedules",
+      "school-study"
+    ],
     "written": "現在形"
   },
   {
@@ -12755,8 +14811,13 @@
         "label": "Lesson 7: Reported information and hearsay ～だそうだ"
       }
     ],
-    "partOfSpeech": "grammar terminology",
+    "partOfSpeech": [
+      "Expression"
+    ],
     "reading": "いんようけい",
+    "topicIds": [
+      "school-study"
+    ],
     "written": "引用形"
   },
   {
@@ -12781,8 +14842,13 @@
         "label": "Lesson 7: Reported information and hearsay ～だそうだ"
       }
     ],
-    "partOfSpeech": "grammar terminology",
+    "partOfSpeech": [
+      "Expression"
+    ],
     "reading": "いらい",
+    "topicIds": [
+      "communication-media"
+    ],
     "written": "依頼"
   },
   {
@@ -12832,8 +14898,13 @@
         "label": "Lesson 10: Advice and commands ～したほうがいい・～なさい"
       }
     ],
-    "partOfSpeech": "grammar terminology",
+    "partOfSpeech": [
+      "Expression"
+    ],
     "reading": "じしょけい",
+    "topicIds": [
+      "school-study"
+    ],
     "written": "辞書形"
   },
   {
@@ -12858,8 +14929,13 @@
         "label": "Lesson 9: Wishes and requests ～と望む"
       }
     ],
-    "partOfSpeech": "grammar terminology",
+    "partOfSpeech": [
+      "Expression"
+    ],
     "reading": "じょげん",
+    "topicIds": [
+      "school-study"
+    ],
     "written": "助言"
   },
   {
@@ -12884,8 +14960,13 @@
         "label": "Lesson 10: Advice and commands ～したほうがいい・～なさい"
       }
     ],
-    "partOfSpeech": "grammar terminology",
+    "partOfSpeech": [
+      "Expression"
+    ],
     "reading": "かこ",
+    "topicIds": [
+      "time-dates-schedules"
+    ],
     "written": "過去"
   },
   {
@@ -12910,8 +14991,13 @@
         "label": "Lesson 9: Wishes and requests ～と望む"
       }
     ],
-    "partOfSpeech": "grammar terminology",
+    "partOfSpeech": [
+      "Expression"
+    ],
     "reading": "けい",
+    "topicIds": [
+      "school-study"
+    ],
     "written": "形"
   },
   {
@@ -12936,8 +15022,13 @@
         "label": "Lesson 10: Advice and commands ～したほうがいい・～なさい"
       }
     ],
-    "partOfSpeech": "grammar terminology",
+    "partOfSpeech": [
+      "Expression"
+    ],
     "reading": "きんし",
+    "topicIds": [
+      "school-study"
+    ],
     "written": "禁止"
   },
   {
@@ -12962,8 +15053,13 @@
         "label": "Lesson 10: Advice and commands ～したほうがいい・～なさい"
       }
     ],
-    "partOfSpeech": "grammar terminology",
+    "partOfSpeech": [
+      "Expression"
+    ],
     "reading": "こうかい",
+    "topicIds": [
+      "school-study"
+    ],
     "written": "後悔"
   },
   {
@@ -12988,8 +15084,13 @@
         "label": "Lesson 12: Respectful, humble, and polite language"
       }
     ],
-    "partOfSpeech": "grammar terminology",
+    "partOfSpeech": [
+      "Expression"
+    ],
     "reading": "まいる",
+    "topicIds": [
+      "school-study"
+    ],
     "written": "参る"
   },
   {
@@ -13014,8 +15115,13 @@
         "label": "Lesson 10: Advice and commands ～したほうがいい・～なさい"
       }
     ],
-    "partOfSpeech": "grammar terminology",
+    "partOfSpeech": [
+      "Expression"
+    ],
     "reading": "めいし",
+    "topicIds": [
+      "school-study"
+    ],
     "written": "名詞"
   },
   {
@@ -13060,8 +15166,13 @@
         "label": "Lesson 10: Advice and commands ～したほうがいい・～なさい"
       }
     ],
-    "partOfSpeech": "grammar terminology",
+    "partOfSpeech": [
+      "Expression"
+    ],
     "reading": "ないけい",
+    "topicIds": [
+      "school-study"
+    ],
     "written": "ない形"
   },
   {
@@ -13086,8 +15197,13 @@
         "label": "Lesson 3: Degree and comparison 比べれば…・～がいちばん"
       }
     ],
-    "partOfSpeech": "grammar terminology",
+    "partOfSpeech": [
+      "Expression"
+    ],
     "reading": "せんたく",
+    "topicIds": [
+      "school-study"
+    ],
     "written": "選択"
   },
   {
@@ -13112,8 +15228,13 @@
         "label": "Lesson 9: Wishes and requests ～と望む"
       }
     ],
-    "partOfSpeech": "grammar terminology",
+    "partOfSpeech": [
+      "Expression"
+    ],
     "reading": "しえき",
+    "topicIds": [
+      "school-study"
+    ],
     "written": "使役"
   },
   {
@@ -13138,8 +15259,13 @@
         "label": "Lesson 10: Advice and commands ～したほうがいい・～なさい"
       }
     ],
-    "partOfSpeech": "grammar terminology",
+    "partOfSpeech": [
+      "Expression"
+    ],
     "reading": "たけい",
+    "topicIds": [
+      "school-study"
+    ],
     "written": "た形"
   },
   {
@@ -13169,8 +15295,13 @@
         "label": "Lesson 9: Wishes and requests ～と望む"
       }
     ],
-    "partOfSpeech": "grammar terminology",
+    "partOfSpeech": [
+      "Expression"
+    ],
     "reading": "てけい",
+    "topicIds": [
+      "school-study"
+    ],
     "written": "て形"
   },
   {
@@ -13196,8 +15327,13 @@
         "label": "Lesson 9: Wishes and requests ～と望む"
       }
     ],
-    "partOfSpeech": "i-adjective",
+    "partOfSpeech": [
+      "I-Adjective"
+    ],
     "reading": "みじかい",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "短い"
   },
   {
@@ -13223,8 +15359,14 @@
         "label": "Lesson 4: Contrast ～とは違って"
       }
     ],
-    "partOfSpeech": "noun / adverb",
+    "partOfSpeech": [
+      "Noun",
+      "Adverb"
+    ],
     "reading": "みな",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "皆"
   },
   {
@@ -13265,8 +15407,13 @@
         "label": "Lesson 9: Wishes and requests ～と望む"
       }
     ],
-    "partOfSpeech": "ichidan verb",
+    "partOfSpeech": [
+      "Group 2 Verb"
+    ],
     "reading": "みる",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "見る"
   },
   {
@@ -13312,8 +15459,14 @@
         "label": "Lesson 8: Strong and partial negation 絶対～ない・必ず～とは言えない"
       }
     ],
-    "partOfSpeech": "noun",
+    "partOfSpeech": [
+      "Noun"
+    ],
     "reading": "みせ",
+    "topicIds": [
+      "food-cooking",
+      "money-shopping"
+    ],
     "written": "店"
   },
   {
@@ -13338,8 +15491,13 @@
         "label": "Lesson 11: Intentions, efforts, and attempts"
       }
     ],
-    "partOfSpeech": "noun",
+    "partOfSpeech": [
+      "Noun"
+    ],
     "reading": "みず",
+    "topicIds": [
+      "food-cooking"
+    ],
     "written": "水"
   },
   {
@@ -13364,8 +15522,13 @@
         "label": "Lesson 3: Degree and comparison 比べれば…・～がいちばん"
       }
     ],
-    "partOfSpeech": "noun",
+    "partOfSpeech": [
+      "Noun"
+    ],
     "reading": "みずうみ",
+    "topicIds": [
+      "nature-weather"
+    ],
     "written": "湖"
   },
   {
@@ -13400,8 +15563,13 @@
         "label": "Lesson 2: Relationships ～と関係して"
       }
     ],
-    "partOfSpeech": "noun",
+    "partOfSpeech": [
+      "Noun"
+    ],
     "reading": "もの",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "物"
   },
   {
@@ -13427,8 +15595,13 @@
         "label": "Lesson 1: Time relationships ～とき"
       }
     ],
-    "partOfSpeech": "i-adjective",
+    "partOfSpeech": [
+      "I-Adjective"
+    ],
     "reading": "むずかしい",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "難しい"
   },
   {
@@ -13464,8 +15637,13 @@
         "label": "Lesson 7: Reported information and hearsay ～だそうだ"
       }
     ],
-    "partOfSpeech": "noun",
+    "partOfSpeech": [
+      "Noun"
+    ],
     "reading": "なか",
+    "topicIds": [
+      "places-directions"
+    ],
     "written": "中"
   },
   {
@@ -13491,8 +15669,13 @@
         "label": "Lesson 1: Time relationships ～とき"
       }
     ],
-    "partOfSpeech": "godan verb",
+    "partOfSpeech": [
+      "Group 1 Verb"
+    ],
     "reading": "なおる",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "治る"
   },
   {
@@ -13518,8 +15701,13 @@
         "label": "Lesson 1: Time relationships ～とき"
       }
     ],
-    "partOfSpeech": "godan verb",
+    "partOfSpeech": [
+      "Group 1 Verb"
+    ],
     "reading": "なる",
+    "topicIds": [
+      "communication-media"
+    ],
     "written": "鳴る"
   },
   {
@@ -13545,8 +15733,14 @@
         "label": "Lesson 1: Time relationships ～とき"
       }
     ],
-    "partOfSpeech": "godan verb",
+    "partOfSpeech": [
+      "Group 1 Verb"
+    ],
     "reading": "ねむる",
+    "topicIds": [
+      "body-health",
+      "home-daily-life"
+    ],
     "written": "眠る"
   },
   {
@@ -13577,8 +15771,14 @@
         "label": "Lesson 4: Contrast ～とは違って"
       }
     ],
-    "partOfSpeech": "na-adjective / noun",
+    "partOfSpeech": [
+      "Noun",
+      "Na-Adjective"
+    ],
     "reading": "にがて",
+    "topicIds": [
+      "feelings-personality"
+    ],
     "written": "苦手"
   },
   {
@@ -13609,8 +15809,13 @@
         "label": "Lesson 1: Time relationships ～とき"
       }
     ],
-    "partOfSpeech": "noun",
+    "partOfSpeech": [
+      "Noun"
+    ],
     "reading": "にわ",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "庭"
   },
   {
@@ -13636,8 +15841,13 @@
         "label": "Lesson 1: Time relationships ～とき"
       }
     ],
-    "partOfSpeech": "godan verb",
+    "partOfSpeech": [
+      "Group 1 Verb"
+    ],
     "reading": "のぼる",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "登る"
   },
   {
@@ -13663,8 +15873,13 @@
         "label": "Lesson 2: Relationships ～と関係して"
       }
     ],
-    "partOfSpeech": "godan verb",
+    "partOfSpeech": [
+      "Group 1 Verb"
+    ],
     "reading": "おこる",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "起こる"
   },
   {
@@ -13695,8 +15910,13 @@
         "label": "Lesson 2: Relationships ～と関係して"
       }
     ],
-    "partOfSpeech": "noun",
+    "partOfSpeech": [
+      "Noun"
+    ],
     "reading": "おおみず",
+    "topicIds": [
+      "food-cooking"
+    ],
     "written": "大水"
   },
   {
@@ -13727,8 +15947,13 @@
         "label": "Lesson 4: Contrast ～とは違って"
       }
     ],
-    "partOfSpeech": "i-adjective",
+    "partOfSpeech": [
+      "I-Adjective"
+    ],
     "reading": "おもしろい",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "面白い"
   },
   {
@@ -13753,8 +15978,13 @@
         "label": "Lesson 9: Wishes and requests ～と望む"
       }
     ],
-    "partOfSpeech": "pre-noun adjective",
+    "partOfSpeech": [
+      "Other"
+    ],
     "reading": "おなじ",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "同じ"
   },
   {
@@ -13784,8 +16014,13 @@
         "label": "Lesson 1: Time relationships ～とき"
       }
     ],
-    "partOfSpeech": "noun",
+    "partOfSpeech": [
+      "Noun"
+    ],
     "reading": "おんがく",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "音楽"
   },
   {
@@ -13846,8 +16081,13 @@
         "label": "Lesson 10: Advice and commands ～したほうがいい・～なさい"
       }
     ],
-    "partOfSpeech": "i-adjective",
+    "partOfSpeech": [
+      "I-Adjective"
+    ],
     "reading": "おおい",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "多い"
   },
   {
@@ -13873,8 +16113,13 @@
         "label": "Lesson 8: Strong and partial negation 絶対～ない・必ず～とは言えない"
       }
     ],
-    "partOfSpeech": "i-adjective",
+    "partOfSpeech": [
+      "I-Adjective"
+    ],
     "reading": "おおきい",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "大きい"
   },
   {
@@ -13904,8 +16149,13 @@
         "label": "Lesson 4: Contrast ～とは違って"
       }
     ],
-    "partOfSpeech": "proper noun",
+    "partOfSpeech": [
+      "Noun"
+    ],
     "reading": "おおさか",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "大阪"
   },
   {
@@ -13941,8 +16191,13 @@
         "label": "Lesson 10: Advice and commands ～したほうがいい・～なさい"
       }
     ],
-    "partOfSpeech": "godan verb",
+    "partOfSpeech": [
+      "Group 1 Verb"
+    ],
     "reading": "おわる",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "終わる"
   },
   {
@@ -13967,8 +16222,14 @@
         "label": "Lesson 1: Time relationships ～とき"
       }
     ],
-    "partOfSpeech": "word",
+    "partOfSpeech": [
+      "Noun",
+      "Group 3 Verb"
+    ],
     "reading": "うんどう",
+    "topicIds": [
+      "body-health"
+    ],
     "written": "運動"
   },
   {
@@ -13998,8 +16259,13 @@
         "label": "Lesson 8: Strong and partial negation 絶対～ない・必ず～とは言えない"
       }
     ],
-    "partOfSpeech": "word",
+    "partOfSpeech": [
+      "Noun"
+    ],
     "reading": "てがみ",
+    "topicIds": [
+      "communication-media"
+    ],
     "written": "手紙"
   },
   {
@@ -14024,8 +16290,13 @@
         "label": "Lesson 4: Contrast ～とは違って"
       }
     ],
-    "partOfSpeech": "word",
+    "partOfSpeech": [
+      "Noun"
+    ],
     "reading": "よのなか",
+    "topicIds": [
+      "society-public-services"
+    ],
     "written": "世の中"
   },
   {
@@ -14055,8 +16326,14 @@
         "label": "Lesson 1: Time relationships ～とき"
       }
     ],
-    "partOfSpeech": "word",
+    "partOfSpeech": [
+      "Noun",
+      "Group 3 Verb"
+    ],
     "reading": "うんてん",
+    "topicIds": [
+      "work-business"
+    ],
     "written": "運転"
   },
   {
@@ -14081,8 +16358,13 @@
         "label": "Lesson 8: Strong and partial negation 絶対～ない・必ず～とは言えない"
       }
     ],
-    "partOfSpeech": "godan verb",
+    "partOfSpeech": [
+      "Group 1 Verb"
+    ],
     "reading": "かつ",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "勝つ"
   },
   {
@@ -14112,8 +16394,13 @@
         "label": "Lesson 6: Conditions and hypotheses もし、…"
       }
     ],
-    "partOfSpeech": "ichidan verb",
+    "partOfSpeech": [
+      "Group 2 Verb"
+    ],
     "reading": "のれる",
+    "topicIds": [
+      "travel-transportation"
+    ],
     "written": "乗れる"
   },
   {
@@ -14148,8 +16435,13 @@
         "label": "Lesson 4: Contrast ～とは違って"
       }
     ],
-    "partOfSpeech": "proper noun",
+    "partOfSpeech": [
+      "Noun"
+    ],
     "reading": "みちこ",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "美知子"
   },
   {
@@ -14179,8 +16471,13 @@
         "label": "Lesson 6: Conditions and hypotheses もし、…"
       }
     ],
-    "partOfSpeech": "godan verb",
+    "partOfSpeech": [
+      "Group 1 Verb"
+    ],
     "reading": "かす",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "貸す"
   },
   {
@@ -14220,8 +16517,13 @@
         "label": "Lesson 10: Advice and commands ～したほうがいい・～なさい"
       }
     ],
-    "partOfSpeech": "i-adjective",
+    "partOfSpeech": [
+      "I-Adjective"
+    ],
     "reading": "わるい",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "悪い"
   },
   {
@@ -14251,8 +16553,13 @@
         "label": "Lesson 2: Relationships ～と関係して"
       }
     ],
-    "partOfSpeech": "godan verb",
+    "partOfSpeech": [
+      "Group 1 Verb"
+    ],
     "reading": "まよう",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "迷う"
   },
   {
@@ -14297,8 +16604,13 @@
         "label": "Lesson 11: Intentions, efforts, and attempts"
       }
     ],
-    "partOfSpeech": "godan verb",
+    "partOfSpeech": [
+      "Group 1 Verb"
+    ],
     "reading": "かえる",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "帰る"
   },
   {
@@ -14323,8 +16635,14 @@
         "label": "Lesson 5: Reasons and causes ～だから"
       }
     ],
-    "partOfSpeech": "noun / expression",
+    "partOfSpeech": [
+      "Noun",
+      "Expression"
+    ],
     "reading": "かた",
+    "topicIds": [
+      "school-study"
+    ],
     "written": "型"
   },
   {
@@ -14363,8 +16681,13 @@
         "label": "Lesson 10: Advice and commands ～したほうがいい・～なさい"
       }
     ],
-    "partOfSpeech": "ichidan verb",
+    "partOfSpeech": [
+      "Group 2 Verb"
+    ],
     "reading": "うける",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "受ける"
   },
   {
@@ -14398,8 +16721,13 @@
         "label": "Lesson 7: Reported information and hearsay ～だそうだ"
       }
     ],
-    "partOfSpeech": "godan verb",
+    "partOfSpeech": [
+      "Group 1 Verb"
+    ],
     "reading": "おこなう",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "行う"
   },
   {
@@ -14429,8 +16757,13 @@
         "label": "Lesson 7: Reported information and hearsay ～だそうだ"
       }
     ],
-    "partOfSpeech": "i-adjective",
+    "partOfSpeech": [
+      "I-Adjective"
+    ],
     "reading": "ひろい",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "広い"
   },
   {
@@ -14455,8 +16788,13 @@
         "label": "Lesson 3: Degree and comparison 比べれば…・～がいちばん"
       }
     ],
-    "partOfSpeech": "ichidan verb",
+    "partOfSpeech": [
+      "Group 2 Verb"
+    ],
     "reading": "たおれる",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "倒れる"
   },
   {
@@ -14486,8 +16824,13 @@
         "label": "Lesson 4: Contrast ～とは違って"
       }
     ],
-    "partOfSpeech": "godan verb",
+    "partOfSpeech": [
+      "Group 1 Verb"
+    ],
     "reading": "はしる",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "走る"
   },
   {
@@ -14517,8 +16860,13 @@
         "label": "Lesson 11: Intentions, efforts, and attempts"
       }
     ],
-    "partOfSpeech": "godan verb",
+    "partOfSpeech": [
+      "Group 1 Verb"
+    ],
     "reading": "おこる",
+    "topicIds": [
+      "feelings-personality"
+    ],
     "written": "怒る"
   },
   {
@@ -14553,8 +16901,13 @@
         "label": "Lesson 10: Advice and commands ～したほうがいい・～なさい"
       }
     ],
-    "partOfSpeech": "irregular verb",
+    "partOfSpeech": [
+      "Group 3 Verb"
+    ],
     "reading": "くる",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "来る"
   },
   {
@@ -14584,8 +16937,14 @@
         "label": "Lesson 10: Advice and commands ～したほうがいい・～なさい"
       }
     ],
-    "partOfSpeech": "noun / expression",
+    "partOfSpeech": [
+      "Noun",
+      "Expression"
+    ],
     "reading": "まえ",
+    "topicIds": [
+      "time-dates-schedules"
+    ],
     "written": "前"
   },
   {
@@ -14615,8 +16974,13 @@
         "label": "Lesson 5: Reasons and causes ～だから"
       }
     ],
-    "partOfSpeech": "godan verb",
+    "partOfSpeech": [
+      "Group 1 Verb"
+    ],
     "reading": "わらう",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "笑う"
   },
   {
@@ -14651,8 +17015,14 @@
         "label": "Lesson 12: Respectful, humble, and polite language"
       }
     ],
-    "partOfSpeech": "noun / expression",
+    "partOfSpeech": [
+      "Noun",
+      "Expression"
+    ],
     "reading": "とし",
+    "topicIds": [
+      "time-dates-schedules"
+    ],
     "written": "年"
   },
   {
@@ -14682,8 +17052,13 @@
         "label": "Lesson 1: Time relationships ～とき"
       }
     ],
-    "partOfSpeech": "ichidan verb",
+    "partOfSpeech": [
+      "Group 2 Verb"
+    ],
     "reading": "でかける",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "出かける"
   },
   {
@@ -14734,8 +17109,13 @@
         "label": "Lesson 8: Strong and partial negation 絶対～ない・必ず～とは言えない"
       }
     ],
-    "partOfSpeech": "godan verb",
+    "partOfSpeech": [
+      "Group 1 Verb"
+    ],
     "reading": "かぎる",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "限る"
   },
   {
@@ -14765,8 +17145,13 @@
         "label": "Lesson 3: Degree and comparison 比べれば…・～がいちばん"
       }
     ],
-    "partOfSpeech": "godan verb",
+    "partOfSpeech": [
+      "Group 1 Verb"
+    ],
     "reading": "とる",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "撮る"
   },
   {
@@ -14796,8 +17181,13 @@
         "label": "Lesson 11: Intentions, efforts, and attempts"
       }
     ],
-    "partOfSpeech": "i-adjective",
+    "partOfSpeech": [
+      "I-Adjective"
+    ],
     "reading": "いたい",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "痛い"
   },
   {
@@ -14831,8 +17221,15 @@
         "label": "Lesson 1: Time relationships ～とき"
       }
     ],
-    "partOfSpeech": "noun / suru verb",
+    "partOfSpeech": [
+      "Noun",
+      "Group 3 Verb"
+    ],
     "reading": "ひるね",
+    "topicIds": [
+      "body-health",
+      "home-daily-life"
+    ],
     "written": "昼寝"
   },
   {
@@ -14862,8 +17259,13 @@
         "label": "Lesson 3: Degree and comparison 比べれば…・～がいちばん"
       }
     ],
-    "partOfSpeech": "godan verb",
+    "partOfSpeech": [
+      "Group 1 Verb"
+    ],
     "reading": "あう",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "合う"
   },
   {
@@ -14887,8 +17289,13 @@
         "label": "Lesson 11: Intentions, efforts, and attempts"
       }
     ],
-    "partOfSpeech": "ichidan verb",
+    "partOfSpeech": [
+      "Group 2 Verb"
+    ],
     "reading": "すすめる",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "勧める"
   },
   {
@@ -14923,8 +17330,14 @@
         "label": "Lesson 12: Respectful, humble, and polite language"
       }
     ],
-    "partOfSpeech": "noun / expression",
+    "partOfSpeech": [
+      "Noun",
+      "Expression"
+    ],
     "reading": "かえり",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "帰り"
   },
   {
@@ -14954,8 +17367,13 @@
         "label": "Lesson 10: Advice and commands ～したほうがいい・～なさい"
       }
     ],
-    "partOfSpeech": "ichidan verb",
+    "partOfSpeech": [
+      "Group 2 Verb"
+    ],
     "reading": "かえる",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "変える"
   },
   {
@@ -15019,8 +17437,13 @@
         "label": "Lesson 11: Intentions, efforts, and attempts"
       }
     ],
-    "partOfSpeech": "godan verb",
+    "partOfSpeech": [
+      "Group 1 Verb"
+    ],
     "reading": "いく",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "行く"
   },
   {
@@ -15055,8 +17478,13 @@
         "label": "Lesson 6: Conditions and hypotheses もし、…"
       }
     ],
-    "partOfSpeech": "godan verb",
+    "partOfSpeech": [
+      "Group 1 Verb"
+    ],
     "reading": "まにあう",
+    "topicIds": [
+      "time-dates-schedules"
+    ],
     "written": "間に合う"
   },
   {
@@ -15091,8 +17519,13 @@
         "label": "Lesson 10: Advice and commands ～したほうがいい・～なさい"
       }
     ],
-    "partOfSpeech": "ichidan verb",
+    "partOfSpeech": [
+      "Group 2 Verb"
+    ],
     "reading": "きめる",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "決める"
   },
   {
@@ -15134,8 +17567,14 @@
         "label": "Lesson 4: Contrast ～とは違って"
       }
     ],
-    "partOfSpeech": "conjunction",
+    "partOfSpeech": [
+      "Conjunction"
+    ],
     "reading": "はんめん",
+    "topicIds": [
+      "time-dates-schedules",
+      "body-health"
+    ],
     "written": "反面"
   },
   {
@@ -15160,8 +17599,14 @@
         "label": "Lesson 7: Reported information and hearsay ～だそうだ"
       }
     ],
-    "partOfSpeech": "noun / expression",
+    "partOfSpeech": [
+      "Noun",
+      "Expression"
+    ],
     "reading": "おくさん",
+    "topicIds": [
+      "people-family-relationships"
+    ],
     "written": "奥さん"
   },
   {
@@ -15216,8 +17661,13 @@
         "label": "Lesson 11: Intentions, efforts, and attempts"
       }
     ],
-    "partOfSpeech": "godan verb",
+    "partOfSpeech": [
+      "Group 1 Verb"
+    ],
     "reading": "つくる",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "作る"
   },
   {
@@ -15247,8 +17697,13 @@
         "label": "Lesson 7: Reported information and hearsay ～だそうだ"
       }
     ],
-    "partOfSpeech": "ichidan verb",
+    "partOfSpeech": [
+      "Group 2 Verb"
+    ],
     "reading": "もどれる",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "戻れる"
   },
   {
@@ -15281,8 +17736,13 @@
         "label": "Lesson 12: Respectful, humble, and polite language"
       }
     ],
-    "partOfSpeech": "godan verb",
+    "partOfSpeech": [
+      "Group 1 Verb"
+    ],
     "reading": "うかがう",
+    "topicIds": [
+      "communication-media"
+    ],
     "written": "伺う"
   },
   {
@@ -15312,8 +17772,13 @@
         "label": "Lesson 7: Reported information and hearsay ～だそうだ"
       }
     ],
-    "partOfSpeech": "proper noun",
+    "partOfSpeech": [
+      "Noun"
+    ],
     "reading": "さとう",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "佐藤"
   },
   {
@@ -15348,8 +17813,13 @@
         "label": "Lesson 9: Wishes and requests ～と望む"
       }
     ],
-    "partOfSpeech": "ichidan verb",
+    "partOfSpeech": [
+      "Group 2 Verb"
+    ],
     "reading": "ひきうける",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "引き受ける"
   },
   {
@@ -15379,8 +17849,13 @@
         "label": "Lesson 4: Contrast ～とは違って"
       }
     ],
-    "partOfSpeech": "godan verb",
+    "partOfSpeech": [
+      "Group 1 Verb"
+    ],
     "reading": "たのむ",
+    "topicIds": [
+      "communication-media"
+    ],
     "written": "頼む"
   },
   {
@@ -15405,8 +17880,13 @@
         "label": "Lesson 5: Reasons and causes ～だから"
       }
     ],
-    "partOfSpeech": "godan verb",
+    "partOfSpeech": [
+      "Group 1 Verb"
+    ],
     "reading": "まなぶ",
+    "topicIds": [
+      "school-study"
+    ],
     "written": "学ぶ"
   },
   {
@@ -15456,8 +17936,13 @@
         "label": "Lesson 11: Intentions, efforts, and attempts"
       }
     ],
-    "partOfSpeech": "ichidan verb",
+    "partOfSpeech": [
+      "Group 2 Verb"
+    ],
     "reading": "たべる",
+    "topicIds": [
+      "food-cooking"
+    ],
     "written": "食べる"
   },
   {
@@ -15487,8 +17972,14 @@
         "label": "Lesson 9: Wishes and requests ～と望む"
       }
     ],
-    "partOfSpeech": "noun / expression",
+    "partOfSpeech": [
+      "Noun",
+      "Expression"
+    ],
     "reading": "かきかた",
+    "topicIds": [
+      "school-study"
+    ],
     "written": "書き方"
   },
   {
@@ -15518,8 +18009,13 @@
         "label": "Lesson 11: Intentions, efforts, and attempts"
       }
     ],
-    "partOfSpeech": "proper noun",
+    "partOfSpeech": [
+      "Noun"
+    ],
     "reading": "ゆみ",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "由美"
   },
   {
@@ -15554,8 +18050,13 @@
         "label": "Lesson 12: Respectful, humble, and polite language"
       }
     ],
-    "partOfSpeech": "ichidan verb",
+    "partOfSpeech": [
+      "Group 2 Verb"
+    ],
     "reading": "かりる",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "借りる"
   },
   {
@@ -15580,8 +18081,13 @@
         "label": "Lesson 12: Respectful, humble, and polite language"
       }
     ],
-    "partOfSpeech": "godan verb",
+    "partOfSpeech": [
+      "Group 1 Verb"
+    ],
     "reading": "もうす",
+    "topicIds": [
+      "communication-media"
+    ],
     "written": "申す"
   },
   {
@@ -15611,8 +18117,14 @@
         "label": "Lesson 9: Wishes and requests ～と望む"
       }
     ],
-    "partOfSpeech": "noun / expression",
+    "partOfSpeech": [
+      "Noun",
+      "Expression"
+    ],
     "reading": "ちょうし",
+    "topicIds": [
+      "school-study"
+    ],
     "written": "調子"
   },
   {
@@ -15642,8 +18154,14 @@
         "label": "Lesson 5: Reasons and causes ～だから"
       }
     ],
-    "partOfSpeech": "noun / counter",
+    "partOfSpeech": [
+      "Noun",
+      "Counter or Number"
+    ],
     "reading": "ふたり",
+    "topicIds": [
+      "people-family-relationships"
+    ],
     "written": "二人"
   },
   {
@@ -15673,8 +18191,13 @@
         "label": "Lesson 8: Strong and partial negation 絶対～ない・必ず～とは言えない"
       }
     ],
-    "partOfSpeech": "ichidan verb",
+    "partOfSpeech": [
+      "Group 2 Verb"
+    ],
     "reading": "たのしめる",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "楽しめる"
   },
   {
@@ -15709,8 +18232,13 @@
         "label": "Lesson 8: Strong and partial negation 絶対～ない・必ず～とは言えない"
       }
     ],
-    "partOfSpeech": "ichidan verb",
+    "partOfSpeech": [
+      "Group 2 Verb"
+    ],
     "reading": "かえる",
+    "topicIds": [
+      "money-shopping"
+    ],
     "written": "買える"
   },
   {
@@ -15740,8 +18268,13 @@
         "label": "Lesson 10: Advice and commands ～したほうがいい・～なさい"
       }
     ],
-    "partOfSpeech": "godan verb",
+    "partOfSpeech": [
+      "Group 1 Verb"
+    ],
     "reading": "とまる",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "止まる"
   },
   {
@@ -15784,8 +18317,14 @@
         "label": "Lesson 12: Respectful, humble, and polite language"
       }
     ],
-    "partOfSpeech": "noun / expression",
+    "partOfSpeech": [
+      "Noun",
+      "Expression"
+    ],
     "reading": "なに",
+    "topicIds": [
+      "school-study"
+    ],
     "written": "何"
   },
   {
@@ -15815,8 +18354,13 @@
         "label": "Lesson 5: Reasons and causes ～だから"
       }
     ],
-    "partOfSpeech": "godan verb",
+    "partOfSpeech": [
+      "Group 1 Verb"
+    ],
     "reading": "つづく",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "続く"
   },
   {
@@ -15846,8 +18390,13 @@
         "label": "Lesson 8: Strong and partial negation 絶対～ない・必ず～とは言えない"
       }
     ],
-    "partOfSpeech": "ichidan verb",
+    "partOfSpeech": [
+      "Group 2 Verb"
+    ],
     "reading": "およげる",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "泳げる"
   },
   {
@@ -15877,8 +18426,14 @@
         "label": "Lesson 9: Wishes and requests ～と望む"
       }
     ],
-    "partOfSpeech": "noun / adverb",
+    "partOfSpeech": [
+      "Noun",
+      "Adverb"
+    ],
     "reading": "なんど",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "何度"
   },
   {
@@ -15908,8 +18463,13 @@
         "label": "Lesson 10: Advice and commands ～したほうがいい・～なさい"
       }
     ],
-    "partOfSpeech": "ichidan verb",
+    "partOfSpeech": [
+      "Group 2 Verb"
+    ],
     "reading": "おりる",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "降りる"
   },
   {
@@ -15975,8 +18535,13 @@
         "label": "Lesson 10: Advice and commands ～したほうがいい・～なさい"
       }
     ],
-    "partOfSpeech": "godan verb",
+    "partOfSpeech": [
+      "Group 1 Verb"
+    ],
     "reading": "いう",
+    "topicIds": [
+      "communication-media"
+    ],
     "written": "言う"
   },
   {
@@ -16025,8 +18590,13 @@
         "label": "Lesson 10: Advice and commands ～したほうがいい・～なさい"
       }
     ],
-    "partOfSpeech": "godan verb",
+    "partOfSpeech": [
+      "Group 1 Verb"
+    ],
     "reading": "おもう",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "思う"
   },
   {
@@ -16066,8 +18636,13 @@
         "label": "Lesson 11: Intentions, efforts, and attempts"
       }
     ],
-    "partOfSpeech": "godan verb",
+    "partOfSpeech": [
+      "Group 1 Verb"
+    ],
     "reading": "かう",
+    "topicIds": [
+      "money-shopping"
+    ],
     "written": "買う"
   },
   {
@@ -16097,8 +18672,13 @@
         "label": "Lesson 6: Conditions and hypotheses もし、…"
       }
     ],
-    "partOfSpeech": "ichidan verb",
+    "partOfSpeech": [
+      "Group 2 Verb"
+    ],
     "reading": "たてる",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "建てる"
   },
   {
@@ -16123,8 +18703,14 @@
         "label": "Lesson 7: Reported information and hearsay ～だそうだ"
       }
     ],
-    "partOfSpeech": "noun / expression",
+    "partOfSpeech": [
+      "Noun",
+      "Expression"
+    ],
     "reading": "しゃ",
+    "topicIds": [
+      "work-business"
+    ],
     "written": "社"
   },
   {
@@ -16154,8 +18740,13 @@
         "label": "Lesson 4: Contrast ～とは違って"
       }
     ],
-    "partOfSpeech": "godan verb",
+    "partOfSpeech": [
+      "Group 1 Verb"
+    ],
     "reading": "とりくむ",
+    "topicIds": [
+      "work-business"
+    ],
     "written": "取り組む"
   },
   {
@@ -16185,8 +18776,13 @@
         "label": "Lesson 3: Degree and comparison 比べれば…・～がいちばん"
       }
     ],
-    "partOfSpeech": "ichidan verb",
+    "partOfSpeech": [
+      "Group 2 Verb"
+    ],
     "reading": "おれる",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "折れる"
   },
   {
@@ -16216,8 +18812,13 @@
         "label": "Lesson 12: Respectful, humble, and polite language"
       }
     ],
-    "partOfSpeech": "godan verb",
+    "partOfSpeech": [
+      "Group 1 Verb"
+    ],
     "reading": "すむ",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "住む"
   },
   {
@@ -16256,8 +18857,13 @@
         "label": "Lesson 12: Respectful, humble, and polite language"
       }
     ],
-    "partOfSpeech": "godan verb",
+    "partOfSpeech": [
+      "Group 1 Verb"
+    ],
     "reading": "めしあがる",
+    "topicIds": [
+      "food-cooking"
+    ],
     "written": "召し上がる"
   },
   {
@@ -16287,8 +18893,13 @@
         "label": "Lesson 3: Degree and comparison 比べれば…・～がいちばん"
       }
     ],
-    "partOfSpeech": "ichidan verb",
+    "partOfSpeech": [
+      "Group 2 Verb"
+    ],
     "reading": "とれる",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "撮れる"
   },
   {
@@ -16318,8 +18929,13 @@
         "label": "Lesson 12: Respectful, humble, and polite language"
       }
     ],
-    "partOfSpeech": "ichidan verb",
+    "partOfSpeech": [
+      "Group 2 Verb"
+    ],
     "reading": "みせる",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "見せる"
   },
   {
@@ -16349,8 +18965,13 @@
         "label": "Lesson 4: Contrast ～とは違って"
       }
     ],
-    "partOfSpeech": "i-adjective",
+    "partOfSpeech": [
+      "I-Adjective"
+    ],
     "reading": "ふかい",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "深い"
   },
   {
@@ -16385,8 +19006,14 @@
         "label": "Lesson 10: Advice and commands ～したほうがいい・～なさい"
       }
     ],
-    "partOfSpeech": "noun / expression",
+    "partOfSpeech": [
+      "Noun",
+      "Expression"
+    ],
     "reading": "ひとこと",
+    "topicIds": [
+      "school-study"
+    ],
     "written": "一言"
   },
   {
@@ -16421,8 +19048,13 @@
         "label": "Lesson 10: Advice and commands ～したほうがいい・～なさい"
       }
     ],
-    "partOfSpeech": "godan verb",
+    "partOfSpeech": [
+      "Group 1 Verb"
+    ],
     "reading": "のむ",
+    "topicIds": [
+      "food-cooking"
+    ],
     "written": "飲む"
   },
   {
@@ -16457,8 +19089,13 @@
         "label": "Lesson 7: Reported information and hearsay ～だそうだ"
       }
     ],
-    "partOfSpeech": "godan verb",
+    "partOfSpeech": [
+      "Group 1 Verb"
+    ],
     "reading": "きまる",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "決まる"
   },
   {
@@ -16488,8 +19125,13 @@
         "label": "Lesson 10: Advice and commands ～したほうがいい・～なさい"
       }
     ],
-    "partOfSpeech": "ichidan verb",
+    "partOfSpeech": [
+      "Group 2 Verb"
+    ],
     "reading": "はしれる",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "走れる"
   },
   {
@@ -16519,8 +19161,13 @@
         "label": "Lesson 6: Conditions and hypotheses もし、…"
       }
     ],
-    "partOfSpeech": "ichidan verb",
+    "partOfSpeech": [
+      "Group 2 Verb"
+    ],
     "reading": "いける",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "行ける"
   },
   {
@@ -16570,8 +19217,13 @@
         "label": "Lesson 10: Advice and commands ～したほうがいい・～なさい"
       }
     ],
-    "partOfSpeech": "godan verb",
+    "partOfSpeech": [
+      "Group 1 Verb"
+    ],
     "reading": "よむ",
+    "topicIds": [
+      "school-study"
+    ],
     "written": "読む"
   },
   {
@@ -16601,8 +19253,14 @@
         "label": "Lesson 3: Degree and comparison 比べれば…・～がいちばん"
       }
     ],
-    "partOfSpeech": "noun / time expression",
+    "partOfSpeech": [
+      "Noun",
+      "Expression"
+    ],
     "reading": "ねんまえ",
+    "topicIds": [
+      "school-study"
+    ],
     "written": "年前"
   },
   {
@@ -16642,8 +19300,13 @@
         "label": "Lesson 12: Respectful, humble, and polite language"
       }
     ],
-    "partOfSpeech": "ichidan verb",
+    "partOfSpeech": [
+      "Group 2 Verb"
+    ],
     "reading": "おしえる",
+    "topicIds": [
+      "communication-media"
+    ],
     "written": "教える"
   },
   {
@@ -16678,8 +19341,14 @@
         "label": "Lesson 2: Relationships ～と関係して"
       }
     ],
-    "partOfSpeech": "noun / suru verb",
+    "partOfSpeech": [
+      "Noun",
+      "Group 3 Verb"
+    ],
     "reading": "せいり",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "整理"
   },
   {
@@ -16719,8 +19388,13 @@
         "label": "Lesson 12: Respectful, humble, and polite language"
       }
     ],
-    "partOfSpeech": "godan verb",
+    "partOfSpeech": [
+      "Group 1 Verb"
+    ],
     "reading": "かく",
+    "topicIds": [
+      "school-study"
+    ],
     "written": "書く"
   },
   {
@@ -16750,8 +19424,13 @@
         "label": "Lesson 8: Strong and partial negation 絶対～ない・必ず～とは言えない"
       }
     ],
-    "partOfSpeech": "ichidan verb",
+    "partOfSpeech": [
+      "Group 2 Verb"
+    ],
     "reading": "あるける",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "歩ける"
   },
   {
@@ -16776,8 +19455,14 @@
         "label": "Lesson 9: Wishes and requests ～と望む"
       }
     ],
-    "partOfSpeech": "noun / expression",
+    "partOfSpeech": [
+      "Noun",
+      "Expression"
+    ],
     "reading": "とおく",
+    "topicIds": [
+      "places-directions"
+    ],
     "written": "遠く"
   },
   {
@@ -16807,8 +19492,13 @@
         "label": "Lesson 8: Strong and partial negation 絶対～ない・必ず～とは言えない"
       }
     ],
-    "partOfSpeech": "suru verb",
+    "partOfSpeech": [
+      "Group 3 Verb"
+    ],
     "reading": "れんしゅうする",
+    "topicIds": [
+      "school-study"
+    ],
     "written": "練習する"
   },
   {
@@ -16833,8 +19523,14 @@
         "label": "Lesson 4: Contrast ～とは違って"
       }
     ],
-    "partOfSpeech": "word",
+    "partOfSpeech": [
+      "Noun",
+      "Group 3 Verb"
+    ],
     "reading": "せいかつ",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "生活"
   },
   {
@@ -16869,8 +19565,13 @@
         "label": "Lesson 1: Time relationships ～とき"
       }
     ],
-    "partOfSpeech": "noun",
+    "partOfSpeech": [
+      "Noun"
+    ],
     "reading": "るす",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "留守"
   },
   {
@@ -16900,8 +19601,13 @@
         "label": "Lesson 4: Contrast ～とは違って"
       }
     ],
-    "partOfSpeech": "noun",
+    "partOfSpeech": [
+      "Noun"
+    ],
     "reading": "りょうしん",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "両親"
   },
   {
@@ -16928,8 +19634,14 @@
         "label": "Lesson 11: Intentions, efforts, and attempts"
       }
     ],
-    "partOfSpeech": "noun / adverb",
+    "partOfSpeech": [
+      "Noun",
+      "Adverb"
+    ],
     "reading": "さき",
+    "topicIds": [
+      "time-dates-schedules"
+    ],
     "written": "先"
   },
   {
@@ -16960,8 +19672,13 @@
         "label": "Lesson 3: Degree and comparison 比べれば…・～がいちばん"
       }
     ],
-    "partOfSpeech": "suru verb",
+    "partOfSpeech": [
+      "Group 3 Verb"
+    ],
     "reading": "さんかする",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "参加する"
   },
   {
@@ -16992,8 +19709,14 @@
         "label": "Lesson 2: Relationships ～と関係して"
       }
     ],
-    "partOfSpeech": "noun / suru verb",
+    "partOfSpeech": [
+      "Noun",
+      "Group 3 Verb"
+    ],
     "reading": "さんぽ",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "散歩"
   },
   {
@@ -17024,8 +19747,13 @@
         "label": "Lesson 3: Degree and comparison 比べれば…・～がいちばん"
       }
     ],
-    "partOfSpeech": "suru verb",
+    "partOfSpeech": [
+      "Group 3 Verb"
+    ],
     "reading": "せいかつする",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "生活する"
   },
   {
@@ -17055,8 +19783,13 @@
         "label": "Lesson 5: Reasons and causes ～だから"
       }
     ],
-    "partOfSpeech": "noun",
+    "partOfSpeech": [
+      "Noun"
+    ],
     "reading": "せかい",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "世界"
   },
   {
@@ -17086,8 +19819,13 @@
         "label": "Lesson 4: Contrast ～とは違って"
       }
     ],
-    "partOfSpeech": "noun",
+    "partOfSpeech": [
+      "Noun"
+    ],
     "reading": "せきにん",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "責任"
   },
   {
@@ -17117,8 +19855,14 @@
         "label": "Lesson 3: Degree and comparison 比べれば…・～がいちばん"
       }
     ],
-    "partOfSpeech": "noun",
+    "partOfSpeech": [
+      "Noun"
+    ],
     "reading": "せなか",
+    "topicIds": [
+      "body-health",
+      "places-directions"
+    ],
     "written": "背中"
   },
   {
@@ -17154,8 +19898,13 @@
         "label": "Lesson 3: Degree and comparison 比べれば…・～がいちばん"
       }
     ],
-    "partOfSpeech": "noun",
+    "partOfSpeech": [
+      "Noun"
+    ],
     "reading": "せつめいかい",
+    "topicIds": [
+      "communication-media"
+    ],
     "written": "説明会"
   },
   {
@@ -17191,8 +19940,14 @@
         "label": "Lesson 4: Contrast ～とは違って"
       }
     ],
-    "partOfSpeech": "noun / suru verb",
+    "partOfSpeech": [
+      "Noun",
+      "Group 3 Verb"
+    ],
     "reading": "せわ",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "世話"
   },
   {
@@ -17222,8 +19977,13 @@
         "label": "Lesson 4: Contrast ～とは違って"
       }
     ],
-    "partOfSpeech": "noun",
+    "partOfSpeech": [
+      "Noun"
+    ],
     "reading": "しゃちょう",
+    "topicIds": [
+      "work-business"
+    ],
     "written": "社長"
   },
   {
@@ -17249,8 +20009,13 @@
         "label": "Lesson 2: Relationships ～と関係して"
       }
     ],
-    "partOfSpeech": "ichidan verb",
+    "partOfSpeech": [
+      "Group 2 Verb"
+    ],
     "reading": "しらべる",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "調べる"
   },
   {
@@ -17281,8 +20046,13 @@
         "label": "Lesson 8: Strong and partial negation 絶対～ない・必ず～とは言えない"
       }
     ],
-    "partOfSpeech": "godan verb",
+    "partOfSpeech": [
+      "Group 1 Verb"
+    ],
     "reading": "しる",
+    "topicIds": [
+      "school-study"
+    ],
     "written": "知る"
   },
   {
@@ -17312,8 +20082,13 @@
         "label": "Lesson 4: Contrast ～とは違って"
       }
     ],
-    "partOfSpeech": "noun",
+    "partOfSpeech": [
+      "Noun"
+    ],
     "reading": "しょうがつ",
+    "topicIds": [
+      "time-dates-schedules"
+    ],
     "written": "正月"
   },
   {
@@ -17344,8 +20119,13 @@
         "label": "Lesson 2: Relationships ～と関係して"
       }
     ],
-    "partOfSpeech": "noun",
+    "partOfSpeech": [
+      "Noun"
+    ],
     "reading": "しょうてん",
+    "topicIds": [
+      "money-shopping"
+    ],
     "written": "商店"
   },
   {
@@ -17376,8 +20156,13 @@
         "label": "Lesson 1: Time relationships ～とき"
       }
     ],
-    "partOfSpeech": "suru verb",
+    "partOfSpeech": [
+      "Group 3 Verb"
+    ],
     "reading": "そうだんする",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "相談する"
   },
   {
@@ -17407,8 +20192,13 @@
         "label": "Lesson 4: Contrast ～とは違って"
       }
     ],
-    "partOfSpeech": "noun",
+    "partOfSpeech": [
+      "Noun"
+    ],
     "reading": "そとあそび",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "外遊び"
   },
   {
@@ -17460,8 +20250,14 @@
         "label": "Lesson 8: Strong and partial negation 絶対～ない・必ず～とは言えない"
       }
     ],
-    "partOfSpeech": "na-adjective / noun",
+    "partOfSpeech": [
+      "Noun",
+      "Na-Adjective"
+    ],
     "reading": "すき",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "好き"
   },
   {
@@ -17492,8 +20288,13 @@
         "label": "Lesson 3: Degree and comparison 比べれば…・～がいちばん"
       }
     ],
-    "partOfSpeech": "noun",
+    "partOfSpeech": [
+      "Noun"
+    ],
     "reading": "たいけい",
+    "topicIds": [
+      "body-health"
+    ],
     "written": "体型"
   },
   {
@@ -17540,8 +20341,13 @@
         "label": "Lesson 8: Strong and partial negation 絶対～ない・必ず～とは言えない"
       }
     ],
-    "partOfSpeech": "i-adjective",
+    "partOfSpeech": [
+      "I-Adjective"
+    ],
     "reading": "たかい",
+    "topicIds": [
+      "money-shopping"
+    ],
     "written": "高い"
   },
   {
@@ -17572,8 +20378,13 @@
         "label": "Lesson 8: Strong and partial negation 絶対～ない・必ず～とは言えない"
       }
     ],
-    "partOfSpeech": "i-adjective",
+    "partOfSpeech": [
+      "I-Adjective"
+    ],
     "reading": "たのしい",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "楽しい"
   },
   {
@@ -17604,8 +20415,13 @@
         "label": "Lesson 8: Strong and partial negation 絶対～ない・必ず～とは言えない"
       }
     ],
-    "partOfSpeech": "noun",
+    "partOfSpeech": [
+      "Noun"
+    ],
     "reading": "たのしみ",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "楽しみ"
   },
   {
@@ -17630,8 +20446,13 @@
         "label": "Lesson 3: Degree and comparison 比べれば…・～がいちばん"
       }
     ],
-    "partOfSpeech": "godan verb",
+    "partOfSpeech": [
+      "Group 1 Verb"
+    ],
     "reading": "たつ",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "立つ"
   },
   {
@@ -17666,8 +20487,13 @@
         "label": "Lesson 5: Reasons and causes ～だから"
       }
     ],
-    "partOfSpeech": "noun",
+    "partOfSpeech": [
+      "Noun"
+    ],
     "reading": "てんき",
+    "topicIds": [
+      "nature-weather"
+    ],
     "written": "天気"
   },
   {
@@ -17698,8 +20524,13 @@
         "label": "Lesson 1: Time relationships ～とき"
       }
     ],
-    "partOfSpeech": "godan verb",
+    "partOfSpeech": [
+      "Group 1 Verb"
+    ],
     "reading": "とびたつ",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "飛び立つ"
   },
   {
@@ -17730,8 +20561,13 @@
         "label": "Lesson 4: Contrast ～とは違って"
       }
     ],
-    "partOfSpeech": "noun",
+    "partOfSpeech": [
+      "Noun"
+    ],
     "reading": "とかい",
+    "topicIds": [
+      "places-directions"
+    ],
     "written": "都会"
   },
   {
@@ -17757,8 +20593,13 @@
         "label": "Lesson 1: Time relationships ～とき"
       }
     ],
-    "partOfSpeech": "ichidan verb",
+    "partOfSpeech": [
+      "Group 2 Verb"
+    ],
     "reading": "とける",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "溶ける"
   },
   {
@@ -17784,8 +20625,13 @@
         "label": "Lesson 3: Degree and comparison 比べれば…・～がいちばん"
       }
     ],
-    "partOfSpeech": "noun",
+    "partOfSpeech": [
+      "Noun"
+    ],
     "reading": "ところ",
+    "topicIds": [
+      "places-directions"
+    ],
     "written": "所"
   },
   {
@@ -17815,8 +20661,13 @@
         "label": "Lesson 4: Contrast ～とは違って"
       }
     ],
-    "partOfSpeech": "proper noun",
+    "partOfSpeech": [
+      "Noun"
+    ],
     "reading": "とうきょう",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "東京"
   },
   {
@@ -17847,8 +20698,13 @@
         "label": "Lesson 11: Intentions, efforts, and attempts"
       }
     ],
-    "partOfSpeech": "godan verb",
+    "partOfSpeech": [
+      "Group 1 Verb"
+    ],
     "reading": "とる",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "取る"
   },
   {
@@ -17879,8 +20735,13 @@
         "label": "Lesson 2: Relationships ～と関係して"
       }
     ],
-    "partOfSpeech": "noun",
+    "partOfSpeech": [
+      "Noun"
+    ],
     "reading": "つかいかた",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "使い方"
   },
   {
@@ -17910,8 +20771,13 @@
         "label": "Lesson 11: Intentions, efforts, and attempts"
       }
     ],
-    "partOfSpeech": "godan verb",
+    "partOfSpeech": [
+      "Group 1 Verb"
+    ],
     "reading": "つかう",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "使う"
   },
   {
@@ -17936,8 +20802,13 @@
         "label": "Lesson 2: Relationships ～と関係して"
       }
     ],
-    "partOfSpeech": "godan verb",
+    "partOfSpeech": [
+      "Group 1 Verb"
+    ],
     "reading": "つく",
+    "topicIds": [
+      "travel-transportation"
+    ],
     "written": "着く"
   },
   {
@@ -17962,8 +20833,13 @@
         "label": "Lesson 2: Relationships ～と関係して"
       }
     ],
-    "partOfSpeech": "i-adjective",
+    "partOfSpeech": [
+      "I-Adjective"
+    ],
     "reading": "つよい",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "強い"
   },
   {
@@ -17989,8 +20865,13 @@
         "label": "Lesson 3: Degree and comparison 比べれば…・～がいちばん"
       }
     ],
-    "partOfSpeech": "noun",
+    "partOfSpeech": [
+      "Noun"
+    ],
     "reading": "うで",
+    "topicIds": [
+      "body-health"
+    ],
     "written": "腕"
   },
   {
@@ -18015,8 +20896,13 @@
         "label": "Lesson 4: Contrast ～とは違って"
       }
     ],
-    "partOfSpeech": "ichidan verb",
+    "partOfSpeech": [
+      "Group 2 Verb"
+    ],
     "reading": "うまれる",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "生まれる"
   },
   {
@@ -18047,8 +20933,13 @@
         "label": "Lesson 1: Time relationships ～とき"
       }
     ],
-    "partOfSpeech": "suru verb",
+    "partOfSpeech": [
+      "Group 3 Verb"
+    ],
     "reading": "うんてんする",
+    "topicIds": [
+      "travel-transportation"
+    ],
     "written": "運転する"
   },
   {
@@ -18074,8 +20965,13 @@
         "label": "Lesson 2: Relationships ～と関係して"
       }
     ],
-    "partOfSpeech": "ichidan verb",
+    "partOfSpeech": [
+      "Group 2 Verb"
+    ],
     "reading": "うれる",
+    "topicIds": [
+      "money-shopping"
+    ],
     "written": "売れる"
   },
   {
@@ -18105,8 +21001,13 @@
         "label": "Lesson 4: Contrast ～とは違って"
       }
     ],
-    "partOfSpeech": "proper noun",
+    "partOfSpeech": [
+      "Noun"
+    ],
     "reading": "やまださん",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "山田さん"
   },
   {
@@ -18132,8 +21033,13 @@
         "label": "Lesson 2: Relationships ～と関係して"
       }
     ],
-    "partOfSpeech": "noun",
+    "partOfSpeech": [
+      "Noun"
+    ],
     "reading": "やりかた",
+    "topicIds": [
+      "school-study"
+    ],
     "written": "やり方"
   },
   {
@@ -18169,8 +21075,13 @@
         "label": "Lesson 10: Advice and commands ～したほうがいい・～なさい"
       }
     ],
-    "partOfSpeech": "godan verb",
+    "partOfSpeech": [
+      "Group 1 Verb"
+    ],
     "reading": "やすむ",
+    "topicIds": [
+      "time-dates-schedules"
+    ],
     "written": "休む"
   },
   {
@@ -18196,8 +21107,13 @@
         "label": "Lesson 3: Degree and comparison 比べれば…・～がいちばん"
       }
     ],
-    "partOfSpeech": "ichidan verb",
+    "partOfSpeech": [
+      "Group 2 Verb"
+    ],
     "reading": "ゆれる",
+    "topicIds": [
+      "home-daily-life"
+    ],
     "written": "揺れる"
   }
 ]);
