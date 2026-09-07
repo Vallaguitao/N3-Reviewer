@@ -94,6 +94,30 @@
   }
 
   function ensureHint(question, record) {
+    if (record?.studyGuide) {
+      if (question.querySelector("[data-study-hints]")) return null;
+      const doc = question.ownerDocument;
+      const group = doc.createElement("div");
+      group.className = "study-hints";
+      group.dataset.studyHints = "";
+      for (const [kind, label, text] of [
+        ["gentle", "Hint — start here", record.hint],
+        ["stronger", "Stronger clue", record.studyGuide.strongerHint],
+      ]) {
+        const details = doc.createElement("details");
+        details.dataset.studyHint = kind;
+        const summary = doc.createElement("summary");
+        summary.textContent = label;
+        const copy = doc.createElement("p");
+        copy.textContent = text;
+        details.append(summary, copy);
+        group.append(details);
+      }
+      const fieldset = question.querySelector("fieldset");
+      if (fieldset) fieldset.after(group);
+      else question.prepend(group);
+      return group;
+    }
     const hasHint = [...question.querySelectorAll("details > summary")]
       .some(summary => summary.textContent.trim() === "Hint");
     if (hasHint || !record?.hint) return null;
@@ -200,10 +224,74 @@
     return host;
   }
 
+  function renderStudyGuide(host, question, record) {
+    const doc = host.ownerDocument;
+    const guide = record.studyGuide;
+    const make = (tag, text, className) => {
+      const node = doc.createElement(tag);
+      if (text) node.textContent = text;
+      if (className) node.className = className;
+      return node;
+    };
+    const options = [...question.querySelectorAll('input[type="radio"]')];
+    const textFor = input => input?.closest("label")?.textContent.trim() || "";
+    const correctOption = options.find(input => input.value === record.correct);
+    const answerText = textFor(correctOption);
+    const heading = make("h4", "Answer and reasoning");
+    const answer = make("p", "", "study-answer");
+    answer.append(make("strong", "Correct answer: "));
+    const japanese = make("span", answerText);
+    japanese.lang = "ja";
+    answer.append(japanese);
+    const reading = make("p", guide.reading, "guide-reading");
+    reading.lang = "ja";
+    const sentence = make("p", "", "study-completed-sentence");
+    sentence.lang = "ja";
+    const sourceSentence = question.querySelector('legend > [lang="ja"]')?.textContent || "";
+    const parts = sourceSentence.split(/（\s*）|\(\s*\)/);
+    if (parts.length === 2) {
+      sentence.append(doc.createTextNode(parts[0]), make("mark", answerText), doc.createTextNode(parts[1]));
+    } else {
+      sentence.textContent = sourceSentence;
+    }
+    const translation = make("p", record.translation, "answer-translation");
+    const clue = make("p", "", "study-key-clue");
+    clue.append(make("strong", "Key clue"), doc.createTextNode(guide.clue));
+    const stepsTitle = make("h5", "How to choose it");
+    const steps = make("ol", "", "study-reasoning");
+    guide.steps.forEach(text => steps.append(make("li", text)));
+    const choiceTitle = make("h5", "Check every choice");
+    const choices = make("dl", "", "study-choice-reasons");
+    for (const input of options) {
+      const row = make("div");
+      row.toggleAttribute("data-correct-rationale", input.value === record.correct);
+      row.toggleAttribute("data-selected-choice", input.checked);
+      const term = make("dt");
+      const label = make("span", textFor(input));
+      label.lang = "ja";
+      term.append(label);
+      if (input.value === record.correct) term.append(make("small", "Correct answer"));
+      if (input.checked) term.append(make("small", "Your choice"));
+      row.append(term, make("dd", record.rationales[input.value]));
+      choices.append(row);
+    }
+    const trap = make("aside", "", "study-trap");
+    trap.append(make("h5", "Trap to remember"), make("p", guide.trap));
+    const link = make("a", "Review this grammar →", "study-review-link");
+    link.href = guide.reviewHref;
+    host.classList.add("study-answer-review");
+    host.replaceChildren(heading, answer, reading, sentence, translation, clue, stepsTitle, steps, choiceTitle, choices, trap, link);
+  }
+
   function revealExplanation(question, record) {
     const host = ensureExplanationHost(question);
     const model = explanationModel(record);
     if (!host || !model) return;
+    if (record.studyGuide && typeof host.replaceChildren === "function") {
+      renderStudyGuide(host, question, record);
+      host.hidden = false;
+      return;
+    }
     const choiceLines = model.choices.map(choice => (
       `Choice ${choice.value}${choice.correct ? " (correct)" : ""}: ${choice.rationale}`
     ));
@@ -333,6 +421,9 @@
   }
 
   function resetQuestion(question) {
+    question.querySelectorAll("[data-study-hint]").forEach(hint => {
+      hint.open = false;
+    });
     question.querySelectorAll("input").forEach(input => {
       if (input.matches("[type='radio'], [type='checkbox']")) {
         input.checked = false;
