@@ -1,0 +1,209 @@
+/* Reading layout for Cumulative reviews A–E and A–J only. Shared site styles and behavior stay in styles.css. */
+body:is([data-page="review-a-e"], [data-page="review-a-j"]) .lesson-content {
+  padding: clamp(1rem, 3vw, 2.25rem);
+}
+body:is([data-page="review-a-e"], [data-page="review-a-j"]) .grammar-point:not(.quiz-set) {
+  padding: 0;
+  border: 0;
+  border-radius: 0;
+  background: var(--paper);
+}
+body:is([data-page="review-a-e"], [data-page="review-a-j"]) .source-spine {
+  position: static;
+  display: inline-block;
+  width: auto;
+  min-height: 0;
+  margin: 0 0 .75rem;
+  border-radius: .2rem;
+  padding: .35rem .6rem;
+  writing-mode: horizontal-tb;
+  transform: none;
+}
+body:is([data-page="review-a-e"], [data-page="review-a-j"]) .grammar-point:not(.quiz-set) > .eyebrow { display: none; }
+body:is([data-page="review-a-e"], [data-page="review-a-j"]) .grammar-point:not(.quiz-set) > h2 { margin: 1.25rem 0 .5rem; }
+body:is([data-page="review-a-e"], [data-page="review-a-j"]) .grammar-point:not(.quiz-set) + .grammar-point:not(.quiz-set) { margin-top: 0; }
+body:is([data-page="review-a-e"], [data-page="review-a-j"]) .guide-subtitle { color: var(--ink-soft); font-size: 1.05em; }
+body:is([data-page="review-a-e"], [data-page="review-a-j"]) .guide-jumps {
+  display: flex;
+  flex-wrap: wrap;
+  gap: .15rem 1.1rem;
+  border-bottom: 1px solid var(--line-strong);
+  padding-bottom: .65rem;
+  margin-bottom: 1.8rem;
+}
+body:is([data-page="review-a-e"], [data-page="review-a-j"]) .guide-jumps a {
+  display: inline-flex;
+  align-items: center;
+  min-height: 2.75rem;
+  font-size: .9em;
+  font-weight: 650;
+}
+body:is([data-page="review-a-e"], [data-page="review-a-j"]) .guide-section {
+  margin-block: 2rem;
+  scroll-margin-top: 1rem;
+}
+body:is([data-page="review-a-e"], [data-page="review-a-j"]) .guide-section > h3,
+body:is([data-page="review-a-e"], [data-page="review-a-j"]) .guide-examples-title {
+  border-top: 1px solid var(--line-strong);
+  padding-top: 1.2rem;
+  margin: 0 0 1rem;
+  font-size: 1.28rem;
+  line-height: 1.4;
+  text-wrap: initial;
+}
+body:is([data-page="review-a-e"], [data-page="review-a-j"]) [id$="-meaning"] > h3 { border: 0; padding: 0; }
+body:is([data-page="review-a-e"], [data-page="review-a-j"]) .guide-section p { max-width: 72ch; }
+body:is([data-page="review-a-e"], [data-page="review-a-j"]) .guide-rows { margin: 1rem 0; }
+body:is([data-page="review-a-e"], [data-page="review-a-j"]) .guide-rows > div {
+  display: grid;
+  grid-template-columns: minmax(8rem, .85fr) minmax(0, 2fr);
+  gap: .4rem 1.25rem;
+  padding: .9rem 0;
+  border-bottom: 1px solid var(--line);
+}
+body:is([data-page="review-a-e"], [data-page="review-a-j"]) .guide-rows dt { font-weight: 700; line-height: 1.6; }
+body:is([data-page="review-a-e"], [data-page="review-a-j"]) .guide-rows dd { margin: 0; min-width: 0; }
+body:is([data-page="review-a-e"], [data-page="review-a-j"]) .guide-clue {
+  background: var(--moss);
+  border-left: .25rem solid var(--matcha);
+  padding: .9rem 1rem;
+  margin-top: 1.25rem;
+}
+body:is([data-page="review-a-e"], [data-page="review-a-j"]) .guide-clue > strong { display: block; margin-bottom: .25rem; }
+body:is([data-page="review-a-e"], [data-page="review-a-j"]) .guide-tip { padding: .85rem 0; color: var(--ink-soft); }
+body:is([data-page="review-a-e"], [data-page="review-a-j"]) .guide-caption,
+body:is([data-page="review-a-e"], [data-page="review-a-j"]) .guide-reading { color: var(--ink-soft); font-size: .88em; }
+body:is([data-page="review-a-e"], [data-page="review-a-j"]) .example-list { display: grid; gap: 1rem; }
+body:is([data-page="review-a-e"], [data-page="review-a-j"]) .example-card { background: #F7F9F7; padding: 1.2rem; }
+body:is([data-page="review-a-e"], [data-page="review-a-j"]) .example-card .translation { margin-bottom: .8rem; }
+body:is([data-page="review-a-e"], [data-page="review-a-j"]) .example-clue { border-top: 1px solid var(--line); padding-top: .75rem; font-size: .93em; }
+body:is([data-page="review-a-e"], [data-page="review-a-j"]) .example-clue > strong { color: var(--matcha-deep); margin-right: .3rem; }
+body:is([data-page="review-a-e"], [data-page="review-a-j"]) .example-card details { font-size: .93em; }
+body:is([data-page="review-a-e"], [data-page="review-a-j"]) details > summary { min-height: 2.75rem; padding-block: .5rem; cursor: pointer; }
+body:is([data-page="review-a-e"], [data-page="review-a-j"]) details[open] > summary { margin-bottom: .6rem; }
+body:is([data-page="review-a-e"], [data-page="review-a-j"]) .guide-section li { padding-left: .2rem; margin-bottom: .9rem; }
+body:is([data-page="review-a-e"], [data-page="review-a-j"]) .guide-section ol { padding-left: 1.5rem; }
+body:is([data-page="review-a-e"], [data-page="review-a-j"]) .guide-section ol > li::marker { color: var(--matcha-deep); font-weight: 750; }
+body:is([data-page="review-a-e"], [data-page="review-a-j"]) .guide-expression { margin-top: 1.5rem; border-left: .25rem solid var(--rust); padding: .4rem 0 .4rem 1rem; }
+body:is([data-page="review-a-e"], [data-page="review-a-j"]) .guide-expression h4 { margin: 0 0 .65rem; font-size: 1rem; }
+body:is([data-page="review-a-e"], [data-page="review-a-j"]) .guide-expression p { margin-bottom: .45rem; }
+body:is([data-page="review-a-e"], [data-page="review-a-j"]) .guide-expression > p[lang="ja"]:not(.guide-reading) { font-size: 1.12em; font-weight: 650; }
+body:is([data-page="review-a-e"], [data-page="review-a-j"]) .guide-extra { border: 1px solid var(--line); border-radius: var(--radius-sm); padding: .5rem 1rem; margin: 1rem 0; }
+body:is([data-page="review-a-e"], [data-page="review-a-j"]) .guide-sources { font-size: .83em; color: var(--ink-soft); margin-bottom: 1.5rem; }
+body:is([data-page="review-a-e"], [data-page="review-a-j"]) .guide-stages { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: .75rem; margin-block: 1rem; }
+body:is([data-page="review-a-e"], [data-page="review-a-j"]) .guide-stages > div { border-top: .25rem solid var(--matcha); background: var(--moss); padding: .9rem; }
+body:is([data-page="review-a-e"], [data-page="review-a-j"]) .guide-stages span { display: block; font-size: .75rem; letter-spacing: .06em; margin-bottom: .6rem; }
+body:is([data-page="review-a-e"], [data-page="review-a-j"]) .guide-stages strong { display: block; font-size: 1.02em; }
+body:is([data-page="review-a-e"], [data-page="review-a-j"]) .guide-stages p { font-size: .9em; margin: .5rem 0 0; }
+@media (max-width: 60rem) {
+  body:is([data-page="review-a-e"], [data-page="review-a-j"]) .guide-rows > div { grid-template-columns: 1fr; gap: .35rem; }
+  body:is([data-page="review-a-e"], [data-page="review-a-j"]) .guide-stages { grid-template-columns: 1fr; }
+}
+@media (max-width: 48rem) {
+  body:is([data-page="review-a-e"], [data-page="review-a-j"]) .lesson-content { padding: 1rem; }
+  body:is([data-page="review-a-e"], [data-page="review-a-j"]) .guide-jumps { gap: .15rem .9rem; }
+  body:is([data-page="review-a-e"], [data-page="review-a-j"]) .example-card { padding: .85rem; }
+  body:is([data-page="review-a-e"], [data-page="review-a-j"]) .guide-section { margin-block: 1.6rem; }
+}
+@media print {
+  body:is([data-page="review-a-e"], [data-page="review-a-j"]) .guide-jumps { display: none; }
+  body:is([data-page="review-a-e"], [data-page="review-a-j"]) .grammar-point:not(.quiz-set) { break-inside: auto; margin-bottom: 2rem; }
+  body:is([data-page="review-a-e"], [data-page="review-a-j"]) .guide-stages { grid-template-columns: repeat(3, 1fr); }
+  body:is([data-page="review-a-e"], [data-page="review-a-j"]) .source-spine { color: var(--ink); background: white; }
+}
+
+body:is([data-page="review-a-e"], [data-page="review-a-j"]) .guide-source-row { margin-block: 1.6rem 2.25rem; }
+body:is([data-page="review-a-e"], [data-page="review-a-j"]) .guide-source-row > h4 { font-size: 1.12rem; margin: 0 0 .65rem; }
+body:is([data-page="review-a-e"], [data-page="review-a-j"]) .guide-book-wording { border-left: .2rem solid var(--line-strong); padding: .15rem 1rem; margin-bottom: 1rem; }
+body:is([data-page="review-a-e"], [data-page="review-a-j"]) .guide-book-wording summary { color: var(--ink-soft); font-size: .88em; }
+body:is([data-page="review-a-e"], [data-page="review-a-j"]) .guide-onepoint-help { border-left: .25rem solid var(--matcha); padding: .7rem 1.1rem; background: var(--moss); margin-block: 2rem; }
+body:is([data-page="review-a-e"], [data-page="review-a-j"]) .guide-onepoint-help h3 { font-size: 1.15rem; margin-top: 0; }
+body:is([data-page="review-a-e"], [data-page="review-a-j"]) .comparison .example-card + .example-card { margin-top: 1rem; }
+body:is([data-page="review-a-e"], [data-page="review-a-j"]) .guide-section a { overflow-wrap: anywhere; }
+
+body:is([data-page="review-a-e"], [data-page="review-a-j"]) .example-grid { display: grid; grid-template-columns: minmax(0, 1fr); gap: 1rem; }
+body:is([data-page="review-a-e"], [data-page="review-a-j"]) .example-card .reading-word { white-space: nowrap; }
+body:is([data-page="review-a-e"], [data-page="review-a-j"]) .feedback:empty { display: none; }
+body:is([data-page="review-a-e"], [data-page="review-a-j"]) .guide-use-title { margin: 1.15rem 0 0; font-size: 1.08rem; }
+body:is([data-page="review-a-e"], [data-page="review-a-j"]) .guide-practice-intro { border-left: .25rem solid var(--matcha); padding: .4rem 1rem; margin-block: 1.5rem; }
+body:is([data-page="review-a-e"], [data-page="review-a-j"]) .guide-practice-intro li { margin-bottom: .6rem; }
+body:is([data-page="review-a-e"], [data-page="review-a-j"]) .guide-practice-intro ol { padding-left: 1.25rem; }
+/* Cumulative reviews A–E and A–J exercises: optional help before submission; structured reasoning afterward. */
+body:is([data-page="review-a-e"], [data-page="review-a-j"]) .study-hints {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  align-items: start;
+  gap: .75rem;
+  margin: 1rem 0;
+}
+body:is([data-page="review-a-e"], [data-page="review-a-j"]) .study-hints details {
+  min-width: 0;
+  border: 1px solid var(--line);
+  border-radius: var(--radius-sm);
+  padding: .25rem .85rem;
+  background: #F7F9F7;
+}
+body:is([data-page="review-a-e"], [data-page="review-a-j"]) .study-hints summary { font-size: .92em; font-weight: 700; }
+body:is([data-page="review-a-e"], [data-page="review-a-j"]) .study-hints p { margin-bottom: .75rem; font-size: .93em; }
+body:is([data-page="review-a-e"], [data-page="review-a-j"]) .study-answer-review {
+  border: 0;
+  border-top: 2px solid var(--line-strong);
+  background: white;
+  padding: 1.5rem 0 0;
+  margin-top: 1.5rem;
+}
+body:is([data-page="review-a-e"], [data-page="review-a-j"]) .study-answer-review h4 { font-size: 1.3rem; margin: 0 0 1rem; }
+body:is([data-page="review-a-e"], [data-page="review-a-j"]) .study-answer-review h5 { font-size: 1.05rem; margin: 1.5rem 0 .7rem; }
+body:is([data-page="review-a-e"], [data-page="review-a-j"]) .study-answer-review p { margin-bottom: .85rem; }
+body:is([data-page="review-a-e"], [data-page="review-a-j"]) .study-answer { font-size: 1.1em; }
+body:is([data-page="review-a-e"], [data-page="review-a-j"]) .study-answer > span { color: var(--matcha-deep); font-weight: 750; }
+body:is([data-page="review-a-e"], [data-page="review-a-j"]) .study-completed-sentence { font-size: 1.1em; line-height: 1.9; }
+body:is([data-page="review-a-e"], [data-page="review-a-j"]) .study-completed-sentence mark { background: var(--moss); color: var(--ink); padding: .1em .2em; }
+body:is([data-page="review-a-e"], [data-page="review-a-j"]) .study-key-clue { background: var(--moss); border-left: .25rem solid var(--matcha); padding: .85rem 1rem; }
+body:is([data-page="review-a-e"], [data-page="review-a-j"]) .study-key-clue > strong { display: block; margin-bottom: .3rem; }
+body:is([data-page="review-a-e"], [data-page="review-a-j"]) .study-reasoning { padding-left: 1.5rem; }
+body:is([data-page="review-a-e"], [data-page="review-a-j"]) .study-reasoning li { margin-bottom: .8rem; padding-left: .2rem; }
+body:is([data-page="review-a-e"], [data-page="review-a-j"]) .study-choice-reasons { margin: 0 0 1rem; }
+body:is([data-page="review-a-e"], [data-page="review-a-j"]) .study-choice-reasons > div {
+  display: grid;
+  grid-template-columns: minmax(9rem, .9fr) minmax(0, 2fr);
+  gap: .65rem 1rem;
+  border-top: 1px solid var(--line);
+  padding: 1rem .7rem;
+}
+body:is([data-page="review-a-e"], [data-page="review-a-j"]) .study-choice-reasons [data-correct-rationale] { background: #F0F5EA; }
+body:is([data-page="review-a-e"], [data-page="review-a-j"]) .study-choice-reasons dt { font-weight: 700; }
+body:is([data-page="review-a-e"], [data-page="review-a-j"]) .study-choice-reasons dd { margin: 0; min-width: 0; }
+body:is([data-page="review-a-e"], [data-page="review-a-j"]) .study-choice-reasons small { display: block; font-size: .76rem; color: var(--ink-soft); font-weight: 600; margin-top: .3rem; }
+body:is([data-page="review-a-e"], [data-page="review-a-j"]) .study-trap { border-left: .25rem solid var(--rust); padding: .8rem 1rem; background: #FBF3F0; }
+body:is([data-page="review-a-e"], [data-page="review-a-j"]) .study-trap h5 { margin-top: 0; }
+body:is([data-page="review-a-e"], [data-page="review-a-j"]) .study-trap p { margin-bottom: 0; }
+body:is([data-page="review-a-e"], [data-page="review-a-j"]) .study-review-link { display: inline-flex; min-height: 2.75rem; align-items: center; margin-top: .9rem; font-weight: 650; }
+@media (max-width: 48rem) {
+  body:is([data-page="review-a-e"], [data-page="review-a-j"]) .study-hints,
+  body:is([data-page="review-a-e"], [data-page="review-a-j"]) .study-choice-reasons > div { grid-template-columns: 1fr; }
+  body:is([data-page="review-a-e"], [data-page="review-a-j"]) .study-answer-review { padding-top: 1rem; }
+}
+
+body:is([data-page="review-a-e"], [data-page="review-a-j"]) .answer-explanation:empty { display: none; }
+body:is([data-page="review-a-e"], [data-page="review-a-j"]) [data-english-hidden] .answer-translation { display: none; }
+body:is([data-page="review-a-e"], [data-page="review-a-j"]) .review-approach, body:is([data-page="review-a-e"], [data-page="review-a-j"]) .review-after, body:is([data-page="review-a-e"], [data-page="review-a-j"]) .review-results { margin-block: 1.8rem; scroll-margin-top: 1rem; }
+body:is([data-page="review-a-e"], [data-page="review-a-j"]) .review-approach h3, body:is([data-page="review-a-e"], [data-page="review-a-j"]) .review-after h3, body:is([data-page="review-a-e"], [data-page="review-a-j"]) .review-results h3, body:is([data-page="review-a-e"], [data-page="review-a-j"]) .review-question-heading { font-size: 1.3rem; line-height: 1.4; margin: 0 0 1rem; }
+body:is([data-page="review-a-e"], [data-page="review-a-j"]) .review-question-heading { border-top: 1px solid var(--line-strong); padding-top: 1.5rem; scroll-margin-top: 1rem; }
+body:is([data-page="review-a-e"], [data-page="review-a-j"]) .review-steps { padding-left: 1.3rem; max-width: 76ch; }
+body:is([data-page="review-a-e"], [data-page="review-a-j"]) .review-steps li { margin-block: .85rem; padding-left: .25rem; }
+body:is([data-page="review-a-e"], [data-page="review-a-j"]) .review-steps li::marker { color: var(--matcha-deep); font-weight: 750; }
+body:is([data-page="review-a-e"], [data-page="review-a-j"]) .review-steps strong { display: block; }
+body:is([data-page="review-a-e"], [data-page="review-a-j"]) .review-confusions, body:is([data-page="review-a-e"], [data-page="review-a-j"]) .review-retry { border: 1px solid var(--line); border-radius: var(--radius-sm); background: #F7F9F7; padding: .4rem 1rem; margin: 1rem 0; }
+body:is([data-page="review-a-e"], [data-page="review-a-j"]) .review-confusions > summary, body:is([data-page="review-a-e"], [data-page="review-a-j"]) .review-retry > summary { font-weight: 700; }
+body:is([data-page="review-a-e"], [data-page="review-a-j"]) .review-retry li { margin-block: .75rem; }
+body:is([data-page="review-a-e"], [data-page="review-a-j"]) .review-results { border-top: 2px solid var(--line-strong); padding-top: 1.5rem; }
+body:is([data-page="review-a-e"], [data-page="review-a-j"]) .review-results [data-score-summary] { font-weight: 650; }
+body:is([data-page="review-a-e"], [data-page="review-a-j"]) .review-after a { overflow-wrap: anywhere; }
+body:is([data-page="review-a-e"], [data-page="review-a-j"]) .review-after p { max-width: 75ch; }
+body:is([data-page="review-a-e"], [data-page="review-a-j"]) .question { margin-block: 1.4rem; }
+@media (max-width: 48rem) {
+ body:is([data-page="review-a-e"], [data-page="review-a-j"]) .grammar-point.quiz-set { padding: 0; border: 0; background: transparent; }
+ body:is([data-page="review-a-e"], [data-page="review-a-j"]) .question { padding: .9rem; }
+ body:is([data-page="review-a-e"], [data-page="review-a-j"]) .guide-jumps { column-gap: .9rem; }
+}

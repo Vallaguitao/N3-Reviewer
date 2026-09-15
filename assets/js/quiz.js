@@ -233,28 +233,32 @@
       if (className) node.className = className;
       return node;
     };
-    const options = [...question.querySelectorAll('input[type="radio"]')];
-    const textFor = input => input?.closest("label")?.textContent.trim() || "";
-    const correctOption = options.find(input => input.value === record.correct);
-    const answerText = textFor(correctOption);
+    const options = [...question.querySelectorAll('input[type="radio"], input[type="checkbox"]')];
+    const textFor = input => guide.choiceTexts?.[input?.value] ?? (input?.closest("label")?.textContent.trim() || "");
+    const correctKeys = Array.isArray(record.correct) ? record.correct : [record.correct];
+    const correctOptions = options.filter(input => correctKeys.includes(input.value));
+    const answerText = correctOptions.map(textFor).join(" ／ ");
     const heading = make("h4", "Answer and reasoning");
     const answer = make("p", "", "study-answer");
-    answer.append(make("strong", "Correct answer: "));
+    answer.append(make("strong", correctKeys.length > 1 ? "Correct answers: " : "Correct answer: "));
     const japanese = make("span", answerText);
     japanese.lang = "ja";
     answer.append(japanese);
     const reading = make("p", guide.reading, "guide-reading");
     reading.lang = "ja";
-    const sentence = make("p", "", "study-completed-sentence");
-    sentence.lang = "ja";
-    const sourceSentence = question.querySelector('legend > [lang="ja"]')?.textContent || "";
+    const sourceSentence = guide.sentence ?? (question.querySelector('legend > [lang="ja"]')?.textContent || "");
     const parts = sourceSentence.split(/（\s*）|\(\s*\)/);
-    if (parts.length === 2) {
-      sentence.append(doc.createTextNode(parts[0]), make("mark", answerText), doc.createTextNode(parts[1]));
-    } else {
-      sentence.textContent = sourceSentence;
-    }
-    const translation = make("p", record.translation, "answer-translation");
+    const completedAnswers = correctOptions.flatMap(input => {
+      const sentence = make("p", "", "study-completed-sentence");
+      sentence.lang = "ja";
+      if (parts.length === 2) {
+        sentence.append(doc.createTextNode(parts[0]), make("mark", textFor(input)), doc.createTextNode(parts[1]));
+      } else {
+        sentence.textContent = sourceSentence;
+      }
+      const translation = make("p", guide.answerTranslations?.[input.value] ?? record.translation, "answer-translation");
+      return [sentence, translation];
+    });
     const clue = make("p", "", "study-key-clue");
     clue.append(make("strong", "Key clue"), doc.createTextNode(guide.clue));
     const stepsTitle = make("h5", "How to choose it");
@@ -264,13 +268,13 @@
     const choices = make("dl", "", "study-choice-reasons");
     for (const input of options) {
       const row = make("div");
-      row.toggleAttribute("data-correct-rationale", input.value === record.correct);
+      row.toggleAttribute("data-correct-rationale", correctKeys.includes(input.value));
       row.toggleAttribute("data-selected-choice", input.checked);
       const term = make("dt");
       const label = make("span", textFor(input));
       label.lang = "ja";
       term.append(label);
-      if (input.value === record.correct) term.append(make("small", "Correct answer"));
+      if (correctKeys.includes(input.value)) term.append(make("small", "Correct answer"));
       if (input.checked) term.append(make("small", "Your choice"));
       row.append(term, make("dd", record.rationales[input.value]));
       choices.append(row);
@@ -280,7 +284,7 @@
     const link = make("a", "Review this grammar →", "study-review-link");
     link.href = guide.reviewHref;
     host.classList.add("study-answer-review");
-    host.replaceChildren(heading, answer, reading, sentence, translation, clue, stepsTitle, steps, choiceTitle, choices, trap, link);
+    host.replaceChildren(heading, answer, reading, ...completedAnswers, clue, stepsTitle, steps, choiceTitle, choices, trap, link);
   }
 
   function revealExplanation(question, record) {
