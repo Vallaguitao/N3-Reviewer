@@ -4,7 +4,7 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 <!-- SITE-METADATA:START -->
-<meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'; style-src 'self'; img-src 'self'; font-src 'self'; media-src 'none'; connect-src 'none'; object-src 'none'; frame-src 'none'; worker-src 'none'; manifest-src 'none'; base-uri 'none'; form-action 'none'">
+<meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'; style-src 'self' https://cdn.jsdelivr.net; img-src 'self' data:; font-src 'self' https://cdn.jsdelivr.net; media-src 'none'; connect-src 'none'; object-src 'none'; frame-src 'none'; worker-src 'none'; manifest-src 'none'; base-uri 'none'; form-action 'none'">
 <meta name="description" content="Follow a four-part N3 grammar curriculum from meaning and form comparisons to sentence building and passage cohesion.">
 <link rel="canonical" href="https://vallaguitao.github.io/N3-Reviewer/curriculum.html">
 <meta property="og:type" content="website">
@@ -19,33 +19,44 @@
 
   <title>Curriculum | N3 Study Desk</title>
   <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="assets/midnight-washi/fonts.css">
   <link rel="stylesheet" href="assets/css/styles.css">
+  <link rel="stylesheet" href="assets/midnight-washi/theme.css">
+  <link rel="stylesheet" href="assets/midnight-washi/motion.css">
+  <link rel="stylesheet" href="assets/midnight-washi/brand.css">
+  <link rel="stylesheet" href="assets/midnight-washi/adapter.css">
+  <script src="assets/js/theme-init.js"></script>
   <script defer src="assets/js/site.js"></script>
+  <script defer src="assets/midnight-washi/theme.js"></script>
+  <script defer src="assets/midnight-washi/motion.js"></script>
+  <script defer src="assets/js/theme-switcher.js"></script>
 </head>
-<body data-page="curriculum" data-root-prefix=".">
+<body data-page="curriculum" data-root-prefix="." data-mw-symbols="道法文順段学構">
   <a class="skip-link" href="#main-content">Skip to lesson content</a>
-  <header class="site-header"><a class="site-mark" href="index.html">N3 Study Desk</a><nav aria-label="Primary"><a href="index.html">Home</a><details class="study-menu" data-study-menu><summary data-study-menu-trigger aria-controls="study-menu-panel" aria-expanded="false">Study</summary><div class="study-menu-panel" id="study-menu-panel"><p>Choose a book part</p><a href="lessons/index.html"><span class="study-menu-number" aria-hidden="true">一</span><span><strong>Grammar by meaning</strong><small>Lessons 1–12</small></span></a><a href="groups/index.html"><span class="study-menu-number" aria-hidden="true">二</span><span><strong>Mixed grammar groups</strong><small>Groups A–J and reviews</small></span></a><a href="sentence/index.html"><span class="study-menu-number" aria-hidden="true">三</span><span><strong>Sentence building</strong><small>Four lessons and review</small></span></a><a href="passage/index.html"><span class="study-menu-number" aria-hidden="true">四</span><span><strong>Passage grammar</strong><small>Ten lessons and five reviews</small></span></a></div></details><a href="vocabulary.html">Vocabulary</a><a href="practice.html">Practice</a><a href="curriculum.html" aria-current="page">Curriculum</a><a href="study-guide.html">How to use</a></nav></header>
+  <header class="site-header"><a class="site-mark" href="index.html">N3 Study Desk</a><nav aria-label="Primary"><a href="index.html">Home</a><details class="study-menu" data-study-menu><summary data-study-menu-trigger aria-controls="study-menu-panel" aria-expanded="false">Study</summary><div class="study-menu-panel" id="study-menu-panel"><p>Choose a book part</p><a href="lessons/index.html"><span class="study-menu-number" aria-hidden="true">一</span><span><strong>Grammar by meaning</strong><small>Lessons 1–12</small></span></a><a href="groups/index.html"><span class="study-menu-number" aria-hidden="true">二</span><span><strong>Mixed grammar groups</strong><small>Groups A–J and reviews</small></span></a><a href="sentence/index.html"><span class="study-menu-number" aria-hidden="true">三</span><span><strong>Sentence building</strong><small>Four lessons and review</small></span></a><a href="passage/index.html"><span class="study-menu-number" aria-hidden="true">四</span><span><strong>Passage grammar</strong><small>Ten lessons and five reviews</small></span></a></div></details><a href="vocabulary.html">Vocabulary</a><a href="practice.html">Practice</a><a href="curriculum.html" aria-current="page">Curriculum</a><a href="study-guide.html">How to use</a><button type="button" class="mw-button mw-button--quiet" data-mw-motion-toggle hidden>Pause motion</button><button type="button" id="theme-toggle" class="theme-toggle-button" aria-pressed="false" title="Switch theme"><span class="theme-toggle-icon" aria-hidden="true">🍵</span><span>Matcha Desk</span></button></nav></header>
   <main id="main-content" tabindex="-1">
-    <section class="guided-hero curriculum-journey-hero" aria-labelledby="curriculum-title">
-      <div>
-        <p class="eyebrow">Recommended learning path</p>
-        <h1 id="curriculum-title">Build grammar in four layers.</h1>
-        <p class="lede">Meaning → contextual choice → sentence construction → passage cohesion.</p>
-        <p>Follow the sequence so each new task builds on a skill you have already practised. Already comfortable with a stage? Jump directly to the part you need.</p>
+    <section class="guided-hero curriculum-journey-hero mw-scene" aria-labelledby="curriculum-title">
+      <span class="mw-watermark" aria-hidden="true">道</span>
+      <div class="mw-stack">
+        <p class="eyebrow mw-eyebrow" data-mw-reveal="left">Recommended learning path</p>
+        <h1 id="curriculum-title" class="mw-title" data-mw-reveal="up">Build grammar in four layers.</h1>
+        <div class="mw-brush" data-mw-reveal="brush" aria-hidden="true"></div>
+        <p class="lede mw-lead" data-mw-reveal="up">Meaning → contextual choice → sentence construction → passage cohesion.</p>
+        <p data-mw-reveal="up">Follow the sequence so each new task builds on a skill you have already practised. Already comfortable with a stage? Jump directly to the part you need.</p>
       </div>
-      <aside class="curriculum-principle" aria-label="Why follow the curriculum order">
+      <aside class="curriculum-principle mw-panel" data-mw-reveal="right" aria-label="Why follow the curriculum order">
         <p class="eyebrow">Why follow the order?</p>
         <p>Each stage removes one difficulty before the next adds more context.</p>
       </aside>
     </section>
-    <ol class="curriculum-overview" aria-label="Four-part learning progression">
-      <li class="curriculum-overview-item"><span class="curriculum-overview-marker" aria-hidden="true">一</span><span><strong>Part 1</strong><small>Recognize meaning</small></span></li>
-      <li class="curriculum-overview-item"><span class="curriculum-overview-marker" aria-hidden="true">二</span><span><strong>Part 2</strong><small>Choose by context</small></span></li>
-      <li class="curriculum-overview-item"><span class="curriculum-overview-marker" aria-hidden="true">三</span><span><strong>Part 3</strong><small>Connect clauses</small></span></li>
-      <li class="curriculum-overview-item"><span class="curriculum-overview-marker" aria-hidden="true">四</span><span><strong>Part 4</strong><small>Follow a passage</small></span></li>
+    <ol class="curriculum-overview mw-scene" aria-label="Four-part learning progression">
+      <li class="curriculum-overview-item mw-hover-card mw-delay-100" data-mw-reveal="up"><span class="curriculum-overview-marker mw-stamp" data-mw-reveal="stamp" aria-hidden="true">一</span><span><strong>Part 1</strong><small>Recognize meaning</small></span></li>
+      <li class="curriculum-overview-item mw-hover-card mw-delay-200" data-mw-reveal="up"><span class="curriculum-overview-marker mw-stamp" data-mw-reveal="stamp" aria-hidden="true">二</span><span><strong>Part 2</strong><small>Choose by context</small></span></li>
+      <li class="curriculum-overview-item mw-hover-card mw-delay-300" data-mw-reveal="up"><span class="curriculum-overview-marker mw-stamp" data-mw-reveal="stamp" aria-hidden="true">三</span><span><strong>Part 3</strong><small>Connect clauses</small></span></li>
+      <li class="curriculum-overview-item mw-hover-card mw-delay-400" data-mw-reveal="up"><span class="curriculum-overview-marker mw-stamp" data-mw-reveal="stamp" aria-hidden="true">四</span><span><strong>Part 4</strong><small>Follow a passage</small></span></li>
     </ol>
     <div class="curriculum-journey-layout">
-      <aside class="curriculum-rail">
+      <aside class="curriculum-rail mw-panel">
         <p>Four-part route</p>
         <nav aria-label="Curriculum parts">
           <a href="#part-1"><span aria-hidden="true">一</span> Part 1 · Meaning</a>
@@ -54,17 +65,18 @@
           <a href="#part-4"><span aria-hidden="true">四</span> Part 4 · Passages</a>
         </nav>
       </aside>
-      <div class="curriculum-stages">
-        <section class="curriculum-stage" id="part-1" aria-labelledby="part-1-title">
-          <span class="curriculum-stage-marker" aria-hidden="true">一</span>
-          <div class="curriculum-stage-panel">
+      <div class="curriculum-stages-flow">
+        <div class="curriculum-stages mw-scene">
+          <section class="curriculum-stage" id="part-1" aria-labelledby="part-1-title">
+            <span class="curriculum-stage-marker mw-stamp" data-mw-reveal="stamp" aria-hidden="true">一</span>
+          <div class="curriculum-stage-panel mw-paper mw-hover-card mw-delay-100" data-mw-tilt data-mw-reveal="up">
             <header class="curriculum-stage-header">
               <div>
-                <p class="eyebrow">Part 1 · Foundation</p>
-                <h2 class="curriculum-stage-title" id="part-1-title">Grammar by meaning</h2>
+                <p class="eyebrow mw-eyebrow">Part 1 · Foundation</p>
+                <h2 class="curriculum-stage-title mw-subheading" id="part-1-title">Grammar by meaning</h2>
                 <p class="curriculum-stage-purpose">Learn the job each N3 grammar form performs before comparing it with close alternatives.</p>
               </div>
-              <a class="button curriculum-part-action" data-open-part="1" href="lessons/index.html">Open Part 1</a>
+              <a class="button curriculum-part-action mw-button" data-open-part="1" href="lessons/index.html">Open Part 1 <span aria-hidden="true">→</span></a>
             </header>
             <dl class="curriculum-stage-details">
               <div><dt>Why this stage</dt><dd>A stable meaning gives you something clear to recognize before context is used to discriminate between similar forms.</dd></div>
@@ -74,18 +86,18 @@
           </div>
         </section>
 
-        <aside class="curriculum-bridge" aria-label="Part 1 to Part 2 transition"><p><strong>What this unlocks:</strong> You know what forms mean. Next, learn how the surrounding sentence determines the best choice.</p></aside>
+        <aside class="curriculum-bridge" data-mw-reveal="up" aria-label="Part 1 to Part 2 transition"><p><strong>What this unlocks:</strong> You know what forms mean. Next, learn how the surrounding sentence determines the best choice.</p></aside>
 
         <section class="curriculum-stage" id="part-2" aria-labelledby="part-2-title">
-          <span class="curriculum-stage-marker" aria-hidden="true">二</span>
-          <div class="curriculum-stage-panel">
+          <span class="curriculum-stage-marker mw-stamp" data-mw-reveal="stamp" aria-hidden="true">二</span>
+          <div class="curriculum-stage-panel mw-paper mw-hover-card mw-delay-150" data-mw-tilt data-mw-reveal="up">
             <header class="curriculum-stage-header">
               <div>
-                <p class="eyebrow">Part 2 · Discrimination</p>
-                <h2 class="curriculum-stage-title" id="part-2-title">Mixed grammar groups</h2>
+                <p class="eyebrow mw-eyebrow">Part 2 · Discrimination</p>
+                <h2 class="curriculum-stage-title mw-subheading" id="part-2-title">Mixed grammar groups</h2>
                 <p class="curriculum-stage-purpose">Compare grammar families whose forms or meanings overlap.</p>
               </div>
-              <a class="button curriculum-part-action" data-open-part="2" href="groups/index.html">Open Part 2</a>
+              <a class="button curriculum-part-action mw-button" data-open-part="2" href="groups/index.html">Open Part 2 <span aria-hidden="true">→</span></a>
             </header>
             <dl class="curriculum-stage-details">
               <div><dt>Why this stage</dt><dd>Once individual meanings are familiar, you can focus on particles, fixed pairings, nuance, and contextual restrictions.</dd></div>
@@ -95,18 +107,18 @@
           </div>
         </section>
 
-        <aside class="curriculum-bridge" aria-label="Part 2 to Part 3 transition"><p><strong>What this unlocks:</strong> You can select a suitable form in context. Next, use grammar to organize and connect complete clauses.</p></aside>
+        <aside class="curriculum-bridge" data-mw-reveal="up" aria-label="Part 2 to Part 3 transition"><p><strong>What this unlocks:</strong> You can select a suitable form in context. Next, use grammar to organize and connect complete clauses.</p></aside>
 
         <section class="curriculum-stage" id="part-3" aria-labelledby="part-3-title">
-          <span class="curriculum-stage-marker" aria-hidden="true">三</span>
-          <div class="curriculum-stage-panel">
+          <span class="curriculum-stage-marker mw-stamp" data-mw-reveal="stamp" aria-hidden="true">三</span>
+          <div class="curriculum-stage-panel mw-paper mw-hover-card mw-delay-200" data-mw-tilt data-mw-reveal="up">
             <header class="curriculum-stage-header">
               <div>
-                <p class="eyebrow">Part 3 · Construction</p>
-                <h2 class="curriculum-stage-title" id="part-3-title">Sentence building</h2>
+                <p class="eyebrow mw-eyebrow">Part 3 · Construction</p>
+                <h2 class="curriculum-stage-title mw-subheading" id="part-3-title">Sentence building</h2>
                 <p class="curriculum-stage-purpose">Build longer sentences through quotation, noun description, ～という・～といった, and fixed sentence patterns.</p>
               </div>
-              <a class="button curriculum-part-action" data-open-part="3" href="sentence/index.html">Open Part 3</a>
+              <a class="button curriculum-part-action mw-button" data-open-part="3" href="sentence/index.html">Open Part 3 <span aria-hidden="true">→</span></a>
             </header>
             <dl class="curriculum-stage-details">
               <div><dt>Why this stage</dt><dd>Contextual grammar choice becomes useful when you can place that choice inside a larger sentence structure.</dd></div>
@@ -116,18 +128,18 @@
           </div>
         </section>
 
-        <aside class="curriculum-bridge" aria-label="Part 3 to Part 4 transition"><p><strong>What this unlocks:</strong> You can control relationships inside a sentence. Next, track those relationships across several sentences in a passage.</p></aside>
+        <aside class="curriculum-bridge" data-mw-reveal="up" aria-label="Part 3 to Part 4 transition"><p><strong>What this unlocks:</strong> You can control relationships inside a sentence. Next, track those relationships across several sentences in a passage.</p></aside>
 
         <section class="curriculum-stage" id="part-4" aria-labelledby="part-4-title">
-          <span class="curriculum-stage-marker" aria-hidden="true">四</span>
-          <div class="curriculum-stage-panel">
+          <span class="curriculum-stage-marker mw-stamp" data-mw-reveal="stamp" aria-hidden="true">四</span>
+          <div class="curriculum-stage-panel mw-paper mw-hover-card mw-delay-250" data-mw-tilt data-mw-reveal="up">
             <header class="curriculum-stage-header">
               <div>
-                <p class="eyebrow">Part 4 · Integration</p>
-                <h2 class="curriculum-stage-title" id="part-4-title">Passage grammar</h2>
+                <p class="eyebrow mw-eyebrow">Part 4 · Integration</p>
+                <h2 class="curriculum-stage-title mw-subheading" id="part-4-title">Passage grammar</h2>
                 <p class="curriculum-stage-purpose">Track tense, viewpoint, reference, particles, connectives, and register across connected text.</p>
               </div>
-              <a class="button curriculum-part-action" data-open-part="4" href="passage/index.html">Open Part 4</a>
+              <a class="button curriculum-part-action mw-button" data-open-part="4" href="passage/index.html">Open Part 4 <span aria-hidden="true">→</span></a>
             </header>
             <dl class="curriculum-stage-details">
               <div><dt>Why this stage</dt><dd>Passage grammar combines meaning, contextual choice, and sentence structure while preserving coherence across multiple sentences.</dd></div>
@@ -136,13 +148,18 @@
             <div class="curriculum-readiness"><strong>Ready for full-course practice when</strong><span>You can explain how grammar maintains time, viewpoint, reference, and register across a passage.</span></div>
           </div>
         </section>
-
-        <section class="curriculum-final" aria-label="Continue with practice">
-          <div><p class="eyebrow">Continue with practice</p><p class="curriculum-final-title">Put the full route into practice.</p><p>Use the assessment index, or revisit the part whose readiness statement still feels uncertain.</p></div>
-          <a class="button" href="practice.html">Open Practice</a>
-        </section>
       </div>
+
+      <section class="curriculum-final mw-panel mw-scene" data-mw-reveal="up" aria-label="Continue with practice">
+        <div class="mw-stack">
+          <p class="eyebrow mw-eyebrow" data-mw-reveal="left">Continue with practice</p>
+          <h2 class="curriculum-final-title mw-heading" data-mw-reveal="up">Put the full route into practice.</h2>
+          <p data-mw-reveal="up">Use the assessment index, or revisit the part whose readiness statement still feels uncertain.</p>
+        </div>
+        <a class="button mw-button" href="practice.html">Open Practice <span aria-hidden="true">→</span></a>
+      </section>
     </div>
+  </div>
   </main>
   <footer class="site-footer" data-context-label="N3 Study Desk - Curriculum"><div class="site-footer-intro"><p class="site-footer-context">N3 Study Desk - Curriculum</p><p class="site-footer-kicker">Study tools at a glance</p></div><dl class="site-footer-functions"><div><dt>Reading settings</dt><dd>Show or hide readings and English support while you study.</dd></div><div><dt>Vocabulary details</dt><dd>Open readings, meanings, and lesson occurrences in the vocabulary bank.</dd></div><div><dt>Lesson navigation</dt><dd>Use Study to move between the four guided part indexes.</dd></div><div><dt>Practice behavior</dt><dd>Submit complete book sets, or check expanded practice answers individually.</dd></div></dl><nav aria-label="Study support"><a class="site-footer-guide" href="study-guide.html">How to use</a></nav></footer>
 </body>

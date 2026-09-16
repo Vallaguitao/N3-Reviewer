@@ -1,0 +1,91 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Midnight Washi — theme specimen</title>
+  <meta name="theme-color" content="#0c1424">
+  <link rel="stylesheet" href="fonts.css">
+  <link rel="stylesheet" href="theme.css">
+  <link rel="stylesheet" href="motion.css">
+  <link rel="stylesheet" href="brand.css">
+  <script src="theme.js" defer></script>
+  <script src="motion.js" defer></script>
+</head>
+<body class="mw-theme" data-mw-background="fixed" style="margin:0">
+  <div class="mw-page">
+    <header class="mw-header">
+      <div class="mw-container mw-row">
+        <a class="mw-brand" href="#top"><span class="mw-stamp" aria-hidden="true">MW</span><span class="mw-brand-name">Midnight Washi<span class="mw-brand-caption">A REUSABLE STUDY THEME</span></span></a>
+        <nav class="mw-nav" aria-label="Specimen sections"><a href="#components">Components</a><a href="#motion">Motion</a><a href="examples/starter.html">Starter page</a><button class="mw-button mw-button--quiet" type="button" data-mw-motion-toggle hidden>Pause motion</button></nav>
+      </div>
+    </header>
+    <main id="top" class="mw-container">
+      <section class="mw-hero mw-scene" aria-labelledby="cover-title">
+        <span class="mw-watermark" aria-hidden="true">学</span>
+        <div class="mw-stack">
+          <p class="mw-eyebrow" data-mw-reveal="left">JAPANESE EDITORIAL / VOLUME 01</p>
+          <h1 id="cover-title" class="mw-title" lang="ja" data-mw-reveal="up" style="--mw-delay:150ms">学びを、<br><span class="mw-accent mw-hover-text">毎日の習慣に。</span></h1>
+          <div class="mw-brush" data-mw-reveal="brush" style="--mw-delay:400ms" aria-hidden="true"></div>
+          <p class="mw-lead" data-mw-reveal="up" style="--mw-delay:300ms">Make learning a daily habit. A little structure, a clear explanation, and a moment to practise.</p>
+          <div class="mw-row"><a class="mw-button" href="#study-card">Try the study card <span aria-hidden="true">→</span></a><a class="mw-button mw-button--quiet" href="#components">Explore the theme</a></div>
+          <p class="mw-label mw-muted">MIDNIGHT INK · WARM PAPER · A VERMILION SEAL</p>
+          <button class="mw-button mw-button--quiet" type="button" data-mw-replay hidden>Replay entrance effects</button>
+        </div>
+        <article id="study-card" class="mw-paper mw-stack mw-hover-card" data-mw-tilt data-mw-reveal="right" style="--mw-delay:200ms" aria-labelledby="study-title">
+          <div class="mw-row" style="justify-content:space-between"><p id="study-title" class="mw-eyebrow">TODAY'S WORD</p><span class="mw-stamp" data-mw-reveal="stamp" style="--mw-delay:800ms" lang="ja" aria-label="Learning">学</span></div>
+          <p class="mw-kanji" data-mw-reveal="write" style="--mw-delay:500ms" lang="ja">学ぶ</p>
+          <p class="mw-muted">How would you read this word?</p>
+          <button class="mw-button" type="button" data-mw-toggle="word-answer" hidden>Show answer</button>
+          <div id="word-answer" class="mw-note mw-stack"><p><strong lang="ja">まなぶ</strong> — to learn</p><p lang="ja">日本語を学ぶ。</p><p class="mw-muted">To learn Japanese.</p></div>
+          <hr class="mw-rule">
+          <p class="mw-label">ONE WORD. ONE EXAMPLE. ONE STEP FORWARD.</p>
+        </article>
+      </section>
+      <section id="components" class="mw-section mw-stack" aria-labelledby="component-title">
+        <p class="mw-eyebrow">THE BUILDING BLOCKS</p>
+        <h2 class="mw-heading" id="component-title" data-mw-reveal="left">One visual language. Many lessons.</h2>
+        <p class="mw-lead">Reuse these patterns for your lessons, study guides, and practice pages.</p>
+        <div class="mw-grid mw-grid--three">
+          <article class="mw-panel mw-stack mw-hover-card" data-mw-reveal="up"><span class="mw-badge">DARK PANEL</span><h3 class="mw-subheading mw-hover-text">A place for the next step</h3><p class="mw-muted">Keep navigation, lesson summaries, and supporting information on indigo surfaces.</p><a class="mw-button mw-button--quiet" href="#palette">See the palette</a></article>
+          <article class="mw-paper mw-stack mw-hover-card mw-card--tilted" data-mw-reveal="up" style="--mw-delay:120ms"><span class="mw-badge">PAPER CARD</span><h3 class="mw-subheading mw-hover-text">Room to read</h3><p>Use warm paper for examples, explanations, and longer reading passages.</p><p lang="ja" style="font-size:1.5rem"><ruby>毎日<rt>まいにち</rt></ruby>、<ruby>少<rt>すこ</rt></ruby>しずつ。</p><p class="mw-muted">A little, every day.</p></article>
+          <article class="mw-panel mw-stack mw-hover-card" data-mw-reveal="up" style="--mw-delay:240ms"><span class="mw-badge">PROGRESS</span><h3 class="mw-subheading mw-hover-text">Small steps count</h3><p class="mw-muted">An example progress display. Your app supplies the value.</p><label for="demo-progress"><span data-mw-count="3">3</span> of 5 lessons completed</label><progress id="demo-progress" class="mw-progress" value="3" max="5">3 of 5</progress></article>
+        </div>
+        <div class="mw-grid">
+          <article class="mw-panel mw-stack"><h3 class="mw-subheading">An optional hint</h3><details class="mw-details"><summary>Open the study hint</summary><p class="mw-muted">Learn a word together with one short sentence. This disclosure uses native HTML and works without JavaScript.</p></details></article>
+          <article class="mw-panel mw-stack"><div class="mw-row"><span class="mw-stamp mw-stamp--large" data-mw-reveal="stamp" aria-hidden="true">✓</span><div><h3 class="mw-subheading">Lesson complete</h3><p class="mw-muted">A stamp can become your recurring completion mark.</p></div></div><p class="mw-label mw-muted">SAMPLE STATE — NO PROGRESS IS SAVED</p></article>
+        </div>
+      </section>
+      <section id="motion" class="mw-section mw-stack mw-scene" aria-labelledby="motion-title">
+        <p class="mw-eyebrow" data-mw-reveal="left">THE INTERACTIONS</p>
+        <h2 class="mw-heading" id="motion-title" data-mw-reveal="up">A study desk that feels alive.</h2>
+        <p class="mw-lead">Move your pointer through the background, hover over the words, and turn the paper card.</p>
+        <div class="mw-grid">
+          <article class="mw-panel mw-stack mw-hover-card" data-mw-tilt data-mw-reveal="left">
+            <h3 class="mw-subheading mw-hover-text">Find the reading</h3>
+            <p class="mw-muted">Hover or focus to reveal. Tap to keep the reading visible.</p>
+            <div class="mw-row"><button class="mw-word" type="button" data-mw-word lang="ja">経験<span class="mw-reading">けいけん</span></button><button class="mw-word" type="button" data-mw-word lang="ja">準備<span class="mw-reading">じゅんび</span></button></div>
+            <p class="mw-label mw-muted">A SAMPLE SET OF <span data-mw-count="12">12</span> REVIEW CARDS</p>
+          </article>
+          <button type="button" class="mw-flip-card" data-mw-flip>
+            <span class="mw-flip-inner">
+              <span class="mw-paper mw-stack" data-mw-face="front"><span class="mw-eyebrow">TURN THE CARD</span><span class="mw-kanji" lang="ja">学ぶ</span><span class="mw-label">TAP OR PRESS ENTER TO SEE THE READING ↻</span></span>
+              <span class="mw-paper mw-stack" data-mw-face="back"><span class="mw-eyebrow">THE READING</span><span class="mw-heading" lang="ja">まなぶ</span><span class="mw-subheading">To learn</span><span lang="ja">日本語を学ぶ。</span><span class="mw-muted">To learn Japanese.</span><span class="mw-label">TAP OR PRESS ENTER TO TURN BACK ↻</span></span>
+            </span>
+          </button>
+        </div>
+      </section>
+      <section id="palette" class="mw-section mw-stack" aria-labelledby="palette-title">
+        <p class="mw-eyebrow">THE PALETTE</p><h2 class="mw-heading" id="palette-title">Ink, paper, and a warm accent.</h2>
+        <div class="mw-grid mw-grid--three">
+          <div class="mw-panel mw-stack"><div style="height:4rem;background:var(--mw-bg);border:1px solid var(--mw-line);border-radius:4px" aria-hidden="true"></div><h3 class="mw-subheading">Midnight</h3><p class="mw-label">#0C1424 / MAIN BACKGROUND</p></div>
+          <div class="mw-panel mw-stack"><div style="height:4rem;background:var(--mw-paper);border-radius:4px" aria-hidden="true"></div><h3 class="mw-subheading">Paper</h3><p class="mw-label">#F2ECDD / READING SURFACES</p></div>
+          <div class="mw-panel mw-stack"><div style="height:4rem;background:var(--mw-accent);border-radius:4px" aria-hidden="true"></div><h3 class="mw-subheading">Vermilion</h3><p class="mw-label">#D8492A / SIGNATURE DETAILS</p></div>
+        </div>
+        <p class="mw-muted">Deep vermilion gives buttons readable white labels. Softer coral is used for accent text on dark backgrounds.</p>
+      </section>
+    </main>
+    <footer class="mw-footer"><div class="mw-container mw-row" style="justify-content:space-between"><p class="mw-label">MIDNIGHT WASHI / THEME KIT 1.1</p><a href="examples/no-javascript.html">View the CSS-only example</a></div></footer>
+  </div>
+</body>
+</html>

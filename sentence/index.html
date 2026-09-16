@@ -4,7 +4,7 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 <!-- SITE-METADATA:START -->
-<meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'; style-src 'self'; img-src 'self'; font-src 'self'; media-src 'none'; connect-src 'none'; object-src 'none'; frame-src 'none'; worker-src 'none'; manifest-src 'none'; base-uri 'none'; form-action 'none'">
+<meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'; style-src 'self' https://cdn.jsdelivr.net; img-src 'self' data:; font-src 'self' https://cdn.jsdelivr.net; media-src 'none'; connect-src 'none'; object-src 'none'; frame-src 'none'; worker-src 'none'; manifest-src 'none'; base-uri 'none'; form-action 'none'">
 <meta name="description" content="Browse Part 3 sentence building to connect clauses and solve numbered ★ phrase-arrangement questions.">
 <link rel="canonical" href="https://vallaguitao.github.io/N3-Reviewer/sentence/">
 <meta property="og:type" content="website">
@@ -19,54 +19,65 @@
 
   <title>Part 3: Sentence building | N3 Study Desk</title>
   <link rel="icon" href="../assets/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="../assets/midnight-washi/fonts.css">
   <link rel="stylesheet" href="../assets/css/styles.css">
-<script defer src="../assets/js/site.js"></script>
-<script defer src="../assets/js/lesson-topics.js"></script>
-<script defer src="../assets/js/readings.js"></script>
-<script defer src="../assets/js/data/part3-vocabulary-data.js"></script>
-<script defer src="../assets/js/vocabulary.js"></script>
-<script defer src="../assets/js/data/part3-quiz-data.js"></script>
-<script defer src="../assets/js/quiz.js"></script>
+  <link rel="stylesheet" href="../assets/midnight-washi/theme.css">
+  <link rel="stylesheet" href="../assets/midnight-washi/motion.css">
+  <link rel="stylesheet" href="../assets/midnight-washi/brand.css">
+  <link rel="stylesheet" href="../assets/midnight-washi/adapter.css">
+  <script src="../assets/js/theme-init.js"></script>
+  <script defer src="../assets/js/site.js"></script>
+  <script defer src="../assets/midnight-washi/theme.js"></script>
+  <script defer src="../assets/midnight-washi/motion.js"></script>
+  <script defer src="../assets/js/theme-switcher.js"></script>
+  <script defer src="../assets/js/lesson-topics.js"></script>
+  <script defer src="../assets/js/readings.js"></script>
+  <script defer src="../assets/js/data/part3-vocabulary-data.js"></script>
+  <script defer src="../assets/js/vocabulary.js"></script>
+  <script defer src="../assets/js/data/part3-quiz-data.js"></script>
+  <script defer src="../assets/js/quiz.js"></script>
 </head>
 <body data-page="sentence" data-root-prefix="..">
   <a class="skip-link" href="#main-content">Skip to Part 3 lessons</a>
-  <header class="site-header"><a class="site-mark" href="../index.html">N3 Study Desk</a><nav aria-label="Primary"><a href="../index.html">Home</a><details class="study-menu" data-study-menu data-current="true"><summary data-study-menu-trigger aria-controls="study-menu-panel" aria-expanded="false">Study</summary><div class="study-menu-panel" id="study-menu-panel"><p>Choose a book part</p><a href="../lessons/index.html"><span class="study-menu-number" aria-hidden="true">一</span><span><strong>Grammar by meaning</strong><small>Lessons 1–12</small></span></a><a href="../groups/index.html"><span class="study-menu-number" aria-hidden="true">二</span><span><strong>Mixed grammar groups</strong><small>Groups A–J and reviews</small></span></a><a href="../sentence/index.html"><span class="study-menu-number" aria-hidden="true">三</span><span><strong>Sentence building</strong><small>Four lessons and review</small></span></a><a href="../passage/index.html"><span class="study-menu-number" aria-hidden="true">四</span><span><strong>Passage grammar</strong><small>Ten lessons and five reviews</small></span></a></div></details><a href="../vocabulary.html">Vocabulary</a><a href="../practice.html">Practice</a><a href="../curriculum.html">Curriculum</a><a href="../study-guide.html">How to use</a></nav></header>
+  <header class="site-header"><a class="site-mark" href="../index.html">N3 Study Desk</a><nav aria-label="Primary"><a href="../index.html">Home</a><details class="study-menu" data-study-menu data-current="true"><summary data-study-menu-trigger aria-controls="study-menu-panel" aria-expanded="false">Study</summary><div class="study-menu-panel" id="study-menu-panel"><p>Choose a book part</p><a href="../lessons/index.html"><span class="study-menu-number" aria-hidden="true">一</span><span><strong>Grammar by meaning</strong><small>Lessons 1–12</small></span></a><a href="../groups/index.html"><span class="study-menu-number" aria-hidden="true">二</span><span><strong>Mixed grammar groups</strong><small>Groups A–J and reviews</small></span></a><a href="../sentence/index.html"><span class="study-menu-number" aria-hidden="true">三</span><span><strong>Sentence building</strong><small>Four lessons and review</small></span></a><a href="../passage/index.html"><span class="study-menu-number" aria-hidden="true">四</span><span><strong>Passage grammar</strong><small>Ten lessons and five reviews</small></span></a></div></details><a href="../vocabulary.html">Vocabulary</a><a href="../practice.html">Practice</a><a href="../curriculum.html">Curriculum</a><a href="../study-guide.html">How to use</a><button type="button" class="mw-button mw-button--quiet" data-mw-motion-toggle hidden>Pause motion</button><button type="button" id="theme-toggle" class="theme-toggle-button" aria-pressed="false" title="Switch theme"><span class="theme-toggle-icon" aria-hidden="true">🍵</span><span>Matcha Desk</span></button></nav></header>
   <main id="main-content" tabindex="-1">
-    <section class="part-index-hero" id="part3-overview">
-      <div>
-        <p class="eyebrow">Part 3 · 文の文法2</p>
-        <h1>Build complete Japanese sentences.</h1>
-        <p class="lede">Learn how clauses fit together, then solve the book’s exact numbered ★ questions by arranging every phrase and identifying the third position.</p>
-        <div class="part-index-actions"><a class="button" href="lesson-01-quotation.html">Start Lesson 1</a><a href="../curriculum.html">See the complete curriculum</a></div>
+    <section class="part-index-hero mw-scene" id="part3-overview" data-mw-reveal="up">
+      <span class="mw-watermark" aria-hidden="true">三</span>
+      <div class="mw-stack">
+        <p class="eyebrow mw-eyebrow" data-mw-reveal="left">Part 3 · 文の文法2</p>
+        <h1 class="mw-title" data-mw-reveal="up">Build complete Japanese sentences.</h1>
+        <div class="mw-brush" data-mw-reveal="brush" aria-hidden="true"></div>
+        <p class="lede mw-lead" data-mw-reveal="up">Learn how clauses fit together, then solve the book’s exact numbered ★ questions by arranging every phrase and identifying the third position.</p>
+        <div class="part-index-actions mw-row" data-mw-reveal="up"><a class="button mw-button" href="lesson-01-quotation.html">Start Lesson 1 <span aria-hidden="true">→</span></a><a class="mw-button mw-button--quiet" href="../curriculum.html">See the complete curriculum</a></div>
       </div>
-      <div><span class="chapter-number" aria-hidden="true">三</span><p class="hero-note">4 source lessons · 1 cumulative review</p></div>
+      <div><span class="chapter-number" aria-hidden="true">三</span><p class="hero-note" data-mw-reveal="right">4 source lessons · 1 cumulative review</p></div>
     </section>
 
     <div class="part-index-layout">
-      <aside class="part-index-rail" aria-label="Part 3 sections">
-        <p>Part 3 map</p>
+      <aside class="part-index-rail mw-panel" aria-label="Part 3 sections">
+        <p class="mw-eyebrow">Part 3 map</p>
         <nav><a href="#part3-overview">Overview</a><a href="#part3-lessons-01-04">Lessons 1–4</a><a href="#part3-review">Review</a></nav>
       </aside>
 
       <div class="part-ledger">
         <section class="part-ledger-section" id="part3-lessons-01-04" aria-labelledby="part3-lessons-title">
-          <header><p class="eyebrow">Book order</p><h2 id="part3-lessons-title">Sentence-building lessons</h2></header>
-          <article class="part-ledger-row" data-part-ledger-item="sentence-01"><span class="part-ledger-number">01</span><div><h3 lang="ja">文の組み立て-1　引用</h3><p>Quotation and inserted statements</p></div><a href="lesson-01-quotation.html">Study Lesson 1</a></article>
-          <article class="part-ledger-row" data-part-ledger-item="sentence-02"><span class="part-ledger-number">02</span><div><h3 lang="ja">文の組み立て-2　名詞の説明</h3><p>Noun modification and explanatory clauses</p></div><a href="lesson-02-noun-description.html">Study Lesson 2</a></article>
-          <article class="part-ledger-row" data-part-ledger-item="sentence-03"><span class="part-ledger-number">03</span><div><h3 lang="ja">文の組み立て-3　「～という・～といった」</h3><p>Naming, content, facts, and example lists</p></div><a href="lesson-03-toiu-toitta.html">Study Lesson 3</a></article>
-          <article class="part-ledger-row" data-part-ledger-item="sentence-04"><span class="part-ledger-number">04</span><div><h3 lang="ja">文の組み立て-4　決まった形</h3><p>Fixed sentence-building patterns</p></div><a href="lesson-04-fixed-forms.html">Study Lesson 4</a></article>
+          <header class="mw-stack"><p class="eyebrow mw-eyebrow" data-mw-reveal="left">Book order</p><h2 id="part3-lessons-title" class="mw-heading" data-mw-reveal="up">Sentence-building lessons</h2></header>
+          <article class="part-ledger-row mw-paper mw-hover-card mw-delay-100" data-mw-tilt data-mw-reveal="up" data-part-ledger-item="sentence-01"><span class="part-ledger-number mw-stamp" data-mw-reveal="stamp">01</span><div><h3 class="mw-subheading" lang="ja">文の組み立て-1　引用</h3><p class="mw-muted">Quotation and inserted statements</p></div><a class="mw-button" href="lesson-01-quotation.html">Study Lesson 1 <span aria-hidden="true">→</span></a></article>
+          <article class="part-ledger-row mw-paper mw-hover-card mw-delay-150" data-mw-tilt data-mw-reveal="up" data-part-ledger-item="sentence-02"><span class="part-ledger-number mw-stamp" data-mw-reveal="stamp">02</span><div><h3 class="mw-subheading" lang="ja">文の組み立て-2　名詞の説明</h3><p class="mw-muted">Noun modification and explanatory clauses</p></div><a class="mw-button" href="lesson-02-noun-description.html">Study Lesson 2 <span aria-hidden="true">→</span></a></article>
+          <article class="part-ledger-row mw-paper mw-hover-card mw-delay-200" data-mw-tilt data-mw-reveal="up" data-part-ledger-item="sentence-03"><span class="part-ledger-number mw-stamp" data-mw-reveal="stamp">03</span><div><h3 class="mw-subheading" lang="ja">文の組み立て-3　「～という・～といった」</h3><p class="mw-muted">Naming, content, facts, and example lists</p></div><a class="mw-button" href="lesson-03-toiu-toitta.html">Study Lesson 3 <span aria-hidden="true">→</span></a></article>
+          <article class="part-ledger-row mw-paper mw-hover-card mw-delay-250" data-mw-tilt data-mw-reveal="up" data-part-ledger-item="sentence-04"><span class="part-ledger-number mw-stamp" data-mw-reveal="stamp">04</span><div><h3 class="mw-subheading" lang="ja">文の組み立て-4　決まった形</h3><p class="mw-muted">Fixed sentence-building patterns</p></div><a class="mw-button" href="lesson-04-fixed-forms.html">Study Lesson 4 <span aria-hidden="true">→</span></a></article>
         </section>
 
         <section class="assessment-section" id="part3-review" aria-labelledby="part3-review-title">
-          <header><p class="eyebrow">Part 3 cumulative review</p><h2 id="part3-review-title">Lessons 1–4 Review</h2><p>Arrange every phrase in all eighteen source questions before submitting the complete set.</p></header>
-          <article class="assessment-row"><span class="assessment-row-number">18</span><div><h3 lang="ja">まとめ問題（1課～4課）</h3><p>Eighteen cumulative source questions · feedback after submission.</p></div><a class="button" href="review-01-04.html">Start Part 3 Review</a></article>
+          <header class="mw-stack"><p class="eyebrow mw-eyebrow" data-mw-reveal="left">Part 3 cumulative review</p><h2 id="part3-review-title" class="mw-heading" data-mw-reveal="up">Lessons 1–4 Review</h2><p class="mw-lead">Arrange every phrase in all eighteen source questions before submitting the complete set.</p></header>
+          <article class="assessment-row mw-paper mw-hover-card mw-delay-100" data-mw-tilt data-mw-reveal="up"><span class="assessment-row-number mw-stamp" data-mw-reveal="stamp">18</span><div><h3 class="mw-subheading" lang="ja">まとめ問題（1課～4課）</h3><p class="mw-muted">Eighteen cumulative source questions · feedback after submission.</p></div><a class="button mw-button" href="review-01-04.html">Start Part 3 Review <span aria-hidden="true">→</span></a></article>
         </section>
       </div>
     </div>
 
-    <section class="part-transition" aria-labelledby="part3-next-title">
-      <div><p class="eyebrow">Continue to Part 4</p><h2 id="part3-next-title">Track grammar across complete passages.</h2><p>Use the sentence-building skills from this part to follow tense, voice, reference words, and connection across longer texts.</p></div>
-      <a class="button" href="../passage/index.html">Open Part 4</a>
+    <section class="part-transition mw-panel mw-scene" aria-labelledby="part3-next-title" data-mw-reveal="up">
+      <div><p class="eyebrow mw-eyebrow">Continue to Part 4</p><h2 id="part3-next-title" class="mw-heading">Track grammar across complete passages.</h2><p class="mw-lead">Use the sentence-building skills from this part to follow tense, voice, reference words, and connection across longer texts.</p></div>
+      <a class="button mw-button" href="../passage/index.html">Open Part 4 <span aria-hidden="true">→</span></a>
     </section>
   </main>
   <footer class="site-footer" data-context-label="N3 Study Desk - Part 3 Sentence Building"><div class="site-footer-intro"><p class="site-footer-context">N3 Study Desk - Part 3 Sentence Building</p><p class="site-footer-kicker">Study tools at a glance</p></div><dl class="site-footer-functions"><div><dt>Reading settings</dt><dd>Show or hide readings and English support while you study.</dd></div><div><dt>Vocabulary details</dt><dd>Open readings, meanings, and lesson occurrences in the vocabulary bank.</dd></div><div><dt>Lesson navigation</dt><dd>Use Study to move between the four guided part indexes.</dd></div><div><dt>Practice behavior</dt><dd>Submit complete book sets, or check expanded practice answers individually.</dd></div></dl><nav aria-label="Study support"><a class="site-footer-guide" href="../study-guide.html">How to use</a></nav></footer>

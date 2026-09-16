@@ -4,7 +4,8 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 <!-- SITE-METADATA:START -->
-<meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'; style-src 'self'; img-src 'self'; font-src 'self'; media-src 'none'; connect-src 'none'; object-src 'none'; frame-src 'none'; worker-src 'none'; manifest-src 'none'; base-uri 'none'; form-action 'none'">
+<meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'; style-src 'self' https://cdn.jsdelivr.net; img-src 'self' data:; font-src 'self' https://cdn.jsdelivr.net; media-src 'none'; connect-src 'none'; object-src 'none'; frame-src 'none'; worker-src 'none'; manifest-src 'none'; base-uri 'none'; form-action 'none'">
+<meta name="color-scheme" content="light dark">
 <meta name="description" content="Open paired exercises, cumulative reviews, or the Lessons 1–12 Full Mock directly from one practice desk.">
 <link rel="canonical" href="https://vallaguitao.github.io/N3-Reviewer/practice.html">
 <meta property="og:type" content="website">
@@ -19,21 +20,36 @@
 
   <title>Practice | N3 Study Desk</title>
   <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="assets/midnight-washi/fonts.css">
   <link rel="stylesheet" href="assets/css/styles.css">
+  <link rel="stylesheet" href="assets/midnight-washi/theme.css">
+  <link rel="stylesheet" href="assets/midnight-washi/motion.css">
+  <link rel="stylesheet" href="assets/midnight-washi/brand.css">
+  <link rel="stylesheet" href="assets/midnight-washi/adapter.css">
+  <script src="assets/js/theme-init.js"></script>
   <script defer src="assets/js/site.js"></script>
+  <script defer src="assets/midnight-washi/theme.js"></script>
+  <script defer src="assets/midnight-washi/motion.js"></script>
+  <script defer src="assets/js/theme-switcher.js"></script>
 </head>
 <body data-page="practice" data-root-prefix=".">
   <a class="skip-link" href="#main-content">Skip to assessment map</a>
-  <header class="site-header"><a class="site-mark" href="index.html">N3 Study Desk</a><nav aria-label="Primary"><a href="index.html">Home</a><details class="study-menu" data-study-menu><summary data-study-menu-trigger aria-controls="study-menu-panel" aria-expanded="false">Study</summary><div class="study-menu-panel" id="study-menu-panel"><p>Choose a book part</p><a href="lessons/index.html"><span class="study-menu-number" aria-hidden="true">一</span><span><strong>Grammar by meaning</strong><small>Lessons 1–12</small></span></a><a href="groups/index.html"><span class="study-menu-number" aria-hidden="true">二</span><span><strong>Mixed grammar groups</strong><small>Groups A–J and reviews</small></span></a><a href="sentence/index.html"><span class="study-menu-number" aria-hidden="true">三</span><span><strong>Sentence building</strong><small>Four lessons and review</small></span></a><a href="passage/index.html"><span class="study-menu-number" aria-hidden="true">四</span><span><strong>Passage grammar</strong><small>Ten lessons and five reviews</small></span></a></div></details><a href="vocabulary.html">Vocabulary</a><a href="practice.html" aria-current="page">Practice</a><a href="curriculum.html">Curriculum</a><a href="study-guide.html">How to use</a></nav></header>
+  <header class="site-header"><a class="site-mark" href="index.html">N3 Study Desk</a><nav aria-label="Primary"><a href="index.html">Home</a><details class="study-menu" data-study-menu><summary data-study-menu-trigger aria-controls="study-menu-panel" aria-expanded="false">Study</summary><div class="study-menu-panel" id="study-menu-panel"><p>Choose a book part</p><a href="lessons/index.html"><span class="study-menu-number" aria-hidden="true">一</span><span><strong>Grammar by meaning</strong><small>Lessons 1–12</small></span></a><a href="groups/index.html"><span class="study-menu-number" aria-hidden="true">二</span><span><strong>Mixed grammar groups</strong><small>Groups A–J and reviews</small></span></a><a href="sentence/index.html"><span class="study-menu-number" aria-hidden="true">三</span><span><strong>Sentence building</strong><small>Four lessons and review</small></span></a><a href="passage/index.html"><span class="study-menu-number" aria-hidden="true">四</span><span><strong>Passage grammar</strong><small>Ten lessons and five reviews</small></span></a></div></details><a href="vocabulary.html">Vocabulary</a><a href="practice.html" aria-current="page">Practice</a><a href="curriculum.html">Curriculum</a><a href="study-guide.html">How to use</a><button type="button" class="mw-button mw-button--quiet" data-mw-motion-toggle hidden>Pause motion</button><button type="button" id="theme-toggle" class="theme-toggle-button" aria-pressed="false" title="Switch theme"><span class="theme-toggle-icon" aria-hidden="true">🍵</span><span>Matcha Desk</span></button></nav></header>
   <main id="main-content" tabindex="-1">
-    <section class="page-hero">
-      <div><p class="eyebrow">Source-book assessment desk</p><h1>Open the exact set you need.</h1><p class="lede">Jump directly to paired exercises, cumulative reviews, or the Full Mock without searching through every lesson page.</p></div>
-      <p class="hero-note"><strong>Book exercises and reviews</strong><br>Complete the set, then submit for feedback.</p>
+    <section class="page-hero mw-scene" data-mw-reveal="up">
+      <span class="mw-watermark" aria-hidden="true">練</span>
+      <div class="mw-stack">
+        <p class="eyebrow mw-eyebrow" data-mw-reveal="left">Source-book assessment desk</p>
+        <h1 class="mw-title" data-mw-reveal="up">Open the exact set you need.</h1>
+        <div class="mw-brush" data-mw-reveal="brush" aria-hidden="true"></div>
+        <p class="lede mw-lead" data-mw-reveal="up">Jump directly to paired exercises, cumulative reviews, or the Full Mock without searching through every lesson page.</p>
+      </div>
+      <p class="hero-note" data-mw-reveal="right"><strong>Book exercises and reviews</strong><br>Complete the set, then submit for feedback.</p>
     </section>
 
     <div class="practice-index-layout">
       <aside class="assessment-rail" aria-label="Assessment map">
-        <p>Assessment map</p>
+        <p class="mw-eyebrow">Assessment map</p>
         <nav>
           <a href="#part1-exercises"><span aria-hidden="true">一</span> Part 1 exercises</a>
           <a href="#part2-reviews"><span aria-hidden="true">二</span> Part 2 reviews</a>
@@ -45,45 +61,71 @@
 
       <div class="assessment-list">
         <section class="assessment-section" id="part1-exercises" aria-labelledby="part1-exercises-title">
-          <header><p class="eyebrow">Part 1 exercises</p><h2 id="part1-exercises-title">Paired Lessons 1–12 exercises</h2><p>Book exercise behavior: <strong>Complete the set, then submit.</strong></p></header>
-          <article class="assessment-row"><span class="assessment-row-number">1–2</span><div><h3>Lessons 1–2 exercises</h3><p>18 source questions · opens at the exercise anchor in Lesson 2.</p></div><a href="lessons/lesson-02-kankei.html#book-exercises-01-02">Open set</a></article>
-          <article class="assessment-row"><span class="assessment-row-number">3–4</span><div><h3>Lessons 3–4 exercises</h3><p>18 source questions · opens at the exercise anchor in Lesson 4.</p></div><a href="lessons/lesson-04-contrast.html#book-exercises-03-04">Open set</a></article>
-          <article class="assessment-row"><span class="assessment-row-number">5–6</span><div><h3>Lessons 5–6 exercises</h3><p>17 source questions · opens at the exercise anchor in Lesson 6.</p></div><a href="lessons/lesson-06-conditions.html#book-exercises-05-06">Open set</a></article>
-          <article class="assessment-row"><span class="assessment-row-number">7–8</span><div><h3>Lessons 7–8 exercises</h3><p>16 source questions · opens at the exercise anchor in Lesson 8.</p></div><a href="lessons/lesson-08-negation.html#book-exercises-07-08">Open set</a></article>
-          <article class="assessment-row"><span class="assessment-row-number">9–10</span><div><h3>Lessons 9–10 exercises</h3><p>18 source questions · opens at the exercise anchor in Lesson 10.</p></div><a href="lessons/lesson-10-advice.html#book-exercises-09-10">Open set</a></article>
-          <article class="assessment-row"><span class="assessment-row-number">11–12</span><div><h3>Lessons 11–12 exercises</h3><p>18 source questions · opens at the exercise anchor in Lesson 12.</p></div><a href="lessons/lesson-12-keigo.html#book-exercises-11-12">Open set</a></article>
+          <header class="mw-stack">
+            <p class="eyebrow mw-eyebrow" data-mw-reveal="left">Part 1 exercises</p>
+            <h2 id="part1-exercises-title" class="mw-heading" data-mw-reveal="up">Paired Lessons 1–12 exercises</h2>
+            <p class="mw-muted" data-mw-reveal="up">Book exercise behavior: <strong>Complete the set, then submit.</strong></p>
+          </header>
+          <article class="assessment-row mw-paper mw-hover-card mw-delay-100" data-mw-tilt data-mw-reveal="up"><span class="assessment-row-number mw-stamp" data-mw-reveal="stamp">1–2</span><div><h3 class="mw-subheading">Lessons 1–2 exercises</h3><p class="mw-muted">18 source questions · opens at the exercise anchor in Lesson 2.</p></div><a href="lessons/lesson-02-kankei.html#book-exercises-01-02">Open set</a></article>
+          <article class="assessment-row mw-paper mw-hover-card mw-delay-150" data-mw-tilt data-mw-reveal="up"><span class="assessment-row-number mw-stamp" data-mw-reveal="stamp">3–4</span><div><h3 class="mw-subheading">Lessons 3–4 exercises</h3><p class="mw-muted">18 source questions · opens at the exercise anchor in Lesson 4.</p></div><a href="lessons/lesson-04-contrast.html#book-exercises-03-04">Open set</a></article>
+          <article class="assessment-row mw-paper mw-hover-card mw-delay-200" data-mw-tilt data-mw-reveal="up"><span class="assessment-row-number mw-stamp" data-mw-reveal="stamp">5–6</span><div><h3 class="mw-subheading">Lessons 5–6 exercises</h3><p class="mw-muted">17 source questions · opens at the exercise anchor in Lesson 6.</p></div><a href="lessons/lesson-06-conditions.html#book-exercises-05-06">Open set</a></article>
+          <article class="assessment-row mw-paper mw-hover-card mw-delay-250" data-mw-tilt data-mw-reveal="up"><span class="assessment-row-number mw-stamp" data-mw-reveal="stamp">7–8</span><div><h3 class="mw-subheading">Lessons 7–8 exercises</h3><p class="mw-muted">16 source questions · opens at the exercise anchor in Lesson 8.</p></div><a href="lessons/lesson-08-negation.html#book-exercises-07-08">Open set</a></article>
+          <article class="assessment-row mw-paper mw-hover-card mw-delay-300" data-mw-tilt data-mw-reveal="up"><span class="assessment-row-number mw-stamp" data-mw-reveal="stamp">9–10</span><div><h3 class="mw-subheading">Lessons 9–10 exercises</h3><p class="mw-muted">18 source questions · opens at the exercise anchor in Lesson 10.</p></div><a href="lessons/lesson-10-advice.html#book-exercises-09-10">Open set</a></article>
+          <article class="assessment-row mw-paper mw-hover-card mw-delay-400" data-mw-tilt data-mw-reveal="up"><span class="assessment-row-number mw-stamp" data-mw-reveal="stamp">11–12</span><div><h3 class="mw-subheading">Lessons 11–12 exercises</h3><p class="mw-muted">18 source questions · opens at the exercise anchor in Lesson 12.</p></div><a href="lessons/lesson-12-keigo.html#book-exercises-11-12">Open set</a></article>
         </section>
 
         <section class="assessment-section" id="part2-reviews" aria-labelledby="part2-reviews-title">
-          <header><p class="eyebrow">Part 2 reviews</p><h2 id="part2-reviews-title">Mixed group reviews</h2><p>Complete the set, then submit.</p></header>
-          <article class="assessment-row"><span class="assessment-row-number">A–E</span><div><h3>Groups A–E Review</h3><p>13 cumulative source questions.</p></div><a href="groups/review-a-e.html">Open review</a></article>
-          <article class="assessment-row"><span class="assessment-row-number">A–J</span><div><h3>Groups A–J Review</h3><p>Full Part 2 cumulative source review.</p></div><a href="groups/review-a-j.html">Open review</a></article>
+          <header class="mw-stack">
+            <p class="eyebrow mw-eyebrow" data-mw-reveal="left">Part 2 reviews</p>
+            <h2 id="part2-reviews-title" class="mw-heading" data-mw-reveal="up">Mixed group reviews</h2>
+            <p class="mw-muted" data-mw-reveal="up">Complete the set, then submit.</p>
+          </header>
+          <article class="assessment-row mw-paper mw-hover-card mw-delay-100" data-mw-tilt data-mw-reveal="up"><span class="assessment-row-number mw-stamp" data-mw-reveal="stamp">A–E</span><div><h3 class="mw-subheading">Groups A–E Review</h3><p class="mw-muted">13 cumulative source questions.</p></div><a href="groups/review-a-e.html">Open review</a></article>
+          <article class="assessment-row mw-paper mw-hover-card mw-delay-200" data-mw-tilt data-mw-reveal="up"><span class="assessment-row-number mw-stamp" data-mw-reveal="stamp">A–J</span><div><h3 class="mw-subheading">Groups A–J Review</h3><p class="mw-muted">Full Part 2 cumulative source review.</p></div><a href="groups/review-a-j.html">Open review</a></article>
         </section>
 
         <section class="assessment-section" id="part3-review" aria-labelledby="part3-review-title">
-          <header><p class="eyebrow">Part 3 review</p><h2 id="part3-review-title">Sentence-building review</h2><p>Complete the set, then submit.</p></header>
-          <article class="assessment-row"><span class="assessment-row-number">1–4</span><div><h3>Lessons 1–4 Review</h3><p>18 exact numbered ★ questions in source order.</p></div><a href="sentence/review-01-04.html">Open review</a></article>
+          <header class="mw-stack">
+            <p class="eyebrow mw-eyebrow" data-mw-reveal="left">Part 3 review</p>
+            <h2 id="part3-review-title" class="mw-heading" data-mw-reveal="up">Sentence-building review</h2>
+            <p class="mw-muted" data-mw-reveal="up">Complete the set, then submit.</p>
+          </header>
+          <article class="assessment-row mw-paper mw-hover-card mw-delay-100" data-mw-tilt data-mw-reveal="up"><span class="assessment-row-number mw-stamp" data-mw-reveal="stamp">1–4</span><div><h3 class="mw-subheading">Lessons 1–4 Review</h3><p class="mw-muted">18 exact numbered ★ questions in source order.</p></div><a href="sentence/review-01-04.html">Open review</a></article>
         </section>
 
         <section class="assessment-section" id="part4-reviews" aria-labelledby="part4-reviews-title">
-          <header><p class="eyebrow">Part 4 reviews</p><h2 id="part4-reviews-title">Passage grammar reviews</h2><p>Complete each two-passage set, then submit.</p></header>
-          <article class="assessment-row"><span class="assessment-row-number">1–2</span><div><h3>Lessons 1–2 Review</h3><p>Two source passages with ten blanks.</p></div><a href="passage/review-01-02.html">Open review</a></article>
-          <article class="assessment-row"><span class="assessment-row-number">3–4</span><div><h3>Lessons 3–4 Review</h3><p>Two source passages with ten blanks.</p></div><a href="passage/review-03-04.html">Open review</a></article>
-          <article class="assessment-row"><span class="assessment-row-number">5–6</span><div><h3>Lessons 5–6 Review</h3><p>Two source passages with ten blanks.</p></div><a href="passage/review-05-06.html">Open review</a></article>
-          <article class="assessment-row"><span class="assessment-row-number">7–8</span><div><h3>Lessons 7–8 Review</h3><p>Two source passages with ten blanks.</p></div><a href="passage/review-07-08.html">Open review</a></article>
-          <article class="assessment-row"><span class="assessment-row-number">9–10</span><div><h3>Lessons 9–10 Review</h3><p>Two source passages with ten blanks.</p></div><a href="passage/review-09-10.html">Open review</a></article>
+          <header class="mw-stack">
+            <p class="eyebrow mw-eyebrow" data-mw-reveal="left">Part 4 reviews</p>
+            <h2 id="part4-reviews-title" class="mw-heading" data-mw-reveal="up">Passage grammar reviews</h2>
+            <p class="mw-muted" data-mw-reveal="up">Complete each two-passage set, then submit.</p>
+          </header>
+          <article class="assessment-row mw-paper mw-hover-card mw-delay-100" data-mw-tilt data-mw-reveal="up"><span class="assessment-row-number mw-stamp" data-mw-reveal="stamp">1–2</span><div><h3 class="mw-subheading">Lessons 1–2 Review</h3><p class="mw-muted">Two source passages with ten blanks.</p></div><a href="passage/review-01-02.html">Open review</a></article>
+          <article class="assessment-row mw-paper mw-hover-card mw-delay-150" data-mw-tilt data-mw-reveal="up"><span class="assessment-row-number mw-stamp" data-mw-reveal="stamp">3–4</span><div><h3 class="mw-subheading">Lessons 3–4 Review</h3><p class="mw-muted">Two source passages with ten blanks.</p></div><a href="passage/review-03-04.html">Open review</a></article>
+          <article class="assessment-row mw-paper mw-hover-card mw-delay-200" data-mw-tilt data-mw-reveal="up"><span class="assessment-row-number mw-stamp" data-mw-reveal="stamp">5–6</span><div><h3 class="mw-subheading">Lessons 5–6 Review</h3><p class="mw-muted">Two source passages with ten blanks.</p></div><a href="passage/review-05-06.html">Open review</a></article>
+          <article class="assessment-row mw-paper mw-hover-card mw-delay-250" data-mw-tilt data-mw-reveal="up"><span class="assessment-row-number mw-stamp" data-mw-reveal="stamp">7–8</span><div><h3 class="mw-subheading">Lessons 7–8 Review</h3><p class="mw-muted">Two source passages with ten blanks.</p></div><a href="passage/review-07-08.html">Open review</a></article>
+          <article class="assessment-row mw-paper mw-hover-card mw-delay-300" data-mw-tilt data-mw-reveal="up"><span class="assessment-row-number mw-stamp" data-mw-reveal="stamp">9–10</span><div><h3 class="mw-subheading">Lessons 9–10 Review</h3><p class="mw-muted">Two source passages with ten blanks.</p></div><a href="passage/review-09-10.html">Open review</a></article>
         </section>
 
         <section class="assessment-section" id="full-mock" aria-labelledby="full-mock-title">
-          <header><p class="eyebrow">Full Mock</p><h2 id="full-mock-title">Lessons 1–12 cumulative assessment</h2><p>Complete the set, then submit. Feedback appears only after all thirteen source questions are answered.</p></header>
-          <article class="assessment-row"><span class="assessment-row-number">模</span><div><h3>Lessons 1–12 Full Mock</h3><p>13 cumulative source questions · one complete attempt.</p></div><a class="button" href="lessons/full-mock-01-12.html">Open Full Mock</a></article>
+          <header class="mw-stack">
+            <p class="eyebrow mw-eyebrow" data-mw-reveal="left">Full Mock</p>
+            <h2 id="full-mock-title" class="mw-heading" data-mw-reveal="up">Lessons 1–12 cumulative assessment</h2>
+            <p class="mw-muted" data-mw-reveal="up">Complete the set, then submit. Feedback appears only after all thirteen source questions are answered.</p>
+          </header>
+          <article class="assessment-row mw-paper mw-hover-card assessment-row--featured mw-delay-100" data-mw-tilt data-mw-reveal="up"><span class="assessment-row-number mw-stamp mw-stamp--large" data-mw-reveal="stamp" aria-label="Mock Exam">模</span><div><h3 class="mw-subheading">Lessons 1–12 Full Mock</h3><p class="mw-muted">13 cumulative source questions · one complete attempt.</p></div><a class="button mw-button" href="lessons/full-mock-01-12.html">Open Full Mock</a></article>
         </section>
       </div>
     </div>
 
-    <aside class="usage-callout" aria-labelledby="expanded-practice-title">
-      <div><p class="eyebrow">Inside the study pages</p><h2 id="expanded-practice-title">Expanded practice works differently.</h2><p>The added Expanded practice sections check answers individually and let you retry immediately. They remain inside their matching lesson or group and are not mixed into this source-book assessment index.</p></div>
-      <a href="study-guide.html">Learn how quizzes work</a>
+    <aside class="usage-callout mw-panel mw-scene" aria-labelledby="expanded-practice-title" data-mw-reveal="up">
+      <div class="mw-stack">
+        <p class="eyebrow mw-eyebrow" data-mw-reveal="left">Inside the study pages</p>
+        <h2 id="expanded-practice-title" class="mw-heading" data-mw-reveal="up">Expanded practice works differently.</h2>
+        <p class="mw-muted" data-mw-reveal="up">The added Expanded practice sections check answers individually and let you retry immediately. They remain inside their matching lesson or group and are not mixed into this source-book assessment index.</p>
+      </div>
+      <div>
+        <a class="button mw-button mw-button--quiet" href="study-guide.html">Learn how quizzes work <span aria-hidden="true">→</span></a>
+      </div>
     </aside>
   </main>
   <footer class="site-footer" data-context-label="N3 Study Desk · Source-book practice"><div class="site-footer-intro"><p class="site-footer-context">N3 Study Desk · Source-book practice</p><p class="site-footer-kicker">Study tools at a glance</p></div><dl class="site-footer-functions"><div><dt>Reading settings</dt><dd>Show or hide readings and English support while you study.</dd></div><div><dt>Vocabulary details</dt><dd>Open readings, meanings, and lesson occurrences in the vocabulary bank.</dd></div><div><dt>Lesson navigation</dt><dd>Use Study to move between the four guided part indexes.</dd></div><div><dt>Practice behavior</dt><dd>Submit complete book sets, or check expanded practice answers individually.</dd></div></dl><nav aria-label="Study support"><a class="site-footer-guide" href="study-guide.html">How to use</a></nav></footer>

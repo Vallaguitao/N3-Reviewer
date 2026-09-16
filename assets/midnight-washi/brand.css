@@ -1,0 +1,16 @@
+/* Load AFTER theme.css. This is your brand's editable layer. */
+.mw-theme {
+  --mw-accent: #d8492a;        /* Brush strokes and visual accents */
+  --mw-accent-deep: #b23a1f;   /* Button background; also text on paper */
+  --mw-accent-text: #f0937a;   /* Readable accent text on dark backgrounds */
+  --mw-gold: #d3ab62;          /* Borders and progress */
+  --mw-gold-bright: #eccb85;   /* Links and highlights */
+  --mw-radius: 10px;
+  --mw-content-width: 1120px;
+  --mw-background-opacity: 1; /* Set 0 to hide the decorative glyph field */
+  --mw-parallax-distance: 16px;
+  --mw-card-lift: -6px;
+  --mw-reveal-duration: 700ms;
+  /* Optional: --mw-grain-opacity: 0; removes the paper texture. */
+}
+/* Brand name and logo belong in your HTML. This file controls appearance. */

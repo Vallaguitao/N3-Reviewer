@@ -1,0 +1,8 @@
+{
+  "name": "midnight-washi-theme",
+  "version": "1.1.0",
+  "private": true,
+  "description": "Portable Japanese editorial CSS theme with optional answer reveals",
+  "scripts": { "test": "node --test tests/*.test.cjs" },
+  "devDependencies": { "jsdom": "26.1.0" }
+}

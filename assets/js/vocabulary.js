@@ -179,11 +179,27 @@
     return Boolean(target?.closest?.("[data-vocab-details] a[href]"));
   }
 
+  function extractWordSurface(element) {
+    if (!element) return "";
+    if (!element.querySelector || !element.querySelector("rt, rp")) {
+      return String(element.textContent || "").trim();
+    }
+    const clone = element.cloneNode(true);
+    clone.querySelectorAll("rt, rp").forEach(node => {
+      if (typeof node.remove === "function") {
+        node.remove();
+      } else if (node.parentNode) {
+        node.parentNode.removeChild(node);
+      }
+    });
+    return String(clone.textContent || "").trim();
+  }
+
   function contextFromTarget(target) {
     const word = target?.closest?.("[data-vocab-id]") || null;
     if (!word) return { surface: "", surfaceReading: "", contextMeaning: "" };
     return {
-      surface: String(word.textContent || "").trim(),
+      surface: extractWordSurface(word),
       surfaceReading: String(word.dataset?.surfaceReading || "").trim(),
       contextMeaning: String(word.dataset?.contextMeaning || "").trim(),
     };
@@ -838,6 +854,7 @@
     getById,
     vocabIdFromTarget,
     isDetailsNavigationTarget,
+    extractWordSurface,
     contextFromTarget,
     detailModel,
     vocabularyBankHref,

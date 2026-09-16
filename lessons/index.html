@@ -4,7 +4,7 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 <!-- SITE-METADATA:START -->
-<meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'; style-src 'self'; img-src 'self'; font-src 'self'; media-src 'none'; connect-src 'none'; object-src 'none'; frame-src 'none'; worker-src 'none'; manifest-src 'none'; base-uri 'none'; form-action 'none'">
+<meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'; style-src 'self' https://cdn.jsdelivr.net; img-src 'self' data:; font-src 'self' https://cdn.jsdelivr.net; media-src 'none'; connect-src 'none'; object-src 'none'; frame-src 'none'; worker-src 'none'; manifest-src 'none'; base-uri 'none'; form-action 'none'">
 <meta name="description" content="Browse all twelve Part 1 grammar-by-meaning lessons and their paired book exercises in study order.">
 <link rel="canonical" href="https://vallaguitao.github.io/N3-Reviewer/lessons/">
 <meta property="og:type" content="website">
@@ -19,8 +19,17 @@
 
   <title>Part 1: Grammar by meaning | N3 Study Desk</title>
   <link rel="icon" href="../assets/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="../assets/midnight-washi/fonts.css">
   <link rel="stylesheet" href="../assets/css/styles.css">
+  <link rel="stylesheet" href="../assets/midnight-washi/theme.css">
+  <link rel="stylesheet" href="../assets/midnight-washi/motion.css">
+  <link rel="stylesheet" href="../assets/midnight-washi/brand.css">
+  <link rel="stylesheet" href="../assets/midnight-washi/adapter.css">
+  <script src="../assets/js/theme-init.js"></script>
   <script defer src="../assets/js/site.js"></script>
+  <script defer src="../assets/midnight-washi/theme.js"></script>
+  <script defer src="../assets/midnight-washi/motion.js"></script>
+  <script defer src="../assets/js/theme-switcher.js"></script>
   <script defer src="../assets/js/lesson-topics.js"></script>
   <script defer src="../assets/js/readings.js"></script>
   <script defer src="../assets/js/data/part1-vocabulary-data.js"></script>
@@ -30,65 +39,67 @@
 </head>
 <body data-page="lessons" data-root-prefix="..">
   <a class="skip-link" href="#main-content">Skip to Part 1 lessons</a>
-  <header class="site-header"><a class="site-mark" href="../index.html">N3 Study Desk</a><nav aria-label="Primary"><a href="../index.html">Home</a><details class="study-menu" data-study-menu data-current="true"><summary data-study-menu-trigger aria-controls="study-menu-panel" aria-expanded="false">Study</summary><div class="study-menu-panel" id="study-menu-panel"><p>Choose a book part</p><a href="../lessons/index.html"><span class="study-menu-number" aria-hidden="true">一</span><span><strong>Grammar by meaning</strong><small>Lessons 1–12</small></span></a><a href="../groups/index.html"><span class="study-menu-number" aria-hidden="true">二</span><span><strong>Mixed grammar groups</strong><small>Groups A–J and reviews</small></span></a><a href="../sentence/index.html"><span class="study-menu-number" aria-hidden="true">三</span><span><strong>Sentence building</strong><small>Four lessons and review</small></span></a><a href="../passage/index.html"><span class="study-menu-number" aria-hidden="true">四</span><span><strong>Passage grammar</strong><small>Ten lessons and five reviews</small></span></a></div></details><a href="../vocabulary.html">Vocabulary</a><a href="../practice.html">Practice</a><a href="../curriculum.html">Curriculum</a><a href="../study-guide.html">How to use</a></nav></header>
+  <header class="site-header"><a class="site-mark" href="../index.html">N3 Study Desk</a><nav aria-label="Primary"><a href="../index.html">Home</a><details class="study-menu" data-study-menu data-current="true"><summary data-study-menu-trigger aria-controls="study-menu-panel" aria-expanded="false">Study</summary><div class="study-menu-panel" id="study-menu-panel"><p>Choose a book part</p><a href="../lessons/index.html"><span class="study-menu-number" aria-hidden="true">一</span><span><strong>Grammar by meaning</strong><small>Lessons 1–12</small></span></a><a href="../groups/index.html"><span class="study-menu-number" aria-hidden="true">二</span><span><strong>Mixed grammar groups</strong><small>Groups A–J and reviews</small></span></a><a href="../sentence/index.html"><span class="study-menu-number" aria-hidden="true">三</span><span><strong>Sentence building</strong><small>Four lessons and review</small></span></a><a href="../passage/index.html"><span class="study-menu-number" aria-hidden="true">四</span><span><strong>Passage grammar</strong><small>Ten lessons and five reviews</small></span></a></div></details><a href="../vocabulary.html">Vocabulary</a><a href="../practice.html">Practice</a><a href="../curriculum.html">Curriculum</a><a href="../study-guide.html">How to use</a><button type="button" class="mw-button mw-button--quiet" data-mw-motion-toggle hidden>Pause motion</button><button type="button" id="theme-toggle" class="theme-toggle-button" aria-pressed="false" title="Switch theme"><span class="theme-toggle-icon" aria-hidden="true">🍵</span><span>Matcha Desk</span></button></nav></header>
   <main id="main-content" tabindex="-1">
-    <section class="part-index-hero" id="part1-overview">
-      <div>
-        <p class="eyebrow">Part 1 · Grammar by meaning</p>
-        <h1>Build the foundation one relationship at a time.</h1>
-        <p class="lede">Work through all twelve book-faithful lessons in order. Each even lesson ends with the paired source exercises for the two lessons you just studied.</p>
-        <div class="part-index-actions"><a class="button" href="lesson-01-toki.html">Start Lesson 1</a><a href="../curriculum.html">See the complete curriculum</a></div>
+    <section class="part-index-hero mw-scene" id="part1-overview" data-mw-reveal="up">
+      <span class="mw-watermark" aria-hidden="true">一</span>
+      <div class="mw-stack">
+        <p class="eyebrow mw-eyebrow" data-mw-reveal="left">Part 1 · Grammar by meaning</p>
+        <h1 class="mw-title" data-mw-reveal="up">Build the foundation one relationship at a time.</h1>
+        <div class="mw-brush" data-mw-reveal="brush" aria-hidden="true"></div>
+        <p class="lede mw-lead" data-mw-reveal="up">Work through all twelve book-faithful lessons in order. Each even lesson ends with the paired source exercises for the two lessons you just studied.</p>
+        <div class="part-index-actions mw-row"><a class="button mw-button" href="lesson-01-toki.html">Start Lesson 1 <span aria-hidden="true">→</span></a><a class="button mw-button mw-button--quiet" href="../curriculum.html">See the complete curriculum</a></div>
       </div>
-      <div><span class="chapter-number" aria-hidden="true">一</span><p class="hero-note">12 lessons · 53 grammar families · 235 book examples</p></div>
+      <div><span class="chapter-number mw-stamp" data-mw-reveal="stamp" aria-hidden="true">一</span><p class="hero-note" data-mw-reveal="right">12 lessons · 53 grammar families · 235 book examples</p></div>
     </section>
 
     <div class="part-index-layout">
-      <aside class="part-index-rail" aria-label="Part 1 sections">
-        <p>Part 1 map</p>
+      <aside class="part-index-rail mw-panel" aria-label="Part 1 sections">
+        <p class="mw-eyebrow">Part 1 map</p>
         <nav>
-          <a href="#part1-overview">Overview</a>
-          <a href="#part1-lessons-01-04">Lessons 1–4</a>
-          <a href="#part1-lessons-05-08">Lessons 5–8</a>
-          <a href="#part1-lessons-09-12">Lessons 9–12</a>
-          <a href="#part1-full-mock">Full Mock</a>
+          <a href="#part1-overview"><span aria-hidden="true">概</span> Overview</a>
+          <a href="#part1-lessons-01-04"><span aria-hidden="true">一</span> Lessons 1–4</a>
+          <a href="#part1-lessons-05-08"><span aria-hidden="true">二</span> Lessons 5–8</a>
+          <a href="#part1-lessons-09-12"><span aria-hidden="true">三</span> Lessons 9–12</a>
+          <a href="#part1-full-mock"><span aria-hidden="true">模</span> Full Mock</a>
         </nav>
       </aside>
 
       <div class="part-ledger">
         <section class="part-ledger-section" id="part1-lessons-01-04" aria-labelledby="part1-lessons-01-04-title">
-          <header><p class="eyebrow">First foundation</p><h2 id="part1-lessons-01-04-title">Lessons 1–4</h2></header>
-          <article class="part-ledger-row" data-part-ledger-item="lesson-01"><span class="part-ledger-number">01</span><div><h3>Time relationships</h3><p>17 book examples · ～うちに, ～間／～間に, prerequisites, and the three stages of ～ところ.</p></div><a href="lesson-01-toki.html">Study Lesson 1</a></article>
-          <article class="part-ledger-row" data-part-ledger-item="lesson-02"><span class="part-ledger-number">02</span><div><h3>Relationships</h3><p>18 book examples · paired exercises · matching, methods and causes, recurring occasions, degree, and useful extra actions.</p></div><a href="lesson-02-kankei.html">Study Lesson 2</a></article>
-          <article class="part-ledger-row" data-part-ledger-item="lesson-03"><span class="part-ledger-number">03</span><div><h3>Degree and comparison</h3><p>17 book examples · extreme degree, no-equal judgments, rejected alternatives, and recommendations.</p></div><a href="lesson-03-degree.html">Study Lesson 3</a></article>
-          <article class="part-ledger-row" data-part-ledger-item="lesson-04"><span class="part-ledger-number">04</span><div><h3>Contrast</h3><p>17 book examples · paired exercises · comparison, reverse sides, parallel facts, corrected descriptions, and exchanges.</p></div><a href="lesson-04-contrast.html">Study Lesson 4</a></article>
+          <header class="mw-stack"><p class="eyebrow mw-eyebrow" data-mw-reveal="left">First foundation</p><h2 id="part1-lessons-01-04-title" class="mw-heading" data-mw-reveal="up">Lessons 1–4</h2></header>
+          <article class="part-ledger-row mw-paper mw-hover-card mw-delay-100" data-mw-tilt data-mw-reveal="up" data-part-ledger-item="lesson-01"><span class="part-ledger-number mw-stamp" data-mw-reveal="stamp">01</span><div><h3 class="mw-subheading">Time relationships</h3><p class="mw-muted">17 book examples · ～うちに, ～間／～間に, prerequisites, and the three stages of ～ところ.</p></div><a class="mw-button" href="lesson-01-toki.html">Study Lesson 1 <span aria-hidden="true">→</span></a></article>
+          <article class="part-ledger-row mw-paper mw-hover-card mw-delay-150" data-mw-tilt data-mw-reveal="up" data-part-ledger-item="lesson-02"><span class="part-ledger-number mw-stamp" data-mw-reveal="stamp">02</span><div><h3 class="mw-subheading">Relationships</h3><p class="mw-muted">18 book examples · paired exercises · matching, methods and causes, recurring occasions, degree, and useful extra actions.</p></div><a class="mw-button" href="lesson-02-kankei.html">Study Lesson 2 <span aria-hidden="true">→</span></a></article>
+          <article class="part-ledger-row mw-paper mw-hover-card mw-delay-200" data-mw-tilt data-mw-reveal="up" data-part-ledger-item="lesson-03"><span class="part-ledger-number mw-stamp" data-mw-reveal="stamp">03</span><div><h3 class="mw-subheading">Degree and comparison</h3><p class="mw-muted">17 book examples · extreme degree, no-equal judgments, rejected alternatives, and recommendations.</p></div><a class="mw-button" href="lesson-03-degree.html">Study Lesson 3 <span aria-hidden="true">→</span></a></article>
+          <article class="part-ledger-row mw-paper mw-hover-card mw-delay-250" data-mw-tilt data-mw-reveal="up" data-part-ledger-item="lesson-04"><span class="part-ledger-number mw-stamp" data-mw-reveal="stamp">04</span><div><h3 class="mw-subheading">Contrast</h3><p class="mw-muted">17 book examples · paired exercises · comparison, reverse sides, parallel facts, corrected descriptions, and exchanges.</p></div><a class="mw-button" href="lesson-04-contrast.html">Study Lesson 4 <span aria-hidden="true">→</span></a></article>
         </section>
 
         <section class="part-ledger-section" id="part1-lessons-05-08" aria-labelledby="part1-lessons-05-08-title">
-          <header><p class="eyebrow">Conditions and evidence</p><h2 id="part1-lessons-05-08-title">Lessons 5–8</h2></header>
-          <article class="part-ledger-row" data-part-ledger-item="lesson-05"><span class="part-ledger-number">05</span><div><h3>Reasons and causes</h3><p>16 book examples · formal causes, methods, origins, evaluated causes, and established reasons.</p></div><a href="lesson-05-reasons.html">Study Lesson 5</a></article>
-          <article class="part-ledger-row" data-part-ledger-item="lesson-06"><span class="part-ledger-number">06</span><div><h3>Conditions and hypotheses</h3><p>15 book examples · paired exercises · responsive, unfavorable, minimum, concessive, and unreal conditions.</p></div><a href="lesson-06-conditions.html">Study Lesson 6</a></article>
-          <article class="part-ledger-row" data-part-ledger-item="lesson-07"><span class="part-ledger-number">07</span><div><h3>Reported information</h3><p>18 book examples · direct reports, hearsay, quotations, and ways to identify an information source.</p></div><a href="lesson-07-hearsay.html">Study Lesson 7</a></article>
-          <article class="part-ledger-row" data-part-ledger-item="lesson-08"><span class="part-ledger-number">08</span><div><h3>Negation and certainty</h3><p>21 book examples · paired exercises · strong negative judgments, partial negation, limits, and qualified claims.</p></div><a href="lesson-08-negation.html">Study Lesson 8</a></article>
+          <header class="mw-stack"><p class="eyebrow mw-eyebrow" data-mw-reveal="left">Conditions and evidence</p><h2 id="part1-lessons-05-08-title" class="mw-heading" data-mw-reveal="up">Lessons 5–8</h2></header>
+          <article class="part-ledger-row mw-paper mw-hover-card mw-delay-100" data-mw-tilt data-mw-reveal="up" data-part-ledger-item="lesson-05"><span class="part-ledger-number mw-stamp" data-mw-reveal="stamp">05</span><div><h3 class="mw-subheading">Reasons and causes</h3><p class="mw-muted">16 book examples · formal causes, methods, origins, evaluated causes, and established reasons.</p></div><a class="mw-button" href="lesson-05-reasons.html">Study Lesson 5 <span aria-hidden="true">→</span></a></article>
+          <article class="part-ledger-row mw-paper mw-hover-card mw-delay-150" data-mw-tilt data-mw-reveal="up" data-part-ledger-item="lesson-06"><span class="part-ledger-number mw-stamp" data-mw-reveal="stamp">06</span><div><h3 class="mw-subheading">Conditions and hypotheses</h3><p class="mw-muted">15 book examples · paired exercises · responsive, unfavorable, minimum, concessive, and unreal conditions.</p></div><a class="mw-button" href="lesson-06-conditions.html">Study Lesson 6 <span aria-hidden="true">→</span></a></article>
+          <article class="part-ledger-row mw-paper mw-hover-card mw-delay-200" data-mw-tilt data-mw-reveal="up" data-part-ledger-item="lesson-07"><span class="part-ledger-number mw-stamp" data-mw-reveal="stamp">07</span><div><h3 class="mw-subheading">Reported information</h3><p class="mw-muted">18 book examples · direct reports, hearsay, quotations, and ways to identify an information source.</p></div><a class="mw-button" href="lesson-07-hearsay.html">Study Lesson 7 <span aria-hidden="true">→</span></a></article>
+          <article class="part-ledger-row mw-paper mw-hover-card mw-delay-250" data-mw-tilt data-mw-reveal="up" data-part-ledger-item="lesson-08"><span class="part-ledger-number mw-stamp" data-mw-reveal="stamp">08</span><div><h3 class="mw-subheading">Negation and certainty</h3><p class="mw-muted">21 book examples · paired exercises · strong negative judgments, partial negation, limits, and qualified claims.</p></div><a class="mw-button" href="lesson-08-negation.html">Study Lesson 8 <span aria-hidden="true">→</span></a></article>
         </section>
 
         <section class="part-ledger-section" id="part1-lessons-09-12" aria-labelledby="part1-lessons-09-12-title">
-          <header><p class="eyebrow">Intent and social direction</p><h2 id="part1-lessons-09-12-title">Lessons 9–12</h2></header>
-          <article class="part-ledger-row" data-part-ledger-item="lesson-09"><span class="part-ledger-number">09</span><div><h3>Wishes and requests</h3><p>17 book examples · desired favors, respectful requests, permission to act, hopes, and practical advice.</p></div><a href="lesson-09-wishes.html">Study Lesson 9</a></article>
-          <article class="part-ledger-row" data-part-ledger-item="lesson-10"><span class="part-ledger-number">10</span><div><h3>Advice and commands</h3><p>18 book examples · paired exercises · forceful commands, written instructions, judgments, regret, and suggestions.</p></div><a href="lesson-10-advice.html">Study Lesson 10</a></article>
-          <article class="part-ledger-row" data-part-ledger-item="lesson-11"><span class="part-ledger-number">11</span><div><h3>Intentions and attempts</h3><p>18 book examples · deliberate decisions, continuing habits, attempts, and self-assumptions.</p></div><a href="lesson-11-intentions.html">Study Lesson 11</a></article>
-          <article class="part-ledger-row" data-part-ledger-item="lesson-12"><span class="part-ledger-number">12</span><div><h3>Keigo</h3><p>43 book examples · paired exercises · respectful, humble, and formal-polite expressions through social direction.</p></div><a href="lesson-12-keigo.html">Study Lesson 12</a></article>
+          <header class="mw-stack"><p class="eyebrow mw-eyebrow" data-mw-reveal="left">Intent and social direction</p><h2 id="part1-lessons-09-12-title" class="mw-heading" data-mw-reveal="up">Lessons 9–12</h2></header>
+          <article class="part-ledger-row mw-paper mw-hover-card mw-delay-100" data-mw-tilt data-mw-reveal="up" data-part-ledger-item="lesson-09"><span class="part-ledger-number mw-stamp" data-mw-reveal="stamp">09</span><div><h3 class="mw-subheading">Wishes and requests</h3><p class="mw-muted">17 book examples · desired favors, respectful requests, permission to act, hopes, and practical advice.</p></div><a class="mw-button" href="lesson-09-wishes.html">Study Lesson 9 <span aria-hidden="true">→</span></a></article>
+          <article class="part-ledger-row mw-paper mw-hover-card mw-delay-150" data-mw-tilt data-mw-reveal="up" data-part-ledger-item="lesson-10"><span class="part-ledger-number mw-stamp" data-mw-reveal="stamp">10</span><div><h3 class="mw-subheading">Advice and commands</h3><p class="mw-muted">18 book examples · paired exercises · forceful commands, written instructions, judgments, regret, and suggestions.</p></div><a class="mw-button" href="lesson-10-advice.html">Study Lesson 10 <span aria-hidden="true">→</span></a></article>
+          <article class="part-ledger-row mw-paper mw-hover-card mw-delay-200" data-mw-tilt data-mw-reveal="up" data-part-ledger-item="lesson-11"><span class="part-ledger-number mw-stamp" data-mw-reveal="stamp">11</span><div><h3 class="mw-subheading">Intentions and attempts</h3><p class="mw-muted">18 book examples · deliberate decisions, continuing habits, attempts, and self-assumptions.</p></div><a class="mw-button" href="lesson-11-intentions.html">Study Lesson 11 <span aria-hidden="true">→</span></a></article>
+          <article class="part-ledger-row mw-paper mw-hover-card mw-delay-250" data-mw-tilt data-mw-reveal="up" data-part-ledger-item="lesson-12"><span class="part-ledger-number mw-stamp" data-mw-reveal="stamp">12</span><div><h3 class="mw-subheading">Keigo</h3><p class="mw-muted">43 book examples · paired exercises · respectful, humble, and formal-polite expressions through social direction.</p></div><a class="mw-button" href="lesson-12-keigo.html">Study Lesson 12 <span aria-hidden="true">→</span></a></article>
         </section>
 
         <section class="assessment-section" id="part1-full-mock" aria-labelledby="part1-full-mock-title">
-          <header><p class="eyebrow">Cumulative assessment</p><h2 id="part1-full-mock-title">Lessons 1–12 Full Mock</h2><p>Answer all thirteen source questions, then submit the complete set once.</p></header>
-          <article class="assessment-row"><span class="assessment-row-number">13</span><div><h3>Full Mock</h3><p>Thirteen cumulative book questions · feedback after submission.</p></div><a class="button" href="full-mock-01-12.html">Take the Full Mock</a></article>
+          <header class="mw-stack"><p class="eyebrow mw-eyebrow" data-mw-reveal="left">Cumulative assessment</p><h2 id="part1-full-mock-title" class="mw-heading" data-mw-reveal="up">Lessons 1–12 Full Mock</h2><p class="mw-muted" data-mw-reveal="up">Answer all thirteen source questions, then submit the complete set once.</p></header>
+          <article class="assessment-row mw-paper mw-hover-card mw-delay-100" data-mw-tilt data-mw-reveal="up"><span class="assessment-row-number mw-stamp" data-mw-reveal="stamp">13</span><div><h3 class="mw-subheading">Full Mock</h3><p class="mw-muted">Thirteen cumulative book questions · feedback after submission.</p></div><a class="button mw-button" href="full-mock-01-12.html">Take the Full Mock <span aria-hidden="true">→</span></a></article>
         </section>
       </div>
     </div>
 
-    <section class="part-transition" aria-labelledby="part1-next-title">
-      <div><p class="eyebrow">Continue to Part 2</p><h2 id="part1-next-title">Compare familiar forms in mixed groups.</h2><p>After building the meaning-based foundation, organize particles, nominalizers, conditions, and fixed combinations by how they behave.</p></div>
-      <a class="button" href="../groups/index.html">Open Part 2</a>
+    <section class="part-transition mw-panel mw-scene" aria-labelledby="part1-next-title" data-mw-reveal="up">
+      <div><p class="eyebrow mw-eyebrow">Continue to Part 2</p><h2 id="part1-next-title" class="mw-heading">Compare familiar forms in mixed groups.</h2><p class="mw-lead">After building the meaning-based foundation, organize particles, nominalizers, conditions, and fixed combinations by how they behave.</p></div>
+      <a class="button mw-button" href="../groups/index.html">Open Part 2 <span aria-hidden="true">→</span></a>
     </section>
   </main>
   <footer class="site-footer" data-context-label="N3 Study Desk - Lessons 1–12"><div class="site-footer-intro"><p class="site-footer-context">N3 Study Desk - Lessons 1–12</p><p class="site-footer-kicker">Study tools at a glance</p></div><dl class="site-footer-functions"><div><dt>Reading settings</dt><dd>Show or hide readings and English support while you study.</dd></div><div><dt>Vocabulary details</dt><dd>Open readings, meanings, and lesson occurrences in the vocabulary bank.</dd></div><div><dt>Lesson navigation</dt><dd>Use Study to move between the four guided part indexes.</dd></div><div><dt>Practice behavior</dt><dd>Submit complete book sets, or check expanded practice answers individually.</dd></div></dl><nav aria-label="Study support"><a class="site-footer-guide" href="../study-guide.html">How to use</a></nav></footer>

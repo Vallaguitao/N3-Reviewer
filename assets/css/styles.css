@@ -661,6 +661,25 @@ main {
 .mistake-note {
   border-left: .3rem solid var(--rust);
   background: #FBF3F0;
+  color: var(--ink);
+}
+
+.card {
+  border: 1px solid var(--line);
+  border-radius: var(--radius-md);
+  padding: clamp(var(--space-4), 3vw, var(--space-6));
+  background: var(--paper);
+  box-shadow: 0 4px 16px rgb(23 33 38 / 4%);
+}
+
+.card--caution {
+  border-inline-start: 0.35rem solid var(--rust);
+  background: #FDF7F5;
+}
+
+.card--caution h2,
+.card--caution h3 {
+  color: var(--rust);
 }
 
 .example-card {
@@ -1667,10 +1686,13 @@ footer p {
   border-radius: var(--radius-sm);
   padding: .7rem .65rem;
   color: var(--ink);
+  text-decoration: none;
 }
 
-.site-header .study-menu-panel a:hover {
+.site-header .study-menu-panel a:hover,
+.site-header .study-menu-panel a:focus-visible {
   background: var(--surface);
+  text-decoration: none;
 }
 
 .study-menu-panel strong,
@@ -1705,8 +1727,7 @@ footer p {
 
 .syllabus-ledger-row,
 .syllabus-row,
-.part-ledger-row,
-.assessment-row {
+.part-ledger-row {
   display: grid;
   grid-template-columns: minmax(3.5rem, .18fr) minmax(0, 1fr) auto;
   align-items: center;
@@ -1718,32 +1739,98 @@ footer p {
 
 .syllabus-ledger-row:first-child,
 .syllabus-row:first-of-type,
-.part-ledger-row:first-child,
-.assessment-row:first-child {
+.part-ledger-row:first-child {
   border-top-color: var(--line-strong);
 }
 
 .syllabus-ledger-number,
-.part-ledger-number,
-.assessment-row-number {
+.part-ledger-number {
   color: var(--rust);
   font: 700 var(--step-1) / 1 Georgia, "Yu Mincho", serif;
 }
 
 .syllabus-ledger-row h3,
 .syllabus-row h3,
-.part-ledger-row h3,
-.assessment-row h3 {
+.part-ledger-row h3 {
   margin: 0;
 }
 
 .syllabus-ledger-row p,
 .syllabus-row p,
-.part-ledger-row p,
+.part-ledger-row p {
+  max-width: 62ch;
+  margin: .35rem 0 0;
+  color: var(--ink-soft);
+}
+
+.assessment-row {
+  display: grid;
+  grid-template-columns: minmax(3.75rem, auto) minmax(0, 1fr) auto;
+  align-items: center;
+  gap: clamp(var(--space-3), 2.5vw, var(--space-5));
+  min-height: 5.25rem;
+  margin-block-end: 0.85rem;
+  border: 1px solid var(--line);
+  border-radius: var(--radius-sm);
+  padding: clamp(1rem, 2vw, 1.25rem) clamp(1.25rem, 2.5vw, 1.75rem);
+  background: var(--paper);
+  box-shadow: 0 2px 8px rgb(23 33 38 / 4%);
+  transition: transform 180ms ease, border-color 180ms ease, box-shadow 180ms ease;
+}
+
+.assessment-row:hover {
+  border-color: var(--matcha);
+  transform: translateY(-2px);
+  box-shadow: 0 6px 20px rgb(23 33 38 / 7%);
+}
+
+.assessment-row-number {
+  display: inline-grid;
+  place-items: center;
+  min-width: 3.25rem;
+  min-height: 3.25rem;
+  padding: 0.35rem 0.6rem;
+  border-radius: var(--radius-sm);
+  color: var(--rust);
+  background: #FBF3F0;
+  font: 700 var(--step-1) / 1 Georgia, "Yu Mincho", serif;
+  text-align: center;
+  flex-shrink: 0;
+}
+
+.assessment-row h3 {
+  margin: 0;
+  font-size: var(--step-0);
+}
+
 .assessment-row p {
   max-width: 62ch;
   margin: .35rem 0 0;
   color: var(--ink-soft);
+  font-size: var(--step--1);
+  line-height: 1.5;
+}
+
+.assessment-row > a:not(.button) {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0.55rem 1.15rem;
+  border: 1px solid var(--line-strong);
+  border-radius: var(--radius-sm);
+  color: var(--ink);
+  font-size: var(--step--1);
+  font-weight: 700;
+  text-decoration: none;
+  background: var(--paper);
+  white-space: nowrap;
+  transition: background 150ms ease, color 150ms ease, border-color 150ms ease;
+}
+
+.assessment-row > a:not(.button):hover {
+  border-color: var(--rust);
+  color: var(--rust);
+  background: #FDF7F5;
 }
 
 .support-band,
@@ -1814,13 +1901,17 @@ footer p {
   position: sticky;
   top: var(--space-3);
   align-self: start;
+  border: 1px solid var(--line);
   border-top: .25rem solid var(--matcha);
-  padding-block-start: var(--space-3);
+  border-radius: var(--radius-sm);
+  padding: clamp(var(--space-3), 2vw, var(--space-4));
+  background: var(--paper);
+  box-shadow: 0 2px 10px rgb(23 33 38 / 3%);
 }
 
 .part-index-rail p,
 .assessment-rail p {
-  margin-block-end: var(--space-2);
+  margin: 0 0 var(--space-2);
   color: var(--ink-soft);
   font-size: .75rem;
   font-weight: 800;
@@ -1831,17 +1922,19 @@ footer p {
 .part-index-rail nav,
 .assessment-rail nav {
   display: grid;
-  gap: .2rem;
+  gap: .25rem;
 }
 
 .part-index-rail a,
 .assessment-rail a {
   border-inline-start: .2rem solid transparent;
+  border-radius: calc(var(--radius-sm) * 0.7);
   padding: .55rem .65rem;
   color: var(--ink-soft);
   font-size: var(--step--1);
   font-weight: 700;
   text-decoration: none;
+  transition: background 150ms ease, color 150ms ease, border-color 150ms ease;
 }
 
 .part-index-rail a:hover,
@@ -1850,13 +1943,17 @@ footer p {
 .assessment-rail a[aria-current="location"] {
   border-inline-start-color: var(--rust);
   color: var(--ink);
-  background: var(--paper);
+  background: #F2F5ED;
 }
 
-.part-ledger-section,
-.assessment-section {
+.part-ledger-section {
   scroll-margin-top: var(--space-4);
   margin-block-end: var(--space-7);
+}
+
+.assessment-section {
+  scroll-margin-top: var(--space-5);
+  margin-block-end: clamp(2.5rem, 5vw, 4rem);
 }
 
 .part-ledger-section > header,
@@ -1977,7 +2074,7 @@ footer p {
   display: grid;
   grid-template-columns: repeat(4, minmax(0, 1fr));
   gap: 1px;
-  margin: 0 0 var(--space-7);
+  margin: 0 0 clamp(3rem, 6vw, 4.5rem);
   border: 1px solid var(--line);
   border-radius: var(--radius-md);
   padding: 0;
@@ -2023,8 +2120,12 @@ footer p {
   position: sticky;
   top: var(--space-3);
   align-self: start;
+  border: 1px solid var(--line);
   border-block-start: .25rem solid var(--matcha);
-  padding-block-start: var(--space-3);
+  border-radius: var(--radius-sm);
+  padding: clamp(var(--space-3), 2vw, var(--space-4));
+  background: var(--paper);
+  box-shadow: 0 2px 10px rgb(23 33 38 / 3%);
 }
 
 .curriculum-rail > p {
@@ -2038,38 +2139,62 @@ footer p {
 
 .curriculum-rail nav {
   display: grid;
-  gap: .2rem;
+  gap: .25rem;
 }
 
 .curriculum-rail a {
   border-inline-start: .2rem solid transparent;
+  border-radius: calc(var(--radius-sm) * 0.7);
   padding: .65rem .75rem;
   color: var(--ink-soft);
   font-size: var(--step--1);
   font-weight: 700;
   text-decoration: none;
+  transition: background 150ms ease, color 150ms ease, border-color 150ms ease;
 }
 
 .curriculum-rail a:hover,
 .curriculum-rail a:focus-visible {
   border-inline-start-color: var(--rust);
   color: var(--ink);
-  background: var(--paper);
+  background: #F2F5ED;
 }
 
-.curriculum-stages {
+.curriculum-stages-flow {
   min-width: 0;
 }
 
+.curriculum-stages {
+  position: relative;
+  min-width: 0;
+}
+
+.curriculum-stages::before {
+  content: '';
+  position: absolute;
+  top: 2.75rem;
+  bottom: clamp(4rem, 8vw, 6.5rem);
+  left: calc(clamp(3.5rem, 7vw, 5.5rem) / 2);
+  width: 3px;
+  transform: translateX(-50%);
+  background: var(--line-strong);
+  border-radius: 999px;
+  z-index: 0;
+}
+
 .curriculum-stage {
+  position: relative;
+  z-index: 1;
   display: grid;
   grid-template-columns: clamp(3.5rem, 7vw, 5.5rem) minmax(0, 1fr);
-  gap: clamp(var(--space-3), 3vw, var(--space-5));
+  gap: clamp(var(--space-4), 3.5vw, var(--space-6));
   scroll-margin-top: var(--space-5);
-  margin-block-end: var(--space-5);
+  margin-block-end: clamp(4rem, 8vw, 6.5rem);
 }
 
 .curriculum-stage-marker {
+  position: relative;
+  z-index: 1;
   display: grid;
   place-items: center;
   width: clamp(3.5rem, 7vw, 5.5rem);
@@ -2078,12 +2203,13 @@ footer p {
   color: var(--paper);
   background: var(--rust);
   font: 700 clamp(1.5rem, 3vw, 2.35rem) / 1 Georgia, "Yu Mincho", serif;
+  box-shadow: 0 4px 14px rgb(184 75 41 / 25%);
 }
 
 .curriculum-stage-panel {
   border: 1px solid var(--line);
   border-radius: var(--radius-md);
-  padding: clamp(var(--space-4), 4vw, var(--space-6));
+  padding: clamp(1.5rem, 3.5vw, 2.5rem);
   background: var(--paper);
   box-shadow: 0 12px 36px rgb(23 33 38 / 6%);
 }
@@ -2099,12 +2225,14 @@ footer p {
 .curriculum-stage-title {
   margin-block-end: var(--space-2);
   font-family: Georgia, "Yu Mincho", serif;
+  font-size: var(--step-2);
 }
 
 .curriculum-stage-purpose {
   max-width: 62ch;
   margin-block-end: 0;
   color: var(--ink-soft);
+  line-height: 1.6;
 }
 
 .curriculum-stage-header .curriculum-part-action {
@@ -2137,31 +2265,60 @@ footer p {
   max-width: 58ch;
   margin: .45rem 0 0;
   color: var(--ink-soft);
+  line-height: 1.6;
 }
 
 .curriculum-readiness {
   display: grid;
   gap: .35rem;
   margin-block-start: var(--space-5);
-  border-inline-start: .25rem solid var(--matcha);
-  padding: var(--space-3) var(--space-4);
+  border-radius: var(--radius-sm);
+  border-inline-start: .3rem solid var(--matcha);
+  padding: var(--space-4);
   color: var(--ink-soft);
   background: #E6EDDF;
 }
 
 .curriculum-bridge {
-  margin: 0 0 var(--space-5) calc(clamp(3.5rem, 7vw, 5.5rem) + clamp(var(--space-3), 3vw, var(--space-5)));
+  position: relative;
+  z-index: 1;
+  margin: 0 0 clamp(2.5rem, 5vw, 4rem) calc(clamp(3.5rem, 7vw, 5.5rem) + clamp(var(--space-4), 3.5vw, var(--space-6)));
+  border: 1px solid var(--line);
+  border-inline-start: .3rem solid var(--matcha);
   border-radius: var(--radius-sm);
-  padding: var(--space-3) var(--space-4);
+  padding: clamp(var(--space-3), 2vw, var(--space-4)) clamp(var(--space-4), 3vw, var(--space-5));
   color: var(--ink-soft);
-  background: #E6EDDF;
+  background: #F4F8F0;
+  box-shadow: 0 2px 8px rgb(23 33 38 / 3%);
+}
+
+.curriculum-bridge::before {
+  content: '↓';
+  position: absolute;
+  left: calc(-1 * (clamp(var(--space-4), 3.5vw, var(--space-6)) + (clamp(3.5rem, 7vw, 5.5rem) / 2)));
+  top: 50%;
+  transform: translate(-50%, -50%);
+  width: 1.6rem;
+  height: 1.6rem;
+  border-radius: 50%;
+  border: 2px solid var(--matcha);
+  background: var(--paper);
+  color: var(--matcha);
+  display: grid;
+  place-items: center;
+  font-size: 0.75rem;
+  font-weight: 900;
+  box-shadow: 0 2px 6px rgb(23 33 38 / 10%);
 }
 
 .curriculum-bridge p {
   margin: 0;
+  line-height: 1.6;
 }
 
 .curriculum-final {
+  position: relative;
+  z-index: 1;
   display: grid;
   grid-template-columns: minmax(0, 1fr) auto;
   align-items: center;
@@ -2261,17 +2418,28 @@ footer p {
 
   .syllabus-ledger-row,
   .syllabus-row,
-  .part-ledger-row,
-  .assessment-row {
+  .part-ledger-row {
     grid-template-columns: 2.5rem minmax(0, 1fr);
   }
 
   .syllabus-ledger-row > .button,
   .syllabus-row > .button,
-  .part-ledger-row > .button,
-  .assessment-row > .button {
+  .part-ledger-row > .button {
     grid-column: 2;
     justify-self: start;
+  }
+
+  .assessment-row {
+    grid-template-columns: auto minmax(0, 1fr);
+    gap: var(--space-3);
+    padding: var(--space-3) var(--space-4);
+  }
+
+  .assessment-row > a,
+  .assessment-row > .button {
+    grid-column: 1 / -1;
+    justify-self: stretch;
+    text-align: center;
   }
 
   .curriculum-journey-hero,
@@ -2317,6 +2485,10 @@ footer p {
     white-space: nowrap;
   }
 
+  .curriculum-stages::before {
+    display: none;
+  }
+
   .curriculum-stage {
     grid-template-columns: minmax(0, 1fr);
     gap: var(--space-3);
@@ -2340,6 +2512,10 @@ footer p {
 
   .curriculum-bridge {
     margin: 0 0 var(--space-6);
+  }
+
+  .curriculum-bridge::before {
+    display: none;
   }
 
   .curriculum-final .button {

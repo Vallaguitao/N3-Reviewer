@@ -4,7 +4,7 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 <!-- SITE-METADATA:START -->
-<meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'; style-src 'self'; img-src 'self'; font-src 'self'; media-src 'none'; connect-src 'none'; object-src 'none'; frame-src 'none'; worker-src 'none'; manifest-src 'none'; base-uri 'none'; form-action 'none'">
+<meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'; style-src 'self' https://cdn.jsdelivr.net; img-src 'self' data:; font-src 'self' https://cdn.jsdelivr.net; media-src 'none'; connect-src 'none'; object-src 'none'; frame-src 'none'; worker-src 'none'; manifest-src 'none'; base-uri 'none'; form-action 'none'">
 <meta name="description" content="Study Lesson 2 relationship expressions ～と関係して through explanations, examples, readings, and English support.">
 <link rel="canonical" href="https://vallaguitao.github.io/N3-Reviewer/lessons/lesson-02-kankei.html">
 <meta property="og:type" content="website">
@@ -19,9 +19,18 @@
 
   <title>Lesson 2: Relationships ～と関係して | N3 Study Desk</title>
   <link rel="icon" href="../assets/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="../assets/midnight-washi/fonts.css">
   <link rel="stylesheet" href="../assets/css/styles.css">
   <link rel="stylesheet" href="../assets/css/lesson-02-guide.css">
+  <link rel="stylesheet" href="../assets/midnight-washi/theme.css">
+  <link rel="stylesheet" href="../assets/midnight-washi/motion.css">
+  <link rel="stylesheet" href="../assets/midnight-washi/brand.css">
+  <link rel="stylesheet" href="../assets/midnight-washi/adapter.css">
+  <script src="../assets/js/theme-init.js"></script>
   <script defer src="../assets/js/site.js"></script>
+  <script defer src="../assets/midnight-washi/theme.js"></script>
+  <script defer src="../assets/midnight-washi/motion.js"></script>
+  <script defer src="../assets/js/theme-switcher.js"></script>
   <script defer src="../assets/js/lesson-topics.js"></script>
   <script defer src="../assets/js/readings.js"></script>
   <script defer src="../assets/js/data/part1-vocabulary-data.js"></script>
@@ -32,9 +41,9 @@
 </head>
 <body data-page="lesson-02" data-root-prefix="..">
   <a class="skip-link" href="#main-content">Skip to lesson content</a>
-  <header class="site-header"><a class="site-mark" href="../index.html">N3 Study Desk</a><nav aria-label="Primary"><a href="../index.html">Home</a><details class="study-menu" data-study-menu data-current="true"><summary data-study-menu-trigger aria-controls="study-menu-panel" aria-expanded="false">Study</summary><div class="study-menu-panel" id="study-menu-panel"><p>Choose a book part</p><a href="../lessons/index.html"><span class="study-menu-number" aria-hidden="true">一</span><span><strong>Grammar by meaning</strong><small>Lessons 1–12</small></span></a><a href="../groups/index.html"><span class="study-menu-number" aria-hidden="true">二</span><span><strong>Mixed grammar groups</strong><small>Groups A–J and reviews</small></span></a><a href="../sentence/index.html"><span class="study-menu-number" aria-hidden="true">三</span><span><strong>Sentence building</strong><small>Four lessons and review</small></span></a><a href="../passage/index.html"><span class="study-menu-number" aria-hidden="true">四</span><span><strong>Passage grammar</strong><small>Ten lessons and five reviews</small></span></a></div></details><a href="../vocabulary.html">Vocabulary</a><a href="../practice.html">Practice</a><a href="../curriculum.html">Curriculum</a><a href="../study-guide.html">How to use</a></nav></header>
+  <header class="site-header"><a class="site-mark" href="../index.html">N3 Study Desk</a><nav aria-label="Primary"><a href="../index.html">Home</a><details class="study-menu" data-study-menu data-current="true"><summary data-study-menu-trigger aria-controls="study-menu-panel" aria-expanded="false">Study</summary><div class="study-menu-panel" id="study-menu-panel"><p>Choose a book part</p><a href="../lessons/index.html"><span class="study-menu-number" aria-hidden="true">一</span><span><strong>Grammar by meaning</strong><small>Lessons 1–12</small></span></a><a href="../groups/index.html"><span class="study-menu-number" aria-hidden="true">二</span><span><strong>Mixed grammar groups</strong><small>Groups A–J and reviews</small></span></a><a href="../sentence/index.html"><span class="study-menu-number" aria-hidden="true">三</span><span><strong>Sentence building</strong><small>Four lessons and review</small></span></a><a href="../passage/index.html"><span class="study-menu-number" aria-hidden="true">四</span><span><strong>Passage grammar</strong><small>Ten lessons and five reviews</small></span></a></div></details><a href="../vocabulary.html">Vocabulary</a><a href="../practice.html">Practice</a><a href="../curriculum.html">Curriculum</a><a href="../study-guide.html">How to use</a><button type="button" class="mw-button mw-button--quiet" data-mw-motion-toggle hidden>Pause motion</button><button type="button" id="theme-toggle" class="theme-toggle-button" aria-pressed="false" title="Switch theme"><span class="theme-toggle-icon" aria-hidden="true">🍵</span><span>Matcha Desk</span></button></nav></header>
   <main id="main-content" tabindex="-1">
-    <section class="page-hero book-hero">
+    <section class="page-hero book-hero mw-scene" data-mw-reveal="up">
       <div><p class="eyebrow">Book-faithful Part 1 · Lesson 2</p><h1>Lesson 2: Relationships ～と関係して</h1>
       <p class="lede">Understand the relationship first. Then use forms, sentence clues, and close comparisons to choose the grammar that fits.</p></div>
       <p class="hero-note">5 grammar families · 18 book examples<br>18 review questions · N3 grammar guidance</p>
@@ -70,19 +79,19 @@
           <section class="guide-section" id="l2-toori-formation" aria-labelledby="l2-toori-formation-title"><h3 id="l2-toori-formation-title">How to form it</h3><dl class="guide-rows"><div><dt>Verb, dictionary form + とおり</dt><dd><span lang="ja">言うとおりに</span> · as someone says; use the plain verb, not 言います</dd></div><div><dt>Verb, た-form + とおり</dt><dd><span lang="ja">聞いたとおりに</span> · as I heard; <span lang="ja">聞く → 聞いた → 聞いたとおりに</span></dd></div><div><dt>Ongoing or resulting state</dt><dd><span lang="ja">説明しているとおりに／書いてあるとおりに</span> · as someone is explaining / as it is written; these plain forms can also come before とおり</dd></div><div><dt>Noun + のとおり</dt><dd><span lang="ja">説明のとおり／この絵のとおり</span> · as explained / as shown in this picture</dd></div><div><dt>Common noun compounds + どおり</dt><dd><span lang="ja">予定どおり／期待どおり／計画どおり</span> · as scheduled / as expected / according to plan. Learn familiar compounds; do not attach どおり after a verb.</dd></div><div><dt>Choose the ending</dt><dd><span lang="ja">とおりに + action</span> · do it that way<br><span lang="ja">とおりの + noun</span> · a noun matching that reference<br><span lang="ja">とおりだ／とおりです</span> · it is just as described</dd></div></dl><p class="guide-tip"><strong>に is sometimes omitted:</strong> <span lang="ja">言われたとおりにした</span> and <span lang="ja">言われたとおりした</span> can both describe doing as instructed. Look at the following word before deciding between に, の, and a sentence ending.</p></section>
           <h3 class="guide-examples-title" id="l2-toori-examples">Book examples, with clues</h3><p class="guide-caption">Read the Japanese, check the meaning, then use the clue to explain the choice.</p>
           <div class="example-list">
-            <article class="example-card book-example" id="l2-toori-book-01" data-example-kind="book" data-source-example-id="l2-toori-book-01" data-source-book-page="18">
+            <article class="example-card book-example" data-mw-reveal="up" id="l2-toori-book-01" data-example-kind="book" data-source-example-id="l2-toori-book-01" data-source-book-page="18">
               <span class="source-label">Example 01</span>
               <p lang="ja" data-study-sentence="l2-toori-book-01"><button class="reading-word" type="button" aria-pressed="false" data-vocab-id="koban" data-surface-reading="こうばん" data-context-meaning="police box"><ruby>交番<rt>こうばん</rt></ruby></button>で<button class="reading-word" type="button" aria-pressed="false" data-vocab-id="part1-word-f2fa049fdd83" data-surface-reading="おしえて" data-context-meaning="to teach; to tell"><ruby>教<rt>おし</rt></ruby>えて</button>もらったとおりに<button class="reading-word" type="button" aria-pressed="false" data-vocab-id="aruku" data-surface-reading="あるいて" data-context-meaning="to walk"><ruby>歩<rt>ある</rt></ruby>いて</button>いったので、<button class="reading-word" type="button" aria-pressed="false" data-vocab-id="part1-word-1d221f2decc0" data-surface-reading="まよわず" data-context-meaning="to get lost; to hesitate"><ruby>迷<rt>まよ</rt></ruby>わず</button><button class="reading-word" type="button" aria-pressed="false" data-vocab-id="kaijo" data-surface-reading="かいじょう" data-context-meaning="venue"><ruby>会場<rt>かいじょう</rt></ruby></button>に<button class="reading-word" type="button" aria-pressed="false" data-vocab-id="tsuku" data-surface-reading="ついた" data-context-meaning="to arrive"><ruby>着<rt>つ</rt></ruby>いた</button>。</p>
               <p class="translation" data-translation-for="l2-toori-book-01">Because I followed the directions I received at the police box, I reached the venue without getting lost.</p>
               <p class="example-clue"><strong>Clue</strong> The received directions are the model; the walking follows them.</p><details><summary>How to read this example</summary><p>教えてもらった means the speaker received instructions. とおりに links those instructions to 歩いていった. 迷わず means “without getting lost”; it describes the successful result of following the route.</p></details>
             </article>
-            <article class="example-card book-example" id="l2-toori-book-02" data-example-kind="book" data-source-example-id="l2-toori-book-02" data-source-book-page="18">
+            <article class="example-card book-example" data-mw-reveal="up" id="l2-toori-book-02" data-example-kind="book" data-source-example-id="l2-toori-book-02" data-source-book-page="18">
               <span class="source-label">Example 02</span>
               <p lang="ja" data-study-sentence="l2-toori-book-02"><button class="reading-word" type="button" aria-pressed="false" data-vocab-id="hajimete" data-surface-reading="はじめて" data-context-meaning="for the first time"><ruby>初<rt>はじ</rt></ruby>めて</button><button class="reading-word" type="button" aria-pressed="false" data-vocab-id="part1-word-6e922a750ec0" data-surface-reading="つくる" data-context-meaning="to make; to create"><ruby>作<rt>つく</rt></ruby>る</button><button class="reading-word" type="button" aria-pressed="false" data-vocab-id="l11-qev043a" data-surface-reading="りょうり" data-context-meaning="cooking; cuisine"><ruby>料理<rt>りょうり</rt></ruby></button>だから、この<button class="reading-word" type="button" aria-pressed="false" data-vocab-id="hon" data-surface-reading="ほん" data-context-meaning="book"><ruby>本<rt>ほん</rt></ruby></button>に<button class="reading-word" type="button" aria-pressed="false" data-vocab-id="kaku" data-surface-reading="かいて" data-context-meaning="to write"><ruby>書<rt>か</rt></ruby>いて</button>あるとおりの<button class="reading-word" type="button" aria-pressed="false" data-vocab-id="yarikata" data-surface-reading="やりかた" data-context-meaning="way of doing">やり<ruby>方<rt>かた</rt></ruby></button>で<button class="reading-word" type="button" aria-pressed="false" data-vocab-id="part1-word-6e922a750ec0" data-surface-reading="つくって" data-context-meaning="to make; to create"><ruby>作<rt>つく</rt></ruby>って</button>みよう。</p>
               <p class="translation" data-translation-for="l2-toori-book-02">Since this is my first time making the dish, I will try using the method written in this book.</p>
               <p class="example-clue"><strong>Clue</strong> とおりの comes before the noun やり方, “method.”</p><details><summary>How to read this example</summary><p>書いてある describes what is written in the book. The structure is ［書いてあるとおりの やり方］で作る: use a method that matches the written instructions. The final で belongs to やり方で, “using that method.”</p></details>
             </article>
-            <article class="example-card book-example" id="l2-toori-book-03" data-example-kind="book" data-source-example-id="l2-toori-book-03" data-source-book-page="18">
+            <article class="example-card book-example" data-mw-reveal="up" id="l2-toori-book-03" data-example-kind="book" data-source-example-id="l2-toori-book-03" data-source-book-page="18">
               <span class="source-label">Example 03</span>
               <p lang="ja" data-study-sentence="l2-toori-book-03">サッカーの<button class="reading-word" type="button" aria-pressed="false" data-vocab-id="l10-shiai" data-surface-reading="しあい" data-context-meaning="match; game"><ruby>試合<rt>しあい</rt></ruby></button>の<button class="reading-word" type="button" aria-pressed="false" data-vocab-id="ge-kekka" data-surface-reading="けっか" data-context-meaning="result"><ruby>結果<rt>けっか</rt></ruby></button>はわたしたちの<button class="reading-word" type="button" aria-pressed="false" data-vocab-id="ge-kitai" data-surface-reading="きたい" data-context-meaning="expectation"><ruby>期待<rt>きたい</rt></ruby></button>どおりだった。</p>
               <p class="translation" data-translation-for="l2-toori-book-03">The result of the soccer match was just as we had expected.</p>
@@ -101,25 +110,25 @@
           <section class="guide-section" id="l2-niyotte-formation" aria-labelledby="l2-niyotte-formation-title"><h3 id="l2-niyotte-formation-title">How to form it</h3><dl class="guide-rows"><div><dt>Noun + によって</dt><dd><span lang="ja">国によって／人によって／日によって</span> · depending on the country / person / day</dd></div><div><dt>Noun + によっては</dt><dd><span lang="ja">場所によっては／場合によっては</span> · in some places / under some circumstances</dd></div><div><dt>Sentence ending: による</dt><dd><span lang="ja">人によります</span> · it depends on the person; よります is the polite form of よる</dd></div><div><dt>Useful noun connections</dt><dd><span lang="ja">感じ方</span> = “way of feeling”: <span lang="ja">感じる → 感じます → 感じ + 方</span>. <span lang="ja">日</span> here is read ひ; <span lang="ja">場合</span> is ばあい.</dd></div></dl><p class="guide-tip"><strong>Do not add の:</strong> use <span lang="ja">人によって</span>, not <span lang="ja">人のによって</span>. This pattern follows the noun directly.</p></section>
           <h3 class="guide-examples-title" id="l2-niyotte-examples">Book examples, with clues</h3><p class="guide-caption">Read the Japanese, check the meaning, then use the clue to explain the choice.</p>
           <div class="example-list">
-            <article class="example-card book-example" id="l2-niyotte-book-01" data-example-kind="book" data-source-example-id="l2-niyotte-book-01" data-source-book-page="18">
+            <article class="example-card book-example" data-mw-reveal="up" id="l2-niyotte-book-01" data-example-kind="book" data-source-example-id="l2-niyotte-book-01" data-source-book-page="18">
               <span class="source-label">Example 01</span>
               <p lang="ja" data-study-sentence="l2-niyotte-book-01"><button class="reading-word" type="button" aria-pressed="false" data-vocab-id="kuni" data-surface-reading="くに" data-context-meaning="country"><ruby>国<rt>くに</rt></ruby></button>によって<button class="reading-word" type="button" aria-pressed="false" data-vocab-id="l5-shukan" data-surface-reading="しゅうかん" data-context-meaning="custom; habit"><ruby>習慣<rt>しゅうかん</rt></ruby></button>が<button class="reading-word" type="button" aria-pressed="false" data-vocab-id="chigau" data-surface-reading="ちがう" data-context-meaning="to differ"><ruby>違<rt>ちが</rt></ruby>う</button>。</p>
               <p class="translation" data-translation-for="l2-niyotte-book-01">Customs differ depending on the country.</p>
               <p class="example-clue"><strong>Clue</strong> Country is the changing factor; customs are what differ.</p><details><summary>How to read this example</summary><p>Read it as “If you change the country, the customs are different.” 違う supplies the variation. It does not mean “because a country caused the customs” or identify an information source.</p></details>
             </article>
-            <article class="example-card book-example" id="l2-niyotte-book-02" data-example-kind="book" data-source-example-id="l2-niyotte-book-02" data-source-book-page="18">
+            <article class="example-card book-example" data-mw-reveal="up" id="l2-niyotte-book-02" data-example-kind="book" data-source-example-id="l2-niyotte-book-02" data-source-book-page="18">
               <span class="source-label">Example 02</span>
               <p lang="ja" data-study-sentence="l2-niyotte-book-02"><button class="reading-word" type="button" aria-pressed="false" data-vocab-id="gb-kankaku" data-surface-reading="かんじかた" data-context-meaning="way of feeling"><ruby>感<rt>かん</rt></ruby>じ<ruby>方<rt>かた</rt></ruby></button>は<button class="reading-word" type="button" aria-pressed="false" data-vocab-id="hito" data-surface-reading="ひと" data-context-meaning="person"><ruby>人<rt>ひと</rt></ruby></button>によってさまざまだ。</p>
               <p class="translation" data-translation-for="l2-niyotte-book-02">The way people feel about things varies from person to person.</p>
               <p class="example-clue"><strong>Clue</strong> Different people can have different reactions.</p><details><summary>How to read this example</summary><p>感じ方 means the way someone feels about something. さまざまだ means varied or diverse. 人によって connects that variety to the individual, rather than describing one particular person.</p></details>
             </article>
-            <article class="example-card book-example" id="l2-niyotte-book-03" data-example-kind="book" data-source-example-id="l2-niyotte-book-03" data-source-book-page="18">
+            <article class="example-card book-example" data-mw-reveal="up" id="l2-niyotte-book-03" data-example-kind="book" data-source-example-id="l2-niyotte-book-03" data-source-book-page="18">
               <span class="source-label">Example 03</span>
               <p lang="ja" data-study-sentence="l2-niyotte-book-03">わたしの<button class="reading-word" type="button" aria-pressed="false" data-vocab-id="kitaku-jikan" data-surface-reading="きたくじかん" data-context-meaning="time of arriving home"><ruby>帰宅時間<rt>きたくじかん</rt></ruby></button>は<button class="reading-word" type="button" aria-pressed="false" data-vocab-id="l11-wgv94k" data-surface-reading="まいにち" data-context-meaning="every day"><ruby>毎日<rt>まいにち</rt></ruby></button><button class="reading-word" type="button" aria-pressed="false" data-vocab-id="chigau" data-surface-reading="ちがう" data-context-meaning="to differ"><ruby>違<rt>ちが</rt></ruby>う</button>。<button class="reading-word" type="button" aria-pressed="false" data-vocab-id="learning-support-55a030e65fc5" data-surface-reading="ひ" data-context-meaning="day"><ruby>日<rt>ひ</rt></ruby></button>によっては<button class="reading-word" type="button" aria-pressed="false" data-vocab-id="ge-yonaka" data-surface-reading="よなか" data-context-meaning="middle of the night"><ruby>夜中<rt>よなか</rt></ruby></button>になることもある。</p>
               <p class="translation" data-translation-for="l2-niyotte-book-03">The time I get home differs every day. On some days, it can be the middle of the night.</p>
               <p class="example-clue"><strong>Clue</strong> The first sentence gives variation; the second selects late-homecoming days.</p><details><summary>How to read this example</summary><p>毎日違う establishes that the arrival time is not fixed. 日によっては then picks out some days, and こともある says that very late arrivals sometimes occur. The first sentence itself does not contain によって.</p></details>
             </article>
-            <article class="example-card book-example" id="l2-niyotte-book-04" data-example-kind="book" data-source-example-id="l2-niyotte-book-04" data-source-book-page="18">
+            <article class="example-card book-example" data-mw-reveal="up" id="l2-niyotte-book-04" data-example-kind="book" data-source-example-id="l2-niyotte-book-04" data-source-book-page="18">
               <span class="source-label">Example 04</span>
               <p lang="ja" data-study-sentence="l2-niyotte-book-04"><button class="reading-word" type="button" aria-pressed="false" data-vocab-id="baai" data-surface-reading="ばあい" data-context-meaning="case"><ruby>場合<rt>ばあい</rt></ruby></button>によっては<button class="reading-word" type="button" aria-pressed="false" data-vocab-id="kotoshi" data-surface-reading="ことし" data-context-meaning="this year"><ruby>今年<rt>ことし</rt></ruby></button>の<button class="reading-word" type="button" aria-pressed="false" data-vocab-id="bunkasai" data-surface-reading="ぶんかさい" data-context-meaning="cultural festival"><ruby>文化祭<rt>ぶんかさい</rt></ruby></button>は<button class="reading-word" type="button" aria-pressed="false" data-vocab-id="gb-chuushi" data-surface-reading="ちゅうし" data-context-meaning="cancellation; suspension"><ruby>中止<rt>ちゅうし</rt></ruby></button>になるかもしれない。</p>
               <p class="translation" data-translation-for="l2-niyotte-book-04">Depending on the circumstances, this year’s cultural festival may be cancelled.</p>
@@ -138,19 +147,19 @@
           <section class="guide-section" id="l2-tabini-formation" aria-labelledby="l2-tabini-formation-title"><h3 id="l2-tabini-formation-title">How to form it</h3><dl class="guide-rows"><div><dt>Dictionary-form verb + たびに</dt><dd><span lang="ja">会うたびに／見るたびに／電話をかけるたびに</span> · every time we meet / I see it / I call</dd></div><div><dt>Action or event noun + のたびに</dt><dd><span lang="ja">試合のたびに／旅行のたびに</span> · with every match / on every trip</dd></div><div><dt>Irregular verbs</dt><dd><span lang="ja">するたびに／来るたびに</span> · every time someone does it / comes; 来る is read くる</dd></div><div><dt>Keep the first verb in dictionary form</dt><dd><span lang="ja">会うたびに話した</span> · “Every time we met, we talked.” The final 話した gives the past time; this basic pattern does not change to 会ったたびに.</dd></div></dl><p class="guide-tip"><strong>たび is a word, not the た-form.</strong> It can be written <span lang="ja">度</span>, read たび here. Attach it to the dictionary form or to noun + の.</p></section>
           <h3 class="guide-examples-title" id="l2-tabini-examples">Book examples, with clues</h3><p class="guide-caption">Read the Japanese, check the meaning, then use the clue to explain the choice.</p>
           <div class="example-list">
-            <article class="example-card book-example" id="l2-tabini-book-01" data-example-kind="book" data-source-example-id="l2-tabini-book-01" data-source-book-page="18">
+            <article class="example-card book-example" data-mw-reveal="up" id="l2-tabini-book-01" data-example-kind="book" data-source-example-id="l2-tabini-book-01" data-source-book-page="18">
               <span class="source-label">Example 01</span>
               <p lang="ja" data-study-sentence="l2-tabini-book-01">この<button class="reading-word" type="button" aria-pressed="false" data-vocab-id="chiho" data-surface-reading="ちほう" data-context-meaning="region"><ruby>地方<rt>ちほう</rt></ruby></button>は<button class="reading-word" type="button" aria-pressed="false" data-vocab-id="gd-taifuu" data-surface-reading="たいふう" data-context-meaning="typhoon"><ruby>台風<rt>たいふう</rt></ruby></button>が<button class="reading-word" type="button" aria-pressed="false" data-vocab-id="part1-word-2e2abd26ca43" data-surface-reading="くる" data-context-meaning="to come"><ruby>来<rt>く</rt></ruby>る</button>たびに<button class="reading-word" type="button" aria-pressed="false" data-vocab-id="omizu" data-surface-reading="おおみず" data-context-meaning="flood"><ruby>大水<rt>おおみず</rt></ruby></button>の<button class="reading-word" type="button" aria-pressed="false" data-vocab-id="gai" data-surface-reading="がい" data-context-meaning="damage"><ruby>害<rt>がい</rt></ruby></button>が<button class="reading-word" type="button" aria-pressed="false" data-vocab-id="okoru" data-surface-reading="おこる" data-context-meaning="to occur"><ruby>起<rt>お</rt></ruby>こる</button>。</p>
               <p class="translation" data-translation-for="l2-tabini-book-01">Every time a typhoon comes to this region, damaging floods occur.</p>
               <p class="example-clue"><strong>Clue</strong> Each typhoon brings another occurrence of flood damage.</p><details><summary>How to read this example</summary><p>台風が来る is a repeatable event, not one continuous state. たびに presents the damage as recurring whenever that event happens in this region.</p></details>
             </article>
-            <article class="example-card book-example" id="l2-tabini-book-02" data-example-kind="book" data-source-example-id="l2-tabini-book-02" data-source-book-page="18">
+            <article class="example-card book-example" data-mw-reveal="up" id="l2-tabini-book-02" data-example-kind="book" data-source-example-id="l2-tabini-book-02" data-source-book-page="18">
               <span class="source-label">Example 02</span>
               <p lang="ja" data-study-sentence="l2-tabini-book-02"><button class="reading-word" type="button" aria-pressed="false" data-vocab-id="haha" data-surface-reading="はは" data-context-meaning="my mother"><ruby>母<rt>はは</rt></ruby></button>はわたしが<button class="reading-word" type="button" aria-pressed="false" data-vocab-id="denwa" data-surface-reading="でんわ" data-context-meaning="telephone"><ruby>電話<rt>でんわ</rt></ruby></button>をかけるたびに、ちゃんと<button class="reading-word" type="button" aria-pressed="false" data-vocab-id="gohan" data-surface-reading="ごはん" data-context-meaning="meal">ご<ruby>飯<rt>はん</rt></ruby></button>を<button class="reading-word" type="button" aria-pressed="false" data-vocab-id="part1-word-86f67e2dc3eb" data-surface-reading="たべて" data-context-meaning="to eat"><ruby>食<rt>た</rt></ruby>べて</button>いるかと<button class="reading-word" type="button" aria-pressed="false" data-vocab-id="kiku" data-surface-reading="きく" data-context-meaning="to listen"><ruby>聞<rt>き</rt></ruby>く</button>。</p>
               <p class="translation" data-translation-for="l2-tabini-book-02">Every time I call, my mother asks whether I am eating proper meals.</p>
               <p class="example-clue"><strong>Clue</strong> Each call triggers the mother’s familiar question.</p><details><summary>How to read this example</summary><p>The caller is わたし; the person asking is 母. Different subjects are allowed. 食べているかと聞く means “asks whether I am eating”; the embedded か marks the question she asks.</p></details>
             </article>
-            <article class="example-card book-example" id="l2-tabini-book-03" data-example-kind="book" data-source-example-id="l2-tabini-book-03" data-source-book-page="18">
+            <article class="example-card book-example" data-mw-reveal="up" id="l2-tabini-book-03" data-example-kind="book" data-source-example-id="l2-tabini-book-03" data-source-book-page="18">
               <span class="source-label">Example 03</span>
               <p lang="ja" data-study-sentence="l2-tabini-book-03">このチームは<button class="reading-word" type="button" aria-pressed="false" data-vocab-id="l10-shiai" data-surface-reading="しあい" data-context-meaning="match; game"><ruby>試合<rt>しあい</rt></ruby></button>のたびに<button class="reading-word" type="button" aria-pressed="false" data-vocab-id="tsuyoi" data-surface-reading="つよく" data-context-meaning="strong"><ruby>強<rt>つよ</rt></ruby>く</button>なっていく。</p>
               <p class="translation" data-translation-for="l2-tabini-book-03">This team gets stronger with every match.</p>
@@ -169,31 +178,31 @@
           <section class="guide-section" id="l2-hodo-formation" aria-labelledby="l2-hodo-formation-title"><h3 id="l2-hodo-formation-title">How to form it</h3><dl class="guide-rows"><div><dt>Verb: ば-form + dictionary form + ほど</dt><dd><span lang="ja">読む → 読めば読むほど</span> · the more you read<br><span lang="ja">見る → 見れば見るほど</span> · the more you look<br><span lang="ja">する → すればするほど</span> · the more you do</dd></div><div><dt>い-adjective: ければ + い + ほど</dt><dd><span lang="ja">多い → 多ければ多いほど</span> · the more numerous<br><span lang="ja">高い → 高ければ高いほど</span> · the higher / more expensive<br><span lang="ja">いい → よければいいほど</span> · the better</dd></div><div><dt>な-adjective: なら + な + ほど</dt><dd><span lang="ja">静かなら静かなほど</span> · the quieter. The first half can be omitted: <span lang="ja">静かなほど</span>. Do not put だ immediately before ほど.</dd></div><div><dt>Single ほど</dt><dd><span lang="ja">時間がたつほど／にぎやかなほど</span> · as time passes / the livelier it is. Look for a corresponding change in the result.</dd></div><div><dt>Whole noun phrase + ほど</dt><dd><span lang="ja">忙しい人ほど</span> · the busier people are, the more…<br><span lang="ja">経験が多い人ほど</span> · the more experienced people are, the more…; keep the describing phrase attached to 人.</dd></div></dl><details class="guide-extra"><summary>Conjugation help: making the ば-form</summary><dl class="guide-rows"><div><dt>Group 1 verbs</dt><dd>Change the final う-row sound to its え-row sound + ば: <span lang="ja">書く → 書けば／話す → 話せば／会う → 会えば</span>.</dd></div><div><dt>Group 2 verbs</dt><dd>Drop る and add れば: <span lang="ja">食べる → 食べれば／見る → 見れば／見える → 見えれば</span>.</dd></div><div><dt>Irregular verbs</dt><dd><span lang="ja">する → すれば；来る（くる）→ 来れば（くれば）</span>.</dd></div><div><dt>い-adjectives</dt><dd>Replace the final い with ければ: <span lang="ja">安い → 安ければ</span>. いい uses よい for this change: <span lang="ja">よければ</span>.</dd></div><div><dt>Another な-adjective form</dt><dd><span lang="ja">便利であればあるほど</span> also means “the more convenient it is.” This formal-looking variant uses であればあるほど; it does not change 便利 into an い-adjective.</dd></div></dl></details></section>
           <h3 class="guide-examples-title" id="l2-hodo-examples">Book examples, with clues</h3><p class="guide-caption">Read the Japanese, check the meaning, then use the clue to explain the choice.</p>
           <div class="example-list">
-            <article class="example-card book-example" id="l2-hodo-book-01" data-example-kind="book" data-source-example-id="l2-hodo-book-01" data-source-book-page="19">
+            <article class="example-card book-example" data-mw-reveal="up" id="l2-hodo-book-01" data-example-kind="book" data-source-example-id="l2-hodo-book-01" data-source-book-page="19">
               <span class="source-label">Example 01</span>
               <p lang="ja" data-study-sentence="l2-hodo-book-01"><button class="reading-word" type="button" aria-pressed="false" data-vocab-id="mono" data-surface-reading="もの" data-context-meaning="thing"><ruby>物<rt>もの</rt></ruby></button>が<button class="reading-word" type="button" aria-pressed="false" data-vocab-id="fueru" data-surface-reading="ふえれば" data-context-meaning="to increase"><ruby>増<rt>ふ</rt></ruby>えれば</button><button class="reading-word" type="button" aria-pressed="false" data-vocab-id="fueru" data-surface-reading="ふえる" data-context-meaning="to increase"><ruby>増<rt>ふ</rt></ruby>える</button>ほど<button class="reading-word" type="button" aria-pressed="false" data-vocab-id="part1-word-f5a8d92a636c" data-surface-reading="せいり" data-context-meaning="organizing; arranging"><ruby>整理<rt>せいり</rt></ruby></button>が<button class="reading-word" type="button" aria-pressed="false" data-vocab-id="l8-taihen" data-surface-reading="たいへん" data-context-meaning="difficult; serious"><ruby>大変<rt>たいへん</rt></ruby></button>になる。</p>
               <p class="translation" data-translation-for="l2-hodo-book-01">The more things you have, the harder they become to organize.</p>
               <p class="example-clue"><strong>Clue</strong> More possessions correspond to greater difficulty organizing them.</p><details><summary>How to read this example</summary><p>増える is a Group 2 verb: 増えれば is its ば-form, followed by 増えるほど. The repeated part describes the quantity; 整理が大変になる gives the corresponding result.</p></details>
             </article>
-            <article class="example-card book-example" id="l2-hodo-book-02" data-example-kind="book" data-source-example-id="l2-hodo-book-02" data-source-book-page="19">
+            <article class="example-card book-example" data-mw-reveal="up" id="l2-hodo-book-02" data-example-kind="book" data-source-example-id="l2-hodo-book-02" data-source-book-page="19">
               <span class="source-label">Example 02</span>
               <p lang="ja" data-study-sentence="l2-hodo-book-02"><button class="reading-word" type="button" aria-pressed="false" data-vocab-id="learning-support-05c340f6dac3" data-surface-reading="ほんとうに" data-context-meaning="Really"><ruby>本当<rt>ほんとう</rt></ruby>に</button>いい<button class="reading-word" type="button" aria-pressed="false" data-vocab-id="kagu" data-surface-reading="かぐ" data-context-meaning="furniture"><ruby>家具<rt>かぐ</rt></ruby></button>は<button class="reading-word" type="button" aria-pressed="false" data-vocab-id="jikan" data-surface-reading="じかん" data-context-meaning="time"><ruby>時間<rt>じかん</rt></ruby></button>がたつほど<button class="reading-word" type="button" aria-pressed="false" data-vocab-id="kachi" data-surface-reading="かち" data-context-meaning="value"><ruby>価値<rt>かち</rt></ruby></button>が<button class="reading-word" type="button" aria-pressed="false" data-vocab-id="agaru" data-surface-reading="あがる" data-context-meaning="to rise"><ruby>上<rt>あ</rt></ruby>がる</button>。</p>
               <p class="translation" data-translation-for="l2-hodo-book-02">Truly good furniture increases in value as time passes.</p>
               <p class="example-clue"><strong>Clue</strong> Elapsed time and value are the two linked scales.</p><details><summary>How to read this example</summary><p>時間がたつほど uses single ほど: as more time passes, the value rises. There is no missing-word error. The sentence makes this claim about truly good furniture, not about every object that ages.</p></details>
             </article>
-            <article class="example-card book-example" id="l2-hodo-book-03" data-example-kind="book" data-source-example-id="l2-hodo-book-03" data-source-book-page="19">
+            <article class="example-card book-example" data-mw-reveal="up" id="l2-hodo-book-03" data-example-kind="book" data-source-example-id="l2-hodo-book-03" data-source-book-page="19">
               <span class="source-label">Example 03</span>
               <p lang="ja" data-study-sentence="l2-hodo-book-03"><button class="reading-word" type="button" aria-pressed="false" data-vocab-id="l11-cbk233g" data-surface-reading="やすみ" data-context-meaning="holiday; rest"><ruby>休<rt>やす</rt></ruby>み</button>の<button class="reading-word" type="button" aria-pressed="false" data-vocab-id="learning-support-55a030e65fc5" data-surface-reading="ひ" data-context-meaning="day"><ruby>日<rt>ひ</rt></ruby></button>は<button class="reading-word" type="button" aria-pressed="false" data-vocab-id="ooi" data-surface-reading="おおければ" data-context-meaning="many"><ruby>多<rt>おお</rt></ruby>ければ</button><button class="reading-word" type="button" aria-pressed="false" data-vocab-id="ooi" data-surface-reading="おおい" data-context-meaning="many"><ruby>多<rt>おお</rt></ruby>い</button>ほどうれしい。</p>
               <p class="translation" data-translation-for="l2-hodo-book-03">The more days off I have, the happier I am.</p>
               <p class="example-clue"><strong>Clue</strong> A larger number of days off means greater happiness.</p><details><summary>How to read this example</summary><p>多い becomes 多ければ in the first half and stays 多い before ほど. The scale is the number of days off. うれしい is the result, so it does not replace 多い in the repeated pair.</p></details>
             </article>
-            <article class="example-card book-example" id="l2-hodo-book-04" data-example-kind="book" data-source-example-id="l2-hodo-book-04" data-source-book-page="19">
+            <article class="example-card book-example" data-mw-reveal="up" id="l2-hodo-book-04" data-example-kind="book" data-source-example-id="l2-hodo-book-04" data-source-book-page="19">
               <span class="source-label">Example 04</span>
               <p lang="ja" data-study-sentence="l2-hodo-book-04"><button class="reading-word" type="button" aria-pressed="false" data-vocab-id="machi" data-surface-reading="まち" data-context-meaning="town"><ruby>町<rt>まち</rt></ruby></button>がにぎやかなほど<button class="reading-word" type="button" aria-pressed="false" data-vocab-id="shoten" data-surface-reading="しょうてん" data-context-meaning="shop"><ruby>商店<rt>しょうてん</rt></ruby></button>では<button class="reading-word" type="button" aria-pressed="false" data-vocab-id="mono" data-surface-reading="もの" data-context-meaning="thing"><ruby>物<rt>もの</rt></ruby></button>がよく<button class="reading-word" type="button" aria-pressed="false" data-vocab-id="ureru" data-surface-reading="うれる" data-context-meaning="to sell"><ruby>売<rt>う</rt></ruby>れる</button>のだ。</p>
               <p class="translation" data-translation-for="l2-hodo-book-04">The livelier a town is, the better goods sell in its shops.</p>
               <p class="example-clue"><strong>Clue</strong> Greater liveliness goes with stronger sales.</p><details><summary>How to read this example</summary><p>にぎやか is a な-adjective, so use にぎやかなほど. The sentence uses single ほど; 商店では物がよく売れる is the result. よく売れる means goods sell well, not simply that they are visible in the shop.</p></details>
             </article>
-            <article class="example-card book-example" id="l2-hodo-book-05" data-example-kind="book" data-source-example-id="l2-hodo-book-05" data-source-book-page="19">
+            <article class="example-card book-example" data-mw-reveal="up" id="l2-hodo-book-05" data-example-kind="book" data-source-example-id="l2-hodo-book-05" data-source-book-page="19">
               <span class="source-label">Example 05</span>
               <p lang="ja" data-study-sentence="l2-hodo-book-05"><button class="reading-word" type="button" aria-pressed="false" data-vocab-id="isogashii" data-surface-reading="いそがしい" data-context-meaning="busy"><ruby>忙<rt>いそが</rt></ruby>しい</button><button class="reading-word" type="button" aria-pressed="false" data-vocab-id="hito" data-surface-reading="ひと" data-context-meaning="person"><ruby>人<rt>ひと</rt></ruby></button>ほど<button class="reading-word" type="button" aria-pressed="false" data-vocab-id="jikan" data-surface-reading="じかん" data-context-meaning="time"><ruby>時間<rt>じかん</rt></ruby></button>の<button class="reading-word" type="button" aria-pressed="false" data-vocab-id="tsukaikata" data-surface-reading="つかいかた" data-context-meaning="way of using"><ruby>使<rt>つか</rt></ruby>い<ruby>方<rt>かた</rt></ruby></button>が<button class="reading-word" type="button" aria-pressed="false" data-vocab-id="jozu" data-surface-reading="じょうず" data-context-meaning="skillful"><ruby>上手<rt>じょうず</rt></ruby></button>だ。</p>
               <p class="translation" data-translation-for="l2-hodo-book-05">The busier a person is, the better they tend to be at using time.</p>
@@ -212,19 +221,19 @@
           <section class="guide-section" id="l2-tsuideni-formation" aria-labelledby="l2-tsuideni-formation-title"><h3 id="l2-tsuideni-formation-title">How to form it</h3><dl class="guide-rows"><div><dt>Dictionary-form verb + ついでに</dt><dd><span lang="ja">買い物に行くついでに</span> · while going shopping / since I am going shopping</dd></div><div><dt>た-form verb + ついでに</dt><dd><span lang="ja">本を注文したついでに</span> · taking the opportunity when I ordered a book</dd></div><div><dt>Action noun + のついでに</dt><dd><span lang="ja">散歩のついでに／掃除のついでに</span> · while out for a walk / while doing the cleaning</dd></div><div><dt>Verb versus noun connection</dt><dd><span lang="ja">掃除するついでに</span> uses the verb する directly.<br><span lang="ja">掃除のついでに</span> uses the noun 掃除 + の. Do not mix these into するのついでに.</dd></div><div><dt>A useful form from the book</dt><dd><span lang="ja">注文する → 注文した → 注文したついでに</span>. For Group 1 verbs, remember the た-form sound change: <span lang="ja">買う → 買った</span>.</dd></div></dl><p class="guide-tip"><strong>Dictionary form does not automatically mean future:</strong> <span lang="ja">買い物に行くついでに、手紙を出した</span> can describe a past outing. The main sentence ending and the intended timing both matter.</p></section>
           <h3 class="guide-examples-title" id="l2-tsuideni-examples">Book examples, with clues</h3><p class="guide-caption">Read the Japanese, check the meaning, then use the clue to explain the choice.</p>
           <div class="example-list">
-            <article class="example-card book-example" id="l2-tsuideni-book-01" data-example-kind="book" data-source-example-id="l2-tsuideni-book-01" data-source-book-page="19">
+            <article class="example-card book-example" data-mw-reveal="up" id="l2-tsuideni-book-01" data-example-kind="book" data-source-example-id="l2-tsuideni-book-01" data-source-book-page="19">
               <span class="source-label">Example 01</span>
               <p lang="ja" data-study-sentence="l2-tsuideni-book-01"><button class="reading-word" type="button" aria-pressed="false" data-vocab-id="sanpo" data-surface-reading="さんぽ" data-context-meaning="walk"><ruby>散歩<rt>さんぽ</rt></ruby></button>のついでにこのはがきをポストに<button class="reading-word" type="button" aria-pressed="false" data-vocab-id="dasu" data-surface-reading="だして" data-context-meaning="to put out"><ruby>出<rt>だ</rt></ruby>して</button>きて。</p>
               <p class="translation" data-translation-for="l2-tsuideni-book-01">While you are out for a walk, please mail this postcard.</p>
               <p class="example-clue"><strong>Clue</strong> The walk is the original outing; mailing the postcard is the extra.</p><details><summary>How to read this example</summary><p>散歩 is a noun, so it takes のついでに. 出してきて asks the listener to go and post the card, then return. The sender need not ask for a separate trip just for the postcard.</p></details>
             </article>
-            <article class="example-card book-example" id="l2-tsuideni-book-02" data-example-kind="book" data-source-example-id="l2-tsuideni-book-02" data-source-book-page="19">
+            <article class="example-card book-example" data-mw-reveal="up" id="l2-tsuideni-book-02" data-example-kind="book" data-source-example-id="l2-tsuideni-book-02" data-source-book-page="19">
               <span class="source-label">Example 02</span>
               <p lang="ja" data-study-sentence="l2-tsuideni-book-02"><button class="reading-word" type="button" aria-pressed="false" data-vocab-id="genkan" data-surface-reading="げんかん" data-context-meaning="entranceway"><ruby>玄関<rt>げんかん</rt></ruby></button>の<button class="reading-word" type="button" aria-pressed="false" data-vocab-id="l11-hyuo64i" data-surface-reading="そうじ" data-context-meaning="cleaning"><ruby>掃除<rt>そうじ</rt></ruby></button>をするついでに<button class="reading-word" type="button" aria-pressed="false" data-vocab-id="kutsu" data-surface-reading="くつ" data-context-meaning="shoes"><ruby>靴<rt>くつ</rt></ruby></button>の<button class="reading-word" type="button" aria-pressed="false" data-vocab-id="part1-word-f5a8d92a636c" data-surface-reading="せいり" data-context-meaning="organizing; arranging"><ruby>整理<rt>せいり</rt></ruby></button>をしよう。</p>
               <p class="translation" data-translation-for="l2-tsuideni-book-02">While cleaning the entrance, let’s organize the shoes too.</p>
               <p class="example-clue"><strong>Clue</strong> Organizing the shoes fits the cleaning task already planned.</p><details><summary>How to read this example</summary><p>掃除をする is a verb phrase and connects directly to ついでに. 整理をしよう is the added action: “let’s organize.” Both tasks use the same area and opportunity.</p></details>
             </article>
-            <article class="example-card book-example" id="l2-tsuideni-book-03" data-example-kind="book" data-source-example-id="l2-tsuideni-book-03" data-source-book-page="19">
+            <article class="example-card book-example" data-mw-reveal="up" id="l2-tsuideni-book-03" data-example-kind="book" data-source-example-id="l2-tsuideni-book-03" data-source-book-page="19">
               <span class="source-label">Example 03</span>
               <p lang="ja" data-study-sentence="l2-tsuideni-book-03">インターネットで<button class="reading-word" type="button" aria-pressed="false" data-vocab-id="hon" data-surface-reading="ほん" data-context-meaning="book"><ruby>本<rt>ほん</rt></ruby></button>を<button class="reading-word" type="button" aria-pressed="false" data-vocab-id="chumon-suru" data-surface-reading="ちゅうもんした" data-context-meaning="to order"><ruby>注文<rt>ちゅうもん</rt></ruby>した</button>ついでに<button class="reading-word" type="button" aria-pressed="false" data-vocab-id="atarashii" data-surface-reading="あたらしく" data-context-meaning="new"><ruby>新<rt>あたら</rt></ruby>しく</button><button class="reading-word" type="button" aria-pressed="false" data-vocab-id="deru" data-surface-reading="でた" data-context-meaning="to leave"><ruby>出<rt>で</rt></ruby>た</button>DVDも<button class="reading-word" type="button" aria-pressed="false" data-vocab-id="shiraberu" data-surface-reading="しらべた" data-context-meaning="to investigate"><ruby>調<rt>しら</rt></ruby>べた</button>。</p>
               <p class="translation" data-translation-for="l2-tsuideni-book-03">When I ordered a book online, I also looked up newly released DVDs.</p>
@@ -240,7 +249,7 @@
           <h2>Lessons 01–02 book exercises</h2>
           <p>Try each question first. Open a Hint or Stronger clue if needed, then answer all 18 questions and submit to see the answer, reasoning, choice-by-choice feedback, and a trap to remember.</p>
           <h3 class="exercise-subsection">Lesson 1 questions</h3>
-            <article class="question book-question" id="part1-book-01-02-q01" data-source-question-id="part1-book-01-02-q01" data-quiz-id="part1-book-01-02-q01" data-question-type="selection">
+            <article class="question book-question" data-mw-reveal="up" id="part1-book-01-02-q01" data-source-question-id="part1-book-01-02-q01" data-quiz-id="part1-book-01-02-q01" data-question-type="selection">
               <fieldset>
                 <legend><span class="question-number">1</span> <span lang="ja">（ ）うちに、聞いたことをメモしておいたほうがいい。</span></legend>
                 <div class="option-list"><label><input type="radio" name="part1-book-01-02-q01" value="wasureru"> 忘れる</label> <label><input type="radio" name="part1-book-01-02-q01" value="wasurenai"> 忘れない</label> <label><input type="radio" name="part1-book-01-02-q01" value="wasureteiru"> 忘れている</label></div>
@@ -253,7 +262,7 @@
               <div class="generated-explanation" data-generated-explanation hidden></div>
               <noscript><p class="noscript-note">Answer checking and English feedback require JavaScript. The complete Japanese question and choices remain available above.</p></noscript>
             </article>
-            <article class="question book-question" id="part1-book-01-02-q02" data-source-question-id="part1-book-01-02-q02" data-quiz-id="part1-book-01-02-q02" data-question-type="selection">
+            <article class="question book-question" data-mw-reveal="up" id="part1-book-01-02-q02" data-source-question-id="part1-book-01-02-q02" data-quiz-id="part1-book-01-02-q02" data-question-type="selection">
               <fieldset>
                 <legend><span class="question-number">2</span> <span lang="ja">ほかのことに気を（ ）うちにご飯を食べる時間がなくなってしまった。</span></legend>
                 <div class="option-list"><label><input type="radio" name="part1-book-01-02-q02" value="torareta"> 取られた</label> <label><input type="radio" name="part1-book-01-02-q02" value="torarenai"> 取られない</label> <label><input type="radio" name="part1-book-01-02-q02" value="torareteiru"> 取られている</label></div>
@@ -266,7 +275,7 @@
               <div class="generated-explanation" data-generated-explanation hidden></div>
               <noscript><p class="noscript-note">Answer checking and English feedback require JavaScript. The complete Japanese question and choices remain available above.</p></noscript>
             </article>
-            <article class="question book-question" id="part1-book-01-02-q03" data-source-question-id="part1-book-01-02-q03" data-quiz-id="part1-book-01-02-q03" data-question-type="selection">
+            <article class="question book-question" data-mw-reveal="up" id="part1-book-01-02-q03" data-source-question-id="part1-book-01-02-q03" data-quiz-id="part1-book-01-02-q03" data-question-type="selection">
               <fieldset>
                 <legend><span class="question-number">3</span> <span lang="ja">お風呂に（ ）間に、配達の人が来たようだ。</span></legend>
                 <div class="option-list"><label><input type="radio" name="part1-book-01-02-q03" value="hairu"> 入る</label> <label><input type="radio" name="part1-book-01-02-q03" value="haitta"> 入った</label> <label><input type="radio" name="part1-book-01-02-q03" value="haitteiru"> 入っている</label></div>
@@ -279,7 +288,7 @@
               <div class="generated-explanation" data-generated-explanation hidden></div>
               <noscript><p class="noscript-note">Answer checking and English feedback require JavaScript. The complete Japanese question and choices remain available above.</p></noscript>
             </article>
-            <article class="question book-question" id="part1-book-01-02-q04" data-source-question-id="part1-book-01-02-q04" data-quiz-id="part1-book-01-02-q04" data-question-type="selection">
+            <article class="question book-question" data-mw-reveal="up" id="part1-book-01-02-q04" data-source-question-id="part1-book-01-02-q04" data-quiz-id="part1-book-01-02-q04" data-question-type="selection">
               <fieldset>
                 <legend><span class="question-number">4</span> <span lang="ja">わたしは夏休みの（ ）、アメリカの友だちの家にいた。</span></legend>
                 <div class="option-list"><label><input type="radio" name="part1-book-01-02-q04" value="nakade"> 中で</label> <label><input type="radio" name="part1-book-01-02-q04" value="aida"> 間</label> <label><input type="radio" name="part1-book-01-02-q04" value="aidani"> 間に</label></div>
@@ -292,7 +301,7 @@
               <div class="generated-explanation" data-generated-explanation hidden></div>
               <noscript><p class="noscript-note">Answer checking and English feedback require JavaScript. The complete Japanese question and choices remain available above.</p></noscript>
             </article>
-            <article class="question book-question" id="part1-book-01-02-q05" data-source-question-id="part1-book-01-02-q05" data-quiz-id="part1-book-01-02-q05" data-question-type="selection">
+            <article class="question book-question" data-mw-reveal="up" id="part1-book-01-02-q05" data-source-question-id="part1-book-01-02-q05" data-quiz-id="part1-book-01-02-q05" data-question-type="selection">
               <fieldset>
                 <legend><span class="question-number">5</span> <span lang="ja">４時に（ ）飛行機の時間には間に合わない。</span></legend>
                 <div class="option-list"><label><input type="radio" name="part1-book-01-02-q05" value="okinakereba"> 起きなければ</label> <label><input type="radio" name="part1-book-01-02-q05" value="okitekaradenakereba"> 起きてからでなければ</label> <label><input type="radio" name="part1-book-01-02-q05" value="okiraretekaradenaito"> 起きられてからでないと</label></div>
@@ -305,7 +314,7 @@
               <div class="generated-explanation" data-generated-explanation hidden></div>
               <noscript><p class="noscript-note">Answer checking and English feedback require JavaScript. The complete Japanese question and choices remain available above.</p></noscript>
             </article>
-            <article class="question book-question" id="part1-book-01-02-q06" data-source-question-id="part1-book-01-02-q06" data-quiz-id="part1-book-01-02-q06" data-question-type="selection">
+            <article class="question book-question" data-mw-reveal="up" id="part1-book-01-02-q06" data-source-question-id="part1-book-01-02-q06" data-quiz-id="part1-book-01-02-q06" data-question-type="selection">
               <fieldset>
                 <legend><span class="question-number">6</span> <span lang="ja">もっと暑くなってからでないと（ ）。</span></legend>
                 <div class="option-list"><label><input type="radio" name="part1-book-01-02-q06" value="umidewaoyogenai"> 海では泳げない</label> <label><input type="radio" name="part1-book-01-02-q06" value="shigotowoshitemotsukarenai"> 仕事をしても疲れない</label> <label><input type="radio" name="part1-book-01-02-q06" value="senpukiwotsukawanakutemoii"> 扇風機を使わなくてもいい</label></div>
@@ -318,7 +327,7 @@
               <div class="generated-explanation" data-generated-explanation hidden></div>
               <noscript><p class="noscript-note">Answer checking and English feedback require JavaScript. The complete Japanese question and choices remain available above.</p></noscript>
             </article>
-            <article class="question book-question" id="part1-book-01-02-q07" data-source-question-id="part1-book-01-02-q07" data-quiz-id="part1-book-01-02-q07" data-question-type="selection">
+            <article class="question book-question" data-mw-reveal="up" id="part1-book-01-02-q07" data-source-question-id="part1-book-01-02-q07" data-quiz-id="part1-book-01-02-q07" data-question-type="selection">
               <fieldset>
                 <legend><span class="question-number">7</span> <span lang="ja">間もなく２時に（ ）ところです。</span></legend>
                 <div class="option-list"><label><input type="radio" name="part1-book-01-02-q07" value="naru"> なる</label> <label><input type="radio" name="part1-book-01-02-q07" value="natta"> なった</label> <label><input type="radio" name="part1-book-01-02-q07" value="natteiru"> なっている</label></div>
@@ -331,7 +340,7 @@
               <div class="generated-explanation" data-generated-explanation hidden></div>
               <noscript><p class="noscript-note">Answer checking and English feedback require JavaScript. The complete Japanese question and choices remain available above.</p></noscript>
             </article>
-            <article class="question book-question" id="part1-book-01-02-q08" data-source-question-id="part1-book-01-02-q08" data-quiz-id="part1-book-01-02-q08" data-question-type="selection">
+            <article class="question book-question" data-mw-reveal="up" id="part1-book-01-02-q08" data-source-question-id="part1-book-01-02-q08" data-quiz-id="part1-book-01-02-q08" data-question-type="selection">
               <fieldset>
                 <legend><span class="question-number">8</span> <span lang="ja">学校を休んで遊んでいる（ ）友だちのお母さんに見られた。</span></legend>
                 <div class="option-list"><label><input type="radio" name="part1-book-01-02-q08" value="tokorode"> ところで</label> <label><input type="radio" name="part1-book-01-02-q08" value="tokoroni"> ところに</label> <label><input type="radio" name="part1-book-01-02-q08" value="tokoroo"> ところを</label></div>
@@ -344,7 +353,7 @@
               <div class="generated-explanation" data-generated-explanation hidden></div>
               <noscript><p class="noscript-note">Answer checking and English feedback require JavaScript. The complete Japanese question and choices remain available above.</p></noscript>
             </article>
-            <article class="question book-question" id="part1-book-01-02-q09" data-source-question-id="part1-book-01-02-q09" data-quiz-id="part1-book-01-02-q09" data-question-type="selection">
+            <article class="question book-question" data-mw-reveal="up" id="part1-book-01-02-q09" data-source-question-id="part1-book-01-02-q09" data-quiz-id="part1-book-01-02-q09" data-question-type="selection">
               <fieldset>
                 <legend><span class="question-number">9</span> <span lang="ja">今、出かける準備をしている（ ）ちょっと待って。</span></legend>
                 <div class="option-list"><label><input type="radio" name="part1-book-01-02-q09" value="tokorode"> ところで</label> <label><input type="radio" name="part1-book-01-02-q09" value="tokoroo"> ところを</label> <label><input type="radio" name="part1-book-01-02-q09" value="tokorodakara"> ところだから</label></div>
@@ -358,7 +367,7 @@
               <noscript><p class="noscript-note">Answer checking and English feedback require JavaScript. The complete Japanese question and choices remain available above.</p></noscript>
             </article>
           <h3 class="exercise-subsection">Lesson 2 questions</h3>
-            <article class="question book-question" id="part1-book-01-02-q10" data-source-question-id="part1-book-01-02-q10" data-quiz-id="part1-book-01-02-q10" data-question-type="selection">
+            <article class="question book-question" data-mw-reveal="up" id="part1-book-01-02-q10" data-source-question-id="part1-book-01-02-q10" data-quiz-id="part1-book-01-02-q10" data-question-type="selection">
               <fieldset>
                 <legend><span class="question-number">1</span> <span lang="ja">人生は自分の（ ）とおりにはいかない。</span></legend>
                 <div class="option-list"><label><input type="radio" name="part1-book-01-02-q10" value="kangae"> 考え</label> <label><input type="radio" name="part1-book-01-02-q10" value="keikaku"> 計画</label> <label><input type="radio" name="part1-book-01-02-q10" value="omou"> 思う</label></div>
@@ -371,7 +380,7 @@
               <div class="generated-explanation" data-generated-explanation hidden></div>
               <noscript><p class="noscript-note">Answer checking and English feedback require JavaScript. The complete Japanese question and choices remain available above.</p></noscript>
             </article>
-            <article class="question book-question" id="part1-book-01-02-q11" data-source-question-id="part1-book-01-02-q11" data-quiz-id="part1-book-01-02-q11" data-question-type="selection">
+            <article class="question book-question" data-mw-reveal="up" id="part1-book-01-02-q11" data-source-question-id="part1-book-01-02-q11" data-quiz-id="part1-book-01-02-q11" data-question-type="selection">
               <fieldset>
                 <legend><span class="question-number">2</span> <span lang="ja">この絵の（ ）30年前はこの辺は畑だった。</span></legend>
                 <div class="option-list"><label><input type="radio" name="part1-book-01-02-q11" value="toori"> とおり</label> <label><input type="radio" name="part1-book-01-02-q11" value="doori"> どおり</label> <label><input type="radio" name="part1-book-01-02-q11" value="toorino"> とおりの</label></div>
@@ -384,7 +393,7 @@
               <div class="generated-explanation" data-generated-explanation hidden></div>
               <noscript><p class="noscript-note">Answer checking and English feedback require JavaScript. The complete Japanese question and choices remain available above.</p></noscript>
             </article>
-            <article class="question book-question" id="part1-book-01-02-q12" data-source-question-id="part1-book-01-02-q12" data-quiz-id="part1-book-01-02-q12" data-question-type="selection">
+            <article class="question book-question" data-mw-reveal="up" id="part1-book-01-02-q12" data-source-question-id="part1-book-01-02-q12" data-quiz-id="part1-book-01-02-q12" data-question-type="selection">
               <fieldset>
                 <legend><span class="question-number">3</span> <span lang="ja">この虫は地方によって呼び方が（ ）そうだ。</span></legend>
                 <div class="option-list"><label><input type="radio" name="part1-book-01-02-q12" value="chigau"> 違う</label> <label><input type="radio" name="part1-book-01-02-q12" value="onajida"> 同じだ</label> <label><input type="radio" name="part1-book-01-02-q12" value="niteiru"> 似ている</label></div>
@@ -397,7 +406,7 @@
               <div class="generated-explanation" data-generated-explanation hidden></div>
               <noscript><p class="noscript-note">Answer checking and English feedback require JavaScript. The complete Japanese question and choices remain available above.</p></noscript>
             </article>
-            <article class="question book-question" id="part1-book-01-02-q13" data-source-question-id="part1-book-01-02-q13" data-quiz-id="part1-book-01-02-q13" data-question-type="selection">
+            <article class="question book-question" data-mw-reveal="up" id="part1-book-01-02-q13" data-source-question-id="part1-book-01-02-q13" data-quiz-id="part1-book-01-02-q13" data-question-type="selection">
               <fieldset>
                 <legend><span class="question-number">4</span> <span lang="ja">あしたは、所によっては（ ）。</span></legend>
                 <div class="option-list"><label><input type="radio" name="part1-book-01-02-q13" value="tenkigaminachigau"> 天気が皆違う</label> <label><input type="radio" name="part1-book-01-02-q13" value="dokomoamegafuru"> どこも雨が降る</label> <label><input type="radio" name="part1-book-01-02-q13" value="amegafurukamoshirenai"> 雨が降るかもしれない</label></div>
@@ -410,7 +419,7 @@
               <div class="generated-explanation" data-generated-explanation hidden></div>
               <noscript><p class="noscript-note">Answer checking and English feedback require JavaScript. The complete Japanese question and choices remain available above.</p></noscript>
             </article>
-            <article class="question book-question" id="part1-book-01-02-q14" data-source-question-id="part1-book-01-02-q14" data-quiz-id="part1-book-01-02-q14" data-question-type="selection">
+            <article class="question book-question" data-mw-reveal="up" id="part1-book-01-02-q14" data-source-question-id="part1-book-01-02-q14" data-quiz-id="part1-book-01-02-q14" data-question-type="selection">
               <fieldset>
                 <legend><span class="question-number">5</span> <span lang="ja">彼女はデートのたびに（ ）。</span></legend>
                 <div class="option-list"><label><input type="radio" name="part1-book-01-02-q14" value="genkiganai"> 元気がない</label> <label><input type="radio" name="part1-book-01-02-q14" value="okuretekuru"> 遅れてくる</label> <label><input type="radio" name="part1-book-01-02-q14" value="isogashisouda"> 忙しそうだ</label></div>
@@ -423,7 +432,7 @@
               <div class="generated-explanation" data-generated-explanation hidden></div>
               <noscript><p class="noscript-note">Answer checking and English feedback require JavaScript. The complete Japanese question and choices remain available above.</p></noscript>
             </article>
-            <article class="question book-question" id="part1-book-01-02-q15" data-source-question-id="part1-book-01-02-q15" data-quiz-id="part1-book-01-02-q15" data-question-type="selection">
+            <article class="question book-question" data-mw-reveal="up" id="part1-book-01-02-q15" data-source-question-id="part1-book-01-02-q15" data-quiz-id="part1-book-01-02-q15" data-question-type="selection">
               <fieldset>
                 <legend><span class="question-number">6</span> <span lang="ja">この絵は本物ではないが、見れば（ ）本物に見える。</span></legend>
                 <div class="option-list"><label><input type="radio" name="part1-book-01-02-q15" value="miruhodo"> 見るほど</label> <label><input type="radio" name="part1-book-01-02-q15" value="mieruhodo"> 見えるほど</label> <label><input type="radio" name="part1-book-01-02-q15" value="minaihodo"> 見ないほど</label></div>
@@ -436,7 +445,7 @@
               <div class="generated-explanation" data-generated-explanation hidden></div>
               <noscript><p class="noscript-note">Answer checking and English feedback require JavaScript. The complete Japanese question and choices remain available above.</p></noscript>
             </article>
-            <article class="question book-question" id="part1-book-01-02-q16" data-source-question-id="part1-book-01-02-q16" data-quiz-id="part1-book-01-02-q16" data-question-type="selection">
+            <article class="question book-question" data-mw-reveal="up" id="part1-book-01-02-q16" data-source-question-id="part1-book-01-02-q16" data-quiz-id="part1-book-01-02-q16" data-question-type="selection">
               <fieldset>
                 <legend><span class="question-number">7</span> <span lang="ja">刺身は（ ）新鮮なほどおいしい。</span></legend>
                 <div class="option-list"><label><input type="radio" name="part1-book-01-02-q16" value="shinsendato"> 新鮮だと</label> <label><input type="radio" name="part1-book-01-02-q16" value="shinsennara"> 新鮮なら</label> <label><input type="radio" name="part1-book-01-02-q16" value="shinsendenakereba"> 新鮮でなければ</label></div>
@@ -449,7 +458,7 @@
               <div class="generated-explanation" data-generated-explanation hidden></div>
               <noscript><p class="noscript-note">Answer checking and English feedback require JavaScript. The complete Japanese question and choices remain available above.</p></noscript>
             </article>
-            <article class="question book-question" id="part1-book-01-02-q17" data-source-question-id="part1-book-01-02-q17" data-quiz-id="part1-book-01-02-q17" data-question-type="selection">
+            <article class="question book-question" data-mw-reveal="up" id="part1-book-01-02-q17" data-source-question-id="part1-book-01-02-q17" data-quiz-id="part1-book-01-02-q17" data-question-type="selection">
               <fieldset>
                 <legend><span class="question-number">8</span> <span lang="ja">カンさんはピアノを（ ）歌を歌うのが上手だ。</span></legend>
                 <div class="option-list"><label><input type="radio" name="part1-book-01-02-q17" value="hikutabini"> 弾くたびに</label> <label><input type="radio" name="part1-book-01-02-q17" value="hikinagara"> 弾きながら</label> <label><input type="radio" name="part1-book-01-02-q17" value="hikutsuideni"> 弾くついでに</label></div>
@@ -462,7 +471,7 @@
               <div class="generated-explanation" data-generated-explanation hidden></div>
               <noscript><p class="noscript-note">Answer checking and English feedback require JavaScript. The complete Japanese question and choices remain available above.</p></noscript>
             </article>
-            <article class="question book-question" id="part1-book-01-02-q18" data-source-question-id="part1-book-01-02-q18" data-quiz-id="part1-book-01-02-q18" data-question-type="selection">
+            <article class="question book-question" data-mw-reveal="up" id="part1-book-01-02-q18" data-source-question-id="part1-book-01-02-q18" data-quiz-id="part1-book-01-02-q18" data-question-type="selection">
               <fieldset>
                 <legend><span class="question-number">9</span> <span lang="ja">銀行に行ったついでに（ ）。</span></legend>
                 <div class="option-list"><label><input type="radio" name="part1-book-01-02-q18" value="guuzenriisanniatta"> 偶然リーさんに会った</label> <label><input type="radio" name="part1-book-01-02-q18" value="jitenshaninotta"> 自転車に乗った</label> <label><input type="radio" name="part1-book-01-02-q18" value="hanayaniyotta"> 花屋に寄った</label></div>

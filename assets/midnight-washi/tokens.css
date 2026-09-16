@@ -1,0 +1,33 @@
+/* Midnight Washi 1.0 — shared design settings. Customize in brand.css. */
+.mw-theme {
+  --mw-bg: #0c1424;
+  --mw-surface: #15223c;
+  --mw-surface-raised: #1c2f52;
+  --mw-paper: #f2ecdd;
+  --mw-paper-shade: #e7dcc3;
+  --mw-ink: #211d17;
+  --mw-accent: #d8492a;
+  --mw-accent-deep: #b23a1f;
+  --mw-accent-text: #f0937a;
+  --mw-gold: #d3ab62;
+  --mw-gold-bright: #eccb85;
+  --mw-text: #ece5d4;
+  --mw-muted: #9aa6bd;
+  --mw-on-paper-muted: #5a5140;
+  --mw-line: rgba(242,236,221,.18);
+  --mw-focus: #eccb85;
+  --mw-on-accent: #ffffff;
+  --mw-font-display: 'Shippori Mincho B1','Yu Mincho','Hiragino Mincho ProN',serif;
+  --mw-font-body: 'Zen Kaku Gothic New','Yu Gothic','Hiragino Sans',sans-serif;
+  --mw-font-label: 'DotGothic16',monospace;
+  --mw-radius: 10px;
+  --mw-space-1: .5rem;
+  --mw-space-2: 1rem;
+  --mw-space-3: 1.5rem;
+  --mw-space-4: 2.5rem;
+  --mw-space-5: 4rem;
+  --mw-content-width: 1120px;
+  --mw-shadow: 0 14px 34px rgba(0,0,0,.28);
+  --mw-duration: 180ms;
+  --mw-grain-opacity: .045;
+}
