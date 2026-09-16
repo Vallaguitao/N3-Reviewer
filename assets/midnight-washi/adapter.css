@@ -911,32 +911,50 @@ body.mw-theme,
 :is(html[data-theme="midnight-washi"], body.mw-theme, .mw-theme) .reading-word {
   color: var(--mw-gold-bright) !important;
   text-decoration: none;
-  border-bottom: 1px dotted var(--mw-gold) !important;
+  border-bottom: 1.5px solid var(--mw-gold) !important;
   background: transparent;
   cursor: pointer;
-  padding: 0 1px;
-  transition: background 150ms ease, color 150ms ease;
+  padding: 0 2px;
+  border-radius: 3px;
+  transition: background 150ms ease, color 150ms ease, border-color 150ms ease, transform 100ms ease;
 }
 
-:is(html[data-theme="midnight-washi"], body.mw-theme, .mw-theme) .reading-word:hover,
-:is(html[data-theme="midnight-washi"], body.mw-theme, .mw-theme) .reading-word:focus-visible {
+:is(html[data-theme="midnight-washi"], body.mw-theme, .mw-theme) .reading-word:hover {
   color: #ffffff !important;
   border-bottom-color: var(--mw-gold-bright) !important;
-  background: rgba(211, 171, 98, 0.22) !important;
-  border-radius: 3px;
-  outline: none;
+  background: rgba(211, 171, 98, 0.2) !important;
 }
 
-:is(html[data-theme="midnight-washi"], body.mw-theme, .mw-theme) .reading-word[aria-pressed="true"] {
-  background: rgba(211, 171, 98, 0.35) !important;
+:is(html[data-theme="midnight-washi"], body.mw-theme, .mw-theme) .reading-word:active {
   color: #ffffff !important;
-  border-bottom-color: #ffffff !important;
+  border-bottom-color: var(--mw-gold-bright) !important;
+  background: rgba(211, 171, 98, 0.3) !important;
+  transform: translateY(1px) scale(0.985);
+}
+
+:is(html[data-theme="midnight-washi"], body.mw-theme, .mw-theme) .reading-word:focus-visible {
+  outline: 2.5px solid var(--mw-focus) !important;
+  outline-offset: 2px;
   border-radius: 3px;
+  border-bottom-color: var(--mw-gold-bright) !important;
+}
+
+:is(html[data-theme="midnight-washi"], body.mw-theme, .mw-theme) .reading-word:is([aria-pressed="true"], [data-reading-visible]) {
+  background: rgba(211, 171, 98, 0.28) !important;
+  color: #ffffff !important;
+  border-bottom-color: var(--mw-gold-bright) !important;
+  box-shadow: 0 0 8px rgba(211, 171, 98, 0.22);
+}
+
+:is(html[data-theme="midnight-washi"], body.mw-theme, .mw-theme) .reading-word:is([aria-pressed="true"], [data-reading-visible]):hover {
+  background: rgba(211, 171, 98, 0.35) !important;
 }
 
 :is(html[data-theme="midnight-washi"], body.mw-theme, .mw-theme) ruby rt {
-  color: var(--mw-muted);
+  color: var(--mw-gold-bright) !important;
   font-size: 0.72em;
+  font-weight: 700;
+  text-shadow: 0 1px 2px rgba(0, 0, 0, 0.6);
 }
 
 /* --------------------------------------------------------------------------
@@ -2105,7 +2123,45 @@ body.mw-theme,
 
 :is(html[data-theme="midnight-washi"], body.mw-theme, .mw-theme) .card.mw-paper .reading-word {
   color: var(--mw-accent-deep) !important;
-  border-bottom-color: var(--mw-accent) !important;
+  border-bottom: 1.5px solid var(--mw-accent) !important;
+}
+
+:is(html[data-theme="midnight-washi"], body.mw-theme, .mw-theme) .card.mw-paper .reading-word:hover {
+  color: #7d1c08 !important;
+  background: rgba(178, 58, 31, 0.09) !important;
+  border-bottom-color: var(--mw-accent-deep) !important;
+}
+
+:is(html[data-theme="midnight-washi"], body.mw-theme, .mw-theme) .card.mw-paper .reading-word:active {
+  color: #7d1c08 !important;
+  background: rgba(178, 58, 31, 0.18) !important;
+  border-bottom-color: var(--mw-accent-deep) !important;
+  transform: translateY(1px) scale(0.985);
+}
+
+:is(html[data-theme="midnight-washi"], body.mw-theme, .mw-theme) .card.mw-paper .reading-word:focus-visible {
+  outline: 2.5px solid var(--mw-accent-deep) !important;
+  outline-offset: 2px;
+  border-radius: 3px;
+  border-bottom-color: var(--mw-accent-deep) !important;
+}
+
+:is(html[data-theme="midnight-washi"], body.mw-theme, .mw-theme) .card.mw-paper .reading-word:is([aria-pressed="true"], [data-reading-visible]) {
+  color: #7d1c08 !important;
+  background: rgba(178, 58, 31, 0.14) !important;
+  border-bottom-color: var(--mw-accent-deep) !important;
+  box-shadow: 0 0 6px rgba(178, 58, 31, 0.18);
+}
+
+:is(html[data-theme="midnight-washi"], body.mw-theme, .mw-theme) .card.mw-paper .reading-word:is([aria-pressed="true"], [data-reading-visible]):hover {
+  background: rgba(178, 58, 31, 0.22) !important;
+}
+
+:is(html[data-theme="midnight-washi"], body.mw-theme, .mw-theme) .card.mw-paper ruby rt {
+  color: var(--mw-accent-deep) !important;
+  font-size: 0.72em;
+  font-weight: 700;
+  text-shadow: none;
 }
 
 :is(html[data-theme="midnight-washi"], body.mw-theme, .mw-theme) .card.mw-paper .translation {

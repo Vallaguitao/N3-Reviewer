@@ -813,18 +813,44 @@ body[data-page] .guide-jumps a:focus-visible {
 .reading-word {
   min-height: auto;
   border: 0;
-  border-bottom: 2px dotted var(--rust);
-  border-radius: 0;
-  padding: 0;
+  border-bottom: 1.5px solid rgba(163, 79, 63, 0.55);
+  border-radius: 3px;
+  padding: 0 2px;
   color: inherit;
   background: transparent;
   font-weight: inherit;
-  cursor: help;
+  cursor: pointer;
+  transition: background 150ms ease, color 150ms ease, border-color 150ms ease, transform 100ms ease;
 }
 
 .reading-word:hover {
   color: var(--rust);
-  background: transparent;
+  background: rgba(163, 79, 63, 0.08);
+  border-bottom-color: var(--rust);
+}
+
+.reading-word:active {
+  color: var(--rust);
+  background: rgba(163, 79, 63, 0.16);
+  border-bottom-color: var(--rust);
+  transform: scale(0.98) translateY(1px);
+}
+
+.reading-word:focus-visible {
+  outline: 2.5px solid var(--matcha-deep);
+  outline-offset: 2px;
+  border-radius: 3px;
+  border-bottom-color: var(--rust);
+}
+
+.reading-word:is([aria-pressed="true"], [data-reading-visible]) {
+  color: var(--rust);
+  background: rgba(163, 79, 63, 0.12);
+  border-bottom-color: var(--rust);
+}
+
+.reading-word:is([aria-pressed="true"], [data-reading-visible]):hover {
+  background: rgba(163, 79, 63, 0.18);
 }
 
 ruby {
@@ -844,6 +870,7 @@ rt {
 .reading-word:focus rt,
 .reading-word:focus-visible rt,
 .reading-word[data-reading-visible] rt,
+.reading-word[aria-pressed="true"] rt,
 [data-all-readings] .reading-word rt {
   opacity: 1;
 }

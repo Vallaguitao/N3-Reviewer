@@ -633,9 +633,7 @@
 
       const href = vocabularyBankHref(prefix, id);
       const context = contextFromTarget(lastSelectedWord);
-      selectRecord(id, mobileQuery?.matches
-        ? { vocabularyHref: href, context }
-        : { desktopHint: true, context });
+      selectRecord(id, { vocabularyHref: href, context });
       resetDetailsScroll(detailsShell);
       lastSelectedWord.setAttribute?.("aria-expanded", "true");
       if (mobileQuery?.matches && detailsShell) {
@@ -740,12 +738,13 @@
       if (isDetailsNavigationTarget(event.target)) return;
 
       const id = vocabIdFromTarget(event.target);
-      if (!id) return;
-      if (isVocabularyBank || mobileQuery?.matches) {
-        selectFromTarget(event.target);
-      } else if (root?.location) {
-        root.location.href = vocabularyBankHref(prefix, id);
+      if (!id) {
+        if (!isVocabularyBank && !event.target.closest("[data-vocab-details]")) {
+          closeDetails(false);
+        }
+        return;
       }
+      selectFromTarget(event.target);
     });
 
     doc.addEventListener("mouseover", event => {
