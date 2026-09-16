@@ -66,7 +66,6 @@ body[data-page="part1-full-mock"] .mock-study-help summary { font-weight: 700; }
 body[data-page="part1-full-mock"] .mock-study-help li { margin-block: .8rem; }
 body[data-page="part1-full-mock"] .mock-study-help p { margin-bottom: 0; }
 body[data-page="part1-full-mock"] .study-review-link { overflow-wrap: anywhere; }
-body[data-page="part1-full-mock"] .feedback:empty { display: none; }
 body[data-page="part1-full-mock"] .full-mock-summary { position: static; }
 @media (max-width: 48rem) {
   body[data-page="part1-full-mock"] .full-mock { padding-inline: 0; border: 0; background: transparent; }

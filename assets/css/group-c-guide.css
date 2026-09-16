@@ -126,5 +126,4 @@ body[data-page="group-c"] .guide-use-title { border-top: 1px solid var(--line); 
 body[data-page="group-c"] .example-card .reading-word { white-space: nowrap; }
 body[data-page="group-c"] .guide-notation { border-left: .25rem solid var(--rust); padding: .7rem 1rem; background: #FBF3F0; }
 body[data-page="group-c"] .guide-book-wording .formation { margin-bottom: .5rem; }
-body[data-page="group-c"] .feedback:empty { display: none; }
 body[data-page="group-c"] .guide-onepoint-help .guide-caption { margin-bottom: 0; }

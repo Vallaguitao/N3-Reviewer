@@ -1542,6 +1542,10 @@ body.mw-theme,
   margin-block-start: 1rem;
 }
 
+:is(html[data-theme="midnight-washi"], body.mw-theme, .mw-theme) :is(.answer-explanation:empty, .answer-explanation[hidden]) {
+  display: none;
+}
+
 :is(html[data-theme="midnight-washi"], body.mw-theme, .mw-theme) .answer-explanation h4 {
   color: var(--mw-paper) !important;
   font-family: var(--mw-font-display);
@@ -1577,6 +1581,10 @@ body.mw-theme,
   background: rgba(216, 73, 42, 0.2);
   border: 1px solid var(--mw-accent);
   color: var(--mw-accent-text);
+}
+
+:is(html[data-theme="midnight-washi"], body.mw-theme, .mw-theme) .feedback:empty {
+  display: none;
 }
 
 :is(html[data-theme="midnight-washi"], body.mw-theme, .mw-theme) .rationale-list {

@@ -123,7 +123,6 @@ body[data-page="group-e"] .guide-section a { overflow-wrap: anywhere; }
 
 body[data-page="group-e"] .example-grid { display: grid; grid-template-columns: minmax(0, 1fr); gap: 1rem; }
 body[data-page="group-e"] .example-card .reading-word { white-space: nowrap; }
-body[data-page="group-e"] .feedback:empty { display: none; }
 body[data-page="group-e"] .guide-use-title { margin: 1.15rem 0 0; font-size: 1.08rem; }
 body[data-page="group-e"] .guide-practice-intro { border-left: .25rem solid var(--matcha); padding: .4rem 1rem; margin-block: 1.5rem; }
 body[data-page="group-e"] .guide-practice-intro li { margin-bottom: .6rem; }

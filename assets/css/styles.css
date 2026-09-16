@@ -945,7 +945,7 @@ main[data-vocab-details-open] .vocab-rail {
   background: var(--moss);
 }
 
-.answer-explanation[hidden] {
+:is(.answer-explanation:empty, .answer-explanation[hidden]) {
   display: none;
 }
 
@@ -1271,6 +1271,10 @@ main[data-vocab-details-open] .vocab-rail {
 
 .feedback[data-state="incorrect"] {
   border-left-color: var(--rust);
+}
+
+.feedback:empty {
+  display: none;
 }
 
 [data-quiz-mode="section-submit"] .question > .toolbar [data-check-question],

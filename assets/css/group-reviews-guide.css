@@ -123,7 +123,6 @@ body:is([data-page="review-a-e"], [data-page="review-a-j"]) .guide-section a { o
 
 body:is([data-page="review-a-e"], [data-page="review-a-j"]) .example-grid { display: grid; grid-template-columns: minmax(0, 1fr); gap: 1rem; }
 body:is([data-page="review-a-e"], [data-page="review-a-j"]) .example-card .reading-word { white-space: nowrap; }
-body:is([data-page="review-a-e"], [data-page="review-a-j"]) .feedback:empty { display: none; }
 body:is([data-page="review-a-e"], [data-page="review-a-j"]) .guide-use-title { margin: 1.15rem 0 0; font-size: 1.08rem; }
 body:is([data-page="review-a-e"], [data-page="review-a-j"]) .guide-practice-intro { border-left: .25rem solid var(--matcha); padding: .4rem 1rem; margin-block: 1.5rem; }
 body:is([data-page="review-a-e"], [data-page="review-a-j"]) .guide-practice-intro li { margin-bottom: .6rem; }
@@ -185,7 +184,6 @@ body:is([data-page="review-a-e"], [data-page="review-a-j"]) .study-review-link {
   body:is([data-page="review-a-e"], [data-page="review-a-j"]) .study-answer-review { padding-top: 1rem; }
 }
 
-body:is([data-page="review-a-e"], [data-page="review-a-j"]) .answer-explanation:empty { display: none; }
 body:is([data-page="review-a-e"], [data-page="review-a-j"]) [data-english-hidden] .answer-translation { display: none; }
 body:is([data-page="review-a-e"], [data-page="review-a-j"]) .review-approach, body:is([data-page="review-a-e"], [data-page="review-a-j"]) .review-after, body:is([data-page="review-a-e"], [data-page="review-a-j"]) .review-results { margin-block: 1.8rem; scroll-margin-top: 1rem; }
 body:is([data-page="review-a-e"], [data-page="review-a-j"]) .review-approach h3, body:is([data-page="review-a-e"], [data-page="review-a-j"]) .review-after h3, body:is([data-page="review-a-e"], [data-page="review-a-j"]) .review-results h3, body:is([data-page="review-a-e"], [data-page="review-a-j"]) .review-question-heading { font-size: 1.3rem; line-height: 1.4; margin: 0 0 1rem; }
