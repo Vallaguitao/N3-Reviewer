@@ -584,6 +584,13 @@
         records.find(record => record.id === id) || null,
         options,
       );
+      if (results) {
+        for (const btn of results.querySelectorAll("[data-vocab-id]")) {
+          const isSelected = btn.dataset.vocabId === id;
+          btn.setAttribute("aria-pressed", String(isSelected));
+          btn.toggleAttribute("data-selected", isSelected);
+        }
+      }
     }
 
     function positionDetails() {

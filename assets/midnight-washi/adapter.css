@@ -570,7 +570,7 @@ body.mw-theme,
    Buttons, Form Inputs & Selects
    -------------------------------------------------------------------------- */
 :is(html[data-theme="midnight-washi"], body.mw-theme, .mw-theme) :where(
-  button:not(.secondary):not(.theme-toggle-button):not([data-mw-motion-toggle]):not(.reading-settings-trigger):not(.reading-word):not(.vocab-sheet-close):not(.reading-settings-close),
+  button:not(.secondary):not(.theme-toggle-button):not([data-mw-motion-toggle]):not(.reading-settings-trigger):not(.reading-word):not(.vocab-sheet-close):not(.reading-settings-close):not(.vocab-result),
   .button:not(.secondary)
 ) {
   background: var(--mw-accent-deep);
@@ -582,7 +582,7 @@ body.mw-theme,
 }
 
 :is(html[data-theme="midnight-washi"], body.mw-theme, .mw-theme) :where(
-  button:not(.secondary):not(.theme-toggle-button):not([data-mw-motion-toggle]):not(.reading-settings-trigger):not(.reading-word):not(.vocab-sheet-close):not(.reading-settings-close),
+  button:not(.secondary):not(.theme-toggle-button):not([data-mw-motion-toggle]):not(.reading-settings-trigger):not(.reading-word):not(.vocab-sheet-close):not(.reading-settings-close):not(.vocab-result),
   .button:not(.secondary)
 ):hover {
   background: var(--mw-accent);
@@ -1846,23 +1846,326 @@ body.mw-theme,
 /* --------------------------------------------------------------------------
    Vocabulary Bank & Search (vocabulary.html)
    -------------------------------------------------------------------------- */
-:is(html[data-theme="midnight-washi"], body.mw-theme, .mw-theme) :is(.vocab-card, .vocab-table-wrap) {
-  background: var(--mw-surface);
+
+/* Layout & Section Card */
+:is(html[data-theme="midnight-washi"], body.mw-theme, .mw-theme) .vocab-bank-layout {
+  gap: 1.25rem;
+}
+
+:is(html[data-theme="midnight-washi"], body.mw-theme, .mw-theme) #vocab-filter-help {
+  color: var(--mw-muted);
+  font-size: var(--step--1);
+  margin-block-end: 1rem;
+}
+
+/* Filter Fields (Search, Selects, and Labels) */
+:is(html[data-theme="midnight-washi"], body.mw-theme, .mw-theme) .filters .field label {
+  color: var(--mw-gold-bright);
+  font-family: var(--mw-font-body);
+  font-weight: 650;
+  font-size: var(--step--1);
+}
+
+:is(html[data-theme="midnight-washi"], body.mw-theme, .mw-theme) :is(#vocab-search, #vocab-part, #vocab-topic, #vocab-grammar) {
+  background: var(--mw-surface-raised);
   border: 1px solid var(--mw-line);
+  color: var(--mw-text);
+  border-radius: calc(var(--mw-radius) * 0.6);
+  min-height: 2.85rem;
+  padding: .55rem .85rem;
+  font-family: var(--mw-font-body);
+  font-size: var(--step-0);
+  transition: border-color var(--mw-duration), background-color var(--mw-duration), box-shadow var(--mw-duration);
+}
+
+:is(html[data-theme="midnight-washi"], body.mw-theme, .mw-theme) :is(#vocab-search, #vocab-part, #vocab-topic, #vocab-grammar)::placeholder {
+  color: var(--mw-muted);
+  opacity: 0.8;
+}
+
+:is(html[data-theme="midnight-washi"], body.mw-theme, .mw-theme) :is(#vocab-search, #vocab-part, #vocab-topic, #vocab-grammar):hover {
+  border-color: var(--mw-gold);
+  background: rgba(28, 47, 82, 0.95);
+}
+
+:is(html[data-theme="midnight-washi"], body.mw-theme, .mw-theme) :is(#vocab-search, #vocab-part, #vocab-topic, #vocab-grammar):focus-visible {
+  outline: 2px solid var(--mw-focus);
+  outline-offset: 2px;
+  border-color: var(--mw-gold-bright);
+  box-shadow: 0 0 0 3px rgba(236, 203, 133, 0.2);
+}
+
+/* Native select options inside Midnight Washi */
+:is(html[data-theme="midnight-washi"], body.mw-theme, .mw-theme) .filters select option {
+  background-color: var(--mw-surface);
   color: var(--mw-text);
 }
 
-:is(html[data-theme="midnight-washi"], body.mw-theme, .mw-theme) .vocab-card:hover {
-  border-color: var(--mw-gold);
+:is(html[data-theme="midnight-washi"], body.mw-theme, .mw-theme) .filters select optgroup {
+  background-color: var(--mw-surface-raised);
+  color: var(--mw-gold);
+  font-family: var(--mw-font-label);
+  font-weight: 700;
 }
 
-:is(html[data-theme="midnight-washi"], body.mw-theme, .mw-theme) .vocab-card-kanji {
-  color: var(--mw-paper);
+/* Toolbar, Status counter & Empty state */
+:is(html[data-theme="midnight-washi"], body.mw-theme, .mw-theme) [data-vocab-status] {
+  color: var(--mw-muted);
+  font-family: var(--mw-font-label);
+  font-size: var(--step--1);
+  letter-spacing: .06em;
+  padding: .3rem .65rem;
+  background: rgba(242, 236, 221, 0.04);
+  border: 1px solid var(--mw-line);
+  border-radius: calc(var(--mw-radius) * 0.4);
+}
+
+:is(html[data-theme="midnight-washi"], body.mw-theme, .mw-theme) [data-vocab-empty] {
+  color: var(--mw-muted);
+  padding: 2rem 1rem;
+  text-align: center;
+  border: 1px dashed var(--mw-line);
+  border-radius: var(--mw-radius);
+  background: rgba(242, 236, 221, 0.02);
+}
+
+/* Vocabulary Result Cards (button.vocab-result) */
+:is(html[data-theme="midnight-washi"], body.mw-theme, .mw-theme) .vocab-results {
+  gap: .75rem;
+}
+
+:is(html[data-theme="midnight-washi"], body.mw-theme, .mw-theme) .vocab-result {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  min-height: 4.4rem;
+  padding: .85rem 1.15rem;
+  border-radius: var(--mw-radius);
+  border: 1px solid var(--mw-line);
+  background: rgba(21, 34, 60, 0.75);
+  color: var(--mw-text);
+  text-align: left;
+  cursor: pointer;
+  box-shadow: 0 4px 14px rgba(0, 0, 0, 0.18);
+  transition: transform var(--mw-duration), border-color var(--mw-duration), background-color var(--mw-duration), box-shadow var(--mw-duration);
+}
+
+:is(html[data-theme="midnight-washi"], body.mw-theme, .mw-theme) .vocab-result-japanese {
+  display: block;
   font-family: var(--mw-font-display);
+  font-weight: 700;
+  font-size: 1.15rem;
+  line-height: 1.3;
+  color: var(--mw-paper);
+  transition: color var(--mw-duration);
 }
 
-:is(html[data-theme="midnight-washi"], body.mw-theme, .mw-theme) .vocab-card-reading {
+:is(html[data-theme="midnight-washi"], body.mw-theme, .mw-theme) .vocab-result-meanings {
+  display: block;
+  margin-top: .3rem;
+  font-family: var(--mw-font-body);
+  font-size: .88rem;
+  line-height: 1.4;
+  color: var(--mw-muted);
+  transition: color var(--mw-duration);
+}
+
+/* Result card: Hovering state */
+:is(html[data-theme="midnight-washi"], body.mw-theme, .mw-theme) .vocab-result:hover {
+  background: rgba(28, 47, 82, 0.95);
+  border-color: var(--mw-gold);
+  transform: translateY(-2px);
+  box-shadow: 0 8px 22px rgba(0, 0, 0, 0.35);
+}
+
+:is(html[data-theme="midnight-washi"], body.mw-theme, .mw-theme) .vocab-result:hover .vocab-result-japanese {
   color: var(--mw-gold-bright);
+}
+
+:is(html[data-theme="midnight-washi"], body.mw-theme, .mw-theme) .vocab-result:hover .vocab-result-meanings {
+  color: var(--mw-text);
+}
+
+/* Result card: Active (clicking) state */
+:is(html[data-theme="midnight-washi"], body.mw-theme, .mw-theme) .vocab-result:active {
+  background: var(--mw-surface-raised);
+  border-color: var(--mw-gold-bright);
+  transform: translateY(0);
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.25);
+}
+
+/* Result card: Focus-visible state */
+:is(html[data-theme="midnight-washi"], body.mw-theme, .mw-theme) .vocab-result:focus-visible {
+  outline: 2px solid var(--mw-focus);
+  outline-offset: 2px;
+  border-color: var(--mw-gold-bright);
+}
+
+/* Result card: Selected / Deep-linked state */
+:is(html[data-theme="midnight-washi"], body.mw-theme, .mw-theme) .vocab-result:is([aria-pressed="true"], [data-selected], [data-vocab-deep-linked]) {
+  background: rgba(211, 171, 98, 0.14);
+  border-color: var(--mw-gold);
+  box-shadow: inset 3.5px 0 0 var(--mw-gold), 0 4px 14px rgba(0, 0, 0, 0.25);
+}
+
+:is(html[data-theme="midnight-washi"], body.mw-theme, .mw-theme) .vocab-result:is([aria-pressed="true"], [data-selected], [data-vocab-deep-linked]) .vocab-result-japanese {
+  color: var(--mw-gold-bright);
+}
+
+:is(html[data-theme="midnight-washi"], body.mw-theme, .mw-theme) .vocab-result:is([aria-pressed="true"], [data-selected], [data-vocab-deep-linked]) .vocab-result-meanings {
+  color: var(--mw-text);
+}
+
+/* Show more button */
+:is(html[data-theme="midnight-washi"], body.mw-theme, .mw-theme) .vocab-show-more {
+  background: var(--mw-surface-raised);
+  border: 1px solid var(--mw-line);
+  color: var(--mw-gold-bright);
+  border-radius: calc(var(--mw-radius) * 0.6);
+  font-weight: 700;
+  min-height: 2.75rem;
+  padding: .65rem 1.4rem;
+  transition: transform var(--mw-duration), background var(--mw-duration), border-color var(--mw-duration), box-shadow var(--mw-duration), color var(--mw-duration);
+}
+
+:is(html[data-theme="midnight-washi"], body.mw-theme, .mw-theme) .vocab-show-more:hover {
+  background: rgba(211, 171, 98, 0.2);
+  border-color: var(--mw-gold);
+  color: #ffffff;
+  transform: translateY(-2px);
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.28);
+}
+
+:is(html[data-theme="midnight-washi"], body.mw-theme, .mw-theme) .vocab-show-more:active {
+  transform: translateY(0);
+}
+
+:is(html[data-theme="midnight-washi"], body.mw-theme, .mw-theme) .vocab-show-more:focus-visible {
+  outline: 2px solid var(--mw-focus);
+  outline-offset: 2px;
+}
+
+/* Vocabulary Detail Side Rail (.vocab-detail) */
+:is(html[data-theme="midnight-washi"], body.mw-theme, .mw-theme) .vocab-detail {
+  background: var(--mw-surface) !important;
+  border: 1px solid var(--mw-line) !important;
+  border-top: .35rem solid var(--mw-gold) !important;
+  border-radius: var(--mw-radius);
+  padding: 1.25rem;
+  color: var(--mw-text);
+  box-shadow: var(--mw-shadow);
+}
+
+:is(html[data-theme="midnight-washi"], body.mw-theme, .mw-theme) .vocab-detail h3 {
+  font-family: var(--mw-font-display);
+  font-size: clamp(1.4rem, 2.5vw, 1.85rem);
+  font-weight: 700;
+  color: var(--mw-paper);
+  border-bottom: 1px solid var(--mw-line);
+  padding-bottom: .6rem;
+  margin-block-end: .85rem;
+}
+
+:is(html[data-theme="midnight-washi"], body.mw-theme, .mw-theme) .vocab-detail h4 {
+  font-family: var(--mw-font-label);
+  color: var(--mw-gold);
+  font-size: .82rem;
+  letter-spacing: .08em;
+  text-transform: uppercase;
+  margin-block: 1rem .35rem;
+}
+
+:is(html[data-theme="midnight-washi"], body.mw-theme, .mw-theme) .vocab-detail :is(.vocab-reading, .vocab-whole-word) {
+  color: var(--mw-gold-bright);
+  font-family: var(--mw-font-body);
+  font-weight: 600;
+  font-size: 1rem;
+}
+
+:is(html[data-theme="midnight-washi"], body.mw-theme, .mw-theme) .vocab-detail .vocab-meaning {
+  color: var(--mw-text);
+  line-height: 1.5;
+}
+
+/* Contextual reading/meaning highlight callout */
+:is(html[data-theme="midnight-washi"], body.mw-theme, .mw-theme) .vocab-detail .vocab-contextual {
+  border-inline-start: 3px solid var(--mw-accent);
+  background: rgba(216, 73, 42, 0.12);
+  padding: .45rem .75rem;
+  border-radius: 0 calc(var(--mw-radius) * 0.4) calc(var(--mw-radius) * 0.4) 0;
+}
+
+:is(html[data-theme="midnight-washi"], body.mw-theme, .mw-theme) .vocab-detail .vocab-contextual.vocab-reading {
+  color: var(--mw-accent-text, #f0937a);
+  font-weight: 700;
+}
+
+/* Compounds and Kanji list */
+:is(html[data-theme="midnight-washi"], body.mw-theme, .mw-theme) .vocab-detail :is(.vocab-compounds, .vocab-kanji-list) {
+  list-style: none;
+  padding: 0;
+  margin: .5rem 0;
+  display: grid;
+  gap: .4rem;
+}
+
+:is(html[data-theme="midnight-washi"], body.mw-theme, .mw-theme) .vocab-detail :is(.vocab-compounds, .vocab-kanji-list) li {
+  padding: .4rem .65rem;
+  background: rgba(242, 236, 221, 0.04);
+  border: 1px solid var(--mw-line);
+  border-radius: calc(var(--mw-radius) * 0.4);
+  font-size: var(--step--1);
+  color: var(--mw-text);
+}
+
+/* Seen in links */
+:is(html[data-theme="midnight-washi"], body.mw-theme, .mw-theme) .vocab-detail ul:not(.vocab-compounds):not(.vocab-kanji-list) {
+  padding-inline-start: 1.25rem;
+  margin: .4rem 0;
+}
+
+:is(html[data-theme="midnight-washi"], body.mw-theme, .mw-theme) .vocab-detail ul:not(.vocab-compounds):not(.vocab-kanji-list) li {
+  margin-block: .25rem;
+}
+
+:is(html[data-theme="midnight-washi"], body.mw-theme, .mw-theme) .vocab-detail ul:not(.vocab-compounds):not(.vocab-kanji-list) a {
+  color: var(--mw-gold-bright);
+  text-decoration-color: rgba(236, 203, 133, 0.4);
+  transition: color var(--mw-duration), text-decoration-color var(--mw-duration);
+}
+
+:is(html[data-theme="midnight-washi"], body.mw-theme, .mw-theme) .vocab-detail ul:not(.vocab-compounds):not(.vocab-kanji-list) a:hover {
+  color: #ffffff;
+  text-decoration-color: #ffffff;
+}
+
+:is(html[data-theme="midnight-washi"], body.mw-theme, .mw-theme) .vocab-detail .vocab-bank-link {
+  background: var(--mw-accent-deep);
+  color: var(--mw-on-accent);
+  border-radius: calc(var(--mw-radius) * 0.6);
+  font-weight: 700;
+  text-decoration: none;
+  justify-content: center;
+  align-items: center;
+  padding: .65rem 1rem;
+  min-height: 2.75rem;
+  margin-block-start: 1.25rem;
+  box-shadow: 0 4px 14px rgba(0, 0, 0, 0.25);
+  transition: transform var(--mw-duration), background var(--mw-duration), box-shadow var(--mw-duration);
+}
+
+:is(html[data-theme="midnight-washi"], body.mw-theme, .mw-theme) .vocab-detail .vocab-bank-link:hover {
+  background: var(--mw-accent);
+  color: #ffffff;
+  transform: translateY(-2px);
+  box-shadow: 0 8px 20px rgba(216, 73, 42, 0.35);
+}
+
+:is(html[data-theme="midnight-washi"], body.mw-theme, .mw-theme) .vocab-detail .vocab-desktop-hint {
+  color: var(--mw-gold);
+  font-weight: 650;
+  font-size: var(--step--1);
+  margin-block-start: .9rem;
 }
 
 /* --------------------------------------------------------------------------
