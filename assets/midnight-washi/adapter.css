@@ -692,20 +692,149 @@ body.mw-theme,
 }
 
 :is(html[data-theme="midnight-washi"], body.mw-theme, .mw-theme) .lesson-rail a {
-  color: var(--mw-muted);
+  color: var(--mw-text) !important;
+  border-left: .25rem solid transparent;
   border-radius: calc(var(--mw-radius) * 0.5);
-  transition: background 150ms ease, color 150ms ease;
+  padding: .45rem .65rem;
+  text-decoration: none;
+  font-size: var(--step--1);
+  min-height: 2.2rem;
+  transition: background 150ms ease, color 150ms ease, border-color 150ms ease, transform 100ms ease;
 }
 
 :is(html[data-theme="midnight-washi"], body.mw-theme, .mw-theme) .lesson-rail a:hover {
-  color: var(--mw-paper);
-  background: rgba(242, 236, 221, 0.08);
+  color: var(--mw-paper) !important;
+  background: rgba(242, 236, 221, 0.08) !important;
+  border-left-color: rgba(211, 171, 98, 0.6) !important;
 }
 
-:is(html[data-theme="midnight-washi"], body.mw-theme, .mw-theme) .lesson-rail a:is([data-active], .active) {
-  color: var(--mw-gold-bright);
-  background: var(--mw-surface-raised);
-  border-left: .25rem solid var(--mw-gold);
+:is(html[data-theme="midnight-washi"], body.mw-theme, .mw-theme) .lesson-rail a:active {
+  transform: scale(0.98);
+  background: rgba(211, 171, 98, 0.2) !important;
+  color: var(--mw-gold-bright) !important;
+}
+
+:is(html[data-theme="midnight-washi"], body.mw-theme, .mw-theme) .lesson-rail a:focus-visible {
+  outline: 2.5px solid var(--mw-focus) !important;
+  outline-offset: 1px;
+}
+
+:is(html[data-theme="midnight-washi"], body.mw-theme, .mw-theme) .lesson-rail a:is([data-active], .active, [aria-current="location"]) {
+  color: var(--mw-gold-bright) !important;
+  background: var(--mw-surface-raised) !important;
+  border-left: .25rem solid var(--mw-gold) !important;
+  font-weight: 700;
+}
+
+:is(html[data-theme="midnight-washi"], body.mw-theme, .mw-theme) .part1-lesson-map {
+  border-top: 1px solid var(--mw-line) !important;
+}
+
+:is(html[data-theme="midnight-washi"], body.mw-theme, .mw-theme) .lesson-rail .part1-lesson-links a {
+  background: var(--mw-surface-raised) !important;
+  border: 1px solid var(--mw-line) !important;
+  color: var(--mw-text) !important;
+  border-radius: calc(var(--mw-radius) * 0.5);
+  font-weight: 750;
+  text-decoration: none;
+  min-height: 2.25rem;
+  transition: background 150ms ease, color 150ms ease, border-color 150ms ease, transform 100ms ease, box-shadow 150ms ease;
+}
+
+:is(html[data-theme="midnight-washi"], body.mw-theme, .mw-theme) .lesson-rail .part1-lesson-links a:hover {
+  border-color: var(--mw-gold) !important;
+  color: var(--mw-gold-bright) !important;
+  background: rgba(211, 171, 98, 0.12) !important;
+  transform: translateY(-1px);
+  box-shadow: 0 0 8px rgba(211, 171, 98, 0.25);
+}
+
+:is(html[data-theme="midnight-washi"], body.mw-theme, .mw-theme) .lesson-rail .part1-lesson-links a:active {
+  transform: translateY(1px) scale(0.98);
+  background: rgba(211, 171, 98, 0.24) !important;
+}
+
+:is(html[data-theme="midnight-washi"], body.mw-theme, .mw-theme) .lesson-rail .part1-lesson-links a:focus-visible {
+  outline: 2.5px solid var(--mw-focus) !important;
+  outline-offset: 1px;
+}
+
+:is(html[data-theme="midnight-washi"], body.mw-theme, .mw-theme) .lesson-rail .part1-lesson-links a[aria-current="page"] {
+  border: 2px solid var(--mw-gold) !important;
+  background: rgba(211, 171, 98, 0.16) !important;
+  color: var(--mw-gold-bright) !important;
+  font-weight: 850;
+  box-shadow: 0 0 10px rgba(211, 171, 98, 0.22);
+}
+
+:is(html[data-theme="midnight-washi"], body.mw-theme, .mw-theme) .lesson-rail .part1-lesson-links .part1-full-mock-link {
+  grid-column: 1 / -1;
+  min-height: 2.5rem;
+  font-weight: 750;
+  letter-spacing: .02em;
+}
+
+:is(html[data-theme="midnight-washi"], body.mw-theme, .mw-theme) .guide-jumps {
+  border-bottom: 1px solid var(--mw-line) !important;
+}
+
+:is(html[data-theme="midnight-washi"], body.mw-theme, .mw-theme) :is(.guide-jumps a, body[data-page] .guide-jumps a) {
+  background: var(--mw-surface-raised) !important;
+  border: 1px solid var(--mw-line) !important;
+  color: var(--mw-text) !important;
+  border-radius: 999px;
+  font-weight: 650;
+  transition: background 150ms ease, color 150ms ease, border-color 150ms ease, transform 100ms ease, box-shadow 150ms ease;
+}
+
+:is(html[data-theme="midnight-washi"], body.mw-theme, .mw-theme) :is(.guide-jumps a, body[data-page] .guide-jumps a):hover {
+  border-color: var(--mw-gold) !important;
+  color: var(--mw-gold-bright) !important;
+  background: rgba(211, 171, 98, 0.14) !important;
+  transform: translateY(-1px);
+}
+
+:is(html[data-theme="midnight-washi"], body.mw-theme, .mw-theme) :is(.guide-jumps a, body[data-page] .guide-jumps a):active {
+  transform: translateY(1px) scale(0.97);
+  background: rgba(211, 171, 98, 0.26) !important;
+}
+
+:is(html[data-theme="midnight-washi"], body.mw-theme, .mw-theme) :is(.guide-jumps a, body[data-page] .guide-jumps a):focus-visible {
+  outline: 2.5px solid var(--mw-focus) !important;
+  outline-offset: 2px;
+}
+
+:is(html[data-theme="midnight-washi"], body.mw-theme, .mw-theme) .option-list label {
+  background: var(--mw-surface-raised) !important;
+  border: 1px solid var(--mw-line) !important;
+  color: var(--mw-text) !important;
+  border-radius: calc(var(--mw-radius) * 0.5);
+  transition: background 150ms ease, border-color 150ms ease, transform 100ms ease, box-shadow 150ms ease;
+}
+
+:is(html[data-theme="midnight-washi"], body.mw-theme, .mw-theme) .option-list label:hover {
+  border-color: var(--mw-gold) !important;
+  background: rgba(211, 171, 98, 0.08) !important;
+  color: var(--mw-paper) !important;
+  transform: translateY(-1px);
+}
+
+:is(html[data-theme="midnight-washi"], body.mw-theme, .mw-theme) .option-list label:active {
+  transform: translateY(1px) scale(0.99);
+  background: rgba(211, 171, 98, 0.2) !important;
+}
+
+:is(html[data-theme="midnight-washi"], body.mw-theme, .mw-theme) .option-list label:focus-within {
+  outline: 2.5px solid var(--mw-focus) !important;
+  outline-offset: 1px;
+}
+
+:is(html[data-theme="midnight-washi"], body.mw-theme, .mw-theme) .option-list label:has(input:checked) {
+  border-color: var(--mw-gold) !important;
+  border-width: 2px !important;
+  background: rgba(211, 171, 98, 0.16) !important;
+  color: var(--mw-gold-bright) !important;
+  box-shadow: 0 0 10px rgba(211, 171, 98, 0.2);
 }
 
 :is(html[data-theme="midnight-washi"], body.mw-theme, .mw-theme) .lesson-help {
@@ -884,9 +1013,25 @@ body.mw-theme,
 /* --------------------------------------------------------------------------
    Quizzes, Assessments & Exercise Sets
    -------------------------------------------------------------------------- */
+:is(html[data-theme="midnight-washi"], body.mw-theme, .mw-theme) :is(.book-exercise-set, .quiz-set) {
+  background: transparent !important;
+  border-color: var(--mw-line) !important;
+}
+
+:is(html[data-theme="midnight-washi"], body.mw-theme, .mw-theme) .book-exercise-set > h2 {
+  color: var(--mw-paper) !important;
+}
+
+:is(html[data-theme="midnight-washi"], body.mw-theme, .mw-theme) .exercise-subsection {
+  color: var(--mw-gold-bright) !important;
+  border-bottom: 1px solid var(--mw-line);
+  padding-bottom: .4rem;
+  margin-top: 1.5rem;
+}
+
 :is(html[data-theme="midnight-washi"], body.mw-theme, .mw-theme) .question {
-  background: var(--mw-surface);
-  border: 1px solid var(--mw-line);
+  background: var(--mw-surface) !important;
+  border: 1px solid var(--mw-line) !important;
   border-radius: var(--mw-radius);
   color: var(--mw-text);
   padding: clamp(1rem, 2.5vw, 1.5rem);
@@ -899,25 +1044,499 @@ body.mw-theme,
   font-size: 1.05rem;
 }
 
-:is(html[data-theme="midnight-washi"], body.mw-theme, .mw-theme) .option-list label {
-  background: rgba(255, 255, 255, 0.035);
+:is(html[data-theme="midnight-washi"], body.mw-theme, .mw-theme) .question .question-number {
+  color: var(--mw-gold);
+  font-weight: 750;
+}
+
+:is(html[data-theme="midnight-washi"], body.mw-theme, .mw-theme) .option-list input:is([type="radio"], [type="checkbox"]) {
+  accent-color: var(--mw-gold);
+}
+
+/* --------------------------------------------------------------------------
+   Book Exercise Study Hints & Clues (Before Submission)
+   -------------------------------------------------------------------------- */
+:is(html[data-theme="midnight-washi"], body.mw-theme, .mw-theme) :is(.study-hints details, body[data-page] .study-hints details) {
+  background: rgba(28, 47, 82, 0.5) !important;
+  border: 1px solid var(--mw-line) !important;
+  border-radius: calc(var(--mw-radius) * 0.55);
+  padding: .35rem .85rem;
+  color: var(--mw-text) !important;
+  transition: background 150ms ease, border-color 150ms ease, box-shadow 150ms ease;
+}
+
+:is(html[data-theme="midnight-washi"], body.mw-theme, .mw-theme) :is(.study-hints details:hover, body[data-page] .study-hints details:hover) {
+  border-color: var(--mw-gold) !important;
+  background: rgba(28, 47, 82, 0.75) !important;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
+}
+
+/* Gentle Hint Tier ("Hint — start here") */
+:is(html[data-theme="midnight-washi"], body.mw-theme, .mw-theme) :is(.study-hints details[data-study-hint="gentle"], body[data-page] .study-hints details[data-study-hint="gentle"]) {
+  background: rgba(21, 34, 60, 0.65) !important;
+  border-color: var(--mw-line) !important;
+}
+
+:is(html[data-theme="midnight-washi"], body.mw-theme, .mw-theme) :is(.study-hints details[data-study-hint="gentle"]:hover, body[data-page] .study-hints details[data-study-hint="gentle"]:hover) {
+  border-color: rgba(211, 171, 98, 0.6) !important;
+  background: rgba(28, 47, 82, 0.8) !important;
+}
+
+:is(html[data-theme="midnight-washi"], body.mw-theme, .mw-theme) :is(.study-hints details[data-study-hint="gentle"][open], body[data-page] .study-hints details[data-study-hint="gentle"][open]) {
+  border-left: 3px solid var(--mw-line-strong) !important;
+  background: rgba(28, 47, 82, 0.85) !important;
+}
+
+:is(html[data-theme="midnight-washi"], body.mw-theme, .mw-theme) :is(.study-hints details[data-study-hint="gentle"] summary, body[data-page] .study-hints details[data-study-hint="gentle"] summary) {
+  color: var(--mw-text) !important;
+}
+
+:is(html[data-theme="midnight-washi"], body.mw-theme, .mw-theme) :is(.study-hints details[data-study-hint="gentle"] summary:hover, body[data-page] .study-hints details[data-study-hint="gentle"] summary:hover) {
+  color: var(--mw-paper) !important;
+}
+
+/* Stronger Clue Tier ("Stronger clue") */
+:is(html[data-theme="midnight-washi"], body.mw-theme, .mw-theme) :is(.study-hints details[data-study-hint="stronger"], body[data-page] .study-hints details[data-study-hint="stronger"]) {
+  background: rgba(211, 171, 98, 0.08) !important;
+  border-color: rgba(211, 171, 98, 0.28) !important;
+}
+
+:is(html[data-theme="midnight-washi"], body.mw-theme, .mw-theme) :is(.study-hints details[data-study-hint="stronger"]:hover, body[data-page] .study-hints details[data-study-hint="stronger"]:hover) {
+  border-color: var(--mw-gold) !important;
+  background: rgba(211, 171, 98, 0.14) !important;
+}
+
+:is(html[data-theme="midnight-washi"], body.mw-theme, .mw-theme) :is(.study-hints details[data-study-hint="stronger"][open], body[data-page] .study-hints details[data-study-hint="stronger"][open]) {
+  border-left: 3px solid var(--mw-gold) !important;
+  background: rgba(211, 171, 98, 0.12) !important;
+}
+
+:is(html[data-theme="midnight-washi"], body.mw-theme, .mw-theme) :is(.study-hints details[data-study-hint="stronger"] summary, body[data-page] .study-hints details[data-study-hint="stronger"] summary) {
+  color: var(--mw-gold-bright) !important;
+}
+
+:is(html[data-theme="midnight-washi"], body.mw-theme, .mw-theme) :is(.study-hints details[data-study-hint="stronger"] summary:hover, body[data-page] .study-hints details[data-study-hint="stronger"] summary:hover) {
+  color: #ffffff !important;
+}
+
+/* Study Hints Summary: Interactive States */
+:is(html[data-theme="midnight-washi"], body.mw-theme, .mw-theme) :is(.study-hints summary, body[data-page] .study-hints summary) {
+  cursor: pointer;
+  padding: .35rem 0;
+  font-weight: 700;
+  font-size: .92em;
+  transition: color 150ms ease, transform 100ms ease;
+  user-select: none;
+}
+
+:is(html[data-theme="midnight-washi"], body.mw-theme, .mw-theme) :is(.study-hints summary:hover, body[data-page] .study-hints summary:hover) {
+  color: #ffffff !important;
+}
+
+:is(html[data-theme="midnight-washi"], body.mw-theme, .mw-theme) :is(.study-hints summary:active, body[data-page] .study-hints summary:active) {
+  transform: scale(0.99) translateY(1px);
+}
+
+:is(html[data-theme="midnight-washi"], body.mw-theme, .mw-theme) :is(.study-hints summary:focus-visible, body[data-page] .study-hints summary:focus-visible) {
+  outline: 2.5px solid var(--mw-focus) !important;
+  outline-offset: 2px;
+}
+
+/* Study Hints Paragraph Copy */
+:is(html[data-theme="midnight-washi"], body.mw-theme, .mw-theme) :is(.study-hints p, body[data-page] .study-hints p) {
+  color: var(--mw-text) !important;
+  line-height: 1.6;
+  font-size: .93em;
+  margin-bottom: .75rem;
+}
+
+/* Fallback Single-Question Hint */
+:is(html[data-theme="midnight-washi"], body.mw-theme, .mw-theme) .nuance-note.quiz-hint {
+  background: var(--mw-surface-raised) !important;
+  border: 1px solid var(--mw-line) !important;
+  border-left: 3px solid var(--mw-gold) !important;
+  color: var(--mw-text) !important;
+  padding: .4rem .85rem;
+  border-radius: calc(var(--mw-radius) * 0.5);
+  margin-bottom: 1rem;
+}
+
+:is(html[data-theme="midnight-washi"], body.mw-theme, .mw-theme) .nuance-note.quiz-hint summary {
+  color: var(--mw-gold-bright) !important;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+:is(html[data-theme="midnight-washi"], body.mw-theme, .mw-theme) .nuance-note.quiz-hint summary:hover {
+  color: #ffffff !important;
+}
+
+/* --------------------------------------------------------------------------
+   Post-Submission Answer Review Chamber (Lessons 1–12 & 13 Full Mock)
+   -------------------------------------------------------------------------- */
+:is(html[data-theme="midnight-washi"], body.mw-theme, .mw-theme) :is(.study-answer-review, body[data-page] .study-answer-review) {
+  background: var(--mw-surface-raised) !important;
+  border: 0 !important;
+  border-top: 2px solid var(--mw-gold) !important;
+  border-radius: 0 0 var(--mw-radius) var(--mw-radius);
+  padding: 1.5rem 1.25rem 1.25rem !important;
+  margin-top: 1.5rem;
+  box-shadow: inset 0 2px 8px rgba(0, 0, 0, 0.2);
+}
+
+:is(html[data-theme="midnight-washi"], body.mw-theme, .mw-theme) :is(.study-answer-review h4, body[data-page] .study-answer-review h4) {
+  color: var(--mw-paper) !important;
+  font-size: 1.3rem;
+  font-family: var(--mw-font-display);
+  margin: 0 0 1rem;
+}
+
+:is(html[data-theme="midnight-washi"], body.mw-theme, .mw-theme) :is(.study-answer-review h5, body[data-page] .study-answer-review h5) {
+  color: var(--mw-gold-bright) !important;
+  font-size: 1.05rem;
+  margin: 1.5rem 0 .7rem;
+}
+
+:is(html[data-theme="midnight-washi"], body.mw-theme, .mw-theme) :is(.study-answer, body[data-page] .study-answer) {
+  font-size: 1.1em;
+  color: var(--mw-text);
+}
+
+:is(html[data-theme="midnight-washi"], body.mw-theme, .mw-theme) :is(.study-answer > span, body[data-page] .study-answer > span) {
+  color: var(--mw-gold-bright) !important;
+  font-weight: 750;
+}
+
+:is(html[data-theme="midnight-washi"], body.mw-theme, .mw-theme) :is(.study-completed-sentence, body[data-page] .study-completed-sentence) {
+  font-size: 1.1em;
+  line-height: 1.9;
+  color: var(--mw-text);
+}
+
+:is(html[data-theme="midnight-washi"], body.mw-theme, .mw-theme) :is(.study-completed-sentence mark, body[data-page] .study-completed-sentence mark) {
+  background: rgba(211, 171, 98, 0.3) !important;
+  color: var(--mw-paper) !important;
+  font-weight: 700;
+  padding: .15em .35em;
+  border-radius: 3px;
+  border: 1px solid rgba(211, 171, 98, 0.4);
+}
+
+:is(html[data-theme="midnight-washi"], body.mw-theme, .mw-theme) :is(.study-key-clue, body[data-page] .study-key-clue) {
+  background: rgba(211, 171, 98, 0.1) !important;
+  border-left: .25rem solid var(--mw-gold) !important;
+  color: var(--mw-text) !important;
+  padding: .85rem 1rem;
+  border-radius: 0 calc(var(--mw-radius) * 0.5) calc(var(--mw-radius) * 0.5) 0;
+  margin-block: 1rem;
+}
+
+:is(html[data-theme="midnight-washi"], body.mw-theme, .mw-theme) :is(.study-key-clue > strong, body[data-page] .study-key-clue > strong) {
+  color: var(--mw-gold-bright) !important;
+  display: block;
+  margin-bottom: .3rem;
+  font-size: .95em;
+  letter-spacing: .04em;
+}
+
+:is(html[data-theme="midnight-washi"], body.mw-theme, .mw-theme) :is(.study-reasoning, body[data-page] .study-reasoning) {
+  padding-left: 1.5rem;
+  color: var(--mw-text);
+}
+
+:is(html[data-theme="midnight-washi"], body.mw-theme, .mw-theme) :is(.study-reasoning li, body[data-page] .study-reasoning li) {
+  margin-bottom: .8rem;
+  padding-left: .2rem;
+}
+
+:is(html[data-theme="midnight-washi"], body.mw-theme, .mw-theme) :is(.study-reasoning li::marker, body[data-page] .study-reasoning li::marker) {
+  color: var(--mw-gold);
+  font-weight: 750;
+}
+
+/* Choice Rationales Breakdown */
+:is(html[data-theme="midnight-washi"], body.mw-theme, .mw-theme) :is(.study-choice-reasons, body[data-page] .study-choice-reasons) {
   border: 1px solid var(--mw-line);
   border-radius: calc(var(--mw-radius) * 0.5);
-  padding: .55rem .95rem;
-  margin-block: .4rem;
-  display: block;
-  cursor: pointer;
+  overflow: hidden;
+  margin: 0 0 1rem;
+}
+
+:is(html[data-theme="midnight-washi"], body.mw-theme, .mw-theme) :is(.study-choice-reasons > div, body[data-page] .study-choice-reasons > div) {
+  border-top: 1px solid var(--mw-line);
+  padding: 1rem .85rem;
   color: var(--mw-text);
-  transition: background 150ms ease, border-color 150ms ease;
 }
 
-:is(html[data-theme="midnight-washi"], body.mw-theme, .mw-theme) .option-list label:hover {
-  background: rgba(211, 171, 98, 0.12);
+:is(html[data-theme="midnight-washi"], body.mw-theme, .mw-theme) :is(.study-choice-reasons > div:first-child, body[data-page] .study-choice-reasons > div:first-child) {
+  border-top: 0;
+}
+
+:is(html[data-theme="midnight-washi"], body.mw-theme, .mw-theme) :is(.study-choice-reasons [data-correct-rationale], body[data-page] .study-choice-reasons [data-correct-rationale]) {
+  background: rgba(91, 104, 64, 0.28) !important;
+  border-left: 3px solid var(--mw-gold) !important;
+}
+
+:is(html[data-theme="midnight-washi"], body.mw-theme, .mw-theme) :is(.study-choice-reasons dt, body[data-page] .study-choice-reasons dt) {
+  font-weight: 700;
+  color: var(--mw-paper);
+}
+
+:is(html[data-theme="midnight-washi"], body.mw-theme, .mw-theme) :is(.study-choice-reasons dd, body[data-page] .study-choice-reasons dd) {
+  color: var(--mw-text);
+}
+
+:is(html[data-theme="midnight-washi"], body.mw-theme, .mw-theme) :is(.study-choice-reasons small, body[data-page] .study-choice-reasons small) {
+  display: inline-block;
+  font-size: .75rem;
+  padding: .15rem .5rem;
+  border-radius: 3px;
+  border: 1px solid var(--mw-line);
+  color: var(--mw-gold);
+  font-weight: 600;
+  margin-top: .4rem;
+  margin-right: .4rem;
+}
+
+:is(html[data-theme="midnight-washi"], body.mw-theme, .mw-theme) :is(.study-choice-reasons [data-correct-rationale] small, body[data-page] .study-choice-reasons [data-correct-rationale] small) {
   border-color: var(--mw-gold);
+  color: var(--mw-gold-bright);
+  background: rgba(211, 171, 98, 0.15);
 }
 
-:is(html[data-theme="midnight-washi"], body.mw-theme, .mw-theme) .option-list input[type="radio"] {
-  accent-color: var(--mw-gold);
+/* Trap to Remember */
+:is(html[data-theme="midnight-washi"], body.mw-theme, .mw-theme) :is(.study-trap, body[data-page] .study-trap) {
+  background: rgba(184, 75, 41, 0.15) !important;
+  border-left: .25rem solid var(--mw-accent) !important;
+  padding: .85rem 1rem;
+  border-radius: 0 calc(var(--mw-radius) * 0.5) calc(var(--mw-radius) * 0.5) 0;
+  color: var(--mw-text) !important;
+  margin-block: 1rem;
+}
+
+:is(html[data-theme="midnight-washi"], body.mw-theme, .mw-theme) :is(.study-trap h5, body[data-page] .study-trap h5) {
+  color: var(--mw-accent-text) !important;
+  margin-top: 0;
+}
+
+:is(html[data-theme="midnight-washi"], body.mw-theme, .mw-theme) :is(.study-trap p, body[data-page] .study-trap p) {
+  color: var(--mw-text) !important;
+  margin-bottom: 0;
+}
+
+/* Review Grammar Link CTA */
+:is(html[data-theme="midnight-washi"], body.mw-theme, .mw-theme) :is(.study-review-link, body[data-page] .study-review-link) {
+  color: var(--mw-gold-bright) !important;
+  font-weight: 650;
+  text-decoration: underline;
+  text-underline-offset: 4px;
+  display: inline-flex;
+  align-items: center;
+  min-height: 2.75rem;
+  margin-top: .9rem;
+  transition: color 150ms ease, transform 150ms ease;
+}
+
+:is(html[data-theme="midnight-washi"], body.mw-theme, .mw-theme) :is(.study-review-link:hover, body[data-page] .study-review-link:hover) {
+  color: #ffffff !important;
+  transform: translateX(4px);
+}
+
+:is(html[data-theme="midnight-washi"], body.mw-theme, .mw-theme) :is(.study-review-link:active, body[data-page] .study-review-link:active) {
+  transform: scale(0.98);
+}
+
+:is(html[data-theme="midnight-washi"], body.mw-theme, .mw-theme) :is(.study-review-link:focus-visible, body[data-page] .study-review-link:focus-visible) {
+  outline: 2.5px solid var(--mw-focus) !important;
+  outline-offset: 2px;
+}
+
+/* Question & Set Controls Buttons */
+:is(html[data-theme="midnight-washi"], body.mw-theme, .mw-theme) :is(.question .toolbar button, .section-submit-controls button, .full-mock-controls button) {
+  min-height: 42px;
+  padding: .6rem 1.25rem;
+  border-radius: calc(var(--mw-radius) * 0.5);
+  font-weight: 700;
+  cursor: pointer;
+  box-sizing: border-box;
+  transition: transform var(--mw-duration), background 150ms ease, border-color 150ms ease, box-shadow 150ms ease;
+}
+
+:is(html[data-theme="midnight-washi"], body.mw-theme, .mw-theme) :is(.question .toolbar button:not(.secondary), .section-submit-controls button:not(.secondary), .full-mock-controls button:not(.secondary)) {
+  background: var(--mw-accent-deep);
+  color: var(--mw-on-accent);
+  border: 1px solid transparent;
+}
+
+:is(html[data-theme="midnight-washi"], body.mw-theme, .mw-theme) :is(.question .toolbar button:not(.secondary):hover, .section-submit-controls button:not(.secondary):hover, .full-mock-controls button:not(.secondary):hover) {
+  background: var(--mw-accent);
+  transform: translateY(-1px);
+  box-shadow: 0 4px 14px rgba(216, 73, 42, 0.4);
+}
+
+:is(html[data-theme="midnight-washi"], body.mw-theme, .mw-theme) :is(.question .toolbar button:not(.secondary):active, .section-submit-controls button:not(.secondary):active, .full-mock-controls button:not(.secondary):active) {
+  transform: translateY(1px) scale(0.98);
+}
+
+:is(html[data-theme="midnight-washi"], body.mw-theme, .mw-theme) :is(.question .toolbar button.secondary, .section-submit-controls button.secondary, .full-mock-controls button.secondary) {
+  background: transparent;
+  color: var(--mw-paper);
+  border: 1px solid var(--mw-line);
+}
+
+:is(html[data-theme="midnight-washi"], body.mw-theme, .mw-theme) :is(.question .toolbar button.secondary:hover, .section-submit-controls button.secondary:hover, .full-mock-controls button.secondary:hover) {
+  border-color: var(--mw-gold);
+  color: var(--mw-gold-bright);
+  background: rgba(211, 171, 98, 0.08);
+}
+
+:is(html[data-theme="midnight-washi"], body.mw-theme, .mw-theme) :is(.question .toolbar button.secondary:active, .section-submit-controls button.secondary:active, .full-mock-controls button.secondary:active) {
+  transform: translateY(1px) scale(0.98);
+  background: rgba(211, 171, 98, 0.16);
+}
+
+:is(html[data-theme="midnight-washi"], body.mw-theme, .mw-theme) :is(.question .toolbar button:focus-visible, .section-submit-controls button:focus-visible, .full-mock-controls button:focus-visible) {
+  outline: 2.5px solid var(--mw-focus);
+  outline-offset: 2px;
+}
+
+/* Full Mock Study Help */
+:is(html[data-theme="midnight-washi"], body.mw-theme, .mw-theme) :is(.mock-study-help, body[data-page] .mock-study-help) {
+  background: var(--mw-surface) !important;
+  border: 1px solid var(--mw-line) !important;
+  border-radius: var(--mw-radius);
+  color: var(--mw-text);
+  padding: 1rem 1.25rem;
+}
+
+:is(html[data-theme="midnight-washi"], body.mw-theme, .mw-theme) :is(.mock-study-help summary, body[data-page] .mock-study-help summary) {
+  color: var(--mw-gold);
+  font-weight: 650;
+  cursor: pointer;
+  transition: color 150ms ease;
+}
+
+:is(html[data-theme="midnight-washi"], body.mw-theme, .mw-theme) :is(.mock-study-help summary, body[data-page] .mock-study-help summary):hover {
+  color: var(--mw-gold-bright);
+}
+
+:is(html[data-theme="midnight-washi"], body.mw-theme, .mw-theme) :is(.mock-study-help summary, body[data-page] .mock-study-help summary):active {
+  transform: scale(0.99) translateY(1px);
+}
+
+:is(html[data-theme="midnight-washi"], body.mw-theme, .mw-theme) :is(.mock-study-help summary, body[data-page] .mock-study-help summary):focus-visible {
+  outline: 2.5px solid var(--mw-focus);
+  outline-offset: 2px;
+}
+
+/* Full Mock Summary & Status Banner */
+:is(html[data-theme="midnight-washi"], body.mw-theme, .mw-theme) .full-mock-summary {
+  background: var(--mw-surface-raised) !important;
+  border: 1px solid var(--mw-line) !important;
+  border-inline-start: 4px solid var(--mw-gold) !important;
+  color: var(--mw-text) !important;
+  font-weight: 600;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.35);
+  transition: background 200ms ease, border-color 200ms ease, color 200ms ease, box-shadow 200ms ease;
+}
+
+:is(html[data-theme="midnight-washi"], body.mw-theme, .mw-theme) .full-mock-summary:hover {
+  background: rgba(28, 47, 82, 0.85) !important;
+  border-color: var(--mw-gold) !important;
+}
+
+:is(html[data-theme="midnight-washi"], body.mw-theme, .mw-theme) .full-mock:is([data-submitted="true"], [data-locked]) .full-mock-summary {
+  background: rgba(211, 171, 98, 0.12) !important;
+  border-color: var(--mw-gold) !important;
+  border-inline-start-color: var(--mw-gold-bright) !important;
+  color: var(--mw-paper) !important;
+  box-shadow: 0 8px 24px rgba(211, 171, 98, 0.18);
+}
+
+:is(html[data-theme="midnight-washi"], body.mw-theme, .mw-theme) .full-mock[data-locked] .question[data-result="correct"]::before {
+  color: var(--mw-gold-bright) !important;
+}
+
+:is(html[data-theme="midnight-washi"], body.mw-theme, .mw-theme) .full-mock[data-locked] .question[data-result="incorrect"]::before {
+  color: var(--mw-accent-text) !important;
+}
+
+/* Book Topics, Exercise Sets & Full Mock Containers */
+:is(html[data-theme="midnight-washi"], body.mw-theme, .mw-theme) :is(.book-topic, .book-exercise-set, .full-mock) {
+  background: var(--mw-surface) !important;
+  border-color: var(--mw-line) !important;
+  color: var(--mw-text);
+}
+
+/* Source Spine (Book Spine & Page Badges — Golden Bookmark Motif) */
+:is(html[data-theme="midnight-washi"], body.mw-theme, .mw-theme) .source-spine {
+  background: #eccb85 !important;
+  color: #1c2f52 !important;
+  border: 1px solid #d3ab62 !important;
+  border-inline-start: 3.5px solid #1c2f52 !important;
+  font-family: var(--mw-font-label), ui-monospace, "Cascadia Mono", monospace;
+  font-size: .78rem !important;
+  font-weight: 850 !important;
+  letter-spacing: .12em !important;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.35), 0 0 10px rgba(236, 203, 133, 0.2);
+  transition: background 180ms ease, border-color 180ms ease, color 180ms ease, box-shadow 180ms ease, transform 180ms ease;
+}
+
+/* Vertical Spine in Full Mock desktop layout */
+:is(html[data-theme="midnight-washi"], body.mw-theme, .mw-theme) .full-mock > .source-spine {
+  border: 1px solid #d3ab62 !important;
+  border-inline-start: 0 !important;
+  border-inline-end: 3.5px solid #1c2f52 !important;
+  border-radius: var(--mw-radius) 0 0 var(--mw-radius) !important;
+  background: linear-gradient(180deg, #f2d799, #eccb85, #dfbd74) !important;
+}
+
+@media (max-width: 48rem) {
+  :is(html[data-theme="midnight-washi"], body.mw-theme, .mw-theme) .full-mock > .source-spine {
+    border-inline-end: 0 !important;
+    border-inline-start: 3.5px solid #1c2f52 !important;
+    border-radius: var(--mw-radius) var(--mw-radius) 0 0 !important;
+  }
+}
+
+/* Source Spine Hover State */
+:is(html[data-theme="midnight-washi"], body.mw-theme, .mw-theme) .source-spine:hover {
+  background: #f6e2b2 !important;
+  border-color: #f2d799 !important;
+  color: #0c1424 !important;
+  box-shadow: 0 4px 14px rgba(0, 0, 0, 0.4), 0 0 14px rgba(236, 203, 133, 0.35);
+}
+
+/* Source Spine Active State */
+:is(html[data-theme="midnight-washi"], body.mw-theme, .mw-theme) .source-spine:active {
+  background: #dfbd74 !important;
+  transform: translateY(1px) scale(0.99);
+}
+
+/* Standard Quiz Answer Explanation */
+:is(html[data-theme="midnight-washi"], body.mw-theme, .mw-theme) .answer-explanation {
+  background: var(--mw-surface-raised) !important;
+  border: 1px solid var(--mw-line) !important;
+  border-left: .35rem solid var(--mw-gold) !important;
+  color: var(--mw-text) !important;
+  border-radius: 0 calc(var(--mw-radius) * 0.5) calc(var(--mw-radius) * 0.5) 0;
+  padding: 1rem 1.25rem;
+  margin-block-start: 1rem;
+}
+
+:is(html[data-theme="midnight-washi"], body.mw-theme, .mw-theme) .answer-explanation h4 {
+  color: var(--mw-paper) !important;
+  font-family: var(--mw-font-display);
+}
+
+:is(html[data-theme="midnight-washi"], body.mw-theme, .mw-theme) .answer-explanation .answer-correct {
+  color: var(--mw-gold-bright) !important;
+  font-weight: 700;
+}
+
+:is(html[data-theme="midnight-washi"], body.mw-theme, .mw-theme) .answer-choice-rationales [data-correct-rationale] {
+  color: var(--mw-gold-bright) !important;
+  font-weight: 750;
 }
 
 :is(html[data-theme="midnight-washi"], body.mw-theme, .mw-theme) .sentence-star {
@@ -959,6 +1578,16 @@ body.mw-theme,
 :is(html[data-theme="midnight-washi"], body.mw-theme, .mw-theme) .reading-settings-trigger:hover {
   background: rgba(211, 171, 98, 0.25);
   color: #ffffff;
+}
+
+:is(html[data-theme="midnight-washi"], body.mw-theme, .mw-theme) .reading-settings-trigger:active {
+  transform: scale(0.92);
+  background: rgba(211, 171, 98, 0.35);
+}
+
+:is(html[data-theme="midnight-washi"], body.mw-theme, .mw-theme) .reading-settings-trigger:focus-visible {
+  outline: 2.5px solid var(--mw-focus);
+  outline-offset: 2px;
 }
 
 :is(html[data-theme="midnight-washi"], body.mw-theme, .mw-theme) .reading-settings-dialog {

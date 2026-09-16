@@ -148,6 +148,20 @@ button.secondary:hover,
   padding: 0;
   font-size: 1.35rem;
   box-shadow: var(--shadow);
+  transition: background 150ms ease, transform 100ms ease, box-shadow 150ms ease;
+}
+
+.lesson-tools-ready .reading-settings-trigger:hover {
+  transform: translateY(-1px);
+}
+
+.lesson-tools-ready .reading-settings-trigger:active {
+  transform: scale(0.92);
+}
+
+.lesson-tools-ready .reading-settings-trigger:focus-visible {
+  outline: 2.5px solid var(--focus);
+  outline-offset: 2px;
 }
 
 .lesson-tools-ready .reading-settings-panel:not([hidden]) {
@@ -429,7 +443,11 @@ main {
   position: sticky;
   top: 1rem;
   max-height: calc(100vh - 2rem);
-  overflow: auto;
+  overflow-y: auto;
+  overflow-x: hidden;
+  overscroll-behavior: contain;
+  scrollbar-gutter: stable;
+  padding: 1rem;
 }
 
 .lesson-content,
@@ -468,18 +486,38 @@ main {
 
 .lesson-rail a {
   display: block;
-  border-left: .2rem solid transparent;
-  padding: .45rem .55rem;
-  color: var(--ink-soft);
+  border-left: .25rem solid transparent;
+  border-radius: var(--radius-sm);
+  padding: .45rem .65rem;
+  color: var(--ink);
   font-size: var(--step--1);
+  font-weight: 550;
   text-decoration: none;
+  min-height: 2.2rem;
+  transition: background 150ms ease, color 150ms ease, border-color 150ms ease, transform 100ms ease;
 }
 
-.lesson-rail a:hover,
-.lesson-rail a[aria-current="location"] {
+.lesson-rail a:hover {
   border-left-color: var(--matcha);
   color: var(--ink);
   background: var(--moss);
+}
+
+.lesson-rail a:active {
+  transform: scale(0.98);
+  background: #d9e4cf;
+}
+
+.lesson-rail a:focus-visible {
+  outline: 2.5px solid var(--focus);
+  outline-offset: 1px;
+}
+
+.lesson-rail a[aria-current="location"] {
+  border-left-color: var(--matcha-deep);
+  color: var(--ink);
+  background: var(--moss);
+  font-weight: 750;
 }
 
 .part1-lesson-map {
@@ -501,26 +539,90 @@ main {
 .lesson-rail .part1-lesson-links a {
   display: grid;
   place-items: center;
-  min-height: 2.1rem;
-  border: 1px solid var(--line);
+  min-height: 2.25rem;
+  border: 1px solid var(--line-strong);
   border-radius: var(--radius-sm);
   padding: .25rem;
-  color: var(--ink-soft);
-  background: #F7F9F7;
-  font-weight: 800;
+  color: var(--ink);
+  background: #FFFFFF;
+  font-weight: 750;
   line-height: 1;
+  text-decoration: none;
+  transition: background 150ms ease, color 150ms ease, border-color 150ms ease, transform 100ms ease, box-shadow 150ms ease;
 }
 
-.lesson-rail .part1-lesson-links a:hover,
-.lesson-rail .part1-lesson-links a[aria-current="page"] {
+.lesson-rail .part1-lesson-links a:hover {
   border-color: var(--matcha);
   color: var(--ink);
   background: var(--moss);
+  transform: translateY(-1px);
+}
+
+.lesson-rail .part1-lesson-links a:active {
+  transform: translateY(1px) scale(0.98);
+  background: #d9e4cf;
+}
+
+.lesson-rail .part1-lesson-links a:focus-visible {
+  outline: 2.5px solid var(--focus);
+  outline-offset: 1px;
+}
+
+.lesson-rail .part1-lesson-links a[aria-current="page"] {
+  border: 2px solid var(--matcha-deep);
+  color: var(--matcha-deep);
+  background: var(--moss);
+  font-weight: 850;
 }
 
 .lesson-rail .part1-lesson-links .part1-full-mock-link {
   grid-column: 1 / -1;
-  min-height: 2.45rem;
+  min-height: 2.5rem;
+  font-weight: 750;
+  letter-spacing: .02em;
+}
+
+.guide-jumps {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: .35rem .6rem;
+  border-bottom: 1px solid var(--line-strong);
+  padding-bottom: .85rem;
+  margin-bottom: 1.8rem;
+}
+
+body[data-page] .guide-jumps a {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 2.4rem;
+  padding: .35rem .75rem;
+  border: 1px solid var(--line-strong);
+  border-radius: 999px;
+  background: var(--paper);
+  color: var(--ink);
+  font-size: .88em;
+  font-weight: 650;
+  text-decoration: none;
+  transition: background 150ms ease, color 150ms ease, border-color 150ms ease, transform 100ms ease, box-shadow 150ms ease;
+}
+
+body[data-page] .guide-jumps a:hover {
+  border-color: var(--matcha);
+  color: var(--matcha-deep);
+  background: var(--moss);
+  transform: translateY(-1px);
+}
+
+body[data-page] .guide-jumps a:active {
+  transform: translateY(1px) scale(0.97);
+  background: #d9e4cf;
+}
+
+body[data-page] .guide-jumps a:focus-visible {
+  outline: 2.5px solid var(--focus);
+  outline-offset: 2px;
 }
 
 .grammar-point {
@@ -980,6 +1082,7 @@ main[data-vocab-details-open] .vocab-rail {
 }
 
 .question {
+  scroll-margin-top: 1.5rem;
   margin-block: 1.2rem;
   border: 1px solid var(--line);
   border-radius: var(--radius-md);
@@ -1071,16 +1174,36 @@ main[data-vocab-details-open] .vocab-rail {
   display: flex;
   align-items: flex-start;
   gap: .65rem;
-  border: 1px solid var(--line);
+  border: 1px solid var(--line-strong);
   border-radius: var(--radius-sm);
   padding: .8rem;
-  background: #F7F9F7;
+  background: var(--paper);
+  color: var(--ink);
   cursor: pointer;
+  transition: background 150ms ease, border-color 150ms ease, transform 100ms ease, box-shadow 150ms ease;
+}
+
+.option-list label:hover {
+  border-color: var(--matcha);
+  background: var(--surface);
+  transform: translateY(-1px);
+}
+
+.option-list label:active {
+  transform: translateY(1px) scale(0.99);
+  background: #d9e4cf;
+}
+
+.option-list label:focus-within {
+  outline: 2.5px solid var(--focus);
+  outline-offset: 1px;
 }
 
 .option-list label:has(input:checked) {
-  border-color: var(--matcha);
+  border-color: var(--matcha-deep);
+  border-width: 2px;
   background: var(--moss);
+  font-weight: 600;
 }
 
 .option-list input {
@@ -1150,6 +1273,82 @@ summary {
   cursor: pointer;
 }
 
+/* Book exercise study hints and reviews (Matcha Desk baseline) */
+.study-hints {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  align-items: start;
+  gap: .75rem;
+  margin: 1rem 0;
+}
+
+.study-hints details {
+  min-width: 0;
+  border: 1px solid var(--line);
+  border-radius: var(--radius-sm);
+  padding: .25rem .85rem;
+  background: #F7F9F7;
+  transition: border-color 150ms ease, background 150ms ease, box-shadow 150ms ease;
+}
+
+.study-hints details:hover {
+  border-color: var(--matcha);
+  background: #EFF5EC;
+}
+
+.study-hints summary {
+  font-size: .92em;
+  font-weight: 700;
+  cursor: pointer;
+  padding: .25rem 0;
+  color: var(--matcha-deep);
+  transition: color 150ms ease, transform 100ms ease;
+}
+
+.study-hints summary:hover {
+  color: var(--ink);
+}
+
+.study-hints summary:active {
+  transform: scale(0.99) translateY(1px);
+}
+
+.study-hints summary:focus-visible {
+  outline: 2.5px solid var(--focus);
+  outline-offset: 2px;
+}
+
+.study-hints p {
+  margin-bottom: .75rem;
+  font-size: .93em;
+  color: var(--ink);
+  line-height: 1.6;
+}
+
+.study-review-link {
+  display: inline-flex;
+  min-height: 2.75rem;
+  align-items: center;
+  margin-top: .9rem;
+  font-weight: 650;
+  color: var(--matcha-deep);
+  transition: color 150ms ease, transform 150ms ease;
+}
+
+.study-review-link:hover {
+  color: var(--ink);
+  transform: translateX(4px);
+}
+
+.study-review-link:active {
+  transform: scale(0.98);
+}
+
+.study-review-link:focus-visible {
+  outline: 2.5px solid var(--focus);
+  outline-offset: 2px;
+}
+
 footer {
   padding: 1.5rem;
   color: var(--paper);
@@ -1198,7 +1397,8 @@ footer p {
     grid-template-columns: 1fr;
   }
 
-  .option-list {
+  .option-list,
+  .study-hints {
     grid-template-columns: 1fr;
   }
 
@@ -1396,15 +1596,29 @@ footer p {
   justify-content: center;
   width: 2.75rem;
   border-radius: var(--radius-md) 0 0 var(--radius-md);
+  border-inline-end: 2px solid var(--matcha);
   padding: .75rem .45rem;
   color: #FFFFFF;
   background: var(--matcha-deep);
-  font: 800 .72rem / 1.15 ui-monospace, "Cascadia Mono", "SFMono-Regular", monospace;
-  letter-spacing: .09em;
+  font: 800 .78rem / 1.2 ui-monospace, "Cascadia Mono", "SFMono-Regular", monospace;
+  letter-spacing: .12em;
   text-transform: uppercase;
   white-space: nowrap;
   writing-mode: vertical-rl;
   transform: rotate(180deg);
+  box-shadow: 0 2px 6px rgb(23 33 38 / 12%);
+  transition: background 180ms ease, border-color 180ms ease, box-shadow 180ms ease;
+}
+
+body[data-page] .source-spine {
+  border: 1px solid rgba(49, 65, 38, 0.25);
+  border-inline-start: 3px solid var(--matcha-deep);
+  box-shadow: 0 1px 4px rgb(23 33 38 / 10%);
+}
+
+.source-spine:hover {
+  background: #3c4924;
+  box-shadow: 0 2px 8px rgb(23 33 38 / 18%);
 }
 
 .book-explanation {
@@ -1461,7 +1675,7 @@ footer p {
 }
 
 .full-mock-desk {
-  grid-template-columns: minmax(0, 1fr);
+  grid-template-columns: 14rem minmax(0, 1fr);
 }
 
 .full-mock-summary {
@@ -1469,10 +1683,18 @@ footer p {
   z-index: 5;
   top: .5rem;
   border: 1px solid var(--line-strong);
+  border-inline-start: 4px solid var(--matcha-deep);
   border-radius: var(--radius-sm);
   padding: .8rem 1rem;
   background: #FFFFFF;
   box-shadow: 0 7px 24px rgb(23 33 38 / 8%);
+  transition: background 180ms ease, border-color 180ms ease, color 180ms ease, box-shadow 180ms ease;
+}
+
+.full-mock[data-submitted="true"] .full-mock-summary {
+  background: var(--matcha-mist);
+  border-color: var(--matcha);
+  border-inline-start-color: var(--matcha-deep);
 }
 
 .full-mock[data-locked] .question {

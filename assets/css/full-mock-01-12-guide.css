@@ -72,4 +72,13 @@ body[data-page="part1-full-mock"] .full-mock-summary { position: static; }
   body[data-page="part1-full-mock"] .full-mock { padding-inline: 0; border: 0; background: transparent; }
   body[data-page="part1-full-mock"] .full-mock .source-spine { margin: 0 0 1rem; border-radius: var(--radius-sm); }
   body[data-page="part1-full-mock"] .question { padding: .9rem; }
+  body[data-page="part1-full-mock"] .study-desk { grid-template-columns: 1fr; }
 }
+
+body[data-page="part1-full-mock"] .study-desk {
+  display: grid;
+  grid-template-columns: 14rem minmax(0, 1fr);
+  gap: 1.25rem;
+  align-items: start;
+}
+
